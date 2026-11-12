@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Đối chiếu báo giá – TCCS</title>
+<style>
+:root{--bg:#fff;--fg:#1d1d1f;--mut:#6b6b70;--line:#d9d9de;--head:#f3f4f6;
+--bad:#fde2e1;--badfg:#b3261e;--warn:#fff3c4;--warnfg:#8a5a00;--ok:#e3f5e8;--okfg:#1e7b3a}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#1b1b1e;--fg:#ececf0;--mut:#a0a0a8;--line:#3a3a40;--head:#26262b;
+--bad:#4a1f1d;--badfg:#ff9b93;--warn:#463a12;--warnfg:#ffd86b;--ok:#183a24;--okfg:#7ddc98}}
+:root[data-theme="dark"]{--bg:#1b1b1e;--fg:#ececf0;--mut:#a0a0a8;--line:#3a3a40;--head:#26262b;
+--bad:#4a1f1d;--badfg:#ff9b93;--warn:#463a12;--warnfg:#ffd86b;--ok:#183a24;--okfg:#7ddc98}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:13px/1.45 "Segoe UI",Arial,sans-serif;padding:16px}
+h1{font-size:18px;margin:0 0 4px}
+h2{font-size:15px;margin:22px 0 8px}
+p.sub{color:var(--mut);margin:0 0 12px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px}
+.legend span{padding:2px 8px;border-radius:4px}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin:0 0 14px}
+.stat{border:1px solid var(--line);border-radius:6px;padding:6px 12px}
+.stat b{font-size:18px;display:block}
+.x{background:var(--bad);color:var(--badfg);font-weight:600;border-radius:3px;padding:0 2px}
+.w{background:var(--warn);color:var(--warnfg);font-weight:600;border-radius:3px;padding:0 2px}
+.ok{background:var(--ok);color:var(--okfg);border-radius:3px;padding:0 4px;font-weight:600}
+.wrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px}
+table{border-collapse:collapse;width:100%;min-width:900px}
+th,td{border-bottom:1px solid var(--line);border-right:1px solid var(--line);padding:6px 8px;vertical-align:top;text-align:left}
+th{background:var(--head);position:sticky;top:0;font-size:12px}
+td.n{text-align:center;font-weight:700;width:34px}
+td.name{font-weight:600;white-space:nowrap}
+tr.bad td.n{background:var(--bad);color:var(--badfg)}
+tr.warn td.n{background:var(--warn);color:var(--warnfg)}
+tr.good td.n{background:var(--ok);color:var(--okfg)}
+.t{color:var(--mut);font-size:12px;display:block;margin-top:3px}
+.filter{margin:0 0 10px}
+.filter label{margin-right:14px;cursor:pointer}
+ul{margin:4px 0 0 18px;padding:0}
+li{margin:3px 0}
+</style>
+</head>
+<body>
+<h1>Đối chiếu báo giá NOBEN với 38 TCCS</h1>
+<p class="sub">Đối chiếu 3 cột: Tên sản phẩm, Thành phần, Chỉ tiêu thử nghiệm hợp quy. “Báo giá” = file 05.11 BÁO GIÁ_NOBEN.pdf; “TCCS” = mục 4.2 (chất lượng), 4.3 (an toàn) và bảng trên nhãn của từng file .doc.</p>
+
+<div class="legend">
+<span class="x">Đỏ: báo giá khác TCCS</span>
+<span class="w">Vàng: TCCS tự mâu thuẫn / cần xem lại</span>
+<span class="ok">Xanh: khớp</span>
+</div>
+
+<div class="stats">
+<div class="stat"><b id="cBad"></b>SP có chỗ sai (đỏ)</div>
+<div class="stat"><b id="cWarn"></b>SP chỉ cần xem lại (vàng)</div>
+<div class="stat"><b id="cGood"></b>SP khớp hoàn toàn</div>
+</div>
+
+<div class="filter">
+<label><input type="checkbox" id="hideGood"> Ẩn sản phẩm đã khớp</label>
+</div>
+
+<h2>A. Báo giá so với TCCS</h2>
+<div class="wrap">
+<table id="tbl">
+<thead><tr>
+<th>STT</th><th>Tên SP (báo giá)</th><th>Tên trong TCCS</th>
+<th>Thành phần – báo giá</th><th>Thành phần – TCCS</th>
+<th>Chỉ tiêu – báo giá</th><th>Chỉ tiêu – TCCS (mục 4.3)</th>
+</tr></thead>
+<tbody>
+
+<tr class="good"><td class="n">1</td><td class="name">AQUALAC-FS</td><td><span class="ok">✓</span> TCCS 86:2020</td>
+<td>Bacillus spp 1x10⁹ cfu; B. subtilis, licheniformis, megaterium, mesentericus; dextrose 1 kg</td><td><span class="ok">✓ Khớp</span></td>
+<td>Aflatoxin B1, Cd, Pb, Hg, E.coli, Salmonella</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="good"><td class="n">2</td><td class="name">AQUALACTO Q</td><td><span class="ok">✓</span> TCCS 69:2020</td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td><td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="good"><td class="n">3</td><td class="name">AP 79</td><td><span class="ok">✓</span> TCCS 70:2020</td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td><td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="good"><td class="n">4</td><td class="name">BIO AQ</td><td><span class="ok">✓</span> TCCS 71:2020</td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td><td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">5</td><td class="name"><span class="x">NB BIOBEST</span></td><td><b>NB-BIOBEST</b> (TCCS 64:2020)<span class="t">Báo giá thiếu dấu gạch “-”</span></td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td><td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="good"><td class="n">6</td><td class="name">PRO AQ</td><td><span class="ok">✓</span> TCCS 87:2020</td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td><td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">7</td><td class="name">PROZYM</td><td><span class="ok">✓</span> TCCS 65:2020</td>
+<td><span class="x">Amylase 30.000 IU/kg; Protease 35.000 IU/kg</span>; dextrose 1.000 g</td>
+<td>Bacillus spp 1x10⁹ cfu/kg + 4 chủng Bacillus; dextrose 1 kg<span class="t">TCCS không có Amylase/Protease. Có vẻ TCCS đang chép từ mẫu probiotic, trong khi báo giá xếp SP vào nhóm “Chế phẩm enzyme”.</span></td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="warn"><td class="n">8</td><td class="name">BIOTIC 99</td><td><span class="ok">✓</span> TCCS 41:2020</td>
+<td>Bacillus spp 1,0x10⁹ cfu; nước 1 lít</td>
+<td><span class="ok">✓ Khớp</span><span class="t"><span class="w">TCCS ghi cfu/kg</span> cho SP lỏng; nhãn ghi <span class="w">Độ ẩm 10%</span> và <span class="w">chất đệm dextrose 1 kg</span> (chép từ dạng bột).</span></td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">9</td><td class="name">BZ 99</td><td><span class="ok">✓</span> TCCS 72:2020</td>
+<td>Bacillus spp <span class="x">2,5x10⁹ cfu</span>; nước 1 lít</td>
+<td>Bacillus spp <b>1x10⁹</b><span class="t"><span class="w">TCCS 4.2 ghi cfu/kg</span>, nhãn ghi cfu/lít; nhãn có <span class="w">Độ ẩm 10%</span>.</span></td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">10</td><td class="name">AQUA BIOTIC</td><td><span class="ok">✓</span> TCCS 73:2020</td>
+<td>Bacillus spp <span class="x">2x10⁹ cfu</span>; nước 1 lít</td>
+<td>Bacillus spp <b>1x10⁹ cfu/lít</b><span class="t">Dòng 2 của mục 4.2 <span class="w">bị trống tên chỉ tiêu</span>; nhãn có <span class="w">Độ ẩm 10%</span>.</span></td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="warn"><td class="n">11</td><td class="name">BIOZYME</td><td><span class="ok">✓</span> TCCS 88:2020</td>
+<td>Bacillus spp 1,0x10⁹ cfu; nước 1 lít</td>
+<td><span class="ok">✓ Khớp</span><span class="t">Dòng 2 của mục 4.2 <span class="w">bị trống tên chỉ tiêu</span>; nhãn có <span class="w">Độ ẩm 10%</span>.</span></td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">12</td><td class="name">F.X ENZYME</td><td><span class="ok">✓</span> TCCS 02:2025</td>
+<td><span class="x">Protease 8.000; Amylase 3.000; Cellulase 4.000 UI/lít</span>; nước 1 lít</td>
+<td><span class="w">Mục 4.2 bỏ trống tên chỉ tiêu</span> (chỉ có “min, cfu/lít, 1x10⁹”); <span class="w">bảng chỉ tiêu trên nhãn trống</span><span class="t">TCCS chưa công bố enzyme nào, nên chưa đối chiếu được với báo giá.</span></td>
+<td>Như SP 1</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">13</td><td class="name">Beta1,3-1,6 glucan</td><td>BETA 1,3-1,6 GLUCAN (TCCS 75:2020)<span class="t">Chỉ khác cách viết hoa/khoảng trắng</span></td>
+<td>Beta Glucan 2,49%; MOS 2,15%; Protein thô 2,19%; dextrose 1 kg</td>
+<td><span class="ok">✓ Khớp</span><span class="t">Trên nhãn, tên chỉ tiêu ghi <span class="w">“24,9% / 21,5% / 21,9%”</span> nhưng cột giá trị ghi 2,49 / 2,15 / 2,19%.</span></td>
+<td><span class="x">Asen (As) vô cơ</span>, Pb, Hg, E.coli, Salmonella<span class="t">Thiếu: <span class="x">Aflatoxin B1</span>, <span class="x">Cadimi (Cd)</span></span></td>
+<td>Aflatoxin B1, Cd, Pb, Hg, E.coli, Salmonella</td></tr>
+
+<tr class="bad"><td class="n">14</td><td class="name">HEPATIC</td><td><span class="ok">✓</span> TCCS 45:2020</td>
+<td>Sorbitol 10.000 mg; Methionine <span class="x">1.500 mg</span>; Betain 3.000 mg; nước 1 lít</td>
+<td>Sorbitol 10.000; DL-Methionine <b>3.000</b>; Betain 3.000 (4.2) / <span class="w">6.000 (nhãn)</span> mg/lít</td>
+<td>Asen vô cơ, Cd, Pb, Hg, E.coli, Salmonella</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">15</td><td class="name"><span class="x">NB-HELVIROL-B12</span></td><td><b>NB HELVIROL B12</b> (TCCS 51:2020)<span class="t">TCCS dùng khoảng trắng, không có dấu gạch</span></td>
+<td>Sorbitol 10.000 mg; Methionine <span class="x">1.500 mg</span>; Betain <span class="x">3.000 mg</span></td>
+<td>Sorbitol 10.000; DL-Methionine <b>3.000</b>; Betain <b>6.000</b> mg/lít</td>
+<td>Như SP 14</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">16</td><td class="name">LIVER-MAX</td><td><span class="ok">✓</span> TCCS 54:2020</td>
+<td>Methionine <span class="x">1.500 mg</span>; Betain <span class="x">3.000 mg</span></td>
+<td>DL-Methionine <b>3.000</b>; Betain <b>6.000</b> mg/lít</td>
+<td>Như SP 14</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">17</td><td class="name"><span class="x">HEPALIVER-FS</span></td><td><b>HEPALIVE-FS</b> (TCCS 55:2020)<span class="t">Báo giá thừa chữ “R”</span></td>
+<td>Methionine <span class="x">1.500 mg</span>; Betain <span class="x">3.000 mg</span></td>
+<td>DL-Methionine <b>3.000</b>; Betain <b>6.000</b> mg/lít</td>
+<td>Như SP 14</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">18</td><td class="name">G7</td><td><span class="ok">✓</span> TCCS 74:2020</td>
+<td>Methionine <span class="x">1.500 mg</span>; Betain 3.000 mg</td>
+<td>DL-Methionine <b>3.000</b>; Betain 3.000 (4.2) / <span class="w">6.000 (nhãn)</span></td>
+<td>Như SP 14</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">19</td><td class="name"><span class="x">HEPAPLUS</span></td><td><span class="x">Không có TCCS HEPAPLUS</span><span class="t">File “19-HEPATIC.doc” là bản trùng của HEPATIC (cũng TCCS 45:2020). Cần file TCCS đúng của HEPAPLUS.</span></td>
+<td>Methionine 1.500 mg; Betain 3.000 mg</td><td><span class="w">Chưa đối chiếu được</span></td>
+<td>Như SP 14</td><td><span class="w">Chưa đối chiếu được</span></td></tr>
+
+<tr class="bad"><td class="n">20</td><td class="name">VH-LIVER PRO</td><td><span class="ok">✓</span> TCCS 90:2021</td>
+<td>Methionine <span class="x">1.500 mg</span>; Betain 3.000 mg</td>
+<td>DL-Methionine <b>3.000</b>; Betain 3.000 (4.2) / <span class="w">6.000 (nhãn)</span></td>
+<td>Như SP 14</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">21</td><td class="name">C MAX 25%</td><td><span class="ok">✓</span> TCCS 32:2017</td>
+<td>Vitamin C <span class="x">25.000 mg</span>; dextrose 1 kg</td>
+<td>Vitamin C <b>30.000 mg/kg</b><span class="t"><span class="w">Lưu ý:</span> 30.000 mg/kg chỉ là 3%, trong khi tên SP ghi “25%”.</span></td>
+<td>Như SP 14</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="warn"><td class="n">22</td><td class="name">AQUA C 30%</td><td><span class="ok">✓</span> TCCS 33:2017</td>
+<td>Vitamin C 30.000 mg; dextrose 1 kg</td>
+<td><span class="ok">✓ Khớp</span><span class="t"><span class="w">Lưu ý:</span> 30.000 mg/kg = 3%, tên SP ghi “30%”.</span></td>
+<td>Như SP 14</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="good"><td class="n">23</td><td class="name">HUFA</td><td><span class="ok">✓</span> TCCS 47:2020</td>
+<td>Vitamin A 200 UI; Vitamin B6 30 mg; nước RO 1 lít</td><td><span class="ok">✓ Khớp</span></td>
+<td>Như SP 14</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">24</td><td class="name">HI-WEIGH</td><td><span class="ok">✓</span> TCCS 53:2020</td>
+<td>Protein 25% <span class="w">(đạm sữa)</span></td>
+<td>Protein <span class="w">15% (4.2)</span> / 25% (nhãn)<span class="t">TCCS ghi “bổ sung <b>đạm cá</b>”, nguyên liệu “Prolac”, nên nguồn đạm chưa thống nhất. Mục 4.3 ghi <span class="w">CFU/mg, “25 mg”</span> (đúng phải là CFU/g, 25 g).</span></td>
+<td><span class="x">Ethoxyquin</span>, <span class="x">Asen (As) tổng số</span>, Asen vô cơ, Cd, Pb, Hg, E.coli, Salmonella</td>
+<td>Asen vô cơ, Cd, Pb, Hg, E.coli, Salmonella<span class="t">TCCS không có Ethoxyquin và Asen tổng số</span></td></tr>
+
+<tr class="bad"><td class="n">25</td><td class="name">AMINOVIT</td><td><span class="ok">✓</span> TCCS 48:2020</td>
+<td>Protein 25% (đạm cá); nước 1 lít</td><td><span class="ok">✓ Khớp</span> (Protein 25%)</td>
+<td><span class="x">Ethoxyquin</span>, <span class="x">Asen tổng số</span> + 6 chỉ tiêu</td><td>Asen vô cơ, Cd, Pb, Hg, E.coli, Salmonella</td></tr>
+
+<tr class="bad"><td class="n">26</td><td class="name">AMIN CARE</td><td><span class="ok">✓</span> TCCS 52:2020</td>
+<td>Protein 25% (đạm cá); nước 1 lít</td><td><span class="ok">✓ Khớp</span></td>
+<td><span class="x">Ethoxyquin</span>, <span class="x">Asen tổng số</span> + 6 chỉ tiêu</td><td>Asen vô cơ, Cd, Pb, Hg, E.coli, Salmonella</td></tr>
+
+<tr class="bad"><td class="n">27</td><td class="name">BENCOM</td><td><span class="ok">✓</span> TCCS 60:2020</td>
+<td>Protein 25% (đạm cá); nước 1 lít</td><td><span class="ok">✓ Khớp</span></td>
+<td><span class="x">Ethoxyquin</span>, <span class="x">Asen tổng số</span> + 6 chỉ tiêu</td><td>Asen vô cơ, Cd, Pb, Hg, E.coli, Salmonella</td></tr>
+
+<tr class="bad"><td class="n">28</td><td class="name">SORBEST</td><td><span class="ok">✓</span> TCCS 67:2020</td>
+<td>Sorbitol <span class="x">500 mg</span>; dextrose 1 kg</td><td>Sorbitol <b>5.000 mg/kg</b></td>
+<td>Asen vô cơ, Pb, Hg, E.coli, Salmonella<span class="t">Thiếu: <span class="x">Cadimi (Cd)</span></span></td>
+<td>Asen vô cơ, Cd, Pb, Hg, E.coli, Salmonella</td></tr>
+
+<tr class="bad"><td class="n">29</td><td class="name">DAVI CID liquid</td><td><span class="ok">✓</span> TCCS 63:2020</td>
+<td><span class="x">Propionic 10%; Lactic 2,5%; Propionic 2,5%</span></td>
+<td><b>Acid formic 15,9%; Acid lactic 2,8%; Acid propionic 3,8%</b><span class="t">Nhãn ghi <span class="w">“Dung môi (nước RO) 15,9%”</span>, đúng phải là “vừa đủ 1 lít”.</span></td>
+<td>Asen, Cd, Pb, Hg, <span class="x">E.coli</span>, <span class="x">Salmonella</span></td>
+<td>Asen vô cơ, Cd, Pb, Hg<span class="t">TCCS không có E.coli, Salmonella</span></td></tr>
+
+<tr class="bad"><td class="n">30</td><td class="name">MEGA CID NEW</td><td><span class="ok">✓</span> TCCS 01:2025</td>
+<td><span class="x">Propionic 10%; Lactic 2,5%; Propionic 2,5%</span></td>
+<td><b>Acid formic 15,9%; Acid lactic 2,8%; Acid propionic 3,8%</b><span class="t">Nhãn cũng ghi <span class="w">“nước RO 15,9%”</span>.</span></td>
+<td>Asen, Cd, Pb, Hg, <span class="x">E.coli</span>, <span class="x">Salmonella</span></td>
+<td>Asen vô cơ, Cd, Pb, Hg</td></tr>
+
+<tr class="bad"><td class="n">31</td><td class="name">PREMIX KHOÁNG</td><td><span class="ok">✓</span> TCCS 49:2020</td>
+<td><span class="x">Ca (CaHPO4) 850 mg; Mg (MgSO4) 850 mg</span>; dextrose 1 kg</td>
+<td><b>Ca (CaCl2) 6.800 mg/kg; Mg (MgSO4.7H2O) 2.800 mg/kg</b>; dextrose 1 kg<span class="t">Nhãn lại ghi <span class="w">mg/lít + nước RO 1 lít</span>, mâu thuẫn với dạng bột ở mục 4.2.</span></td>
+<td>Asen vô cơ, Cd, Pb, Hg</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">32</td><td class="name">CAPHOTE</td><td><span class="ok">✓</span> TCCS 56:2020</td>
+<td>Ca <span class="x">10.400 mg</span>; Mg <span class="x">2.500 mg</span>; nước 1 lít</td>
+<td>Ca (CaCl2) <b>6.800</b>; Mg (MgSO4.7H2O) <b>2.800</b> mg/lít<span class="t">Nhãn ghi Mg <span class="w">mg/kg</span> (SP lỏng).</span></td>
+<td>Asen vô cơ, Cd, Pb, Hg</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">33</td><td class="name">ROCAPHOS</td><td><span class="ok">✓</span> TCCS 57:2020</td>
+<td>Ca <span class="x">10.400 mg</span>; Mg <span class="x">2.500 mg</span></td><td>Ca <b>6.800</b>; Mg <b>2.800</b> mg/lít</td>
+<td>Asen vô cơ, Cd, Pb, Hg</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">34</td><td class="name">CALCIPHO</td><td><span class="ok">✓</span> TCCS 89:2021</td>
+<td>Ca <span class="x">10.400 mg</span>; Mg <span class="x">2.500 mg</span></td><td>Ca <b>6.800</b>; Mg <b>2.800</b> mg/lít</td>
+<td>Asen vô cơ, Cd, Pb, Hg</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">35</td><td class="name">F.X ORGANIC</td><td><span class="ok">✓</span> TCCS 03:2025<span class="t">(tên file ghi “OGANIX”)</span></td>
+<td>K (KCl) 6.000 <span class="x">ml/lít</span>; Mg (MgCl2) 800 <span class="x">ml/lít</span></td><td>K 6.000 <b>mg/lít</b>; Mg 800 <b>mg/lít</b></td>
+<td>Asen vô cơ, Cd, Pb, Hg</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">36</td><td class="name">PREMIX ORA</td><td><span class="ok">✓</span> TCCS 04:2026</td>
+<td><span class="x">K (KCl) 5.000 mg/lít; Mg (MgCl2) 1.000 mg/lít</span></td>
+<td><b>Ca (CaCl2) 6.800; Mg (MgSO4.7H2O) 2.800 mg/lít</b><span class="t">Có vẻ TCCS chép từ CAPHOTE; cần xem lại đúng công thức của SP.</span></td>
+<td>Asen vô cơ, Cd, Pb, Hg</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="warn"><td class="n">37</td><td class="name">CANCI MILK</td><td><span class="ok">✓</span> TCCS 04:2025</td>
+<td>Ca (CaCl2) 2.000 mg/lít; nước 1 lít</td>
+<td>Ca <span class="w">8.000 mg/lít (4.2)</span> / 2.000 mg/lít (nhãn)<span class="t">Báo giá khớp nhãn nhưng lệch mục 4.2.</span></td>
+<td>Asen vô cơ, Cd, Pb, Hg</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+<tr class="bad"><td class="n">38</td><td class="name"><span class="x">VH-CANCI MILK</span></td><td><b>VH-CANCIMILK</b> (TCCS 05:2026)<span class="t">TCCS viết liền “CANCIMILK”; tên file ghi “CANXI”.</span></td>
+<td>Ca <span class="x">2.000 mg/lít</span>; <span class="x">không có Mg</span></td>
+<td>Ca (CaCl2) <b>6.800</b>; Mg (MgSO4.7H2O) <b>2.800</b> mg/lít</td>
+<td>Asen vô cơ, Cd, Pb, Hg</td><td><span class="ok">✓ Khớp</span></td></tr>
+
+</tbody>
+</table>
+</div>
+
+<h2>B. Lỗi nằm trong chính file TCCS (nên sửa trước khi nộp)</h2>
+<ul>
+<li><span class="w">Mục 3.1 Nguyên vật liệu bị chép sai</span>: các SP gan (14–20), HUFA, AMINOVIT/AMIN CARE/BENCOM, khoáng (32–38) đều ghi “Bacillus subtilis, Nước RO”. SP 13, 21, 22, 28 ghi “VTM C, Dextrose”. SP 31 ghi “, Nước RO”. SP 7 PROZYM và 12 F.X ENZYME cũng chỉ ghi Bacillus subtilis.</li>
+<li><span class="w">SP Bacillus dạng lỏng (8–11)</span>: nhãn có “Độ ẩm 10%”; SP 8 và 9 ghi đơn vị cfu/kg ở mục 4.2.</li>
+<li><span class="w">Mục 4.2 và bảng trên nhãn không khớp nhau</span>: Betain (14, 18, 19, 20), Protein HI-WEIGH (15% / 25%), Ca CANCI MILK (8.000 / 2.000), dạng bột/lỏng của PREMIX KHOÁNG.</li>
+<li><span class="w">Trùng TCCS</span>: 14-HEPATIC và 19-HEPATIC cùng số TCCS 45:2020, nên đang thiếu TCCS của HEPAPLUS.</li>
+<li><span class="w">Ethoxyquin / Asen tổng số (SP 24–27)</span>: nếu QCVN 94:2025 yêu cầu hai chỉ tiêu này cho nhóm chiết xuất từ động vật thì cần bổ sung vào mục 4.3 của TCCS. Nếu không yêu cầu thì báo giá đang tính thừa, và phí 1.700.000 có thể giảm. Cần kiểm tra lại với QCVN.</li>
+</ul>
+
+<script>
+(function(){
+  var rows=[].slice.call(document.querySelectorAll('#tbl tbody tr'));
+  function c(k){return rows.filter(function(r){return r.classList.contains(k)}).length}
+  document.getElementById('cBad').textContent=c('bad');
+  document.getElementById('cWarn').textContent=c('warn');
+  document.getElementById('cGood').textContent=c('good');
+  document.getElementById('hideGood').addEventListener('change',function(e){
+    rows.forEach(function(r){ if(r.classList.contains('good')) r.style.display=e.target.checked?'none':''; });
+  });
+})();
+</script>
+</body>
+</html>
