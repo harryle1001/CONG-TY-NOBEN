@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bộ nhãn PRO ALGAE - NOBEN</title>
+<style>
+:root{
+  --w:100mm; --h:108mm;
+  --red:#d8232a; --green:#1f8a3b; --dgreen:#0f6b2c; --yellow:#ffe600; --navy:#1b2f8f; --blue:#1565c0;
+}
+*{box-sizing:border-box}
+body{margin:0;background:#e9ebee;font-family:Arial,"Helvetica Neue",Helvetica,sans-serif;color:#111}
+sup,sub{font-size:.65em;line-height:0}
+i.sp{font-style:italic}
+
+/* ---------- thanh công cụ ---------- */
+.bar{position:sticky;top:0;z-index:10;background:#1d2733;color:#fff;padding:8px 14px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:13px}
+.bar b{font-size:14px;margin-right:6px}
+.bar button{border:0;border-radius:5px;padding:7px 12px;font-size:13px;cursor:pointer;background:#3a4a5c;color:#fff}
+.bar button:hover{background:#4d6079}
+.bar button.pri{background:#1f8a3b}
+.bar button.warn{background:#a8332f}
+.bar label{display:flex;align-items:center;gap:4px}
+.bar input[type=number]{width:56px;padding:5px;border-radius:4px;border:0}
+.bar .sp{flex:1}
+#msg{color:#9fe3b0;min-width:90px}
+.tip{padding:8px 16px;font-size:13px;color:#445;background:#fff8d6;border-bottom:1px solid #e6dca0}
+
+/* ---------- bố cục trang ---------- */
+.set{padding:14px 16px 4px}
+.set h2{margin:0 0 8px;font-size:15px;color:#333}
+.pair{display:flex;flex-wrap:wrap;gap:8mm}
+.cap{font-size:11px;color:#667;margin:0 0 3px}
+.label{width:var(--w);height:var(--h);position:relative;overflow:hidden;background:#fff;box-shadow:0 1px 6px rgba(0,0,0,.25);font-size:7.2pt;line-height:1.28}
+[contenteditable=true]{outline:none}
+body.editing [contenteditable=true]:hover{box-shadow:0 0 0 1px rgba(0,120,255,.55)}
+body.editing [contenteditable=true]:focus{box-shadow:0 0 0 1.5px #0a7cff;background:rgba(255,255,255,.18)}
+
+/* ---------- thành phần dùng chung ---------- */
+.num{position:absolute;right:2.5mm;bottom:2.5mm;width:6mm;height:5mm;border:.3mm solid currentColor;border-radius:3mm 0 0 0;display:flex;align-items:center;justify-content:center;font-weight:700;font-size:7pt}
+.logo{width:13mm;height:13mm;position:relative;flex:none}
+.logo:before{content:"";position:absolute;inset:1.9mm;background:#f2b90f;transform:rotate(45deg);border:.25mm solid #fff}
+.logo span{position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);background:#1b3aa0;color:#fff;font:italic 900 5.4pt Arial;text-align:center;padding:.5mm 0;letter-spacing:.1mm}
+.iso{display:flex;gap:.6mm;align-items:stretch}
+.iso .a{background:#f4f4f4;border:.25mm solid #444;border-radius:.6mm;padding:.5mm 1.2mm;text-align:center;color:#222}
+.iso .a b{display:block;font:700 7.5pt "Times New Roman",serif;border-bottom:.2mm solid #444}
+.iso .a small{font-size:4pt;letter-spacing:.3mm}
+.iso .q{background:#f4f4f4;border:.25mm solid #444;border-radius:.6mm;width:8.5mm;text-align:center;color:#222;font-size:3.6pt;display:flex;flex-direction:column;justify-content:center}
+.iso .q b{font:900 13pt Arial;line-height:1}
+.badge{width:21mm;height:21mm;border-radius:50%;background:#fff;border:1.3mm dashed #2c9c48;display:flex;flex-direction:column;align-items:center;justify-content:center;color:#8a1c1c;text-align:center}
+.badge b{font:700 5.6pt "Times New Roman",serif;letter-spacing:.2mm}
+.badge em{display:block;background:#e8a21a;color:#7a1010;font:italic 700 7.5pt "Times New Roman",serif;padding:.2mm 3.5mm;margin:.4mm -3mm;border-radius:.5mm}
+.badge i{font-size:5pt;font-style:normal}
+.shrimp{display:block}
+.codes{font-size:7.4pt;line-height:1.45;white-space:nowrap}
+.firm{display:flex;gap:1.5mm;align-items:center}
+.firm .t{font-size:5.1pt;line-height:1.35;color:#1565c0}
+.firm .t b{display:block;font:900 10pt Arial;color:#1b3aa0;letter-spacing:.1mm}
+.hd{font-weight:700}
+.net{position:absolute;top:0;right:0;width:19mm;height:15mm;border-radius:0 0 0 15mm;color:#ffe600;text-align:center;padding:2.2mm 0 0 4mm;font-size:5pt;font-weight:700}
+.net b{display:block;font-size:9.5pt;line-height:1.1}
+.back{padding:3mm 3.5mm}
+.back .frame{position:absolute;inset:1.6mm;border:.35mm solid;border-radius:1.5mm;pointer-events:none}
+.back h1{margin:0;text-align:center;font:900 24pt Arial;letter-spacing:.3mm;line-height:1}
+.note{font-size:5.6pt;font-style:italic;text-align:center;color:#1b2f8f;line-height:1.3}
+
+/* ================= NHÃN 1 (vàng) ================= */
+.f1{background:#c8201f;padding:3mm}
+.f1 .in{position:absolute;inset:3mm;background:linear-gradient(160deg,#fff200 0,#ffe600 60%,#ffd800 100%);border-radius:1.5mm;overflow:hidden}
+.f1 .swoosh{position:absolute;left:-10mm;top:27mm;width:125mm;height:26mm;background:linear-gradient(90deg,#d8232a 0,#ef6a1a 45%,#f7c21a 70%,#3aa845 100%);transform:rotate(-13deg);border-bottom:1.3mm solid #1b2f8f;border-radius:0 0 50% 0}
+.f1 .code{position:absolute;left:4mm;top:5mm;font:900 9pt Arial;color:#fff;-webkit-text-stroke:.25mm #c8201f;paint-order:stroke fill}
+.f1 .rib{position:absolute;left:10mm;top:9.5mm;background:#1b2f8f;color:#ffe600;font:italic 900 7pt Georgia,serif;padding:.8mm 3mm;transform:rotate(-9deg);border:.3mm solid #fff;letter-spacing:.2mm}
+.f1 .iso{position:absolute;right:3mm;top:2.5mm}
+.f1 .name{position:absolute;left:5mm;top:19mm;width:86mm;text-align:center;transform:rotate(-9deg);font:italic 900 35pt Georgia,"Times New Roman",serif;color:#fff;-webkit-text-stroke:1.3mm #d8232a;paint-order:stroke fill;text-shadow:1.1mm 1.1mm 0 #1b2f8f;line-height:1}
+.f1 .sub{position:absolute;left:9mm;top:44mm;transform:rotate(-9deg);font:italic 900 12.5pt Georgia,serif;color:#1e4fc4;-webkit-text-stroke:.7mm #fff;paint-order:stroke fill;letter-spacing:.2mm}
+.f1 .badge{position:absolute;right:5mm;top:40mm;transform:scale(.9)}
+.f1 .shrimp{position:absolute;left:10mm;top:54mm;width:26mm}
+.f1 .box{position:absolute;right:9mm;top:58mm;width:38mm;border:.35mm solid #1f8a3b;border-radius:1.2mm;background:#fffbe0;font-size:5.4pt;overflow:hidden}
+.f1 .box .h{background:#1f8a3b;color:#fff;font-weight:700;padding:.3mm 1mm}
+.f1 .box .r{padding:.2mm 1mm;display:flex;justify-content:space-between;gap:1mm}
+.f1 .addr{position:absolute;left:0;right:0;bottom:4mm;text-align:center;font-size:6.2pt;color:#7a3b00;line-height:1.4}
+.f1 .addr b{display:block;font:900 10pt Arial;color:#111}
+.f1 .num{right:3mm;bottom:3mm;color:#333}
+
+.b1 .frame{border-color:#1f8a3b}
+.b1 h1{color:#1f8a3b;margin-top:1.5mm}
+.b1 .tag{text-align:center;color:#d8232a;font:900 10.5pt Arial;letter-spacing:.1mm;margin:.3mm 0 .6mm}
+.b1 .hd{color:#d8232a}
+.b1 .net{background:#1f8a3b}
+.b1 .body{font-size:7pt;line-height:1.27}
+.b1 .comp{display:grid;grid-template-columns:1fr 31mm;gap:0 2mm}
+.b1 .dots{display:flex;gap:1mm}.b1 .dots span:first-child{flex:1;border-bottom:.25mm dotted #333;margin-bottom:.9mm;position:relative}
+.b1 .dots span:first-child>*{background:#fff}
+.b1 .foot{position:absolute;left:3.5mm;right:3.5mm;bottom:3mm}
+.b1 .cert{display:flex;gap:2mm;align-items:center;border-bottom:.3mm solid #333;padding-bottom:.6mm;margin-bottom:.8mm}
+.b1 .cert .only{font-weight:700;font-size:6pt;width:19mm;line-height:1.2}
+.b1 .cert .iso{transform:scale(.8);transform-origin:left center;margin-right:-6mm}
+.b1 .cert .codes{font-size:6.6pt;margin-left:auto}
+.b1 .last{display:flex;justify-content:space-between;gap:2mm}
+.b1 .last .codes{width:27mm;font-size:6.6pt}
+.b1 .num{color:#1f8a3b}
+
+/* ================= NHÃN 2 (kem / đỏ) ================= */
+.f2{background:radial-gradient(circle at 55% 40%,#f4f6d8 0,#dfe6a8 70%,#cfd98e 100%)}
+.f2 .bub{position:absolute;border-radius:50%;border:.3mm solid rgba(70,80,60,.55);background:radial-gradient(circle at 35% 30%,rgba(255,255,255,.95),rgba(255,255,255,.15) 60%,rgba(120,130,100,.25))}
+.f2 .flag{position:absolute;left:0;top:0;width:60mm;height:22mm;background:repeating-linear-gradient(8deg,#b31f2c 0 2.4mm,#fff 2.4mm 4.8mm);border-radius:0 0 100% 0/0 0 100% 0;border-bottom:1.2mm solid #1b2f8f;opacity:.9}
+.f2 .flag:before{content:"";position:absolute;left:0;top:0;width:20mm;height:11mm;background:#1b2f6f}
+.f2 .lg{position:absolute;left:11mm;top:5mm;text-align:center}
+.f2 .lg .logo{margin:0 auto;transform:scale(1.25)}
+.f2 .lg div+div{margin-top:2.6mm;font:900 6.6pt Arial;color:#1565c0}
+.f2 .iso{position:absolute;right:3.5mm;top:5.5mm}
+.f2 .name{position:absolute;left:0;right:0;top:29mm;text-align:center;color:#d3222a;font:900 27pt "Arial Black",Arial;line-height:.98;-webkit-text-stroke:.9mm #fff;paint-order:stroke fill;text-shadow:.6mm .7mm 1mm rgba(0,0,0,.45);letter-spacing:.4mm}
+.f2 .name b{display:block;font-size:36pt}
+.f2 .sub{position:absolute;left:0;right:0;top:56.5mm;text-align:center;font:900 9.5pt "Arial Black",Arial;color:#1b2f8f;-webkit-text-stroke:.5mm #fff;paint-order:stroke fill;letter-spacing:.15mm}
+.f2 .shrimp{position:absolute;left:42mm;top:60.5mm;width:14mm}
+.f2 .wave{position:absolute;left:-10%;right:-10%;bottom:-34mm;height:66mm;background:#d3222a;border-radius:50% 50% 0 0/100% 40% 0 0;transform:rotate(-7deg);border-top:1.3mm solid #f0a81c;box-shadow:0 -1mm 0 #fff}
+.f2 .addr{position:absolute;left:7mm;bottom:4mm;color:#fff;font-size:5.4pt;line-height:1.55;font-weight:700}
+.f2 .addr b{display:block;font:900 8.2pt Arial;margin-bottom:.4mm}
+.f2 .badge{position:absolute;right:6mm;bottom:11.5mm}
+.f2 .only{position:absolute;right:6mm;bottom:7.2mm;color:#fff;font:700 5.4pt Arial;width:23mm;text-align:center}
+.f2 .num{color:#fff}
+
+.b2 .frame{border-color:#d3222a}
+.b2 h1{color:#d3222a;font-weight:400;font-family:"Arial Black",Arial;font-size:21pt;margin-top:1mm}
+.b2 .tag{text-align:center;color:#1b2f8f;font:900 9pt "Arial Black",Arial;margin:.3mm 0 .8mm}
+.b2 .hd{color:#1565c0}
+.b2 .net{background:#d3222a}
+.b2 .cols{display:grid;grid-template-columns:1fr 1fr;gap:4mm;font-size:7pt;line-height:1.36;padding:0 1mm;text-align:justify}
+.b2 .cols p{margin:0}
+.b2 .foot{position:absolute;left:1.6mm;right:1.6mm;bottom:1.6mm}
+.b2 .r1,.b2 .r2{display:flex;gap:2mm;align-items:center;border-top:.3mm solid #333;padding:.8mm 2.5mm}
+.b2 .r1 .note{flex:1}
+.b2 .codes{width:30mm;font-size:6.4pt;line-height:1.35}
+.b2 .foot .logo{transform:scale(.85)}
+.b2 .foot .firm .t b{font-size:9pt}
+.b2 .r2 .firm{flex:1}
+.b2 .num{color:#d3222a}
+
+/* ================= NHÃN 3 (xanh lá / đỏ) ================= */
+.f3{background:#d3222a}
+.f3 .in{position:absolute;inset:3mm;border:.4mm solid #fff;border-radius:1.5mm;background:radial-gradient(circle at 50% 45%,#3fae4c 0,#1f8a3b 55%,#0f6b2c 100%);overflow:hidden}
+.f3 .ring{position:absolute;left:50%;top:39mm;width:74mm;height:74mm;margin:-37mm 0 0 -37mm;border-radius:50%;background:radial-gradient(circle,#e3342c 0,#c41f1f 52%,#fff 52.6%,#fff 53.4%,#ffd400 54%,#ffd400 58%,#f08a1c 58.6%,#f08a1c 62%,#0f6b2c 62.6%,#0f6b2c 67%,#fff 67.6%,#fff 68.4%,transparent 69%)}
+.f3 .iso{position:absolute;right:2.5mm;top:2.5mm}
+.f3 .badge{position:absolute;left:50%;top:3mm;margin-left:-10.5mm;transform:scale(.82);transform-origin:top center}
+.f3 .pro{position:absolute;left:0;right:0;top:20mm;text-align:center;font:italic 900 25pt Georgia,"Times New Roman",serif;color:#fff;-webkit-text-stroke:1mm #222;paint-order:stroke fill;line-height:1}
+.f3 .band{position:absolute;left:10mm;right:10mm;top:30mm;height:20.5mm;background:linear-gradient(180deg,#e8443a,#b81818);border-radius:3mm;box-shadow:0 .6mm 1.2mm rgba(0,0,0,.4)}
+.f3 .alg{position:absolute;left:0;right:0;top:30.5mm;text-align:center;font:italic 900 40pt Georgia,"Times New Roman",serif;color:#ffe600;-webkit-text-stroke:1.5mm #1c1c1c;paint-order:stroke fill;letter-spacing:.8mm;line-height:1.05}
+.f3 .shrimp{position:absolute;left:40.5mm;top:50.5mm;width:13mm}
+.f3 .only{position:absolute;left:0;right:0;top:66.5mm;text-align:center;transform:rotate(-4deg);font:italic 900 8pt Georgia,serif;color:#1f8a3b;-webkit-text-stroke:.7mm #fff;paint-order:stroke fill;letter-spacing:.15mm}
+.f3 .addr{position:absolute;left:3mm;bottom:3mm;display:flex;gap:1.5mm;align-items:center;color:#fff;font-size:4.6pt;line-height:1.4;font-weight:700}
+.f3 .addr b{display:block;font:900 7.4pt Arial}
+.f3 .box{position:absolute;right:8mm;bottom:3.5mm;width:31mm;color:#fff;font-size:5pt;line-height:1.3}
+.f3 .box .h{background:#ffe600;color:#0f6b2c;font-weight:700;padding:0 1mm;margin-top:.8mm}
+.f3 .box .r{display:flex;justify-content:space-between;gap:1mm;padding:0 1mm}
+.f3 .num{color:#0c3d18;right:1.5mm;bottom:1.5mm;width:5mm;height:4.4mm}
+
+.b3 .frame{border-color:#1f8a3b}
+.b3 h1{color:#1f8a3b;font-size:20pt;margin-top:.5mm}
+.b3 .tag{width:max-content;margin:.4mm auto .5mm;border:.4mm solid #d3222a;color:#d3222a;font:900 8pt Arial;padding:.1mm 2mm}
+.b3 .hd{color:#1565c0}
+.b3 .net{background:#1f8a3b}
+.b3 .body{font-size:6pt;line-height:1.22;padding:0 .8mm}
+.b3 .comp{display:grid;grid-template-columns:1fr 34mm}
+.b3 .warn,.b3 .warn .hd{color:#d3222a}
+.b3 .foot{position:absolute;left:3.5mm;right:3.5mm;bottom:3mm;display:flex;gap:2mm;align-items:flex-end}
+.b3 .foot .l{flex:1}
+.b3 .foot .firm{border:.3mm solid #1b3aa0;border-radius:2mm;padding:.6mm 1mm;margin-top:.5mm}
+.b3 .foot .firm .t{font-size:4.4pt}
+.b3 .foot .logo{transform:scale(.85)}
+.b3 .foot .note{font-size:5pt;line-height:1.2}
+.b3 .foot .firm .t b{font-size:9pt}
+.b3 .codes{width:29mm;font-size:6pt;line-height:1.35;padding-bottom:1mm}
+.b3 .num{color:#1f8a3b}
+
+/* ---------- in ấn ---------- */
+@page{size:A4;margin:8mm}
+@media print{
+  body{background:#fff}
+  .bar,.tip,.cap,.set h2{display:none!important}
+  .set{padding:0;break-inside:avoid;margin-bottom:6mm}
+  .label{box-shadow:none;outline:.2mm dashed #999;-webkit-print-color-adjust:exact;print-color-adjust:exact}
+  .pair{gap:6mm}
+}
+</style>
+</head>
+<body class="editing">
+
+<div class="bar" id="bar">
+  <b>Bộ nhãn PRO ALGAE</b>
+  <button id="bEdit" class="pri">✏️ Đang bật sửa chữ</button>
+  <label>Rộng <input type="number" id="iw" value="100" min="40" max="200">mm</label>
+  <label>Cao <input type="number" id="ih" value="108" min="40" max="200">mm</label>
+  <span class="sp"></span>
+  <span id="msg"></span>
+  <button id="bSave">💾 Tải file đã sửa</button>
+  <button id="bPrint">🖨️ In / Xuất PDF</button>
+  <button id="bReset" class="warn">↺ Khôi phục gốc</button>
+</div>
+<div class="tip" id="tip">Bấm vào bất kỳ dòng chữ nào trên nhãn để sửa trực tiếp. Thay đổi tự lưu trên trình duyệt này; bấm <b>Tải file đã sửa</b> để lưu thành file riêng, <b>In / Xuất PDF</b> để in (chọn "Đồ họa nền / Background graphics").</div>
+
+<div id="sheet">
+
+<!-- ===================== NHÃN 1 ===================== -->
+<section class="set">
+<h2>Nhãn 1 — Pro Algae Waste Digester · 227G (Chuyên gia cắt tảo đỏ, tảo xanh)</h2>
+<div class="pair">
+<div><p class="cap">Mặt trước</p>
+<div class="label f1"><div class="in">
+  <div class="swoosh"></div>
+  <div class="code" contenteditable="true">NB4</div>
+  <div class="rib" contenteditable="true">ONLY USE FOR AQUACULTURE</div>
+  <div class="iso"><div class="a"><b contenteditable="true">ISO 9001:2015</b><small>VICAS · IAF · PAC</small></div><div class="q"><b>Q</b><span contenteditable="true">VICB 7178.10-A1-R1</span></div></div>
+  <div class="name" contenteditable="true">Pro Algae</div>
+  <div class="sub" contenteditable="true">WASTE DIGESTER</div>
+  <div class="badge"><b contenteditable="true">QUALITY</b><em contenteditable="true">Premium</em><i>★★★</i></div>
+  <svg class="shrimp" viewBox="0 0 120 130"><use href="#shrimp" fill="#ffe94a" stroke="#1e88d6"/></svg>
+  <div class="box">
+    <div class="h" contenteditable="true">COMPOSITION: Each 1 kg of contains</div>
+    <div class="r"><span contenteditable="true"><b><i>Bacillus subtilis</i> (min)</b></span><b contenteditable="true">1.5x10<sup>9</sup> cfu/kg</b></div>
+    <div class="r"><b contenteditable="true">Carrier (dextrose) up to:</b><b contenteditable="true">1kg</b></div>
+    <div class="r" contenteditable="true"><span><i>E.coli</i> &lt; 10 CFU/g</span></div>
+    <div class="r" contenteditable="true"><span><i>Salmonella spp.</i>: Not-Detected</span></div>
+    <div class="h" contenteditable="true">STORAGE:</div>
+    <div class="r"><b contenteditable="true">Keep in cool and dry place.</b></div>
+  </div>
+  <div class="addr"><b contenteditable="true">NO BEN CO., LTD</b>
+    <div contenteditable="true">Add: 228/9 Nguyen Thi Lang St., Tan Phu Trung W., Cu Chi Dist., HCMC</div>
+    <div contenteditable="true">Tel: 028 3796 6039</div>
+    <div contenteditable="true">Email: thuocthuysannoben@gmail.com</div></div>
+  <div class="num" contenteditable="true">1</div>
+</div></div></div>
+
+<div><p class="cap">Mặt sau</p>
+<div class="label back b1"><div class="frame"></div>
+  <div class="net"><span contenteditable="true">Khối lượng tịnh</span><b contenteditable="true">227G</b></div>
+  <h1 contenteditable="true">PRO ALGAE</h1>
+  <div class="tag" contenteditable="true">CHUYÊN GIA CẮT TẢO ĐỎ, TẢO XANH</div>
+  <div class="body">
+    <div contenteditable="true"><span class="hd">THÀNH PHẦN:</span> trong 1kg sản phẩm</div>
+    <div class="comp">
+      <div contenteditable="true"><i>Bacillus subtilis</i> (min): ....1,5 x 10<sup>9</sup> cfu/kg</div><div contenteditable="true"><i>E.coli</i> &lt; 10 CFU/g</div>
+      <div contenteditable="true">Chất đệm (Dextrose) vừa đủ: ...........1 kg</div><div contenteditable="true"><i>Salmonella spp.</i>: KPH</div>
+      <div contenteditable="true">Độ ẩm (max):.....................................10%</div><div></div>
+    </div>
+    <div class="hd" contenteditable="true">CÔNG DỤNG</div>
+    <div contenteditable="true">- Vi sinh kết hợp enzyme đậm đặc thế hệ mới chuyên xử lý tảo đỏ, tảo xanh ao nuôi.</div>
+    <div contenteditable="true">- Ổn định màu nước, làm sạch đáy, sạch nước.</div>
+    <div contenteditable="true">- Giảm tảo nhanh chóng, gia tăng oxy hòa tan, không ảnh hưởng đến sức khỏe tôm.</div>
+    <div class="hd" contenteditable="true">HƯỚNG DẪN SỬ DỤNG</div>
+    <div contenteditable="true">- Giảm mật độ tảo trong ao nuôi: Dùng 227g cho 3.000 - 5.000m<sup>3</sup> nước.</div>
+    <div contenteditable="true">- Dùng cắt tảo đỏ, tảo xanh: Dùng 227g cho ao 2.000 - 3.000m<sup>3</sup> nước.</div>
+    <div contenteditable="true">- Trường hợp mật độ tảo dày đánh liên tục 2 ngày.</div>
+    <div contenteditable="true">- Hòa với nước ao nuôi một lượng vừa đủ rồi tạt đều khắp ao vào lúc 5-6 giờ chiều, mở quạt nước để Pro Algae phân tán đều.</div>
+    <div contenteditable="true"><span class="hd">BẢO QUẢN:</span> Nơi khô ráo thoáng mát, tránh ánh sáng trực tiếp</div>
+  </div>
+  <div class="foot">
+    <div class="cert">
+      <div class="only" contenteditable="true">Chỉ dùng trong nuôi trồng thủy sản</div>
+      <div class="iso"><div class="a"><b contenteditable="true">ISO 9001:2015</b><small>VICAS · IAF · PAC</small></div><div class="q"><b>Q</b><span contenteditable="true">VICB 7178.10-A1-R1</span></div></div>
+      <div class="codes"><div contenteditable="true">SỐ TCCS 06:2017/NOBEN</div><div contenteditable="true">Mã SPHQ: VICB 7178.10-06</div><div contenteditable="true">Mã số tiếp nhận: 02-001533</div></div>
+    </div>
+    <div class="last">
+      <div class="firm"><div class="logo"><span>NOBEN</span></div><div class="t">
+        <div contenteditable="true">Sản phẩm của/Product of:</div><b contenteditable="true">CÔNG TY TNHH NO BEN</b>
+        <div contenteditable="true">Địa chỉ: 228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, Thành Phố Hồ Chí Minh</div>
+        <div contenteditable="true">ĐT: 02837966039 / Email: thuocthuysannoben@gmail.com</div>
+        <div contenteditable="true">Địa chỉ sản xuất: 228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, Thành Phố Hồ Chí Minh</div></div></div>
+      <div class="codes"><div contenteditable="true">Số lô SX:</div><div contenteditable="true">NSX:</div><div contenteditable="true">HSD:</div></div>
+    </div>
+  </div>
+  <div class="num" contenteditable="true">1</div>
+</div></div>
+</div></section>
+
+<!-- ===================== NHÃN 2 ===================== -->
+<section class="set">
+<h2>Nhãn 2 — Pro Algae · 500G (Chuyên gia xử lý đáy ao)</h2>
+<div class="pair">
+<div><p class="cap">Mặt trước</p>
+<div class="label f2">
+  <i class="bub" style="left:14mm;top:30mm;width:5mm;height:5mm"></i><i class="bub" style="left:45mm;top:21mm;width:4mm;height:4mm"></i>
+  <i class="bub" style="left:78mm;top:26mm;width:6mm;height:6mm"></i><i class="bub" style="left:20mm;top:52mm;width:7mm;height:7mm"></i>
+  <i class="bub" style="left:74mm;top:60mm;width:8mm;height:8mm"></i><i class="bub" style="left:62mm;top:23mm;width:3mm;height:3mm"></i>
+  <i class="bub" style="left:30mm;top:66mm;width:4mm;height:4mm"></i><i class="bub" style="left:66mm;top:70mm;width:5mm;height:5mm"></i>
+  <i class="bub" style="left:8mm;top:44mm;width:3mm;height:3mm"></i><i class="bub" style="left:88mm;top:44mm;width:4mm;height:4mm"></i>
+  <i class="bub" style="left:50mm;top:72mm;width:9mm;height:9mm"></i><i class="bub" style="left:36mm;top:25mm;width:3mm;height:3mm"></i>
+  <div class="flag"></div>
+  <div class="lg"><div class="logo"><span>NOBEN</span></div><div contenteditable="true">ISO 9001:2015</div></div>
+  <div class="iso"><div class="a"><b contenteditable="true">ISO 9001:2015</b><small>VICAS · IAF · PAC</small></div><div class="q"><b>Q</b><span contenteditable="true">VICB 7178.10-A1</span></div></div>
+  <div class="name"><span contenteditable="true">PRO</span><b contenteditable="true">ALGAE</b></div>
+  <div class="sub" contenteditable="true">CHUYÊN GIA XỬ LÝ ĐÁY AO</div>
+  <svg class="shrimp" viewBox="0 0 120 130" style="transform:rotate(60deg)"><use href="#shrimp" fill="none" stroke="#1e88d6"/></svg>
+  <div class="wave"></div>
+  <div class="addr"><b contenteditable="true">NO BEN CO., LTD</b>
+    <div contenteditable="true">Add: 228/9 Nguyen Thi Lang, Tan Phu Trung W., Cu Chi D., HCMC</div>
+    <div contenteditable="true">Tel: 028 3796 6039 – Fax: 028 3796 6038</div>
+    <div contenteditable="true">Email: thuocthuysannoben@gmail.com</div></div>
+  <div class="badge"><b contenteditable="true">QUALITY</b><em contenteditable="true">Premium</em><i>★★★</i></div>
+  <div class="only" contenteditable="true">ONLY USE FOR AQUACULTURE</div>
+  <div class="num" contenteditable="true">2</div>
+</div></div>
+
+<div><p class="cap">Mặt sau</p>
+<div class="label back b2"><div class="frame"></div>
+  <div class="net"><span contenteditable="true">Khối lượng tịnh</span><b contenteditable="true">500G</b></div>
+  <h1 contenteditable="true">PRO ALGAE</h1>
+  <div class="tag" contenteditable="true">CHUYÊN GIA XỬ LÝ ĐÁY AO</div>
+  <div class="cols">
+    <div>
+      <p contenteditable="true"><span class="hd">THÀNH PHẦN:</span> trong 1kg sản phẩm</p>
+      <p contenteditable="true"><i>Bacillus subtilis</i> (min): 1,5 x 10<sup>9</sup> cfu/kg</p>
+      <p contenteditable="true">Chất đệm (Dextrose) vừa đủ: 1 kg</p>
+      <p contenteditable="true"><i>E.coli</i> &lt; 10 CFU/g</p>
+      <p contenteditable="true"><i>Salmonella</i> spp.: KPH</p>
+      <p style="height:1.5mm"></p>
+      <p class="hd" contenteditable="true">HƯỚNG DẪN SỬ DỤNG:</p>
+      <p contenteditable="true"><b>* Chuẩn bị ao trước khi thả giống 2 ngày dùng:</b> 500g/2.000m<sup>3</sup> nước, dùng lúc 9h sáng.</p>
+      <p contenteditable="true"><b>* 2 tháng đầu:</b> dùng 500g/5.000m<sup>3</sup> nước, dùng lúc 9h sáng. Định kỳ sử dụng 7 ngày/ lần.</p>
+      <p contenteditable="true"><b>* 2 tháng cuối:</b> 500g/4.000m<sup>3</sup> nước, dùng lúc 9h sáng. Định kỳ sử dụng 5 ngày/ lần.</p>
+    </div>
+    <div>
+      <p class="hd" contenteditable="true">CÔNG DỤNG:</p>
+      <p contenteditable="true">- Vi sinh chuyên xử lý đáy ao, làm sạch đáy trong vòng 24 giờ.</p>
+      <p contenteditable="true">- Đặc biệt trong Ao Bạt, Ao Lưới, <b>PRO ALGAE</b> sẽ làm sạch bạt, lưới không để lại màng rong nhớt bám vào và làm sạch nhá căn thức ăn.</p>
+      <p contenteditable="true">- Làm sạch môi trường nước, khống chế tảo độc phát triển, khống chế vi khuẩn gây bệnh.</p>
+      <p contenteditable="true">- Hấp thu khí H<sub>2</sub>S, NH<sub>3</sub> trong ao nuôi.</p>
+      <p style="height:1.5mm"></p>
+      <p contenteditable="true"><span class="hd">BẢO QUẢN:</span> Nơi khô ráo thoáng mát, tránh ánh nắng trực tiếp.</p>
+    </div>
+  </div>
+  <div class="foot">
+    <div class="r1">
+      <div class="note"><div contenteditable="true">Chỉ dùng trong nuôi trồng thủy sản</div><div contenteditable="true">“ Sản phẩm không chứa các chất cấm sử dụng trong sản xuất kinh doanh thủy sản theo các quy định hiện hành của Bộ Nông nghiệp và Phát triển nông thôn”</div></div>
+      <div class="codes"><div contenteditable="true">SỐ TCCS 06:2017/NOBEN</div><div contenteditable="true">Mã SPHQ: VICB 7178.10-06</div><div contenteditable="true">Mã số tiếp nhận: 02-001533</div></div>
+    </div>
+    <div class="r2">
+      <div class="firm"><div class="logo"><span>NOBEN</span></div><div class="t">
+        <div contenteditable="true">Sản phẩm của/Product of:</div><b contenteditable="true">CÔNG TY TNHH NO BEN</b>
+        <div contenteditable="true">ĐC: 228/9 Nguyễn Thị Lắng, Tân Phú Trung, Củ Chi, Tp.HCM</div>
+        <div contenteditable="true">ĐT: 028 3796 6039 - Email: thuocthuysannoben@gmail.com</div>
+        <div contenteditable="true">Sản xuất tại: 228/9 Nguyễn Thị Lắng, Tân Phú Trung, Củ Chi, Tp.HCM</div></div></div>
+      <div class="codes"><div contenteditable="true">Số lô SX:</div><div contenteditable="true">NSX:</div><div contenteditable="true">HSD:</div></div>
+    </div>
+  </div>
+  <div class="num" contenteditable="true">2</div>
+</div></div>
+</div></section>
+
+<!-- ===================== NHÃN 3 ===================== -->
+<section class="set">
+<h2>Nhãn 3 — Pro Algae · 227G (Vi sinh xử lý đáy ao)</h2>
+<div class="pair">
+<div><p class="cap">Mặt trước</p>
+<div class="label f3"><div class="in">
+  <div class="ring"></div>
+  <div class="iso"><div class="a"><b contenteditable="true">ISO 9001:2015</b><small>VICAS · IAF · PAC</small></div><div class="q"><b>Q</b><span contenteditable="true">VICB 7178.10-A1</span></div></div>
+  <div class="badge"><b contenteditable="true">QUALITY</b><em contenteditable="true">Premium</em><i>★★★</i></div>
+  <div class="band"></div>
+  <div class="pro" contenteditable="true">Pro</div>
+  <div class="alg" contenteditable="true">ALGAE</div>
+  <svg class="shrimp" viewBox="0 0 120 130"><use href="#shrimp" fill="#2f8fe0" stroke="#fff"/></svg>
+  <div class="only" contenteditable="true">ONLY USE FOR AQUACULTURE</div>
+  <div class="addr"><div class="logo"><span>NOBEN</span></div><div>
+    <b contenteditable="true">NO BEN CO., LTD</b>
+    <div contenteditable="true">Add: 228/9 Nguyen Thi Lang,</div>
+    <div contenteditable="true">Tan Phu Trung W., Cu Chi D., HCMC</div>
+    <div contenteditable="true">Tel: 028 3796 6039</div>
+    <div contenteditable="true">Fax: 028 3796 6038</div>
+    <div contenteditable="true">Email: thuocthuysannoben@gmail.com</div>
+    <div contenteditable="true">Web.: thuocthuysannoben.com</div></div></div>
+  <div class="box">
+    <div class="h" contenteditable="true">COMPOSITION:</div>
+    <div class="r"><span contenteditable="true">Bacillus subtilis (min)</span><span contenteditable="true">1.5x10<sup>9</sup> cfu/kg</span></div>
+    <div class="r"><span contenteditable="true">Carrier (dextrose):</span><span contenteditable="true">1kg</span></div>
+    <div class="r" contenteditable="true"><span><i>E.coli</i> &lt; 10 CFU/g</span></div>
+    <div class="r" contenteditable="true"><span><i>Salmonella spp.</i>: Not-Detected</span></div>
+    <div class="h" contenteditable="true">STORAGE:</div>
+    <div class="r" contenteditable="true"><span>Keep in cool and dry place.</span></div>
+  </div>
+  <div class="num" contenteditable="true">3</div>
+</div></div></div>
+
+<div><p class="cap">Mặt sau</p>
+<div class="label back b3"><div class="frame"></div>
+  <div class="net"><span contenteditable="true">Khối lượng tịnh</span><b contenteditable="true">227G</b></div>
+  <h1 contenteditable="true">PRO ALGAE</h1>
+  <div class="tag" contenteditable="true">VI SINH XỬ LÝ ĐÁY AO</div>
+  <div class="body">
+    <div contenteditable="true"><span class="hd">THÀNH PHẦN:</span> trong 1kg sản phẩm</div>
+    <div class="comp">
+      <div contenteditable="true"><i>Bacillus subtilis</i> (min): 1,5 x 10<sup>9</sup> cfu/kg</div><div contenteditable="true"><i>E.coli</i> &lt; 10 CFU/g</div>
+      <div contenteditable="true">Chất đệm (Dextrose) vừa đủ: 1 kg</div><div contenteditable="true"><i>Salmonella</i> spp.: KPH</div>
+    </div>
+    <div class="hd" contenteditable="true">CÔNG DỤNG:</div>
+    <div contenteditable="true">- Phân hủy các chất thải, mùn bã hữu cơ, thức ăn dư thừa tích tụ ở đáy ao.</div>
+    <div contenteditable="true">- Cải thiện chất lượng nước và màu nước bằng việc tạo ra hệ cân bằng tối ưu giữa động thực vật phù du và các dòng vi sinh có lợi.</div>
+    <div contenteditable="true">- Cải tạo đáy ao, đặc biệt là khu vực nhiễm độc và tăng cường lượng oxy hòa tan.</div>
+    <div contenteditable="true">- Khử và loại trừ các chất độc NH<sub>3</sub>, H<sub>2</sub>S, Metal...trong ao nuôi và ngăn ngừa triệt để hiện tượng tôm bị nổi đầu vào sáng sớm.</div>
+    <div contenteditable="true">- Gia tăng lượng oxy hòa tan, cải thiện nhanh tình trạng tôm bị nổi đầu vào lúc sáng sớm, giảm stress cho tôm.</div>
+    <div class="hd" contenteditable="true">HƯỚNG DẪN SỬ DỤNG:</div>
+    <div contenteditable="true">* Liều dùng cho mật độ nuôi tôm sú trên 20 con/m<sup>2</sup> và tôm thẻ từ 150 - 350 con/m<sup>2</sup>, trước khi thả tôm 3 - 5 ngày: 300g/hecta - 10.000m<sup>3</sup> nước.</div>
+    <div contenteditable="true">- Tháng nuôi thứ nhất: 227g/hecta - 5 ngày/ lần.</div>
+    <div contenteditable="true">- Tháng nuôi thứ hai: 300g/hecta - 5 ngày/ lần.</div>
+    <div contenteditable="true">- Tháng nuôi thứ ba trở đi: 454g/hecta - 5 ngày/ lần.</div>
+    <div contenteditable="true">* Nên sục khí trước từ 45 - 60 phút rồi mới sử dụng sẽ đạt hiệu quả cao hơn.</div>
+    <div class="warn">
+      <div class="hd" contenteditable="true">Lưu ý:</div>
+      <div contenteditable="true">- Khi ao có dấu hiệu tảo lam phát triển, màu nước quá xanh (độ trong dưới 20cm), xác tảo tàn...nên tăng liều 454g/hecta, sau 2 ngày lặp lại tương tự.</div>
+      <div contenteditable="true">- Đối với ao nuôi quảng canh dùng 1/2 liều so với ao nuôi công nghiệp.</div>
+      <div contenteditable="true">- Tùy theo tình trạng ao nuôi mà tăng hay giảm liều lượng cho thích hợp.</div>
+    </div>
+    <div contenteditable="true"><span class="hd">BẢO QUẢN:</span> Nơi khô ráo thoáng mát, tránh ánh nắng chiếu trực tiếp.</div>
+  </div>
+  <div class="foot">
+    <div class="l">
+      <div class="note"><div contenteditable="true">Chỉ dùng trong nuôi trồng thủy sản</div><div contenteditable="true">“ Sản phẩm không chứa các chất cấm sử dụng trong sản xuất kinh doanh thủy sản theo các quy định hiện hành của Bộ Nông nghiệp và Phát triển nông thôn”</div></div>
+      <div class="firm"><div class="logo"><span>NOBEN</span></div><div class="t">
+        <div contenteditable="true">Sản phẩm của/Product of:</div><b contenteditable="true">CÔNG TY TNHH NO BEN</b>
+        <div contenteditable="true">ĐC: 228/9 Nguyễn Thị Lắng, Tân Phú Trung, Củ Chi, Tp.HCM</div>
+        <div contenteditable="true">ĐT: 028 3796 6039 - Email: thuocthuysannoben@gmail.com</div>
+        <div contenteditable="true">Sản xuất tại: 228/9 Nguyễn Thị Lắng, Tân Phú Trung, Củ Chi, Tp.HCM</div></div></div>
+    </div>
+    <div class="codes"><div contenteditable="true">SỐ TCCS 06:2017/NOBEN</div><div contenteditable="true">Mã SPHQ: VICB 7178.10-06</div><div contenteditable="true">Mã số tiếp nhận: 02-001533</div><div contenteditable="true">Số lô SX:</div><div contenteditable="true">NSX:</div><div contenteditable="true">HSD:</div></div>
+  </div>
+  <div class="num" contenteditable="true">3</div>
+</div></div>
+</div></section>
+
+</div>
+
+<!-- hình con tôm dùng chung -->
+<svg width="0" height="0" style="position:absolute">
+  <defs><g id="shrimp" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round">
+    <path d="M70 22c22 4 38 22 38 46 0 26-18 46-42 50-10 2-20-1-26-6l10-8c4 3 10 4 16 2 12-4 20-16 20-32 0-14-8-26-22-30z"/>
+    <path d="M84 30l-6 14M97 44l-13 8M103 62l-15 2M101 82l-14-6M90 100l-9-12M72 112l-3-14" fill="none"/>
+    <path d="M70 22c-8-4-22-2-30 6l-14 4 12 6c6 8 18 12 28 8z"/>
+    <path d="M40 104l-18 4 8 8-6 10 18-8z"/>
+    <circle cx="46" cy="27" r="2.6" fill="#123" stroke="none"/>
+    <path d="M30 30C20 18 30 6 56 4M32 31C14 22 8 12 4 6M58 46l-12 14M66 50l-8 16M76 54l-4 16" fill="none"/>
+  </g></defs>
+</svg>
+
+<script>
+(function(){
+  var KEY='noben-pro-algae-labels-v1', sheet=document.getElementById('sheet'), orig=sheet.innerHTML,
+      iw=document.getElementById('iw'), ih=document.getElementById('ih'), msg=document.getElementById('msg'), t;
+  function size(){document.documentElement.style.setProperty('--w',iw.value+'mm');document.documentElement.style.setProperty('--h',ih.value+'mm');}
+  function say(s){msg.textContent=s;clearTimeout(say.t);say.t=setTimeout(function(){msg.textContent='';},1800);}
+  function save(){try{localStorage.setItem(KEY,JSON.stringify({h:sheet.innerHTML,w:iw.value,hh:ih.value}));say('✓ Đã lưu');}catch(e){}}
+  try{var s=JSON.parse(localStorage.getItem(KEY)||'null');if(s){sheet.innerHTML=s.h;iw.value=s.w;ih.value=s.hh;}}catch(e){}
+  size();
+  sheet.addEventListener('input',function(){clearTimeout(t);t=setTimeout(save,500);});
+  iw.oninput=ih.oninput=function(){size();save();};
+  document.getElementById('bEdit').onclick=function(){
+    var on=!document.body.classList.toggle('editing')===false;
+    sheet.querySelectorAll('[contenteditable]').forEach(function(e){e.setAttribute('contenteditable',on?'true':'false');});
+    this.textContent=on?'✏️ Đang bật sửa chữ':'🔒 Đã khóa sửa chữ';this.classList.toggle('pri',on);
+  };
+  document.getElementById('bPrint').onclick=function(){window.print();};
+  document.getElementById('bReset').onclick=function(){
+    if(!confirm('Xóa mọi chỉnh sửa và quay về nội dung gốc?'))return;
+    try{localStorage.removeItem(KEY);}catch(e){} sheet.innerHTML=orig;iw.value=100;ih.value=108;size();say('Đã khôi phục');
+  };
+  document.getElementById('bSave').onclick=function(){
+    var d=document.documentElement.cloneNode(true);
+    d.querySelector('#msg').textContent='';
+    d.querySelector('#iw').setAttribute('value',iw.value);d.querySelector('#ih').setAttribute('value',ih.value);
+    var a=document.createElement('a');
+    a.href=URL.createObjectURL(new Blob(['<!DOCTYPE html>\n'+d.outerHTML],{type:'text/html'}));
+    a.download='nhan-pro-algae-da-sua.html';a.click();
+  };
+})();
+</script>
+</body>
+</html>
