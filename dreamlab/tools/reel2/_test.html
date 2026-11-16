@@ -1,0 +1,12 @@
+<!doctype html><html lang="vi"><meta charset="utf-8"><title>Session M — trang thử DL_SAMPLES motion + video</title>
+<style>body{font:14px/1.5 system-ui;background:#16141a;color:#eee;margin:16px}.it{display:grid;grid-template-columns:340px 1fr;gap:16px;border-top:1px solid #444;padding:16px 0}
+video,img{max-width:320px;max-height:300px;background:#000;display:block}.row{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start}small{opacity:.7}</style>
+<h1>Trang thử Session M</h1><div id="out"></div>
+<script src="../../js/samples-motion.js"></script><script src="../../js/samples-video.js"></script>
+<script>
+const out=document.getElementById('out');
+for(const cat of ['motion','video'])for(const it of (window.DL_SAMPLES[cat]||[])){const d=document.createElement('div');d.className='it';d.dataset.id=it.id;
+ d.innerHTML=`<div><video muted playsinline loop controls preload="metadata" poster="../../${it.poster}" src="../../${it.src}"></video></div>
+ <div><b>${it.id}</b> — ${it.title} · ${it.industry} · ${it.ratio} · ${it.duration}s · <i>${it.pkg}</i><br><small>${it.desc}</small><br><small>${it.tags.join(' · ')}</small>
+ <div class="row"><img class="cover" src="../../${it.cover}">${it.before?`<img class="before" src="../../${it.before}"><img class="poster" src="../../${it.poster}">`:''}</div></div>`;out.appendChild(d)}
+</script></html>
