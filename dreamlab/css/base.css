@@ -55,3 +55,8 @@ dialog.dl-modal::backdrop{background:color-mix(in oklab,var(--ink) 55%,transpare
 .dl-modal .x{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--paper);cursor:pointer;font-size:20px;line-height:1}
 .dl-modal .body{padding:var(--s4)}
 @media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+/* iOS Safari */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+body{-webkit-tap-highlight-color:transparent}
+button,a,[role=button],summary,label{touch-action:manipulation}
+input,select,textarea{font-size:max(16px,1em)}

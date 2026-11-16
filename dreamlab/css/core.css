@@ -97,7 +97,7 @@
 .menu.open .menu-foot{opacity:1;transform:none;transition-delay:var(--d3)}
 .menu-foot p{display:grid;gap:var(--s0)}
 .menu-foot small{font-size:var(--t0);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.menu-foot b{font-family:var(--f-display);font-weight:400;font-size:var(--t1);user-select:all}
+.menu-foot b{font-family:var(--f-display);font-weight:400;font-size:var(--t1);-webkit-user-select:all;user-select:all}
 .menu-foot b{overflow-wrap:anywhere}
 .menu-foot>*{min-width:0}
 .menu-foot p{grid-column:1/-1;grid-template-columns:var(--s7) minmax(0,1fr);align-items:baseline;gap:var(--s2)}
@@ -128,7 +128,7 @@
 .fab-card dl{margin:0;display:grid;gap:var(--s2)}
 .fab-card dl div{display:grid;grid-template-columns:1fr auto;align-items:center;column-gap:var(--s2);padding-bottom:var(--s2);border-bottom:1px solid var(--line)}
 .fab-card dt{grid-column:1/-1;font-size:var(--t0);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.fab-card dd{margin:0;min-width:0;font-weight:500;user-select:all;overflow-wrap:anywhere}
+.fab-card dd{margin:0;min-width:0;font-weight:500;-webkit-user-select:all;user-select:all;overflow-wrap:anywhere}
 .fab-copy{white-space:nowrap;min-height:var(--hit);padding:0 var(--s2);border:0;background:none;color:var(--accent);font-size:var(--t0h);cursor:pointer;border-radius:var(--r0)}
 .fab-card .btn{justify-content:center;min-height:var(--hit)}
 .fab-card .btn+.btn{margin-top:calc(var(--s1)*-1)}
@@ -442,7 +442,7 @@
 .cinfo dl{margin:0;display:grid;gap:var(--s3)}
 .cinfo dl div{padding-top:var(--s3);border-top:1px solid var(--line)}
 .cinfo dt{font-size:var(--t0h);letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
-.cinfo dd{margin:0;font-family:var(--f-display);font-size:clamp(var(--t1h),5.6vw,var(--t2));user-select:all;line-height:1.3;overflow-wrap:anywhere}
+.cinfo dd{margin:0;font-family:var(--f-display);font-size:clamp(var(--t1h),5.6vw,var(--t2));-webkit-user-select:all;user-select:all;line-height:1.3;overflow-wrap:anywhere}
 .cinfo-act{display:flex;flex-wrap:wrap;gap:var(--s2);margin-top:var(--s2)}
 .cinfo-act .btn{min-height:var(--hit)}
 form.cf{position:relative;overflow:hidden;border-radius:var(--r3);background:var(--paper);border:1px solid var(--line);padding:var(--s5);display:grid;grid-template-columns:1fr 1fr;gap:var(--s3)}
@@ -471,10 +471,10 @@ form.cf>.btn{grid-column:1/-1;justify-content:center;min-height:var(--t3h)}
 .cf-done h3{font-size:var(--t2)}
 .cf-done p{color:var(--muted);max-width:46ch;font-size:var(--t0h)}
 .cf-done p b{color:var(--ink);font-weight:500}
-.cf-tel{white-space:nowrap;user-select:all}
+.cf-tel{white-space:nowrap;-webkit-user-select:all;user-select:all}
 /* nội dung yêu cầu đã soạn: chữ chọn được, khách chép rồi dán qua Zalo */
 .cf-req{width:100%;margin:0;padding:var(--s3);border-radius:var(--r1);border:1px dashed color-mix(in oklab,var(--accent) 38.2%,transparent);background:var(--bg);font-family:var(--f-body);font-size:var(--t0h);line-height:var(--lh);
-  text-align:left;white-space:pre-wrap;overflow-wrap:anywhere;max-height:var(--s8);overflow:auto;overscroll-behavior:contain;user-select:text;-webkit-user-select:text}
+  text-align:left;white-space:pre-wrap;overflow-wrap:anywhere;max-height:var(--s8);overflow:auto;overscroll-behavior:contain;-webkit-user-select:text;user-select:text;-webkit-user-select:text}
 .cf-done-act{display:flex;flex-wrap:wrap;justify-content:center;gap:var(--s2)}
 .cf-done-act .btn{min-height:var(--hit)}
 @media (max-width:860px){.contact{grid-template-columns:1fr}.cinfo{position:static}form.cf{grid-template-columns:1fr;padding:var(--s4)}.cf-done{align-content:start;padding:var(--s4)}}
@@ -494,7 +494,7 @@ form.cf>.btn{grid-column:1/-1;justify-content:center;min-height:var(--t3h)}
 .foot-cols b{font-size:var(--t0);letter-spacing:.14em;text-transform:uppercase;color:var(--ink);font-weight:500;margin-bottom:var(--s1)}
 .foot-cols a{text-decoration:none;transition:color var(--d1),transform var(--d3) var(--ease);padding-block:var(--s0)}
 .foot-cols a:hover{color:var(--ink);transform:translateX(var(--s0))}
-.foot-cols span{user-select:all;padding-block:var(--s0)}
+.foot-cols span{-webkit-user-select:all;user-select:all;padding-block:var(--s0)}
 .giant{margin-top:var(--s6);overflow:hidden}
 .giant-in{font-variation-settings:"opsz" 144;display:flex;align-items:center;gap:.16em;width:max-content;font-family:var(--f-display);font-weight:300;font-size:clamp(var(--t4),22vw,var(--s9));line-height:1;letter-spacing:-.04em;white-space:nowrap;padding-inline:max(16px,env(safe-area-inset-left,0px));will-change:transform}
 .giant-in i{font-weight:250;background:linear-gradient(100deg,var(--accent),color-mix(in oklab,var(--peach) 70%,var(--accent)));-webkit-background-clip:text;background-clip:text;color:transparent;padding-right:.08em;margin-left:-.16em}
@@ -507,3 +507,6 @@ form.cf>.btn{grid-column:1/-1;justify-content:center;min-height:var(--t3h)}
   .foot-sp{width:100vw;left:calc(var(--s3)*-1);top:calc(var(--s5)*-1);opacity:var(--op-major)}}
 
 @media (prefers-reduced-motion:reduce){.hero-scroll i,.hero-fb svg{animation:none}.fab-btn::before{display:none}}
+/* iOS: vùng chạm tối thiểu 42px cho liên kết chân trang */
+@media (max-width:860px){.foot-cols a{min-height:var(--hit)}}
+@media (pointer:coarse){.fab-card .btn,.fab-card a{min-height:var(--hit)}}

@@ -584,3 +584,6 @@ dialog.sm-room::backdrop{background:color-mix(in oklab,var(--sm-night) 61.8%,tra
   .smai-vn-bars i,.smai-ny-b i{grid-column:1/-1;grid-row:2}
 }
 @media (prefers-reduced-motion:reduce){.smai-b,.smai-log li,.smai-quick button,.smai-td-cal .hold,.smai-vn-flow .ai.on i,.smai-ny-live i,.smai-vn-svg path.on{animation:none}}
+/* màn rất hẹp (iPhone SE 320px): nút Xem mẫu không được đẩy trang tràn ngang */
+.sm-open-t{min-width:0}
+@media (max-width:420px){.sm-open-th{display:none}.sm-open{padding-left:var(--s3)}.sm-open-t{white-space:normal;text-align:left}}

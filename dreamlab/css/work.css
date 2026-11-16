@@ -65,7 +65,7 @@
 .wk-studio-grid{display:grid;grid-template-columns:var(--cols-golden);gap:var(--s4);align-items:stretch}
 .wk-studio-grid>*{min-width:0}
 .wk-view,.wk-bacard{overflow:hidden;display:flex;flex-direction:column;margin:0}
-.wk-stage{position:relative;aspect-ratio:var(--golden);overflow:hidden;touch-action:pan-y;cursor:grab;user-select:none;-webkit-user-select:none;background:var(--wk-bd-bottle);transition:background var(--d4)}
+.wk-stage{position:relative;aspect-ratio:var(--golden);overflow:hidden;touch-action:pan-y;cursor:grab;-webkit-user-select:none;user-select:none;-webkit-user-select:none;background:var(--wk-bd-bottle);transition:background var(--d4)}
 .wk-stage[data-p="bag"]{background:var(--wk-bd-bag)}.wk-stage[data-p="tub"]{background:var(--wk-bd-tub)}
 .wk-stage.is-drag{cursor:grabbing}
 .wk-stage canvas{position:absolute;inset:0;width:100%;height:100%;display:block;opacity:0;transition:opacity var(--d4) var(--ease)}
@@ -88,7 +88,7 @@
 .wk-sw button.on{border-color:var(--accent)}
 .wk-fall{font-size:var(--t0h);color:var(--muted)}
 /* trước / sau */
-.wk-ba{position:relative;flex:1 1 auto;min-height:calc(var(--s8)*2);overflow:hidden;touch-action:pan-y;cursor:ew-resize;user-select:none;-webkit-user-select:none}
+.wk-ba{position:relative;flex:1 1 auto;min-height:calc(var(--s8)*2);overflow:hidden;touch-action:pan-y;cursor:ew-resize;-webkit-user-select:none;user-select:none;-webkit-user-select:none}
 .wk-ba>img,.wk-ba-old img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
 .wk-ba-old{position:absolute;inset:0;clip-path:inset(0 calc(100% - var(--p)) 0 0)}
 .wk-ba-l,.wk-ba-r{position:absolute;top:var(--s3);font-size:var(--t0);letter-spacing:.14em;text-transform:uppercase;padding:var(--s0) var(--s2);border-radius:999px;background:var(--glass);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border:1px solid var(--line);color:var(--ink);pointer-events:none}
