@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>J.A.R.V.I.S.</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="graph" aria-label="Đồ thị kiến thức"></canvas>
+
+<header class="top">
+  <div class="brand">J.A.R.V.I.S.</div>
+  <div class="badges">
+    <span id="b-mode" class="badge">…</span>
+    <span id="b-stats" class="badge dim">…</span>
+    <span class="badge warn" title="Hội thoại và mô hình có ở bước 3">NO MODEL</span>
+  </div>
+</header>
+
+<aside class="panel left">
+  <section id="inspector">
+    <h2>INSPECTOR</h2>
+    <div id="insp-body" class="empty">Bấm một node để xem nội dung. Shift-bấm node thứ hai để tìm đường ngắn nhất.</div>
+  </section>
+  <section>
+    <h2>TOP HUBS</h2>
+    <ol id="hubs"></ol>
+  </section>
+</aside>
+
+<aside class="panel right">
+  <section class="reactor-wrap">
+    <div id="reactor" class="reactor idle" aria-label="Trạng thái">
+      <i></i><i></i><i></i><b></b>
+    </div>
+    <div id="state" class="state">IDLE</div>
+  </section>
+  <section>
+    <h2>FILTER <button id="f-all" class="link">tất cả</button></h2>
+    <ul id="filters"></ul>
+  </section>
+</aside>
+
+<footer class="ask">
+  <form id="ask-form" autocomplete="off">
+    <input id="ask" type="text" spellcheck="false" aria-label="Hỏi Jarvis">
+    <button type="submit" class="go" aria-label="Tìm">↵</button>
+  </form>
+  <nav class="tools">
+    <button disabled title="Giọng nói — bước 4">MIC</button>
+    <button disabled title="Giọng nói — bước 4">MUTE</button>
+    <button disabled title="Công cụ — bước 3">BRIEF</button>
+    <button disabled title="Công cụ — bước 3">PLAN</button>
+    <button disabled title="Bộ nhớ — bước 5">MEMORY</button>
+  </nav>
+</footer>
+
+<div id="error" class="error" hidden></div>
+<script src="graph.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
