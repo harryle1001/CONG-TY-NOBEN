@@ -40,7 +40,19 @@ async function status() {
     v.textContent = s.voice ? "VOICE" : "VOICE OFF"; v.className = "badge " + (s.voice ? "dim" : "warn");
     v.title = s.voice ? "ElevenLabs connected" : "No ELEVENLABS_API_KEY: text only";
     Voice.init(s.voice);
+    setGoogle(s.google);
   } catch (e) { setModel(null, "status: " + e.message); }
+}
+// Real mode with JARVIS_INBOX/CALENDAR=google: show whether Google is connected; the badge is the connect link.
+function setGoogle(g) {
+  const b = $("#b-google");
+  if (!g || !g.enabled) { b.hidden = true; return; }
+  b.hidden = false;
+  if (!g.configured) { b.textContent = "GOOGLE: NOT CONFIGURED"; b.className = "badge google err"; b.title = "Set GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET in .env, then restart."; }
+  else if (g.error) { b.textContent = "GOOGLE: ERROR"; b.className = "badge google err"; b.title = g.error + " · click to reconnect"; }
+  else if (g.connected) { b.textContent = "GOOGLE: CONNECTED"; b.className = "badge google ok"; b.title = "Gmail + Calendar, read-only · click to reconnect"; }
+  else { b.textContent = "GOOGLE: NOT CONNECTED"; b.className = "badge google warn"; b.title = "Click to connect Gmail + Calendar (read-only)"; }
+  if (g.error) fail("Google: " + g.error);
 }
 function setModel(model, error) {
   const b = $("#b-model");
@@ -121,6 +133,7 @@ async function run(label, path, body) {
     if (d.model_error) setModel(null, d.model_error);
     else if (path === "/api/ask") setModel(d.model, null);
     showReply(label, d, d.cards || []);
+    if (path !== "/api/ask" || (d.tools || []).length) api("/api/status").then(s => setGoogle(s.google)).catch(() => {});
     await Voice.say(d.say);
   } catch (e) { fail("Jarvis không trả lời: " + e.message); $("#reply").hidden = true; }
   if (Voice.on) Voice.listen(); else Voice.set("idle");
