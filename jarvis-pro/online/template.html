@@ -19,6 +19,7 @@ button.badge { cursor: pointer; font: inherit; font-size: var(--f1); letter-spac
   <div class="badges">
     <span id="b-stats" class="badge dim">…</span>
     <span id="b-model" class="badge dim">…</span>
+    <button id="b-voice" class="badge dim" type="button" title="Đổi giọng Jarvis (4 giọng của claude.ai)">GIỌNG</button>
     <button id="b-perm" class="badge dim" type="button" title="Quyền: Claude, giọng nói, Gmail, Lịch">QUYỀN</button>
   </div>
 </header>
@@ -75,7 +76,10 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;"
 const norm = s => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d");
 const KB = JSON.parse($("#kb").textContent);
 const HISTORY_TURNS = 10;
-const SILENCE_MS = 2000;         // after the last word heard (partial or final), wait this long, then send the turn
+const SILENCE_MS = 900;          // after the last word heard (partial or final), wait this long, then send the turn
+const MODEL_TIER = "quick";       // "quick" answers in 1-2 s; "default" thinks first (5-60 s) but reasons deeper
+const VOICES = ["rounded", "glassy", "buttery", "airy"], RATE = 1.08;
+let voice = (() => { try { return localStorage.getItem("jarvis-voice") || "rounded"; } catch (e) { return "rounded"; } })();
 const GMAIL = "Gmail", GCAL = "Google Calendar";
 const EXAMPLES = ["Sản phẩm nào xử lý khí độc NH3?", "TCCS của Hepatic là gì?", "Brief me", "Giá Aqua Biotic bao nhiêu?", "Plan my day"];
 let G, sample = null, tts = null, dict = null, mcp = null, db = null, uid = null, muted = false, busy = false;
@@ -231,10 +235,18 @@ async function ask(text) {
       say = keywordReply(text);
     } else {
       const window_ = history.slice(-HISTORY_TURNS * 2);
-      const msgs = [...window_, { role: "user", content: text }];
-      msgs[0] = { role: "user", content: systemText() + "\n\n---\nSir: " + msgs[0].content };
-      const r = await sample(msgs, { tools: TOOLS, cache: false, onText: u => { say = u.text; showReply(text, say, true); } });
+      const msgs = [{ role: "user", content: systemText() }, ...window_, { role: "user", content: text }];
+      const speaker = streamSpeaker();
+      const r = await sample(msgs, { tools: TOOLS, cache: false, modelTier: MODEL_TIER,
+        onText: u => { say = u.text; showReply(text, say, true); speaker.feed(say); } });
       say = r.text || say;
+      for (const line of turnSaid) if (!say.includes(line)) say = (say + " " + line).trim();
+      speaker.feed(say, true);
+      history.push({ role: "user", content: text }, { role: "assistant", content: say || "…" });
+      showReply(text, say);
+      await speaker.done();
+      busy = false; setState("idle");
+      return;
     }
   } catch (e) {
     if (e && e.code === "not_granted") { sample = null; setModel(); say = keywordReply(text); }
@@ -329,10 +341,30 @@ async function sendHeard() {
   if (!t) { caption("Didn't catch that.", "dim"); setState("idle"); return; }
   caption("“" + t + "”"); ask(t);
 }
+// Speak each finished sentence as soon as Claude writes it, instead of waiting for the whole answer.
+function streamSpeaker() {
+  let spoken = 0, last = Promise.resolve(), started = false;
+  const say = s => {
+    s = s.trim(); if (!s || !tts || muted) return;
+    if (!started) { started = true; setState("speaking"); }
+    last = tts.add(s, { voice, rate: RATE, language: "en" }).catch(e => {
+      if (e && e.code === "not_granted") tts = null;
+      else if (e && !["stopped", "viewer_stopped", "replaced"].includes(e.code) && !["viewer_stopped", "replaced"].includes(e.reason)) fail("Jarvis không nói được: " + (e.message || e.code));
+    });
+  };
+  return {
+    feed(text, final) {
+      const rest = text.slice(spoken);
+      const m = final ? [rest] : rest.match(/^[\s\S]*?[.!?…](?=\s|$)/g) || [];
+      for (const chunk of m) { say(chunk); spoken += chunk.length; }
+    },
+    done: () => last,
+  };
+}
 async function speak(text) {
   if (!tts || muted || !text) return;
   setState("speaking");
-  try { await tts.speak(text, { language: "en" }); }
+  try { await tts.speak(text, { voice, rate: RATE, language: "en" }); }
   catch (e) { if (e && e.code === "not_granted") tts = null; else if (e && !["stopped", "viewer_stopped"].includes(e.code) && e.reason !== "viewer_stopped") fail("Jarvis không nói được: " + (e.message || e.code)); }
 }
 
@@ -369,6 +401,13 @@ async function boot() {
 $("#ask-form").addEventListener("submit", e => { e.preventDefault(); const q = $("#ask").value.trim(); if (!q) return; $("#ask").value = ""; ask(q); });
 $("#t-mic").onclick = micClick;
 $("#t-mute").onclick = () => { muted = !muted; $("#t-mute").classList.toggle("on", muted); $("#t-mute").textContent = muted ? "MUTED" : "MUTE"; if (muted && tts) tts.stop().catch(() => {}); };
+function showVoice() { $("#b-voice").textContent = "GIỌNG: " + voice.toUpperCase(); }
+$("#b-voice").onclick = () => {
+  voice = VOICES[(VOICES.indexOf(voice) + 1) % VOICES.length]; showVoice();
+  try { localStorage.setItem("jarvis-voice", voice); } catch (e) {}
+  if (tts) tts.speak("At your service, sir.", { voice, rate: RATE, language: "en" }).catch(() => {});
+};
+showVoice();
 $("#t-brief").onclick = () => ask("Brief me on today.");
 $("#t-plan").onclick = () => ask("Plan my day.");
 $("#t-inbox").onclick = () => ask("Check my inbox.");
