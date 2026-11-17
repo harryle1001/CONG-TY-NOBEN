@@ -71,13 +71,16 @@ class Graph {
       const k = ((d - L) / d) * 0.06 * a / Math.min(this.adj.get(s).size, this.adj.get(t).size);
       s.vx += x * k; s.vy += y * k; t.vx -= x * k; t.vy -= y * k;
     }
+    let mv = 0;
     for (const n of N) {
       n.vx -= n.x * 0.004 * a; n.vy -= n.y * 0.004 * a;
       if (n.fixed) { n.vx = n.vy = 0; continue; }
       n.vx *= 0.6; n.vy *= 0.6;
       n.x += n.vx; n.y += n.vy;
+      mv = Math.max(mv, Math.abs(n.vx) + Math.abs(n.vy));
     }
-    this.alpha = Math.max(ALPHA_FLOOR, this.alpha * 0.985);
+    this.drift = (this.drift || 0) + mv;       // world units moved since the edge layer was drawn
+    this.alpha = Math.max(ALPHA_FLOOR, this.alpha * 0.97);
   }
   heat(v = 0.3) { this.alpha = Math.max(this.alpha, v); }
 
@@ -86,6 +89,7 @@ class Graph {
     const d = this.dpr = Math.min(devicePixelRatio || 1, 2);
     this.w = innerWidth; this.h = innerHeight;
     this.c.width = this.w * d; this.c.height = this.h * d;
+    this.layer = null;
   }
   fit() {
     let x0 = Infinity, y0 = Infinity, x1 = -Infinity, y1 = -Infinity;
@@ -220,17 +224,11 @@ class Graph {
     g.clearRect(0, 0, this.w, this.h);
     g.translate(v.x, v.y); g.scale(v.k, v.k);
     const lw = 1 / v.k;
-    // edges: dim layer in one path, lit edges on top
-    g.lineWidth = lw; g.strokeStyle = `rgba(140,190,240,${lit ? 0.03 : 0.09})`;
-    g.beginPath();
+    // edges: the dim layer is the expensive part (thousands of strokes), so it is cached in an offscreen
+    // canvas and only redrawn when the layout really moved, the view settled, or the highlight changed.
     const litEdges = [];
-    for (const e of this.edges) {
-      const [a, b] = e;
-      if (!this.visible(a) || !this.visible(b)) continue;
-      if (lit && lit.has(a) && lit.has(b)) { litEdges.push(e); continue; }
-      g.moveTo(a.x, a.y); g.lineTo(b.x, b.y);
-    }
-    g.stroke();
+    for (const e of this.edges) if (lit && lit.has(e[0]) && lit.has(e[1]) && this.visible(e[0]) && this.visible(e[1])) litEdges.push(e);
+    this.drawEdgeLayer(lit, t);
     if (litEdges.length) {
       const onPath = this.path.length ? new Set(this.path.slice(1).map((n, i) => [this.path[i], n])) : null;
       g.strokeStyle = "rgba(111,227,255,.55)"; g.lineWidth = 1.4 * lw; g.beginPath();
@@ -250,16 +248,27 @@ class Graph {
       g.fillStyle = `rgba(111,227,255,${0.8 * fade})`;
       g.beginPath(); g.arc(x, y, 2.6 * lw * 1.6, 0, 7); g.fill();
     }
-    // nodes
+    // nodes: one path per (colour, dim) batch instead of one fill per node; off-screen nodes skipped
+    const [x0, y0] = this.toWorld(-20, -20), [x1, y1] = this.toWorld(this.w + 20, this.h + 20);
+    const batches = new Map(), bigs = [];
     for (const n of this.nodes) {
-      if (!this.visible(n)) continue;
-      const on = !lit || lit.has(n), big = n === this.hover || n === this.focus;
-      const r = n.r * (big ? 1.382 : 1);
-      g.globalAlpha = on ? 1 : DIM;
-      if (big) {
-        g.fillStyle = "rgba(111,227,255,.14)";
-        g.beginPath(); g.arc(n.x, n.y, r + 8 * lw * 2, 0, 7); g.fill();
-      }
+      if (!this.visible(n) || n.x + n.r < x0 || n.x - n.r > x1 || n.y + n.r < y0 || n.y - n.r > y1) continue;
+      if (n === this.hover || n === this.focus) { bigs.push(n); continue; }
+      const key = (!lit || lit.has(n) ? "1" : "0") + colorOf(n.type);
+      (batches.get(key) || batches.set(key, []).get(key)).push(n);
+    }
+    for (const [key, ns] of [...batches].sort((p, q) => p[0] < q[0] ? -1 : 1)) {   // dim batches first
+      g.globalAlpha = key[0] === "1" ? 1 : DIM; g.fillStyle = key.slice(1);
+      g.beginPath();
+      for (const n of ns) { g.moveTo(n.x + n.r, n.y); g.arc(n.x, n.y, n.r, 0, 7); }
+      g.fill();
+      if (ns[0].type === "folder") { g.strokeStyle = "rgba(160,180,210,.5)"; g.lineWidth = lw; g.stroke(); }
+    }
+    g.globalAlpha = 1;
+    for (const n of bigs) {
+      const r = n.r * 1.382;
+      g.fillStyle = "rgba(111,227,255,.14)";
+      g.beginPath(); g.arc(n.x, n.y, r + 8 * lw * 2, 0, 7); g.fill();
       g.fillStyle = colorOf(n.type);
       g.beginPath(); g.arc(n.x, n.y, r, 0, 7); g.fill();
       if (n.type === "folder") { g.strokeStyle = "rgba(160,180,210,.5)"; g.lineWidth = lw; g.stroke(); }
@@ -268,11 +277,49 @@ class Graph {
     this.drawLabels(lit);
   }
 
+  edgeKey(lit) {
+    const h = this.hover, f = this.focus;
+    return `${h ? h.id : ""}|${f ? f.id : ""}|${this.path.length}|${lit ? lit.size : 0}|${[...this.hidden]}`;
+  }
+  drawEdgeLayer(lit, t) {
+    const v = this.view, d = this.dpr, key = this.edgeKey(lit), L = this.layer;
+    const viewMoved = !L || L.v.k !== v.k || L.v.x !== v.x || L.v.y !== v.y;
+    if (viewMoved) this.lastView = t;
+    const fresh = L && L.key === key && L.match === this.match && this.drift * v.k < PHI;   // edges may trail nodes by < 1.6 px: invisible under the dots
+    const g = this.ctx;
+    if (fresh && (!viewMoved || t - this.lastView < 162)) {
+      // reuse: same pixels, or (while panning/zooming) the old pixels moved by the view change
+      const s = v.k / L.v.k;
+      g.save(); g.setTransform(1, 0, 0, 1, 0, 0);
+      g.drawImage(L.c, (v.x - L.v.x * s) * d, (v.y - L.v.y * s) * d, L.c.width * s, L.c.height * s);
+      g.restore();
+      return;
+    }
+    const c = (L && L.c.width === this.c.width && L.c.height === this.c.height) ? L.c : Object.assign(document.createElement("canvas"), { width: this.c.width, height: this.c.height });
+    const e = c.getContext("2d");
+    e.setTransform(d, 0, 0, d, 0, 0); e.clearRect(0, 0, this.w, this.h);
+    e.translate(v.x, v.y); e.scale(v.k, v.k);
+    const [x0, y0] = this.toWorld(0, 0), [x1, y1] = this.toWorld(this.w, this.h);
+    e.lineWidth = 1 / v.k; e.strokeStyle = `rgba(140,190,240,${lit ? 0.03 : 0.09})`;
+    e.beginPath();
+    for (const [a, b] of this.edges) {
+      if (!this.visible(a) || !this.visible(b)) continue;
+      if (lit && lit.has(a) && lit.has(b)) continue;
+      if ((a.x < x0 && b.x < x0) || (a.x > x1 && b.x > x1) || (a.y < y0 && b.y < y0) || (a.y > y1 && b.y > y1)) continue;
+      e.moveTo(a.x, a.y); e.lineTo(b.x, b.y);
+    }
+    e.stroke();
+    this.layer = { c, key, match: this.match, v: { ...v } };
+    this.drift = 0;
+    g.save(); g.setTransform(1, 0, 0, 1, 0, 0); g.drawImage(c, 0, 0); g.restore();
+  }
+
   // Most-connected first; skip any label whose box collides with one already placed.
   drawLabels(lit) {
     const g = this.ctx, v = this.view;
     g.setTransform(this.dpr, 0, 0, this.dpr, 0, 0);
     g.font = "11px ui-sans-serif, system-ui, sans-serif"; g.textBaseline = "middle";
+    g.lineWidth = 3; g.lineJoin = "round"; g.strokeStyle = "rgba(5,8,12,.82)";
     const placed = [], max = 80;
     const pri = n => (n === this.focus || n === this.hover ? 1e6 : 0) + (lit && lit.has(n) ? 1e4 : 0) + n.degree;
     const cand = this.nodes.filter(n => this.visible(n) && (!lit || lit.has(n)))
@@ -283,11 +330,15 @@ class Graph {
       if (sx < -100 || sy < -20 || sx > this.w + 100 || sy > this.h + 20) continue;
       if (!lit && n.r * v.k < 4.2 && placed.length > 12) continue;   // tiny nodes need zoom to earn a label
       const label = n.title.length > 34 ? n.title.slice(0, 33) + "…" : n.title;
-      const w = g.measureText(label).width, x = sx + n.r * v.k + 5, y = sy;
+      const w = g.measureText(label).width, y = sy;
+      let x = sx + n.r * v.k + 5;
+      if (x + w > this.w - 10) x = sx - n.r * v.k - 5 - w;           // near the right edge: label on the left
+      if (x < 10) continue;
       const box = [x - 2, y - 8, x + w + 2, y + 8];
       if (placed.some(b => box[0] < b[2] && box[2] > b[0] && box[1] < b[3] && box[3] > b[1])) continue;
       placed.push(box);
       const strong = n === this.focus || n === this.hover || (this.path.length && lit.has(n));
+      g.strokeText(label, x, y);                          // dark halo: readable over nodes and edges
       g.fillStyle = strong ? "#eaf6ff" : "rgba(200,214,230,.72)";
       g.fillText(label, x, y);
     }
