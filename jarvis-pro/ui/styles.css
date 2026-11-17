@@ -33,6 +33,9 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .badge.dim { color: var(--muted); }
 .badge.warn { color: var(--warn); border-color: rgba(255, 184, 107, .3); }
 .badge.err { color: #ff8a8a; border-color: rgba(255, 138, 138, .4); }
+a.badge { text-decoration: none; color: inherit; transition: border-color var(--t1) var(--ease), color var(--t1) var(--ease); }
+a.badge:hover { border-color: var(--accent); color: var(--accent); }
+.badge.ok { color: #8ef0b4; border-color: rgba(142, 240, 180, .3); }
 .badge.demo { color: var(--accent); border-color: rgba(111, 227, 255, .3); }
 
 .panel { position: fixed; top: var(--s6); bottom: 110px; width: var(--panel); display: flex;

@@ -18,12 +18,14 @@ def load_env():
         for line in f.read_text("utf-8").splitlines():
             if "=" in line and not line.lstrip().startswith("#"):
                 k, v = line.split("=", 1)
+                v = v.strip()
+                if v[:1] not in ('"', "'"): v = __import__("re").split(r"(?:^|\s+)#", v, maxsplit=1)[0]   # trailing "  # comment"
                 os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
 load_env()
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import vault, tools, llm, memory, voice
+import vault, tools, llm, memory, voice, google_auth
 UI = ROOT / "ui"
 HOST = os.environ.get("JARVIS_HOST", "127.0.0.1")
 PORT = int(os.environ.get("JARVIS_PORT", "8618"))
@@ -34,6 +36,11 @@ print(f"[jarvis] indexed {len(V.nodes)} nodes / {len(V.edges)} edges in {time.ti
 T = tools.Tools(V)
 print(f"[jarvis] model: {llm.model_name() or 'NONE (keyword routing)'}")
 print(f"[jarvis] voice: {'ElevenLabs' if voice.available() else 'OFF (no ELEVENLABS_API_KEY)'}")
+_g = vault.data.google_status()
+if _g["enabled"]:
+    print(f"[jarvis] google: {'connected' if _g['connected'] else 'NOT connected (open /auth/google)'}"
+          f"{'' if _g['configured'] else ' · GOOGLE_CLIENT_ID/SECRET missing'}")
+REDIRECT = f"http://localhost:{PORT}/auth/google/callback"
 HISTORY_TURNS = 10
 SESSIONS, PENDING_WEB, LOCK = {}, {}, threading.Lock()
 YES = __import__("re").compile(r"^\s*(yes|yeah|yep|ok|okay|sure|go( ahead)?|do it|please do|có|co|ừ|uh|ok luôn|đồng ý|dong y|làm đi|lam di|tìm đi|tim di)\b", 2)
@@ -99,10 +106,51 @@ class H(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def _redirect(self, url, cookie=None):
+        self.send_response(302)
+        self.send_header("Location", url)
+        self.send_header("Cache-Control", "no-store")
+        if cookie: self.send_header("Set-Cookie", cookie)
+        self.send_header("Content-Length", "0")
+        self.end_headers()
+
+    def _page(self, code, title, msg):
+        import html
+        body = (f'<!doctype html><meta charset="utf-8"><title>{html.escape(title)}</title>'
+                f'<body style="background:#05070a;color:#d6e2ee;font:16px/1.618 system-ui;padding:42px;max-width:680px">'
+                f'<h1 style="font-size:26px;color:#ff8a8a;font-weight:500">{html.escape(title)}</h1><p>{html.escape(msg)}</p>'
+                f'<p><a style="color:#6fe3ff" href="/">← J.A.R.V.I.S.</a></p>').encode()
+        self._send(code, body, "text/html; charset=utf-8")
+
+    def _google(self, p, q):
+        """Loopback OAuth. Only from this machine; state is one-time, kept server-side AND in a SameSite cookie."""
+        if not vault.data.google_status()["enabled"]:
+            return self._page(404, "Google is off", "Set JARVIS_DEMO=0 and JARVIS_INBOX=google and/or JARVIS_CALENDAR=google, then restart.")
+        host = self.headers.get("Host") or ""
+        if p == "/auth/google":
+            if host != f"localhost:{PORT}":   # the cookie must live on the same host Google redirects back to
+                return self._redirect(f"http://localhost:{PORT}/auth/google")
+            try:
+                url, state = google_auth.start(REDIRECT)
+            except google_auth.GoogleError as e:
+                return self._page(500, "Google not configured", str(e))
+            return self._redirect(url, f"jarvis_oauth={state}; Path=/auth/google; Max-Age=600; HttpOnly; SameSite=Lax")
+        cookie = next((c.split("=", 1)[1] for c in (self.headers.get("Cookie") or "").split("; ") if c.startswith("jarvis_oauth=")), "")
+        try:
+            google_auth.callback(q, cookie)
+        except google_auth.GoogleError as e:
+            return self._page(400, "Google connection failed", str(e))
+        vault.data.google_reset()
+        self._redirect("/?google=connected", "jarvis_oauth=; Path=/auth/google; Max-Age=0; HttpOnly; SameSite=Lax")
+
     def do_GET(self):
         u = urlparse(self.path)
         q = {k: v[0] for k, v in parse_qs(u.query).items()}
         p = u.path
+        if p in ("/auth/google", "/auth/google/callback"):
+            if (self.headers.get("Host") or "").rsplit(":", 1)[0] not in ("localhost", "127.0.0.1", "[::1]"):
+                return self._send(403, {"error": "forbidden"})
+            return self._google(p, q)
         if p == "/api/graph":
             return self._send(200, V.graph())
         if p == "/api/note":
@@ -114,7 +162,8 @@ class H(BaseHTTPRequestHandler):
             return self._send(200, {"results": V.search(q.get("q", ""), int(q.get("k", 8)))})
         if p == "/api/status":
             return self._send(200, {"mode": vault.data.mode(), "model": llm.model_name(), "voice": voice.available(), "step": 4,
-                                    "inbox": bool(vault.data.inbox_dir()), "calendar": bool(vault.data.calendar_file())})
+                                    "inbox": bool(vault.data.inbox_dir()), "calendar": bool(vault.data.calendar_file()),
+                                    "google": vault.data.google_status()})
         if p == "/api/memory":
             return self._send(200, {"facts": memory.all_facts()})
         # static UI (no directory traversal)

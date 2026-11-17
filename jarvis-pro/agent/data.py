@@ -119,6 +119,7 @@ def read_raw(src, rel):
 
 # ---------------- inbox + calendar (read-only) ----------------
 import datetime as _dt
+import time, urllib.parse
 import email as _email
 from email import policy as _policy
 from email.utils import parsedate_to_datetime as _pdt, parseaddr as _pa
@@ -139,7 +140,9 @@ def inbox_dir():
 
 
 def inbox(limit=30):
-    """Maildir-style folder (new/ = unread, cur/ = read) or a flat folder of .eml. Never writes."""
+    """Maildir-style folder (new/ = unread, cur/ = read), a flat folder of .eml, or Gmail. Never writes."""
+    if google_source("JARVIS_INBOX"):
+        return _gmail_inbox(limit)
     d = inbox_dir()
     if not d or not d.is_dir():
         return None
@@ -174,7 +177,9 @@ def calendar_file():
 
 
 def calendar(days=2):
-    """Events from today for `days` days, from an .ics file. Never writes."""
+    """Events from today for `days` days, from an .ics file or Google Calendar. Never writes."""
+    if google_source("JARVIS_CALENDAR"):
+        return _gcal(days)
     f = calendar_file()
     if not f or not f.is_file():
         return None
@@ -192,3 +197,111 @@ def calendar(days=2):
         if t0 <= start.date() < t0 + _dt.timedelta(days=days):
             out.append({"start": start.isoformat(timespec="minutes"), "title": get("SUMMARY").replace("\\,", ",")})
     return sorted(out, key=lambda e: e["start"])
+
+
+# ---------------- Google (Gmail + Calendar), read-only, JARVIS_INBOX=google / JARVIS_CALENDAR=google ----------------
+import base64 as _b64
+from concurrent.futures import ThreadPoolExecutor as _Pool
+
+CACHE_S = float(os.environ.get("JARVIS_GOOGLE_CACHE_S", "60"))  # BRIEF + PLAN + INBOX in a row hit Google once, not three times
+_cache = {}
+
+
+def google_source(var):
+    """True only in real mode. Demo mode never touches Google."""
+    return not DEMO and os.environ.get(var, "").strip().lower() == "google"
+
+
+def google_status():
+    """For the UI badge. Never contains a token or secret."""
+    on = google_source("JARVIS_INBOX") or google_source("JARVIS_CALENDAR")
+    if not on:
+        return {"enabled": False}
+    import google_auth
+    return {"enabled": True, **google_auth.status()}
+
+
+def _cached(key, fn):
+    hit = _cache.get(key)
+    if hit and time.time() - hit[0] < CACHE_S:
+        return hit[1]
+    val = fn()
+    _cache[key] = (time.time(), val)
+    return val
+
+
+def google_reset():
+    _cache.clear()
+
+
+def _b64text(data):
+    return _b64.urlsafe_b64decode(data + "=" * (-len(data) % 4)).decode("utf-8", "replace")
+
+
+def _gmail_body(payload):
+    """Prefer text/plain; fall back to text/html stripped to text."""
+    found = {}
+
+    def walk(p):
+        mt = p.get("mimeType", "")
+        data = (p.get("body") or {}).get("data")
+        if data and mt in ("text/plain", "text/html") and mt not in found and not (p.get("filename") or ""):
+            found[mt] = _b64text(data)
+        for c in p.get("parts") or []:
+            walk(c)
+    walk(payload)
+    if "text/plain" in found:
+        return found["text/plain"]
+    return html_text(found["text/html"]) if "text/html" in found else ""
+
+
+def _gmail_inbox(limit):
+    import google_auth as g
+
+    def fetch():
+        ids = g.get_json(g.GMAIL_API + "/users/me/messages", {"labelIds": "INBOX", "maxResults": limit}).get("messages") or []
+
+        def one(mid):
+            m = g.get_json(g.GMAIL_API + f"/users/me/messages/{urllib.parse.quote(mid['id'])}", {"format": "full"})
+            pl = m.get("payload") or {}
+            h = {x.get("name", "").lower(): x.get("value", "") for x in pl.get("headers") or []}
+            name, addr = _pa(h.get("from", ""))
+            try:
+                when = _pdt(h["date"]) if h.get("date") else None
+            except (TypeError, ValueError):
+                when = None
+            if not when and m.get("internalDate"):
+                when = _dt.datetime.fromtimestamp(int(m["internalDate"]) / 1000, _dt.timezone.utc).astimezone()
+            body = _gmail_body(pl) or htmllib.unescape(m.get("snippet", ""))
+            return {"from": name or addr, "addr": addr, "subject": h.get("subject", ""),
+                    "date": when.isoformat() if when else "", "unread": "UNREAD" in (m.get("labelIds") or []),
+                    "body": body.strip()[:1200]}
+        with _Pool(6) as pool:
+            out = list(pool.map(one, ids))
+        out.sort(key=lambda x: x["date"], reverse=True)
+        return out[:limit]
+    return _cached(("gmail", limit), fetch)
+
+
+def _gcal(days):
+    import google_auth as g
+
+    def fetch():
+        t0 = _dt.datetime.combine(today(), _dt.time()).astimezone()
+        q = {"timeMin": t0.isoformat(), "timeMax": (t0 + _dt.timedelta(days=days)).isoformat(),
+             "singleEvents": "true", "orderBy": "startTime", "maxResults": 100}
+        out = []
+        for e in g.get_json(g.CALENDAR_API + "/calendars/primary/events", q).get("items") or []:
+            if e.get("status") == "cancelled":
+                continue
+            s = e.get("start") or {}
+            try:
+                if s.get("dateTime"):
+                    start = _dt.datetime.fromisoformat(s["dateTime"]).astimezone().replace(tzinfo=None)
+                else:
+                    start = _dt.datetime.strptime(s["date"], "%Y-%m-%d")
+            except (KeyError, ValueError):
+                continue
+            out.append({"start": start.isoformat(timespec="minutes"), "title": e.get("summary") or "(no title)"})
+        return sorted(out, key=lambda e: e["start"])
+    return _cached(("gcal", days, today()), fetch)
