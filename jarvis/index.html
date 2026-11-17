@@ -1,0 +1,150 @@
+<title>Jarvis</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600&family=Be+Vietnam+Pro:wght@400;500&display=swap">
+<style>
+/* Layout: HUD 1 cột — lõi Jarvis (38.2%) phía trên, hội thoại (61.8%) phía dưới; mọi số đo theo φ */
+:root{
+  --phi:1.61803;
+  --bg:#060b12; --panel:#0c1520; --line:#1a2a3a; --fg:#dbe7f1; --mute:#7f93a6;
+  --cyan:#5ee0ff; --gold:#e8b45a;
+  --f-disp:"Chakra Petch","Segoe UI",system-ui,sans-serif;
+  --f-body:"Be Vietnam Pro","Segoe UI",system-ui,sans-serif;
+  --t10:10px; --t16:16px; --t26:26px; --t42:42px;
+  --s6:6px; --s10:10px; --s16:16px; --s26:26px; --s42:42px; --s68:68px;
+  --d1:162ms; --d2:262ms; --d3:424ms;
+  color-scheme:dark;
+}
+html,body{height:100%}
+body{background:var(--bg);color:var(--fg);font:400 var(--t16)/1.618 var(--f-body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.app{max-width:680px;margin:0 auto;height:100%;display:flex;flex-direction:column;gap:var(--s16);padding-block:var(--s16)}
+header{display:flex;align-items:center;gap:var(--s16)}
+.core{position:relative;width:68px;aspect-ratio:1;flex:none}
+.core i{position:absolute;inset:0;border-radius:50%;border:1px solid var(--cyan);opacity:.5}
+.core i:nth-child(2){inset:10px;border-color:var(--gold);border-style:dashed;animation:spin 6.85s linear infinite}
+.core i:nth-child(3){inset:26px;background:var(--cyan);box-shadow:0 0 26px var(--cyan);opacity:1;transition:transform var(--d2) ease}
+.app[data-state="think"] .core i:nth-child(3){animation:pulse var(--d3) ease-in-out infinite alternate}
+.app[data-state="listen"] .core i:nth-child(3){background:var(--gold);box-shadow:0 0 26px var(--gold);transform:scale(1.618)}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{to{transform:scale(1.618);opacity:.6}}
+h1{font:600 var(--t26)/1.2 var(--f-disp);letter-spacing:.16em;margin:0}
+.status{font:500 var(--t10)/1.618 var(--f-disp);letter-spacing:.2em;text-transform:uppercase;color:var(--mute)}
+.spk{margin-left:auto}
+.log{flex:1;min-height:0;overflow-y:auto;display:flex;flex-direction:column;gap:var(--s16);padding-right:var(--s6)}
+.msg{max-width:85%;padding:var(--s10) var(--s16);border-radius:10px;white-space:pre-wrap;overflow-wrap:anywhere}
+.msg.j{background:var(--panel);border:1px solid var(--line);align-self:flex-start}
+.msg.u{background:#12324a;align-self:flex-end}
+.msg .who{display:block;font:500 var(--t10)/1.618 var(--f-disp);letter-spacing:.2em;color:var(--cyan);text-transform:uppercase}
+.chips{display:flex;flex-wrap:wrap;gap:var(--s6)}
+.chip{font:500 13px/1.618 var(--f-body);color:var(--mute);background:transparent;border:1px solid var(--line);border-radius:26px;padding:var(--s6) var(--s16);cursor:pointer;transition:color var(--d1),border-color var(--d1)}
+.chip:hover{color:var(--fg);border-color:var(--cyan)}
+form{display:flex;gap:var(--s10);align-items:flex-end}
+textarea{flex:1;min-width:0;resize:none;background:var(--panel);color:var(--fg);border:1px solid var(--line);border-radius:10px;padding:var(--s10) var(--s16);font:inherit;max-height:110px}
+textarea:focus{outline:none;border-color:var(--cyan)}
+button{font:600 var(--t16)/1 var(--f-disp);cursor:pointer;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--fg);height:42px;min-width:42px;padding:0 var(--s16);transition:background var(--d1),border-color var(--d1)}
+button:focus-visible,.chip:focus-visible{outline:2px solid var(--cyan);outline-offset:2px}
+.send{background:var(--cyan);color:#04121b;border-color:var(--cyan)}
+.mic[aria-pressed="true"]{background:var(--gold);color:#1a1205;border-color:var(--gold)}
+.spk[aria-pressed="true"]{border-color:var(--cyan);color:var(--cyan)}
+.note{font-size:var(--t10);color:var(--mute);text-align:center;letter-spacing:.06em}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<div class="app" id="app" data-state="idle">
+  <header>
+    <div class="core" aria-hidden="true"><i></i><i></i><i></i></div>
+    <div><h1>JARVIS</h1><div class="status" id="status">Đang khởi động…</div></div>
+    <button class="spk" id="spk" type="button" aria-pressed="false" title="Bật/tắt giọng đọc" hidden>🔈</button>
+  </header>
+
+  <div class="log" id="log" aria-live="polite">
+    <div class="msg j"><span class="who">Jarvis</span>Chào anh. Tôi là Jarvis — trợ lý cho Noben, dự án web cao cấp và game học tập. Anh cần gì? Gõ hoặc bấm 🎙 để nói.</div>
+  </div>
+
+  <div class="chips" id="chips">
+    <button class="chip" type="button">Soạn tin nhắn chào bán Noben cho đại lý</button>
+    <button class="chip" type="button">Quy trình xử lý ao tôm khi trời mưa lớn</button>
+    <button class="chip" type="button">Ý tưởng màn chơi game học toán lớp 6</button>
+    <button class="chip" type="button">Checklist website cao cấp trước khi bàn giao</button>
+  </div>
+
+  <form id="f">
+    <button class="mic" id="mic" type="button" aria-pressed="false" title="Nói với Jarvis" hidden>🎙</button>
+    <textarea id="q" rows="1" placeholder="Hỏi Jarvis…" aria-label="Câu hỏi"></textarea>
+    <button class="send" id="send" type="submit">Gửi</button>
+  </form>
+  <div class="note">Jarvis có thể sai — kiểm tra lại liều lượng thuốc và số liệu kỹ thuật trước khi áp dụng.</div>
+</div>
+
+<script>
+const $=id=>document.getElementById(id);
+const app=$("app"),log=$("log"),q=$("q"),statusEl=$("status");
+const SYS=`Bạn là JARVIS, trợ lý riêng của chủ doanh nghiệp. Luôn trả lời bằng tiếng Việt, ngắn gọn, đi thẳng vào việc, xưng "tôi", gọi người dùng là "anh".
+Bối cảnh người dùng:
+- Kinh doanh thuốc/chế phẩm thủy sản thương hiệu Noben: dùng thuật ngữ nuôi trồng thủy sản chính xác, dễ hiểu với người nuôi tôm cá; không bịa thành phần hay liều lượng sản phẩm, nếu không chắc thì nói rõ.
+- Mục tiêu nghề nghiệp: high-end web builder (web cao cấp, tinh tế, tải nhanh, chạy tốt trên điện thoại).
+- Dự án: thế giới game mở cho học sinh, vừa học vừa chơi, mượt trên điện thoại.
+- Sở thích: BJJ, lặn biển, leo núi, camping.
+- Quy tắc công ty: áp dụng tỷ lệ vàng φ=1.618 cho mọi việc (bố cục 61.8/38.2, thang cỡ chữ/khoảng cách φ, nội dung ý chính ~61.8%).
+Câu trả lời sẽ có thể được đọc thành tiếng: tránh bảng, tránh markdown phức tạp; dùng gạch đầu dòng đơn giản khi cần.`;
+const hist=[];let sample=null,tts=null,dict=null,busy=false,speakOn=true;
+try{speakOn=localStorage.getItem("jv-speak")!=="0"}catch(e){}
+
+function setState(s,t){app.dataset.state=s;statusEl.textContent=t}
+function add(role,text){const d=document.createElement("div");d.className="msg "+role;
+  const w=document.createElement("span");w.className="who";w.textContent=role==="j"?"Jarvis":"Anh";
+  const b=document.createElement("span");b.textContent=text;d.append(w,b);log.append(d);log.scrollTop=log.scrollHeight;return b}
+
+async function ask(text){
+  text=text.trim();if(!text||busy)return;
+  if(!sample){add("j","Tôi chưa kết nối được bộ não lúc này. Mở trang trong claude.ai khi đã đăng nhập rồi thử lại.");return}
+  busy=true;q.value="";add("u",text);hist.push({role:"user",content:text});
+  const out=add("j","…");setState("think","Đang suy nghĩ");
+  const msgs=hist.slice(-12).map((m,i,a)=>i===0&&m.role==="user"?{role:"user",content:SYS+"\n\n---\n"+m.content}:m);
+  if(msgs[0].role!=="user")msgs.shift();
+  try{
+    const r=await sample(msgs,{cache:false,onText:({text})=>{out.textContent=text;log.scrollTop=log.scrollHeight}});
+    out.textContent=r.text;hist.push({role:"assistant",content:r.text});
+    if(tts&&speakOn){setState("speak","Đang nói");try{await tts.speak(r.text.slice(0,2000),{voice:"glassy",language:"vi"})}catch(e){}}
+  }catch(e){
+    hist.pop();
+    out.textContent=e&&e.code==="rate_limited"?"Hơi nhiều yêu cầu quá, anh đợi một chút rồi hỏi lại.":e&&e.code==="not_granted"?"Anh chưa cho phép Jarvis hỏi Claude. Mở menu Permissions của trang để bật.":"Có lỗi khi trả lời. Anh thử lại nhé.";
+  }
+  busy=false;setState("idle","Sẵn sàng");
+}
+
+$("f").addEventListener("submit",e=>{e.preventDefault();ask(q.value)});
+q.addEventListener("keydown",e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();ask(q.value)}});
+q.addEventListener("input",()=>{q.style.height="auto";q.style.height=Math.min(q.scrollHeight,110)+"px"});
+$("chips").addEventListener("click",e=>{if(e.target.classList.contains("chip"))ask(e.target.textContent)});
+
+const spk=$("spk");
+function paintSpk(){spk.setAttribute("aria-pressed",String(speakOn));spk.textContent=speakOn?"🔊":"🔈"}
+spk.addEventListener("click",()=>{speakOn=!speakOn;try{localStorage.setItem("jv-speak",speakOn?"1":"0")}catch(e){}if(!speakOn&&tts)tts.stop();paintSpk()});
+
+let base="",heard=false;const mic=$("mic");
+mic.addEventListener("click",()=>{
+  if(!dict)return;
+  if(mic.getAttribute("aria-pressed")==="true"){dict.stop();return}
+  if(tts)tts.stop();
+  base=q.value?q.value+" ":"";heard=false;
+  dict.start().catch(()=>{setState("idle","Không dùng được micro — anh gõ nhé")});
+});
+
+(async()=>{
+  const [s,t,d]=await Promise.all(["sample","tts","dictation"].map(n=>claude.use(n).catch(()=>null)));
+  sample=s;tts=t;dict=d;
+  if(tts){spk.hidden=false;paintSpk()}
+  if(dict){
+    mic.hidden=false;
+    dict.onPartial(({text})=>{q.value=base+text});
+    dict.onFinal(({text})=>{base+=text+" ";q.value=base;heard=true});
+    dict.onState(({state})=>{
+      const on=state==="listening";mic.setAttribute("aria-pressed",String(on));
+      if(on)setState("listen","Đang nghe");
+      else{setState("idle","Sẵn sàng");if(heard)ask(q.value)}
+    });
+  }
+  setState("idle",sample?"Sẵn sàng":"Chưa kết nối");
+})();
+</script>

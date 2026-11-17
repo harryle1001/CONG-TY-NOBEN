@@ -1,0 +1,6 @@
+__pycache__/
+.env
+memory/
+.google_token.json
+.google_token.tmp
+online/jarvis-online.html
