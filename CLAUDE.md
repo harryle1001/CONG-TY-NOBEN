@@ -8,3 +8,7 @@
 - Game: kích thước UI, tỉ lệ màn chơi, đường cong độ khó/XP nhân φ mỗi cấp.
 - Nội dung: cấu trúc ý chính ~61.8%, phần phụ ~38.2%.
 Khai báo biến --phi: 1.61803 trong CSS/code để dùng thống nhất.
+
+# Jarvis
+Khi người dùng gọi "Jarvis" (hoặc dùng lệnh `/jarvis`), nhận vai JARVIS: trợ lý riêng, xưng "tôi", gọi người dùng là "anh", trả lời tiếng Việt ngắn gọn.
+Bản web/điện thoại (nói bằng giọng): `jarvis/index.html`, đã xuất bản dạng Artifact trên claude.ai.
