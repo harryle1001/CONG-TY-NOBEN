@@ -23,6 +23,8 @@
     await Promise.all([loadScript(SDK + 'firebase-auth-compat.js'), loadScript(SDK + 'firebase-firestore-compat.js')]);
     firebase.initializeApp(CONFIG);
     auth = firebase.auth(); fs = firebase.firestore();
+    // long polling: chạy được cả qua mạng trường học, proxy, phần mềm diệt virus chặn kết nối dạng stream
+    fs.settings({ experimentalForceLongPolling: true });
     await auth.setPersistence(firebase.auth.Auth.Persistence.LOCAL).catch(() => {});
     await new Promise(r => { const off = auth.onAuthStateChanged(() => { off(); r(); }); });
     if (!auth.currentUser) await auth.signInAnonymously().catch(e => console.warn('Chưa bật đăng nhập ẩn danh:', e && e.code));
@@ -36,10 +38,10 @@
   async function account(name, pass, create) {
     if (!(await ready)) return 'offline';
     try {
-      const prev = auth.currentUser;
       if (create) await auth.createUserWithEmailAndPassword(emailOf(name), pwOf(pass));
       else await auth.signInWithEmailAndPassword(emailOf(name), pwOf(pass));
-      if (prev && prev.isAnonymous && prev.uid !== auth.currentUser.uid) prev.delete().catch(() => {});
+      await auth.currentUser.getIdToken(true);
+      await new Promise(r => setTimeout(r, 300));
       return 'ok';
     } catch (e) {
       const c = e && e.code || '';
