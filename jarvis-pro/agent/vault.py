@@ -87,6 +87,70 @@ def type_of(rel, ext):
     return "note"
 
 
+FORMAT_RANK = {".md": 0, ".markdown": 0, ".docx": 1, ".xlsx": 1, ".html": 2, ".htm": 2, ".doc": 3, ".xls": 3,
+               ".pdf": 4, ".txt": 5, ".csv": 5}
+
+
+def _shingles(t):
+    w = WORD.findall(norm(t))
+    return {hash(x) for x in zip(w, w[1:], w[2:], w[3:])}
+
+
+def _jaccard(a, b):
+    return len(a & b) / len(a | b) if a and b else 0.0
+
+
+def _path_key(src, rel):
+    """Where a file 'is', ignoring build/format folders: src/pages/x.html ~ x/index.html ~ PDF/x.pdf ~ x.docx."""
+    parts = [x.lower() for x in rel.with_suffix("").parts]
+    if parts and parts[-1] == "index" and len(parts) > 1: parts = parts[:-1]
+    parts = [x for x in parts if x not in ("src", "pages", "dist", "public", "word-doc", "pdf", "docx", "doc")]
+    return Path(src).name + "/" + "/".join(parts)
+
+
+def _name_key(rel):
+    return re.sub(r"\W+", "", norm(NUM_PREFIX.sub("", rel.stem, count=1)))
+
+
+def dedupe(docs):
+    """Drop duplicate documents; returns (kept docs, {dropped id: kept id}).
+    Only sure cases: identical text; the same document in another format or as a build copy; a name that
+    differs only by spaces/punctuation in the same folder; an English mirror (/en/) of a Vietnamese page.
+    Different products sharing one TCCS template are ~94% alike, so plain similarity is never enough."""
+    nid = lambda d: f"{Path(d[0]).name}/{d[1].as_posix()}"
+    pref = lambda d: ("/en/" in "/" + d[1].as_posix(), "src" in d[1].parts, FORMAT_RANK.get(d[1].suffix.lower(), 6),
+                      len(d[1].parts), nid(d))
+    dropped, keep = {}, {}
+    def group(key_fn, sim):
+        buckets = defaultdict(list)
+        for d in docs:
+            if nid(d) in dropped: continue
+            k = key_fn(d)
+            if k: buckets[k].append(d)
+        for ds in buckets.values():
+            if len(ds) < 2: continue
+            ds.sort(key=pref)
+            best = ds[0]
+            for d in ds[1:]:
+                if sim is None or _jaccard(sh(best), sh(d)) >= sim:
+                    dropped[nid(d)] = nid(best)
+    cache = {}
+    def sh(d):
+        k = nid(d)
+        if k not in cache: cache[k] = _shingles(d[2])
+        return cache[k]
+    group(lambda d: hash(" ".join(WORD.findall(norm(d[2])))), None)                    # identical text
+    group(lambda d: _path_key(d[0], d[1]), 0.45)                                        # other format / build copy
+    group(lambda d: Path(d[0]).name + "/" + d[1].parent.as_posix() + "/" + _name_key(d[1]), 0.9)  # "TP 66" ~ "TP66"
+    group(lambda d: (Path(d[0]).name + "/" + d[1].stem.lower()) if "kien-thuc" in d[1].parts
+          or "knowledge" in d[1].parts else None, None)    # en/knowledge/x ~ kien-thuc/x
+    kept = [d for d in docs if nid(d) not in dropped]
+    for k, v in list(dropped.items()):                                                  # point chains at the survivor
+        while v in dropped: v = dropped[v]
+        dropped[k] = v
+    return kept, dropped
+
+
 class Vault:
     def __init__(self):
         self.nodes, self.edges, self.text = [], set(), {}
@@ -95,7 +159,8 @@ class Vault:
     def build(self):
         by_path, by_title = {}, defaultdict(list)
         docs, raws, keys = [], {}, {}
-        for src, rel, text in data.iter_documents():
+        found, self.duplicates = dedupe(list(data.iter_documents()))
+        for src, rel, text in found:
             nid = f"{Path(src).name}/{rel.as_posix()}"
             ext = rel.suffix.lower()
             raw = data.read_raw(src, rel)
@@ -262,14 +327,15 @@ class Vault:
     def note(self, nid):
         n = self.by_id.get(nid)
         if not n: return None
-        return {**n, "text": self.text.get(nid, "")[:6000],
+        copies = sorted(k for k, v in self.duplicates.items() if v == nid)
+        return {**n, "text": self.text.get(nid, "")[:6000], "copies": copies,
                 "links": sorted(self.adj[nid], key=lambda x: -self.by_id[x]["degree"])[:30]}
 
 
 if __name__ == "__main__":
     v = Vault()
     print(f"mode: {data.mode()}  sources: {[str(s) for s in data.sources()]}")
-    print(f"nodes: {len(v.nodes)}  edges: {len(v.edges)}")
+    print(f"nodes: {len(v.nodes)}  edges: {len(v.edges)}  duplicates dropped: {len(v.duplicates)}")
     for t, c in Counter(n["type"] for n in v.nodes).most_common():
         print(f"  {t:<8} {c}")
     print("top 10 hubs:")
