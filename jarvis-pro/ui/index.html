@@ -15,6 +15,7 @@
     <span id="b-mode" class="badge">…</span>
     <span id="b-stats" class="badge dim">…</span>
     <span id="b-model" class="badge dim">…</span>
+    <span id="b-voice" class="badge dim">…</span>
   </div>
 </header>
 
@@ -35,6 +36,7 @@
       <i></i><i></i><i></i><b></b>
     </div>
     <div id="state" class="state">IDLE</div>
+    <div id="bars" class="bars" aria-hidden="true"></div>
   </section>
   <section>
     <h2>FILTER <button id="f-all" class="link">tất cả</button></h2>
@@ -43,14 +45,15 @@
 </aside>
 
 <footer class="ask">
+  <div id="caption" class="caption" hidden></div>
   <div id="reply" class="reply" hidden></div>
   <form id="ask-form" autocomplete="off">
     <input id="ask" type="text" spellcheck="false" aria-label="Hỏi Jarvis">
     <button type="submit" class="go" aria-label="Gửi">↵</button>
   </form>
   <nav class="tools">
-    <button disabled title="Giọng nói — bước 4">MIC</button>
-    <button disabled title="Giọng nói — bước 4">MUTE</button>
+    <button id="t-mic" disabled title="Bấm một lần rồi cứ nói. Space/Esc: ngắt lời Jarvis">MIC</button>
+    <button id="t-mute" disabled title="Tắt/bật giọng Jarvis">MUTE</button>
     <button id="t-brief" title="Lịch, thư chưa đọc, việc trễ hạn">BRIEF</button>
     <button id="t-plan" title="Tối đa 5 việc, ưu tiên việc ra tiền">PLAN</button>
     <button id="t-inbox" title="Hộp thư (chỉ đọc)">INBOX</button>
@@ -60,6 +63,7 @@
 
 <div id="error" class="error" hidden></div>
 <script src="graph.js"></script>
+<script src="voice.js"></script>
 <script src="app.js"></script>
 </body>
 </html>

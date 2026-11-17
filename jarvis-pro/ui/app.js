@@ -1,4 +1,4 @@
-// UI wiring for step 3: graph, inspector, hubs, filters + text conversation and tool cards. No voice yet.
+// UI wiring: graph, inspector, hubs, filters, conversation + tool cards. Voice lives in voice.js.
 "use strict";
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -36,6 +36,10 @@ async function status() {
   try {
     const s = await api("/api/status");
     setModel(s.model, null);
+    const v = $("#b-voice");
+    v.textContent = s.voice ? "VOICE" : "VOICE OFF"; v.className = "badge " + (s.voice ? "dim" : "warn");
+    v.title = s.voice ? "ElevenLabs connected" : "No ELEVENLABS_API_KEY: text only";
+    Voice.init(s.voice);
   } catch (e) { setModel(null, "status: " + e.message); }
 }
 function setModel(model, error) {
@@ -105,17 +109,23 @@ async function post(path, body) {
   if (!r.ok) throw new Error(`${path} → HTTP ${r.status}`);
   return r.json();
 }
+// One round trip: think, show the card, speak the line, then hand the mic back if a voice conversation is running.
 async function run(label, path, body) {
-  setState("thinking"); $("#error").hidden = true;
+  if (Voice.state === "speaking") Voice.bargeIn();
+  const wasOn = Voice.on;
+  if (wasOn) Voice.discard();          // a typed question while listening: drop the half-recorded turn
+  Voice.set("thinking"); $("#error").hidden = true;
   showReply(label, null, []);
   try {
     const d = await post(path, body);
     if (d.model_error) setModel(null, d.model_error);
     else if (path === "/api/ask") setModel(d.model, null);
     showReply(label, d, d.cards || []);
+    await Voice.say(d.say);
   } catch (e) { fail("Jarvis không trả lời: " + e.message); $("#reply").hidden = true; }
-  setState("idle");
+  if (Voice.on) Voice.listen(); else Voice.set("idle");
 }
+const ask = text => run(text, "/api/ask", { text, session: SESSION });
 function showReply(q, d, cards) {
   const box = $("#reply"); box.hidden = false;
   const who = d ? (d.model ? "" : `<span class="tag">${d.model_error ? "MODEL ERROR · " : ""}NO MODEL · keyword routing</span>`) : "";
@@ -135,7 +145,7 @@ $("#ask-form").addEventListener("submit", e => {
   e.preventDefault();
   const q = $("#ask").value.trim(); if (!q || !G) return;
   $("#ask").value = "";
-  run(q, "/api/ask", { text: q, session: SESSION });
+  ask(q);
 });
 $("#t-brief").onclick = () => run("Brief me", "/api/tool/brief_me");
 $("#t-plan").onclick = () => run("Plan my day", "/api/tool/plan_day");

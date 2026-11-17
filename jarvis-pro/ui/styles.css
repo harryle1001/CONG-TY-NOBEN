@@ -109,6 +109,18 @@ h2 { font-size: var(--f1); letter-spacing: .24em; color: var(--muted); font-weig
 .card .link-node { cursor: pointer; }
 .card .link-node:hover b { color: var(--accent); }
 .card .note { font-size: 12px; color: var(--muted); margin-top: var(--s2); white-space: pre-wrap; }
+.reactor { --lvl: 0; }
+.reactor.listening i:nth-child(1) { border-color: rgba(111, 227, 255, calc(.25 + var(--lvl) * .75));
+  transform: scale(calc(1 + var(--lvl) * .1)); transition: transform 50ms linear; }
+.reactor.listening b { animation: none; transform: scale(calc(.8 + var(--lvl) * .5)); }
+.reactor.speaking b { animation: none; transform: scale(calc(.9 + var(--lvl) * .7)); opacity: calc(.7 + var(--lvl) * .3); }
+.reactor.speaking i:nth-child(2) { border-color: rgba(111, 227, 255, .7); }
+.bars { display: flex; gap: 3px; align-items: center; height: 26px; }
+.bars i { width: 3px; height: 100%; background: var(--accent); border-radius: 2px; opacity: .8;
+  transform: scaleY(.06); transition: transform 60ms linear; }
+.caption { text-align: center; font-size: var(--f3); color: #eaf6ff; text-shadow: 0 0 16px rgba(111, 227, 255, .3); }
+.caption.dim { color: var(--muted); font-size: var(--f2); letter-spacing: .1em; }
+.tools button.on { color: var(--bg); background: var(--accent); border-color: var(--accent); }
 .reactor.thinking i:nth-child(2) { animation-duration: 2.62s; }
 .reactor.thinking i:nth-child(3) { animation-duration: 1.62s; }
 .reactor.thinking b { animation-duration: .81s; }

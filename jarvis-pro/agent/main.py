@@ -1,4 +1,4 @@
-"""JARVIS HTTP server. Stdlib only. Step 3: graph UI + tools + text conversation (no voice yet).
+"""JARVIS HTTP server. Stdlib only. Step 4: graph UI + tools + conversation + ElevenLabs voice.
 
 Run:  python3 agent/main.py        -> http://localhost:8618
 """
@@ -23,7 +23,7 @@ def load_env():
 
 load_env()
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-import vault, tools, llm, memory
+import vault, tools, llm, memory, voice
 UI = ROOT / "ui"
 HOST = os.environ.get("JARVIS_HOST", "127.0.0.1")
 PORT = int(os.environ.get("JARVIS_PORT", "8618"))
@@ -33,6 +33,7 @@ V = vault.Vault()
 print(f"[jarvis] indexed {len(V.nodes)} nodes / {len(V.edges)} edges in {time.time() - t0:.1f}s ({vault.data.mode()})")
 T = tools.Tools(V)
 print(f"[jarvis] model: {llm.model_name() or 'NONE (keyword routing)'}")
+print(f"[jarvis] voice: {'ElevenLabs' if voice.available() else 'OFF (no ELEVENLABS_API_KEY)'}")
 HISTORY_TURNS = 10
 SESSIONS, LOCK = {}, threading.Lock()
 
@@ -99,7 +100,7 @@ class H(BaseHTTPRequestHandler):
         if p == "/api/search":
             return self._send(200, {"results": V.search(q.get("q", ""), int(q.get("k", 8)))})
         if p == "/api/status":
-            return self._send(200, {"mode": vault.data.mode(), "model": llm.model_name(), "voice": False, "step": 3,
+            return self._send(200, {"mode": vault.data.mode(), "model": llm.model_name(), "voice": voice.available(), "step": 4,
                                     "inbox": bool(vault.data.inbox_dir()), "calendar": bool(vault.data.calendar_file())})
         if p == "/api/memory":
             return self._send(200, {"facts": memory.all_facts()})
@@ -117,8 +118,16 @@ class H(BaseHTTPRequestHandler):
         # other websites must not drive this API: JSON content-type forces a CORS preflight (never answered),
         # and the Host check blocks DNS rebinding.
         host = (self.headers.get("Host") or "").rsplit(":", 1)[0]
-        if host not in ("localhost", "127.0.0.1", "[::1]") or "application/json" not in (self.headers.get("Content-Type") or ""):
+        ctype = self.headers.get("Content-Type") or ""
+        if host not in ("localhost", "127.0.0.1", "[::1]") or not (ctype.startswith("application/json") or ctype.startswith("audio/")):
             return self._send(403, {"error": "forbidden"})
+        if u.path == "/api/listen":   # raw audio body -> {text}
+            n = int(self.headers.get("Content-Length", 0))
+            if not ctype.startswith("audio/") or n > 12_000_000: return self._send(413, {"error": "bad audio"})
+            try:
+                return self._send(200, {"text": voice.listen(self.rfile.read(n), ctype)})
+            except voice.VoiceError as e:
+                return self._send(502, {"error": str(e)})
         try:
             n = int(self.headers.get("Content-Length", 0))
             if n > 64_000: return self._send(413, {"error": "too large"})
@@ -129,6 +138,11 @@ class H(BaseHTTPRequestHandler):
             text = str(body.get("text", "")).strip()[:2000]
             if not text: return self._send(400, {"error": "empty"})
             return self._send(200, ask(str(body.get("session", "default"))[:64], text))
+        if u.path == "/api/speak":   # {text} -> mp3
+            try:
+                return self._send(200, voice.speak(body.get("text", "")), "audio/mpeg")
+            except voice.VoiceError as e:
+                return self._send(502, {"error": str(e)})
         if u.path.startswith("/api/tool/"):
             name = u.path.rsplit("/", 1)[-1]
             if name not in {"brief_me", "plan_day", "read_inbox"}: return self._send(404, {"error": "unknown tool"})
