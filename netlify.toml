@@ -1,0 +1,3 @@
+[build]
+  publish = "rubik-school-2d"
+  command = ""
