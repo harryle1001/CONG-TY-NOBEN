@@ -1,0 +1,74 @@
+[
+ {
+  "id": "m0",
+  "from": "Đại lý Cửu Long",
+  "date": "2026-11-15",
+  "subject": "Báo giá nguyên liệu tháng 12",
+  "unread": true,
+  "body": "Chào anh, về Algae Stop: cần trả lời trước cuối tuần. (demo)"
+ },
+ {
+  "id": "m1",
+  "from": "Lan (khách lạ)",
+  "date": "2026-11-14",
+  "subject": "Hỏi giá Vita Shell",
+  "unread": false,
+  "body": "Chào anh, về Vita Shell: cần trả lời trước cuối tuần. (demo)"
+ },
+ {
+  "id": "m2",
+  "from": "Đại lý Minh Phát",
+  "date": "2026-11-10",
+  "subject": "Hỏi giá Zeo Bind",
+  "unread": false,
+  "body": "Chào anh, về Zeo Bind: cần trả lời trước cuối tuần. (demo)"
+ },
+ {
+  "id": "m3",
+  "from": "HTX Rạch Gốc",
+  "date": "2026-11-12",
+  "subject": "Hỏi giá Mineral Plus",
+  "unread": false,
+  "body": "Chào anh, về Mineral Plus: cần trả lời trước cuối tuần. (demo)"
+ },
+ {
+  "id": "m4",
+  "from": "Supplier Bio-Chem Ltd",
+  "date": "2026-11-12",
+  "subject": "Báo giá nguyên liệu tháng 12",
+  "unread": true,
+  "body": "Chào anh, về Algae Stop: cần trả lời trước cuối tuần. (demo)"
+ },
+ {
+  "id": "m5",
+  "from": "Đại lý Cửu Long",
+  "date": "2026-11-13",
+  "subject": "Hỏi giá Lumen Oxy",
+  "unread": true,
+  "body": "Chào anh, về Lumen Oxy: cần trả lời trước cuối tuần. (demo)"
+ },
+ {
+  "id": "m6",
+  "from": "Đại lý Cửu Long",
+  "date": "2026-11-13",
+  "subject": "Đề nghị gia hạn công nợ",
+  "unread": false,
+  "body": "Chào anh, về Aqua Probio: cần trả lời trước cuối tuần. (demo)"
+ },
+ {
+  "id": "m7",
+  "from": "HTX Rạch Gốc",
+  "date": "2026-11-14",
+  "subject": "Hỏi giá Liver Guard",
+  "unread": true,
+  "body": "Chào anh, về Liver Guard: cần trả lời trước cuối tuần. (demo)"
+ },
+ {
+  "id": "m8",
+  "from": "HTX Rạch Gốc",
+  "date": "2026-11-14",
+  "subject": "Báo giá nguyên liệu tháng 12",
+  "unread": true,
+  "body": "Chào anh, về Liver Guard: cần trả lời trước cuối tuần. (demo)"
+ }
+]

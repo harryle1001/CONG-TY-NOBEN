@@ -3,7 +3,9 @@
 JARVIS_DEMO=1 (default) -> invented fixtures in data/demo/
 JARVIS_DEMO=0           -> the folders in JARVIS_SOURCES (read-only, never written)
 """
-import io, os, re, zipfile, zlib, html as htmllib
+import email, imaplib, io, json, os, re, urllib.request, zipfile, zlib, html as htmllib
+from datetime import date, datetime
+from email.header import decode_header, make_header
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -115,3 +117,56 @@ def read_raw(src, rel):
     if p.suffix.lower() in (".html", ".htm", ".md", ".markdown"):
         return p.read_text("utf-8", "replace")
     return ""
+
+
+# ---------- inbox & calendar (read-only) ----------
+def inbox(limit=15):
+    """Recent mail. Demo: fixtures. Real: IMAP, read-only (BODY.PEEK never marks as read)."""
+    if DEMO:
+        f = ROOT / "data" / "demo" / "_inbox.json"
+        return json.loads(f.read_text("utf-8")) if f.exists() else []
+    host, user, pw = (os.environ.get(k, "") for k in ("JARVIS_IMAP_HOST", "JARVIS_IMAP_USER", "JARVIS_IMAP_PASSWORD"))
+    if not (host and user and pw):
+        raise RuntimeError("inbox not configured (JARVIS_IMAP_HOST / USER / PASSWORD in .env)")
+    out = []
+    with imaplib.IMAP4_SSL(host) as m:
+        m.login(user, pw)
+        m.select("INBOX", readonly=True)
+        _, ids = m.search(None, "ALL")
+        ids = ids[0].split()[-limit:]
+        _, unseen = m.search(None, "UNSEEN")
+        unseen = set(unseen[0].split())
+        for i in reversed(ids):
+            _, d = m.fetch(i, "(BODY.PEEK[HEADER.FIELDS (FROM SUBJECT DATE)] BODY.PEEK[TEXT]<0.600>)")
+            hdr = email.message_from_bytes(d[0][1])
+            body = d[1][1].decode("utf-8", "replace") if len(d) > 1 and isinstance(d[1], tuple) else ""
+            dec = lambda v: str(make_header(decode_header(v or "")))
+            out.append({"id": i.decode(), "from": dec(hdr["From"]), "subject": dec(hdr["Subject"]),
+                        "date": hdr["Date"] or "", "unread": i in unseen, "body": re.sub(r"\s+", " ", body)[:400]})
+    return out
+
+
+def calendar():
+    """Events. Demo: fixtures. Real: an .ics URL or file (JARVIS_ICS), read-only."""
+    if DEMO:
+        f = ROOT / "data" / "demo" / "_calendar.json"
+        return json.loads(f.read_text("utf-8")) if f.exists() else []
+    src = os.environ.get("JARVIS_ICS", "")
+    if not src:
+        raise RuntimeError("calendar not configured (JARVIS_ICS in .env)")
+    raw = urllib.request.urlopen(src, timeout=15).read().decode("utf-8", "replace") if src.startswith("http") \
+        else Path(src).expanduser().read_text("utf-8", "replace")
+    raw = re.sub(r"\r?\n[ \t]", "", raw)
+    events = []
+    for blk in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", raw, re.S):
+        get = lambda k: (re.search(rf"^{k}[^:]*:(.*)$", blk, re.M) or [None, ""])[1].strip()
+        st = get("DTSTART")
+        if len(st) < 8:
+            continue
+        events.append({"date": f"{st[:4]}-{st[4:6]}-{st[6:8]}", "time": f"{st[9:11]}:{st[11:13]}" if "T" in st else "",
+                       "title": get("SUMMARY").replace("\\,", ",")})
+    return sorted(events, key=lambda e: (e["date"], e["time"]))
+
+
+def today():
+    return os.environ.get("JARVIS_TODAY") or (("2026-11-18") if DEMO else date.today().isoformat())

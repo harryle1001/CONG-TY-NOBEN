@@ -74,5 +74,80 @@ Graph.onPath = (ids, a, b) => {
   }
 })();
 
-$("ask").addEventListener("submit", (e) => { e.preventDefault(); toast("Conversation arrives in step 3."); });
-["mic", "mute", "brief", "plan", "memory"].forEach(id => $(id).addEventListener("click", () => toast(`${id.toUpperCase()} arrives in a later step.`)));
+// ---------------- conversation ----------------
+const reactor = (st) => { $("reactor").dataset.state = st; $("state").textContent = st.toUpperCase(); };
+window.Jarvis = { reactor, onReply: null };
+
+function row(left, right, id) {
+  const d = document.createElement("div"); d.className = "row" + (id ? " link" : "");
+  d.innerHTML = `<span>${esc(left)}</span>${right ? `<span class="sub">${esc(right)}</span>` : ""}`;
+  if (id) d.onclick = () => Graph.focus(id);
+  return d;
+}
+
+function renderCard(c) {
+  const el = document.createElement("div"); el.className = "card" + (c.kind === "error" || c.kind === "notice" ? " error" : "");
+  el.innerHTML = `<div class="k">${esc(c.kind)} · ${esc(c.title || "")}</div>`;
+  const ids = [];
+  if (c.kind === "search") {
+    if (!c.hits.length) el.append(row("No matching file.", ""));
+    c.hits.forEach(h => { ids.push(h.id); el.append(row(h.title, h.id.split("/")[0], h.id));
+      const s = document.createElement("div"); s.className = "snip"; s.textContent = h.snippet; el.append(s); });
+  } else if (c.kind === "inbox") {
+    c.mails.forEach(m => { el.append(row(`${m.unread ? "● " : ""}${m.from} — ${m.subject}`, m.known ? "in files" : "new", m.known)); if (m.known) ids.push(m.known); });
+  } else if (c.kind === "brief") {
+    c.today.forEach(e => el.append(row(e.title, e.time)));
+    c.slipped.forEach(e => el.append(row("Slipped: " + e.title, e.date)));
+    c.unread.forEach(m => el.append(row("● " + m.subject, m.from)));
+    (c.errors || []).forEach(x => el.append(row("Unavailable — " + x, "")));
+  } else if (c.kind === "plan") {
+    c.items.forEach((it, i) => el.append(row(`${i + 1}. ${it.task}`, it.why)));
+  } else if (c.kind === "web") {
+    const p = document.createElement("div"); p.className = "snip"; p.textContent = c.text; el.append(p);
+    c.sources.forEach(s => el.append(row(s.title, new URL(s.url).hostname)));
+  } else if (c.kind === "memory") {
+    el.append(row(c.text, c.file));
+  } else if (c.kind === "facts") {
+    if (!c.facts.length) el.append(row("Memory is empty.", ""));
+    c.facts.forEach(f => el.append(row(f.fact, f.file)));
+  } else {
+    el.append(row(c.text || "", ""));
+  }
+  return { el, ids };
+}
+
+function showReply(res) {
+  $("reply").hidden = false; $("say").textContent = res.say || "";
+  const box = $("cards"); box.innerHTML = ""; let ids = [];
+  (res.cards || []).forEach(c => { const r = renderCard(c); box.append(r.el); ids = ids.concat(r.ids); });
+  Graph.highlight(ids);
+  setModelBadge(res.model, res.error);
+}
+
+function setModelBadge(ok, err) {
+  const b = $("modelBadge"); b.textContent = ok ? "MODEL ONLINE" : "MODEL MISSING"; b.classList.toggle("warn", !ok);
+  if (err) toast("Model unavailable: " + err.slice(0, 160));
+}
+
+let busy = false;
+async function send(text) {
+  text = text.trim(); if (!text || busy) return;
+  busy = true; reactor("thinking"); $("caption").textContent = text; $("q").value = "";
+  try {
+    const r = await fetch("/api/ask", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text }) });
+    if (!r.ok) throw new Error("server " + r.status);
+    const res = await r.json(); showReply(res);
+    if (window.Jarvis.onReply) await window.Jarvis.onReply(res);
+  } catch (e) { toast("Jarvis didn't answer: " + e.message); }
+  busy = false; reactor("idle"); $("caption").textContent = "";
+}
+window.Jarvis.send = send;
+
+$("ask").addEventListener("submit", (e) => { e.preventDefault(); send($("q").value); });
+$("brief").onclick = () => send("Brief me.");
+$("plan").onclick = () => send("Plan my day.");
+$("memory").onclick = async () => {
+  try { showReply({ say: "Here's what I remember, sir.", cards: [{ kind: "facts", title: "memory/", facts: await getJSON("/api/memory") }], model: true }); }
+  catch (e) { toast("Couldn't read memory: " + e.message); }
+};
+fetch("/api/status").then(r => r.json()).then(s => setModelBadge(s.model)).catch(() => {});
