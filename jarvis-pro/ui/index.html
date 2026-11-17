@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>JARVIS</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<canvas id="graph"></canvas>
+
+<aside class="panel left" id="left">
+  <div class="eyebrow">Inspector</div>
+  <div id="inspector" class="inspector"><p class="mute">Click a node to open it.</p></div>
+  <div class="eyebrow">Top hubs</div>
+  <ol id="hubs" class="hubs"></ol>
+</aside>
+
+<aside class="panel right" id="right">
+  <div class="reactor" id="reactor" data-state="idle">
+    <svg viewBox="0 0 110 110" aria-hidden="true">
+      <circle cx="55" cy="55" r="52" class="ring r1"/>
+      <circle cx="55" cy="55" r="42" class="ring r2"/>
+      <circle cx="55" cy="55" r="26" class="ring r3"/>
+      <circle cx="55" cy="55" r="10" class="core"/>
+    </svg>
+    <div class="state" id="state">IDLE</div>
+  </div>
+  <div class="eyebrow">Filter</div>
+  <ul id="filters" class="filters"></ul>
+  <div class="badge" id="mode"></div>
+</aside>
+
+<form class="ask" id="ask" autocomplete="off">
+  <div class="bars" id="bars" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></div>
+  <input id="q" type="text" aria-label="Ask Jarvis">
+  <div class="btns">
+    <button type="button" id="mic" title="Mic (Space)">MIC</button>
+    <button type="button" id="mute" title="Mute">MUTE</button>
+    <button type="button" id="brief">BRIEF</button>
+    <button type="button" id="plan">PLAN</button>
+    <button type="button" id="memory">MEMORY</button>
+  </div>
+</form>
+<div class="caption" id="caption"></div>
+<div class="toast" id="toast" hidden></div>
+
+<script src="graph.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

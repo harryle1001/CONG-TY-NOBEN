@@ -15,9 +15,14 @@ def norm(s):
     return "".join(c for c in s if unicodedata.category(c) != "Mn")
 
 
+GENERIC = {"index", "readme", "footer", "header", "main", "app", "page", "claude", "notes", "style", "styles", "home", "about"}
+
+
 def title_of(rel):
-    t = Path(rel).stem
-    return re.sub(r"^\s*\d+\s*[-_.]\s*", "", t).strip() or t
+    t = re.sub(r"^\s*\d+\s*[-_.]\s*", "", Path(rel).stem).strip() or Path(rel).stem
+    if t.lower() in GENERIC and Path(rel).parent.name:
+        t = f"{Path(rel).parent.name}/{t}"
+    return t
 
 
 def type_of(rel, ext):
@@ -64,7 +69,7 @@ class Vault:
                     self.nodes.append({"id": fid, "title": parts[i - 1], "type": "folder", "path": fid, "size": 0})
                 self.edges.add(tuple(sorted((child, fid))))
                 child = fid
-        titles = [(t, ids) for t, ids in by_title.items() if len(t) >= 5]
+        titles = [(t, ids) for t, ids in by_title.items() if len(t) >= 5 and "/" not in t]
         for src, rel, text in docs:
             nid = f"{Path(src).name}/{rel.as_posix()}"
             raw = data.read_raw(src, rel)
