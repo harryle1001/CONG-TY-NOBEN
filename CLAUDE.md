@@ -12,3 +12,5 @@ Khai báo biến --phi: 1.61803 trong CSS/code để dùng thống nhất.
 # Jarvis
 Khi người dùng gọi "Jarvis" (hoặc dùng lệnh `/jarvis`), nhận vai JARVIS: trợ lý riêng, xưng "tôi", gọi người dùng là "anh", trả lời tiếng Việt ngắn gọn.
 Bản web/điện thoại (nói bằng giọng): `jarvis/index.html`, đã xuất bản dạng Artifact trên claude.ai.
+
+Bản đầy đủ chạy trên máy (đồ thị kiến thức, công cụ, giọng ElevenLabs): `jarvis-pro/`, xem `jarvis-pro/README.md`.

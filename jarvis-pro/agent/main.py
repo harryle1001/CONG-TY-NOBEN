@@ -35,16 +35,25 @@ T = tools.Tools(V)
 print(f"[jarvis] model: {llm.model_name() or 'NONE (keyword routing)'}")
 print(f"[jarvis] voice: {'ElevenLabs' if voice.available() else 'OFF (no ELEVENLABS_API_KEY)'}")
 HISTORY_TURNS = 10
-SESSIONS, LOCK = {}, threading.Lock()
+SESSIONS, PENDING_WEB, LOCK = {}, {}, threading.Lock()
+YES = __import__("re").compile(r"^\s*(yes|yeah|yep|ok|okay|sure|go( ahead)?|do it|please do|có|co|ừ|uh|ok luôn|đồng ý|dong y|làm đi|lam di|tìm đi|tim di)\b", 2)
 
 
 def ask(sid, text):
     with LOCK:
         hist = SESSIONS.setdefault(sid, deque(maxlen=HISTORY_TURNS * 2))
-    cards, used = [], []
+    cards, used, said = [], [], []
+    # Guardrail "never spend": a paid web search runs only after sir says yes to the question we asked last turn.
+    approved = bool(PENDING_WEB.pop(sid, None)) and bool(YES.match(text))
 
     def run_tool(name, args):
+        if name == "research_web" and not approved:
+            PENDING_WEB[sid] = args.get("query", "")
+            used.append("research_web (awaiting yes)")
+            return {"needs_confirmation": True,
+                    "spoken_hint": f"That needs a paid web search for “{args.get('query', '')}”. Shall I, sir?"}, False
         res, err = T.run(name, args)
+        if name == "remember" and not err: said.append(res["say"])
         if res.get("card"): cards.append(res["card"])
         used.append(name)
         # the model sees the card too, so it knows what is already on screen and won't read it out
@@ -61,11 +70,15 @@ def ask(sid, text):
         if name:
             res, _ = T.run(name, args)
             say = res["say"]
+            said.clear()
             if res.get("card"): cards.append(res["card"])
             used.append(name)
         else:
             say = reply
     say = say or "…"
+    # Guardrail "never write to memory silently": the exact write is always spoken, whatever the model chose to say.
+    for line in said:
+        if line not in say: say = (say + " " + line).strip()
     hist.append({"role": "user", "text": text})
     hist.append({"role": "assistant", "text": say})
     return {"say": say, "cards": cards, "tools": used, "model": model, "model_error": error}

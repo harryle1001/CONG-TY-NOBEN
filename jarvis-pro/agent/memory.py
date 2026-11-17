@@ -23,6 +23,8 @@ def write(fact):
     i = 2
     while p.exists():
         p = DIR / f"{day}-{_slug(fact)}-{i}.md"; i += 1
+    if p.resolve().parent != DIR.resolve():   # writes land in memory/ and nowhere else
+        raise ValueError("memory path escaped memory/")
     p.write_text(f"# {day}\n\n{fact}\n", "utf-8")
     return p.relative_to(DIR.parent).as_posix()
 
