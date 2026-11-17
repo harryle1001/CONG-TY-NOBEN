@@ -11,6 +11,8 @@ def load_env():
     f = ROOT / ".env"
     if not f.exists():
         return
+    if os.name == "posix" and f.stat().st_mode & 0o077:
+        print("[jarvis] WARNING: .env is readable by other users. Run: chmod 600 .env")
     for line in f.read_text("utf-8").splitlines():
         m = re.match(r"\s*([A-Z_][A-Z0-9_]*)\s*=\s*(.*)\s*$", line)
         if m and m.group(1) not in os.environ:
