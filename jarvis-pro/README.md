@@ -198,7 +198,7 @@ jarvis-pro/
 Dựng lại sau khi dữ liệu thay đổi:
 
 ```bash
-python3 online/build.py /đường/dẫn/thư-mục-nguồn
+python3 online/build.py /thư-mục-1 /thư-mục-2 ...
 ```
 
 Lệnh này tạo `online/jarvis-online.html`, rồi xuất bản file đó lên claude.ai. Chỉ trỏ vào thư mục mà anh chấp nhận để nội dung nằm trong trang.

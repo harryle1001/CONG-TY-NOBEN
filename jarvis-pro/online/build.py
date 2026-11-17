@@ -1,6 +1,6 @@
 """Build the online JARVIS page (claude.ai Artifact) from the shared UI code + an index of a source folder.
 
-  python3 online/build.py /path/to/source [out.html]
+  python3 online/build.py /path/to/source [/more/sources ...] [out.html]
 
 Embeds: ui/styles.css, ui/graph.js, and the knowledge index (titles, links, text excerpts) of the source folder.
 Only point it at folders you are happy to have inside the published page.
@@ -10,9 +10,9 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent
 ROOT = HERE.parent
-src = sys.argv[1] if len(sys.argv) > 1 else str(ROOT.parent)
-out = Path(sys.argv[2]) if len(sys.argv) > 2 else HERE / "jarvis-online.html"
-os.environ["JARVIS_DEMO"] = "0"; os.environ["JARVIS_SOURCES"] = src
+srcs = [a for a in sys.argv[1:] if not a.endswith(".html")] or [str(ROOT.parent)]
+out = next((Path(a) for a in sys.argv[1:] if a.endswith(".html")), HERE / "jarvis-online.html")
+os.environ["JARVIS_DEMO"] = "0"; os.environ["JARVIS_SOURCES"] = os.pathsep.join(srcs)
 sys.path.insert(0, str(ROOT / "agent"))
 import vault
 

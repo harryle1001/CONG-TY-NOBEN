@@ -75,7 +75,7 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;"
 const norm = s => String(s).toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/đ/g, "d");
 const KB = JSON.parse($("#kb").textContent);
 const HISTORY_TURNS = 10;
-const SILENCE_MS = 900;          // after the last word, wait this long, then send the turn
+const SILENCE_MS = 2000;         // after the last word heard (partial or final), wait this long, then send the turn
 const GMAIL = "Gmail", GCAL = "Google Calendar";
 const EXAMPLES = ["Sản phẩm nào xử lý khí độc NH3?", "TCCS của Hepatic là gì?", "Brief me", "Giá Aqua Biotic bao nhiêu?", "Plan my day"];
 let G, sample = null, tts = null, dict = null, mcp = null, db = null, uid = null, muted = false, busy = false;
@@ -303,21 +303,31 @@ function inspect(n, path) {
 }
 
 // ---------- voice: claude.ai dictation in, claude.ai voice out ----------
-let finalText = "", silenceT = null, listening = false;
-function stopListening() { clearTimeout(silenceT); if (dict && listening) dict.stop().catch(() => {}); listening = false; $("#t-mic").classList.remove("on"); }
+let finalText = "", partialText = "", silenceT = null, listening = false;
+function stopListening() { clearTimeout(silenceT); const was = listening; listening = false; if (dict && was) dict.stop().catch(() => {}); $("#t-mic").classList.remove("on"); }
 function micClick() {
   if (tts && tts.active()) { tts.stop().catch(() => {}); return; }        // barge-in
   if (!dict) return fail("Nhận giọng nói chỉ có trên Chrome/Edge hoặc app Claude desktop. Anh gõ chữ được.");
   if (listening) { stopListening(); return; }
-  finalText = "";
+  finalText = ""; partialText = "";
   dict.start({}).catch(e => { listening = false; $("#t-mic").classList.remove("on"); setState("idle");
     if (e && e.code === "not_granted") { dict = null; fail("Micro bị từ chối cho trang này. Mở QUYỀN để bật lại, hoặc gõ chữ."); }
     else if (e && e.code !== "stopped") fail("Không nghe được: " + (e.message || e.code)); });
   listening = true; $("#t-mic").classList.add("on"); setState("listening"); caption("Listening…", "dim");
 }
+// Every word heard (live guess or settled phrase) restarts the countdown; 2 s of quiet sends the turn.
 function endTurnSoon() {
   clearTimeout(silenceT);
-  silenceT = setTimeout(() => { const t = finalText.trim(); if (!t) return; stopListening(); finalText = ""; caption("“" + t + "”"); ask(t); }, SILENCE_MS);
+  silenceT = setTimeout(sendHeard, SILENCE_MS);
+}
+async function sendHeard() {
+  if (!listening) return;
+  listening = false; $("#t-mic").classList.remove("on");
+  try { await dict.stop(); } catch (e) {}            // let the last words settle into a final phrase
+  const t = (finalText + " " + partialText).trim();
+  finalText = ""; partialText = "";
+  if (!t) { caption("Didn't catch that.", "dim"); setState("idle"); return; }
+  caption("“" + t + "”"); ask(t);
 }
 async function speak(text) {
   if (!tts || muted || !text) return;
@@ -338,9 +348,16 @@ async function boot() {
   c.use("tts").then(t => { tts = t; if (!t) $("#t-mute").hidden = true; else t.onState(({ state }) => { if (state === "speaking") setState("speaking"); }); });
   c.use("dictation").then(d => {
     dict = d; if (!d) { $("#t-mic").title = "Nhận giọng nói cần Chrome/Edge hoặc app Claude desktop"; return; }
-    d.onPartial(({ text }) => { caption((finalText + " " + text).trim(), "partial"); clearTimeout(silenceT); });
-    d.onFinal(({ text }) => { finalText = (finalText + " " + text).trim(); caption(finalText); endTurnSoon(); });
-    d.onState(({ state, reason }) => { if (state === "idle") { listening = false; $("#t-mic").classList.remove("on"); if (!busy) setState("idle"); if (reason === "not_granted") fail("Micro bị từ chối."); } });
+    d.onPartial(({ text }) => { partialText = text; caption((finalText + " " + text).trim(), "partial"); if (listening) endTurnSoon(); });
+    d.onFinal(({ text }) => { finalText = (finalText + " " + text).trim(); partialText = ""; caption(finalText); if (listening) endTurnSoon(); });
+    d.onState(({ state, reason }) => {
+      if (state !== "idle") return;
+      // Dictation ended on its own (silence cut-off, tab hidden, time limit) while words are waiting: send them.
+      if (listening && (finalText || partialText)) { listening = true; clearTimeout(silenceT); sendHeard(); return; }
+      listening = false; $("#t-mic").classList.remove("on"); if (!busy) setState("idle");
+      if (reason === "not_granted") fail("Micro bị từ chối.");
+      else if (reason && !["stopped", "viewer_stopped"].includes(reason)) caption("Mic stopped (" + reason + "). Press MIC to talk.", "dim");
+    });
   });
   c.use("mcp").then(m => { mcp = m; });
   Promise.all([c.use("db"), c.use("user")]).then(async ([d, u]) => {
