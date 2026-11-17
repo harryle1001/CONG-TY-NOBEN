@@ -38,12 +38,19 @@ async function doRegister(name, pass){
   name = name.trim(); if(!/^[\p{L}\p{N}_.\- ]{3,20}$/u.test(name)) return 'Tên đăng nhập cần 3–20 ký tự (chữ, số, dấu cách, _ . -).';
   if(pass.length < 4) return 'Mật khẩu cần ít nhất 4 ký tự.';
   const all = accLoad(); all.users = all.users || {};
-  if(all.users[name] || await cloudGetAccount(name)) return 'Tên này đã có người dùng trên máy này. Hãy chọn tên khác hoặc đăng nhập.';
+  if(all.users[name]) return 'Tên này đã có người dùng trên máy này. Hãy chọn tên khác hoặc đăng nhập.';
+  if(window.HQFB){ const r = await HQFB.account(name, pass, true); if(r === 'taken') return 'Tên này đã có người dùng. Hãy chọn tên khác hoặc đăng nhập.'; if(r === 'busy') return 'Thử quá nhiều lần, đợi vài phút rồi thử lại.'; if(r !== 'ok' && r !== 'offline') return 'Chưa tạo được tài khoản online, kiểm tra mạng rồi thử lại.'; CLOUD.tried = false; CLOUD.uid = null; }
+  else if(await cloudGetAccount(name)) return 'Tên này đã có người dùng trên máy này. Hãy chọn tên khác hoặc đăng nhập.';
   const salt = newSalt(); all.users[name] = {salt, hash:await passHash(pass, salt), profile:null}; all.last = name; accSaveAll(all);
   ACC_NAME = name; return null;
 }
 async function doLogin(name, pass){
   name = name.trim(); const all = accLoad(); all.users = all.users || {};
+  if(window.HQFB){ let r = await HQFB.account(name, pass, false);
+    if(r === 'invalid' && all.users[name] && await passHash(pass, all.users[name].salt) === all.users[name].hash){ r = await HQFB.account(name, pass, true); if(r === 'taken') return 'Sai mật khẩu.'; }
+    if(r === 'invalid') return 'Sai tên đăng nhập hoặc mật khẩu. Chưa có tài khoản thì bấm "Tạo tài khoản mới".';
+    if(r === 'busy') return 'Thử quá nhiều lần, đợi vài phút rồi thử lại.';
+    if(r === 'ok'){ CLOUD.tried = false; CLOUD.uid = null; const c = await cloudGetAccount(name); if(c){ all.users[name] = {salt:c.salt, hash:c.hash, profile:JSON.parse(c.profile || 'null')}; } else if(!all.users[name]){ const salt = newSalt(); all.users[name] = {salt, hash:await passHash(pass, salt), profile:null}; } } }
   let u = all.users[name];
   if(!u){ const c = await cloudGetAccount(name); if(c){ u = {salt:c.salt, hash:c.hash, profile:JSON.parse(c.profile || 'null')}; all.users[name] = u; } }
   if(!u) return 'Không tìm thấy tài khoản này. Hãy bấm "Tạo tài khoản mới".';
@@ -52,7 +59,7 @@ async function doLogin(name, pass){
   if(u.profile){ PROF = Object.assign(newProfile(name, u.profile.look), u.profile); enterGame(); } else openCreator();
   return null;
 }
-function logout(){ saveProfile(); if(PLAYER){ extUncontrol(PLAYER); PLAYER.controlled = false; PLAYER.visible = false; } PROF = null; ACC_NAME = null; PLAYER = null; renderProfHud(); openLogin(); }
+function logout(){ saveProfile(); if(window.HQFB){ const w = cloudT; setTimeout(() => { if(!ACC_NAME) HQFB.logout().then(() => { CLOUD.tried = false; CLOUD.uid = null; }); }, w ? 3000 : 0); } if(PLAYER){ extUncontrol(PLAYER); PLAYER.controlled = false; PLAYER.visible = false; } PROF = null; ACC_NAME = null; PLAYER = null; renderProfHud(); openLogin(); }
 
 // ---------- character styles ----------
 const HAIRSTYLES = [['short','Ngắn gọn'],['long','Dài thẳng'],['pony','Buộc đuôi ngựa'],['bun','Búi tóc'],['spiky','Dựng ngầu'],['afro','Xoăn bồng'],['twin','Hai bím'],['bob','Tóc bob']];
