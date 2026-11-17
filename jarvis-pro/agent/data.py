@@ -115,3 +115,80 @@ def read_raw(src, rel):
     if p.suffix.lower() in (".html", ".htm", ".md", ".markdown"):
         return p.read_text("utf-8", "replace")
     return ""
+
+
+# ---------------- inbox + calendar (read-only) ----------------
+import datetime as _dt
+import email as _email
+from email import policy as _policy
+from email.utils import parsedate_to_datetime as _pdt, parseaddr as _pa
+
+FIXTURES = ROOT / "data" / "fixtures"
+FIXTURE_DAY = _dt.date(2026, 11, 17)   # in demo mode "today" is pinned to this day: same story every recording
+
+
+def today():
+    return FIXTURE_DAY if DEMO else _dt.date.today()
+
+
+def inbox_dir():
+    if DEMO:
+        return FIXTURES / "inbox"
+    p = os.environ.get("JARVIS_INBOX", "")
+    return Path(p).expanduser() if p else None
+
+
+def inbox(limit=30):
+    """Maildir-style folder (new/ = unread, cur/ = read) or a flat folder of .eml. Never writes."""
+    d = inbox_dir()
+    if not d or not d.is_dir():
+        return None
+    files = []
+    for sub, unread in (("new", True), ("cur", False), (".", False)):
+        for f in (d / sub).glob("*"):
+            if f.is_file() and (sub != "." or f.suffix.lower() == ".eml"):
+                files.append((f, unread))
+    out = []
+    for f, unread in files:
+        try:
+            m = _email.message_from_bytes(f.read_bytes(), policy=_policy.default)
+            part = m.get_body(preferencelist=("plain", "html"))
+            body = part.get_content() if part else ""
+            if part and part.get_content_type() == "text/html":
+                body = html_text(body)
+            name, addr = _pa(str(m.get("From", "")))
+            when = _pdt(m.get("Date")) if m.get("Date") else None
+            out.append({"from": name or addr, "addr": addr, "subject": str(m.get("Subject", "")),
+                        "date": when.isoformat() if when else "", "unread": unread, "body": body.strip()[:1200]})
+        except Exception as e:
+            print(f"[data] skip mail {f}: {e}")
+    out.sort(key=lambda x: x["date"], reverse=True)
+    return out[:limit]
+
+
+def calendar_file():
+    if DEMO:
+        return FIXTURES / "calendar.ics"
+    p = os.environ.get("JARVIS_CALENDAR", "")
+    return Path(p).expanduser() if p else None
+
+
+def calendar(days=2):
+    """Events from today for `days` days, from an .ics file. Never writes."""
+    f = calendar_file()
+    if not f or not f.is_file():
+        return None
+    text = re.sub(r"\r?\n[ \t]", "", f.read_text("utf-8", "replace"))
+    t0, out = today(), []
+    for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", text, re.S):
+        def get(k):
+            m = re.search(rf"^{k}[^:\n]*:(.*)$", block, re.M)
+            return m.group(1).strip() if m else ""
+        s = get("DTSTART")
+        try:
+            start = _dt.datetime.strptime(s[:15], "%Y%m%dT%H%M%S") if "T" in s else _dt.datetime.strptime(s[:8], "%Y%m%d")
+        except ValueError:
+            continue
+        if t0 <= start.date() < t0 + _dt.timedelta(days=days):
+            out.append({"start": start.isoformat(timespec="minutes"), "title": get("SUMMARY").replace("\\,", ",")})
+    return sorted(out, key=lambda e: e["start"])

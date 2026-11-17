@@ -32,6 +32,7 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
   border-radius: 99px; background: var(--surface); text-transform: uppercase; }
 .badge.dim { color: var(--muted); }
 .badge.warn { color: var(--warn); border-color: rgba(255, 184, 107, .3); }
+.badge.err { color: #ff8a8a; border-color: rgba(255, 138, 138, .4); }
 .badge.demo { color: var(--accent); border-color: rgba(111, 227, 255, .3); }
 
 .panel { position: fixed; top: var(--s6); bottom: 110px; width: var(--panel); display: flex;
@@ -90,6 +91,27 @@ h2 { font-size: var(--f1); letter-spacing: .24em; color: var(--muted); font-weig
   font: inherit; font-size: var(--f3); padding: var(--s2) var(--s4); }
 #ask::placeholder { color: var(--muted); transition: opacity var(--t3) var(--ease); }
 .go { padding: 0 var(--s4); color: var(--accent); font-size: var(--f3); }
+.reply { position: relative; max-height: 42vh; overflow: auto; background: var(--surface); border: 1px solid var(--line);
+  border-radius: var(--r); padding: var(--s3) var(--s4); backdrop-filter: blur(10px); -webkit-backdrop-filter: blur(10px);
+  animation: rise var(--t2) var(--ease); scrollbar-width: thin; }
+@keyframes rise { from { opacity: 0; transform: translateY(10px); } }
+.reply .close { position: absolute; top: var(--s1); right: var(--s2); color: var(--muted); font-size: var(--f3); }
+.reply .q { color: var(--muted); font-size: 12px; margin-bottom: var(--s1); padding-right: var(--s4); }
+.reply .say { font-size: var(--f3); line-height: 1.5; color: #eaf6ff; }
+.reply .tag { display: inline-block; font-size: var(--f1); letter-spacing: .12em; color: var(--warn); margin-left: var(--s1); }
+.reply .dots { color: var(--accent); animation: breathe 1.618s var(--ease) infinite; }
+.card { margin-top: var(--s3); padding-top: var(--s2); border-top: 1px solid var(--line); }
+.card .item { display: flex; flex-direction: column; padding: var(--s1) 0; border-bottom: 1px solid rgba(140, 200, 255, .05); }
+.card .item b { font-weight: 500; font-size: var(--f2); }
+.card .item span { font-size: 12px; color: var(--muted); white-space: pre-wrap; overflow-wrap: anywhere;
+  display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; overflow: hidden; }
+.card .item a { color: var(--accent); text-decoration: none; }
+.card .link-node { cursor: pointer; }
+.card .link-node:hover b { color: var(--accent); }
+.card .note { font-size: 12px; color: var(--muted); margin-top: var(--s2); white-space: pre-wrap; }
+.reactor.thinking i:nth-child(2) { animation-duration: 2.62s; }
+.reactor.thinking i:nth-child(3) { animation-duration: 1.62s; }
+.reactor.thinking b { animation-duration: .81s; }
 .tools { display: flex; justify-content: center; gap: var(--s2); }
 .tools button { font-size: var(--f1); letter-spacing: .2em; padding: var(--s1) var(--s3); border: 1px solid var(--line);
   border-radius: 99px; background: var(--surface); }

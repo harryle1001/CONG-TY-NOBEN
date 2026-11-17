@@ -1,4 +1,4 @@
-// UI wiring for step 2: graph, inspector, hubs, filters, find-in-graph. No voice / model yet.
+// UI wiring for step 3: graph, inspector, hubs, filters + text conversation and tool cards. No voice yet.
 "use strict";
 const $ = s => document.querySelector(s);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
@@ -29,7 +29,20 @@ async function boot() {
   m.className = "badge " + (data.mode === "demo" ? "demo" : "warn");
   $("#b-stats").textContent = `${data.nodes.length} nodes · ${data.edges.length} links`;
   G = new Graph($("#graph"), data, { onFocus: inspect });
-  renderHubs(); renderFilters(); rotatePlaceholder();
+  renderHubs(); renderFilters(); rotatePlaceholder(); status();
+}
+
+async function status() {
+  try {
+    const s = await api("/api/status");
+    setModel(s.model, null);
+  } catch (e) { setModel(null, "status: " + e.message); }
+}
+function setModel(model, error) {
+  const b = $("#b-model");
+  if (error) { b.textContent = "MODEL ERROR"; b.className = "badge err"; b.title = error; }
+  else if (model) { b.textContent = model; b.className = "badge dim"; b.title = "Model connected"; }
+  else { b.textContent = "NO MODEL"; b.className = "badge warn"; b.title = "No model: answers come from keyword routing over your files, not from an AI."; }
 }
 
 function renderHubs() {
@@ -74,29 +87,68 @@ async function inspect(n, path) {
 }
 function chip(n) { return n ? `<button class="chip" data-id="${esc(n.id)}" ><span class="dot" style="background:${colorOf(n.type)};display:inline-block;width:6px;height:6px;margin-right:6px;vertical-align:middle"></span>${esc(n.title)}</button>` : ""; }
 
-// Ask bar (step 2): find-in-graph only. Conversation arrives in step 3.
+// ---------- conversation ----------
+let SESSION = "s" + Math.random().toString(36).slice(2);
+try { SESSION = sessionStorage.getItem("jarvis-session") || SESSION; sessionStorage.setItem("jarvis-session", SESSION); } catch (e) {}
+
 function rotatePlaceholder() {
   const a = $("#ask"); let i = 0;
-  const set = () => { a.placeholder = EXAMPLES[i++ % EXAMPLES.length] + "   — tìm trong đồ thị"; };
+  const set = () => { a.placeholder = EXAMPLES[i++ % EXAMPLES.length]; };
   set(); setInterval(() => { if (!a.value) set(); }, 4236);
 }
-$("#ask").addEventListener("input", e => {
-  const q = norm(e.target.value.trim());
-  G.match = q.length < 2 ? null : new Set(G.nodes.filter(n => norm(n.title + " " + n.path).includes(q)));
+function setState(s) {
+  $("#reactor").className = "reactor " + s;
+  $("#state").textContent = s.toUpperCase();
+}
+async function post(path, body) {
+  const r = await fetch(path, { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(body || {}) });
+  if (!r.ok) throw new Error(`${path} → HTTP ${r.status}`);
+  return r.json();
+}
+async function run(label, path, body) {
+  setState("thinking"); $("#error").hidden = true;
+  showReply(label, null, []);
+  try {
+    const d = await post(path, body);
+    if (d.model_error) setModel(null, d.model_error);
+    else if (path === "/api/ask") setModel(d.model, null);
+    showReply(label, d, d.cards || []);
+  } catch (e) { fail("Jarvis không trả lời: " + e.message); $("#reply").hidden = true; }
+  setState("idle");
+}
+function showReply(q, d, cards) {
+  const box = $("#reply"); box.hidden = false;
+  const who = d ? (d.model ? "" : `<span class="tag">${d.model_error ? "MODEL ERROR · " : ""}NO MODEL · keyword routing</span>`) : "";
+  const say = d ? esc(d.say) : '<span class="dots">…</span>';
+  box.innerHTML = `<button class="close" aria-label="Đóng">×</button><div class="q">${esc(q)}</div><div class="say">${say} ${who}</div>` +
+    cards.map(c => `<div class="card"><h2>${esc(c.title)}</h2>${(c.items || []).map(it =>
+      `<div class="item${it.id ? " link-node" : ""}" ${it.id ? `data-id="${esc(it.id)}"` : ""}>${it.url ? `<a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer">${esc(it.title)}</a>` : `<b>${esc(it.title)}</b>`}<span>${esc(it.sub || "")}</span></div>`).join("")}${c.note ? `<p class="note">${esc(c.note)}</p>` : ""}</div>`).join("");
+  const ids = cards.flatMap(c => (c.items || []).map(i => i.id)).filter(id => id && G.byId.has(id));
+  G.match = ids.length ? new Set(ids.map(id => G.byId.get(id))) : null;
   renderFilters();
+}
+$("#reply").addEventListener("click", e => {
+  if (e.target.closest(".close")) { $("#reply").hidden = true; G.match = null; renderFilters(); return; }
+  const it = e.target.closest(".link-node"); if (it) G.setFocus(G.byId.get(it.dataset.id));
 });
-$("#ask-form").addEventListener("submit", async e => {
+$("#ask-form").addEventListener("submit", e => {
   e.preventDefault();
   const q = $("#ask").value.trim(); if (!q || !G) return;
-  let best = G.match && [...G.match].sort((a, b) => b.degree - a.degree)[0];
-  if (!best) {
-    try { const r = await api("/api/search?q=" + encodeURIComponent(q)); best = r.results[0] && G.byId.get(r.results[0].id); }
-    catch (err) { return fail("Tìm kiếm lỗi: " + err.message); }
-  }
-  if (best) G.setFocus(best); else fail("Không có tài liệu nào khớp: " + q);
+  $("#ask").value = "";
+  run(q, "/api/ask", { text: q, session: SESSION });
 });
+$("#t-brief").onclick = () => run("Brief me", "/api/tool/brief_me");
+$("#t-plan").onclick = () => run("Plan my day", "/api/tool/plan_day");
+$("#t-inbox").onclick = () => run("Inbox", "/api/tool/read_inbox");
+$("#t-memory").onclick = async () => {
+  try {
+    const d = await api("/api/memory");
+    showReply("Memory", { say: d.facts.length ? `${d.facts.length} facts on file, sir.` : "Nothing remembered yet, sir.", model: "-" },
+      [{ title: "memory/", items: d.facts.map(f => ({ title: f.fact, sub: f.file })) }]);
+  } catch (e) { fail("Không đọc được memory: " + e.message); }
+};
 addEventListener("keydown", e => {
-  if (e.key === "Escape") { $("#ask").value = ""; G.match = null; G.setFocus(null); renderFilters(); $("#error").hidden = true; }
+  if (e.key === "Escape") { $("#ask").value = ""; $("#reply").hidden = true; G.match = null; G.setFocus(null); renderFilters(); $("#error").hidden = true; }
   if (e.key === "/" && document.activeElement !== $("#ask")) { e.preventDefault(); $("#ask").focus(); }
 });
 
