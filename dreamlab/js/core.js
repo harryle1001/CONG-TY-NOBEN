@@ -1,4 +1,4 @@
-/* DreamLab core — Session A: chrome (theme, menu, con trỏ, chuyển cảnh, nút nổi), hero WebGL, marquee, dịch vụ, quy trình, báo giá + tự tính giá, FAQ, liên hệ, footer.
+/* Dream Labs core — Session A: chrome (theme, menu, con trỏ, chuyển cảnh, nút nổi), hero WebGL, marquee, dịch vụ, quy trình, báo giá + tự tính giá, FAQ, liên hệ, footer.
    API thêm vào DL: DL.go(el|selector) (cuộn có màn chuyển cảnh khi nhảy xa), DL.pick(text) (điền form theo data-pick), DL.isDark(), DL.setTheme('light'|'dark').
    Sự kiện: document 'dl:theme' {detail:{dark}} mỗi khi đổi sáng/tối.
    v3 (Session F): DL.pick(text,note) + thuộc tính data-pick-note="Mẫu tham khảo: Tên (Hạng mục)" ghi thêm một dòng vào ô mô tả; sự kiện 'dl:pick' {detail:{pick,note}} phát ngay trước khi cuộn về form (phòng mẫu nghe để tự đóng);
@@ -323,7 +323,7 @@ void main(){float d=length(gl_PointCoord-.5)*2.;float a=mix(smoothstep(1.,.5,d),
       gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MIN_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_MAG_FILTER,gl.LINEAR);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_S,gl.CLAMP_TO_EDGE);gl.texParameteri(gl.TEXTURE_2D,gl.TEXTURE_WRAP_T,gl.CLAMP_TO_EDGE);
       gl.bindFramebuffer(gl.FRAMEBUFFER,fbo);gl.framebufferTexture2D(gl.FRAMEBUFFER,gl.COLOR_ATTACHMENT0,gl.TEXTURE_2D,tex,0)}};
   const draw=()=>{if(lost)return;size();
-    const narrow=cw<760,cxn=.618,cyn=(narrow?.3:.382)+sc*.9,R=(narrow?cw*.66:Math.min(ch*.42,cw*.36))*dpr;
+    const narrow=cw<760,cxn=.618+Math.sin(t*.13)*.012,cyn=(narrow?.3:.382)+Math.cos(t*.11)*.012,R=(narrow?cw*.66:Math.min(ch*.42,cw*.36))*dpr;
     const sm=clamp(sc/.3);const morph=Math.max(st.morph,sm*sm*(3-2*sm)),fade=1-clamp((sc-.618)/.382)*.618;
     gl.bindFramebuffer(gl.FRAMEBUFFER,fbo);gl.viewport(0,0,fw,fh);gl.disable(gl.BLEND);gl.useProgram(pA);
     gl.bindBuffer(gl.ARRAY_BUFFER,tri);gl.vertexAttribPointer(0,2,gl.FLOAT,false,0,0);
@@ -338,10 +338,9 @@ void main(){float d=length(gl_PointCoord-.5)*2.;float a=mix(smoothstep(1.,.5,d),
     gl.uniform3fv(uP.k0,col.k0);gl.uniform3fv(uP.k1,col.k1);gl.uniform3fv(uP.k2,col.k2);gl.drawArrays(gl.POINTS,0,N);
   };
   const loop=now=>{raf=0;if(!running)return;const dt=Math.min(.05,(now-last)/1000||.016);last=now;
-    t+=dt;rot+=dt*.05;mx+=(tx-mx)*.06;my+=(ty-my)*.06;mp+=(mpt-mp)*.08;draw();raf=requestAnimationFrame(loop)};
+    t+=dt;rot+=dt*.06;mx+=(tx-mx)*.06;my+=(ty-my)*.06;mp+=(mpt-mp)*.08;draw();raf=requestAnimationFrame(loop)};
   const setRun=()=>{const on=vis&&!covered&&!document.hidden&&!RM&&!lost;if(on===running)return;running=on;if(on&&!raf){last=performance.now();raf=requestAnimationFrame(loop)}};
-  const onScroll=()=>{sc=clamp(scrollY/Math.max(1,sec.offsetHeight));if(RM)draw()};
-  addEventListener('scroll',onScroll,{passive:true});onScroll();
+  /* Hình nền tự chuyển động, không phụ thuộc thao tác cuộn (tránh giật khi vuốt) */
   if(fine)addEventListener('pointermove',e=>{const r=sec.getBoundingClientRect();if(e.clientY>r.bottom){mpt=0;return}tx=clamp((e.clientX-r.left)/r.width);ty=clamp((e.clientY-r.top)/r.height);mpt=1},{passive:true});
   new IntersectionObserver(([en])=>{vis=en.isIntersecting;setRun()}).observe(sec);
   document.addEventListener('visibilitychange',setRun);
@@ -478,7 +477,7 @@ safe('pricing',()=>{
   };
   const choose=(c,i)=>{est[c]=i;const s=$(`.seg[data-c="${c}"]`,list);if(s)$$('button',s).forEach(x=>{const on=+x.dataset.i===i;x.classList.toggle('on',on);x.setAttribute('aria-pressed',String(on))})};
   list.addEventListener('click',e=>{const b=e.target.closest('.seg button');if(!b)return;choose(b.parentElement.dataset.c,+b.dataset.i);render()});
-  [['web',1],['motion',0]].forEach(([c,i])=>{if(CATS.find(x=>x.id===c))choose(c,i)});render();
+  [['ai',1],['web',1]].forEach(([c,i])=>{if(CATS.find(x=>x.id===c))choose(c,i)});render();
 });
 
 /* ═════════ FAQ ═════════ */
@@ -508,7 +507,7 @@ safe('contact',()=>{
     /* form chưa gửi đi đâu: soạn sẵn nội dung để khách chép và dán qua Zalo */
     const svc=sel.value==='combo'?'Cấu hình tự tính':sel.value,pr=priceOf(svc),bud=$('#f-budget'),raw=$('#f-msg').value.split('\n').map(l=>l.trim()).filter(Boolean);
     const RE=/^Mẫu tham khảo:\s*/,smp=raw.filter(l=>RE.test(l)).map(l=>l.replace(RE,'')),rest=raw.filter(l=>!RE.test(l)),req=$('#cfReq');
-    if(req)req.textContent=['YÊU CẦU TƯ VẤN · DREAMLAB','Họ tên: '+n,'SĐT / Zalo: '+ph,'Gói quan tâm: '+(svc?svc+(pr?' ('+pr+')':''):'Chưa chọn, cần tư vấn'),bud?'Ngân sách: '+bud.value:'',smp.length?'Mẫu tham khảo: '+smp.join('; '):'','Mô tả: '+(rest.join(' / ')||'(chưa ghi)')].filter(Boolean).join('\n');
+    if(req)req.textContent=['YÊU CẦU TƯ VẤN · DREAM LABS','Họ tên: '+n,'SĐT / Zalo: '+ph,'Gói quan tâm: '+(svc?svc+(pr?' ('+pr+')':''):'Chưa chọn, cần tư vấn'),bud?'Ngân sách: '+bud.value:'',smp.length?'Mẫu tham khảo: '+smp.join('; '):'','Mô tả: '+(rest.join(' / ')||'(chưa ghi)')].filter(Boolean).join('\n');
     m.textContent='';$('#cfDoneName').textContent=n;done.hidden=false;done.scrollTop=0;
     if(g&&!RM){g.fromTo(done,{clipPath:'circle(0% at 50% 100%)'},{clipPath:'circle(150% at 50% 100%)',duration:.686,ease:'power3.inOut',clearProps:'clipPath'});
       g.from(done.children,{y:26,opacity:0,duration:.686,ease:'expo.out',stagger:.1,delay:.262,clearProps:'all'})}

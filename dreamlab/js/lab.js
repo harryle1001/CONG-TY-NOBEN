@@ -1,4 +1,4 @@
-/* DreamLab — Session C: #showreel (video dựng bằng code) + #lab (5 demo tương tác, tất cả là mô phỏng, không gọi API).
+/* Dream Labs — Session C: #showreel (video dựng bằng code) + #lab (5 demo tương tác, tất cả là mô phỏng, không gọi API).
    Chỉ demo đang mở và đang nằm trong khung nhìn mới chạy; ra khỏi khung nhìn là dừng mọi vòng lặp. */
 (()=>{
 const DL=window.DL;if(!DL)return;
@@ -63,7 +63,7 @@ function initLab(){
   document.addEventListener('visibilitychange',()=>{const was=vis;if(document.hidden){vis=false;apply();vis=was}else apply()});
 }
 
-/* ============================== 1. Chatbot bán hàng (kịch bản soạn sẵn) ============================== */
+/* ============================== 1. Trợ lý AI bán hàng (kịch bản soạn sẵn) ============================== */
 function chatDemo(root){
   const box=$('.lab-msgs',root),quick=$('.lab-quick',root),form=$('.lab-input',root),input=$('input',form),read=$('.lab-read-out',root),list=$('.lab-order-list',root),empty=$('.lab-orders-empty',root);
   const P={ol:{n:'Ô long sen',d:'hộp 100g',p:185000,k:/o ?long|\bsen\b/},cuc:{n:'Hoa cúc mật ong',d:'hộp 80g',p:145000,k:/cuc|mat ong/},qua:{n:'Hộp quà Lá Lửng',d:'3 vị trà',p:420000,k:/hop qua|\bqua\b|\bset\b|tang|bieu/}};
@@ -128,7 +128,7 @@ function flowDemo(root){
   const map=$('.lab-flow-map',root),svg=$('.lab-flow-svg',root),nodes=$$('.lab-node',root),token=$('.lab-token',root),run=$('.lab-run',root),msg=$('.lab-flow-msg',root),tbody=$('.lab-sheet tbody',root);
   const C=[{n:'Chị Hạnh',m:'Mình cần làm website cho spa, gửi báo giá giúp nhé.',need:'Website',heat:'Cao',own:'Minh'},
     {n:'Anh Quân',m:'Dựng video TikTok bên bạn tính sao một clip?',need:'Edit Video',heat:'Vừa',own:'Thảo'},
-    {n:'Chị Vy',m:'Shop mình muốn có chatbot trả lời Zalo tự động.',need:'Tự động hóa AI',heat:'Cao',own:'Minh'},
+    {n:'Chị Vy',m:'Shop mình muốn tự động hóa khâu trả lời và chốt đơn trên Zalo.',need:'Tự động hóa quy trình doanh nghiệp',heat:'Cao',own:'Minh'},
     {n:'Anh Tín',m:'Cho mình xin bảng giá thiết kế bao bì.',need:'Thiết kế sản phẩm',heat:'Vừa',own:'Khoa'}];
   let pts=[],tok=[],wires=[],dots=[],amb=[],tl=null,idx=0,done=0,ready=false,active=false,mp=null;
   const say=h=>{msg.innerHTML=h;if(g&&!RM)g.fromTo(msg,{opacity:.382,y:6},{opacity:1,y:0,duration:.424,ease:'power2.out'})};
@@ -194,7 +194,7 @@ function motionDemo(root){
        .from($('.tg',cv),{opacity:0,y:10,duration:.686,ease:'power2.out'},2.9)
        .to($('.mn',cv),{rotation:8,transformOrigin:'50% 50%',duration:.8,ease:'sine.inOut'},3.4);
       return{t,marks:[.1,1.3,1.5,2.1,2.75,3.4]}},
-    type(){cv.innerHTML=`<i class="bk"></i><div class="l l1">${chars('Nói ít.')}</div><div class="l l2">${chars('Chuyển động')}</div><div class="l l3">${chars('nhiều hơn.')}</div><i class="rg"></i><i class="cr"></i><div class="sg">DreamLab · Motion</div>`;
+    type(){cv.innerHTML=`<i class="bk"></i><div class="l l1">${chars('Nói ít.')}</div><div class="l l2">${chars('Chuyển động')}</div><div class="l l3">${chars('nhiều hơn.')}</div><i class="rg"></i><i class="cr"></i><div class="sg">Dream Labs · Motion</div>`;
       const t=g.timeline({paused:true}),bk=$('.bk',cv),l2=$('.l2',cv);g.set(l2,{opacity:0});g.set(bk,{scaleX:0,transformOrigin:'0% 50%'});
       t.from($$('.l1 span',cv),{yPercent:126,rotation:8,duration:.686,ease:'expo.out',stagger:.045},.1)
        .to(bk,{scaleX:1,duration:.424,ease:'power3.in'},.9)
