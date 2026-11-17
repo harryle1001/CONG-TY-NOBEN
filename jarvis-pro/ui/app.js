@@ -1,3 +1,10 @@
+// ---- Voice tuning: change these to taste ----
+const SILENCE_MS = 900;        // quiet this long after speech = end of your turn
+const SPEECH_LEVEL = 0.035;    // RMS level that counts as speech (raise in a noisy room)
+const MIN_SPEECH_MS = 300;     // ignore blips shorter than this
+const MAX_TURN_MS = 30000;     // hard stop for one turn
+const LEVEL_POLL_MS = 50;      // setInterval, not rAF: rAF stops in background tabs and the mic goes deaf
+
 // JARVIS UI glue. Step 2: graph, inspector, hubs, filters. Voice + tools come later.
 const $ = (id) => document.getElementById(id);
 const EXAMPLES = [
@@ -139,7 +146,7 @@ async function send(text) {
     const res = await r.json(); showReply(res);
     if (window.Jarvis.onReply) await window.Jarvis.onReply(res);
   } catch (e) { toast("Jarvis didn't answer: " + e.message); }
-  busy = false; reactor("idle"); $("caption").textContent = "";
+  busy = false; reactor(V.on ? "listening" : "idle");
 }
 window.Jarvis.send = send;
 
@@ -151,3 +158,129 @@ $("memory").onclick = async () => {
   catch (e) { toast("Couldn't read memory: " + e.message); }
 };
 fetch("/api/status").then(r => r.json()).then(s => setModelBadge(s.model)).catch(() => {});
+
+
+// ---------------- voice (ElevenLabs via our server; the key never reaches the browser) ----------------
+const V = { stream: null, ctx: null, analyser: null, buf: null, rec: null, chunks: [], on: false,
+  speaking: false, audio: null, speechStart: 0, lastLoud: 0, turnStart: 0, muted: false, timer: null };
+try { V.muted = localStorage.getItem("jarvis-muted") === "1"; } catch (e) {}
+const bars = [...document.querySelectorAll("#bars i")];
+const caption = (t) => { $("caption").textContent = t; };
+
+function setMuteUI() { $("mute").setAttribute("aria-pressed", String(V.muted)); $("mute").textContent = V.muted ? "MUTED" : "MUTE"; }
+setMuteUI();
+
+function pickMime() {
+  for (const m of ["audio/webm;codecs=opus", "audio/webm", "audio/mp4", "audio/ogg;codecs=opus"])
+    if (window.MediaRecorder && MediaRecorder.isTypeSupported(m)) return m;
+  return "";
+}
+
+async function micOn() {
+  if (!navigator.mediaDevices || !window.MediaRecorder) {
+    toast("This browser can't record audio (no MediaRecorder). Type instead."); return;
+  }
+  try {
+    V.stream = await navigator.mediaDevices.getUserMedia({ audio: { echoCancellation: true, noiseSuppression: true } });
+  } catch (e) {
+    const why = e.name === "NotAllowedError" ? "Microphone blocked. Allow it in the browser's site settings, then press MIC again."
+      : e.name === "NotFoundError" ? "No microphone found." : "Microphone error: " + e.message;
+    toast(why); caption(why); return;
+  }
+  V.ctx = new (window.AudioContext || window.webkitAudioContext)();
+  const src = V.ctx.createMediaStreamSource(V.stream);
+  V.analyser = V.ctx.createAnalyser(); V.analyser.fftSize = 1024; src.connect(V.analyser);
+  V.buf = new Float32Array(V.analyser.fftSize);
+  V.on = true; $("mic").setAttribute("aria-pressed", "true");
+  V.timer = setInterval(poll, LEVEL_POLL_MS);
+  startTurn();
+}
+
+function micOff() {
+  V.on = false; $("mic").setAttribute("aria-pressed", "false");
+  clearInterval(V.timer);
+  if (V.rec && V.rec.state !== "inactive") { V.rec.onstop = null; V.rec.stop(); }
+  V.stream && V.stream.getTracks().forEach(t => t.stop());
+  V.ctx && V.ctx.close();
+  V.stream = V.ctx = V.rec = null;
+  bars.forEach(b => (b.style.height = "10%"));
+  if (!V.speaking) { reactor("idle"); caption(""); }
+}
+
+function startTurn() {
+  if (!V.on || V.speaking || (V.rec && V.rec.state === "recording")) return;
+  V.chunks = []; V.speechStart = 0; V.lastLoud = 0; V.turnStart = performance.now();
+  const mime = pickMime();
+  V.rec = new MediaRecorder(V.stream, mime ? { mimeType: mime } : undefined);
+  V.rec.ondataavailable = (e) => e.data.size && V.chunks.push(e.data);
+  V.rec.onstop = endTurn;
+  V.rec.start(250);
+  reactor("listening"); caption("Listening…");
+}
+
+function level() {
+  V.analyser.getFloatTimeDomainData(V.buf);
+  let s = 0; for (const x of V.buf) s += x * x;
+  return Math.sqrt(s / V.buf.length);
+}
+
+function poll() {
+  if (!V.analyser) return;
+  const lv = level(), now = performance.now();
+  bars.forEach((b, i) => (b.style.height = Math.min(100, 10 + lv * 900 * (0.6 + 0.4 * Math.sin(now / 90 + i * 1.618))) + "%"));
+  if (V.speaking || !V.rec || V.rec.state !== "recording") return;   // deaf while Jarvis talks
+  if (lv > SPEECH_LEVEL) {
+    if (!V.speechStart) V.speechStart = now;
+    V.lastLoud = now; caption("● hearing you…");
+  }
+  const spoke = V.speechStart && V.lastLoud - V.speechStart > MIN_SPEECH_MS;
+  if ((spoke && now - V.lastLoud > SILENCE_MS) || now - V.turnStart > MAX_TURN_MS) V.rec.stop();
+  else if (!V.speechStart && now - V.turnStart > 8000) { V.rec.onstop = null; V.rec.stop(); startTurn(); } // keep buffers small while quiet
+}
+
+async function endTurn() {
+  const spoke = V.speechStart && V.lastLoud - V.speechStart > MIN_SPEECH_MS;
+  if (!spoke) return startTurn();
+  const blob = new Blob(V.chunks, { type: V.rec.mimeType || "audio/webm" });
+  reactor("thinking"); caption("Transcribing…");
+  let text = "";
+  try {
+    const r = await fetch("/api/listen", { method: "POST", headers: { "content-type": blob.type }, body: blob });
+    const j = await r.json();
+    if (!r.ok) throw new Error(j.error || r.status);
+    text = j.text;
+  } catch (e) { toast("Transcriber unavailable: " + e.message); caption(""); return startTurn(); }
+  if (!text) { caption("Didn't catch that."); return startTurn(); }
+  caption("“" + text + "”");
+  await send(text);          // send() speaks the reply via onReply, which restarts listening
+  startTurn();
+}
+
+async function speak(text) {
+  if (V.muted || !text) return;
+  V.speaking = true; reactor("speaking");
+  if (V.rec && V.rec.state === "recording") { V.rec.onstop = null; V.rec.stop(); }
+  try {
+    const r = await fetch("/api/speak", { method: "POST", headers: { "content-type": "application/json" }, body: JSON.stringify({ text }) });
+    if (!r.ok) { const j = await r.json().catch(() => ({})); throw new Error(j.error || r.status); }
+    const url = URL.createObjectURL(await r.blob());
+    V.audio = new Audio(url);
+    await new Promise((res) => { V.audio.onended = V.audio.onerror = V.audio.onpause = res; V.audio.play().catch(res); });
+    URL.revokeObjectURL(url);
+  } catch (e) { toast("Voice output unavailable: " + e.message); }
+  V.audio = null; V.speaking = false;
+  reactor(V.on ? "listening" : "idle");
+  startTurn();
+}
+
+function bargeIn() { if (V.audio) V.audio.pause(); }   // stop talking now; listening resumes
+
+window.Jarvis.onReply = (res) => speak(res.say);
+$("mic").onclick = () => (V.on ? micOff() : micOn());
+$("mute").onclick = () => { V.muted = !V.muted; try { localStorage.setItem("jarvis-muted", V.muted ? "1" : "0"); } catch (e) {} if (V.muted) bargeIn(); setMuteUI(); };
+addEventListener("keydown", (e) => {
+  if (e.target === $("q")) { if (e.key === "Escape") $("q").blur(); return; }
+  if (e.code === "Space") { e.preventDefault(); if (V.speaking) bargeIn(); else (V.on ? micOff() : micOn()); }
+  if (e.key === "Escape") { bargeIn(); if (V.on) micOff(); }
+});
+fetch("/api/status").then(r => r.json()).then(s => { if (!s.voice) { $("mic").title = "Voice offline: set ELEVENLABS_API_KEY"; toast("Voice is offline: no ELEVENLABS_API_KEY in .env. Text still works."); } }).catch(() => {});

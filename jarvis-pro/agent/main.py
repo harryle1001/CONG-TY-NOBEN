@@ -20,7 +20,7 @@ def load_env():
 load_env()  # before data.py reads JARVIS_DEMO
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from vault import Vault, norm
-import data, memory
+import data, memory, voice
 from tools import TOOLS, Tools, for_model
 
 UI = ROOT / "ui"
@@ -162,6 +162,17 @@ class H(BaseHTTPRequestHandler):
 
     def do_POST(self):
         u = urlparse(self.path)
+        if u.path == "/api/speak":
+            try:
+                text = json.loads(self.body() or b"{}").get("text", "")
+                return self.send(200, voice.speak(text), "audio/mpeg")
+            except (ValueError, voice.VoiceError) as e:
+                return self.send(503, {"error": str(e)})
+        if u.path == "/api/listen":
+            try:
+                return self.send(200, {"text": voice.listen(self.body(), self.headers.get("Content-Type", "audio/webm"))})
+            except voice.VoiceError as e:
+                return self.send(503, {"error": str(e)})
         if u.path == "/api/ask":
             try:
                 text = json.loads(self.body() or b"{}").get("text", "")
@@ -182,7 +193,7 @@ class H(BaseHTTPRequestHandler):
             return self.send(200, VAULT.search(q.get("q", ""), 8))
         if u.path == "/api/status":
             return self.send(200, {"model": bool(os.environ.get("ANTHROPIC_API_KEY")), "model_id": MODEL, "mode": data.mode(),
-                                   "web": os.environ.get("JARVIS_WEB") == "1"})
+                                   "web": os.environ.get("JARVIS_WEB") == "1", "voice": voice.available()})
         if u.path == "/api/memory":
             return self.send(200, memory.all_facts())
         rel = "index.html" if u.path in ("/", "") else u.path.lstrip("/")
@@ -194,5 +205,6 @@ class H(BaseHTTPRequestHandler):
 
 if __name__ == "__main__":
     print(f"[jarvis] model: {'ON (' + MODEL + ')' if os.environ.get('ANTHROPIC_API_KEY') else 'MISSING — keyword routing only'}")
+    print(f"[jarvis] voice: {'ON (ElevenLabs)' if voice.available() else 'MISSING — set ELEVENLABS_API_KEY'}")
     print(f"[jarvis] http://localhost:{PORT}")
     ThreadingHTTPServer(("127.0.0.1", PORT), H).serve_forever()
