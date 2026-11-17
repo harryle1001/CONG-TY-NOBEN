@@ -184,3 +184,21 @@ jarvis-pro/
 ├── .env.example     mẫu khóa
 └── README.md
 ```
+
+## Bản online trên claude.ai
+
+`online/` dựng Jarvis thành một trang trên claude.ai, không cần server hay khóa API:
+
+- **Bộ não:** Claude trong tài khoản claude.ai của anh.
+- **Giọng nói:** nhận giọng và đọc to bằng giọng có sẵn của claude.ai. Nhận giọng chỉ có trên Chrome/Edge hoặc app Claude desktop.
+- **Gmail và Lịch:** qua các kết nối anh đã cài trên claude.ai. Trang chỉ được khai báo công cụ đọc (`search_threads`, `list_events`), nên không có đường nào để gửi thư.
+- **Bộ nhớ:** lưu riêng cho tài khoản của anh, kể cả người được chia sẻ trang cũng không đọc được.
+- **Chưa có:** tìm web và ElevenLabs.
+
+Dựng lại sau khi dữ liệu thay đổi:
+
+```bash
+python3 online/build.py /đường/dẫn/thư-mục-nguồn
+```
+
+Lệnh này tạo `online/jarvis-online.html`, rồi xuất bản file đó lên claude.ai. Chỉ trỏ vào thư mục mà anh chấp nhận để nội dung nằm trong trang.
