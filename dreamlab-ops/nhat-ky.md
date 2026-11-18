@@ -45,3 +45,4 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - session_012QLWn7TJsTajqumKmWs7Jd: bộ quảng cáo 3 triệu/tháng (Google ~1,85tr, FB/IG ~1,15tr) → `dreamlab-ads/`. Chỉ soạn, không chạy/chi tiền.
 - Chủ studio tự làm: Google Search Console, Google Business Profile, tài khoản Google Ads + Meta Ads, thanh toán; nối TikTok/Page Dream Labs/X (chưa xong).
 - Đã dùng 2/2 phiên mới hôm nay.
+- Mạng xã hội cập nhật: X @dreamlabsvn (2123013416453586944) kết nối, đăng được. Chủ studio quyết dùng TikTok KAKASHI (_000wEA6UHqpUV68h6jKDjjO2YGxcrDnyZvq) làm kênh Dream Labs, sẽ đổi tên. Facebook Page Dream Labs vẫn chưa vào (chỉ có Page Noben, không dùng).
