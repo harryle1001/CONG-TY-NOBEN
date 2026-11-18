@@ -39,3 +39,9 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Mạng xã hội: chưa có lịch đăng nên chưa tạo nháp. Không đăng gì.
 - Việc giao mới: không (lần đầu chỉ lập nền).
 - Chờ chủ studio: mục 1, 3, 4 ở trên.
+
+### 2026-11-18 (tối) – giao việc theo duyệt của chủ studio
+- session_012QLWn8QkNPqTN1JPvkkk8e: SEO kỹ thuật toàn site + 2 bài blog (chi phí thiết kế website; tự động hóa báo cáo bằng AI) + sự kiện dataLayer zalo_click/call_click/form_submit. Đẩy main DreamLabs-Studio.
+- session_012QLWn7TJsTajqumKmWs7Jd: bộ quảng cáo 3 triệu/tháng (Google ~1,85tr, FB/IG ~1,15tr) → `dreamlab-ads/`. Chỉ soạn, không chạy/chi tiền.
+- Chủ studio tự làm: Google Search Console, Google Business Profile, tài khoản Google Ads + Meta Ads, thanh toán; nối TikTok/Page Dream Labs/X (chưa xong).
+- Đã dùng 2/2 phiên mới hôm nay.
