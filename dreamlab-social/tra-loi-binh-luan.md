@@ -75,3 +75,39 @@ Lưu ý khi cài:
 - Mỗi bình luận chỉ nhận một tin tự động; khi khớp nhiều nhóm thì ưu tiên nhóm "Tư vấn".
 - Mỗi tháng xem lại: từ khóa nào gây nhầm thì bỏ, câu hỏi mới hay gặp thì thêm.
 - Với TikTok và Zalo OA: dùng tính năng trả lời nhanh / tin nhắn mẫu, nội dung như trên.
+
+## 3. Trả lời bài đăng tìm người làm web / landing / bao bì / tự động hóa trong hội nhóm
+
+**Quy tắc**
+- **Trả lời tay**, không dùng công cụ tự động bình luận.
+- **Chỉ trả lời bài mới**, đăng trong vòng 24 giờ.
+- **Đọc kỹ yêu cầu trước khi trả lời:** ngành, hạng mục, ngân sách, thời hạn. Không đúng hạng mục Dream Labs làm thì bỏ qua.
+- **Không dán cùng một câu ở nhiều bài.** Chọn một mẫu dưới đây, sửa theo đúng nội dung bài đăng: nhắc lại một chi tiết họ nêu, đổi câu hỏi cho hợp.
+- Không chê đơn vị khác, không hứa giá rẻ nhất, không nêu khách hàng hay kết quả nào. Có giá thì nói theo bảng giá trên web và ghi chưa gồm VAT.
+- Luật nhóm cấm để link thì bỏ "dreamlabs.vn", chỉ giữ Zalo.
+
+**Mẫu bình luận** (thay phần trong ngoặc vuông)
+
+1. **Website**
+> Chào anh/chị, bên mình là Dream Labs, có làm website cho [ngành họ nêu]. Anh/chị cần khoảng bao nhiêu trang, và có cần tự đăng bài/sửa nội dung sau này không? Mẫu website concept bên mình để ở dreamlabs.vn, anh/chị xem thử phong cách; tiện trao đổi thì nhắn Zalo 0934 246 420 nhé.
+
+2. **Landing page chạy quảng cáo**
+> Anh/chị định chạy quảng cáo cho sản phẩm hay dịch vụ nào, và muốn khách để lại số điện thoại hay nhắn tin trực tiếp? Câu trả lời sẽ quyết định trang cần những khối nào. Dream Labs có vài mẫu landing page concept ở dreamlabs.vn; anh/chị cần thì nhắn Zalo 0934 246 420 để trao đổi cụ thể.
+
+3. **Bao bì, nhãn sản phẩm**
+> Sản phẩm của anh/chị đã có logo và thông tin pháp lý in trên nhãn chưa, hay cần làm từ đầu? Dream Labs làm bao bì kèm mockup 3D để xem trước khi in; vài mẫu concept xoay 360° có ở dreamlabs.vn. Anh/chị gửi ảnh sản phẩm qua Zalo 0934 246 420, bên mình góp ý hướng làm.
+
+4. **Tự động hóa, trả lời tin nhắn khách**
+> Anh/chị đang nhận tin khách chủ yếu qua kênh nào: Zalo, Messenger hay website? Mỗi ngày có những câu hỏi nào lặp lại nhiều? Dream Labs làm trợ lý AI trả lời theo tài liệu của doanh nghiệp và ghi khách vào bảng; demo mô phỏng có ở dreamlabs.vn. Nhắn Zalo 0934 246 420 nếu anh/chị muốn xem có hợp với bên mình không.
+
+5. **Chưa rõ cần web hay landing**
+> Nếu mục tiêu chính là chạy quảng cáo cho một sản phẩm thì landing page thường đủ; còn cần giới thiệu nhiều dịch vụ và lên Google lâu dài thì nên làm website. Anh/chị đang nghiêng về mục tiêu nào? Dream Labs có mẫu cả hai loại ở dreamlabs.vn, cần thì nhắn Zalo 0934 246 420 nhé.
+
+6. **Hỏi giá luôn trong bài**
+> Bên Dream Labs có bảng giá công khai ở dreamlabs.vn/bang-gia, chia 3 gói, giá chưa gồm VAT. Để biết gói nào vừa, anh/chị cho mình biết thêm [số trang / số sản phẩm / số quy trình] và thời gian cần có. Tiện thì nhắn Zalo 0934 246 420 để bên mình gợi ý cụ thể.
+
+7. **Bài cần gấp, có hạn chót**
+> Anh/chị cần xong trước ngày nào, và nội dung (chữ, ảnh) đã có sẵn chưa? Có sẵn nội dung thì làm nhanh hơn nhiều. Dream Labs có mẫu ở dreamlabs.vn; anh/chị nhắn Zalo 0934 246 420 kèm hạn chót, bên mình xem có kịp không rồi báo lại.
+
+8. **Chủ doanh nghiệp nhờ tư vấn chung**
+> Anh/chị kể thêm một chút về việc đang tốn thời gian nhất mỗi ngày được không? Nhiều khi chưa cần làm lớn, chỉ cần chuẩn hóa một quy trình trước. Dream Labs có buổi tư vấn 30 phút miễn phí; anh/chị nhắn Zalo 0934 246 420 hoặc xem các mẫu ở dreamlabs.vn.
