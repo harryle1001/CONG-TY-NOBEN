@@ -5,14 +5,19 @@
  "tu_ngay": "2026-11-20",
  "den_ngay": "2026-12-19",
  "trang_thai": "CHỜ DUYỆT – chưa đăng",
+ "chuoi": "Chuẩn hóa doanh nghiệp",
+ "da_duyet": "Theo phiên điều phối: bài 29 giữ nguyên; tư vấn 30 phút miễn phí; nhạc chọn khi duyệt từng bài; Zalo OA ưu tiên 2, 8, 13, 23, 26, 29, 30",
  "bai": [
   {
    "stt": 1,
    "ngay": "2026-11-20",
    "thu": "Thứ Sáu",
-   "tru_cot": "Giới thiệu",
-   "giai_doan": "Biết",
-   "chu_de": "Dream Labs là ai: studio ở TP.HCM, tự động hóa quy trình doanh nghiệp bằng AI là dịch vụ chủ đạo, kèm website, landing page, bao bì, motion graphic, edit video",
+   "tru_cot": "Chuẩn hóa · Tổng quan",
+   "uu_tien_zalo": false,
+   "chuoi": "Chuẩn hóa doanh nghiệp",
+   "chu_de": "Chuẩn hóa doanh nghiệp bắt đầu từ đâu: bản đồ 6 mảng (bán hàng, chăm sóc khách, báo cáo, sổ sách, kế hoạch, nhận diện & website) và cách tự chấm điểm từng mảng trong 30 phút",
+   "tieu_de": "Chuẩn hóa doanh nghiệp bắt đầu từ đâu? Bản đồ 6 mảng trong 30 phút",
+   "demo": "Video mở đầu chuỗi: các mẫu concept của Dream Labs (demo AI mô phỏng, website Ombrève, bao bì Khuê Lam xoay 360, motion Talvère, video Lam Kỳ)",
    "loai_media": "video",
    "gio_dang": {
     "facebook": "20:00",
@@ -24,98 +29,165 @@
    "media": {
     "video": "media/p01/video.mp4",
     "anh_bia": "media/p01/cover.jpg",
-    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+    "carousel": [
+     "media/p01/slide-1.jpg",
+     "media/p01/slide-2.jpg",
+     "media/p01/slide-3.jpg",
+     "media/p01/slide-4.jpg",
+     "media/p01/slide-5.jpg",
+     "media/p01/slide-6.jpg",
+     "media/p01/slide-7.jpg",
+     "media/p01/slide-8.jpg",
+     "media/p01/slide-9.jpg",
+     "media/p01/slide-10.jpg",
+     "media/p01/slide-11.jpg"
+    ],
+    "ghi_chu": "9:16, 1080×1920, H.264 cho TikTok/Reels; carousel 4:5 mỗi slide một bước cho Facebook/Instagram"
    },
    "facebook": {
-    "noi_dung": "Mỗi ngày bạn mất bao nhiêu giờ cho những việc lặp đi lặp lại?\n\nChép đơn. Trả lời lại cùng một câu hỏi giá. Cuối tuần gom số liệu làm báo cáo.\nTrong khi đó, website, bao bì, video vẫn chưa nói đúng chất lượng sản phẩm của bạn.\n\nDream Labs là studio ở TP.HCM, làm cả hai phần đó ở cùng một nơi:\n– Phần “chạy”: quy trình, AI, dữ liệu.\n– Phần “được nhìn thấy”: web, bao bì, video.\n\n6 dịch vụ của chúng tôi:\n→ Tự động hóa quy trình bằng AI: trợ lý AI trên Zalo OA/Messenger, n8n, đồng bộ Google Sheets/CRM, AI viết báo cáo, AI agent.\n→ Thiết kế website: nhanh, đẹp, dễ dùng trên điện thoại.\n→ Landing page: một trang, một mục tiêu là thu khách.\n→ Thiết kế sản phẩm, bao bì.\n→ Video motion graphic.\n→ Edit video.\n\nVideo bên dưới là showreel các mẫu concept do chính Dream Labs tự thiết kế. Các thương hiệu trong đó là mẫu, không phải khách hàng.\n\nMuốn xem kỹ từng mẫu? Ghé phòng mẫu trên dreamlabs.vn.\nCần hỏi nhanh thì nhắn Zalo 0934 246 420.",
+    "noi_dung": "Chuẩn hóa doanh nghiệp: bắt đầu từ mảng nào trước?\n\nĐây là câu hỏi rất hay gặp ở doanh nghiệp nhỏ. Mọi thứ vẫn \"chạy được\", nhưng chạy nhờ trí nhớ của vài người. Một người nghỉ phép là đơn chậm, báo cáo trễ, tin nhắn khách không ai trả lời.\n\nChuẩn hóa không bắt đầu bằng việc mua phần mềm. Nó bắt đầu bằng một tấm bản đồ: doanh nghiệp đang có những mảng nào, mảng nào đã ổn, mảng nào đang tốn sức nhất. Bài này hướng dẫn anh chị tự vẽ tấm bản đồ đó trong khoảng 30 phút, chỉ cần một bảng tính hoặc một tờ giấy A4.\n\n▸ 6 MẢNG CẦN NHÌN\n1. Bán hàng: từ lúc có khách mới đến lúc chốt đơn.\n2. Chăm sóc khách: trả lời tin nhắn, hỗ trợ sau bán, xử lý khiếu nại.\n3. Báo cáo: số liệu ngày, tuần, tháng; ai đọc và đọc để quyết định gì.\n4. Sổ sách: thu chi, hóa đơn, công nợ, đối chiếu cuối kỳ.\n5. Kế hoạch: mục tiêu tháng, quý; phân việc; theo dõi tiến độ.\n6. Nhận diện & website: logo, bao bì, website, trang mạng xã hội có thống nhất và còn đúng thông tin không.\n\n▸ 6 BƯỚC TỰ CHẤM ĐIỂM TRONG 30 PHÚT\n1. Vẽ bản đồ (5 phút). Kẻ một bảng 6 dòng ứng với 6 mảng. Mỗi dòng ghi ai đang phụ trách và đang làm bằng công cụ gì: sổ tay, bảng tính, nhóm chat nội bộ hay phần mềm.\n2. Chấm điểm 0–3 cho từng mảng (10 phút). 0 = chưa có gì. 1 = mỗi người làm theo thói quen riêng. 2 = có quy trình viết ra nhưng vẫn làm tay. 3 = có quy trình, có số đo, chạy đều kể cả khi người phụ trách vắng.\n3. Kiểm tra lại bằng 3 câu hỏi (5 phút). Với mỗi mảng hỏi: người khác làm thay được không? Có tài liệu viết ra không? Có con số theo dõi mỗi tuần không? Mỗi câu \"không\" thì hạ 1 điểm so với điểm anh chị vừa tự chấm.\n4. Ước giờ làm tay mỗi tuần (5 phút). Ghi việc lặp lại lớn nhất của từng mảng và số giờ nó chiếm. Công thức: phút mỗi ngày × số ngày làm ÷ 60. Ví dụ: trả lời tin nhắn hỏi giá 60 phút/ngày × 6 ngày ÷ 60 = 6 giờ/tuần.\n5. Chọn đúng 1 mảng ưu tiên (3 phút). Lấy mảng điểm thấp mà tốn nhiều giờ nhất. Chỉ một mảng cho 30 ngày tới, các mảng còn lại đưa vào danh sách chờ.\n6. Hẹn ngày chấm lại (2 phút). Đặt lịch sau 30 ngày, chấm lại bằng đúng bảng này. Điểm tăng là tiến thật, không tăng thì xem lại cách làm.\n\n▸ MẪU BẢNG CHÉP DÙNG NGAY\nMảng | Người phụ trách | Đang làm bằng gì | Điểm 0–3 | Giờ làm tay/tuần | Ghi chú\nBán hàng | ___ | ___ | ___ | ___ | ___\nChăm sóc khách | ___ | ___ | ___ | ___ | ___\nBáo cáo | ___ | ___ | ___ | ___ | ___\nSổ sách | ___ | ___ | ___ | ___ | ___\nKế hoạch | ___ | ___ | ___ | ___ | ___\nNhận diện & website | ___ | ___ | ___ | ___ | ___\n\nDòng cuối ghi: Mảng ưu tiên: ___ · Người chịu trách nhiệm: ___ · Ngày chấm lại: ___\n\n▸ 3 LỖI HAY GẶP\n• Muốn chuẩn hóa cả 6 mảng cùng lúc. Sau một tháng, mảng nào cũng dở dang.\n• Chủ doanh nghiệp tự chấm theo cảm giác, không hỏi người trực tiếp làm việc đó hằng ngày.\n• Mua phần mềm trước khi biết quy trình đang chạy thế nào, rồi phần mềm thành thêm một nơi phải nhập liệu.\n\n▸ VÌ SAO ĐI THEO THỨ TỰ NÀY\nKhi đã có bản đồ, anh chị sẽ thấy rõ việc nào cần viết lại quy trình, việc nào giao cho máy làm được, và việc nào chỉ cần sửa giao diện như website hay bao bì. Các bài tiếp theo trong chuỗi \"Chuẩn hóa doanh nghiệp\" sẽ đi sâu từng mảng một, mỗi bài kèm mẫu chép dùng ngay.\n\n▸ VIDEO MỞ ĐẦU CHUỖI\nVideo đi kèm lướt qua các mẫu concept do Dream Labs thiết kế, ứng với từng mảng trong bản đồ: demo AI mô phỏng cho bán hàng, chăm sóc khách và báo cáo (số liệu minh họa); website Ombrève; bao bì Khuê Lam xoay 360; phim motion Talvère; video Lam Kỳ. Các thương hiệu trong video là mẫu concept, không phải khách hàng.\n\n▸ NẾU MUỐN CÓ NGƯỜI CÙNG NHÌN\nChấm xong mà vẫn phân vân nên bắt đầu từ mảng nào, anh chị gửi bảng điểm qua Zalo 0934 246 420. Dream Labs có buổi tư vấn 30 phút miễn phí để cùng anh chị chọn mảng đầu tiên, không bắt buộc dùng dịch vụ. Xem thêm tại dreamlabs.vn.",
     "media": [
      "media/p01/video.mp4"
+    ],
+    "media_phu": [
+     "media/p01/slide-1.jpg",
+     "media/p01/slide-2.jpg",
+     "media/p01/slide-3.jpg",
+     "media/p01/slide-4.jpg",
+     "media/p01/slide-5.jpg",
+     "media/p01/slide-6.jpg",
+     "media/p01/slide-7.jpg",
+     "media/p01/slide-8.jpg",
+     "media/p01/slide-9.jpg",
+     "media/p01/slide-10.jpg",
+     "media/p01/slide-11.jpg"
     ]
    },
    "instagram": {
-    "caption": "Một studio, hai phần việc.\n\nPhần “chạy”: tự động hóa quy trình bằng AI, trợ lý trên Zalo OA, báo cáo tự viết.\nPhần “được nhìn thấy”: website, landing page, bao bì, motion graphic, edit video.\n\nDream Labs ở TP.HCM. Mọi thương hiệu trong showreel này là mẫu concept do chúng tôi tự thiết kế.\n\nXem phòng mẫu đầy đủ. Link ở bio",
+    "caption": "Chuẩn hóa doanh nghiệp nên bắt đầu từ đâu? Từ một tấm bản đồ, không phải từ phần mềm.\n\nLướt carousel để xem từng bước tự chấm điểm 6 mảng trong khoảng 30 phút:\n1. Vẽ bản đồ 6 mảng: bán hàng, chăm sóc khách, báo cáo, sổ sách, kế hoạch, nhận diện & website.\n2. Chấm điểm 0–3 cho từng mảng.\n3. Kiểm tra lại bằng 3 câu hỏi: người khác làm thay được không, có tài liệu không, có số đo hằng tuần không.\n4. Ước giờ làm tay mỗi tuần: phút/ngày × số ngày ÷ 60.\n5. Chọn đúng 1 mảng ưu tiên cho 30 ngày.\n6. Hẹn ngày chấm lại bằng chính bảng đó.\n\nLỗi hay gặp nhất: muốn sửa cả 6 mảng cùng lúc, cuối cùng mảng nào cũng dở dang.\n\nLưu bài này lại và chép mẫu bảng ở slide cuối để dùng ngay. Video mở đầu chuỗi là các mẫu concept do Dream Labs thiết kế, demo AI là demo mô phỏng với số liệu minh họa.\n\nCần người cùng nhìn bảng điểm? Tư vấn 30 phút miễn phí qua Zalo 0934 246 420. Link ở bio",
     "hashtags": [
      "#dreamlabs",
-     "#studiosaigon",
+     "#chuanhoadoanhnghiep",
+     "#quytrinhdoanhnghiep",
+     "#quantridoanhnghiep",
+     "#doanhnghiepnho",
+     "#chudoanhnghiep",
      "#tudonghoa",
      "#tudonghoaquytrinh",
-     "#AIautomation",
-     "#thietkewebsite",
-     "#landingpage",
-     "#thietkebaobi",
-     "#packagingdesign",
-     "#motiongraphics",
-     "#editvideo",
-     "#doanhnghiepnho",
-     "#smallbusiness"
+     "#kinhdoanh",
+     "#smallbusiness",
+     "#SOP"
     ],
     "media": [
-     "media/p01/video.mp4"
-    ]
+     "media/p01/slide-1.jpg",
+     "media/p01/slide-2.jpg",
+     "media/p01/slide-3.jpg",
+     "media/p01/slide-4.jpg",
+     "media/p01/slide-5.jpg",
+     "media/p01/slide-6.jpg",
+     "media/p01/slide-7.jpg",
+     "media/p01/slide-8.jpg",
+     "media/p01/slide-9.jpg",
+     "media/p01/slide-10.jpg",
+     "media/p01/slide-11.jpg"
+    ],
+    "reels": "media/p01/video.mp4"
    },
    "tiktok": {
-    "caption": "Một studio ở TP.HCM làm cả AI tự động hóa lẫn web, bao bì, video. Toàn bộ là mẫu concept tự thiết kế.",
+    "caption": "Chuẩn hóa doanh nghiệp bắt đầu từ đâu? Tự chấm 6 mảng trong 30 phút, chọn đúng 1 mảng làm trước.",
     "hashtags": [
-     "#dreamlabs",
-     "#tudonghoa",
-     "#thietkewebsite",
-     "#motiongraphics"
+     "#chuanhoadoanhnghiep",
+     "#doanhnghiepnho",
+     "#quantri",
+     "#dreamlabs"
     ],
     "dang": "video",
     "kich_ban": [
      {
       "t": "0–3s",
-      "screen": "Ngày nào cũng làm lại việc cũ?",
-      "voice": "Ngày nào bạn cũng làm lại đúng những việc hôm qua?"
+      "screen": "Muốn chuẩn hóa nhưng không biết bắt đầu?",
+      "voice": "Muốn chuẩn hóa doanh nghiệp mà không biết bắt đầu từ đâu?"
      },
      {
       "t": "3–7s",
-      "screen": "Dream Labs · Studio ở TP.HCM",
-      "voice": "Đây là Dream Labs, một studio nhỏ ở TP.HCM."
+      "screen": "Bước 1: Vẽ bản đồ 6 mảng",
+      "voice": "Kẻ một bảng sáu dòng: bán hàng, chăm sóc khách, báo cáo, sổ sách, kế hoạch, website."
      },
      {
-      "t": "7–12s",
-      "screen": "Tự động hóa quy trình bằng AI",
-      "voice": "Việc chính của chúng tôi là để AI và máy làm phần lặp lại."
+      "t": "7–11s",
+      "screen": "Bước 2: Chấm điểm 0 đến 3",
+      "voice": "Chấm mỗi mảng từ không đến ba, hỏi luôn người đang làm việc đó."
      },
      {
-      "t": "12–19s",
-      "screen": "Website · Landing page · Bao bì · Motion · Edit video",
-      "voice": "Và làm luôn phần khách nhìn thấy: web, landing page, bao bì, video."
+      "t": "11–15s",
+      "screen": "Bước 3: Ba câu hỏi kiểm tra",
+      "voice": "Người khác làm thay được không, có tài liệu không, có số đo không?"
+     },
+     {
+      "t": "15–19s",
+      "screen": "Bước 4: Phút/ngày × ngày ÷ 60",
+      "voice": "Ước số giờ làm tay mỗi tuần của việc lặp lại lớn nhất."
      },
      {
       "t": "19–23s",
-      "screen": "Mẫu concept do Dream Labs tự thiết kế",
-      "voice": "Những gì bạn vừa xem là mẫu concept chúng tôi tự làm."
+      "screen": "Bước 5: Chọn đúng 1 mảng",
+      "voice": "Chọn mảng điểm thấp mà tốn giờ nhất, chỉ một mảng thôi."
      },
      {
       "t": "23–27s",
-      "screen": "dreamlabs.vn · Zalo 0934 246 420",
-      "voice": "Xem phòng mẫu ở dreamlabs.vn hoặc nhắn Zalo cho chúng tôi."
+      "screen": "Bước 6: Chấm lại sau 30 ngày",
+      "voice": "Hẹn ngày chấm lại bằng đúng bảng này để biết mình tiến thật chưa."
+     },
+     {
+      "t": "27–32s",
+      "screen": "Mẫu concept · demo mô phỏng",
+      "voice": "Các hình bạn vừa thấy là mẫu concept và demo mô phỏng do Dream Labs làm."
+     },
+     {
+      "t": "32–36s",
+      "screen": "Tư vấn 30 phút miễn phí · Zalo 0934 246 420",
+      "voice": "Cần người cùng nhìn bảng điểm, nhắn Zalo cho Dream Labs nhé."
      }
     ],
     "media": [
      "media/p01/video.mp4"
     ]
    },
+   "x": {
+    "tweet": "Chuẩn hóa doanh nghiệp nên bắt đầu từ một tấm bản đồ, không phải phần mềm. Chấm 0–3 cho 6 mảng: bán hàng, chăm sóc khách, báo cáo, sổ sách, kế hoạch, website. Chọn mảng điểm thấp mà tốn giờ nhất, làm 30 ngày rồi chấm lại. dreamlabs.vn",
+    "thread": [
+     "Muốn chuẩn hóa doanh nghiệp mà không biết bắt đầu từ đâu? Dành 30 phút làm tấm bản đồ 6 mảng này trước khi mua bất kỳ phần mềm nào.",
+     "1/ Kẻ bảng 6 dòng: bán hàng, chăm sóc khách, báo cáo, sổ sách, kế hoạch, nhận diện & website. Ghi người phụ trách và công cụ đang dùng.",
+     "2/ Chấm 0–3: 0 chưa có, 1 mỗi người một kiểu, 2 có quy trình nhưng làm tay, 3 có quy trình + số đo, chạy đều khi vắng người. Mỗi câu \"không\" ở 3 câu kiểm tra (làm thay được? có tài liệu? có số đo?) hạ 1 điểm.",
+     "3/ Ước giờ làm tay: phút/ngày × ngày ÷ 60. Ví dụ 60 phút/ngày × 6 ngày = 6 giờ/tuần. Chọn đúng 1 mảng điểm thấp mà tốn giờ nhất cho 30 ngày tới.",
+     "4/ Hẹn chấm lại sau 30 ngày bằng chính bảng đó. Cần người cùng nhìn bảng điểm? Dream Labs tư vấn 30 phút miễn phí, Zalo 0934 246 420. dreamlabs.vn"
+    ],
+    "tai_khoan": "@dreamlabsvn",
+    "media": [
+     "media/p01/video.mp4"
+    ]
+   },
    "zalo_oa": {
-    "tieu_de": "Dream Labs: studio AI và thiết kế tại TP.HCM",
-    "noi_dung": "Dream Labs giúp doanh nghiệp nhỏ bớt việc lặp lại bằng tự động hóa quy trình với AI: trợ lý trên Zalo OA/Messenger, đồng bộ Google Sheets/CRM, AI viết báo cáo. Ngoài ra, chúng tôi thiết kế website, landing page, bao bì, làm motion graphic và edit video. Xem các mẫu concept do Dream Labs tự thiết kế trong phòng mẫu.",
+    "tieu_de": "Chuẩn hóa doanh nghiệp: bắt đầu từ mảng nào?",
+    "noi_dung": "Trước khi mua phần mềm, anh chị dành 30 phút chấm điểm 0–3 cho 6 mảng: bán hàng, chăm sóc khách, báo cáo, sổ sách, kế hoạch, nhận diện & website. Hỏi thêm 3 câu: người khác làm thay được không, có tài liệu không, có số đo không. Chọn mảng điểm thấp mà tốn giờ nhất để làm trước. Gửi bảng điểm cho Dream Labs để được tư vấn 30 phút miễn phí.",
     "nut": {
-     "nhan": "Xem phòng mẫu",
-     "link": "https://dreamlabs.vn"
+     "nhan": "Đặt lịch tư vấn",
+     "link": "https://dreamlabs.vn/#lien-he"
     },
     "anh": "media/p01/cover.jpg"
    },
-   "ghi_chu": "Video dựng từ các mẫu concept (không dùng showreel cũ vì còn chữ “DreamLab” kiểu tên cũ). Câu “mẫu concept do Dream Labs thiết kế” nằm ở thẻ kết. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+   "ghi_chu": "Nhạc: chọn khi duyệt bài. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
   },
   {
    "stt": 2,
    "ngay": "2026-11-21",
    "thu": "Thứ Bảy",
-   "tru_cot": "Tự động hóa AI",
-   "giai_doan": "Biết",
-   "chu_de": "23 giờ khách nhắn hỏi giá trên Zalo OA, ai trả lời? Trợ lý AI trực 24/7, ghi khách vào Google Sheets, sáng ra nhân viên gọi lại",
+   "tru_cot": "Chuẩn hóa · Chăm sóc khách",
+   "uu_tien_zalo": true,
+   "chuoi": "Chuẩn hóa doanh nghiệp",
+   "chu_de": "Chuẩn hóa tiếp nhận tin nhắn khách: gom mọi kênh về một nơi, bộ câu trả lời mẫu, nhãn phân loại, quy tắc chuyển người, trực ngoài giờ",
+   "tieu_de": "Gom tin nhắn khách về một nơi: 6 bước chuẩn hóa tiếp nhận",
+   "demo": "Video demo mô phỏng trợ lý AI trên Zalo OA trả lời lúc 23:04 và ghi khách vào Google Sheets",
    "loai_media": "video",
    "gio_dang": {
     "facebook": "09:30",
@@ -127,102 +199,166 @@
    "media": {
     "video": "media/p02/video.mp4",
     "anh_bia": "media/p02/cover.jpg",
-    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+    "carousel": [
+     "media/p02/slide-1.jpg",
+     "media/p02/slide-2.jpg",
+     "media/p02/slide-3.jpg",
+     "media/p02/slide-4.jpg",
+     "media/p02/slide-5.jpg",
+     "media/p02/slide-6.jpg",
+     "media/p02/slide-7.jpg",
+     "media/p02/slide-8.jpg",
+     "media/p02/slide-9.jpg",
+     "media/p02/slide-10.jpg",
+     "media/p02/slide-11.jpg"
+    ],
+    "ghi_chu": "9:16, 1080×1920, H.264 cho TikTok/Reels; carousel 4:5 mỗi slide một bước cho Facebook/Instagram"
    },
    "facebook": {
-    "noi_dung": "23:04. Khách nhắn Zalo OA hỏi giá. Ai trả lời?\n\nThường là không ai. Nhân viên đã về, chủ shop đã ngủ.\nSáng hôm sau mở máy, khách đã mua ở chỗ khác.\n\nDream Labs làm trợ lý AI trực Zalo OA 24/7 cho đúng tình huống này:\n– Trả lời theo tài liệu sản phẩm bạn đã duyệt: giá, phí giao, giờ mở cửa.\n– Gắn nhãn từng cuộc trò chuyện: hỏi giá, đặt hàng hay bảo hành.\n– Ghi mỗi khách thành một dòng trong Google Sheets.\n\n7:30 sáng, nhân viên mở bảng là có sẵn danh sách cần gọi lại.\n\nCòn câu khó, khiếu nại hay giá đặc biệt? AI không tự quyết. Nó chuyển cho nhân viên thật xử lý.\n\nVideo là demo mô phỏng để bạn thấy luồng chạy, số liệu chỉ để minh họa.\n\nGói Khởi động: 5.000.000đ (chưa gồm VAT), làm trong 5–7 ngày.\n\nMuốn biết trợ lý này sẽ trả lời gì cho sản phẩm của bạn? Nhắn Zalo 0934 246 420, Dream Labs tư vấn cụ thể.",
+    "noi_dung": "Khách nhắn lúc 23:04, sáng hôm sau mới có người đọc. Quen không?\n\nTin nhắn khách thường đến từ năm, sáu chỗ: Zalo OA, Messenger, Zalo cá nhân của nhân viên, bình luận Facebook và TikTok, form trên website, điện thoại. Mỗi người đọc một kênh, mỗi người trả lời một kiểu, và không có nơi nào ghi lại đầy đủ ai đã hỏi gì. Hậu quả là khách bị bỏ sót, câu trả lời giá mỗi người một số, còn chủ doanh nghiệp không biết mỗi ngày thật ra có bao nhiêu người hỏi.\n\nChuẩn hóa tiếp nhận tin nhắn không cần đổi hết công cụ. Chỉ cần sáu bước dưới đây, làm dần trong một tuần.\n\n▸ 6 BƯỚC CHUẨN HÓA TIẾP NHẬN TIN NHẮN\n1. Liệt kê mọi kênh khách đang nhắn. Ghi rõ kênh nào, ai đọc, đọc giờ nào, mỗi ngày khoảng bao nhiêu tin, có ghi lại không. Kênh nào không ai chịu trách nhiệm thì đóng lại hoặc đặt tin tự động chỉ về kênh chính.\n2. Gom về một nơi ghi nhận duy nhất. Chọn một tab Google Sheets hoặc một phần mềm CRM. Mỗi khách nhắn mới là một dòng, dù đến từ kênh nào. Khách nhắn qua Zalo cá nhân của nhân viên cũng phải được ghi vào đây trong ngày.\n3. Viết bộ câu trả lời mẫu cho 10 câu hỏi hay gặp. Lọc tin nhắn hai tuần gần nhất, lấy 10 câu hay lặp lại nhất: giá, phí giao, thời gian giao, giờ mở cửa, đổi trả. Mỗi câu trả lời ngắn, đúng giọng thương hiệu, và kết thúc bằng một câu hỏi để giữ hội thoại.\n4. Gắn nhãn phân loại. Dùng tối đa năm nhãn để ai cũng gắn giống nhau: HỎI GIÁ, ĐẶT HÀNG, KHIẾU NẠI, SAU BÁN, KHÁC. Mỗi tin chỉ một nhãn. Nhãn là thứ giúp anh chị cuối tuần đếm được mình đang nhận loại tin nào nhiều.\n5. Đặt quy tắc chuyển người. Viết ra khi nào trợ lý hoặc nhân viên trực phải chuyển cho người có quyền: khiếu nại, xin giảm giá ngoài bảng, đơn lớn, khách hỏi đến lần thứ hai vẫn chưa được giải quyết. Kèm thời gian phản hồi tối đa cho từng trường hợp.\n6. Trực ngoài giờ. Soạn tin tự động cho ngoài giờ: cảm ơn, báo giờ làm việc, xin trước hai, ba thông tin, hẹn giờ gọi lại cụ thể. Sáng hôm sau, tin đêm trước được xử lý đầu tiên.\n\n▸ MẪU CHÉP DÙNG NGAY\nBảng ghi nhận khách:\nNgày giờ | Kênh | Tên | SĐT | Nhu cầu | Nhãn | Người xử lý | Trạng thái\n\nCâu trả lời mẫu:\nCâu hỏi: ___ | Trả lời chuẩn: ___ | Câu hỏi tiếp theo: \"Anh/chị cần cho mấy người, dùng khi nào ạ?\" | Ngày cập nhật: ___\n\nQuy tắc chuyển người:\nKHIẾU NẠI → quản lý, trong 15 phút\nGiảm giá ngoài bảng → chủ doanh nghiệp\nĐơn trên ___đ → trưởng bán hàng\nHỏi lần 2 chưa xong → người phụ trách ca\n\nTin ngoài giờ:\n\"Dạ cảm ơn anh/chị đã nhắn [tên cửa hàng]. Bên em làm việc 8:00–18:00. Anh/chị cho em xin tên, số điện thoại và nhu cầu, 8:30 sáng mai em gọi lại ạ.\"\n\n▸ 3 LỖI HAY GẶP\n• Nhân viên dùng Zalo cá nhân để chốt khách. Người nghỉ việc là mất luôn lịch sử khách.\n• Câu trả lời mẫu quá dài, đọc như văn bản hành chính, khách đọc xong vẫn phải hỏi lại.\n• Không có quy tắc chuyển người, nên khiếu nại cũng bị trả lời bằng tin mẫu.\n\n▸ KHI ĐÃ CHUẨN, MÁY MỚI LÀM THAY ĐƯỢC\nSáu bước trên làm bằng tay vẫn hiệu quả. Nhưng khi bộ câu trả lời mẫu, nhãn và quy tắc chuyển người đã rõ, đó cũng chính là \"tài liệu huấn luyện\" để một trợ lý AI trực thay ngoài giờ.\n\nVideo đi kèm là demo mô phỏng (số liệu minh họa) do Dream Labs dựng: khách nhắn Zalo OA lúc 23:04, trợ lý AI trả lời theo bộ câu mẫu, hỏi đủ thông tin, gắn nhãn và ghi khách thành một dòng mới trong Google Sheets. Sáng hôm sau, người phụ trách chỉ cần mở bảng và gọi lại. Nó minh họa đúng bước 2 và bước 6.\n\n▸ BẮT ĐẦU NHỎ\nNếu anh chị muốn dựng phần này cho một kênh trước, gói Khởi động của Dream Labs gồm một quy trình tiếp nhận và phân loại khách, trợ lý AI trên Zalo OA/Messenger, đồng bộ Google Sheets: 5.000.000đ (chưa gồm VAT), làm trong 5–7 ngày. Còn nếu chỉ muốn hỏi xem bộ câu mẫu của mình đã đủ chưa, nhắn Zalo 0934 246 420 để đặt buổi tư vấn 30 phút miễn phí.",
     "media": [
      "media/p02/video.mp4"
+    ],
+    "media_phu": [
+     "media/p02/slide-1.jpg",
+     "media/p02/slide-2.jpg",
+     "media/p02/slide-3.jpg",
+     "media/p02/slide-4.jpg",
+     "media/p02/slide-5.jpg",
+     "media/p02/slide-6.jpg",
+     "media/p02/slide-7.jpg",
+     "media/p02/slide-8.jpg",
+     "media/p02/slide-9.jpg",
+     "media/p02/slide-10.jpg",
+     "media/p02/slide-11.jpg"
     ]
    },
    "instagram": {
-    "caption": "23:04, khách hỏi giá.\n23:04, trợ lý AI đã trả lời.\n\nTheo đúng tài liệu bạn duyệt: giá, phí giao, giờ mở cửa. Gắn nhãn, ghi vào Google Sheets.\n7:30 sáng, nhân viên có sẵn danh sách gọi lại.\n\nCâu khó và khiếu nại vẫn để người thật lo.\n\nDemo mô phỏng. Gói Khởi động 5.000.000đ (chưa gồm VAT), 5–7 ngày.\n\nNhắn Zalo 0934 246 420",
+    "caption": "Khách nhắn lúc 23:04, sáng mai mới có người đọc. Vấn đề không nằm ở nhân viên, mà ở chỗ tin nhắn đang nằm rải rác ở năm, sáu kênh.\n\nLướt carousel để xem từng bước chuẩn hóa tiếp nhận tin nhắn:\n1. Liệt kê mọi kênh: ai đọc, giờ nào, mỗi ngày bao nhiêu tin.\n2. Gom về một nơi ghi nhận: một tab Google Sheets hoặc phần mềm CRM, mỗi khách một dòng.\n3. Viết câu trả lời mẫu cho 10 câu hỏi hay gặp, kết bằng một câu hỏi.\n4. Gắn tối đa 5 nhãn: Hỏi giá, Đặt hàng, Khiếu nại, Sau bán, Khác.\n5. Đặt quy tắc chuyển người cho khiếu nại, giảm giá, đơn lớn.\n6. Soạn tin ngoài giờ có hẹn giờ gọi lại cụ thể.\n\nLỗi hay gặp: nhân viên chốt khách bằng Zalo cá nhân, nghỉ việc là mất lịch sử khách.\n\nVideo là demo mô phỏng (số liệu minh họa): trợ lý AI trên Zalo OA trả lời lúc 23:04 và ghi khách vào Google Sheets.\n\nLưu bài để chép mẫu bảng ghi nhận và tin ngoài giờ. Tư vấn 30 phút miễn phí qua Zalo 0934 246 420. Link ở bio",
     "hashtags": [
-     "#tudonghoa",
-     "#trolyAI",
-     "#zalooa",
-     "#chatbotAI",
-     "#AIautomation",
-     "#googlesheets",
+     "#dreamlabs",
+     "#chuanhoadoanhnghiep",
      "#chamsockhachhang",
-     "#banhangonline",
-     "#customerservice",
-     "#smallbusiness",
+     "#CSKH",
+     "#zalooa",
+     "#trolyAI",
+     "#tudonghoa",
+     "#tudonghoaquytrinh",
+     "#googlesheets",
      "#doanhnghiepnho",
-     "#dreamlabs"
+     "#banhangonline",
+     "#smallbusiness"
     ],
     "media": [
-     "media/p02/video.mp4"
-    ]
+     "media/p02/slide-1.jpg",
+     "media/p02/slide-2.jpg",
+     "media/p02/slide-3.jpg",
+     "media/p02/slide-4.jpg",
+     "media/p02/slide-5.jpg",
+     "media/p02/slide-6.jpg",
+     "media/p02/slide-7.jpg",
+     "media/p02/slide-8.jpg",
+     "media/p02/slide-9.jpg",
+     "media/p02/slide-10.jpg",
+     "media/p02/slide-11.jpg"
+    ],
+    "reels": "media/p02/video.mp4"
    },
    "tiktok": {
-    "caption": "23h khách hỏi giá trên Zalo OA. Trợ lý AI trả lời, ghi vào Google Sheets, sáng ra chỉ việc gọi lại. Demo mô phỏng.",
+    "caption": "Khách nhắn 23:04, sáng mai mới đọc? 6 bước gom tin nhắn về một nơi, kèm mẫu tin ngoài giờ chép dùng ngay.",
     "hashtags": [
-     "#tudonghoa",
-     "#trolyAI",
+     "#chamsockhachhang",
      "#zalooa",
-     "#banhangonline"
+     "#banhangonline",
+     "#dreamlabs"
     ],
     "dang": "video",
     "kich_ban": [
      {
       "t": "0–3s",
-      "screen": "23:04 – khách hỏi giá. Ai trả lời?",
-      "voice": "Mười một giờ đêm khách nhắn hỏi giá, ai trả lời?"
+      "screen": "Khách nhắn 23:04, sáng mai mới đọc?",
+      "voice": "Khách nhắn lúc mười một giờ đêm, sáng mai mới có người đọc?"
      },
      {
-      "t": "3–8s",
-      "screen": "Trợ lý AI trả lời theo tài liệu đã duyệt",
-      "voice": "Trợ lý AI trả lời ngay, theo đúng bảng giá và chính sách bạn đã duyệt."
+      "t": "3–7s",
+      "screen": "Bước 1: Liệt kê mọi kênh",
+      "voice": "Ghi hết các kênh khách đang nhắn và ai đang đọc từng kênh."
      },
      {
-      "t": "8–13s",
-      "screen": "Dòng mới: Hỏi giá → Google Sheets",
-      "voice": "Khách được gắn nhãn và ghi thành một dòng trong Google Sheets."
+      "t": "7–11s",
+      "screen": "Bước 2: Một nơi ghi nhận",
+      "voice": "Gom về một bảng duy nhất, mỗi khách mới là một dòng."
      },
      {
-      "t": "13–18s",
-      "screen": "7:30 – danh sách gọi lại đã sẵn",
-      "voice": "Bảy giờ rưỡi sáng, nhân viên mở ra là có danh sách gọi lại."
+      "t": "11–15s",
+      "screen": "Bước 3: 10 câu trả lời mẫu",
+      "voice": "Viết sẵn câu trả lời cho mười câu hỏi khách hay hỏi nhất."
      },
      {
-      "t": "18–22s",
-      "screen": "Khiếu nại, giá đặc biệt → người thật",
-      "voice": "Câu khó hay khiếu nại thì AI chuyển cho người thật."
+      "t": "15–19s",
+      "screen": "Bước 4: Tối đa 5 nhãn",
+      "voice": "Gắn nhãn hỏi giá, đặt hàng, khiếu nại, sau bán, khác."
      },
      {
-      "t": "22–26s",
-      "screen": "Gói Khởi động 5.000.000đ · 5–7 ngày",
-      "voice": "Gói Khởi động năm triệu, chưa gồm VAT, làm trong năm đến bảy ngày."
+      "t": "19–23s",
+      "screen": "Bước 5: Khi nào chuyển người",
+      "voice": "Khiếu nại hay xin giảm giá thì chuyển ngay cho người có quyền."
      },
      {
-      "t": "26–29s",
-      "screen": "Demo mô phỏng · Zalo 0934 246 420",
-      "voice": "Đây là demo mô phỏng, nhắn Zalo cho Dream Labs để xem bản của bạn."
+      "t": "23–27s",
+      "screen": "Bước 6: Tin ngoài giờ có hẹn gọi",
+      "voice": "Ngoài giờ, xin thông tin và hẹn giờ gọi lại thật cụ thể."
+     },
+     {
+      "t": "27–33s",
+      "screen": "Demo mô phỏng · số liệu minh họa",
+      "voice": "Đây là demo mô phỏng trợ lý AI trên Zalo OA ghi khách vào Google Sheets."
+     },
+     {
+      "t": "33–37s",
+      "screen": "Zalo 0934 246 420 · tư vấn 30 phút miễn phí",
+      "voice": "Muốn dựng cho shop mình, nhắn Zalo Dream Labs để được tư vấn miễn phí."
      }
     ],
     "media": [
      "media/p02/video.mp4"
     ]
    },
+   "x": {
+    "tweet": "Khách nhắn lúc 23:04, sáng mai mới đọc? Gom mọi kênh về một bảng, viết sẵn 10 câu trả lời mẫu, gắn tối đa 5 nhãn, đặt quy tắc chuyển người, và soạn tin ngoài giờ có hẹn giờ gọi lại cụ thể. Mẫu đầy đủ: dreamlabs.vn",
+    "thread": [
+     "Khách nhắn lúc 23:04, sáng hôm sau mới có người đọc. Lỗi thường không ở nhân viên, mà ở chỗ tin nhắn nằm rải rác 5–6 kênh. 6 bước chuẩn hóa tiếp nhận:",
+     "1/ Liệt kê mọi kênh: ai đọc, giờ nào, bao nhiêu tin/ngày. 2/ Gom về một bảng ghi nhận duy nhất: Ngày giờ | Kênh | Tên | SĐT | Nhu cầu | Nhãn | Người xử lý | Trạng thái.",
+     "3/ Viết câu trả lời mẫu cho 10 câu hỏi hay lặp lại nhất trong 2 tuần qua, ngắn, kết bằng một câu hỏi. 4/ Tối đa 5 nhãn: Hỏi giá, Đặt hàng, Khiếu nại, Sau bán, Khác.",
+     "5/ Quy tắc chuyển người: khiếu nại → quản lý trong 15 phút; giảm giá ngoài bảng → chủ. 6/ Tin ngoài giờ: xin tên, SĐT, nhu cầu và hẹn \"8:30 sáng mai em gọi lại\".",
+     "Khi bộ mẫu đã rõ, trợ lý AI trên Zalo OA trực thay được. Muốn xem demo mô phỏng hoặc hỏi bộ mẫu của mình đã đủ chưa: tư vấn 30 phút miễn phí, Zalo 0934 246 420. dreamlabs.vn"
+    ],
+    "tai_khoan": "@dreamlabsvn",
+    "media": [
+     "media/p02/video.mp4"
+    ]
+   },
    "zalo_oa": {
-    "tieu_de": "Trợ lý AI trực Zalo OA 24/7 cho cửa hàng",
-    "noi_dung": "Khách nhắn hỏi giá lúc nửa đêm vẫn được trả lời theo tài liệu bạn đã duyệt. Trợ lý AI gắn nhãn hỏi giá, đặt hàng, bảo hành và ghi vào Google Sheets để sáng ra nhân viên gọi lại. Câu khó được chuyển cho người thật. Gói Khởi động 5.000.000đ (chưa gồm VAT), 5–7 ngày.",
+    "tieu_de": "Khách nhắn đêm, sáng mai mới đọc?",
+    "noi_dung": "Gom mọi kênh về một bảng ghi nhận, viết sẵn câu trả lời cho 10 câu hỏi hay gặp, gắn tối đa 5 nhãn, đặt quy tắc chuyển người khi khiếu nại hay xin giảm giá, và soạn tin ngoài giờ có hẹn giờ gọi lại. Xem demo mô phỏng trợ lý AI trên Zalo OA ghi khách vào Google Sheets, hoặc đặt lịch tư vấn 30 phút miễn phí với Dream Labs.",
     "nut": {
-     "nhan": "Đặt lịch tư vấn",
+     "nhan": "Xem cách làm",
      "link": "https://dreamlabs.vn/tu-dong-hoa-quy-trinh-doanh-nghiep/"
     },
     "anh": "media/p02/cover.jpg"
    },
-   "ghi_chu": "Video có nhãn “Demo mô phỏng”; số điện thoại trong demo đã che (0909 xxx xxx). Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+   "ghi_chu": "Có nhắc giá gói Khởi động 5.000.000đ (chưa gồm VAT) trong bài Facebook. Nhạc: chọn khi duyệt bài. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
   },
   {
    "stt": 3,
    "ngay": "2026-11-22",
    "thu": "Chủ nhật",
-   "tru_cot": "Tự động hóa AI",
-   "giai_doan": "Biết",
-   "chu_de": "5 dấu hiệu doanh nghiệp đang tốn người cho việc máy làm được",
+   "tru_cot": "Chuẩn hóa · Quy trình",
+   "uu_tien_zalo": false,
+   "chuoi": "Chuẩn hóa doanh nghiệp",
+   "chu_de": "Viết quy trình (SOP) cho một việc lặp lại trong 1 trang: chọn việc, quay/ghi lại cách làm, tách bước, đặt người chịu trách nhiệm và tiêu chí xong, chạy thử với người mới",
+   "tieu_de": "Viết quy trình SOP trong 1 trang: 6 bước làm được ngay",
+   "demo": "Ảnh demo mô phỏng 'svc-ai': luồng tự động hóa nối các công cụ; nhấn mạnh: SOP rõ thì mới tự động hóa được",
    "loai_media": "carousel",
    "gio_dang": {
     "facebook": "09:30",
@@ -239,12 +375,16 @@
      "media/p03/slide-4.jpg",
      "media/p03/slide-5.jpg",
      "media/p03/slide-6.jpg",
-     "media/p03/slide-7.jpg"
+     "media/p03/slide-7.jpg",
+     "media/p03/slide-8.jpg",
+     "media/p03/slide-9.jpg",
+     "media/p03/slide-10.jpg",
+     "media/p03/slide-11.jpg"
     ],
     "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
    },
    "facebook": {
-    "noi_dung": "Đếm thử xem công ty bạn có mấy dấu hiệu dưới đây.\n\nĐây là 5 việc chúng tôi hay thấy người làm mỗi ngày, trong khi máy làm được:\n\n1. Chép đơn từ tin nhắn sang bảng tính bằng tay.\nMột lần thì nhanh. Một trăm lần thì vừa tốn giờ vừa dễ gõ nhầm.\n\n2. Trả lời cùng một câu hỏi giá nhiều lần mỗi ngày.\nCâu trả lời không đổi, chỉ người hỏi là khác.\n\n3. Cuối tuần gom số liệu từ 3 nơi để làm báo cáo.\nSố bán hàng một chỗ, đơn một chỗ, công nợ một chỗ.\n\n4. Khách nhắn ngoài giờ không ai trả lời.\nSáng hôm sau, cuộc trò chuyện đã nguội.\n\n5. Không biết khách mới đến từ kênh nào.\nVì vậy cũng không biết nên bỏ tiền quảng cáo vào đâu.\n\nNếu bạn gật đầu từ 2 dấu hiệu trở lên, đừng vội tự động hóa cả công ty. Hãy bắt đầu với 1 quy trình gây mệt nhất.\n\nKhông chắc nên bắt đầu từ đâu? Nhắn Zalo 0934 246 420, kể Dream Labs nghe việc nào đang tốn người nhất.",
+    "noi_dung": "Người cũ nghỉ, việc dừng. Vì quy trình chỉ nằm trong đầu họ.\n\nHầu như doanh nghiệp nào cũng có vài việc lặp lại mỗi tuần mà chỉ một người làm \"chuẩn\": lên đơn, xuất hóa đơn, nhận hàng trả, đăng bài, gửi báo giá. Người đó nghỉ phép hay nghỉ việc, người thay phải hỏi lại từ đầu, và sai ở đúng những chỗ người cũ từng sai.\n\nCách gỡ là viết quy trình làm việc chuẩn, hay SOP, cho từng việc. Nhưng SOP dày 20 trang thì không ai đọc. Bài này hướng dẫn anh chị viết SOP cho một việc trong đúng một trang, làm được trong một buổi chiều.\n\n▸ 6 BƯỚC VIẾT SOP 1 TRANG\n1. Chọn một việc lặp lại. Ưu tiên việc làm ít nhất mỗi tuần một lần, có từ hai người trở lên làm, và hay sai hoặc hay bị hỏi lại. Đừng chọn việc lớn kiểu \"bán hàng\"; chọn việc cụ thể kiểu \"lên đơn hàng từ tin nhắn\".\n2. Quay hoặc ghi lại cách người giỏi nhất đang làm. Nhờ họ vừa làm vừa nói, quay màn hình hoặc quay bằng điện thoại. Lúc này chưa sửa gì, chỉ ghi đúng thực tế: bắt đầu từ đâu, mở công cụ gì, nhập gì, kiểm tra gì, gửi cho ai.\n3. Tách thành 5–10 bước, mỗi bước bắt đầu bằng một động từ: Mở, Nhập, Kiểm tra, Gửi, Lưu. Ghi đầu vào và đầu ra của từng bước. Chỗ nào cần quyết định thì viết dạng \"Nếu… thì…\" để người mới không phải đoán.\n4. Đặt người chịu trách nhiệm và tiêu chí xong. Mỗi SOP có một người chủ lo cập nhật tài liệu. Mỗi bước có người làm. Viết rõ \"xong là khi…\" bằng thứ kiểm tra được: đã ghi vào bảng, đã gửi, khách đã xác nhận. Thêm thời gian chuẩn cho cả việc.\n5. Gói vào một trang. Đầu trang: mục đích và khi nào dùng. Giữa trang: các bước. Cuối trang: lỗi hay gặp, cần hỏi ai, phiên bản và ngày cập nhật. Dài quá một trang nghĩa là anh chị đang gộp hai việc; tách thành hai SOP.\n6. Chạy thử với người mới. Đưa SOP cho một người chưa từng làm việc đó, để họ tự làm, anh chị chỉ quan sát và không nhắc. Chỗ nào họ dừng lại hỏi là chỗ SOP còn thiếu. Sửa ngay, tăng số phiên bản.\n\n▸ MẪU SOP 1 TRANG CHÉP DÙNG NGAY\nTên việc: ___\nMục đích: ___\nKhi nào dùng: ___\nChủ SOP: ___ · Người làm: ___\nThời gian chuẩn: ___ phút\n\nBước | Động từ + việc | Đầu vào | Đầu ra | Nếu… thì…\n1 | ___ | ___ | ___ | ___\n2 | ___ | ___ | ___ | ___\n3 | ___ | ___ | ___ | ___\n\nXong khi: ___\nLỗi hay gặp: ___\nCần hỏi: ___\nPhiên bản: v___ · Ngày cập nhật: ___\n\nBảng chạy thử: Người thử ___ · Hỏi lại ở bước ___ · Sai ở bước ___ · Đã sửa ___\n\n▸ 3 LỖI HAY GẶP\n• Viết theo cách \"nên làm\" thay vì cách đang làm thật, nên SOP không khớp thực tế ngay từ ngày đầu.\n• Bước quá chung như \"xử lý đơn\", người mới đọc xong vẫn không biết bắt đầu từ đâu.\n• Viết xong cất vào thư mục, không ai cập nhật khi công cụ hoặc giá thay đổi.\n\n▸ SOP RÕ THÌ MỚI TỰ ĐỘNG HÓA ĐƯỢC\nMột SOP tốt có các bước bắt đầu bằng động từ, có đầu vào, đầu ra và các nhánh \"Nếu… thì…\". Đó cũng chính là thứ máy cần để làm thay. Bước nào là \"Nhập dữ liệu từ tin nhắn vào bảng\" hay \"Gửi xác nhận cho khách\", bước đó thường giao cho máy được. Bước nào cần cảm nhận và quyết định, bước đó giữ lại cho người.\n\nẢnh đi kèm là demo mô phỏng do Dream Labs dựng: một luồng tự động hóa nối các công cụ với nhau, mỗi khối trong luồng ứng với một dòng trong bảng SOP ở bước 3 và bước 4. Không có SOP, luồng này không có gì để chạy theo.\n\n▸ MUỐN CÓ NGƯỜI ĐỌC THỬ SOP\nViết xong SOP đầu tiên, anh chị có thể gửi qua Zalo 0934 246 420. Trong buổi tư vấn 30 phút miễn phí, Dream Labs sẽ cùng anh chị xem bước nào nên giữ cho người, bước nào có thể giao cho máy. Xem thêm bài về tự động hóa quy trình trên dreamlabs.vn.",
     "media": [
      "media/p03/slide-1.jpg",
      "media/p03/slide-2.jpg",
@@ -252,23 +392,28 @@
      "media/p03/slide-4.jpg",
      "media/p03/slide-5.jpg",
      "media/p03/slide-6.jpg",
-     "media/p03/slide-7.jpg"
-    ]
+     "media/p03/slide-7.jpg",
+     "media/p03/slide-8.jpg",
+     "media/p03/slide-9.jpg",
+     "media/p03/slide-10.jpg",
+     "media/p03/slide-11.jpg"
+    ],
+    "media_phu": []
    },
    "instagram": {
-    "caption": "5 việc người đang làm, máy làm được:\n\n1. Chép đơn từ tin nhắn sang bảng tính\n2. Trả lời một câu hỏi giá cả chục lần mỗi ngày\n3. Cuối tuần gom số từ 3 nơi làm báo cáo\n4. Khách nhắn ngoài giờ, không ai trả lời\n5. Không biết khách mới đến từ kênh nào\n\nCó từ 2 dấu hiệu? Bắt đầu với 1 quy trình thôi.\n\nLưu lại để đếm thử. Link ở bio",
+    "caption": "Người cũ nghỉ, việc dừng. Vì quy trình chỉ nằm trong đầu một người.\n\nLướt carousel để xem từng bước viết SOP cho một việc lặp lại, gói trong đúng 1 trang:\n1. Chọn một việc cụ thể: làm mỗi tuần, nhiều người làm, hay sai.\n2. Quay lại cách người giỏi nhất đang làm, chưa sửa gì.\n3. Tách 5–10 bước, mỗi bước bắt đầu bằng một động từ, có \"Nếu… thì…\".\n4. Đặt người chủ SOP và tiêu chí \"xong là khi…\".\n5. Gói vào 1 trang: mục đích, các bước, lỗi hay gặp, phiên bản.\n6. Chạy thử với người mới; chỗ họ hỏi là chỗ cần sửa.\n\nLỗi hay gặp: viết theo cách \"nên làm\" thay vì cách đang làm thật.\n\nSOP rõ thì mới tự động hóa được. Ảnh cuối là demo mô phỏng do Dream Labs dựng: luồng tự động hóa nối các công cụ, mỗi khối ứng với một bước trong SOP.\n\nLưu bài để chép mẫu SOP 1 trang. Gửi SOP đầu tiên để được xem thử trong buổi tư vấn 30 phút miễn phí qua Zalo 0934 246 420. Link ở bio",
     "hashtags": [
+     "#dreamlabs",
+     "#chuanhoadoanhnghiep",
+     "#SOP",
+     "#quytrinhchuan",
+     "#quytrinhdoanhnghiep",
+     "#quantridoanhnghiep",
+     "#doanhnghiepnho",
+     "#chudoanhnghiep",
      "#tudonghoa",
      "#tudonghoaquytrinh",
-     "#quanlydoanhnghiep",
-     "#doanhnghiepnho",
-     "#AIautomation",
-     "#workflowautomation",
-     "#productivity",
-     "#n8n",
-     "#chuyendoiso",
-     "#smallbusiness",
-     "#dreamlabs"
+     "#smallbusiness"
     ],
     "media": [
      "media/p03/slide-1.jpg",
@@ -277,53 +422,68 @@
      "media/p03/slide-4.jpg",
      "media/p03/slide-5.jpg",
      "media/p03/slide-6.jpg",
-     "media/p03/slide-7.jpg"
-    ]
+     "media/p03/slide-7.jpg",
+     "media/p03/slide-8.jpg",
+     "media/p03/slide-9.jpg",
+     "media/p03/slide-10.jpg",
+     "media/p03/slide-11.jpg"
+    ],
+    "reels": null
    },
    "tiktok": {
-    "caption": "5 dấu hiệu công ty bạn đang tốn người cho việc máy làm được. Bạn có mấy cái?",
+    "caption": "Người cũ nghỉ là việc dừng? Viết SOP cho một việc trong đúng 1 trang, 6 bước làm trong một buổi chiều.",
     "hashtags": [
-     "#tudonghoa",
+     "#SOP",
+     "#quantridoanhnghiep",
      "#doanhnghiepnho",
-     "#AIautomation",
-     "#meokinhdoanh"
+     "#dreamlabs"
     ],
     "dang": "photo",
     "kich_ban": [
      {
       "t": "0–3s",
-      "screen": "Bạn đang trả lương cho việc máy làm?",
-      "voice": "Có thể bạn đang trả lương cho những việc máy làm được."
+      "screen": "Người cũ nghỉ, việc dừng?",
+      "voice": "Người cũ nghỉ là việc dừng, vì quy trình chỉ nằm trong đầu họ."
      },
      {
       "t": "3–7s",
-      "screen": "1. Chép đơn từ tin nhắn sang bảng tính",
-      "voice": "Một: ngày nào cũng chép đơn từ tin nhắn sang bảng tính."
+      "screen": "Bước 1: Chọn một việc cụ thể",
+      "voice": "Chọn một việc làm mỗi tuần, nhiều người làm và hay sai."
      },
      {
       "t": "7–11s",
-      "screen": "2. Trả lời một câu hỏi giá cả ngày",
-      "voice": "Hai: trả lời đúng một câu hỏi giá nhiều lần mỗi ngày."
+      "screen": "Bước 2: Quay người giỏi nhất",
+      "voice": "Quay lại cách người giỏi nhất đang làm, chưa sửa gì cả."
      },
      {
       "t": "11–15s",
-      "screen": "3. Gom số từ 3 nơi làm báo cáo",
-      "voice": "Ba: cuối tuần ngồi gom số liệu từ ba nơi để làm báo cáo."
+      "screen": "Bước 3: Mỗi bước một động từ",
+      "voice": "Tách năm đến mười bước, mỗi bước bắt đầu bằng một động từ."
      },
      {
       "t": "15–19s",
-      "screen": "4. Khách nhắn ngoài giờ, không ai trả lời",
-      "voice": "Bốn: khách nhắn ngoài giờ mà không ai trả lời."
+      "screen": "Bước 4: Ai chịu trách nhiệm, xong khi nào",
+      "voice": "Ghi người chủ quy trình và tiêu chí xong kiểm tra được."
      },
      {
       "t": "19–23s",
-      "screen": "5. Không biết khách đến từ kênh nào",
-      "voice": "Năm: không biết khách mới đến từ kênh nào."
+      "screen": "Bước 5: Gói vào 1 trang",
+      "voice": "Gói tất cả vào một trang, dài hơn thì tách làm hai."
      },
      {
       "t": "23–27s",
-      "screen": "Từ 2 dấu hiệu: bắt đầu 1 quy trình",
-      "voice": "Có từ hai dấu hiệu, hãy bắt đầu tự động hóa đúng một quy trình."
+      "screen": "Bước 6: Cho người mới chạy thử",
+      "voice": "Cho người mới tự làm theo, chỗ nào họ hỏi là chỗ phải sửa."
+     },
+     {
+      "t": "27–32s",
+      "screen": "Demo mô phỏng: SOP rõ → tự động hóa",
+      "voice": "SOP rõ thì máy mới làm thay được, như demo mô phỏng này của Dream Labs."
+     },
+     {
+      "t": "32–36s",
+      "screen": "Zalo 0934 246 420 · tư vấn miễn phí",
+      "voice": "Gửi SOP đầu tiên qua Zalo để Dream Labs xem thử miễn phí."
      }
     ],
     "media": [
@@ -333,19 +493,40 @@
      "media/p03/slide-4.jpg",
      "media/p03/slide-5.jpg",
      "media/p03/slide-6.jpg",
-     "media/p03/slide-7.jpg"
+     "media/p03/slide-7.jpg",
+     "media/p03/slide-8.jpg",
+     "media/p03/slide-9.jpg",
+     "media/p03/slide-10.jpg",
+     "media/p03/slide-11.jpg"
+    ]
+   },
+   "x": {
+    "tweet": "Người cũ nghỉ, việc dừng? Viết SOP 1 trang: chọn 1 việc lặp lại, quay người giỏi nhất đang làm, tách 5–10 bước bắt đầu bằng động từ, ghi người chịu trách nhiệm và \"xong là khi…\", rồi cho người mới chạy thử. dreamlabs.vn",
+    "thread": [
+     "Người cũ nghỉ là việc dừng, vì quy trình chỉ nằm trong đầu họ. Cách viết SOP cho một việc trong đúng 1 trang, làm trong một buổi chiều:",
+     "1/ Chọn 1 việc cụ thể: làm mỗi tuần, ≥2 người làm, hay sai. 2/ Quay lại cách người giỏi nhất đang làm. Chưa sửa gì, chỉ ghi đúng thực tế.",
+     "3/ Tách 5–10 bước, mỗi bước bắt đầu bằng động từ (Mở, Nhập, Kiểm tra, Gửi). Ghi đầu vào, đầu ra, nhánh \"Nếu… thì…\". 4/ Mỗi SOP 1 người chủ, \"xong là khi…\" phải kiểm tra được.",
+     "5/ Gói vào 1 trang: mục đích, các bước, lỗi hay gặp, phiên bản. Dài hơn thì tách 2 SOP. 6/ Cho người mới tự làm theo; chỗ họ hỏi lại là chỗ phải sửa.",
+     "SOP rõ thì máy mới làm thay được. Gửi SOP đầu tiên để Dream Labs xem bước nào giao cho máy trong buổi tư vấn 30 phút miễn phí: Zalo 0934 246 420. dreamlabs.vn"
+    ],
+    "tai_khoan": "@dreamlabsvn",
+    "media": [
+     "media/p03/slide-1.jpg",
+     "media/p03/slide-2.jpg",
+     "media/p03/slide-3.jpg",
+     "media/p03/slide-4.jpg"
     ]
    },
    "zalo_oa": {
-    "tieu_de": "5 dấu hiệu bạn đang tốn người cho việc máy làm",
-    "noi_dung": "Chép đơn bằng tay, trả lời một câu hỏi giá nhiều lần mỗi ngày, gom số liệu từ 3 nơi làm báo cáo, khách nhắn ngoài giờ không ai trả lời, không biết khách đến từ kênh nào. Có từ 2 dấu hiệu, hãy bắt đầu tự động hóa 1 quy trình.",
+    "tieu_de": "Viết quy trình SOP trong 1 trang",
+    "noi_dung": "Chọn một việc lặp lại, quay lại cách người giỏi nhất đang làm, tách 5–10 bước bắt đầu bằng động từ, ghi người chịu trách nhiệm và tiêu chí xong, gói vào một trang, rồi cho người mới chạy thử. SOP rõ thì mới tự động hóa được. Gửi SOP đầu tiên để Dream Labs xem thử trong buổi tư vấn 30 phút miễn phí.",
     "nut": {
-     "nhan": "Xem chi tiết",
+     "nhan": "Đọc thêm",
      "link": "https://dreamlabs.vn/blog/tu-dong-hoa-quy-trinh-doanh-nghiep-bang-ai/"
     },
     "anh": "media/p03/slide-1.jpg"
    },
-   "ghi_chu": ""
+   "ghi_chu": "Bài carousel: TikTok để dạng photo, script dùng làm chữ/lồng tiếng cho slide ảnh."
   },
   {
    "stt": 4,

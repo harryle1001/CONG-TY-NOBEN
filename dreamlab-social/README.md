@@ -1,4 +1,6 @@
-# Dream Labs · Bộ nội dung mạng xã hội 30 ngày (20/11 – 19/12/2026)
+# Dream Labs · Chuỗi "Chuẩn hóa doanh nghiệp" – 30 ngày (20/11 – 19/12/2026)
+
+**Đang cập nhật theo đợt:** bài đã viết lại theo chuỗi Chuẩn hóa có trường `chuoi` trong `lich-dang.json`; mỗi bài có các bước làm được ngay, carousel mỗi slide một bước, demo Dream Labs minh họa, và bản cho X (@dreamlabsvn).
 
 **Trạng thái: CHỜ DUYỆT. Chưa đăng gì.**
 
