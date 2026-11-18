@@ -27,10 +27,10 @@ Mở `xem-truoc.html` (tải cả thư mục `dreamlab-social/` về máy hoặc
 Mỗi bài: vấn đề → 4–6 bước làm ngay (việc cần làm, công cụ gợi ý, mẫu chép dùng) → lỗi hay gặp → demo Dream Labs minh họa (mẫu concept / demo AI mô phỏng) → mời tư vấn 30 phút miễn phí. Facebook 600–1.200 chữ, Instagram 150–300 chữ + carousel 9–16 slide, TikTok, X (tweet + thread), Zalo OA. Bài 23, 26 bảng giá; 29 ưu đãi; 30 kêu gọi tư vấn.
 
 ## Đã duyệt (theo phiên điều phối)
-Bài 29 giữ nguyên ưu đãi; tư vấn 30 phút miễn phí; nhạc nền chọn khi duyệt từng bài (14 video để không tiếng); Zalo OA ưu tiên bài 2, 8, 13, 23, 26, 29, 30 (trường `uu_tien_zalo`).
+Bài 29 giữ nguyên ưu đãi (bỏ câu "điều khoản cụ thể trao đổi khi tư vấn"); bài 26 dùng tên gói Cơ bản / Chuyên nghiệp / Cao cấp cho mọi dịch vụ; bài 27 ghi rõ "ví dụ minh họa, không phải báo giá" cạnh số; không bài nào cam kết thời gian phản hồi của Dream Labs; tư vấn 30 phút miễn phí; nhạc nền chọn khi duyệt từng bài (14 video để không tiếng); Zalo OA ưu tiên bài 2, 8, 13, 23, 26, 29, 30 (trường `uu_tien_zalo`).
 
 ## Còn lưu ý
-Xem trường `ghi_chu` từng bài (ví dụ số minh họa, câu cam kết cần xác nhận ở bài 22, 26, 27, 30).
+Xem trường `ghi_chu` từng bài (ví dụ số minh họa ở bài 22).
 
 ## Nguyên tắc đã tuân thủ
 - Không bịa khách hàng, lời khen hay số liệu kết quả. Giá lấy đúng từ bảng giá trên website (chưa gồm VAT).
