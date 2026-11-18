@@ -1,6 +1,6 @@
 # Dream Labs · Chuỗi "Chuẩn hóa doanh nghiệp" – 30 ngày (20/11 – 19/12/2026)
 
-**Đang cập nhật theo đợt:** bài đã viết lại theo chuỗi Chuẩn hóa có trường `chuoi` trong `lich-dang.json`; mỗi bài có các bước làm được ngay, carousel mỗi slide một bước, demo Dream Labs minh họa, và bản cho X (@dreamlabsvn).
+**Cả 30 bài thuộc chuỗi Chuẩn hóa doanh nghiệp:** mỗi bài có các bước làm được ngay, carousel mỗi slide một bước, demo Dream Labs minh họa, và bản cho X (@dreamlabsvn).
 
 **Trạng thái: CHỜ DUYỆT. Chưa đăng gì.**
 
@@ -21,17 +21,16 @@ Mở `xem-truoc.html` (tải cả thư mục `dreamlab-social/` về máy hoặc
 | Instagram | 12:00 | 10:30 |
 | TikTok | 21:00 | 19:30 |
 | Zalo OA | 08:00 | 09:00 |
+| X (@dreamlabsvn) | 12:30 | 10:00 |
 
-## Trụ cột (30 bài)
-Tự động hóa AI 13 bài (~43%) · Mẫu thiết kế 5 · Mẹo hữu ích 3 · Trước/sau 2 · Hậu trường 2 · Bảng giá 2 · Giới thiệu 1 · Ưu đãi 1 · Kêu gọi tư vấn 1.
-Thứ tự theo hành trình khách: tuần 1 cho biết (Biết) → tuần 2–3 tạo niềm tin bằng mẫu, demo, quy trình (Tin) → tuần 4 bảng giá, FAQ, ưu đãi, đặt lịch (Liên hệ).
+## Nội dung
+Mỗi bài: vấn đề → 4–6 bước làm ngay (việc cần làm, công cụ gợi ý, mẫu chép dùng) → lỗi hay gặp → demo Dream Labs minh họa (mẫu concept / demo AI mô phỏng) → mời tư vấn 30 phút miễn phí. Facebook 600–1.200 chữ, Instagram 150–300 chữ + carousel 9–16 slide, TikTok, X (tweet + thread), Zalo OA. Bài 23, 26 bảng giá; 29 ưu đãi; 30 kêu gọi tư vấn.
 
-## Cần chủ studio quyết trước khi đăng
-1. **Bài 29 – ưu đãi cuối năm** là đề xuất: khảo sát quy trình miễn phí + thêm 1 tháng hỗ trợ vận hành khi ký gói tự động hóa trước 31/12/2026. Duyệt, sửa hoặc bỏ; quyết số suất/điều kiện.
-2. **Bài 30** (và lời mời ở vài bài khác) ghi buổi gọi tư vấn 30 phút là miễn phí: cần xác nhận.
-3. **Nhạc nền**: 14 video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok / thư viện âm thanh Instagram, Facebook cho tài khoản doanh nghiệp.
-4. **Zalo OA**: gói OA miễn phí giới hạn số tin truyền thông gửi mỗi tháng; nếu không đủ 30 tin, chọn bài ưu tiên (gợi ý: 2, 8, 13, 23, 26, 29, 30).
-5. Bài 4, 10: nếu phòng mẫu có đường dẫn riêng tới demo, thay link nút Zalo OA.
+## Đã duyệt (theo phiên điều phối)
+Bài 29 giữ nguyên ưu đãi; tư vấn 30 phút miễn phí; nhạc nền chọn khi duyệt từng bài (14 video để không tiếng); Zalo OA ưu tiên bài 2, 8, 13, 23, 26, 29, 30 (trường `uu_tien_zalo`).
+
+## Còn lưu ý
+Xem trường `ghi_chu` từng bài (ví dụ số minh họa, câu cam kết cần xác nhận ở bài 22, 26, 27, 30).
 
 ## Nguyên tắc đã tuân thủ
 - Không bịa khách hàng, lời khen hay số liệu kết quả. Giá lấy đúng từ bảng giá trên website (chưa gồm VAT).
