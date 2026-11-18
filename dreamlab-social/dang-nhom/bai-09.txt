@@ -1,0 +1,29 @@
+Bài 9 · 2026-11-28 · Giao việc và bàn giao dự án: 5 bước không bất ngờ
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị đã từng thuê ngoài làm website, video hay bao bì mà đến cuối dự án mới thấy "ơ, không giống mình nghĩ" chưa?
+
+Phần lớn những lần vỡ việc mình chứng kiến không phải do bên làm kém, mà do cách giao việc. Brief nói miệng qua điện thoại. Góp ý không giới hạn vòng, năm người góp ở năm nơi. Trễ hạn không ai báo. Đến khi xong thì file gốc, tên miền, tài khoản đều nằm bên làm, muốn đổi đơn vị cũng không lấy lại được.
+
+Mình hay chia dự án thuê ngoài thành 5 bước để hai bên đều không bị bất ngờ:
+
+1. Chốt brief một trang. Ngồi trao đổi khoảng 30 phút rồi tóm lại bằng văn bản, hai bên cùng xác nhận.
+Mẫu: Mục tiêu · Khách hàng là ai · Bàn giao những gì · Hạn chót · Ngân sách · Ai duyệt cuối · Những việc không làm
+Dòng "không làm" rất quan trọng, nó tránh được nửa số tranh cãi về sau.
+
+2. Chọn hướng trước khi làm chi tiết. Đề nghị bên làm đưa 2 đến 3 hướng bằng moodboard: ảnh tham khảo, bảng màu, kiểu chữ. Chọn một hướng và ghi lại lý do chọn, để lúc góp ý còn quay về đối chiếu.
+
+3. Cố định lịch cập nhật. Ví dụ cứ 3 ngày một lần, gửi vào một kênh duy nhất. Mỗi lần cập nhật trả lời đủ 4 ý: đã xong gì, tiếp theo làm gì, cần bên mình gửi gì trước ngày nào, có rủi ro gì không.
+
+4. Giới hạn vòng góp ý. Ghi số vòng vào thỏa thuận ngay từ đầu. Mỗi vòng gom góp ý vào một danh sách đánh số, một người tổng hợp rồi gửi, đừng để từng người nhắn riêng. Với website hay video, nhớ kiểm trên điện thoại thật trước khi góp ý.
+Mẫu bảng: Vòng | STT | Vị trí | Góp ý | Người góp | Trạng thái (chờ, đã sửa, không sửa và lý do)
+
+5. Nghiệm thu và nhận đủ tài sản. Nghiệm thu dựa trên brief ở bước 1, không dựa trên cảm giác lúc đó. Nhận đủ file gốc, mã nguồn, hướng dẫn sử dụng. Tên miền, hosting, tài khoản quảng cáo và mạng xã hội phải đứng tên doanh nghiệp. Ghi rõ thời gian hỗ trợ sau bàn giao.
+
+Ba lỗi mình hay thấy: brief chỉ nói miệng nên lúc nghiệm thu mỗi bên nhớ một kiểu; góp ý rải rác, ý kiến trái ngược nhau; và tài khoản đứng tên người làm.
+
+Anh chị khi thuê ngoài thường vướng nhất ở bước nào: lúc giao brief, lúc góp ý hay lúc bàn giao?
+
+---
+Bình luận đầu tiên:
+Ai cần bảng mẫu hoặc checklist đầy đủ của bài này, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem thêm ở dreamlabs.vn nhé.

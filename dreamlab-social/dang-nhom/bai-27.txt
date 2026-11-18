@@ -1,0 +1,26 @@
+Bài 27 · 2026-12-16 · Tự tính chi phí ẩn của việc làm tay trong 15 phút
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Có một loại chi phí không bao giờ hiện trong báo cáo: thời gian nhân viên làm tay những việc lặp lại. Chép lead từ tin nhắn sang bảng tính, trả lời đi trả lời lại câu hỏi giá, ngồi cộng số làm báo cáo tuần. Vì không thấy con số nên rất khó trả lời: việc nào nên chuẩn hóa trước, và có đáng bỏ công làm một lần không?
+
+Phép tính này tự làm được trong khoảng 15 phút. Sáu bước:
+
+1. Liệt kê việc làm tay và số phút mỗi ngày. Lấy từ bảng kiểm kê nếu có, không thì hỏi trực tiếp người đang làm. Mỗi việc một dòng: ai làm, bao nhiêu phút/ngày, làm bao nhiêu ngày/tháng. Ghi số phút cụ thể, đừng ghi "mất cả buổi".
+
+2. Đổi ra giờ mỗi tháng. Công thức: phút/ngày × số ngày làm ÷ 60. Ví dụ 45 phút × 22 ngày ÷ 60 = 16,5 giờ/tháng. Chỉ một việc nhỏ đã thành hơn hai ngày công mỗi tháng.
+
+3. Quy ra tiền theo giờ công. Giờ công = tổng chi phí cho người đó mỗi tháng ÷ số giờ làm/tháng. Nhân giờ công với số giờ của từng việc là ra chi phí ẩn. Phần lương nên để ở một bảng riêng, chỉ người có quyền mới xem.
+
+4. Cộng thêm chi phí của lỗi. Đếm số lần sai trong tháng (nhập nhầm, quên gọi lại) và số phút sửa mỗi lần. Ảnh hưởng tới khách nếu chưa đo được thì ghi định tính: thấp, vừa, cao, kèm một câu mô tả.
+
+5. Xếp ưu tiên bằng điểm. Điểm = (giờ làm + giờ sửa lỗi) × mức ảnh hưởng (1 thấp, 2 vừa, 3 cao). Sắp xếp giảm dần, lấy 1–3 việc đầu bảng làm trước.
+
+6. So với chi phí làm một lần. Số tháng hoàn vốn = chi phí làm một lần ÷ (chi phí ẩn mỗi tháng − phí vận hành mỗi tháng). Con số này chỉ để so sánh giữa các phương án, không phải lời hứa kết quả.
+
+Ba lỗi hay gặp: ước lượng kiểu "cả buổi" thay vì đếm phút; quên trừ phí vận hành hằng tháng khi so với chi phí làm một lần; và chỉ nhìn tiền mà bỏ qua chuyện khách phải chờ hay bị nhầm.
+
+Anh chị đã thử tính giờ cho việc làm tay nào chưa? Kết quả có khác nhiều so với cảm nhận ban đầu không?
+
+---
+Bình luận đầu tiên:
+Ai cần file bảng tính chi phí ẩn có sẵn công thức đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.

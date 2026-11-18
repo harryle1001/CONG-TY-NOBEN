@@ -1,0 +1,27 @@
+Bài 10 · 2026-11-29 · Chuẩn hóa báo giá: cùng câu hỏi, cùng một con số
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị thử tưởng tượng: hai khách hỏi cùng một yêu cầu, một bạn nhân viên báo giá này, bạn kia báo giá khác. Khách so lại, và người khó xử là anh chị.
+
+Chuyện này xảy ra khi giá nằm trong đầu từng người. Thêm vào đó báo giá gửi chậm, mỗi file một kiểu trình bày, gửi xong không ai nhớ hỏi lại khách. Mình chia sẻ 5 bước chuẩn hóa báo giá mà mình thấy làm được ở hầu hết doanh nghiệp nhỏ:
+
+1. Lập bảng giá theo cấu hình. Tách giá thành phần cố định và phần thay đổi theo lựa chọn của khách: kích thước, số lượng, chất liệu, tuyến đường, số người... Mỗi lựa chọn một mức cộng thêm hoặc một hệ số nhân. Dựng bằng bảng tính có công thức để ai nhập cũng ra cùng một kết quả.
+Mẫu: Giá gốc + Tùy chọn A + Tùy chọn B × hệ số + Phụ phí (gấp, cuối tuần) = Tạm tính, ghi rõ đã hay chưa gồm VAT.
+
+2. Dùng một mẫu báo giá duy nhất. Có logo, số báo giá, ngày lập, hạn hiệu lực, hạng mục, đơn giá, tổng, điều kiện thanh toán, những việc không bao gồm, người liên hệ. Đánh số kiểu BG-năm-số thứ tự để dễ tra lại.
+
+3. Hẹn thời gian phản hồi. Đặt hai mốc: báo giá sơ bộ trong mấy giờ, báo giá chính thức trong mấy ngày làm việc. Ví dụ sơ bộ trong 2 giờ làm việc, chính thức trong 1 ngày. Ghi mốc này vào câu trả lời đầu tiên cho khách để họ yên tâm chờ.
+
+4. Cho khách tự ước tính trên website. Từ bảng cấu hình, làm một khối nhỏ: khách chọn 2 đến 3 lựa chọn là thấy ngay khoảng giá ước tính, kèm nút nhận báo giá chính thức. Nhớ ghi chữ "ước tính" thật rõ.
+
+5. Ghi mọi báo giá vào một bảng theo dõi. Mỗi báo giá một dòng.
+Mẫu cột: Số báo giá | Khách | Giá trị | Ngày gửi | Hạn | Trạng thái (chờ, đã hỏi lại, đồng ý, từ chối kèm lý do) | Người phụ trách
+Đến hạn mà khách chưa trả lời thì hỏi lại. Cột lý do từ chối sau vài tháng sẽ cho anh chị biết nhiều điều.
+
+Ba lỗi mình hay gặp: để nhân viên tự tính theo kinh nghiệm; báo giá không ghi hạn hiệu lực, sáu tháng sau khách quay lại đòi giá cũ; và đưa giá ước tính lên web mà không ghi rõ là ước tính.
+
+Ở chỗ anh chị, báo giá đang do một người làm hay ai cũng tự báo được? Anh chị đã có bảng cấu hình giá chưa?
+
+---
+Bình luận đầu tiên:
+Mình có sẵn file mẫu đầy đủ cho các bước trên, anh chị cần thì nhắn Zalo 0934 246 420 hoặc ghé dreamlabs.vn để xem thêm.

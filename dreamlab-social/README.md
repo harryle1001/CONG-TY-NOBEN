@@ -14,6 +14,10 @@ Mở `xem-truoc.html` (tải cả thư mục `dreamlab-social/` về máy hoặc
   - Bài carousel: `slide-1.jpg` … (1080×1350, 4:5).
   - Bài video: `video.mp4` (1080×1920, 9:16, H.264 yuv420p, 30 fps) + `cover.jpg` (4:5, ảnh bìa/thumbnail).
 
+## Thêm
+- `dang-nhom/`: 30 bản đăng hội nhóm Facebook (không giá, không link; kèm bình luận đầu tiên) + `dang-nhom/README.md` hướng dẫn chọn nhóm và đăng an toàn. Cũng nằm trong trường `nhom` của `lich-dang.json`, tab "Nhóm FB" trên trang xem trước.
+- `tra-loi-binh-luan.md`: câu trả lời mẫu cho bình luận/tin nhắn và bộ từ khóa trả lời tự động trong Meta Business Suite.
+
 ## Giờ đăng (giờ Việt Nam, UTC+7)
 | Nền tảng | Thứ 2–6 | Thứ 7, CN |
 |---|---|---|

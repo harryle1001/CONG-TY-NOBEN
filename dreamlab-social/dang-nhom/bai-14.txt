@@ -1,0 +1,29 @@
+Bài 14 · 2026-12-03 · Nhận diện trên video: để người xem nhận ra bạn trong 3 giây
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị thử lướt lại 10 video gần nhất trên kênh của mình xem: nếu che tên kênh đi, người xem có nhận ra đó là của cùng một nhà không?
+
+Ở nhiều kênh mình xem, câu trả lời là không. Video này mở bằng logo, video kia không. Phụ đề hôm vàng hôm trắng. Chữ đặt sát đáy, bị dòng mô tả và nút bấm của nền tảng che mất. Xem mười video vẫn không đọng lại hình ảnh gì.
+
+Muốn người xem nhận ra mình trong vài giây đầu, mình hay làm bộ nhận diện video theo 5 bước:
+
+1. Làm một logo động. Từ logo tĩnh, làm một đoạn chuyển động 3 đến 7 giây, có bản có nền và bản nền trong suốt. Xuất thêm một bản ngắn 1 đến 2 giây để chèn góc. Xuất sẵn các tỉ lệ 9:16, 1:1 và 16:9.
+
+2. Cố định cảnh mở và cảnh kết. Mở: vào thẳng nội dung, logo nhỏ ở góc hoặc không có. Kết: logo động kèm một dòng mời hành động và kênh liên hệ, dài 2 đến 4 giây. Dùng một đoạn nhạc kết cố định. Mọi video dùng lại đúng khung này.
+
+3. Chốt màu và phông cho phụ đề. Một phông tiêu đề, một phông phụ đề, một màu chữ chính, một màu nhấn cho từ khóa, một kiểu nền hoặc viền chữ để đọc được trên mọi cảnh.
+Ví dụ: chữ trắng, từ khóa màu thương hiệu, nền tối mờ khoảng 60%, tối đa 2 dòng.
+
+4. Vẽ khung an toàn cho từng nền tảng. Video dọc trên TikTok, Facebook bị tên kênh, mô tả và nút bấm che một phần. Làm một ảnh khung phủ đánh dấu vùng bị che, đặt vào phần mềm dựng, chữ và logo chỉ nằm trong vùng còn lại.
+Ví dụ với 9:16: tránh khoảng 10% phía trên, 20% phía dưới, 12% bên phải. Sau đó đăng thử một bản để kiểm.
+
+5. Đóng gói thành một thư mục chung. Gom logo động, mẫu mở và kết, mẫu phụ đề, khung an toàn, nhạc, phông vào một thư mục đặt tên rõ ràng, kèm một trang hướng dẫn cho người dựng.
+Mẫu thư mục: 01-logo-dong, 02-mo-ket, 03-phu-de, 04-khung-an-toan, 05-nhac, 06-phong, HUONG-DAN
+
+Ba lỗi mình hay thấy: mở video bằng logo 7 đến 10 giây, người xem lướt qua trước khi vào nội dung; phụ đề sát đáy khung bị che; và mỗi video một màu nhấn theo cảm hứng.
+
+Kênh video của anh chị đã có bộ nhận diện riêng chưa? Anh chị thấy khó nhất là giữ đồng bộ khâu nào?
+
+---
+Bình luận đầu tiên:
+Anh chị muốn lấy mẫu chép dùng hoặc trao đổi kỹ hơn thì nhắn Zalo 0934 246 420, hoặc xem thêm tài liệu ở dreamlabs.vn.

@@ -1,0 +1,26 @@
+Bài 19 · 2026-12-08 · Kiểm kê 1 tuần: việc nào nên giao cho máy?
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Hỏi nhanh: nếu bây giờ phải chọn một việc trong công ty để giao cho máy làm, anh chị chọn việc gì? Phần lớn mọi người sẽ nghĩ tới việc to và nghe hấp dẫn. Nhưng khi ngồi đếm thật, thứ ngốn thời gian thường là mấy việc lặt vặt 3–5 phút, lặp lại vài chục lần mỗi ngày, mà không ai nhớ ra khi được hỏi.
+
+Vì vậy trước khi bàn công cụ, mình hay đề nghị kiểm kê đúng một tuần:
+
+1. Ghi nhật ký trong 5 ngày. Mỗi người để sẵn một bảng, làm một việc tới lần thứ hai trong ngày thì ghi một dòng: giờ, việc gì (động từ + đối tượng), mất mấy phút, làm trên công cụ nào. Ghi ngay lúc làm, không để cuối ngày.
+
+2. Thứ Sáu gom lại một bảng. Mỗi việc một dòng, cộng số lần trong tuần và tổng số phút. Thêm cột ai làm, dữ liệu đang nằm ở đâu, đã có quy tắc rõ chưa.
+
+3. Xếp vào 5 nhóm. Nhập/chép dữ liệu; trả lời câu hỏi lặp; nhắc việc, nhắc lịch; tổng hợp báo cáo; phân loại và chuyển người. Việc cùng nhóm thường giải được bằng một luồng chung.
+
+4. Lọc bằng 3 câu hỏi. Lặp từ 3 lần/tuần trở lên không? Viết được thành quy tắc "nếu… thì…" không? Dữ liệu đã nằm trên máy (bảng tính, CRM, tin nhắn) chưa? Đủ 3 câu "có" mới đưa vào danh sách giao cho máy. Thiếu câu nào thì chuẩn hóa thêm phần đó trước.
+
+5. Đối chiếu với mấy việc doanh nghiệp nhỏ hay làm trước: trả lời câu hỏi thường gặp trên Zalo OA/Messenger, chép lead vào Google Sheets, nhắc lịch hẹn, báo cáo doanh số tuần, phân loại tin nhắn. Việc nào trùng và tốn nhiều phút thì đánh dấu ưu tiên.
+
+6. Chọn đúng một việc làm trước. Lấy việc có tổng phút/tuần cao trong nhóm giao được, viết một trang: đầu vào, quy tắc nếu/thì, đầu ra, ai duyệt, ngày bắt đầu. Xong việc này rồi mới sang việc thứ hai.
+
+Những lỗi hay lặp lại: ghi nhật ký theo trí nhớ cuối ngày nên sót việc nhỏ; chọn việc nghe hay thay vì việc tốn phút; và tự động hóa một việc mà chính người làm cũng chưa nói được quy tắc.
+
+Nhóm anh chị đã thử đếm việc lặp lại bao giờ chưa? Việc nào làm anh chị bất ngờ khi cộng số phút?
+
+---
+Bình luận đầu tiên:
+Ai cần file bảng nhật ký và bảng kiểm kê việc lặp lại đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.

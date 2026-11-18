@@ -1,0 +1,28 @@
+Bài 5 · 2026-11-24 · Bán hàng thành 5 giai đoạn: biết khách đang ở đâu
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Nếu bây giờ anh chị hỏi đội bán hàng "tháng này có bao nhiêu khách sắp chốt?", anh chị có nhận được một con số thống nhất không?
+
+Ở nhiều nơi, câu trả lời là mỗi bạn một kiểu. Bạn thì ghi sổ tay, bạn thì nhớ trong đầu, bạn thì đánh dấu sao trên tin nhắn. Có bạn gọi khách "hơi nóng", có bạn ghi "để xem". Chủ muốn nhìn toàn cảnh thì phải hỏi từng người.
+
+Cách gỡ mình hay dùng là chia hành trình bán hàng thành 5 giai đoạn cố định. Làm như sau:
+
+1. Thống nhất 5 tên gọi: Khách mới, Đã tư vấn, Đã báo giá, Chốt, Sau bán. Thêm một cột phụ là "Rớt" kèm lý do. Cả đội dùng đúng 5 tên này, không ai được thêm tên riêng.
+
+2. Viết điều kiện "qua cửa" cho từng giai đoạn. Mỗi giai đoạn cần một điều kiện kiểm tra được.
+Ví dụ: Đã tư vấn là đã nói chuyện ít nhất một lần và biết nhu cầu, ngân sách. Đã báo giá là khách đã nhận báo giá riêng có số tiền và hạn hiệu lực. Chốt là đã cọc hoặc đã ký. Sau bán là đã giao và đã hẹn chăm sóc.
+
+3. Lập một bảng theo dõi chung. Mỗi khách một dòng, không ai giữ khách trong sổ riêng.
+Mẫu cột: Tên | Số điện thoại | Kênh | Nhu cầu | Giai đoạn | Phụ trách | Lần liên hệ gần nhất | Việc tiếp theo | Hạn
+
+4. Đặt thời hạn tối đa ở mỗi giai đoạn. Ví dụ: khách mới phải được liên hệ trong 24 giờ, đã báo giá thì 3 ngày sau hỏi lại, sau bán thì chăm sóc vào ngày thứ 3 và ngày thứ 30. Dùng định dạng có điều kiện trong bảng tính để dòng quá hạn tự đổi màu.
+
+5. Họp 15 phút mỗi tuần, chỉ nhìn bảng. Mỗi sáng thứ Hai lọc theo giai đoạn và trả lời 3 câu: mỗi cột đang có bao nhiêu khách? Ai quá hạn, vì sao? Lý do rớt nào lặp lại từ hai lần trở lên? Ghi lại để tuần sau sửa đúng chỗ.
+
+Mấy lỗi mình hay thấy: đặt 9, 10 giai đoạn, nhân viên không nhớ nổi; chuyển khách sang "Đã báo giá" khi mới gửi bảng giá chung; và không ghi lý do khách rớt, nên cuối tháng không biết vấn đề nằm ở giá, ở sản phẩm hay ở cách tư vấn.
+
+Đội của anh chị đang chia khách thành mấy giai đoạn, và điều kiện để chuyển giai đoạn đã viết ra chưa?
+
+---
+Bình luận đầu tiên:
+Anh chị muốn lấy mẫu chép dùng hoặc trao đổi kỹ hơn thì nhắn Zalo 0934 246 420, hoặc xem thêm tài liệu ở dreamlabs.vn.

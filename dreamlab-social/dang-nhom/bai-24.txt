@@ -1,0 +1,26 @@
+Bài 24 · 2026-12-13 · Sổ sách nội bộ gọn mỗi ngày, sẵn sàng cho AI
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Cuối tháng, kế toán bên anh chị có phải đi hỏi từng người "khoản này chi gì, hóa đơn đâu" không? Đây là chuyện khá phổ biến ở doanh nghiệp nhỏ: thu chi ghi rải rác trong sổ tay, tin nhắn, hóa đơn kẹp trong ví, cuối tháng số không khớp và mất vài ngày chỉ để gom.
+
+Muốn sau này để AI đọc hóa đơn, điền sổ giúp thì trước hết sổ sách phải gọn mỗi ngày. Sáu bước mình hay đề xuất:
+
+1. Một nơi duy nhất để ghi. Một bảng thu chi dùng chung trên Google Sheets, cột cố định: ngày, mã chứng từ, thu/chi, hạng mục, số tiền, hình thức, người ghi, link ảnh hóa đơn, trạng thái duyệt. Bỏ hẳn sổ riêng và tin nhắn rời.
+
+2. Chụp hóa đơn ngay khi nhận. Gửi vào một nhóm chat chứng từ hoặc thư mục riêng. Ảnh thẳng, đủ bốn góc, đủ sáng, mỗi ảnh một hóa đơn, kèm dòng tin: mã chứng từ, số tiền, hạng mục. Để dồn cuối tuần thì giấy dễ mất, mực dễ phai.
+
+3. Đặt mã chứng từ theo một quy tắc. Ví dụ [T/C]-[NămThángNgày]-[Số thứ tự], như C-261213-03 là khoản chi thứ ba của ngày 13/12/2026. Mã này ghi trên bảng, trên ảnh và làm tên file.
+
+4. Đối chiếu số dư mỗi chiều thứ Sáu. So tiền mặt và tài khoản thực tế với số dư trên bảng. Lệch thì tìm theo mã chứng từ trong tuần, ghi rõ nguyên nhân. Tuyệt đối không sửa đè số cho khớp.
+
+5. Kế toán duyệt và khóa dòng. Mỗi dòng có trạng thái: chờ duyệt, cần bổ sung (ghi lý do), đã duyệt. Dòng đã duyệt thì khóa bằng phân quyền; muốn sửa thì thêm một dòng điều chỉnh mới, giữ nguyên dấu vết số gốc.
+
+6. Chuẩn bị cho AI. Khi ảnh rõ, mã thống nhất, cột không đổi thứ tự, hạng mục có danh sách cố định và mỗi tháng một thư mục ảnh, thì AI mới đọc được hóa đơn, điền sẵn dòng và gợi ý đối chiếu. Người vẫn là người duyệt cuối.
+
+Ba lỗi hay gặp: mỗi người ghi một nơi; dồn hóa đơn giấy tới lúc mờ hoặc mất mới chụp; và sửa đè số khi lệch nên không còn biết số gốc là bao nhiêu.
+
+Bên anh chị đang ghi thu chi hằng ngày ở đâu, và ai là người đối chiếu cuối tuần?
+
+---
+Bình luận đầu tiên:
+Ai cần file mẫu bảng thu chi và quy tắc mã chứng từ đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.

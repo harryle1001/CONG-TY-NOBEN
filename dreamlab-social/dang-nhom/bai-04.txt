@@ -1,0 +1,30 @@
+Bài 4 · 2026-11-23 · Trang chủ website cần 7 khối theo đúng thứ tự này
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị thử làm một việc nhỏ: mở trang chủ website của mình trên điện thoại, đếm 5 giây, rồi tự hỏi nếu là khách lạ thì mình đã biết bên này bán gì, giá khoảng bao nhiêu, liên hệ ở đâu chưa?
+
+Nhiều trang chủ mình xem đều mở bằng "Chào mừng đến với công ty..." rồi kể lịch sử, tầm nhìn. Khách trên điện thoại không đủ kiên nhẫn, lướt vài giây là thoát. Trang chủ không cần dài, nhưng cần đúng thứ tự. Mình hay dựng theo 7 khối:
+
+1. Khối 1 và 2: khách được gì. Đầu trang một câu nói rõ mình làm gì, cho ai, giúp họ đạt điều gì. Bên dưới 3 lợi ích ngắn, nói kết quả chứ không kể tính năng.
+Mẫu: Chúng tôi giúp [nhóm khách] [đạt điều gì] mà không phải [lo chuyện gì].
+Viết xong nhờ vài khách quen đọc thử, họ hiểu ngay là được.
+
+2. Khối 3: sản phẩm hoặc gói chủ lực. Chỉ 3 đến 6 cái, mỗi cái có ảnh thật, một dòng mô tả, mức giá hoặc "giá từ", và nút xem chi tiết. Ghi rõ đã hay chưa gồm VAT.
+
+3. Khối 4: lý do để tin. Giấy phép, chứng nhận, số năm hoạt động, ảnh xưởng hay ảnh đội ngũ, chính sách đổi trả. Cái gì chưa có thì bỏ trống, tuyệt đối đừng tự viết lời khen.
+
+4. Khối 5: quy trình làm việc. Tóm 3 đến 5 bước từ lúc khách liên hệ đến lúc nhận hàng, kèm thời gian từng bước. Khách bớt lo hẳn khi biết trước chuyện gì sẽ xảy ra.
+
+5. Khối 6: câu hỏi thường gặp. Lấy 5 đến 8 câu khách hỏi lặp lại trong tin nhắn: thời gian, giao hàng, thanh toán, bảo hành. Trả lời ngắn, không vòng vo.
+
+6. Khối 7: liên hệ. Số điện thoại, nút nhắn Zalo, một form chỉ 2 đến 3 ô. Form càng nhiều ô càng ít người điền.
+
+7. Kiểm tra trên điện thoại thật. Mở bằng 4G, bấm thử từng nút, thử đọc bằng một tay. Chữ thân bài nên từ 16px trở lên, nút đủ to để bấm, không bị cuộn ngang, nút gọi hoặc Zalo lúc nào cũng thấy.
+
+Mấy lỗi hay gặp: mở đầu bằng câu chào thay vì nói lợi ích cho khách; dùng slide ảnh tự chạy, chữ nhỏ, khách chưa đọc xong đã chuyển; và cả nhóm chỉ duyệt trên máy tính văn phòng.
+
+Trang chủ của anh chị hiện đang mở đầu bằng gì? Anh chị nghĩ khách lạ vào có hiểu ngay trong vài giây không?
+
+---
+Bình luận đầu tiên:
+Mình có sẵn file mẫu đầy đủ cho các bước trên, anh chị cần thì nhắn Zalo 0934 246 420 hoặc ghé dreamlabs.vn để xem thêm.

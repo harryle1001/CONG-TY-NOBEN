@@ -1,0 +1,29 @@
+Bài 1 · 2026-11-20 · Chuẩn hóa doanh nghiệp bắt đầu từ đâu? Bản đồ 6 mảng trong 30 phút
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị có bao giờ tự hỏi: nếu mai mình nghỉ một tuần, công ty còn chạy đều không?
+
+Câu này mình hay hỏi khi ngồi với các chủ doanh nghiệp nhỏ. Phần lớn đều cười rồi bảo "chắc loạn". Việc vẫn chạy, nhưng chạy nhờ trí nhớ của vài người. Ai cũng biết cần chuẩn hóa, nhưng mở máy ra thì không biết bắt đầu từ đâu: làm quy trình bán hàng trước, hay sổ sách, hay website?
+
+Cách mình hay làm là dành đúng 30 phút vẽ một tấm bản đồ, rồi mới quyết định. Chia sẻ lại để anh chị thử:
+
+1. Kẻ một bảng 6 dòng cho 6 mảng: bán hàng, chăm sóc khách, báo cáo, sổ sách, kế hoạch, nhận diện và website. Mỗi dòng ghi ai đang lo và đang làm bằng công cụ gì. Một tờ A4 cũng đủ.
+Mẫu cột: Mảng | Ai lo | Làm bằng gì | Điểm 0–3 | Giờ làm tay/tuần
+
+2. Chấm điểm từ 0 đến 3. 0 là chưa có gì, 1 là mỗi người một kiểu, 2 là đã viết quy trình nhưng làm tay, 3 là có quy trình, có số đo và vẫn chạy khi vắng người. Nên hỏi người làm việc đó hằng ngày, đừng chấm một mình.
+
+3. Soát lại bằng 3 câu hỏi cho từng mảng: người khác làm thay được một tuần không? Có tài liệu viết ra không? Có con số nào theo dõi mỗi tuần không? Câu nào trả lời "không" thì trừ 1 điểm. Bước này thường kéo điểm xuống khá nhiều, và đó là chuyện bình thường.
+
+4. Ước giờ làm tay mỗi tuần. Với mỗi mảng, ghi việc lặp lại tốn thời gian nhất. Ví dụ: trả lời tin hỏi giá khoảng 60 phút mỗi ngày, 6 ngày một tuần, tức là 6 giờ/tuần. Con số chỉ cần ước, không cần chính xác.
+
+5. Chọn đúng một mảng. Lấy mảng điểm thấp mà ngốn nhiều giờ nhất, làm trong 30 ngày tới. Năm mảng còn lại ghi vào danh sách chờ, chưa đụng tới.
+
+6. Hẹn ngày chấm lại. Đặt lịch sau 30 ngày, chấm bằng đúng bảng cũ. Điểm lên là có tiến bộ thật; không lên thì xem lại cách làm, đừng vội đổi mảng.
+
+Ba lỗi mình thấy lặp lại nhiều: ôm cả 6 mảng cùng lúc nên tháng sau mảng nào cũng dở; chấm theo cảm giác của chủ; và mua phần mềm trước khi hiểu quy trình đang chạy ra sao. Phần mềm chỉ chạy nhanh hơn cái mình đã có, nó không tự sắp xếp hộ.
+
+Anh chị đang ưu tiên mảng nào trong 6 mảng này, và nếu chấm thật thì được mấy điểm?
+
+---
+Bình luận đầu tiên:
+Mình có sẵn file mẫu đầy đủ cho các bước trên, anh chị cần thì nhắn Zalo 0934 246 420 hoặc ghé dreamlabs.vn để xem thêm.

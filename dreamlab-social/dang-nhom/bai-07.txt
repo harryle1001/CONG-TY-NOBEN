@@ -1,0 +1,31 @@
+Bài 7 · 2026-11-26 · Khám sức khỏe website 10 phút mỗi tháng
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Lần gần nhất anh chị tự bấm thử nút gọi trên website của mình là khi nào?
+
+Mình hỏi vì website thường làm xong là để đó. Vài tháng sau form hỏng không ai hay, số điện thoại vẫn là số cũ, ảnh mới đăng chụp thẳng từ điện thoại nên trang tải chậm. Thường phải đến khi khách nhắn "anh chị ơi em gửi form mà không thấy ai gọi" thì mới biết.
+
+Mình có một bài kiểm tra 10 phút, làm mỗi tháng một lần, ai trong đội cũng làm được:
+
+1. Phút 1–2: mở trang bằng 4G. Tắt wifi, mở trang chủ và một trang sản phẩm trên điện thoại thật. Đếm nhẩm đến khi thấy nội dung chính. Trang nào phải chờ lâu thì ghi lại.
+
+2. Phút 3–4: chạy một công cụ đo tốc độ trang miễn phí, xem phần di động. Ghi điểm và 2 đến 3 gợi ý đầu tiên vào bảng, so với tháng trước. Chỉ cần xem xu hướng tăng hay giảm, không cần hoảng vì con số.
+
+3. Phút 5: soát ảnh mới đăng trong tháng. Ảnh nào nặng vài MB thì nén lại rồi thay.
+Quy ước gợi ý: chiều rộng không quá 1.600px, dung lượng khoảng 300KB trở xuống, tên file không dấu, ví dụ hop-qua-tet-do.jpg.
+
+4. Phút 6–7: bấm thử mọi nút liên hệ. Nút gọi, nút Zalo, nút Messenger, link bản đồ. Mỗi nút phải mở đúng nơi, đúng số, đúng tài khoản đang có người trực.
+
+5. Phút 8: gửi thử form. Điền tên "TEST + ngày", nội dung ghi rõ là kiểm tra định kỳ. Sau đó xem tin có về đúng email, bảng tính hay nhóm chat không, và người trực có biết đó là tin thử không.
+
+6. Phút 9–10: đọc lại thông tin. Giờ mở cửa, địa chỉ, giá, khuyến mãi, năm ở chân trang, ảnh đội ngũ. Cái gì hết hạn thì sửa hoặc gỡ ngay hôm đó.
+
+Ghi kết quả vào một bảng đơn giản: tháng, việc kiểm, ổn hay lỗi, ai sửa, sửa xong ngày nào. Đặt lịch nhắc cố định, ví dụ ngày mùng 1 hằng tháng.
+
+Ba lỗi hay gặp: chỉ kiểm trên máy tính văn phòng có mạng nhanh; thấy điểm tốc độ thấp thì hoảng, sửa lung tung mà không theo gợi ý; và gửi form thử nhưng không kiểm tin có thật sự đến tay người trực hay không.
+
+Anh chị đang kiểm website định kỳ thế nào? Có ai trong đội được giao hẳn việc này chưa?
+
+---
+Bình luận đầu tiên:
+Mình có sẵn file mẫu đầy đủ cho các bước trên, anh chị cần thì nhắn Zalo 0934 246 420 hoặc ghé dreamlabs.vn để xem thêm.

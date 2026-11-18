@@ -1,0 +1,28 @@
+Bài 11 · 2026-11-30 · Chọn quy trình đầu tiên để tự động hóa: 3 điều kiện
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Dạo này nhiều anh chị trong nhóm hỏi về tự động hóa. Câu mình hay được hỏi nhất là: nên tự động việc gì trước?
+
+Mình nghĩ đây là câu quan trọng hơn chuyện chọn công cụ. Chọn sai việc đầu tiên, ví dụ một việc nhiều ngoại lệ, thì máy làm sai liên tục, nhân viên mất niềm tin, và dự án dừng giữa chừng. Lần sau nhắc lại chữ "tự động" là cả đội ngán. Mình hay lọc theo 3 điều kiện, làm qua 5 bước:
+
+1. Liệt kê mọi việc lặp lại. Mỗi người trong đội ghi 5 đến 10 việc họ làm đi làm lại mỗi ngày hoặc mỗi tuần. Gom về một bảng chung, gộp những việc trùng.
+Mẫu cột: Việc | Ai làm | Bao lâu một lần | Mỗi lần mấy phút | Dữ liệu vào từ đâu | Kết quả ra đâu
+
+2. Chấm theo 3 điều kiện. Mỗi việc trả lời Có hoặc Không cho 3 câu: việc này lặp hằng ngày không? Quy tắc có rõ, viết ra được không? Nếu máy làm sai thì sửa lại có dễ không? Chỉ giữ những việc được đủ 3 chữ Có.
+
+3. Ước thời gian tiết kiệm. Với mỗi việc đạt 3 trên 3, tính: phút mỗi lần × số lần mỗi ngày × số ngày làm việc ÷ 60.
+Ví dụ: 3 phút × 40 tin × 26 ngày ÷ 60 = 52 giờ mỗi tháng. Đây chỉ là phép tính minh họa, mỗi nơi sẽ ra số khác.
+
+4. Chọn đúng một việc. Lấy việc nhiều giờ nhất trong nhóm đạt chuẩn, ưu tiên việc chạm tới khách như trả lời tin nhắn hay ghi đơn. Viết mô tả một trang: đầu vào, quy tắc dạng "nếu... thì...", đầu ra, những ngoại lệ phải chuyển cho người, và ai giám sát.
+
+5. Chạy song song 1 đến 2 tuần. Máy làm, người vẫn làm hoặc kiểm lại như cũ. Mỗi lần máy sai thì ghi lại: ngày, trường hợp, máy đã làm gì, sai ở đâu, cần sửa quy tắc gì. Hết thời gian thử mới quyết định giao hẳn.
+
+Ba lỗi mình thấy lặp lại: chọn đúng việc nhiều ngoại lệ nhất làm việc đầu tiên vì "việc này mệt nhất"; tự động ba quy trình cùng lúc, lỗi chồng lỗi, không biết sửa chỗ nào; và tắt cách làm cũ ngay từ ngày đầu.
+
+Một điều nữa: việc đầu tiên thành công sẽ giúp cả đội tin vào những việc sau. Nên chọn việc nhỏ nhưng chắc ăn, đừng chọn việc to nhất.
+
+Anh chị đã thử tự động hóa việc gì chưa? Nếu được chọn một việc để làm trong tháng này, anh chị sẽ chọn việc nào?
+
+---
+Bình luận đầu tiên:
+Anh chị muốn lấy mẫu chép dùng hoặc trao đổi kỹ hơn thì nhắn Zalo 0934 246 420, hoặc xem thêm tài liệu ở dreamlabs.vn.

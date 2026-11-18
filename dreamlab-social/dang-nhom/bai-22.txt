@@ -1,0 +1,26 @@
+Bài 22 · 2026-12-11 · Một video, ba tỷ lệ: chuẩn hóa khâu xuất file
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Ai làm nội dung chắc quen cảnh này: dựng xong bản dọc đăng lên, phụ đề bị nút ứng dụng che mất nửa; cần bản vuông thì chữ bị cắt mép; ba tháng sau muốn dùng lại cảnh cũ thì trong ổ có năm file tên "final", "final2", "ban-moi-nhat" và không ai chắc file nào đúng.
+
+Mình chia sẻ quy trình xuất file để một lần dựng ra được cả ba tỷ lệ 9:16, 1:1 và 16:9:
+
+1. Bố cục theo vùng chung. Ngay từ lúc quay và dựng, đặt chủ thể và chữ quan trọng vào ô vuông giữa khung, chỗ cả ba tỷ lệ đều thấy. Không để chi tiết quan trọng sát mép trái hay phải.
+
+2. Chừa vùng an toàn cho bản dọc. Bản 9:16 bị giao diện ứng dụng che phía trên, phía dưới và cột nút bên phải. Có thể chừa khoảng 1/7 phía trên, 1/5 phía dưới, 1/8 bên phải; đây là số gần đúng, nên kiểm lại trên từng kênh khi đăng.
+
+3. Chỉnh chữ riêng cho bản vuông và bản ngang. Hai bản này thấp hơn nên thu cỡ phụ đề: bản vuông tối đa 2 dòng, bản ngang 1 dòng, logo đưa vào góc. Mỗi bản xem hết một lượt từ đầu tới cuối, đừng chỉ tua vài đoạn.
+
+4. Đặt tên file theo một quy tắc. Ví dụ: [Năm-tháng-ngày]_[Dự án]_[Nội dung]_[Tỷ lệ]_v[số].mp4. Bỏ hẳn chữ "final". Nhìn tên là biết file nào mới, tỷ lệ nào, của dự án nào.
+
+5. Bốn thư mục cố định cho mỗi dự án. 01_Goc cho cảnh quay và âm thanh, 02_Dung cho file dự án, 03_Xuat cho các bản xuất, 04_DaDang cho file đã đăng kèm ngày và kênh. Lần sau cần dùng lại thì vào thẳng thư mục cuối.
+
+6. Checklist trước khi bấm đăng. Đúng tỷ lệ kênh, chữ không bị che, âm lượng đều, phụ đề đúng chính tả, có ảnh bìa, tên file đúng quy tắc. Thiếu mục nào thì trả lại người dựng, đừng sửa vội trên điện thoại.
+
+Ba lỗi phổ biến: chỉ dựng bản dọc, cần bản ngang lại làm từ đầu; phụ đề sát đáy bản 9:16 nên bị che; và tên file tùy hứng, vài tháng sau không tìm được.
+
+Đội anh chị đang đặt tên và lưu file video thế nào? Có ai có mẹo hay hơn cho vùng an toàn bản dọc không?
+
+---
+Bình luận đầu tiên:
+Ai cần file checklist xuất file 3 tỷ lệ và quy tắc đặt tên đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.

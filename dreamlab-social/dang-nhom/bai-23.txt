@@ -1,0 +1,24 @@
+Bài 23 · 2026-12-12 · Bảng giá tự động hóa bằng AI: 3 gói và cách tự chọn
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Dạo này nhiều anh chị trong nhóm hỏi: muốn đưa AI vào tự động hóa thì nên bắt đầu ở quy mô nào, làm nhỏ thử trước hay làm luôn cho cả công ty? Mình nghĩ câu trả lời không nằm ở công ty to hay nhỏ, mà ở chỗ anh chị đã chuẩn hóa được bao nhiêu quy trình và cần nối những gì.
+
+Đây là cách tự ước lượng mức đầu tư phù hợp, nên làm trước khi nói chuyện với bất kỳ bên làm dịch vụ nào:
+
+1. Đếm số quy trình đã viết thành các bước. Liệt kê những việc muốn tự động hóa, đánh dấu việc nào đã có SOP rõ ràng. Mới có một quy trình rõ thì bắt đầu nhỏ với đúng quy trình đó. Có ba quy trình rõ, ví dụ đơn hàng, chăm sóc khách, sổ sách và báo cáo, thì có thể tính mức vừa. Nhiều phòng ban cùng làm thì mới cần tính tới dự án lớn.
+
+2. Vẽ sơ đồ kênh và hệ thống cần nối. Khách đang nhắn qua đâu (Zalo OA, Messenger…), dữ liệu đang nằm ở đâu (Google Sheets, CRM, phần mềm bán hàng, kế toán). Chỉ có kênh nhắn tin và một bảng tính thì phạm vi gọn. Càng nhiều hệ thống phải nối, có thêm bảng theo dõi số liệu, thì thời gian và công sức càng tăng.
+
+3. Đối chiếu với lịch kinh doanh. Anh chị cần chạy trong một tuần, nửa tháng hay theo một dự án dài vài tháng? Hỏi luôn thời gian hỗ trợ sau khi chạy, vì tháng đầu thường phát sinh chỉnh sửa.
+
+4. Tách riêng chi phí vận hành hằng tháng. Ngoài khoản làm một lần, ghi riêng một dòng chi phí chạy mỗi tháng: phí mô hình AI theo lượng dùng, phí nền tảng nếu dùng bản trả phí. Nhiều người chỉ nhìn khoản đầu, vài tháng sau mới để ý tới dòng này.
+
+5. Chuẩn bị 4 thứ trước khi đi hỏi. Danh sách quy trình kèm SOP, sơ đồ kênh và hệ thống, người phụ trách từng quy trình, và một ví dụ thật (tin nhắn, đơn hàng, báo cáo) đã che thông tin nhạy cảm. Mang đủ 4 thứ này thì cuộc trao đổi đi thẳng vào việc, đỡ mất thời gian cả đôi bên.
+
+Ba lỗi hay thấy: chọn mức đầu tư theo quy mô công ty chứ không theo số quy trình đã sẵn sàng; quên dự trù phí vận hành hằng tháng; và tự động hóa quy trình chưa từng được viết ra thành các bước.
+
+Anh chị đang có mấy quy trình đã viết thành SOP rồi? Nếu chọn một cái để bắt đầu, anh chị sẽ chọn cái nào?
+
+---
+Bình luận đầu tiên:
+Ai cần file bảng tự ước lượng mức đầu tư tự động hóa đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.

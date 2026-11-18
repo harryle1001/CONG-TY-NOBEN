@@ -1,0 +1,30 @@
+Bài 6 · 2026-11-25 · Chuẩn hóa bao bì và nhãn trước khi in lô đầu tiên
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị nào đang chuẩn bị in bao bì lô đầu tiên thì đọc kỹ giúp mình đoạn này, vì đây là khâu sai một lần là tốn tiền in lại.
+
+Chuyện hay xảy ra: in xong cả nghìn hộp mới phát hiện thiếu một dòng thông tin bắt buộc, hoặc màu ra đậm hơn hẳn so với lúc xem trên điện thoại, hoặc ba dòng sản phẩm ba kiểu chữ vì mỗi lần thuê một người thiết kế. Đến lúc này mọi cách sửa đều là in lại.
+
+Mình thường đi theo 6 bước trước khi cho xưởng chạy số lượng:
+
+1. Lập danh sách thông tin bắt buộc trên nhãn theo quy định ngành hàng của mình, và nhờ người phụ trách pháp lý hoặc đơn vị tư vấn kiểm trước khi thiết kế.
+Ví dụ checklist: tên sản phẩm, thành phần, định lượng, ngày sản xuất, hạn dùng, hướng dẫn dùng, đơn vị chịu trách nhiệm, xuất xứ, mã vạch.
+
+2. Xếp thứ bậc chữ. Chỉ một thứ to nhất, thường là tên sản phẩm. Hai thứ cỡ vừa, như công dụng và định lượng. Còn lại cùng một cỡ nhỏ, nhưng cầm cách mắt khoảng 30cm vẫn đọc được. In thử khổ thật trên giấy thường để kiểm.
+
+3. Mỗi dòng sản phẩm một màu chủ đạo. Bố cục, logo, phông chữ giữ nguyên, chỉ đổi màu. Ghi mã màu CMYK vào một bảng chung để lần sau in tiếp không bị lệch.
+
+4. Hỏi xưởng in thông số trước khi làm file. Hệ màu CMYK, tràn lề, vùng an toàn, độ phân giải ảnh, chữ chuyển nét, và dùng đúng khuôn bế của chính xưởng đó. Đừng quên quét thử mã vạch.
+
+5. Duyệt bản in thử trên đúng chất liệu. So màu dưới ánh sáng ban ngày, đọc lại từng chữ, rồi ký và ghi ngày lên bản đạt. Giữ bản này làm mẫu để so khi nhận hàng.
+Mẫu ghi: Đã kiểm chính tả, màu, mã vạch, kích thước · Người duyệt · Ngày · Đạt hay cần sửa gì.
+
+6. Dựng ảnh mô phỏng 3D trước khi in số lượng. Nhìn bao bì đứng trên kệ, xếp cả dòng cạnh nhau, cầm trên tay. Ảnh này còn dùng để chụp bán hàng và đăng trước khi hàng về.
+
+Ba lỗi mình hay thấy: duyệt màu trên màn hình điện thoại rồi đòi bản in giống y hệt (màn hình và mực in là hai thứ khác nhau); mỗi dòng thuê một người nên nhãn mỗi cái một phong cách; và bỏ qua bản in thử để kịp ngày ra mắt.
+
+Anh chị đã từng phải in lại bao bì chưa, và lỗi lúc đó nằm ở khâu nào?
+
+---
+Bình luận đầu tiên:
+Ai cần bảng mẫu hoặc checklist đầy đủ của bài này, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem thêm ở dreamlabs.vn nhé.

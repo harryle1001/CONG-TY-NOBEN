@@ -1,0 +1,26 @@
+Bài 15 · 2026-12-04 · Bộ câu trả lời mẫu cho đội ngũ và trợ lý AI
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị có để ý không: cùng câu "ship bao lâu vậy shop?", mỗi bạn nhân viên trả lời một kiểu, bạn thì thân mật, bạn thì cứng như thông báo?
+
+Mình gặp chuyện này ở rất nhiều nơi. Và giờ thêm một chuyện nữa: nhiều anh chị muốn dùng trợ lý AI để trả lời tin nhắn, nhưng mở ra mới thấy không có tài liệu nào để nó học. Thật ra hai việc này giải quyết chung được bằng một bộ câu trả lời mẫu. Mình làm theo 5 bước:
+
+1. Gom câu hỏi thật trong 30 ngày. Lướt tin nhắn Zalo OA, Messenger, bình luận của một tháng gần nhất. Chép mọi câu hỏi vào một bảng, giữ nguyên cách khách viết, kể cả viết tắt, và đếm số lần gặp.
+Mẫu cột: Câu hỏi nguyên văn | Kênh | Số lần gặp | Chủ đề | Câu trả lời chuẩn | Có phải chuyển người không
+
+2. Nhóm thành 6 đến 10 chủ đề. Gộp những câu giống nhau: giá, sản phẩm, giao hàng, thanh toán, đổi trả, bảo hành, giờ mở cửa, khuyến mãi. Ví dụ "ship bao lâu", "mấy ngày tới", "giao tỉnh không" đều về chủ đề giao hàng. Bắt đầu từ chủ đề khách hỏi thường xuyên.
+
+3. Viết câu trả lời chuẩn theo giọng của mình. Mỗi chủ đề một câu trả lời: xưng hô thống nhất, câu ngắn, có thông tin cụ thể, kết bằng một câu hỏi hoặc bước tiếp theo. Chủ doanh nghiệp duyệt trước khi dùng.
+Quy ước gợi ý: xưng "em – anh/chị", mỗi câu không quá 25 chữ, không viết tắt, tối đa một biểu tượng cảm xúc.
+
+4. Đánh dấu những câu phải chuyển người. Có những tình huống không được trả lời bằng mẫu: khiếu nại, xin giảm giá, hỏi liên quan sức khỏe hoặc pháp lý, khách đang giận. Ghi rõ từng trường hợp, kèm một câu chuyển mẫu, ví dụ: "Dạ việc này em xin chuyển cho [chức danh] hỗ trợ anh/chị trực tiếp trong vòng ... ạ." Đây là phần quan trọng nhất nếu định giao cho trợ lý AI.
+
+5. Cập nhật mỗi tháng. Cuối tháng lọc những câu hỏi mới chưa có mẫu, và những câu trả lời mà khách vẫn phải hỏi lại. Thêm, sửa, ghi ngày cập nhật, báo cho cả đội và nạp lại cho trợ lý AI.
+
+Ba lỗi mình hay gặp: tự nghĩ ra câu hỏi thay vì lấy từ tin nhắn thật; câu trả lời dài như văn bản hành chính, khách đọc trên điện thoại rất mệt; và giao cho trợ lý AI mà không có danh sách câu phải chuyển người.
+
+Anh chị đã có bộ câu trả lời mẫu chưa? Nếu đã dùng trợ lý AI trả lời khách, anh chị đang giới hạn nó thế nào?
+
+---
+Bình luận đầu tiên:
+Ai cần bảng mẫu hoặc checklist đầy đủ của bài này, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem thêm ở dreamlabs.vn nhé.

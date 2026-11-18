@@ -1,0 +1,30 @@
+Bài 8 · 2026-11-27 · Báo cáo 1 trang, 5 chỉ số, đến giờ là có
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Thứ Hai tuần nào anh chị cũng nhận báo cáo, nhưng đọc xong có biết tuần này phải làm gì khác không?
+
+Mình hỏi thật, vì nhiều nơi báo cáo vẫn đều đặn mà không giúp ra quyết định. Mỗi tuần một kiểu trình bày, doanh thu tuần này lấy từ phần mềm, tuần sau lấy từ sổ, số không khớp. Gửi lúc 8 giờ, lúc 2 giờ chiều, tùy người. Đọc xong thì "ừ, biết rồi".
+
+Cách mình hay làm là gói báo cáo vào một trang với 5 chỉ số. Các bước:
+
+1. Chọn đúng 5 chỉ số. Hỏi người đọc báo cáo: "Nhìn số nào thì anh chị ra quyết định?". Giữ 5 cái, mỗi cái có định nghĩa và cách tính viết trong một dòng.
+Ví dụ: doanh thu, số đơn, giá trị đơn trung bình, khách mới, tỉ lệ khách quay lại.
+
+2. Mỗi chỉ số một nguồn chuẩn. Ghi rõ lấy từ đâu, ai phụ trách số, chốt số lúc mấy giờ. Nếu hai nơi cho hai con số khác nhau thì chọn một nơi làm chuẩn và dùng mãi nơi đó.
+
+3. Dựng mẫu một trang. Mỗi chỉ số một ô gồm: kỳ này, kỳ trước, chênh lệch, tăng hay giảm. Bên dưới là 3 dòng nhận xét và 1 đến 3 việc cần làm, có tên người và hạn.
+Mẫu: Chỉ số | Kỳ này | Kỳ trước | Chênh lệch | Ghi chú — Nhận xét: ... — Việc cần làm: ... (ai, hạn)
+
+4. Cố định giờ gửi và nơi gửi. Ví dụ báo cáo ngày gửi 7 giờ sáng hôm sau, báo cáo tuần gửi 8 giờ sáng thứ Hai, vào đúng một nhóm chat riêng tên "Báo cáo". Có người gửi chính và người dự phòng.
+
+5. Ghi rõ người đọc và cách phản hồi. Người đọc chính trả lời trước 10 giờ bằng một trong ba cách: "Đã xem", "Cần làm rõ...", hoặc "Giao việc... cho ai, trước ngày nào". Báo cáo có phản hồi thì người làm mới thấy công sức của mình có ý nghĩa.
+
+6. Mỗi quý xem lại bộ chỉ số. Chỉ số nào ba tháng không dẫn tới quyết định nào thì bỏ hoặc thay. Ghi lại thay đổi và ngày áp dụng để các kỳ sau vẫn so sánh được.
+
+Mấy lỗi mình hay gặp: đưa 20 chỉ số lên một trang vì "số nào cũng quan trọng"; lấy doanh thu từ hai nơi thay phiên nhau; và báo cáo chỉ toàn số, không có một dòng nhận xét hay việc cần làm nào.
+
+Báo cáo tuần ở chỗ anh chị đang có bao nhiêu chỉ số, và có ai phản hồi lại sau khi đọc không?
+
+---
+Bình luận đầu tiên:
+Anh chị muốn lấy mẫu chép dùng hoặc trao đổi kỹ hơn thì nhắn Zalo 0934 246 420, hoặc xem thêm tài liệu ở dreamlabs.vn.

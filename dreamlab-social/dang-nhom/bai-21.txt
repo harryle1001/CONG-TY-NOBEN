@@ -1,0 +1,24 @@
+Bài 21 · 2026-12-10 · Chăm sóc sau bán: lịch 4 mốc chạm khách
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Có bao giờ anh chị nhận ra mình chỉ nhắn cho khách cũ khi có chương trình giảm giá không? Chuyện này khá phổ biến. Giao hàng xong là im, tới đợt khuyến mãi mới gửi tin hàng loạt. Đến lúc khách thật sự cần hỏi cách dùng hay bảo dưỡng thì không ai hỏi han, dần dần khách quên mình là ai.
+
+Cách mình hay dùng là đặt một lịch chạm khách cố định, không mốc nào là tin chào bán:
+
+1. Vẽ lịch 4 mốc tính từ ngày giao. Ngày 3: hỏi thăm dùng có ổn không. Ngày 30: gửi mẹo bảo quản. Ngày 90: mời bảo dưỡng hoặc làm sạch. Ngày kỷ niệm: một lời chúc riêng. Mỗi mốc một mục đích.
+
+2. Thêm cột ngày vào danh sách khách. Trên Google Sheets, mỗi đơn ghi ngày giao và ngày kỷ niệm nếu khách cho biết. Thêm các cột công thức: ngày giao cộng 3, cộng 30, cộng 90. Sáng ra lọc theo ngày hôm nay là biết cần nhắn cho ai.
+
+3. Soạn sẵn mẫu tin cho từng mốc. Ngắn, gọi đúng tên, nhắc đúng sản phẩm, kết bằng một câu hỏi để khách dễ trả lời. Ví dụ mốc ngày 3: "Chào chị [Tên], [sản phẩm] chị dùng mấy hôm nay có vừa ý không ạ? Có gì chưa ổn chị nhắn em nhé."
+
+4. Có người duyệt trước khi gửi. Tin gửi khách thân thiết hoặc có nhắc ưu đãi thì phải qua một người duyệt, đặt giờ duyệt cố định mỗi ngày, ví dụ 9h30, để tin không bị treo. Tin thường thì chỉ cần duyệt mẫu một lần.
+
+5. Ghi lại phản hồi và giao người xử lý. Khách trả lời gì thì ghi một dòng, gắn nhãn: hài lòng, cần hỗ trợ, hay có nhu cầu mới. Nhãn "cần hỗ trợ" phải có tên người xử lý và xong trong ngày.
+
+Ba lỗi hay gặp: chỉ nhắn khi giảm giá nên khách coi tin nào cũng là quảng cáo; gửi hàng loạt không tên, không nhắc sản phẩm; và khách báo có vấn đề nhưng không ai được giao xử lý, thành ra hỏi thăm xong còn tệ hơn không hỏi.
+
+Bên anh chị đang giữ liên lạc với khách sau bán theo lịch nào? Mốc nào khách hay trả lời?
+
+---
+Bình luận đầu tiên:
+Ai cần file bảng lịch 4 mốc và mẫu tin chăm sóc sau bán đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.

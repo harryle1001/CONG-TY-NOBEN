@@ -1,0 +1,26 @@
+Bài 17 · 2026-12-06 · Landing page cho mỗi chiến dịch: một khuôn, 6 bước chuẩn hóa
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Cuối tháng ngồi tổng kết quảng cáo, anh chị có trả lời được câu "chiến dịch nào ra khách" không? Nhiều đội không trả lời được, vì mỗi đợt lại dựng một landing mới, form mỗi lần một kiểu, lead thì chỗ nằm trong hộp thư, chỗ nằm trong tin nhắn.
+
+Cách mình hay gợi ý là làm một cái khuôn dùng chung, rồi các chiến dịch chỉ việc đổ nội dung vào. Sáu bước:
+
+1. Cố định 6 khối. Tiêu đề nói lợi ích, ai nên mua, ưu đãi chi tiết, bằng chứng thật, câu hỏi thường gặp, cuối cùng là form và thông tin liên hệ. Chiến dịch nào cũng theo thứ tự này, chỉ thay chữ và ảnh.
+
+2. Form chỉ 2 trường. Tên và số điện thoại/Zalo là đủ, nhu cầu với ngân sách để người gọi lại hỏi. Nút bấm ghi rõ khách nhận được gì, ví dụ "Nhận báo giá trong 15 phút", thay vì chữ "Gửi" trống trơn.
+
+3. Lead về nhóm chat trong một phút. Nối form để mỗi lead vừa ghi vào Google Sheets vừa báo vào nhóm Zalo bán hàng, kèm mã chiến dịch và giờ. Mẫu tin có thể dùng: "Lead mới · [Tên] · [SĐT] · Chiến dịch: [mã] · Người nhận: ___". Ai nhận thì thả tim, cả nhóm biết khách đã có người lo.
+
+4. Gắn mã đo lường rồi gửi thử. Gắn pixel Facebook/TikTok và công cụ phân tích web, đặt sự kiện "Gửi form", làm trang cảm ơn riêng. Tự điền thử một lead, thấy lead hiện ở cả Sheets lẫn nhóm chat rồi mới bật quảng cáo.
+
+5. Đặt tên chiến dịch một kiểu. Một quy tắc cho tên quảng cáo, đường dẫn và cột "Chiến dịch" trong bảng lead, ví dụ [Kênh]_[Sản phẩm]_[Ưu đãi]_[Tháng]. Có cái này thì cuối tuần lọc một lần là ra lead đến từ đâu.
+
+6. Sáng thứ Hai đọc 4 con số. Lượt xem, số lead, tỷ lệ lead trên lượt xem, chi phí mỗi lead. Đọc xong chọn một trong ba: giữ, sửa một khối, hoặc tắt. Mỗi tuần chỉ sửa một thứ thì mới biết thứ gì có tác dụng.
+
+Mấy lỗi hay gặp: làm landing mới từ đầu nên không so được số giữa các đợt; form hỏi quá nhiều, khách bỏ ngang; và bật quảng cáo trước khi gửi thử form, chạy mấy hôm mới phát hiện mã đo lường không ghi nhận.
+
+Đội anh chị đang gom lead từ landing về đâu, và đặt tên chiến dịch theo quy tắc nào?
+
+---
+Bình luận đầu tiên:
+Ai cần file khung 6 khối landing và bảng quy ước tên chiến dịch đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.

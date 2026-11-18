@@ -1,0 +1,27 @@
+Bài 3 · 2026-11-22 · Viết quy trình SOP trong 1 trang: 6 bước làm được ngay
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị có việc nào trong công ty mà chỉ đúng một người làm chuẩn không? Kiểu bạn ấy nghỉ phép ba hôm là cả nhóm phải gọi điện hỏi từng bước.
+
+Mình gặp chuyện này rất thường. Người thay vào cứ phải hỏi lại từ đầu, và sai đúng những chỗ người cũ từng sai. Giải pháp quen thuộc là viết SOP, nhưng nhiều nơi viết ra 10 trang rồi không ai đọc. Cách mình thấy hiệu quả hơn là SOP gói gọn trong một trang. Các bước như sau:
+
+1. Chọn một việc lặp lại thật cụ thể. Nên chọn việc làm ít nhất mỗi tuần một lần, có từ 2 người làm trở lên, và hay sai hoặc hay bị hỏi lại. Đặt tên rõ, ví dụ "lên đơn từ tin nhắn", đừng đặt "quy trình bán hàng" chung chung.
+
+2. Ghi lại cách người làm giỏi nhất đang làm. Nhờ họ vừa làm vừa nói, quay màn hình hoặc quay bằng điện thoại. Lúc này chưa sửa gì, chỉ ghi đúng thực tế: bắt đầu từ đâu, mở gì, nhập gì, kiểm tra gì, gửi cho ai.
+
+3. Tách thành 5 đến 10 bước, mỗi bước bắt đầu bằng một động từ: Mở, Nhập, Kiểm tra, Gửi, Lưu. Ghi đầu vào và đầu ra của từng bước. Chỗ nào phải quyết định thì viết dạng "Nếu... thì...".
+
+4. Gắn người chịu trách nhiệm và định nghĩa "xong". Mỗi SOP có một người chủ lo cập nhật. "Xong" phải kiểm tra được, ví dụ: đã ghi vào bảng, đã gửi xác nhận, khách đã trả lời.
+Mẫu: Chủ SOP: ... · Người làm: ... · Xong khi: ... · Thời gian chuẩn: ... phút
+
+5. Nén vào đúng một trang. Phần đầu là mục đích và khi nào dùng, giữa là các bước, cuối là lỗi hay gặp, cần hỏi ai, số phiên bản và ngày cập nhật. Không gói được trong một trang thì tách thành hai SOP.
+
+6. Đưa cho người mới chạy thử. Người chưa làm bao giờ cầm SOP tự làm, mình chỉ ngồi quan sát, không nhắc. Họ dừng lại hỏi ở đâu thì đó là chỗ cần viết lại. Sửa xong thì tăng số phiên bản.
+
+Ba lỗi mình hay thấy: viết theo kiểu "nên làm thế này" chứ không phải cách đang làm thật; bước ghi quá chung như "xử lý đơn" khiến người mới không biết bắt đầu từ đâu; và viết xong cất vào thư mục, đến lúc đổi công cụ hay đổi giá cũng không ai sửa.
+
+Anh chị đã thử viết SOP chưa, và việc nào trong công ty anh chị thấy cần viết nhất?
+
+---
+Bình luận đầu tiên:
+Ai cần bảng mẫu hoặc checklist đầy đủ của bài này, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem thêm ở dreamlabs.vn nhé.

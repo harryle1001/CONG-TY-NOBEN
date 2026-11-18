@@ -1,0 +1,24 @@
+Bài 16 · 2026-12-05 · Một hệ nhận diện cho cả dòng sản phẩm
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Anh chị nào làm sản phẩm tiêu dùng chắc từng gặp cảnh này: ra tới mẫu thứ năm, đứng trước kệ hàng nhìn lại thì thấy năm kiểu nhãn khác nhau. Mẫu đầu thuê một bạn thiết kế, mẫu sau đổi người, tên sản phẩm lúc ghi dài lúc ghi tắt, ảnh thì mỗi đợt chụp một phong cách. Khách cầm hai hộp cạnh nhau còn tưởng của hai nhà khác nhau.
+
+Vấn đề thường không nằm ở chuyện thiết kế đẹp hay xấu, mà ở chỗ chưa có một bộ luật chung cho cả dòng. Chia sẻ lại 5 việc mình hay làm theo thứ tự:
+
+1. Chia nhãn thành vùng cố định. Logo, tên dòng, tên sản phẩm, công dụng, thông tin bắt buộc, mã vạch: mỗi thứ một chỗ, khóa lại trong file mẫu. Sản phẩm mới chỉ thay chữ trong từng vùng, không ai được kéo logo sang chỗ khác.
+
+2. Lập bảng màu theo dòng. Màu nền thương hiệu giữ nguyên, mỗi dòng sản phẩm thêm một màu nhấn. Ghi luôn mã in và mã web vào một bảng tính, kiểu: Dòng | Màu nhấn | Mã in | Mã web | Dùng ở đâu. Có bảng rồi thì nhà in, người làm web hay người dựng video đều lấy cùng một mã, không ai tự pha cho "gần giống".
+
+3. Thống nhất công thức đặt tên. Mình hay dùng: Thương hiệu + Dòng + Biến thể + Quy cách, mã viết tắt theo cùng thứ tự. Công thức này áp cho nhãn, web, phần mềm bán hàng và cả tên file ảnh. Nghe nhỏ nhưng đây là chỗ hay lệch: kho gọi một tên, web ghi một tên, nhãn in một tên khác.
+
+4. Làm thư viện ảnh cùng bộ góc. Dựng mô hình 3D cho từng dạng bao bì, xuất ảnh cùng góc, cùng ánh sáng: mặt trước, mặt sau, nghiêng, cả dòng xếp hàng, cận chất liệu. Ra mẫu mới chỉ thay nhãn và xuất lại, không phải đặt lịch chụp mới từ đầu.
+
+5. Gom tất cả vào một bộ hướng dẫn ngắn. Khoảng 8–12 trang là vừa: logo, màu theo dòng, phông chữ, lưới nhãn, cách đặt tên, bộ góc ảnh, vài ví dụ đúng/sai và tên người duyệt. Tài liệu dày vài chục trang thì thường nằm im trong ổ chung.
+
+Ba lỗi hay gặp: mỗi mẫu mới lại thuê người vẽ lại từ đầu; tên trên nhãn, trên web và trong kho mỗi nơi một kiểu; và bộ hướng dẫn quá dài nên không ai mở.
+
+Anh chị đang quản lý nhận diện cho nhiều sản phẩm thế nào, đã có bảng đặt tên chung chưa hay vẫn để mỗi người tự đặt?
+
+---
+Bình luận đầu tiên:
+Ai cần file mẫu lưới nhãn và bảng đặt tên sản phẩm đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.

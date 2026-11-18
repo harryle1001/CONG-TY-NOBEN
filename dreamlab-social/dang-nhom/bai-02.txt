@@ -1,0 +1,30 @@
+Bài 2 · 2026-11-21 · Gom tin nhắn khách về một nơi: 6 bước chuẩn hóa tiếp nhận
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Có anh chị nào đang trực tin nhắn khách ở 5, 6 chỗ cùng lúc không? Zalo OA, Messenger, bình luận, form web, điện thoại, cộng thêm Zalo cá nhân của từng bạn nhân viên.
+
+Tình huống quen thuộc là sáng ra mới thấy tin khách nhắn từ 11 giờ đêm, hoặc hai bạn cùng trả lời một khách theo hai kiểu khác nhau. Hỏi "hôm qua bao nhiêu người hỏi?" thì không ai trả lời được, vì không có chỗ nào đếm.
+
+Mình chia sẻ cách gom lại theo 6 bước, làm dần trong một hai tuần là được:
+
+1. Liệt kê hết các kênh khách đang nhắn. Mỗi kênh ghi ai đọc, đọc giờ nào, mỗi ngày khoảng bao nhiêu tin, có ghi lại hay không. Kênh nào không ai lo thì đóng, hoặc để tin tự động chỉ khách sang kênh chính.
+
+2. Chọn một nơi ghi nhận duy nhất. Mỗi khách mới là một dòng, đến từ kênh nào cũng ghi vào đây. Google Sheets là đủ để bắt đầu.
+Mẫu cột: Ngày giờ | Kênh | Tên | Số điện thoại | Nhu cầu | Nhãn | Ai xử lý | Trạng thái
+Khách nhắn vào Zalo cá nhân của nhân viên cũng phải chép vào trong ngày, không ngoại lệ.
+
+3. Viết sẵn trả lời cho khoảng 10 câu hay gặp. Lọc tin hai tuần gần nhất là thấy ngay: hỏi giá, phí giao, giờ mở cửa... Mỗi câu trả lời ngắn, đúng giọng của shop, và kết bằng một câu hỏi để khách nói tiếp, ví dụ "Anh chị cần cho mấy người, dùng khi nào ạ?".
+
+4. Gắn nhãn, nhưng tối đa 5 nhãn. Ví dụ: Hỏi giá, Đặt hàng, Khiếu nại, Sau bán, Khác. Mỗi tin một nhãn thôi. Cuối tuần đếm nhãn là biết tuần này khách quan tâm chuyện gì.
+
+5. Viết quy tắc chuyển người. Những trường hợp nào nhân viên không tự xử: khiếu nại, xin giảm giá ngoài bảng, đơn lớn, khách hỏi lần hai chưa xong. Ghi luôn ai nhận và phản hồi trong bao lâu, ví dụ khiếu nại thì quản lý nhận trong 15 phút.
+
+6. Ngoài giờ thì để tin hẹn gọi lại. Một tin tự động: cảm ơn, nói giờ làm việc, xin tên, số điện thoại, nhu cầu, và hẹn giờ cụ thể sáng mai sẽ liên hệ. Sáng hôm sau xử lý tin đêm trước tiên.
+
+Mấy chỗ hay vấp: để nhân viên chốt khách bằng Zalo cá nhân, đến lúc bạn ấy nghỉ là mất luôn lịch sử; viết tin mẫu dài như công văn; và dùng tin mẫu trả lời cả khiếu nại, khách càng bực hơn.
+
+Anh chị đang gom tin nhắn về một chỗ chưa, hay mỗi bạn vẫn giữ khách riêng?
+
+---
+Bình luận đầu tiên:
+Anh chị muốn lấy mẫu chép dùng hoặc trao đổi kỹ hơn thì nhắn Zalo 0934 246 420, hoặc xem thêm tài liệu ở dreamlabs.vn.

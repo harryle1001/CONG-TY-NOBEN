@@ -1,0 +1,26 @@
+Bài 30 · 2026-12-19 · Tư vấn 30 phút miễn phí: mang 5 thông tin này
+(Bản đăng hội nhóm Facebook – CHỜ DUYỆT)
+
+Nhiều anh chị ngại gọi hỏi tư vấn về tự động hóa vì sợ bị chào gói lớn. Cũng có người gọi rồi, nhưng không biết hỏi gì, nửa tiếng trôi qua ở mức chung chung, cúp máy vẫn chưa biết bắt đầu từ đâu.
+
+Theo mình, một buổi trao đổi có ích hay không phụ thuộc phần lớn vào việc anh chị mang gì tới. Đây là 5 thông tin nên chuẩn bị, và chính lúc ghi ra anh chị cũng tự nhìn rõ vấn đề hơn:
+
+1. Ba việc lặp lại tốn thời gian. Mỗi việc một câu bắt đầu bằng động từ, ví dụ "trả lời giá trên Zalo OA", "chép đơn từ tin nhắn sang bảng tính". Chưa cần biết cách giải, chỉ cần mô tả đúng.
+
+2. Ai làm và mất bao lâu. Với từng việc, ghi người làm, số lần mỗi ngày, số phút mỗi lần, có dồn vào giờ cao điểm hay cuối tháng không. Số gần đúng là đủ.
+
+3. Công cụ đang dùng. Khách nhắn qua đâu (Zalo OA, Messenger, điện thoại), dữ liệu nằm ở đâu (Google Sheets, CRM, phần mềm bán hàng, sổ tay). Ghi cả những chỗ đang phải chép tay từ nơi này sang nơi khác, vì đó thường là điểm nên xử lý đầu tiên.
+
+4. Dữ liệu nhạy cảm. Đánh dấu loại dữ liệu không được đưa ra ngoài hoặc chỉ vài người được xem: số điện thoại khách, giá vốn, lương, hợp đồng, hồ sơ cá nhân. Nói điều này ngay từ đầu để quy trình được thiết kế đúng ranh giới, khỏi phải làm lại.
+
+5. Kết quả mong muốn sau 30 ngày. Một câu đo được: "Sau 30 ngày, ___ sẽ ___". Ví dụ: lead từ quảng cáo tự vào Google Sheets, không cần chép tay. Câu này giúp chọn một điểm bắt đầu nhỏ nhưng chạy được.
+
+Khi đã có đủ 5 thông tin, anh chị nên hỏi lại người tư vấn ba câu: việc nào nên làm trước; việc đó tự làm được không hay cần người hỗ trợ; và ước tính thời gian, chi phí gồm những khoản gì, kể cả phí vận hành hằng tháng. Nếu sau buổi nói chuyện vẫn chưa có ba câu trả lời này, buổi trao đổi đó chưa đủ.
+
+Ba lỗi hay gặp: đi hỏi khi chưa nghĩ ra việc cụ thể nào; chọn điểm bắt đầu quá lớn nên tháng đầu chưa thấy gì; và quên nhắc dữ liệu nhạy cảm, tới giữa chừng phải thiết kế lại.
+
+Anh chị đã chuẩn bị những gì trước khi làm việc với một bên tư vấn? Có câu hỏi nào anh chị thấy nhất định phải hỏi không?
+
+---
+Bình luận đầu tiên:
+Ai cần file phiếu 5 thông tin cần chuẩn bị đầy đủ, hoặc muốn trao đổi thêm, cứ nhắn Zalo 0934 246 420 hoặc xem ở dreamlabs.vn nhé.
