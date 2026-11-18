@@ -1,0 +1,3457 @@
+{
+ "thuong_hieu": "Dream Labs",
+ "website": "https://dreamlabs.vn",
+ "zalo": "0934 246 420",
+ "tu_ngay": "2026-11-20",
+ "den_ngay": "2026-12-19",
+ "trang_thai": "CHỜ DUYỆT – chưa đăng",
+ "bai": [
+  {
+   "stt": 1,
+   "ngay": "2026-11-20",
+   "thu": "Thứ Sáu",
+   "tru_cot": "Giới thiệu",
+   "giai_doan": "Biết",
+   "chu_de": "Dream Labs là ai: studio ở TP.HCM, tự động hóa quy trình doanh nghiệp bằng AI là dịch vụ chủ đạo, kèm website, landing page, bao bì, motion graphic, edit video",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p01/video.mp4",
+    "anh_bia": "media/p01/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Mỗi ngày bạn mất bao nhiêu giờ cho những việc lặp đi lặp lại?\n\nChép đơn. Trả lời lại cùng một câu hỏi giá. Cuối tuần gom số liệu làm báo cáo.\nTrong khi đó, website, bao bì, video vẫn chưa nói đúng chất lượng sản phẩm của bạn.\n\nDream Labs là studio ở TP.HCM, làm cả hai phần đó ở cùng một nơi:\n– Phần “chạy”: quy trình, AI, dữ liệu.\n– Phần “được nhìn thấy”: web, bao bì, video.\n\n6 dịch vụ của chúng tôi:\n→ Tự động hóa quy trình bằng AI: trợ lý AI trên Zalo OA/Messenger, n8n, đồng bộ Google Sheets/CRM, AI viết báo cáo, AI agent.\n→ Thiết kế website: nhanh, đẹp, dễ dùng trên điện thoại.\n→ Landing page: một trang, một mục tiêu là thu khách.\n→ Thiết kế sản phẩm, bao bì.\n→ Video motion graphic.\n→ Edit video.\n\nVideo bên dưới là showreel các mẫu concept do chính Dream Labs tự thiết kế. Các thương hiệu trong đó là mẫu, không phải khách hàng.\n\nMuốn xem kỹ từng mẫu? Ghé phòng mẫu trên dreamlabs.vn.\nCần hỏi nhanh thì nhắn Zalo 0934 246 420.",
+    "media": [
+     "media/p01/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Một studio, hai phần việc.\n\nPhần “chạy”: tự động hóa quy trình bằng AI, trợ lý trên Zalo OA, báo cáo tự viết.\nPhần “được nhìn thấy”: website, landing page, bao bì, motion graphic, edit video.\n\nDream Labs ở TP.HCM. Mọi thương hiệu trong showreel này là mẫu concept do chúng tôi tự thiết kế.\n\nXem phòng mẫu đầy đủ. Link ở bio",
+    "hashtags": [
+     "#dreamlabs",
+     "#studiosaigon",
+     "#tudonghoa",
+     "#tudonghoaquytrinh",
+     "#AIautomation",
+     "#thietkewebsite",
+     "#landingpage",
+     "#thietkebaobi",
+     "#packagingdesign",
+     "#motiongraphics",
+     "#editvideo",
+     "#doanhnghiepnho",
+     "#smallbusiness"
+    ],
+    "media": [
+     "media/p01/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Một studio ở TP.HCM làm cả AI tự động hóa lẫn web, bao bì, video. Toàn bộ là mẫu concept tự thiết kế.",
+    "hashtags": [
+     "#dreamlabs",
+     "#tudonghoa",
+     "#thietkewebsite",
+     "#motiongraphics"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Ngày nào cũng làm lại việc cũ?",
+      "voice": "Ngày nào bạn cũng làm lại đúng những việc hôm qua?"
+     },
+     {
+      "t": "3–7s",
+      "screen": "Dream Labs · Studio ở TP.HCM",
+      "voice": "Đây là Dream Labs, một studio nhỏ ở TP.HCM."
+     },
+     {
+      "t": "7–12s",
+      "screen": "Tự động hóa quy trình bằng AI",
+      "voice": "Việc chính của chúng tôi là để AI và máy làm phần lặp lại."
+     },
+     {
+      "t": "12–19s",
+      "screen": "Website · Landing page · Bao bì · Motion · Edit video",
+      "voice": "Và làm luôn phần khách nhìn thấy: web, landing page, bao bì, video."
+     },
+     {
+      "t": "19–23s",
+      "screen": "Mẫu concept do Dream Labs tự thiết kế",
+      "voice": "Những gì bạn vừa xem là mẫu concept chúng tôi tự làm."
+     },
+     {
+      "t": "23–27s",
+      "screen": "dreamlabs.vn · Zalo 0934 246 420",
+      "voice": "Xem phòng mẫu ở dreamlabs.vn hoặc nhắn Zalo cho chúng tôi."
+     }
+    ],
+    "media": [
+     "media/p01/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Dream Labs: studio AI và thiết kế tại TP.HCM",
+    "noi_dung": "Dream Labs giúp doanh nghiệp nhỏ bớt việc lặp lại bằng tự động hóa quy trình với AI: trợ lý trên Zalo OA/Messenger, đồng bộ Google Sheets/CRM, AI viết báo cáo. Ngoài ra, chúng tôi thiết kế website, landing page, bao bì, làm motion graphic và edit video. Xem các mẫu concept do Dream Labs tự thiết kế trong phòng mẫu.",
+    "nut": {
+     "nhan": "Xem phòng mẫu",
+     "link": "https://dreamlabs.vn"
+    },
+    "anh": "media/p01/cover.jpg"
+   },
+   "ghi_chu": "Video dựng từ các mẫu concept (không dùng showreel cũ vì còn chữ “DreamLab” kiểu tên cũ). Câu “mẫu concept do Dream Labs thiết kế” nằm ở thẻ kết. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 2,
+   "ngay": "2026-11-21",
+   "thu": "Thứ Bảy",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Biết",
+   "chu_de": "23 giờ khách nhắn hỏi giá trên Zalo OA, ai trả lời? Trợ lý AI trực 24/7, ghi khách vào Google Sheets, sáng ra nhân viên gọi lại",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p02/video.mp4",
+    "anh_bia": "media/p02/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "23:04. Khách nhắn Zalo OA hỏi giá. Ai trả lời?\n\nThường là không ai. Nhân viên đã về, chủ shop đã ngủ.\nSáng hôm sau mở máy, khách đã mua ở chỗ khác.\n\nDream Labs làm trợ lý AI trực Zalo OA 24/7 cho đúng tình huống này:\n– Trả lời theo tài liệu sản phẩm bạn đã duyệt: giá, phí giao, giờ mở cửa.\n– Gắn nhãn từng cuộc trò chuyện: hỏi giá, đặt hàng hay bảo hành.\n– Ghi mỗi khách thành một dòng trong Google Sheets.\n\n7:30 sáng, nhân viên mở bảng là có sẵn danh sách cần gọi lại.\n\nCòn câu khó, khiếu nại hay giá đặc biệt? AI không tự quyết. Nó chuyển cho nhân viên thật xử lý.\n\nVideo là demo mô phỏng để bạn thấy luồng chạy, số liệu chỉ để minh họa.\n\nGói Khởi động: 5.000.000đ (chưa gồm VAT), làm trong 5–7 ngày.\n\nMuốn biết trợ lý này sẽ trả lời gì cho sản phẩm của bạn? Nhắn Zalo 0934 246 420, Dream Labs tư vấn cụ thể.",
+    "media": [
+     "media/p02/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "23:04, khách hỏi giá.\n23:04, trợ lý AI đã trả lời.\n\nTheo đúng tài liệu bạn duyệt: giá, phí giao, giờ mở cửa. Gắn nhãn, ghi vào Google Sheets.\n7:30 sáng, nhân viên có sẵn danh sách gọi lại.\n\nCâu khó và khiếu nại vẫn để người thật lo.\n\nDemo mô phỏng. Gói Khởi động 5.000.000đ (chưa gồm VAT), 5–7 ngày.\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#tudonghoa",
+     "#trolyAI",
+     "#zalooa",
+     "#chatbotAI",
+     "#AIautomation",
+     "#googlesheets",
+     "#chamsockhachhang",
+     "#banhangonline",
+     "#customerservice",
+     "#smallbusiness",
+     "#doanhnghiepnho",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p02/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "23h khách hỏi giá trên Zalo OA. Trợ lý AI trả lời, ghi vào Google Sheets, sáng ra chỉ việc gọi lại. Demo mô phỏng.",
+    "hashtags": [
+     "#tudonghoa",
+     "#trolyAI",
+     "#zalooa",
+     "#banhangonline"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "23:04 – khách hỏi giá. Ai trả lời?",
+      "voice": "Mười một giờ đêm khách nhắn hỏi giá, ai trả lời?"
+     },
+     {
+      "t": "3–8s",
+      "screen": "Trợ lý AI trả lời theo tài liệu đã duyệt",
+      "voice": "Trợ lý AI trả lời ngay, theo đúng bảng giá và chính sách bạn đã duyệt."
+     },
+     {
+      "t": "8–13s",
+      "screen": "Dòng mới: Hỏi giá → Google Sheets",
+      "voice": "Khách được gắn nhãn và ghi thành một dòng trong Google Sheets."
+     },
+     {
+      "t": "13–18s",
+      "screen": "7:30 – danh sách gọi lại đã sẵn",
+      "voice": "Bảy giờ rưỡi sáng, nhân viên mở ra là có danh sách gọi lại."
+     },
+     {
+      "t": "18–22s",
+      "screen": "Khiếu nại, giá đặc biệt → người thật",
+      "voice": "Câu khó hay khiếu nại thì AI chuyển cho người thật."
+     },
+     {
+      "t": "22–26s",
+      "screen": "Gói Khởi động 5.000.000đ · 5–7 ngày",
+      "voice": "Gói Khởi động năm triệu, chưa gồm VAT, làm trong năm đến bảy ngày."
+     },
+     {
+      "t": "26–29s",
+      "screen": "Demo mô phỏng · Zalo 0934 246 420",
+      "voice": "Đây là demo mô phỏng, nhắn Zalo cho Dream Labs để xem bản của bạn."
+     }
+    ],
+    "media": [
+     "media/p02/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Trợ lý AI trực Zalo OA 24/7 cho cửa hàng",
+    "noi_dung": "Khách nhắn hỏi giá lúc nửa đêm vẫn được trả lời theo tài liệu bạn đã duyệt. Trợ lý AI gắn nhãn hỏi giá, đặt hàng, bảo hành và ghi vào Google Sheets để sáng ra nhân viên gọi lại. Câu khó được chuyển cho người thật. Gói Khởi động 5.000.000đ (chưa gồm VAT), 5–7 ngày.",
+    "nut": {
+     "nhan": "Đặt lịch tư vấn",
+     "link": "https://dreamlabs.vn/tu-dong-hoa-quy-trinh-doanh-nghiep/"
+    },
+    "anh": "media/p02/cover.jpg"
+   },
+   "ghi_chu": "Video có nhãn “Demo mô phỏng”; số điện thoại trong demo đã che (0909 xxx xxx). Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 3,
+   "ngay": "2026-11-22",
+   "thu": "Chủ nhật",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Biết",
+   "chu_de": "5 dấu hiệu doanh nghiệp đang tốn người cho việc máy làm được",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p03/slide-1.jpg",
+     "media/p03/slide-2.jpg",
+     "media/p03/slide-3.jpg",
+     "media/p03/slide-4.jpg",
+     "media/p03/slide-5.jpg",
+     "media/p03/slide-6.jpg",
+     "media/p03/slide-7.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Đếm thử xem công ty bạn có mấy dấu hiệu dưới đây.\n\nĐây là 5 việc chúng tôi hay thấy người làm mỗi ngày, trong khi máy làm được:\n\n1. Chép đơn từ tin nhắn sang bảng tính bằng tay.\nMột lần thì nhanh. Một trăm lần thì vừa tốn giờ vừa dễ gõ nhầm.\n\n2. Trả lời cùng một câu hỏi giá nhiều lần mỗi ngày.\nCâu trả lời không đổi, chỉ người hỏi là khác.\n\n3. Cuối tuần gom số liệu từ 3 nơi để làm báo cáo.\nSố bán hàng một chỗ, đơn một chỗ, công nợ một chỗ.\n\n4. Khách nhắn ngoài giờ không ai trả lời.\nSáng hôm sau, cuộc trò chuyện đã nguội.\n\n5. Không biết khách mới đến từ kênh nào.\nVì vậy cũng không biết nên bỏ tiền quảng cáo vào đâu.\n\nNếu bạn gật đầu từ 2 dấu hiệu trở lên, đừng vội tự động hóa cả công ty. Hãy bắt đầu với 1 quy trình gây mệt nhất.\n\nKhông chắc nên bắt đầu từ đâu? Nhắn Zalo 0934 246 420, kể Dream Labs nghe việc nào đang tốn người nhất.",
+    "media": [
+     "media/p03/slide-1.jpg",
+     "media/p03/slide-2.jpg",
+     "media/p03/slide-3.jpg",
+     "media/p03/slide-4.jpg",
+     "media/p03/slide-5.jpg",
+     "media/p03/slide-6.jpg",
+     "media/p03/slide-7.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "5 việc người đang làm, máy làm được:\n\n1. Chép đơn từ tin nhắn sang bảng tính\n2. Trả lời một câu hỏi giá cả chục lần mỗi ngày\n3. Cuối tuần gom số từ 3 nơi làm báo cáo\n4. Khách nhắn ngoài giờ, không ai trả lời\n5. Không biết khách mới đến từ kênh nào\n\nCó từ 2 dấu hiệu? Bắt đầu với 1 quy trình thôi.\n\nLưu lại để đếm thử. Link ở bio",
+    "hashtags": [
+     "#tudonghoa",
+     "#tudonghoaquytrinh",
+     "#quanlydoanhnghiep",
+     "#doanhnghiepnho",
+     "#AIautomation",
+     "#workflowautomation",
+     "#productivity",
+     "#n8n",
+     "#chuyendoiso",
+     "#smallbusiness",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p03/slide-1.jpg",
+     "media/p03/slide-2.jpg",
+     "media/p03/slide-3.jpg",
+     "media/p03/slide-4.jpg",
+     "media/p03/slide-5.jpg",
+     "media/p03/slide-6.jpg",
+     "media/p03/slide-7.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "5 dấu hiệu công ty bạn đang tốn người cho việc máy làm được. Bạn có mấy cái?",
+    "hashtags": [
+     "#tudonghoa",
+     "#doanhnghiepnho",
+     "#AIautomation",
+     "#meokinhdoanh"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Bạn đang trả lương cho việc máy làm?",
+      "voice": "Có thể bạn đang trả lương cho những việc máy làm được."
+     },
+     {
+      "t": "3–7s",
+      "screen": "1. Chép đơn từ tin nhắn sang bảng tính",
+      "voice": "Một: ngày nào cũng chép đơn từ tin nhắn sang bảng tính."
+     },
+     {
+      "t": "7–11s",
+      "screen": "2. Trả lời một câu hỏi giá cả ngày",
+      "voice": "Hai: trả lời đúng một câu hỏi giá nhiều lần mỗi ngày."
+     },
+     {
+      "t": "11–15s",
+      "screen": "3. Gom số từ 3 nơi làm báo cáo",
+      "voice": "Ba: cuối tuần ngồi gom số liệu từ ba nơi để làm báo cáo."
+     },
+     {
+      "t": "15–19s",
+      "screen": "4. Khách nhắn ngoài giờ, không ai trả lời",
+      "voice": "Bốn: khách nhắn ngoài giờ mà không ai trả lời."
+     },
+     {
+      "t": "19–23s",
+      "screen": "5. Không biết khách đến từ kênh nào",
+      "voice": "Năm: không biết khách mới đến từ kênh nào."
+     },
+     {
+      "t": "23–27s",
+      "screen": "Từ 2 dấu hiệu: bắt đầu 1 quy trình",
+      "voice": "Có từ hai dấu hiệu, hãy bắt đầu tự động hóa đúng một quy trình."
+     }
+    ],
+    "media": [
+     "media/p03/slide-1.jpg",
+     "media/p03/slide-2.jpg",
+     "media/p03/slide-3.jpg",
+     "media/p03/slide-4.jpg",
+     "media/p03/slide-5.jpg",
+     "media/p03/slide-6.jpg",
+     "media/p03/slide-7.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "5 dấu hiệu bạn đang tốn người cho việc máy làm",
+    "noi_dung": "Chép đơn bằng tay, trả lời một câu hỏi giá nhiều lần mỗi ngày, gom số liệu từ 3 nơi làm báo cáo, khách nhắn ngoài giờ không ai trả lời, không biết khách đến từ kênh nào. Có từ 2 dấu hiệu, hãy bắt đầu tự động hóa 1 quy trình.",
+    "nut": {
+     "nhan": "Xem chi tiết",
+     "link": "https://dreamlabs.vn/blog/tu-dong-hoa-quy-trinh-doanh-nghiep-bang-ai/"
+    },
+    "anh": "media/p03/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 4,
+   "ngay": "2026-11-23",
+   "thu": "Thứ Hai",
+   "tru_cot": "Mẫu thiết kế",
+   "giai_doan": "Tin",
+   "chu_de": "Mẫu website Ombrève: nhà nước hoa niche tông đen và vàng champagne (concept do Dream Labs thiết kế, không phải dự án khách)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p04/video.mp4",
+    "anh_bia": "media/p04/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Một nhà nước hoa niche nên có website trông thế nào?\n\nDream Labs tự đặt câu hỏi đó và trả lời bằng Ombrève: một mẫu website concept tông đen và vàng champagne.\nOmbrève là thương hiệu mẫu do chúng tôi tự thiết kế, không phải dự án của khách hàng.\n\nNhững gì có trong mẫu:\n– Tám mùi hương, mỗi mùi một chai tự vẽ riêng.\n– Xem nhanh tầng hương đầu, giữa, cuối mà không phải mở trang mới.\n– Đổi dung tích ngay trên trang sản phẩm.\n– Đặt lịch thử hương tại cửa hàng.\n\nNước hoa là thứ không ngửi được qua màn hình. Vì vậy hình ảnh, nhịp cuộn và từng chi tiết nhỏ phải làm thay việc đó.\n\nVà tất cả phải chạy mượt trên điện thoại, nơi phần lớn khách lướt xem.\n\nMẫu này thuộc mức gói Website Cao cấp, từ 35.000.000đ (chưa gồm VAT).\n\nĐừng chỉ xem video. Mở demo chạy thật trên dreamlabs.vn, cuộn thử bằng chính điện thoại của bạn.\nCần tư vấn cho thương hiệu riêng: nhắn Zalo 0934 246 420.",
+    "media": [
+     "media/p04/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Ombrève. Đen và vàng champagne.\n\nMẫu website concept cho một nhà nước hoa niche, do Dream Labs tự thiết kế. Thương hiệu không có thật, demo thì chạy thật.\n\nTám chai tự vẽ. Xem nhanh tầng hương. Đổi dung tích. Đặt lịch thử hương.\nMượt trên điện thoại.\n\nMức gói Website Cao cấp, từ 35.000.000đ (chưa gồm VAT).\n\nCuộn thử demo. Link ở bio",
+    "hashtags": [
+     "#thietkewebsite",
+     "#websitecaocap",
+     "#webdesign",
+     "#luxurywebsite",
+     "#perfumebranding",
+     "#nuochoa",
+     "#nicheperfume",
+     "#uidesign",
+     "#conceptdesign",
+     "#mobilefirst",
+     "#dreamlabs",
+     "#studiosaigon"
+    ],
+    "media": [
+     "media/p04/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Mẫu website concept cho nhà nước hoa niche Ombrève. Dream Labs tự thiết kế, demo chạy thật trên dreamlabs.vn.",
+    "hashtags": [
+     "#thietkewebsite",
+     "#webdesign",
+     "#nuochoa",
+     "#dreamlabs"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Website nước hoa mà ngửi được?",
+      "voice": "Làm sao để một website nước hoa khiến người ta muốn ngửi thử?"
+     },
+     {
+      "t": "3–7s",
+      "screen": "Ombrève · mẫu concept của Dream Labs",
+      "voice": "Đây là Ombrève, thương hiệu mẫu Dream Labs tự thiết kế."
+     },
+     {
+      "t": "7–12s",
+      "screen": "Tám mùi hương, tám chai tự vẽ",
+      "voice": "Tám mùi hương, mỗi mùi có một chai được vẽ riêng."
+     },
+     {
+      "t": "12–17s",
+      "screen": "Xem nhanh tầng hương",
+      "voice": "Chạm vào là xem nhanh tầng hương đầu, giữa và cuối."
+     },
+     {
+      "t": "17–21s",
+      "screen": "Đổi dung tích · Đặt lịch thử hương",
+      "voice": "Đổi dung tích, đặt lịch thử hương ngay trên trang."
+     },
+     {
+      "t": "21–25s",
+      "screen": "Mượt trên điện thoại",
+      "voice": "Và tất cả chạy mượt trên điện thoại."
+     },
+     {
+      "t": "25–29s",
+      "screen": "Gói Cao cấp từ 35 triệu · dreamlabs.vn",
+      "voice": "Gói Website Cao cấp từ ba mươi lăm triệu, xem demo ở dreamlabs.vn."
+     }
+    ],
+    "media": [
+     "media/p04/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Mẫu website nước hoa Ombrève: xem demo chạy thật",
+    "noi_dung": "Ombrève là mẫu website concept do Dream Labs tự thiết kế cho một nhà nước hoa niche, tông đen và vàng champagne. Tám chai tự vẽ, xem nhanh tầng hương, đổi dung tích, đặt lịch thử hương, chạy mượt trên điện thoại. Thuộc mức gói Website Cao cấp từ 35.000.000đ (chưa gồm VAT).",
+    "nut": {
+     "nhan": "Xem demo",
+     "link": "https://dreamlabs.vn/thiet-ke-website/"
+    },
+    "anh": "media/p04/cover.jpg"
+   },
+   "ghi_chu": "Nếu demo Ombrève có đường dẫn riêng trong phòng mẫu, nên thay link nút Zalo và ghi đường dẫn đó trong bài Facebook. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 5,
+   "ngay": "2026-11-24",
+   "thu": "Thứ Ba",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Biết",
+   "chu_de": "Tự động hóa quy trình bằng AI thật ra là gì (không phải mua phần mềm thần kỳ)",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p05/slide-1.jpg",
+     "media/p05/slide-2.jpg",
+     "media/p05/slide-3.jpg",
+     "media/p05/slide-4.jpg",
+     "media/p05/slide-5.jpg",
+     "media/p05/slide-6.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Không có phần mềm nào bấm một nút là công ty tự chạy.\n\nNhiều anh chị chủ doanh nghiệp hỏi Dream Labs: “Mua phần mềm AI nào là được?”\nCâu trả lời thật là: tự động hóa quy trình bằng AI không phải một món đồ để mua. Nó gồm hai phần ghép lại.\n\nPhần 1: Tự động hóa.\nNối các công cụ bạn đang dùng với nhau và chuyển dữ liệu qua lại, bằng n8n hoặc Make. Không ai phải chép tay nữa.\n\nPhần 2: AI.\nĐọc hiểu tin nhắn, phân loại, viết nháp, tóm tắt. Những việc trước đây cần một người ngồi đọc.\n\nGhép lại, một luồng đơn giản trông như sau:\nTin nhắn Zalo OA → AI phân loại → ghi vào Google Sheets → báo nhân viên phụ trách.\n\nCòn AI agent? Hãy hình dung một “nhân viên số”: nhận việc, dùng đúng những công cụ được cấp quyền, làm xong thì báo lại.\n\nMột nguyên tắc chúng tôi luôn giữ: quy trình nào chưa viết được ra giấy thì chưa nên tự động hóa.\n\nMuốn đọc kỹ hơn? Xem bài viết trên dreamlabs.vn/blog/tu-dong-hoa-quy-trinh-doanh-nghiep-bang-ai/\nHoặc nhắn Zalo 0934 246 420.",
+    "media": [
+     "media/p05/slide-1.jpg",
+     "media/p05/slide-2.jpg",
+     "media/p05/slide-3.jpg",
+     "media/p05/slide-4.jpg",
+     "media/p05/slide-5.jpg",
+     "media/p05/slide-6.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Tự động hóa quy trình bằng AI không phải phần mềm thần kỳ.\n\nNó là hai phần:\n→ Tự động hóa: nối công cụ, chuyển dữ liệu (n8n, Make)\n→ AI: đọc hiểu, phân loại, viết nháp, tóm tắt\n\nVí dụ: Zalo OA → AI phân loại → Google Sheets → báo nhân viên.\n\nNguyên tắc: chưa viết được quy trình ra giấy thì chưa tự động hóa.\n\nĐọc bài đầy đủ. Link ở bio",
+    "hashtags": [
+     "#tudonghoa",
+     "#tudonghoaquytrinh",
+     "#AIagent",
+     "#AIautomation",
+     "#n8n",
+     "#make",
+     "#nocode",
+     "#workflowautomation",
+     "#chuyendoiso",
+     "#doanhnghiepnho",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p05/slide-1.jpg",
+     "media/p05/slide-2.jpg",
+     "media/p05/slide-3.jpg",
+     "media/p05/slide-4.jpg",
+     "media/p05/slide-5.jpg",
+     "media/p05/slide-6.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Tự động hóa bằng AI thật ra là gì? Không phải phần mềm thần kỳ, mà là hai phần ghép lại.",
+    "hashtags": [
+     "#tudonghoa",
+     "#AIagent",
+     "#n8n",
+     "#hocAI"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Không có nút bấm để công ty tự chạy",
+      "voice": "Không có phần mềm nào bấm một nút là công ty tự chạy."
+     },
+     {
+      "t": "3–8s",
+      "screen": "Phần 1: nối công cụ, chuyển dữ liệu",
+      "voice": "Phần một là tự động hóa: nối công cụ và chuyển dữ liệu bằng n8n hay Make."
+     },
+     {
+      "t": "8–13s",
+      "screen": "Phần 2: AI đọc, phân loại, tóm tắt",
+      "voice": "Phần hai là AI: đọc hiểu, phân loại, viết nháp và tóm tắt."
+     },
+     {
+      "t": "13–19s",
+      "screen": "Zalo OA → AI → Google Sheets → nhân viên",
+      "voice": "Ghép lại: tin nhắn vào, AI phân loại, ghi bảng, báo đúng người."
+     },
+     {
+      "t": "19–24s",
+      "screen": "AI agent = nhân viên số",
+      "voice": "AI agent giống một nhân viên số, nhận việc, làm xong thì báo lại."
+     },
+     {
+      "t": "24–29s",
+      "screen": "Chưa viết ra giấy? Chưa tự động hóa",
+      "voice": "Quy trình chưa viết được ra giấy thì chưa nên tự động hóa."
+     }
+    ],
+    "media": [
+     "media/p05/slide-1.jpg",
+     "media/p05/slide-2.jpg",
+     "media/p05/slide-3.jpg",
+     "media/p05/slide-4.jpg",
+     "media/p05/slide-5.jpg",
+     "media/p05/slide-6.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Tự động hóa quy trình bằng AI thật ra là gì?",
+    "noi_dung": "Không phải mua một phần mềm thần kỳ. Tự động hóa nối các công cụ và chuyển dữ liệu (n8n, Make). AI đọc hiểu, phân loại, viết nháp, tóm tắt. AI agent như một nhân viên số làm việc trong quyền được cấp. Nguyên tắc: chưa viết được quy trình ra giấy thì chưa tự động hóa.",
+    "nut": {
+     "nhan": "Đọc bài viết",
+     "link": "https://dreamlabs.vn/blog/tu-dong-hoa-quy-trinh-doanh-nghiep-bang-ai/"
+    },
+    "anh": "media/p05/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 6,
+   "ngay": "2026-11-25",
+   "thu": "Thứ Tư",
+   "tru_cot": "Mẫu thiết kế",
+   "giai_doan": "Tin",
+   "chu_de": "Mẫu bao bì Khuê Lam Extrait de Parfum xoay 360 độ (concept do Dream Labs thiết kế và render 3D)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p06/video.mp4",
+    "anh_bia": "media/p06/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Chưa in một chiếc hộp nào, đã có ảnh quảng cáo 3D để đăng.\n\nĐó là cách Dream Labs làm mẫu bao bì Khuê Lam Extrait de Parfum.\nKhuê Lam là thương hiệu concept do chúng tôi tự thiết kế và render 3D, không phải dự án khách hàng.\n\nVề chai:\n– Khối thủy tinh dày, nắp đá mài.\n– Đai kim loại ôm cổ chai.\n– Chữ in thẳng trên kính.\n\nVề hộp:\n– Giấy vân, nắp rời, dập nhũ.\n– Ba mùi hương, ba biến thể màu: Hổ Phách, Dạ Lan, Sương Hồng.\n\nĐiểm chúng tôi muốn anh chị chủ thương hiệu để ý: bản 3D giúp bạn duyệt dáng chai, màu hộp, cách chữ bắt sáng trước khi đặt in. Bạn còn có sẵn ảnh để làm trang bán hàng và quảng cáo ngay từ đầu.\n\nHai mức gói (chưa gồm VAT):\n→ Thiết kế sản phẩm Chuyên nghiệp: 5.000.000đ, có mockup 3D.\n→ Cao cấp: 12.000.000đ, thiết kế cho cả dòng sản phẩm.\n\nXem thêm mẫu bao bì trên dreamlabs.vn hoặc nhắn Zalo 0934 246 420 để kể về sản phẩm của bạn.",
+    "media": [
+     "media/p06/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Khuê Lam Extrait de Parfum, xoay đủ 360 độ.\n\nThủy tinh dày, nắp đá mài, đai kim loại, chữ in trên kính. Hộp giấy vân nắp rời, dập nhũ.\nHổ Phách. Dạ Lan. Sương Hồng.\n\nMẫu concept do Dream Labs thiết kế và render 3D, thương hiệu không có thật.\n\nGói Chuyên nghiệp 5.000.000đ có mockup 3D. Gói Cao cấp 12.000.000đ cho cả dòng (chưa gồm VAT).\n\nLink ở bio",
+    "hashtags": [
+     "#thietkebaobi",
+     "#packagingdesign",
+     "#perfumepackaging",
+     "#baobinuochoa",
+     "#render3D",
+     "#3Dmockup",
+     "#productdesign",
+     "#thietkesanpham",
+     "#luxurypackaging",
+     "#conceptdesign",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p06/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Chưa in hộp nào đã có ảnh quảng cáo 3D. Mẫu bao bì nước hoa Khuê Lam, concept do Dream Labs thiết kế.",
+    "hashtags": [
+     "#thietkebaobi",
+     "#packagingdesign",
+     "#render3D",
+     "#dreamlabs"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Chưa in, đã có ảnh quảng cáo",
+      "voice": "Chiếc chai này chưa từng được in, nhưng đã có ảnh quảng cáo."
+     },
+     {
+      "t": "3–8s",
+      "screen": "Khuê Lam · mẫu concept render 3D",
+      "voice": "Đây là Khuê Lam, mẫu bao bì Dream Labs tự thiết kế và render 3D."
+     },
+     {
+      "t": "8–13s",
+      "screen": "Thủy tinh dày · nắp đá mài",
+      "voice": "Khối thủy tinh dày, nắp đá mài, đai kim loại ôm cổ chai."
+     },
+     {
+      "t": "13–17s",
+      "screen": "Chữ in trên kính",
+      "voice": "Chữ in thẳng trên kính để bắt sáng."
+     },
+     {
+      "t": "17–23s",
+      "screen": "Hổ Phách · Dạ Lan · Sương Hồng",
+      "voice": "Ba mùi hương, ba màu: Hổ Phách, Dạ Lan, Sương Hồng."
+     },
+     {
+      "t": "23–27s",
+      "screen": "Hộp giấy vân, nắp rời, dập nhũ",
+      "voice": "Hộp giấy vân nắp rời, dập nhũ."
+     },
+     {
+      "t": "27–31s",
+      "screen": "Mockup 3D từ 5 triệu",
+      "voice": "Gói có mockup 3D từ năm triệu, chưa gồm VAT, xem thêm ở dreamlabs.vn."
+     }
+    ],
+    "media": [
+     "media/p06/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Mẫu bao bì nước hoa Khuê Lam xoay 360 độ",
+    "noi_dung": "Khuê Lam là mẫu concept do Dream Labs thiết kế và render 3D: chai thủy tinh dày, nắp đá mài, hộp giấy vân dập nhũ, ba mùi Hổ Phách, Dạ Lan, Sương Hồng. Có ảnh 3D quảng cáo trước khi in. Gói Chuyên nghiệp 5.000.000đ có mockup 3D, Cao cấp 12.000.000đ cho cả dòng (chưa gồm VAT).",
+    "nut": {
+     "nhan": "Xem mẫu bao bì",
+     "link": "https://dreamlabs.vn/thiet-ke-bao-bi/"
+    },
+    "anh": "media/p06/cover.jpg"
+   },
+   "ghi_chu": "Chọn nhạc nền chậm, nhẹ hợp nhịp xoay chai; nên dùng nhạc không bản quyền. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 7,
+   "ngay": "2026-11-26",
+   "thu": "Thứ Năm",
+   "tru_cot": "Mẹo hữu ích",
+   "giai_doan": "Biết",
+   "chu_de": "Website chậm là mất khách: 5 việc chủ doanh nghiệp tự kiểm tra trong 10 phút",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p07/slide-1.jpg",
+     "media/p07/slide-2.jpg",
+     "media/p07/slide-3.jpg",
+     "media/p07/slide-4.jpg",
+     "media/p07/slide-5.jpg",
+     "media/p07/slide-6.jpg",
+     "media/p07/slide-7.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Lấy điện thoại, tắt wifi, mở website của bạn bằng 4G. Mất mấy giây?\n\nKhách của bạn đang xem web đúng theo cách đó. Và họ không chờ lâu.\n\nĐây là 5 việc anh chị chủ doanh nghiệp tự kiểm tra được trong 10 phút, không cần biết code:\n\n1. Mở web bằng 4G trên điện thoại.\nĐếm xem bao lâu thì thấy nội dung, không phải chỉ thấy màn hình trắng.\n\n2. Chạy PageSpeed Insights.\nCông cụ miễn phí. Dán đường dẫn vào, nhìn điểm ở tab Mobile trước.\n\n3. Soi ảnh.\nẢnh quá nặng là thủ phạm thường gặp nhất. Dùng định dạng WebP và cắt đúng kích thước hiển thị.\n\n4. Tìm nút Zalo hoặc gọi điện.\nMở trang ra có thấy ngay không, hay phải cuộn mới thấy?\n\n5. Tự điền thử form liên hệ.\nGửi xong, kiểm tra xem thông tin có thật sự về email hay bảng nào không.\n\nLàm xong 5 bước mà thấy vướng chỗ nào, chụp màn hình gửi Dream Labs qua Zalo 0934 246 420. Chúng tôi xem giúp bạn nên sửa gì trước.",
+    "media": [
+     "media/p07/slide-1.jpg",
+     "media/p07/slide-2.jpg",
+     "media/p07/slide-3.jpg",
+     "media/p07/slide-4.jpg",
+     "media/p07/slide-5.jpg",
+     "media/p07/slide-6.jpg",
+     "media/p07/slide-7.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "10 phút kiểm tra website, không cần biết code:\n\n1. Mở bằng 4G, đếm giây đến khi thấy nội dung\n2. Chạy PageSpeed Insights, xem điểm Mobile\n3. Ảnh nặng? Đổi sang WebP, đúng kích thước\n4. Nút Zalo, gọi điện có thấy ngay không\n5. Tự điền form liên hệ, xem có về đâu không\n\nLưu lại, làm ngay tối nay.\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#websitechuan",
+     "#tocdowebsite",
+     "#thietkewebsite",
+     "#pagespeed",
+     "#webperformance",
+     "#webp",
+     "#seotips",
+     "#mobilefirst",
+     "#meokinhdoanh",
+     "#smallbusiness",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p07/slide-1.jpg",
+     "media/p07/slide-2.jpg",
+     "media/p07/slide-3.jpg",
+     "media/p07/slide-4.jpg",
+     "media/p07/slide-5.jpg",
+     "media/p07/slide-6.jpg",
+     "media/p07/slide-7.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Website chậm là mất khách. 5 việc tự kiểm tra trong 10 phút, chỉ cần điện thoại.",
+    "hashtags": [
+     "#thietkewebsite",
+     "#tocdowebsite",
+     "#meokinhdoanh",
+     "#dreamlabs"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Tắt wifi, mở web bằng 4G",
+      "voice": "Tắt wifi đi, mở website của bạn bằng 4G xem mất mấy giây."
+     },
+     {
+      "t": "3–8s",
+      "screen": "1. Đếm giây đến khi thấy nội dung",
+      "voice": "Đếm từ lúc bấm đến khi thấy nội dung, không tính màn hình trắng."
+     },
+     {
+      "t": "8–13s",
+      "screen": "2. PageSpeed Insights · xem điểm Mobile",
+      "voice": "Dán đường dẫn vào PageSpeed Insights, nhìn điểm Mobile trước."
+     },
+     {
+      "t": "13–18s",
+      "screen": "3. Ảnh nặng → WebP, đúng kích thước",
+      "voice": "Ảnh nặng là thủ phạm hay gặp, đổi sang WebP và cắt đúng cỡ."
+     },
+     {
+      "t": "18–22s",
+      "screen": "4. Nút Zalo có thấy ngay không?",
+      "voice": "Mở trang ra có thấy ngay nút Zalo hay nút gọi không?"
+     },
+     {
+      "t": "22–27s",
+      "screen": "5. Tự điền thử form liên hệ",
+      "voice": "Tự điền form liên hệ và xem thông tin có thật sự về đâu đó không."
+     },
+     {
+      "t": "27–31s",
+      "screen": "Vướng chỗ nào? Zalo 0934 246 420",
+      "voice": "Vướng bước nào thì chụp màn hình gửi Dream Labs qua Zalo."
+     }
+    ],
+    "media": [
+     "media/p07/slide-1.jpg",
+     "media/p07/slide-2.jpg",
+     "media/p07/slide-3.jpg",
+     "media/p07/slide-4.jpg",
+     "media/p07/slide-5.jpg",
+     "media/p07/slide-6.jpg",
+     "media/p07/slide-7.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "5 việc tự kiểm tra website trong 10 phút",
+    "noi_dung": "Mở web bằng 4G và đếm giây. Chạy PageSpeed Insights, xem điểm Mobile. Kiểm tra ảnh nặng, đổi sang WebP đúng kích thước. Xem nút Zalo, gọi điện có hiện ngay không. Tự điền form liên hệ để chắc thông tin về đúng nơi. Vướng chỗ nào, Dream Labs xem giúp.",
+    "nut": {
+     "nhan": "Xem chi tiết",
+     "link": "https://dreamlabs.vn/thiet-ke-website/"
+    },
+    "anh": "media/p07/slide-1.jpg"
+   },
+   "ghi_chu": "TikTok để dạng video: chủ studio cầm điện thoại làm mẫu từng bước (quay màn hình chạy PageSpeed Insights trên chính dreamlabs.vn). Nếu muốn nhanh hơn, có thể đăng dạng ảnh trượt với cùng chữ trên màn hình."
+  },
+  {
+   "stt": 8,
+   "ngay": "2026-11-27",
+   "thu": "Thứ Sáu",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Biết",
+   "chu_de": "7 giờ sáng, báo cáo doanh số đã nằm sẵn trong Zalo của chủ doanh nghiệp: AI gom số liệu nhiều nơi và tự viết tóm tắt",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p08/video.mp4",
+    "anh_bia": "media/p08/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Tối Chủ nhật, bạn còn ngồi gom số từ 3 nơi để làm báo cáo?\n\nMở file doanh số. Mở file đơn hàng. Mở sổ công nợ. Cộng, dò, chép lại.\nXong thì đã khuya, mà vẫn chưa kịp nghĩ xem số đó nói lên điều gì.\n\nDream Labs làm cho việc này tự chạy:\n– AI gom doanh số, đơn hàng, công nợ vào một bảng điều khiển.\n– AI tự viết tóm tắt ngắn: điều gì tăng, điều gì cần chú ý.\n– 7 giờ sáng, bản tóm tắt nằm sẵn trong Zalo của bạn.\n\nCó một bước chúng tôi không bỏ: người có chuyên môn duyệt bước cuối. AI làm phần gom và viết nháp, quyết định vẫn là của con người.\n\nVideo dùng mẫu demo mô phỏng “Ngọc Yên Joaillerie” trong phòng mẫu của Dream Labs. Đây là thương hiệu mẫu, số liệu chỉ để minh họa.\n\nAI viết báo cáo tuần/tháng nằm trong gói Tăng trưởng: 15.000.000đ (chưa gồm VAT).\n\nMuốn sáng thứ Hai có báo cáo thay vì tối Chủ nhật làm báo cáo? Nhắn Zalo 0934 246 420.",
+    "media": [
+     "media/p08/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "06:59. Bạn còn đang ngủ.\n07:00. Báo cáo doanh số đã nằm trong Zalo.\n\nAI gom doanh số, đơn hàng, công nợ vào một bảng. Tự viết tóm tắt: gì tăng, gì cần chú ý. Người có chuyên môn duyệt bước cuối.\n\nDemo mô phỏng, số liệu minh họa.\nGói Tăng trưởng 15.000.000đ (chưa gồm VAT).\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#tudonghoa",
+     "#baocaotudong",
+     "#AIvietbaocao",
+     "#AIautomation",
+     "#dashboard",
+     "#quanlydoanhnghiep",
+     "#businessreport",
+     "#datadriven",
+     "#chuyendoiso",
+     "#doanhnghiepnho",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p08/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "7h sáng, báo cáo doanh số tự nằm trong Zalo. AI gom số từ nhiều nơi và viết tóm tắt. Demo mô phỏng.",
+    "hashtags": [
+     "#tudonghoa",
+     "#baocaotudong",
+     "#AIautomation",
+     "#chuyendoiso"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "06:59 – bạn chưa mở máy",
+      "voice": "Sáu giờ năm mươi chín, bạn còn chưa mở máy."
+     },
+     {
+      "t": "3–6s",
+      "screen": "07:00 – báo cáo đã tới",
+      "voice": "Bảy giờ, báo cáo doanh số đã nằm trong Zalo."
+     },
+     {
+      "t": "6–12s",
+      "screen": "Doanh số · Đơn hàng · Công nợ: một bảng",
+      "voice": "AI gom doanh số, đơn hàng, công nợ từ nhiều nơi vào một bảng."
+     },
+     {
+      "t": "12–19s",
+      "screen": "Tăng gì? Cần chú ý gì?",
+      "voice": "Rồi tự viết ba dòng tóm tắt: điều gì tăng, điều gì cần chú ý."
+     },
+     {
+      "t": "19–23s",
+      "screen": "Người có chuyên môn duyệt cuối",
+      "voice": "Bước cuối vẫn do người có chuyên môn duyệt."
+     },
+     {
+      "t": "23–27s",
+      "screen": "Demo mô phỏng · số liệu minh họa",
+      "voice": "Đây là demo mô phỏng, số liệu chỉ để minh họa."
+     },
+     {
+      "t": "27–31s",
+      "screen": "Gói Tăng trưởng 15 triệu · Zalo 0934 246 420",
+      "voice": "Có trong gói Tăng trưởng mười lăm triệu, nhắn Zalo cho Dream Labs."
+     }
+    ],
+    "media": [
+     "media/p08/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "7 giờ sáng, báo cáo doanh số tự gửi vào Zalo",
+    "noi_dung": "AI gom doanh số, đơn hàng, công nợ từ nhiều nơi vào một bảng điều khiển và tự viết tóm tắt: điều gì tăng, điều gì cần chú ý. Người có chuyên môn duyệt bước cuối. Xem demo mô phỏng Ngọc Yên Joaillerie (số liệu minh họa). Có trong gói Tăng trưởng 15.000.000đ (chưa gồm VAT).",
+    "nut": {
+     "nhan": "Đặt lịch tư vấn",
+     "link": "https://dreamlabs.vn/tu-dong-hoa-quy-trinh-doanh-nghiep/"
+    },
+    "anh": "media/p08/cover.jpg"
+   },
+   "ghi_chu": "Ba dòng tóm tắt trong video là ví dụ minh họa, có ghi rõ trên màn hình. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 9,
+   "ngay": "2026-11-28",
+   "thu": "Thứ Bảy",
+   "tru_cot": "Hậu trường",
+   "giai_doan": "Tin",
+   "chu_de": "Làm việc với Dream Labs diễn ra thế nào: 5 bước từ cuộc gọi đầu tiên đến bàn giao",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p09/slide-1.jpg",
+     "media/p09/slide-2.jpg",
+     "media/p09/slide-3.jpg",
+     "media/p09/slide-4.jpg",
+     "media/p09/slide-5.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Gọi studio lần đầu, nhiều người ngại vì không biết sau đó ra sao.\n\nNên Dream Labs viết hết ra đây. Làm việc với chúng tôi gồm 5 bước:\n\n1. Khám phá (1–2 ngày)\nMột cuộc gọi 30 phút. Bạn kể, chúng tôi hỏi. Sau đó bạn nhận bản brief tóm tắt để cùng xác nhận đã hiểu đúng.\n\n2. Ý tưởng & moodboard (2–4 ngày)\nChúng tôi đưa 2–3 hướng thẩm mỹ. Bạn chọn một hướng, không phải đoán mò.\n\n3. Thiết kế & dựng\nCứ mỗi 3 ngày, bạn nhận cập nhật tiến độ. Không có chuyện im lặng cả tuần.\n\n4. Tinh chỉnh (2–5 ngày)\nSửa theo số vòng của gói. Kiểm thử trên điện thoại thật, không chỉ trên máy tính.\n\n5. Bàn giao & đồng hành\nBạn nhận mã nguồn, file gốc, hướng dẫn sử dụng. Bảo hành từ 6 tháng.\n\nĐiều quan trọng nhất ở bước 5: mọi thứ thuộc về bạn. Muốn tự sửa hay đổi đơn vị sau này đều được.\n\nSẵn sàng cho cuộc gọi 30 phút đầu tiên? Nhắn Zalo 0934 246 420 hoặc xem bảng giá trên dreamlabs.vn/bang-gia/",
+    "media": [
+     "media/p09/slide-1.jpg",
+     "media/p09/slide-2.jpg",
+     "media/p09/slide-3.jpg",
+     "media/p09/slide-4.jpg",
+     "media/p09/slide-5.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Từ cuộc gọi đầu tiên đến bàn giao, 5 bước:\n\n1. Khám phá: gọi 30 phút, nhận brief (1–2 ngày)\n2. Moodboard: 2–3 hướng để chọn (2–4 ngày)\n3. Thiết kế & dựng: cập nhật mỗi 3 ngày\n4. Tinh chỉnh: thử trên điện thoại thật (2–5 ngày)\n5. Bàn giao: mã nguồn, file gốc, hướng dẫn, bảo hành từ 6 tháng\n\nKhông bất ngờ, không im lặng.\n\nLink ở bio",
+    "hashtags": [
+     "#dreamlabs",
+     "#quytrinhthietke",
+     "#designprocess",
+     "#behindthescenes",
+     "#hautruong",
+     "#thietkewebsite",
+     "#thietkebaobi",
+     "#moodboard",
+     "#creativestudio",
+     "#studiosaigon",
+     "#doanhnghiepnho"
+    ],
+    "media": [
+     "media/p09/slide-1.jpg",
+     "media/p09/slide-2.jpg",
+     "media/p09/slide-3.jpg",
+     "media/p09/slide-4.jpg",
+     "media/p09/slide-5.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Thuê studio thiết kế thì diễn ra thế nào? 5 bước từ cuộc gọi đầu tiên đến lúc bàn giao ở Dream Labs.",
+    "hashtags": [
+     "#hautruong",
+     "#designprocess",
+     "#dreamlabs",
+     "#thietkewebsite"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Thuê studio rồi sẽ ra sao?",
+      "voice": "Thuê một studio thiết kế rồi thì chuyện gì xảy ra tiếp theo?"
+     },
+     {
+      "t": "3–8s",
+      "screen": "1. Gọi 30 phút → nhận brief",
+      "voice": "Bước một, gọi ba mươi phút và nhận bản brief tóm tắt trong một đến hai ngày."
+     },
+     {
+      "t": "8–13s",
+      "screen": "2. Chọn 1 trong 2–3 hướng thẩm mỹ",
+      "voice": "Bước hai, bạn chọn một trong hai đến ba hướng moodboard."
+     },
+     {
+      "t": "13–18s",
+      "screen": "3. Cập nhật tiến độ mỗi 3 ngày",
+      "voice": "Bước ba, thiết kế và dựng, cứ ba ngày bạn nhận cập nhật."
+     },
+     {
+      "t": "18–23s",
+      "screen": "4. Tinh chỉnh, thử trên điện thoại thật",
+      "voice": "Bước bốn, tinh chỉnh theo số vòng của gói và thử trên điện thoại thật."
+     },
+     {
+      "t": "23–28s",
+      "screen": "5. Mã nguồn, file gốc, bảo hành 6 tháng",
+      "voice": "Bước năm, bàn giao mã nguồn, file gốc, hướng dẫn và bảo hành từ sáu tháng."
+     }
+    ],
+    "media": [
+     "media/p09/slide-1.jpg",
+     "media/p09/slide-2.jpg",
+     "media/p09/slide-3.jpg",
+     "media/p09/slide-4.jpg",
+     "media/p09/slide-5.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "5 bước làm việc với Dream Labs, từ gọi đến bàn giao",
+    "noi_dung": "Khám phá: gọi 30 phút, nhận brief trong 1–2 ngày. Ý tưởng: 2–3 hướng thẩm mỹ để chọn. Thiết kế & dựng: cập nhật tiến độ mỗi 3 ngày. Tinh chỉnh: kiểm thử trên điện thoại thật. Bàn giao: mã nguồn, file gốc, hướng dẫn, bảo hành từ 6 tháng.",
+    "nut": {
+     "nhan": "Xem bảng giá",
+     "link": "https://dreamlabs.vn/bang-gia/"
+    },
+    "anh": "media/p09/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 10,
+   "ngay": "2026-11-29",
+   "thu": "Chủ nhật",
+   "tru_cot": "Mẫu thiết kế",
+   "giai_doan": "Tin",
+   "chu_de": "Mẫu landing page Ondinea: thu khách thuê du thuyền riêng (concept do Dream Labs thiết kế)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p10/video.mp4",
+    "anh_bia": "media/p10/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Khách hỏi thuê du thuyền, câu đầu tiên gần như luôn là: bao nhiêu tiền?\n\nVà câu trả lời thường là: “Anh chị để lại số, bên em gọi báo giá.”\nKhông ít người dừng lại ở đó.\n\nMẫu landing page Ondinea được Dream Labs thiết kế để giải đúng chỗ này. Ondinea là thương hiệu concept chúng tôi tự tạo, không phải dự án khách hàng.\n\nTrên trang, khách tự làm ba việc:\n→ Chọn tuyến trên bản đồ.\n→ Chọn số khách.\n→ Thêm dịch vụ đi kèm.\nGiá ước tính hiện ra ngay.\n\nÝ tưởng đằng sau rất đơn giản: khi khách được tự “chơi” với trang, họ ở lại lâu hơn. Đến lúc để lại thông tin, họ đã biết mình muốn gì, nên thông tin gửi về cũng rõ hơn.\n\nCách làm này không chỉ dành cho du thuyền. Tour, tiệc, cho thuê xe, dịch vụ theo gói đều dùng được.\n\nMức gói Landing Page Chuyên nghiệp: 6.000.000đ (chưa gồm VAT).\n\nBấm thử demo Ondinea trên dreamlabs.vn, hoặc nhắn Zalo 0934 246 420 để kể về dịch vụ của bạn.",
+    "media": [
+     "media/p10/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Chọn tuyến. Chọn số khách. Thêm dịch vụ.\nGiá ước tính hiện ra ngay.\n\nOndinea là mẫu landing page concept do Dream Labs thiết kế cho dịch vụ thuê du thuyền riêng. Thương hiệu không có thật.\n\nKhách tự “chơi” với trang, nên khi để lại thông tin, họ đã biết mình muốn gì.\n\nGói Landing Page Chuyên nghiệp 6.000.000đ (chưa gồm VAT).\n\nBấm thử demo. Link ở bio",
+    "hashtags": [
+     "#landingpage",
+     "#thietkelandingpage",
+     "#webdesign",
+     "#uxdesign",
+     "#leadgeneration",
+     "#thukhachhang",
+     "#dulich",
+     "#yachtcharter",
+     "#conceptdesign",
+     "#dreamlabs",
+     "#studiosaigon"
+    ],
+    "media": [
+     "media/p10/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Landing page cho thuê du thuyền: chọn tuyến, số khách, dịch vụ là ra giá ước tính. Mẫu concept của Dream Labs.",
+    "hashtags": [
+     "#landingpage",
+     "#webdesign",
+     "#uxdesign",
+     "#dreamlabs"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Bao nhiêu tiền? Trang tự trả lời",
+      "voice": "Khách hỏi bao nhiêu tiền, và trang web tự trả lời luôn."
+     },
+     {
+      "t": "3–7s",
+      "screen": "Ondinea · mẫu concept của Dream Labs",
+      "voice": "Đây là Ondinea, mẫu landing page Dream Labs tự thiết kế."
+     },
+     {
+      "t": "7–12s",
+      "screen": "Chọn tuyến trên bản đồ",
+      "voice": "Khách chạm chọn tuyến ngay trên bản đồ."
+     },
+     {
+      "t": "12–16s",
+      "screen": "Số khách · dịch vụ thêm",
+      "voice": "Chọn số khách, thêm dịch vụ đi kèm."
+     },
+     {
+      "t": "16–20s",
+      "screen": "Giá ước tính hiện ngay",
+      "voice": "Giá ước tính hiện ra ngay, không cần chờ gọi lại."
+     },
+     {
+      "t": "20–25s",
+      "screen": "Biết mình muốn gì rồi mới để lại số",
+      "voice": "Đến lúc để lại thông tin, khách đã biết mình muốn gì."
+     },
+     {
+      "t": "25–29s",
+      "screen": "Gói Chuyên nghiệp 6 triệu · dreamlabs.vn",
+      "voice": "Gói Landing Page Chuyên nghiệp sáu triệu, bấm thử demo ở dreamlabs.vn."
+     }
+    ],
+    "media": [
+     "media/p10/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Landing page tự ra giá ước tính: mẫu Ondinea",
+    "noi_dung": "Ondinea là mẫu landing page concept do Dream Labs thiết kế cho dịch vụ thuê du thuyền riêng. Khách chọn tuyến trên bản đồ, số khách, dịch vụ thêm và thấy giá ước tính ngay, nên thông tin để lại rõ hơn. Mức gói Landing Page Chuyên nghiệp 6.000.000đ (chưa gồm VAT).",
+    "nut": {
+     "nhan": "Bấm thử demo",
+     "link": "https://dreamlabs.vn/thiet-ke-landing-page/"
+    },
+    "anh": "media/p10/cover.jpg"
+   },
+   "ghi_chu": "Nếu demo Ondinea có đường dẫn riêng trong phòng mẫu, nên thay link nút Zalo và ghi đường dẫn đó trong bài Facebook. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 11,
+   "ngay": "2026-11-30",
+   "thu": "Thứ Hai",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Tin",
+   "chu_de": "Nên tự động hóa quy trình nào trước? 3 điều kiện để chọn",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p11/slide-1.jpg",
+     "media/p11/slide-2.jpg",
+     "media/p11/slide-3.jpg",
+     "media/p11/slide-4.jpg",
+     "media/p11/slide-5.jpg",
+     "media/p11/slide-6.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Muốn tự động hóa mọi thứ cùng lúc? Đó là cách dễ bỏ cuộc nhất.\n\nNhiều anh chị chủ doanh nghiệp mở đầu bằng một danh sách dài những việc muốn giao cho máy. Vài tuần sau, việc nào cũng dở dang, nhân viên thì rối.\n\nDream Labs thường gợi ý lọc qua 3 điều kiện trước:\n\n1. Lặp lại hằng ngày\nViệc làm đi làm lại mỗi ngày thì tự động hóa mới đáng công.\n\n2. Có quy tắc tương đối rõ\nNếu bạn viết được thành các bước để nhân viên mới làm theo, máy cũng làm theo được.\n\n3. Sai thì sửa lại được\nGửi nhầm một tin nhắn xác nhận thì sửa được. Chuyển nhầm tiền thì không. Hãy bắt đầu với loại việc thứ nhất.\n\nNhóm việc thường đạt cả 3 điều kiện:\n– Tiếp nhận và phân loại khách\n– Trả lời câu hỏi lặp lại\n– Đơn hàng và chăm sóc sau bán\n– Kế toán và báo cáo\n\nCách làm an toàn: chọn 1 quy trình, cho máy chạy song song với người trong 1–2 tuần. Ổn rồi mới mở rộng.\n\nChưa biết chọn việc nào? Nhắn Zalo 0934 246 420, kể quy trình bạn đang làm, chúng tôi gợi ý điểm bắt đầu.",
+    "media": [
+     "media/p11/slide-1.jpg",
+     "media/p11/slide-2.jpg",
+     "media/p11/slide-3.jpg",
+     "media/p11/slide-4.jpg",
+     "media/p11/slide-5.jpg",
+     "media/p11/slide-6.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Đừng tự động hóa mọi thứ cùng lúc.\n\nLọc qua 3 điều kiện trước:\n1. Lặp lại hằng ngày\n2. Có quy tắc tương đối rõ\n3. Sai thì sửa lại được\n\nViệc đạt cả 3 thường là: tiếp nhận và phân loại khách, trả lời câu hỏi lặp lại, đơn hàng và chăm sóc sau bán, kế toán và báo cáo.\n\nChọn 1 quy trình. Chạy song song với người 1–2 tuần. Ổn rồi mới mở rộng.\n\nLưu lại để rà việc trong công ty bạn. Link ở bio",
+    "hashtags": [
+     "#tudonghoa",
+     "#tudonghoaquytrinh",
+     "#AIchodoanhnghiep",
+     "#doanhnghiepnho",
+     "#quantridoanhnghiep",
+     "#chuyendoiso",
+     "#businessautomation",
+     "#AIautomation",
+     "#workflow",
+     "#smallbusiness",
+     "#productivity",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p11/slide-1.jpg",
+     "media/p11/slide-2.jpg",
+     "media/p11/slide-3.jpg",
+     "media/p11/slide-4.jpg",
+     "media/p11/slide-5.jpg",
+     "media/p11/slide-6.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Tự động hóa việc nào trước? Lọc qua 3 điều kiện này, đừng làm tất cả cùng lúc.",
+    "hashtags": [
+     "#tudonghoa",
+     "#AIchodoanhnghiep",
+     "#doanhnghiepnho",
+     "#businessautomation"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Đừng tự động hóa mọi thứ cùng lúc",
+      "voice": "Sai lầm phổ biến nhất là muốn tự động hóa tất cả ngay một lần."
+     },
+     {
+      "t": "3–7s",
+      "screen": "Điều kiện 1: lặp lại hằng ngày",
+      "voice": "Đầu tiên, việc đó phải lặp lại mỗi ngày."
+     },
+     {
+      "t": "7–11s",
+      "screen": "Điều kiện 2: quy tắc tương đối rõ",
+      "voice": "Thứ hai, viết được thành các bước rõ ràng."
+     },
+     {
+      "t": "11–15s",
+      "screen": "Điều kiện 3: sai thì sửa được",
+      "voice": "Thứ ba, nếu máy làm sai thì vẫn sửa lại được."
+     },
+     {
+      "t": "15–20s",
+      "screen": "Khách · Câu hỏi lặp · Đơn · Báo cáo",
+      "voice": "Tiếp nhận khách, trả lời câu hỏi lặp lại, đơn hàng và báo cáo thường đạt cả ba."
+     },
+     {
+      "t": "20–25s",
+      "screen": "1 quy trình, chạy song song 1–2 tuần",
+      "voice": "Chọn một quy trình, chạy song song một hai tuần rồi mới mở rộng."
+     }
+    ],
+    "media": [
+     "media/p11/slide-1.jpg",
+     "media/p11/slide-2.jpg",
+     "media/p11/slide-3.jpg",
+     "media/p11/slide-4.jpg",
+     "media/p11/slide-5.jpg",
+     "media/p11/slide-6.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "3 điều kiện chọn quy trình nên tự động hóa trước",
+    "noi_dung": "Không cần tự động hóa mọi thứ cùng lúc. Hãy chọn việc lặp lại hằng ngày, có quy tắc tương đối rõ và nếu sai thì sửa lại được. Tiếp nhận khách, trả lời câu hỏi lặp lại, đơn hàng, báo cáo thường đạt cả 3. Bắt đầu với 1 quy trình, chạy song song 1–2 tuần rồi mới mở rộng.",
+    "nut": {
+     "nhan": "Đọc hướng dẫn",
+     "link": "https://dreamlabs.vn/blog/tu-dong-hoa-quy-trinh-doanh-nghiep-bang-ai/"
+    },
+    "anh": "media/p11/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 12,
+   "ngay": "2026-12-01",
+   "thu": "Thứ Ba",
+   "tru_cot": "Trước / sau",
+   "giai_doan": "Tin",
+   "chu_de": "Trước/sau edit video: cùng một khung hình, từ màu phẳng chưa chỉnh đến thành phẩm có màu, nhịp cắt và phụ đề (mẫu Lam Kỳ do Dream Labs dựng)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p12/video.mp4",
+    "anh_bia": "media/p12/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Cùng một khung hình. Một bản xám xịt, một bản khiến người ta dừng lướt.\n\nBản đầu là cảnh thô màu phẳng (log), chưa có chút đồ họa nào. Trông nhạt là bình thường: màu phẳng giữ lại nhiều chi tiết để chỉnh ở khâu hậu kỳ.\n\nBản sau đi qua 4 bước:\n→ Color grading: đưa màu về đúng không khí thương hiệu\n→ Speed ramp: chậm lại ở chi tiết đẹp, tăng tốc ở đoạn chuyển\n→ Chuyển cảnh khớp nhịp\n→ Phụ đề động bật lên từng từ\n\nVì sao phải có phụ đề? Phần lớn người xem lướt video mà không bật tiếng. Không có chữ, thông điệp trôi qua trước khi kịp được nghe.\n\nNói rõ để bạn yên tâm: Lam Kỳ là mẫu do Dream Labs tự dựng để minh họa. Cảnh quay được dựng 3D bằng code, không phải footage của khách hàng.\n\nGói Edit Video Chuyên nghiệp: 2.000.000đ/video dài đến 3 phút, xuất đủ 3 tỉ lệ 9:16, 1:1 và 16:9 (chưa gồm VAT).\n\nĐang có sẵn cảnh quay mà chưa ưng thành phẩm? Nhắn Zalo 0934 246 420 hoặc xem thêm tại dreamlabs.vn.",
+    "media": [
+     "media/p12/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Trước: màu phẳng, chưa đồ họa.\nSau: color grading, speed ramp, chuyển cảnh và phụ đề động bật từng từ.\n\nPhụ đề không phải trang trí. Phần lớn người xem lướt mà không bật tiếng.\n\nLam Kỳ là mẫu do Dream Labs tự dựng, cảnh quay dựng 3D bằng code.\n\nEdit Video Chuyên nghiệp: 2.000.000đ/video đến 3 phút, xuất 9:16, 1:1, 16:9 (chưa gồm VAT).\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#editvideo",
+     "#dungvideo",
+     "#hauky",
+     "#chinhmau",
+     "#videoquangcao",
+     "#colorgrading",
+     "#videoediting",
+     "#beforeandafter",
+     "#speedramp",
+     "#reels",
+     "#contentcreator",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p12/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Cùng một cảnh: bản thô màu phẳng và bản đã chỉnh màu, cắt nhịp, thêm phụ đề. Mẫu Lam Kỳ do Dream Labs dựng.",
+    "hashtags": [
+     "#editvideo",
+     "#beforeandafter",
+     "#colorgrading",
+     "#hauky"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Video của bạn đang trông thế này?",
+      "voice": "Đây là cảnh thô, màu phẳng, chưa chỉnh gì."
+     },
+     {
+      "t": "3–6s",
+      "screen": "Trước: log, chưa đồ họa",
+      "voice": "Nhạt là bình thường, vì màu phẳng giữ lại chi tiết cho hậu kỳ."
+     },
+     {
+      "t": "6–9s",
+      "screen": "Sau: đã chỉnh màu",
+      "voice": "Và đây là cùng khung hình đó sau khi chỉnh màu."
+     },
+     {
+      "t": "9–18s",
+      "screen": "Speed ramp · Chuyển cảnh · Phụ đề động",
+      "voice": "Thêm speed ramp, chuyển cảnh và phụ đề bật từng từ cho người xem không bật tiếng."
+     },
+     {
+      "t": "18–22s",
+      "screen": "Mẫu Lam Kỳ · dựng 3D bằng code",
+      "voice": "Lam Kỳ là mẫu Dream Labs tự dựng, không phải footage khách."
+     },
+     {
+      "t": "22–26s",
+      "screen": "2.000.000đ/video ≤ 3 phút · Zalo 0934 246 420",
+      "voice": "Gói Chuyên nghiệp hai triệu một video, nhắn Zalo để gửi cảnh quay."
+     }
+    ],
+    "media": [
+     "media/p12/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Trước và sau edit: cùng một khung hình, hai kết quả",
+    "noi_dung": "Từ cảnh thô màu phẳng đến thành phẩm có color grading, speed ramp, chuyển cảnh và phụ đề động bật từng từ. Lam Kỳ là mẫu Dream Labs tự dựng, cảnh quay dựng 3D bằng code. Gói Edit Video Chuyên nghiệp 2.000.000đ/video dài đến 3 phút, xuất 9:16, 1:1, 16:9 (chưa gồm VAT).",
+    "nut": {
+     "nhan": "Xem gói edit video",
+     "link": "https://dreamlabs.vn/edit-video/"
+    },
+    "anh": "media/p12/cover.jpg"
+   },
+   "ghi_chu": "Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 13,
+   "ngay": "2026-12-02",
+   "thu": "Thứ Tư",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Tin",
+   "chu_de": "AI tiếp nhận yêu cầu thuê tàu và báo giá sơ bộ trong vài giây (demo mô phỏng Hải Miên Yachts)",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p13/slide-1.jpg",
+     "media/p13/slide-2.jpg",
+     "media/p13/slide-3.jpg",
+     "media/p13/slide-4.jpg",
+     "media/p13/slide-5.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Khách nhắn: “thứ Bảy, 8 người, đi đảo”. Bạn báo giá mất bao lâu?\n\nThường thì nhân viên đọc tin, hỏi lại vài câu, mở bảng giá, bấm máy tính rồi mới trả lời. Trong lúc chờ, khách có thể đã hỏi sang nơi khác.\n\nDream Labs dựng một demo mô phỏng cho Hải Miên Yachts, thương hiệu du thuyền concept do chúng tôi tự đặt ra, để bạn thấy cách khác:\n\n→ Khách viết một câu tự nhiên như đang nhắn cho người quen\n→ AI đọc và tách ra ngày, số người, tuyến đi\n→ AI ghép với bảng giá doanh nghiệp đã duyệt\n→ Vài giây sau, khách nhận báo giá sơ bộ\n\nNhân viên không mất việc. Họ chỉ nhận những khách đã rõ nhu cầu, đã biết mức giá, và tập trung chốt.\n\nCách này hợp với mọi ngành báo giá theo cấu hình:\n– Du lịch, thuê tàu, thuê xe\n– Nội thất\n– Sự kiện\n– In ấn\n\nLưu ý: đây là demo mô phỏng, số liệu trong ảnh chỉ để minh họa.\n\nNgành của bạn cũng báo giá theo kiểu “tùy số lượng, tùy ngày”? Nhắn Zalo 0934 246 420 để xem demo chạy thử.",
+    "media": [
+     "media/p13/slide-1.jpg",
+     "media/p13/slide-2.jpg",
+     "media/p13/slide-3.jpg",
+     "media/p13/slide-4.jpg",
+     "media/p13/slide-5.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Một câu nhắn tự nhiên: ngày, số người, tuyến đi.\nVài giây sau: báo giá sơ bộ.\n\nAI tách thông tin, ghép với bảng giá đã duyệt, trả lời khách. Nhân viên chỉ tiếp những khách đã rõ nhu cầu.\n\nHợp với du lịch, nội thất, sự kiện, in ấn và mọi ngành báo giá theo cấu hình.\n\nDemo mô phỏng với Hải Miên Yachts, thương hiệu concept do Dream Labs đặt ra. Số liệu minh họa.\n\nLink ở bio",
+    "hashtags": [
+     "#tudonghoa",
+     "#baogiatudong",
+     "#AIchodoanhnghiep",
+     "#chatbotzalo",
+     "#dulich",
+     "#noithat",
+     "#sukien",
+     "#AIautomation",
+     "#salesautomation",
+     "#chatbot",
+     "#n8n",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p13/slide-1.jpg",
+     "media/p13/slide-2.jpg",
+     "media/p13/slide-3.jpg",
+     "media/p13/slide-4.jpg",
+     "media/p13/slide-5.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Khách nhắn 1 câu, vài giây sau có báo giá sơ bộ. Demo mô phỏng, số liệu minh họa.",
+    "hashtags": [
+     "#tudonghoa",
+     "#AIchodoanhnghiep",
+     "#chatbotzalo",
+     "#baogia"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Khách hỏi giá, bạn trả lời sau bao lâu?",
+      "voice": "Khách hỏi giá thuê tàu, bạn mất bao lâu để trả lời?"
+     },
+     {
+      "t": "3–7s",
+      "screen": "“Thứ Bảy, 8 người, đi đảo”",
+      "voice": "Khách chỉ cần nhắn một câu tự nhiên như thế này."
+     },
+     {
+      "t": "7–12s",
+      "screen": "AI tách: ngày · số người · tuyến",
+      "voice": "AI đọc và tách ra ngày, số người và tuyến đi."
+     },
+     {
+      "t": "12–17s",
+      "screen": "Ghép bảng giá đã duyệt → báo giá sơ bộ",
+      "voice": "Rồi ghép với bảng giá đã duyệt và gửi báo giá sơ bộ."
+     },
+     {
+      "t": "17–21s",
+      "screen": "Nhân viên chỉ tiếp khách đã rõ nhu cầu",
+      "voice": "Nhân viên chỉ cần tiếp những khách đã rõ nhu cầu."
+     },
+     {
+      "t": "21–25s",
+      "screen": "Demo mô phỏng · số liệu minh họa",
+      "voice": "Đây là demo mô phỏng, nhắn Zalo 0934 246 420 để xem chạy thử."
+     }
+    ],
+    "media": [
+     "media/p13/slide-1.jpg",
+     "media/p13/slide-2.jpg",
+     "media/p13/slide-3.jpg",
+     "media/p13/slide-4.jpg",
+     "media/p13/slide-5.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "AI báo giá sơ bộ trong vài giây từ một câu nhắn",
+    "noi_dung": "Khách nhắn ngày, số người, tuyến đi. AI tách thông tin, ghép với bảng giá đã duyệt và trả báo giá sơ bộ. Nhân viên chỉ tiếp khách đã rõ nhu cầu. Hợp với du lịch, nội thất, sự kiện, in ấn. Demo mô phỏng với thương hiệu concept Hải Miên Yachts, số liệu minh họa.",
+    "nut": {
+     "nhan": "Xem tự động hóa AI",
+     "link": "https://dreamlabs.vn/tu-dong-hoa-quy-trinh-doanh-nghiep/"
+    },
+    "anh": "media/p13/slide-1.jpg"
+   },
+   "ghi_chu": "Ảnh demo có dòng “Demo mô phỏng · số liệu minh họa”."
+  },
+  {
+   "stt": 14,
+   "ngay": "2026-12-03",
+   "thu": "Thứ Năm",
+   "tru_cot": "Mẫu thiết kế",
+   "giai_doan": "Tin",
+   "chu_de": "4 phim motion graphic ngắn Dream Labs dựng hoàn toàn bằng code: logo animation, ra mắt sản phẩm, kinetic typography (mẫu concept)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p14/video.mp4",
+    "anh_bia": "media/p14/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "4 phim quảng cáo này không dùng một khung hình quay thật nào.\n\nKhông đoàn quay, không thuê địa điểm, không đèn. Từng chuyển động, từng con chữ đều được Dream Labs dựng hoàn toàn bằng code.\n\nĐây là 4 mẫu concept chúng tôi tự thiết kế, thương hiệu đặt ra để minh họa:\n\n– Talvère: phim ra mắt túi xách, cắt sẵn cho Reels và TikTok\n– Calvente: kinetic typography cho giày thủ công, chữ chuyển động theo nhịp\n– Maison Orvèle: quảng cáo nước hoa gói gọn trong 8 giây\n– Valmère: logo animation 7 giây, dùng mở đầu hoặc kết video\n\nMotion graphic hợp với lúc bạn cần giới thiệu sản phẩm, ra mắt bộ sưu tập hay làm logo động, mà chưa muốn tổ chức một buổi quay.\n\nHai gói để bạn dễ chọn (chưa gồm VAT):\n→ Motion Cơ bản 3.000.000đ: logo animation hoặc phim đến 15 giây\n→ Motion Chuyên nghiệp 7.000.000đ: phim đến 60 giây\n\nXem cả 4 phim mẫu tại dreamlabs.vn hoặc nhắn Zalo 0934 246 420 kể về sản phẩm bạn muốn giới thiệu.",
+    "media": [
+     "media/p14/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "4 phim, không một cảnh quay thật. Tất cả dựng bằng code.\n\nTalvère · ra mắt túi xách\nCalvente · kinetic typography cho giày thủ công\nMaison Orvèle · nước hoa, 8 giây\nValmère · logo animation, 7 giây\n\nĐều là mẫu concept do Dream Labs thiết kế.\n\nMotion Cơ bản 3.000.000đ (logo hoặc ≤ 15s)\nMotion Chuyên nghiệp 7.000.000đ (≤ 60s)\nChưa gồm VAT.\n\nLink ở bio",
+    "hashtags": [
+     "#motiongraphic",
+     "#logoanimation",
+     "#kinetictypography",
+     "#videoquangcao",
+     "#thietkedohoa",
+     "#rammatsanpham",
+     "#motiondesign",
+     "#productlaunch",
+     "#reels",
+     "#branding",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p14/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "4 phim quảng cáo không có cảnh quay thật nào, dựng hoàn toàn bằng code. Đều là mẫu concept của Dream Labs.",
+    "hashtags": [
+     "#motiongraphic",
+     "#logoanimation",
+     "#kinetictypography",
+     "#motiondesign"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Không có cảnh quay nào là thật",
+      "voice": "Bốn phim này không có một cảnh quay thật nào."
+     },
+     {
+      "t": "3–9s",
+      "screen": "Talvère · phim ra mắt túi",
+      "voice": "Talvère, phim ra mắt túi xách cho Reels và TikTok."
+     },
+     {
+      "t": "9–15s",
+      "screen": "Calvente · kinetic typography",
+      "voice": "Calvente, chữ chuyển động cho giày thủ công."
+     },
+     {
+      "t": "15–23s",
+      "screen": "Maison Orvèle · nước hoa 8 giây",
+      "voice": "Maison Orvèle, quảng cáo nước hoa trong tám giây."
+     },
+     {
+      "t": "23–30s",
+      "screen": "Valmère · logo animation 7 giây",
+      "voice": "Valmère, logo động bảy giây."
+     },
+     {
+      "t": "30–34s",
+      "screen": "Mẫu concept · từ 3.000.000đ",
+      "voice": "Đều là mẫu concept Dream Labs dựng bằng code, gói từ ba triệu."
+     }
+    ],
+    "media": [
+     "media/p14/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "4 phim motion graphic dựng hoàn toàn bằng code",
+    "noi_dung": "Phim ra mắt túi Talvère, kinetic typography Calvente, quảng cáo nước hoa Maison Orvèle 8 giây và logo animation Valmère 7 giây. Đây là các mẫu concept do Dream Labs tự thiết kế. Gói Motion Cơ bản 3.000.000đ cho logo hoặc phim đến 15 giây, Chuyên nghiệp 7.000.000đ cho phim đến 60 giây (chưa gồm VAT).",
+    "nut": {
+     "nhan": "Xem phim mẫu",
+     "link": "https://dreamlabs.vn/video-motion-graphic/"
+    },
+    "anh": "media/p14/cover.jpg"
+   },
+   "ghi_chu": "Mỗi cảnh có tên mẫu; thẻ kết ghi “thương hiệu trong video là concept”. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 15,
+   "ngay": "2026-12-04",
+   "thu": "Thứ Sáu",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Tin",
+   "chu_de": "AI có thay nhân viên chăm sóc khách hàng không? 4 hiểu lầm thường gặp",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p15/slide-1.jpg",
+     "media/p15/slide-2.jpg",
+     "media/p15/slide-3.jpg",
+     "media/p15/slide-4.jpg",
+     "media/p15/slide-5.jpg",
+     "media/p15/slide-6.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "AI vào làm, nhân viên chăm sóc khách hàng có mất việc không?\n\nĐây là câu Dream Labs hay được hỏi. Câu trả lời ngắn: không nên đặt mục tiêu thay thế. Còn đây là 4 hiểu lầm hay gặp.\n\n1. “AI sẽ thay hết nhân viên”\nThực tế: AI làm phần lặp lại và trực ngoài giờ. Người vẫn lo tư vấn sâu, xử lý khiếu nại, chốt đơn lớn.\n\n2. “Phải đổi hết phần mềm đang dùng”\nThường là không. Chúng tôi nối vào công cụ bạn đang có: Zalo OA, Messenger, Google Sheets, CRM.\n\n3. “AI trả lời bừa thì sao?”\nAI chỉ trả lời trong phạm vi tài liệu bạn đã duyệt. Câu khó, khiếu nại, giá đặc biệt thì chuyển sang người thật theo quy tắc cài sẵn.\n\n4. “Chỉ doanh nghiệp lớn mới làm được”\nBắt đầu nhỏ từ 1 quy trình là đủ. Gói Khởi động mất 5–7 ngày, 5.000.000đ (chưa gồm VAT).\n\nNhân viên của bạn không biến mất. Họ chỉ bớt phải gõ lại cùng một câu trả lời nhiều lần mỗi ngày.\n\nCòn băn khoăn nào khác? Nhắn Zalo 0934 246 420, chúng tôi trả lời thẳng.",
+    "media": [
+     "media/p15/slide-1.jpg",
+     "media/p15/slide-2.jpg",
+     "media/p15/slide-3.jpg",
+     "media/p15/slide-4.jpg",
+     "media/p15/slide-5.jpg",
+     "media/p15/slide-6.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "AI có thay nhân viên chăm sóc khách hàng không?\n\n4 hiểu lầm hay gặp:\n✕ AI thay hết người → AI làm phần lặp lại, người lo tư vấn sâu và chốt đơn lớn\n✕ Phải đổi phần mềm → Thường không, nối công cụ đang dùng\n✕ AI trả lời bừa → Chỉ trả lời theo tài liệu đã duyệt, câu khó chuyển người thật\n✕ Chỉ doanh nghiệp lớn → Bắt đầu từ 1 quy trình, 5–7 ngày\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#tudonghoa",
+     "#chamsockhachhang",
+     "#AIchodoanhnghiep",
+     "#chatbotzalo",
+     "#doanhnghiepnho",
+     "#customerservice",
+     "#AIautomation",
+     "#chatbot",
+     "#customerexperience",
+     "#smallbusiness",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p15/slide-1.jpg",
+     "media/p15/slide-2.jpg",
+     "media/p15/slide-3.jpg",
+     "media/p15/slide-4.jpg",
+     "media/p15/slide-5.jpg",
+     "media/p15/slide-6.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "AI có thay nhân viên chăm sóc khách hàng không? 4 hiểu lầm chủ doanh nghiệp hay gặp.",
+    "hashtags": [
+     "#AIchodoanhnghiep",
+     "#chamsockhachhang",
+     "#tudonghoa",
+     "#chatbotzalo"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "AI có thay nhân viên của bạn?",
+      "voice": "Dùng AI thì nhân viên chăm sóc khách có mất việc không?"
+     },
+     {
+      "t": "3–9s",
+      "screen": "Hiểu lầm 1: AI thay hết người",
+      "voice": "Không, AI làm phần lặp lại và trực ngoài giờ, người lo tư vấn sâu và chốt đơn lớn."
+     },
+     {
+      "t": "9–14s",
+      "screen": "Hiểu lầm 2: phải đổi phần mềm",
+      "voice": "Thường không cần, mình nối vào công cụ bạn đang dùng."
+     },
+     {
+      "t": "14–20s",
+      "screen": "Hiểu lầm 3: AI trả lời bừa",
+      "voice": "AI chỉ trả lời theo tài liệu đã duyệt, câu khó thì chuyển người thật."
+     },
+     {
+      "t": "20–25s",
+      "screen": "Hiểu lầm 4: chỉ công ty lớn",
+      "voice": "Bắt đầu nhỏ từ một quy trình, khoảng năm đến bảy ngày."
+     },
+     {
+      "t": "25–29s",
+      "screen": "Zalo 0934 246 420",
+      "voice": "Còn thắc mắc gì, nhắn Zalo Dream Labs nhé."
+     }
+    ],
+    "media": [
+     "media/p15/slide-1.jpg",
+     "media/p15/slide-2.jpg",
+     "media/p15/slide-3.jpg",
+     "media/p15/slide-4.jpg",
+     "media/p15/slide-5.jpg",
+     "media/p15/slide-6.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "AI có thay nhân viên chăm sóc khách hàng không?",
+    "noi_dung": "Không nên đặt mục tiêu thay thế. AI làm phần lặp lại và trực ngoài giờ, người lo tư vấn sâu, khiếu nại, chốt đơn lớn. Thường không phải đổi phần mềm. AI chỉ trả lời theo tài liệu đã duyệt, có quy tắc chuyển người thật. Doanh nghiệp nhỏ bắt đầu được từ 1 quy trình, 5–7 ngày.",
+    "nut": {
+     "nhan": "Tìm hiểu thêm",
+     "link": "https://dreamlabs.vn/tu-dong-hoa-quy-trinh-doanh-nghiep/"
+    },
+    "anh": "media/p15/slide-1.jpg"
+   },
+   "ghi_chu": "TikTok viết dạng chủ studio nói trước máy; nếu muốn đăng ảnh trượt thì dùng phần chữ trên màn hình làm chữ cho từng ảnh."
+  },
+  {
+   "stt": 16,
+   "ngay": "2026-12-05",
+   "thu": "Thứ Bảy",
+   "tru_cot": "Trước / sau",
+   "giai_doan": "Tin",
+   "chu_de": "Trước/sau bao bì: túi cà phê rang xay nhãn dán chung chung → bộ bao bì Gác Khói Roastery (mẫu concept do Dream Labs thiết kế)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p16/video.mp4",
+    "anh_bia": "media/p16/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Trên kệ toàn túi kraft giống nhau. Khách sẽ nhặt túi nào?\n\nĐây là tình huống của rất nhiều xưởng rang nhỏ: cà phê ngon, nhưng túi chỉ dán một nhãn “cà phê rang xay”. Đặt lên kệ là lẫn ngay vào hàng xóm.\n\nDream Labs làm thử một bài trước/sau với Gác Khói Roastery, thương hiệu concept do chúng tôi tự thiết kế:\n\nTrước:\n– Túi kraft, nhãn dán chung chung\n– Không có gì để nhớ\n\nSau:\n– Bao bì nền đen, nổi giữa kệ sáng màu\n– Nhãn ghi số mẻ rang, cho thấy cà phê được rang theo từng mẻ\n– Chữ đậm, đọc được từ xa\n– Mỗi dòng cà phê một màu, tổng cộng 3 màu\n\nTrước khi in, bạn đã có mockup 3D để chụp ảnh quảng cáo, đăng bán thử. Trong video, túi da Tịnh Vân xoay 360 độ là ví dụ cho kiểu mockup này (cũng là mẫu concept).\n\nGói Thiết kế sản phẩm Chuyên nghiệp 5.000.000đ (chưa gồm VAT):\n→ Bộ bao bì đến 3 kích thước\n→ 3 phương án để chọn\n→ Hỗ trợ làm việc với nhà in\n\nSản phẩm tốt xứng đáng được nhìn thấy. Nhắn Zalo 0934 246 420 hoặc xem thêm tại dreamlabs.vn.",
+    "media": [
+     "media/p16/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Trước: túi kraft, nhãn “cà phê rang xay”, lẫn vào kệ.\nSau: nền đen, nhãn số mẻ rang, chữ đậm, mỗi dòng một màu.\n\nGác Khói Roastery là mẫu concept do Dream Labs thiết kế. Có mockup 3D để chụp quảng cáo trước khi in.\n\nThiết kế sản phẩm Chuyên nghiệp 5.000.000đ: bao bì đến 3 kích thước, 3 phương án, hỗ trợ làm việc với nhà in (chưa gồm VAT).\n\nLink ở bio",
+    "hashtags": [
+     "#thietkebaobi",
+     "#baobicaphe",
+     "#caphe",
+     "#rangxay",
+     "#nhanhieu",
+     "#packagingdesign",
+     "#coffeepackaging",
+     "#specialtycoffee",
+     "#mockup3d",
+     "#branding",
+     "#beforeandafter",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p16/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Từ túi kraft dán nhãn chung chung thành bộ bao bì cà phê có nhận diện. Gác Khói là mẫu concept của Dream Labs.",
+    "hashtags": [
+     "#thietkebaobi",
+     "#packagingdesign",
+     "#caphe",
+     "#beforeandafter"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Túi cà phê của bạn có lẫn vào kệ?",
+      "voice": "Túi cà phê của bạn có đang lẫn giữa kệ hàng không?"
+     },
+     {
+      "t": "3–6s",
+      "screen": "Trước: nhãn “cà phê rang xay”",
+      "voice": "Trước, chỉ là túi kraft với một nhãn chung chung."
+     },
+     {
+      "t": "6–11s",
+      "screen": "Sau: nền đen · số mẻ rang · chữ đậm",
+      "voice": "Sau, bao bì đen, nhãn ghi số mẻ rang, chữ đậm dễ đọc."
+     },
+     {
+      "t": "11–16s",
+      "screen": "3 dòng · 3 màu",
+      "voice": "Mỗi dòng cà phê một màu riêng."
+     },
+     {
+      "t": "16–22s",
+      "screen": "Mockup 3D trước khi in",
+      "voice": "Có mockup 3D xoay ba trăm sáu mươi độ để chụp quảng cáo trước khi in."
+     },
+     {
+      "t": "22–27s",
+      "screen": "Mẫu concept · 5.000.000đ · Zalo 0934 246 420",
+      "voice": "Gác Khói là mẫu concept, gói Chuyên nghiệp năm triệu, nhắn Zalo nhé."
+     }
+    ],
+    "media": [
+     "media/p16/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Trước và sau: bao bì cà phê từ lẫn kệ đến nổi bật",
+    "noi_dung": "Túi kraft dán nhãn chung chung được thiết kế lại thành bao bì nền đen, nhãn số mẻ rang, chữ đậm, mỗi dòng một màu. Gác Khói Roastery là mẫu concept do Dream Labs thiết kế, có mockup 3D để chụp quảng cáo trước khi in. Gói Chuyên nghiệp 5.000.000đ: đến 3 kích thước, 3 phương án, hỗ trợ làm việc với nhà in.",
+    "nut": {
+     "nhan": "Xem gói bao bì",
+     "link": "https://dreamlabs.vn/thiet-ke-bao-bi/"
+    },
+    "anh": "media/p16/cover.jpg"
+   },
+   "ghi_chu": "Ảnh “trước” là túi kraft mẫu, nhãn chữ chung “cà phê rang xay”, không có thương hiệu thật. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 17,
+   "ngay": "2026-12-06",
+   "thu": "Chủ nhật",
+   "tru_cot": "Mẹo hữu ích",
+   "giai_doan": "Tin",
+   "chu_de": "Landing page chạy quảng cáo: 6 khối không thể thiếu",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p17/slide-1.jpg",
+     "media/p17/slide-2.jpg",
+     "media/p17/slide-3.jpg",
+     "media/p17/slide-4.jpg",
+     "media/p17/slide-5.jpg",
+     "media/p17/slide-6.jpg",
+     "media/p17/slide-7.jpg",
+     "media/p17/slide-8.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Tiền quảng cáo vẫn trừ đều, mà form vẫn trống trơn?\n\nNhiều khi vấn đề không nằm ở quảng cáo, mà ở trang khách bấm vào. Dream Labs kiểm tra landing page theo 6 khối này:\n\n1. Tiêu đề nói rõ lợi ích trong 1 câu\nKhách cần hiểu ngay họ nhận được gì, không phải đọc khẩu hiệu.\n\n2. Ảnh hoặc video sản phẩm thật\nẢnh mạng chung chung làm khách nghi ngờ.\n\n3. Lý do để tin\nQuy trình làm việc, chính sách đổi trả, cam kết rõ ràng.\n\n4. Ưu đãi có hạn, nếu có thật\nĐừng tạo đồng hồ đếm ngược giả. Khách nhận ra.\n\n5. Form ngắn\nTên và số điện thoại là đủ. Mỗi ô thêm vào là thêm một lý do để bỏ dở.\n\n6. Nút Zalo hoặc gọi điện luôn hiện\nKèm Facebook Pixel và GA4 để biết khách đến từ đâu, quảng cáo nào đáng giữ.\n\nThiếu khối nào thì bổ sung khối đó trước khi tăng ngân sách.\n\nGói Landing Page Chuyên nghiệp 6.000.000đ (chưa gồm VAT). Muốn Dream Labs xem giúp trang hiện tại? Nhắn Zalo 0934 246 420.",
+    "media": [
+     "media/p17/slide-1.jpg",
+     "media/p17/slide-2.jpg",
+     "media/p17/slide-3.jpg",
+     "media/p17/slide-4.jpg",
+     "media/p17/slide-5.jpg",
+     "media/p17/slide-6.jpg",
+     "media/p17/slide-7.jpg",
+     "media/p17/slide-8.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Landing page chạy quảng cáo cần đủ 6 khối:\n\n1. Tiêu đề nói rõ lợi ích trong 1 câu\n2. Ảnh hoặc video sản phẩm thật\n3. Lý do tin: quy trình, đổi trả, cam kết\n4. Ưu đãi có hạn (nếu có thật)\n5. Form ngắn: tên + số điện thoại\n6. Nút Zalo hoặc gọi luôn hiện, gắn Pixel và GA4\n\nThiếu khối nào, sửa khối đó trước khi tăng ngân sách.\n\nLưu lại để kiểm tra trang của bạn. Link ở bio",
+    "hashtags": [
+     "#landingpage",
+     "#thietkelandingpage",
+     "#chayquangcao",
+     "#quangcaofacebook",
+     "#banhangonline",
+     "#marketingonline",
+     "#conversionrate",
+     "#facebookads",
+     "#GA4",
+     "#digitalmarketing",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p17/slide-1.jpg",
+     "media/p17/slide-2.jpg",
+     "media/p17/slide-3.jpg",
+     "media/p17/slide-4.jpg",
+     "media/p17/slide-5.jpg",
+     "media/p17/slide-6.jpg",
+     "media/p17/slide-7.jpg",
+     "media/p17/slide-8.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Chạy quảng cáo mà không ra khách? Kiểm tra landing page có đủ 6 khối này chưa.",
+    "hashtags": [
+     "#landingpage",
+     "#chayquangcao",
+     "#banhangonline",
+     "#facebookads"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Quảng cáo chạy, form vẫn trống?",
+      "voice": "Tiền quảng cáo vẫn trừ mà không ai để lại số?"
+     },
+     {
+      "t": "3–6s",
+      "screen": "1. Tiêu đề: lợi ích trong 1 câu",
+      "voice": "Một, tiêu đề nói rõ lợi ích trong một câu."
+     },
+     {
+      "t": "6–9s",
+      "screen": "2. Ảnh, video sản phẩm thật",
+      "voice": "Hai, ảnh hoặc video sản phẩm thật."
+     },
+     {
+      "t": "9–12s",
+      "screen": "3. Lý do tin: đổi trả, cam kết",
+      "voice": "Ba, lý do để tin như chính sách đổi trả."
+     },
+     {
+      "t": "12–15s",
+      "screen": "4. Ưu đãi có hạn, nếu có thật",
+      "voice": "Bốn, ưu đãi có hạn, nhưng phải có thật."
+     },
+     {
+      "t": "15–18s",
+      "screen": "5. Form: tên + số điện thoại",
+      "voice": "Năm, form ngắn, tên với số điện thoại là đủ."
+     },
+     {
+      "t": "18–22s",
+      "screen": "6. Nút Zalo luôn hiện + Pixel, GA4",
+      "voice": "Sáu, nút Zalo luôn hiện và gắn Pixel, GA4 để đo nguồn khách."
+     }
+    ],
+    "media": [
+     "media/p17/slide-1.jpg",
+     "media/p17/slide-2.jpg",
+     "media/p17/slide-3.jpg",
+     "media/p17/slide-4.jpg",
+     "media/p17/slide-5.jpg",
+     "media/p17/slide-6.jpg",
+     "media/p17/slide-7.jpg",
+     "media/p17/slide-8.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Landing page chạy quảng cáo: 6 khối không thể thiếu",
+    "noi_dung": "Tiêu đề nói rõ lợi ích trong 1 câu. Ảnh hoặc video sản phẩm thật. Lý do để tin như quy trình, đổi trả, cam kết. Ưu đãi có hạn nếu có thật. Form ngắn chỉ cần tên và số điện thoại. Nút Zalo hoặc gọi điện luôn hiện, gắn Pixel và GA4 để biết khách đến từ đâu.",
+    "nut": {
+     "nhan": "Đọc bài chi tiết",
+     "link": "https://dreamlabs.vn/blog/landing-page-ban-hang-chuyen-doi-cao/"
+    },
+    "anh": "media/p17/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 18,
+   "ngay": "2026-12-07",
+   "thu": "Thứ Hai",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Tin",
+   "chu_de": "Chấm điểm khách tiềm năng tự động: đội sale gọi khách nóng trước (demo mô phỏng Vọng Nguyệt Residences, bất động sản)",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p18/slide-1.jpg",
+     "media/p18/slide-2.jpg",
+     "media/p18/slide-3.jpg",
+     "media/p18/slide-4.jpg",
+     "media/p18/slide-5.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "8 giờ sáng, đội sale nên gọi khách nào trước?\n\nVới bất động sản, khách để lại thông tin từ khắp nơi: form trên web, tin nhắn Zalo, cuộc gọi hotline. Hôm sau, sale nhận một danh sách dài và thường gọi từ trên xuống. Khách đang thật sự quan tâm có khi nằm ở cuối.\n\nDream Labs dựng một demo mô phỏng với Vọng Nguyệt Residences, dự án căn hộ concept do chúng tôi tự đặt ra, để minh họa cách chấm điểm tự động:\n\n→ Gom khách từ form, Zalo, hotline về một chỗ\n→ AI đọc nội dung từng khách và chấm mức độ quan tâm: có nói ngân sách không, định mua khi nào, hỏi có cụ thể không\n→ Tự đẩy vào CRM, gắn người phụ trách\n→ Sáng ra, mỗi sale có danh sách gọi theo thứ tự ưu tiên\n\nKhách hỏi “căn 2 phòng ngủ tầng trung, thanh toán theo tiến độ thế nào” sẽ được gọi trước khách chỉ nhắn “giá bao nhiêu”.\n\nĐây là demo mô phỏng, số liệu minh họa. Tiêu chí chấm điểm thật sẽ do chính đội sale của bạn đặt ra.\n\nMuốn xem demo chạy? Nhắn Zalo 0934 246 420 hoặc xem thêm tại dreamlabs.vn.",
+    "media": [
+     "media/p18/slide-1.jpg",
+     "media/p18/slide-2.jpg",
+     "media/p18/slide-3.jpg",
+     "media/p18/slide-4.jpg",
+     "media/p18/slide-5.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Khách đến từ form, Zalo, hotline.\nAI đọc từng người, chấm mức độ quan tâm theo ngân sách, thời gian và câu hỏi cụ thể.\nTự đẩy vào CRM, gắn người phụ trách.\n\nSáng ra, sale có danh sách gọi theo thứ tự ưu tiên. Khách nóng được gọi trước.\n\nDemo mô phỏng với Vọng Nguyệt Residences, dự án concept do Dream Labs đặt ra. Số liệu minh họa.\n\nLink ở bio",
+    "hashtags": [
+     "#batdongsan",
+     "#tudonghoa",
+     "#chamdiemkhachhang",
+     "#CRM",
+     "#AIchodoanhnghiep",
+     "#doisale",
+     "#leadscoring",
+     "#salesautomation",
+     "#realestate",
+     "#AIautomation",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p18/slide-1.jpg",
+     "media/p18/slide-2.jpg",
+     "media/p18/slide-3.jpg",
+     "media/p18/slide-4.jpg",
+     "media/p18/slide-5.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Sale gọi khách nóng trước nhờ AI chấm điểm khách tiềm năng. Demo mô phỏng, số liệu minh họa.",
+    "hashtags": [
+     "#batdongsan",
+     "#leadscoring",
+     "#tudonghoa",
+     "#CRM"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Sáng nay gọi khách nào trước?",
+      "voice": "Một danh sách dài khách mới, sale nên gọi ai trước?"
+     },
+     {
+      "t": "3–7s",
+      "screen": "Form · Zalo · Hotline → 1 chỗ",
+      "voice": "Khách từ form, Zalo và hotline được gom về một chỗ."
+     },
+     {
+      "t": "7–12s",
+      "screen": "AI chấm: ngân sách · thời gian · câu hỏi",
+      "voice": "AI đọc nội dung và chấm mức độ quan tâm của từng khách."
+     },
+     {
+      "t": "12–16s",
+      "screen": "Tự vào CRM, gắn người phụ trách",
+      "voice": "Rồi tự đẩy vào CRM và gắn người phụ trách."
+     },
+     {
+      "t": "16–20s",
+      "screen": "Danh sách gọi theo thứ tự ưu tiên",
+      "voice": "Sáng ra, mỗi sale có danh sách gọi theo thứ tự ưu tiên."
+     },
+     {
+      "t": "20–24s",
+      "screen": "Demo mô phỏng · số liệu minh họa",
+      "voice": "Đây là demo mô phỏng, nhắn Zalo Dream Labs để xem chạy thử."
+     }
+    ],
+    "media": [
+     "media/p18/slide-1.jpg",
+     "media/p18/slide-2.jpg",
+     "media/p18/slide-3.jpg",
+     "media/p18/slide-4.jpg",
+     "media/p18/slide-5.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "AI chấm điểm khách tiềm năng, sale gọi khách nóng trước",
+    "noi_dung": "Khách đến từ form, Zalo, hotline được gom về một chỗ. AI đọc nội dung, chấm mức độ quan tâm theo ngân sách, thời gian, câu hỏi cụ thể, rồi đẩy vào CRM và gắn người phụ trách. Sáng ra sale có danh sách gọi theo thứ tự ưu tiên. Demo mô phỏng với dự án concept Vọng Nguyệt Residences, số liệu minh họa.",
+    "nut": {
+     "nhan": "Xem tự động hóa AI",
+     "link": "https://dreamlabs.vn/tu-dong-hoa-quy-trinh-doanh-nghiep/"
+    },
+    "anh": "media/p18/slide-1.jpg"
+   },
+   "ghi_chu": "Ảnh demo có nhãn “Demo mô phỏng”; tên trong demo là tên giả."
+  },
+  {
+   "stt": 19,
+   "ngay": "2026-12-08",
+   "thu": "Thứ Ba",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Tin",
+   "chu_de": "5 việc lặp lại nên giao cho máy ngay tuần này",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p19/video.mp4",
+    "anh_bia": "media/p19/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "5 việc lặp lại nên giao cho máy, bắt đầu ngay tuần này.\n\nKhông cần dự án lớn. Mỗi việc dưới đây đều nhỏ, xảy ra mỗi ngày và đang lấy đi giờ làm của ai đó trong công ty bạn.\n\n1. Trả lời câu hỏi giá, phí giao, giờ mở cửa\nKhách hỏi cùng một câu, máy trả lời cùng một đáp án, cả lúc nửa đêm.\n\n2. Ghi đơn từ tin nhắn vào bảng\nĐơn chốt trên Zalo hay Messenger tự chảy vào Google Sheets, khỏi chép tay.\n\n3. Nhắc khách mua lại theo chu kỳ\nHết gói cà phê, hết hộp mỹ phẩm, đến hạn bảo dưỡng: máy nhớ thay bạn.\n\n4. Đọc hóa đơn, đối chiếu thu chi\nMáy đọc và khớp số. Người vẫn duyệt bước cuối.\n\n5. Gom số liệu làm báo cáo tuần\nSố liệu từ nhiều nơi về một bảng, kèm bản tóm tắt sẵn để đọc.\n\nKhông chắc nên làm việc nào trước? Ghi lại xem mỗi việc đang tốn bao nhiêu phút mỗi ngày. Việc ngốn giờ nhất thường là điểm bắt đầu tốt.\n\nGói Khởi động 5.000.000đ, 5–7 ngày cho 1 quy trình (chưa gồm VAT). Nhắn Zalo 0934 246 420 để bắt đầu.",
+    "media": [
+     "media/p19/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "5 việc nên giao cho máy ngay tuần này:\n\n1. Trả lời câu hỏi giá, phí giao, giờ mở cửa\n2. Ghi đơn từ tin nhắn vào bảng\n3. Nhắc khách mua lại theo chu kỳ\n4. Đọc hóa đơn, đối chiếu thu chi (người duyệt bước cuối)\n5. Gom số liệu làm báo cáo tuần\n\nViệc nào đang ngốn giờ nhất, bắt đầu từ việc đó.\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#tudonghoa",
+     "#tudonghoaquytrinh",
+     "#AIchodoanhnghiep",
+     "#doanhnghiepnho",
+     "#googlesheets",
+     "#n8n",
+     "#businessautomation",
+     "#AIautomation",
+     "#productivity",
+     "#smallbusiness",
+     "#workflow",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p19/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "5 việc lặp lại bạn có thể giao cho máy ngay tuần này. Việc số 4 vẫn cần người duyệt.",
+    "hashtags": [
+     "#tudonghoa",
+     "#AIchodoanhnghiep",
+     "#doanhnghiepnho",
+     "#productivity"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "5 việc nên giao cho máy tuần này",
+      "voice": "Năm việc bạn nên giao cho máy ngay tuần này."
+     },
+     {
+      "t": "3–7s",
+      "screen": "1. Trả lời giá, phí giao, giờ mở cửa",
+      "voice": "Một, trả lời câu hỏi giá, phí giao và giờ mở cửa."
+     },
+     {
+      "t": "7–11s",
+      "screen": "2. Ghi đơn từ tin nhắn vào bảng",
+      "voice": "Hai, ghi đơn từ tin nhắn vào bảng tính."
+     },
+     {
+      "t": "11–15s",
+      "screen": "3. Nhắc khách mua lại",
+      "voice": "Ba, nhắc khách mua lại đúng chu kỳ."
+     },
+     {
+      "t": "15–20s",
+      "screen": "4. Đối chiếu thu chi · người duyệt cuối",
+      "voice": "Bốn, đọc hóa đơn, đối chiếu thu chi, người vẫn duyệt bước cuối."
+     },
+     {
+      "t": "20–24s",
+      "screen": "5. Gom số liệu báo cáo tuần",
+      "voice": "Năm, gom số liệu làm báo cáo tuần."
+     },
+     {
+      "t": "24–28s",
+      "screen": "Zalo 0934 246 420",
+      "voice": "Chưa biết bắt đầu từ đâu, nhắn Zalo Dream Labs."
+     }
+    ],
+    "media": [
+     "media/p19/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "5 việc lặp lại nên giao cho máy ngay tuần này",
+    "noi_dung": "Trả lời câu hỏi giá, phí giao, giờ mở cửa. Ghi đơn từ tin nhắn vào bảng. Nhắc khách mua lại theo chu kỳ. Đọc hóa đơn, đối chiếu thu chi, người vẫn duyệt bước cuối. Gom số liệu làm báo cáo tuần. Gói Khởi động 5.000.000đ, 5–7 ngày cho 1 quy trình (chưa gồm VAT).",
+    "nut": {
+     "nhan": "Xem bảng giá",
+     "link": "https://dreamlabs.vn/bang-gia/"
+    },
+    "anh": "media/p19/cover.jpg"
+   },
+   "ghi_chu": "Ví dụ trong mục 3 (cà phê, mỹ phẩm, bảo dưỡng) chỉ là minh họa; có thể đổi theo ngành mà studio muốn nhắm tới. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 20,
+   "ngay": "2026-12-09",
+   "thu": "Thứ Tư",
+   "tru_cot": "Mẫu thiết kế",
+   "giai_doan": "Tin",
+   "chu_de": "Mẫu website Orvanthe: nhà chế tác đồng hồ cơ, đơn sắc, chữ lớn (concept do Dream Labs thiết kế)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p20/video.mp4",
+    "anh_bia": "media/p20/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Một website mà mặt đồng hồ trên đó chạy đúng giờ thật.\n\nĐó là chi tiết đầu tiên trong Orvanthe, mẫu website concept Dream Labs thiết kế cho một nhà chế tác đồng hồ cơ. Orvanthe là thương hiệu chúng tôi tự đặt ra, không phải dự án khách hàng.\n\nTinh thần chung: đơn sắc, chữ lớn, nhiều khoảng trống. Để sản phẩm tự nói.\n\nNhững gì bạn sẽ thấy khi cuộn trang:\n→ Mặt đồng hồ chạy theo giờ thật của người xem\n→ Sơ đồ bộ máy chuyển động, cho thấy bên trong vận hành ra sao\n→ Chọn 6 tham chiếu với 3 kiểu dây, đổi ngay trên màn hình\n→ Bảng thông số trải toàn màn hình, đọc dễ như một trang catalogue\n\nVới sản phẩm giá trị cao, website là phòng trưng bày đầu tiên khách bước vào. Khách chưa cầm được đồng hồ, nên trang web phải cho họ nhìn kỹ.\n\nMẫu này thuộc mức gói Website Cao cấp: có 3D/WebGL, đa ngôn ngữ, từ 35.000.000đ, thời gian 30–45 ngày (chưa gồm VAT).\n\nXem trực tiếp mẫu Orvanthe tại dreamlabs.vn hoặc nhắn Zalo 0934 246 420.",
+    "media": [
+     "media/p20/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Orvanthe: mẫu website concept cho nhà chế tác đồng hồ cơ, do Dream Labs thiết kế.\n\nĐơn sắc, chữ lớn.\nMặt đồng hồ chạy theo giờ thật.\nSơ đồ bộ máy chuyển động.\n6 tham chiếu, 3 kiểu dây.\nBảng thông số toàn màn hình.\n\nGói Website Cao cấp: 3D/WebGL, đa ngôn ngữ, từ 35.000.000đ (chưa gồm VAT).\n\nLink ở bio",
+    "hashtags": [
+     "#thietkewebsite",
+     "#websitecaocap",
+     "#dongho",
+     "#donghoco",
+     "#webdesign",
+     "#luxurywebsite",
+     "#webgl",
+     "#threejs",
+     "#uidesign",
+     "#minimaldesign",
+     "#watchdesign",
+     "#dreamlabs"
+    ],
+    "media": [
+     "media/p20/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Website đồng hồ mà mặt đồng hồ chạy đúng giờ thật. Orvanthe là mẫu concept do Dream Labs thiết kế.",
+    "hashtags": [
+     "#thietkewebsite",
+     "#webdesign",
+     "#webgl",
+     "#dongho"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Đồng hồ này đang chạy giờ thật",
+      "voice": "Mặt đồng hồ trên website này đang chạy đúng giờ thật."
+     },
+     {
+      "t": "3–8s",
+      "screen": "Orvanthe · mẫu concept đồng hồ cơ",
+      "voice": "Đây là Orvanthe, mẫu website concept cho nhà chế tác đồng hồ cơ."
+     },
+     {
+      "t": "8–13s",
+      "screen": "Sơ đồ bộ máy chuyển động",
+      "voice": "Cuộn xuống, bộ máy chuyển động ngay trên trang."
+     },
+     {
+      "t": "13–18s",
+      "screen": "6 tham chiếu · 3 kiểu dây",
+      "voice": "Chọn sáu tham chiếu với ba kiểu dây."
+     },
+     {
+      "t": "18–22s",
+      "screen": "Bảng thông số toàn màn hình",
+      "voice": "Thông số trải toàn màn hình, đọc rất rõ."
+     },
+     {
+      "t": "22–27s",
+      "screen": "Website Cao cấp · 3D/WebGL · đa ngôn ngữ",
+      "voice": "Gói Website Cao cấp, có 3D và đa ngôn ngữ, xem mẫu tại dreamlabs.vn."
+     }
+    ],
+    "media": [
+     "media/p20/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Mẫu website Orvanthe: đồng hồ cơ, đơn sắc, chữ lớn",
+    "noi_dung": "Mẫu concept do Dream Labs thiết kế cho một nhà chế tác đồng hồ cơ: mặt đồng hồ chạy theo giờ thật, sơ đồ bộ máy chuyển động, chọn 6 tham chiếu với 3 kiểu dây, bảng thông số toàn màn hình. Thuộc gói Website Cao cấp có 3D/WebGL, đa ngôn ngữ, từ 35.000.000đ, 30–45 ngày.",
+    "nut": {
+     "nhan": "Xem mẫu website",
+     "link": "https://dreamlabs.vn/thiet-ke-website/"
+    },
+    "anh": "media/p20/cover.jpg"
+   },
+   "ghi_chu": "Hashtag #threejs là tên thư viện mã nguồn mở; bỏ đi nếu không muốn nhắc tên công cụ kỹ thuật. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 21,
+   "ngay": "2026-12-10",
+   "thu": "Thứ Năm",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Tin",
+   "chu_de": "Chăm sóc khách VIP tự động mỗi sáng (demo mô phỏng Atelier Lam Khuê)",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p21/slide-1.jpg",
+     "media/p21/slide-2.jpg",
+     "media/p21/slide-3.jpg",
+     "media/p21/slide-4.jpg",
+     "media/p21/slide-5.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Khách VIP hiếm khi bỏ đi. Họ chỉ dần quên bạn.\n\nKhách thân thiết thường chẳng có lý do gì để rời đi. Chỉ là không ai nhớ nhắn họ đúng lúc.\n\nDream Labs dựng một demo mô phỏng cho Atelier Lam Khuê – thương hiệu trang sức mẫu do chúng tôi tự thiết kế, không phải khách hàng thật. Luồng chạy như sau:\n\n→ 7 giờ sáng, AI lọc danh sách: ai sắp đến ngày kỷ niệm, sinh nhật, ai đến hạn làm sạch trang sức, ai lâu chưa quay lại.\n→ Với từng người, AI viết nháp một tin nhắn riêng dựa trên lịch sử mua. Khách từng mua nhẫn cưới thì nhắc ngày kỷ niệm. Khách mua dây chuyền năm ngoái thì mời ghé làm sáng lại.\n→ Nhân viên mở danh sách, đọc, sửa vài chữ nếu cần, rồi mới bấm gửi.\n\nChúng tôi cố ý giữ bước duyệt bằng người. Tin nhắn hàng loạt vô hồn khiến khách VIP thấy mình chỉ là một dòng trong bảng tính.\n\nHợp với: trang sức, spa, nha khoa, showroom.\n\n(Demo mô phỏng, tên và số liệu chỉ để minh họa.)\n\nMuốn xem luồng này áp vào danh sách khách của bạn trông ra sao? Nhắn Zalo 0934 246 420 hoặc xem dreamlabs.vn.",
+    "media": [
+     "media/p21/slide-1.jpg",
+     "media/p21/slide-2.jpg",
+     "media/p21/slide-3.jpg",
+     "media/p21/slide-4.jpg",
+     "media/p21/slide-5.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Mỗi sáng có một danh sách chờ sẵn: ai sắp sinh nhật, ai đến hạn bảo dưỡng, ai lâu chưa ghé.\n\nAI viết nháp tin nhắn riêng cho từng người theo lịch sử mua. Nhân viên đọc, chỉnh, rồi mới gửi. Không có tin hàng loạt vô hồn.\n\nĐây là demo mô phỏng trên Atelier Lam Khuê – thương hiệu trang sức mẫu do Dream Labs thiết kế. Hợp với trang sức, spa, nha khoa, showroom.\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#chamsockhachhang",
+     "#khachhangthanthiet",
+     "#tudonghoa",
+     "#trolyai",
+     "#zalooa",
+     "#spa",
+     "#trangsuc",
+     "#nhakhoa",
+     "#customerretention",
+     "#AIautomation",
+     "#CRM",
+     "#smallbusiness"
+    ],
+    "media": [
+     "media/p21/slide-1.jpg",
+     "media/p21/slide-2.jpg",
+     "media/p21/slide-3.jpg",
+     "media/p21/slide-4.jpg",
+     "media/p21/slide-5.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "7 giờ sáng, AI đã soạn sẵn lời chúc cho từng khách VIP. Nhân viên chỉ việc duyệt và gửi. Demo mô phỏng.",
+    "hashtags": [
+     "#tudonghoa",
+     "#chamsockhachhang",
+     "#AIautomation",
+     "#zalooa"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Khách VIP dần quên bạn vì sao?",
+      "voice": "Khách VIP không bỏ đi, họ chỉ dần quên bạn."
+     },
+     {
+      "t": "3–8s",
+      "screen": "7h sáng: AI lọc danh sách khách",
+      "voice": "Mỗi sáng, AI lọc ra ai sắp sinh nhật, kỷ niệm hay đến hạn bảo dưỡng."
+     },
+     {
+      "t": "8–13s",
+      "screen": "Nháp tin riêng theo lịch sử mua",
+      "voice": "Rồi viết nháp tin nhắn riêng cho từng người, dựa trên món họ từng mua."
+     },
+     {
+      "t": "13–18s",
+      "screen": "Nhân viên duyệt rồi mới gửi",
+      "voice": "Nhân viên đọc, chỉnh vài chữ, rồi mới bấm gửi."
+     },
+     {
+      "t": "18–23s",
+      "screen": "Demo mô phỏng · Atelier Lam Khuê (mẫu)",
+      "voice": "Đây là demo mô phỏng trên thương hiệu mẫu do Dream Labs thiết kế."
+     },
+     {
+      "t": "23–27s",
+      "screen": "Zalo 0934 246 420",
+      "voice": "Muốn thử với khách của bạn, nhắn Zalo cho Dream Labs nhé."
+     }
+    ],
+    "media": [
+     "media/p21/slide-1.jpg",
+     "media/p21/slide-2.jpg",
+     "media/p21/slide-3.jpg",
+     "media/p21/slide-4.jpg",
+     "media/p21/slide-5.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Demo: AI soạn tin chăm sóc khách VIP mỗi sáng",
+    "noi_dung": "Mỗi sáng AI lọc khách sắp sinh nhật, kỷ niệm, đến hạn bảo dưỡng hoặc lâu chưa quay lại, rồi viết nháp tin nhắn riêng theo lịch sử mua. Nhân viên duyệt rồi mới gửi. Demo mô phỏng trên Atelier Lam Khuê, thương hiệu mẫu do Dream Labs thiết kế. Hợp với trang sức, spa, nha khoa, showroom.",
+    "nut": {
+     "nhan": "Xem cách làm",
+     "link": "https://dreamlabs.vn/tu-dong-hoa-quy-trinh-doanh-nghiep/"
+    },
+    "anh": "media/p21/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 22,
+   "ngay": "2026-12-11",
+   "thu": "Thứ Sáu",
+   "tru_cot": "Hậu trường",
+   "giai_doan": "Tin",
+   "chu_de": "Hậu trường edit: dựng một lần, xuất đủ 9:16 cho TikTok/Reels, 1:1 cho feed, 16:9 cho YouTube (mẫu Nère, Maison Sérac, Belmora)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p22/video.mp4",
+    "anh_bia": "media/p22/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Quay một lần, đăng ba nơi, mà không phải dựng lại lần nào.\n\nNhiều anh chị gửi video cho bên edit, nhận về bản dọc cho TikTok. Đến lúc cần bản vuông cho feed Facebook hay bản ngang cho YouTube thì phải chờ dựng lại, có khi mất thêm vài ngày.\n\nỞ Dream Labs, chúng tôi tính chuyện ba tỷ lệ ngay từ lúc mở timeline:\n\n– Chủ thể, chữ và logo nằm trong vùng an toàn chung. Cắt sang 9:16, 1:1 hay 16:9 đều không mất đầu, không mất chữ.\n– Phụ đề đặt cao hơn vùng nút like, bình luận, chia sẻ của TikTok và Reels, để người xem không phải đoán chữ.\n– Một footage, xuất ba bản: 9:16 cho TikTok/Reels, 1:1 cho feed, 16:9 cho YouTube.\n\nTrong video hậu trường này, bạn sẽ thấy cùng một cảnh chạy song song ở cả ba khung. Các thương hiệu xuất hiện – Nère, Maison Sérac, Belmora – là mẫu concept do Dream Labs tự thiết kế để trình diễn, không phải khách hàng.\n\nCách làm này có sẵn trong gói Edit Video Chuyên nghiệp, giá 2.000.000đ mỗi video (chưa gồm VAT).\n\nBạn đang có footage nằm im trong máy? Nhắn Zalo 0934 246 420 hoặc xem dreamlabs.vn.",
+    "media": [
+     "media/p22/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Một cảnh. Ba khung hình. 9:16 · 1:1 · 16:9.\n\nDream Labs đặt bố cục an toàn cho cả ba tỷ lệ ngay từ lúc dựng, phụ đề nằm ngoài vùng nút của TikTok và Reels. Một footage, ba kênh, không dựng lại.\n\nNère, Maison Sérac, Belmora là mẫu concept do Dream Labs thiết kế.\n\nCó trong gói Edit Video Chuyên nghiệp 2.000.000đ.\n\nLink ở bio",
+    "hashtags": [
+     "#editvideo",
+     "#dungvideo",
+     "#hautruong",
+     "#videomarketing",
+     "#reels",
+     "#tiktokvideo",
+     "#behindthescenes",
+     "#videoediting",
+     "#aspectratio",
+     "#contentcreator",
+     "#motiongraphic"
+    ],
+    "media": [
+     "media/p22/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Dựng một lần, xuất đủ 9:16, 1:1, 16:9. Phụ đề không bao giờ bị nút TikTok che. Mẫu concept do Dream Labs thiết kế.",
+    "hashtags": [
+     "#editvideo",
+     "#hautruong",
+     "#videoediting",
+     "#reels"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "1 cảnh → 3 khung hình",
+      "voice": "Một cảnh quay, ba khung hình, không dựng lại lần nào."
+     },
+     {
+      "t": "3–9s",
+      "screen": "9:16 · 1:1 · 16:9 chạy song song",
+      "voice": "Đây là cùng một cảnh, chạy song song ở bản dọc, vuông và ngang."
+     },
+     {
+      "t": "9–15s",
+      "screen": "Vùng an toàn chung cho 3 tỷ lệ",
+      "voice": "Bí quyết là đặt chủ thể và chữ trong vùng an toàn ngay từ lúc dựng."
+     },
+     {
+      "t": "15–21s",
+      "screen": "Phụ đề tránh vùng nút",
+      "voice": "Phụ đề nằm cao hơn cụm nút like và bình luận, nên luôn đọc được."
+     },
+     {
+      "t": "21–27s",
+      "screen": "Nère · Maison Sérac · Belmora (mẫu)",
+      "voice": "Các thương hiệu bạn thấy là mẫu concept do Dream Labs tự thiết kế."
+     },
+     {
+      "t": "27–32s",
+      "screen": "Gói Chuyên nghiệp 2.000.000đ",
+      "voice": "Có trong gói Edit Video Chuyên nghiệp, nhắn Zalo 0934 246 420 nhé."
+     }
+    ],
+    "media": [
+     "media/p22/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Dựng một lần, xuất đủ 3 tỷ lệ cho mọi kênh",
+    "noi_dung": "Dream Labs đặt bố cục an toàn cho 9:16, 1:1 và 16:9 ngay từ lúc dựng, phụ đề nằm ngoài vùng nút của TikTok và Reels. Một footage dùng cho ba kênh, không phải dựng lại. Có trong gói Edit Video Chuyên nghiệp 2.000.000đ (chưa gồm VAT). Video dùng các mẫu concept do Dream Labs thiết kế.",
+    "nut": {
+     "nhan": "Xem gói edit video",
+     "link": "https://dreamlabs.vn/edit-video/"
+    },
+    "anh": "media/p22/cover.jpg"
+   },
+   "ghi_chu": "Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 23,
+   "ngay": "2026-12-12",
+   "thu": "Thứ Bảy",
+   "tru_cot": "Bảng giá",
+   "giai_doan": "Liên hệ",
+   "chu_de": "Bảng giá tự động hóa quy trình doanh nghiệp bằng AI: 3 gói rõ ràng (chưa gồm VAT)",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p23/slide-1.jpg",
+     "media/p23/slide-2.jpg",
+     "media/p23/slide-3.jpg",
+     "media/p23/slide-4.jpg",
+     "media/p23/slide-5.jpg",
+     "media/p23/slide-6.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Tự động hóa bằng AI tốn bao nhiêu? Đây là con số thật.\n\nDream Labs có 3 gói. Giá dưới đây chưa gồm VAT.\n\n① KHỞI ĐỘNG – 5.000.000đ\nTriển khai 5–7 ngày, hỗ trợ 1 tháng.\n– 1 quy trình tiếp nhận và phân loại khách\n– Trợ lý AI trả lời Zalo OA/Messenger 24/7\n– Đồng bộ dữ liệu về Google Sheets\n\n② TĂNG TRƯỞNG – 15.000.000đ (phổ biến nhất)\nTriển khai 14 ngày, hỗ trợ 3 tháng.\n– 3 quy trình\n– AI viết báo cáo tuần, tháng\n– Kết nối CRM, phần mềm bán hàng, kế toán\n– Đa kênh, tự chuyển cho nhân viên khi cần\n– Đào tạo đội ngũ sử dụng\n\n③ DOANH NGHIỆP – từ 40.000.000đ\nTriển khai từ 30 ngày, hỗ trợ 12 tháng.\n– AI agent riêng cho doanh nghiệp\n– Không giới hạn số quy trình\n– Dashboard thời gian thực\n– Bảo mật dữ liệu nội bộ\n\nMột điều chúng tôi luôn nói trước khi ký: ngoài phí triển khai, anh chị nên dự trù phí vận hành hằng tháng. Gồm phí mô hình AI tính theo lượng dùng, và phí nền tảng nếu chọn bản trả phí. Khoản này tùy quy mô, chúng tôi sẽ ước tính cùng anh chị trước, không để phát sinh bất ngờ.\n\nChưa biết gói nào hợp? Cứ bắt đầu từ một quy trình.\n\nNhắn Zalo 0934 246 420 hoặc xem chi tiết tại dreamlabs.vn.",
+    "media": [
+     "media/p23/slide-1.jpg",
+     "media/p23/slide-2.jpg",
+     "media/p23/slide-3.jpg",
+     "media/p23/slide-4.jpg",
+     "media/p23/slide-5.jpg",
+     "media/p23/slide-6.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Bảng giá tự động hóa bằng AI của Dream Labs (chưa gồm VAT):\n\n① Khởi động 5.000.000đ · 5–7 ngày · hỗ trợ 1 tháng\n② Tăng trưởng 15.000.000đ · 14 ngày · hỗ trợ 3 tháng\n③ Doanh nghiệp từ 40.000.000đ · 30+ ngày · hỗ trợ 12 tháng\n\nNgoài phí triển khai còn phí vận hành hằng tháng (mô hình AI, nền tảng). Chúng tôi nói rõ trước khi ký.\n\nVuốt để xem từng gói có gì.\n\nLink ở bio",
+    "hashtags": [
+     "#banggia",
+     "#tudonghoa",
+     "#tudonghoaquytrinh",
+     "#trolyai",
+     "#zalooa",
+     "#n8n",
+     "#doanhnghiepnho",
+     "#AIautomation",
+     "#businessautomation",
+     "#pricing",
+     "#smallbusiness",
+     "#chatbot"
+    ],
+    "media": [
+     "media/p23/slide-1.jpg",
+     "media/p23/slide-2.jpg",
+     "media/p23/slide-3.jpg",
+     "media/p23/slide-4.jpg",
+     "media/p23/slide-5.jpg",
+     "media/p23/slide-6.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Tự động hóa bằng AI giá bao nhiêu? 3 gói từ 5 triệu, chưa gồm VAT, nói rõ cả phí vận hành hằng tháng.",
+    "hashtags": [
+     "#tudonghoa",
+     "#banggia",
+     "#AIautomation",
+     "#doanhnghiepnho"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Tự động hóa AI giá bao nhiêu?",
+      "voice": "Làm tự động hóa bằng AI hết bao nhiêu tiền? Nói thẳng luôn."
+     },
+     {
+      "t": "3–9s",
+      "screen": "Khởi động: 5.000.000đ · 5–7 ngày",
+      "voice": "Gói Khởi động năm triệu: một quy trình, trợ lý AI Zalo OA, đồng bộ Google Sheets."
+     },
+     {
+      "t": "9–16s",
+      "screen": "Tăng trưởng: 15.000.000đ · 14 ngày",
+      "voice": "Gói Tăng trưởng mười lăm triệu: ba quy trình, AI viết báo cáo, nối CRM và kế toán."
+     },
+     {
+      "t": "16–22s",
+      "screen": "Doanh nghiệp: từ 40.000.000đ",
+      "voice": "Gói Doanh nghiệp từ bốn mươi triệu: AI agent riêng và dashboard thời gian thực."
+     },
+     {
+      "t": "22–28s",
+      "screen": "+ Phí vận hành hằng tháng",
+      "voice": "Ngoài ra có phí vận hành hằng tháng, chúng tôi ước tính rõ trước khi ký."
+     },
+     {
+      "t": "28–32s",
+      "screen": "Giá chưa gồm VAT · Zalo 0934 246 420",
+      "voice": "Giá chưa gồm VAT, nhắn Zalo để chọn gói hợp với bạn."
+     }
+    ],
+    "media": [
+     "media/p23/slide-1.jpg",
+     "media/p23/slide-2.jpg",
+     "media/p23/slide-3.jpg",
+     "media/p23/slide-4.jpg",
+     "media/p23/slide-5.jpg",
+     "media/p23/slide-6.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Bảng giá tự động hóa AI: 3 gói, từ 5 triệu đồng",
+    "noi_dung": "Khởi động 5.000.000đ (5–7 ngày, hỗ trợ 1 tháng). Tăng trưởng 15.000.000đ (14 ngày, hỗ trợ 3 tháng). Doanh nghiệp từ 40.000.000đ (30+ ngày, hỗ trợ 12 tháng). Giá chưa gồm VAT. Phí vận hành hằng tháng như phí mô hình AI, phí nền tảng sẽ được Dream Labs nói rõ trước khi ký.",
+    "nut": {
+     "nhan": "Xem bảng giá",
+     "link": "https://dreamlabs.vn/bang-gia/"
+    },
+    "anh": "media/p23/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 24,
+   "ngay": "2026-12-13",
+   "thu": "Chủ nhật",
+   "tru_cot": "Mẹo hữu ích",
+   "giai_doan": "Liên hệ",
+   "chu_de": "Chuẩn bị gì trước buổi tư vấn tự động hóa để 30 phút đáng giá",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p24/slide-1.jpg",
+     "media/p24/slide-2.jpg",
+     "media/p24/slide-3.jpg",
+     "media/p24/slide-4.jpg",
+     "media/p24/slide-5.jpg",
+     "media/p24/slide-6.jpg",
+     "media/p24/slide-7.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "30 phút tư vấn sẽ rất phí nếu bạn đến tay không.\n\nNhiều buổi gọi đầu tiên hết 20 phút chỉ để nhớ lại: hôm qua mình làm gì, ai làm, mất bao lâu. Đến lúc bàn cách làm thì đã hết giờ.\n\nDream Labs gợi ý anh chị ghi sẵn 5 dòng này, mất chừng 10 phút:\n\n1. Ba việc lặp lại tốn thời gian nhất tuần qua. Ví dụ: chép đơn từ Zalo sang Sheets, trả lời câu hỏi giá, tổng hợp doanh thu cuối ngày.\n2. Ai đang làm, và mất khoảng bao lâu mỗi ngày. Dùng số của chính bạn, ước lượng là được.\n3. Đang dùng công cụ gì: Zalo OA, Google Sheets, phần mềm bán hàng, kế toán.\n4. Dữ liệu nào nhạy cảm, tuyệt đối không được đưa ra ngoài.\n5. Sau 30 ngày, anh chị muốn thấy điều gì thay đổi.\n\nCó 5 dòng này, chúng tôi bỏ qua phần hỏi han chung chung và đi thẳng vào việc: nên tự động hóa cái nào trước, cái nào để sau, cái nào chưa cần.\n\nLưu bài này lại, hoặc chụp màn hình gửi cho người quản lý vận hành của bạn.\n\nViết xong rồi thì nhắn Zalo 0934 246 420 để hẹn giờ gọi, hoặc xem dreamlabs.vn.",
+    "media": [
+     "media/p24/slide-1.jpg",
+     "media/p24/slide-2.jpg",
+     "media/p24/slide-3.jpg",
+     "media/p24/slide-4.jpg",
+     "media/p24/slide-5.jpg",
+     "media/p24/slide-6.jpg",
+     "media/p24/slide-7.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Trước buổi tư vấn tự động hóa, ghi sẵn 5 dòng:\n\n1. 3 việc lặp lại tốn giờ nhất tuần qua\n2. Ai làm, mất bao lâu mỗi ngày\n3. Đang dùng công cụ gì\n4. Dữ liệu nào không được đưa ra ngoài\n5. Muốn thấy gì sau 30 ngày\n\n10 phút chuẩn bị giúp 30 phút gọi đi thẳng vào việc.\n\nLưu lại để dùng. Nhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#meohay",
+     "#tudonghoa",
+     "#quanlydoanhnghiep",
+     "#vanhanh",
+     "#doanhnghiepnho",
+     "#checklist",
+     "#productivity",
+     "#AIautomation",
+     "#businesstips",
+     "#workflow"
+    ],
+    "media": [
+     "media/p24/slide-1.jpg",
+     "media/p24/slide-2.jpg",
+     "media/p24/slide-3.jpg",
+     "media/p24/slide-4.jpg",
+     "media/p24/slide-5.jpg",
+     "media/p24/slide-6.jpg",
+     "media/p24/slide-7.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Đừng đến buổi tư vấn tự động hóa tay không. Ghi sẵn 5 dòng này, 30 phút sẽ đáng giá hơn nhiều.",
+    "hashtags": [
+     "#tudonghoa",
+     "#meohay",
+     "#doanhnghiepnho",
+     "#AIautomation"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Đừng đến buổi tư vấn tay không",
+      "voice": "Đi tư vấn tự động hóa mà không chuẩn bị là phí nửa buổi."
+     },
+     {
+      "t": "3–7s",
+      "screen": "1. 3 việc lặp lại tốn giờ nhất",
+      "voice": "Một, ghi ba việc lặp lại tốn thời gian nhất tuần qua."
+     },
+     {
+      "t": "7–11s",
+      "screen": "2. Ai làm, mất bao lâu",
+      "voice": "Hai, ai đang làm và mất bao lâu mỗi ngày, số của chính bạn."
+     },
+     {
+      "t": "11–15s",
+      "screen": "3. Đang dùng công cụ gì",
+      "voice": "Ba, bạn đang dùng Zalo OA, Sheets hay phần mềm bán hàng nào."
+     },
+     {
+      "t": "15–19s",
+      "screen": "4. Dữ liệu nào nhạy cảm",
+      "voice": "Bốn, dữ liệu nào tuyệt đối không được đưa ra ngoài."
+     },
+     {
+      "t": "19–23s",
+      "screen": "5. Muốn gì sau 30 ngày",
+      "voice": "Năm, sau ba mươi ngày bạn muốn thấy điều gì thay đổi."
+     },
+     {
+      "t": "23–27s",
+      "screen": "Xong rồi? Zalo 0934 246 420",
+      "voice": "Ghi xong thì nhắn Dream Labs để hẹn giờ gọi nhé."
+     }
+    ],
+    "media": [
+     "media/p24/slide-1.jpg",
+     "media/p24/slide-2.jpg",
+     "media/p24/slide-3.jpg",
+     "media/p24/slide-4.jpg",
+     "media/p24/slide-5.jpg",
+     "media/p24/slide-6.jpg",
+     "media/p24/slide-7.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "5 điều nên ghi sẵn trước buổi tư vấn tự động hóa",
+    "noi_dung": "Ba việc lặp lại tốn giờ nhất tuần qua. Ai đang làm, mất bao lâu mỗi ngày. Công cụ đang dùng như Zalo OA, Sheets, phần mềm bán hàng, kế toán. Dữ liệu nào nhạy cảm. Kết quả mong muốn sau 30 ngày. Chuẩn bị 10 phút, buổi gọi 30 phút sẽ đi thẳng vào việc.",
+    "nut": {
+     "nhan": "Hẹn giờ tư vấn",
+     "link": "https://dreamlabs.vn/#lien-he"
+    },
+    "anh": "media/p24/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 25,
+   "ngay": "2026-12-14",
+   "thu": "Thứ Hai",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Liên hệ",
+   "chu_de": "Đặt lịch hẹn tự động cho boutique/showroom: khách chọn giờ trống, nhận xác nhận và lời nhắc (demo mô phỏng Thiên Độ Horlogerie)",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p25/video.mp4",
+    "anh_bia": "media/p25/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Khách muốn ghé xem đồng hồ lúc 10 giờ tối. Ai trả lời?\n\nVới boutique và showroom, tin nhắn hẹn xem hàng thường đến ngoài giờ. Sáng hôm sau nhân viên mới thấy, hỏi qua hỏi lại vài lượt mới chốt được giờ. Có khách chờ không nổi.\n\nDream Labs làm một demo mô phỏng cho Thiên Độ Horlogerie – thương hiệu đồng hồ mẫu do chúng tôi tự thiết kế, không phải khách hàng thật. Luồng như sau:\n\n→ Khách nhắn muốn ghé xem.\n→ AI hỏi khách quan tâm mẫu nào, rồi đưa ra các khung giờ còn trống, lấy từ lịch thật của cửa hàng.\n→ Khách chọn giờ, nhận tin xác nhận ngay.\n→ Trước 1 ngày, khách nhận lời nhắc. Cùng lúc, nhân viên nhận thông báo để chuẩn bị sẵn đúng mẫu khách muốn xem.\n\nKhách đến nơi, sản phẩm đã nằm trên khay. Không ai phải lục lịch hay hỏi lại.\n\nTrong video còn có mẫu 3D đồng hồ Thiên Trục xoay 360 độ, cũng là thiết kế concept của Dream Labs.\n\nLuồng này hợp với showroom, spa, phòng khám, nha khoa – nơi nào làm việc theo lịch hẹn.\n\n(Demo mô phỏng, số liệu minh họa.)\n\nNhắn Zalo 0934 246 420 để xem demo chạy thử, hoặc ghé dreamlabs.vn.",
+    "media": [
+     "media/p25/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Khách nhắn hẹn xem hàng lúc nửa đêm? Trợ lý AI lo phần còn lại.\n\nHỏi mẫu khách quan tâm → đưa giờ trống từ lịch thật → xác nhận → nhắc trước 1 ngày → báo nhân viên chuẩn bị sẵn sản phẩm.\n\nDemo mô phỏng trên Thiên Độ Horlogerie, kèm mẫu 3D đồng hồ Thiên Trục – đều là thiết kế concept của Dream Labs.\n\nLink ở bio",
+    "hashtags": [
+     "#datlichhen",
+     "#showroom",
+     "#boutique",
+     "#trolyai",
+     "#tudonghoa",
+     "#zalooa",
+     "#spa",
+     "#nhakhoa",
+     "#bookingautomation",
+     "#AIassistant",
+     "#3Ddesign",
+     "#watchdesign"
+    ],
+    "media": [
+     "media/p25/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Khách tự chọn giờ trống, nhận xác nhận và lời nhắc, nhân viên được báo chuẩn bị sẵn mẫu. Demo mô phỏng, mẫu concept.",
+    "hashtags": [
+     "#datlichhen",
+     "#tudonghoa",
+     "#AIassistant",
+     "#showroom",
+     "#3Ddesign"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "22h: khách hẹn xem đồng hồ",
+      "voice": "Mười giờ tối, khách nhắn muốn ghé xem đồng hồ, ai trả lời?"
+     },
+     {
+      "t": "3–8s",
+      "screen": "AI hỏi: anh quan tâm mẫu nào?",
+      "voice": "Trợ lý AI hỏi khách quan tâm mẫu nào trước."
+     },
+     {
+      "t": "8–13s",
+      "screen": "Giờ trống lấy từ lịch thật",
+      "voice": "Rồi đưa ra các khung giờ còn trống, lấy từ lịch thật của cửa hàng."
+     },
+     {
+      "t": "13–18s",
+      "screen": "Xác nhận + nhắc trước 1 ngày",
+      "voice": "Khách chọn giờ là nhận xác nhận, trước một ngày có lời nhắc."
+     },
+     {
+      "t": "18–23s",
+      "screen": "Nhân viên chuẩn bị sẵn sản phẩm",
+      "voice": "Nhân viên cũng được báo để bày sẵn đúng mẫu khách muốn xem."
+     },
+     {
+      "t": "23–29s",
+      "screen": "Thiên Trục · mẫu 3D xoay 360°",
+      "voice": "Còn đây là đồng hồ Thiên Trục, mẫu 3D concept do Dream Labs thiết kế."
+     },
+     {
+      "t": "29–33s",
+      "screen": "Demo mô phỏng · Zalo 0934 246 420",
+      "voice": "Đây là demo mô phỏng, nhắn Zalo để xem chạy thử nhé."
+     }
+    ],
+    "media": [
+     "media/p25/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Demo: khách tự đặt lịch xem hàng tại showroom",
+    "noi_dung": "Khách nhắn muốn xem sản phẩm, trợ lý AI hỏi mẫu quan tâm, đưa giờ trống từ lịch thật, gửi xác nhận và nhắc trước 1 ngày, đồng thời báo nhân viên chuẩn bị sẵn sản phẩm. Demo mô phỏng trên Thiên Độ Horlogerie, thương hiệu mẫu do Dream Labs thiết kế. Hợp với showroom, spa, phòng khám, nha khoa.",
+    "nut": {
+     "nhan": "Xem demo",
+     "link": "https://dreamlabs.vn/tu-dong-hoa-quy-trinh-doanh-nghiep/"
+    },
+    "anh": "media/p25/cover.jpg"
+   },
+   "ghi_chu": "Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 26,
+   "ngay": "2026-12-15",
+   "thu": "Thứ Ba",
+   "tru_cot": "Bảng giá",
+   "giai_doan": "Liên hệ",
+   "chu_de": "Bảng giá thiết kế: website, landing page, bao bì, motion graphic, edit video (chưa gồm VAT)",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p26/slide-1.jpg",
+     "media/p26/slide-2.jpg",
+     "media/p26/slide-3.jpg",
+     "media/p26/slide-4.jpg",
+     "media/p26/slide-5.jpg",
+     "media/p26/slide-6.jpg",
+     "media/p26/slide-7.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Cần website, bao bì hay video? Đây là bảng giá để dự trù.\n\nDream Labs công khai giá theo từng hạng mục. Tất cả giá dưới đây chưa gồm VAT.\n\nWEBSITE\n– Cơ bản: 8.000.000đ · 5 trang · 7–10 ngày\n– Chuyên nghiệp: 18.000.000đ · 10 trang thiết kế riêng, có CMS tự sửa nội dung · 14–21 ngày\n– Cao cấp: từ 35.000.000đ · 3D, đa ngôn ngữ · 30–45 ngày\n\nLANDING PAGE\n– 3.000.000đ · 6.000.000đ · 12.000.000đ\n\nTHIẾT KẾ SẢN PHẨM / BAO BÌ\n– 2.000.000đ · 5.000.000đ · 12.000.000đ\n\nMOTION GRAPHIC\n– 3.000.000đ · 7.000.000đ · 15.000.000đ\n\nEDIT VIDEO (mỗi video)\n– 800.000đ · 2.000.000đ · 5.000.000đ\n\nVài lời khuyên khi chọn:\n→ Mới chạy quảng cáo cho một sản phẩm? Một landing page thường đủ dùng trước khi làm cả website.\n→ Đã có nhiều dòng sản phẩm, cần khách tự tìm hiểu? Website Chuyên nghiệp có CMS sẽ đỡ phải nhờ người sửa.\n→ Chưa chắc chọn mức nào? Gửi chúng tôi mục tiêu và ngân sách, Dream Labs sẽ nói thẳng mức nào là vừa.\n\nChi tiết từng gói có tại dreamlabs.vn. Hoặc nhắn Zalo 0934 246 420 để hỏi nhanh.",
+    "media": [
+     "media/p26/slide-1.jpg",
+     "media/p26/slide-2.jpg",
+     "media/p26/slide-3.jpg",
+     "media/p26/slide-4.jpg",
+     "media/p26/slide-5.jpg",
+     "media/p26/slide-6.jpg",
+     "media/p26/slide-7.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Bảng giá thiết kế Dream Labs (chưa gồm VAT):\n\nWebsite: 8tr · 18tr · từ 35tr\nLanding page: 3tr · 6tr · 12tr\nBao bì/sản phẩm: 2tr · 5tr · 12tr\nMotion graphic: 3tr · 7tr · 15tr\nEdit video: 800k · 2tr · 5tr mỗi video\n\nVuốt để xem mỗi mức có gì. Chưa biết chọn mức nào thì cứ hỏi, chúng tôi nói thẳng.\n\nLink ở bio",
+    "hashtags": [
+     "#banggia",
+     "#thietkewebsite",
+     "#landingpage",
+     "#thietkebaobi",
+     "#motiongraphic",
+     "#editvideo",
+     "#webdesign",
+     "#packagingdesign",
+     "#branding",
+     "#designstudio",
+     "#saigon",
+     "#hcmc"
+    ],
+    "media": [
+     "media/p26/slide-1.jpg",
+     "media/p26/slide-2.jpg",
+     "media/p26/slide-3.jpg",
+     "media/p26/slide-4.jpg",
+     "media/p26/slide-5.jpg",
+     "media/p26/slide-6.jpg",
+     "media/p26/slide-7.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Làm website, landing page, bao bì, motion hay edit video giá bao nhiêu? Bảng giá công khai, chưa gồm VAT.",
+    "hashtags": [
+     "#banggia",
+     "#thietkewebsite",
+     "#landingpage",
+     "#webdesign"
+    ],
+    "dang": "photo",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Làm website giá bao nhiêu?",
+      "voice": "Làm website, bao bì hay video hết bao nhiêu, xem bảng này."
+     },
+     {
+      "t": "3–9s",
+      "screen": "Website: 8tr · 18tr · từ 35tr",
+      "voice": "Website từ tám triệu cho năm trang, đến từ ba mươi lăm triệu có 3D."
+     },
+     {
+      "t": "9–13s",
+      "screen": "Landing page: 3tr · 6tr · 12tr",
+      "voice": "Landing page có ba mức, từ ba triệu."
+     },
+     {
+      "t": "13–17s",
+      "screen": "Bao bì: 2tr · 5tr · 12tr",
+      "voice": "Thiết kế sản phẩm và bao bì từ hai triệu."
+     },
+     {
+      "t": "17–21s",
+      "screen": "Motion: 3tr · 7tr · 15tr",
+      "voice": "Motion graphic từ ba triệu."
+     },
+     {
+      "t": "21–25s",
+      "screen": "Edit video: từ 800k/video",
+      "voice": "Edit video từ tám trăm nghìn mỗi video."
+     },
+     {
+      "t": "25–29s",
+      "screen": "Chưa gồm VAT · dreamlabs.vn",
+      "voice": "Giá chưa gồm VAT, chi tiết từng gói ở dreamlabs.vn."
+     }
+    ],
+    "media": [
+     "media/p26/slide-1.jpg",
+     "media/p26/slide-2.jpg",
+     "media/p26/slide-3.jpg",
+     "media/p26/slide-4.jpg",
+     "media/p26/slide-5.jpg",
+     "media/p26/slide-6.jpg",
+     "media/p26/slide-7.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Bảng giá thiết kế website, bao bì, video năm 2026",
+    "noi_dung": "Website từ 8.000.000đ, landing page từ 3.000.000đ, thiết kế sản phẩm/bao bì từ 2.000.000đ, motion graphic từ 3.000.000đ, edit video từ 800.000đ mỗi video. Mỗi hạng mục có 3 mức. Giá chưa gồm VAT. Xem chi tiết từng gói hoặc nhắn Dream Labs để được gợi ý mức phù hợp.",
+    "nut": {
+     "nhan": "Xem bảng giá",
+     "link": "https://dreamlabs.vn/bang-gia/"
+    },
+    "anh": "media/p26/slide-1.jpg"
+   },
+   "ghi_chu": ""
+  },
+  {
+   "stt": 27,
+   "ngay": "2026-12-16",
+   "thu": "Thứ Tư",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Liên hệ",
+   "chu_de": "Tự tính chi phí ẩn của việc làm tay: 15 phút mỗi ngày là bao nhiêu giờ mỗi năm",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p27/slide-1.jpg",
+     "media/p27/slide-2.jpg",
+     "media/p27/slide-3.jpg",
+     "media/p27/slide-4.jpg",
+     "media/p27/slide-5.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "15 phút mỗi ngày nghe chẳng đáng gì. Thử nhân lên xem.\n\nViệc làm tay có một chi phí ít ai ghi vào sổ: thời gian. Không ai thấy nó trong báo cáo, nhưng nó trôi đi mỗi ngày.\n\nCông thức rất đơn giản:\nPhút mỗi ngày × số ngày làm việc ÷ 60 = số giờ.\n\nVí dụ phép tính (chỉ để minh họa, không phải số liệu của khách nào):\n– Một việc mất 15 phút mỗi ngày\n– 15 × 26 ngày = 390 phút ≈ 6,5 giờ mỗi tháng\n– Cả năm: khoảng 78 giờ\n\nĐó mới là một việc, của một người.\n\nGiờ đến lượt bạn:\n→ Liệt kê các việc lặp lại: chép đơn, trả lời giá, làm báo cáo cuối ngày...\n→ Ghi số phút mỗi việc, nhân với số người đang làm.\n→ Cộng lại, rồi đặt cạnh chi phí triển khai một lần.\n\nCó thể kết quả cho thấy chưa cần tự động hóa. Cũng có thể bạn bất ngờ. Dù thế nào, đó là con số của chính doanh nghiệp bạn, không phải lời quảng cáo.\n\nTính xong, chụp màn hình gửi Dream Labs qua Zalo 0934 246 420. Chúng tôi cùng bạn xem việc nào đáng làm trước. Hoặc tham khảo thêm tại dreamlabs.vn.",
+    "media": [
+     "media/p27/slide-1.jpg",
+     "media/p27/slide-2.jpg",
+     "media/p27/slide-3.jpg",
+     "media/p27/slide-4.jpg",
+     "media/p27/slide-5.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "Ví dụ: 15 phút/ngày × 26 ngày = 6,5 giờ/tháng ≈ 78 giờ/năm.\nMột việc. Một người.\n\nĐây chỉ là phép tính minh họa. Bây giờ thử điền số của bạn: mỗi việc lặp lại mất bao nhiêu phút, bao nhiêu người làm. Cộng lại rồi so với chi phí triển khai một lần.\n\nTính xong gửi Dream Labs để cùng xem.\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#chiphian",
+     "#tudonghoa",
+     "#quanlythoigian",
+     "#doanhnghiepnho",
+     "#vanhanh",
+     "#timeismoney",
+     "#productivity",
+     "#AIautomation",
+     "#businessowner",
+     "#workflow"
+    ],
+    "media": [
+     "media/p27/slide-1.jpg",
+     "media/p27/slide-2.jpg",
+     "media/p27/slide-3.jpg",
+     "media/p27/slide-4.jpg",
+     "media/p27/slide-5.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "15 phút mỗi ngày là bao nhiêu giờ mỗi năm? Ví dụ minh họa, giờ thử điền số của chính bạn.",
+    "hashtags": [
+     "#tudonghoa",
+     "#chiphian",
+     "#doanhnghiepnho",
+     "#productivity"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "15 phút/ngày = ? giờ/năm",
+      "voice": "Mười lăm phút mỗi ngày, cả năm là bao nhiêu giờ?"
+     },
+     {
+      "t": "3–8s",
+      "screen": "Phút × ngày làm việc ÷ 60",
+      "voice": "Công thức: số phút nhân số ngày làm việc, chia sáu mươi."
+     },
+     {
+      "t": "8–14s",
+      "screen": "Ví dụ: 15 × 26 = 6,5 giờ/tháng",
+      "voice": "Ví dụ mười lăm phút nhân hai mươi sáu ngày, ra sáu tiếng rưỡi mỗi tháng."
+     },
+     {
+      "t": "14–19s",
+      "screen": "≈ 78 giờ/năm · 1 việc, 1 người",
+      "voice": "Tức khoảng bảy mươi tám giờ một năm, cho một việc của một người."
+     },
+     {
+      "t": "19–25s",
+      "screen": "Điền số của bạn",
+      "voice": "Giờ bạn thử điền số việc và số người của mình vào xem."
+     },
+     {
+      "t": "25–30s",
+      "screen": "Gửi kết quả: Zalo 0934 246 420",
+      "voice": "Tính xong gửi Dream Labs, mình cùng xem việc nào đáng làm trước."
+     }
+    ],
+    "media": [
+     "media/p27/slide-1.jpg",
+     "media/p27/slide-2.jpg",
+     "media/p27/slide-3.jpg",
+     "media/p27/slide-4.jpg",
+     "media/p27/slide-5.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Tự tính: việc làm tay đang tốn bao nhiêu giờ mỗi năm?",
+    "noi_dung": "Công thức: phút mỗi ngày × số ngày làm việc ÷ 60. Ví dụ minh họa: 15 phút × 26 ngày ≈ 6,5 giờ/tháng, khoảng 78 giờ/năm cho một việc, một người. Hãy điền số của chính bạn, nhân với số việc và số người, rồi so với chi phí triển khai. Gửi kết quả để Dream Labs cùng xem.",
+    "nut": {
+     "nhan": "Gửi số của bạn",
+     "link": "https://dreamlabs.vn/#lien-he"
+    },
+    "anh": "media/p27/slide-1.jpg"
+   },
+   "ghi_chu": "Con số 15 phút / 78 giờ là phép tính minh họa, đã ghi rõ là ví dụ trong mọi bản."
+  },
+  {
+   "stt": 28,
+   "ngay": "2026-12-17",
+   "thu": "Thứ Năm",
+   "tru_cot": "Tự động hóa AI",
+   "giai_doan": "Liên hệ",
+   "chu_de": "5 câu hỏi chủ doanh nghiệp hay hỏi về tự động hóa bằng AI",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p28/slide-1.jpg",
+     "media/p28/slide-2.jpg",
+     "media/p28/slide-3.jpg",
+     "media/p28/slide-4.jpg",
+     "media/p28/slide-5.jpg",
+     "media/p28/slide-6.jpg",
+     "media/p28/slide-7.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "5 câu anh chị hay hỏi trước khi làm tự động hóa.\n\n1. Doanh nghiệp nhỏ có nên làm không?\nCó, nếu bắt đầu nhỏ. Chọn đúng 1 quy trình đang ngốn giờ nhất, chạy ổn rồi mới mở rộng.\n\n2. AI có thay được nhân viên không?\nChúng tôi không khuyên đặt mục tiêu thay người. AI làm phần lặp lại: chép dữ liệu, trả lời câu quen, soạn nháp báo cáo. Nhân viên giữ phần cần phán đoán và chăm khách.\n\n3. Mất bao lâu?\n– 1 quy trình: 5–7 ngày\n– 3 quy trình: khoảng 14 ngày\n– AI agent riêng: từ 30 ngày\n\n4. Có phải đổi phần mềm đang dùng?\nThường là không. Dream Labs nối vào những gì anh chị đang có: Zalo OA, Google Sheets, CRM, phần mềm bán hàng.\n\n5. Dữ liệu có an toàn không?\n– Chỉ cấp quyền vừa đủ cho từng bước\n– Lưu nhật ký mọi lần chạy\n– Tài khoản đứng tên doanh nghiệp, không đứng tên chúng tôi\n– Bàn giao sơ đồ luồng để anh chị nắm toàn bộ\n\nCòn câu thứ 6 chưa có ở đây? Bình luận bên dưới hoặc nhắn Zalo 0934 246 420, Dream Labs trả lời thẳng. Xem thêm tại dreamlabs.vn.",
+    "media": [
+     "media/p28/slide-1.jpg",
+     "media/p28/slide-2.jpg",
+     "media/p28/slide-3.jpg",
+     "media/p28/slide-4.jpg",
+     "media/p28/slide-5.jpg",
+     "media/p28/slide-6.jpg",
+     "media/p28/slide-7.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "5 câu hỏi về tự động hóa bằng AI, trả lời ngắn:\n\n1. Doanh nghiệp nhỏ có nên làm? Có, bắt đầu từ 1 quy trình.\n2. AI thay nhân viên? Không nên đặt mục tiêu đó.\n3. Mất bao lâu? 5–7 ngày cho 1 quy trình.\n4. Phải đổi phần mềm? Thường không.\n5. Dữ liệu an toàn? Quyền vừa đủ, có nhật ký, tài khoản đứng tên doanh nghiệp.\n\nVuốt để xem chi tiết. Link ở bio",
+    "hashtags": [
+     "#hoidap",
+     "#FAQ",
+     "#tudonghoa",
+     "#trolyai",
+     "#doanhnghiepnho",
+     "#baomatdulieu",
+     "#n8n",
+     "#zalooa",
+     "#AIautomation",
+     "#smallbusiness",
+     "#businessautomation"
+    ],
+    "media": [
+     "media/p28/slide-1.jpg",
+     "media/p28/slide-2.jpg",
+     "media/p28/slide-3.jpg",
+     "media/p28/slide-4.jpg",
+     "media/p28/slide-5.jpg",
+     "media/p28/slide-6.jpg",
+     "media/p28/slide-7.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "AI có thay nhân viên không? Có phải đổi phần mềm không? 5 câu chủ doanh nghiệp hay hỏi nhất.",
+    "hashtags": [
+     "#tudonghoa",
+     "#hoidap",
+     "#AIautomation",
+     "#doanhnghiepnho"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "5 câu hỏi ai cũng hỏi",
+      "voice": "Năm câu chủ doanh nghiệp hay hỏi Dream Labs, trả lời nhanh."
+     },
+     {
+      "t": "3–8s",
+      "screen": "Nhỏ có nên làm? → Có, 1 quy trình",
+      "voice": "Doanh nghiệp nhỏ có nên làm không? Có, nếu bắt đầu từ một quy trình."
+     },
+     {
+      "t": "8–14s",
+      "screen": "AI thay nhân viên? → Không nên",
+      "voice": "AI thay nhân viên không? Đừng đặt mục tiêu đó, AI chỉ gánh việc lặp lại."
+     },
+     {
+      "t": "14–20s",
+      "screen": "Bao lâu? → 5–7 ngày / 14 / 30+",
+      "voice": "Mất bao lâu? Năm đến bảy ngày cho một quy trình, khoảng hai tuần cho ba quy trình."
+     },
+     {
+      "t": "20–25s",
+      "screen": "Đổi phần mềm? → Thường không",
+      "voice": "Có phải đổi phần mềm không? Thường là không, chúng tôi nối vào cái bạn đang dùng."
+     },
+     {
+      "t": "25–31s",
+      "screen": "Dữ liệu? → Quyền vừa đủ, có nhật ký",
+      "voice": "Còn dữ liệu thì cấp quyền vừa đủ, lưu nhật ký, tài khoản đứng tên doanh nghiệp."
+     },
+     {
+      "t": "31–35s",
+      "screen": "Câu thứ 6? Bình luận nhé",
+      "voice": "Bạn còn câu nào nữa, để lại bình luận nhé."
+     }
+    ],
+    "media": [
+     "media/p28/slide-1.jpg",
+     "media/p28/slide-2.jpg",
+     "media/p28/slide-3.jpg",
+     "media/p28/slide-4.jpg",
+     "media/p28/slide-5.jpg",
+     "media/p28/slide-6.jpg",
+     "media/p28/slide-7.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "5 câu hỏi thường gặp về tự động hóa bằng AI",
+    "noi_dung": "Doanh nghiệp nhỏ nên bắt đầu từ 1 quy trình. Không nên đặt mục tiêu dùng AI thay nhân viên. Thời gian: 5–7 ngày cho 1 quy trình, khoảng 14 ngày cho 3 quy trình. Thường không phải đổi phần mềm. Dữ liệu: cấp quyền vừa đủ, lưu nhật ký, tài khoản đứng tên doanh nghiệp, bàn giao sơ đồ luồng.",
+    "nut": {
+     "nhan": "Đọc thêm",
+     "link": "https://dreamlabs.vn/blog/tu-dong-hoa-quy-trinh-doanh-nghiep-bang-ai/"
+    },
+    "anh": "media/p28/slide-1.jpg"
+   },
+   "ghi_chu": "Bản TikTok hợp để chủ studio tự quay nói trước máy, đọc từng câu hỏi."
+  },
+  {
+   "stt": 29,
+   "ngay": "2026-12-18",
+   "thu": "Thứ Sáu",
+   "tru_cot": "Ưu đãi",
+   "giai_doan": "Liên hệ",
+   "chu_de": "Ưu đãi cuối năm (ĐỀ XUẤT, CHỜ CHỦ STUDIO DUYỆT): ký trước 31/12/2026 được khảo sát quy trình miễn phí và tặng thêm 1 tháng hỗ trợ vận hành cho gói tự động hóa",
+   "loai_media": "video",
+   "gio_dang": {
+    "facebook": "20:00",
+    "instagram": "12:00",
+    "tiktok": "21:00",
+    "zalo_oa": "08:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "video": "media/p29/video.mp4",
+    "anh_bia": "media/p29/cover.jpg",
+    "ghi_chu": "9:16, 1080×1920, H.264; dùng cho TikTok, Reels Facebook/Instagram; ảnh bìa 4:5 làm thumbnail hoặc đăng kèm"
+   },
+   "facebook": {
+    "noi_dung": "Tháng 12 rồi. Việc gì năm nay ngốn giờ của bạn nhất?\n\nCuối năm ai cũng bận. Nhưng cũng là lúc hiếm hoi anh chị có cái nhìn trọn một năm: việc nào cứ lặp đi lặp lại, ai đang gánh, chỗ nào hay sót.\n\nNếu đã thấy rõ một việc như thế, đừng để nó theo bạn sang năm mới.\n\nDream Labs có ưu đãi cuối năm cho gói tự động hóa quy trình:\n\n→ Ký hợp đồng trước 31/12/2026\n→ Được khảo sát quy trình miễn phí: chúng tôi ngồi cùng anh chị, vẽ lại luồng việc hiện tại, chỉ ra chỗ nên tự động hóa trước\n→ Tặng thêm 1 tháng hỗ trợ vận hành, cộng vào thời gian hỗ trợ sẵn có của gói\n\nMục tiêu đơn giản: tháng 1 mở cửa với một quy trình đã chạy, thay vì một danh sách việc định làm.\n\nSố suất và điều kiện áp dụng sẽ được báo cụ thể khi anh chị liên hệ.\n\nMuốn giữ một suất hoặc hỏi thêm? Nhắn Zalo 0934 246 420 hoặc xem dreamlabs.vn.",
+    "media": [
+     "media/p29/video.mp4"
+    ]
+   },
+   "instagram": {
+    "caption": "Ưu đãi cuối năm cho gói tự động hóa quy trình:\n\nKý trước 31/12/2026 →\n– Khảo sát quy trình miễn phí\n– Tặng thêm 1 tháng hỗ trợ vận hành\n\nĐể tháng 1 bắt đầu với một quy trình đã chạy, không phải một danh sách việc định làm.\n\nSố suất và điều kiện được báo cụ thể khi liên hệ.\n\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#uudai",
+     "#uudaicuoinam",
+     "#tudonghoa",
+     "#tudonghoaquytrinh",
+     "#trolyai",
+     "#doanhnghiepnho",
+     "#namoi2027",
+     "#AIautomation",
+     "#yearendoffer",
+     "#businessautomation"
+    ],
+    "media": [
+     "media/p29/video.mp4"
+    ]
+   },
+   "tiktok": {
+    "caption": "Ký gói tự động hóa trước 31/12/2026: khảo sát quy trình miễn phí và thêm 1 tháng hỗ trợ vận hành.",
+    "hashtags": [
+     "#uudai",
+     "#tudonghoa",
+     "#AIautomation",
+     "#doanhnghiepnho"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Việc gì ngốn giờ nhất năm nay?",
+      "voice": "Năm nay việc gì ngốn thời gian của bạn nhiều nhất?"
+     },
+     {
+      "t": "3–8s",
+      "screen": "Showreel nhanh Dream Labs",
+      "voice": "Cuối năm là lúc tốt nhất để rà lại và chọn một việc cần tự động hóa."
+     },
+     {
+      "t": "8–13s",
+      "screen": "Ký trước 31/12/2026",
+      "voice": "Ký gói tự động hóa với Dream Labs trước ba mươi mốt tháng mười hai."
+     },
+     {
+      "t": "13–18s",
+      "screen": "Khảo sát quy trình miễn phí",
+      "voice": "Bạn được khảo sát quy trình miễn phí."
+     },
+     {
+      "t": "18–23s",
+      "screen": "+1 tháng hỗ trợ vận hành",
+      "voice": "Và tặng thêm một tháng hỗ trợ vận hành."
+     },
+     {
+      "t": "23–28s",
+      "screen": "Tháng 1: một quy trình đã chạy",
+      "voice": "Để tháng một bắt đầu với một quy trình đã chạy."
+     },
+     {
+      "t": "28–32s",
+      "screen": "Zalo 0934 246 420",
+      "voice": "Nhắn Zalo để hỏi điều kiện áp dụng nhé."
+     }
+    ],
+    "media": [
+     "media/p29/video.mp4"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Ưu đãi cuối năm cho gói tự động hóa quy trình",
+    "noi_dung": "Ký gói tự động hóa quy trình với Dream Labs trước 31/12/2026: được khảo sát quy trình miễn phí và tặng thêm 1 tháng hỗ trợ vận hành. Bắt đầu tháng 1 với một quy trình đã chạy. Số suất và điều kiện áp dụng được báo cụ thể khi liên hệ.",
+    "nut": {
+     "nhan": "Hỏi về ưu đãi",
+     "link": "https://dreamlabs.vn/#lien-he"
+    },
+    "anh": "media/p29/cover.jpg"
+   },
+   "ghi_chu": "ĐỀ XUẤT – cần chủ studio duyệt trước khi đăng. Chủ studio quyết số suất và điều kiện áp dụng (gói nào được áp dụng, có cần đặt cọc không...). Không có giảm giá nào khác ngoài khảo sát miễn phí + 1 tháng hỗ trợ. Video để không tiếng (có kênh âm thanh rỗng). Khi đăng, chọn nhạc trong thư viện nhạc thương mại của TikTok (Commercial Music Library) hoặc thư viện âm thanh Instagram/Facebook cho tài khoản doanh nghiệp."
+  },
+  {
+   "stt": 30,
+   "ngay": "2026-12-19",
+   "thu": "Thứ Bảy",
+   "tru_cot": "Kêu gọi tư vấn",
+   "giai_doan": "Liên hệ",
+   "chu_de": "Đặt lịch gọi tư vấn 30 phút: kể 1 việc đang ngốn thời gian, nhận hướng làm cụ thể",
+   "loai_media": "carousel",
+   "gio_dang": {
+    "facebook": "09:30",
+    "instagram": "10:30",
+    "tiktok": "19:30",
+    "zalo_oa": "09:00",
+    "mui_gio": "Asia/Ho_Chi_Minh (UTC+7)"
+   },
+   "media": {
+    "carousel": [
+     "media/p30/slide-1.jpg",
+     "media/p30/slide-2.jpg",
+     "media/p30/slide-3.jpg",
+     "media/p30/slide-4.jpg"
+    ],
+    "ghi_chu": "4:5, 1080×1350; Facebook/Instagram đăng album; TikTok đăng dạng ảnh trượt"
+   },
+   "facebook": {
+    "noi_dung": "Kể chúng tôi nghe một việc đang ngốn thời gian. Chỉ một việc.\n\nKhông cần chuẩn bị slide. Không cần biết n8n hay AI agent là gì.\n\nTrong 30 phút gọi tư vấn miễn phí với Dream Labs:\n\n– Anh chị kể quy trình đang làm hằng ngày, theo cách của mình.\n– Chúng tôi hỏi thêm vài câu, rồi chỉ ra phần nào nên tự động hóa trước, phần nào cứ để người làm.\n– Sau buổi gọi, anh chị nhận bản tóm tắt hướng làm và gói phù hợp, để đọc lại hoặc bàn với cộng sự.\n\nMột điều chúng tôi giữ nguyên tắc: không bán gói lớn khi anh chị chỉ cần bắt đầu nhỏ. Nếu một quy trình là đủ, chúng tôi sẽ nói là một quy trình.\n\nCũng có khi câu trả lời là chưa cần làm gì. Vậy cũng được, ít nhất anh chị biết rõ.\n\nCách đặt lịch:\n→ Nhắn Zalo 0934 246 420, ghi ngắn việc bạn muốn kể và khung giờ tiện gọi\n→ Hoặc để lại thông tin tại dreamlabs.vn\n\nChúng tôi sẽ nhắn lại để chốt giờ.",
+    "media": [
+     "media/p30/slide-1.jpg",
+     "media/p30/slide-2.jpg",
+     "media/p30/slide-3.jpg",
+     "media/p30/slide-4.jpg"
+    ]
+   },
+   "instagram": {
+    "caption": "30 phút. Một việc đang ngốn giờ của bạn.\n\nBạn kể quy trình đang làm, Dream Labs gợi ý phần nào nên tự động hóa trước. Sau buổi gọi, bạn nhận bản tóm tắt hướng làm và gói phù hợp.\n\nKhông bán gói lớn khi bạn chỉ cần bắt đầu nhỏ.\n\nĐặt lịch gọi tư vấn miễn phí:\nNhắn Zalo 0934 246 420",
+    "hashtags": [
+     "#tuvan",
+     "#tuvanmienphi",
+     "#tudonghoa",
+     "#trolyai",
+     "#doanhnghiepnho",
+     "#chudoanhnghiep",
+     "#AIautomation",
+     "#freeconsultation",
+     "#smallbusiness",
+     "#workflow"
+    ],
+    "media": [
+     "media/p30/slide-1.jpg",
+     "media/p30/slide-2.jpg",
+     "media/p30/slide-3.jpg",
+     "media/p30/slide-4.jpg"
+    ]
+   },
+   "tiktok": {
+    "caption": "Kể một việc đang ngốn thời gian, nhận hướng tự động hóa cụ thể sau 30 phút gọi. Đặt lịch qua Zalo.",
+    "hashtags": [
+     "#tuvan",
+     "#tudonghoa",
+     "#AIautomation",
+     "#doanhnghiepnho"
+    ],
+    "dang": "video",
+    "kich_ban": [
+     {
+      "t": "0–3s",
+      "screen": "Kể tôi nghe 1 việc ngốn giờ",
+      "voice": "Kể tôi nghe một việc đang ngốn thời gian của bạn mỗi ngày."
+     },
+     {
+      "t": "3–8s",
+      "screen": "30 phút gọi tư vấn",
+      "voice": "Trong ba mươi phút, bạn kể quy trình theo cách của mình."
+     },
+     {
+      "t": "8–14s",
+      "screen": "Phần nào nên tự động hóa trước",
+      "voice": "Dream Labs chỉ ra phần nào nên tự động hóa trước, phần nào cứ để người làm."
+     },
+     {
+      "t": "14–19s",
+      "screen": "Nhận tóm tắt + gói phù hợp",
+      "voice": "Sau buổi gọi, bạn nhận bản tóm tắt hướng làm và gói phù hợp."
+     },
+     {
+      "t": "19–24s",
+      "screen": "Không bán gói lớn khi chỉ cần nhỏ",
+      "voice": "Chúng tôi không bán gói lớn khi bạn chỉ cần bắt đầu nhỏ."
+     },
+     {
+      "t": "24–28s",
+      "screen": "Zalo 0934 246 420",
+      "voice": "Nhắn Zalo hoặc vào dreamlabs.vn để đặt lịch nhé."
+     }
+    ],
+    "media": [
+     "media/p30/slide-1.jpg",
+     "media/p30/slide-2.jpg",
+     "media/p30/slide-3.jpg",
+     "media/p30/slide-4.jpg"
+    ]
+   },
+   "zalo_oa": {
+    "tieu_de": "Đặt lịch gọi tư vấn 30 phút với Dream Labs",
+    "noi_dung": "Kể một quy trình đang ngốn thời gian, Dream Labs gợi ý phần nào nên tự động hóa trước. Sau buổi gọi, bạn nhận bản tóm tắt hướng làm và gói phù hợp. Không bán gói lớn khi bạn chỉ cần bắt đầu nhỏ. Đặt lịch qua Zalo 0934 246 420 hoặc dreamlabs.vn.",
+    "nut": {
+     "nhan": "Đặt lịch tư vấn",
+     "link": "https://dreamlabs.vn/#lien-he"
+    },
+    "anh": "media/p30/slide-1.jpg"
+   },
+   "ghi_chu": "Cần chủ studio xác nhận buổi gọi tư vấn 30 phút là MIỄN PHÍ trước khi đăng (bài Facebook và Instagram đang ghi 'miễn phí'). Bản TikTok hợp để chủ studio tự quay nói trước máy."
+  }
+ ]
+}
