@@ -1,0 +1,73 @@
+[
+  {
+    "ten": "Messenger echo (tin do Page gửi)",
+    "payload": {
+      "object": "page",
+      "entry": [
+        {
+          "id": "100000000000001",
+          "time": 1763452800,
+          "messaging": [
+            {
+              "sender": {
+                "id": "100000000000001"
+              },
+              "recipient": {
+                "id": "psid1"
+              },
+              "timestamp": 1763452800000,
+              "message": {
+                "mid": "m_echo_1",
+                "is_echo": true,
+                "text": "Cảm ơn bạn"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "Bình luận của chính Page",
+    "payload": {
+      "object": "page",
+      "entry": [
+        {
+          "id": "100000000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "feed",
+              "value": {
+                "from": {
+                  "id": "100000000000001",
+                  "name": "Dream Labs"
+                },
+                "item": "comment",
+                "verb": "add",
+                "post_id": "100000000000001_9001",
+                "comment_id": "9001_self",
+                "message": "Cảm ơn bạn!"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "Zalo: người dùng gửi ảnh (không phải văn bản)",
+    "payload": {
+      "app_id": "ZALO_APP_ID_GIA",
+      "event_name": "user_send_image",
+      "timestamp": "1763452800000",
+      "sender": {
+        "id": "zuser9"
+      },
+      "message": {
+        "msg_id": "zimg1",
+        "attachments": []
+      }
+    }
+  }
+]

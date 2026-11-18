@@ -1,0 +1,188 @@
+[
+  {
+    "ten": "instagram_comment — hoi_gia",
+    "nhan_mong_doi": "hoi_gia",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "comments",
+              "value": {
+                "from": {
+                  "id": "iguser1",
+                  "username": "khach_ig_1"
+                },
+                "media": {
+                  "id": "18000000000001",
+                  "media_product_type": "FEED"
+                },
+                "id": "1790000ins13",
+                "text": "Gói tự động hóa trả lời tin nhắn Zalo chi phí thế nào ad?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_comment — dat_lich_tu_van",
+    "nhan_mong_doi": "dat_lich_tu_van",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "comments",
+              "value": {
+                "from": {
+                  "id": "iguser2",
+                  "username": "khach_ig_2"
+                },
+                "media": {
+                  "id": "18000000000001",
+                  "media_product_type": "FEED"
+                },
+                "id": "1790000ins14",
+                "text": "Cho mình hẹn lịch trao đổi về website nhé"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_comment — hoi_demo",
+    "nhan_mong_doi": "hoi_demo",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "comments",
+              "value": {
+                "from": {
+                  "id": "iguser3",
+                  "username": "khach_ig_3"
+                },
+                "media": {
+                  "id": "18000000000001",
+                  "media_product_type": "FEED"
+                },
+                "id": "1790000ins15",
+                "text": "Bên bạn có portfolio không ạ"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_comment — khieu_nai",
+    "nhan_mong_doi": "khieu_nai",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "comments",
+              "value": {
+                "from": {
+                  "id": "iguser4",
+                  "username": "khach_ig_4"
+                },
+                "media": {
+                  "id": "18000000000001",
+                  "media_product_type": "FEED"
+                },
+                "id": "1790000ins16",
+                "text": "Video giao không giống mô tả, mình không hài lòng"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_comment — khac",
+    "nhan_mong_doi": "khac",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "comments",
+              "value": {
+                "from": {
+                  "id": "iguser5",
+                  "username": "khach_ig_5"
+                },
+                "media": {
+                  "id": "18000000000001",
+                  "media_product_type": "FEED"
+                },
+                "id": "1790000ins17",
+                "text": "Bên bạn làm việc thứ 7 không?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_comment — spam",
+    "nhan_mong_doi": null,
+    "spam": true,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "comments",
+              "value": {
+                "from": {
+                  "id": "iguser6",
+                  "username": "khach_ig_6"
+                },
+                "media": {
+                  "id": "18000000000001",
+                  "media_product_type": "FEED"
+                },
+                "id": "1790000ins18",
+                "text": "Nhà cái uy tín, cá độ bóng đá thưởng lớn"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

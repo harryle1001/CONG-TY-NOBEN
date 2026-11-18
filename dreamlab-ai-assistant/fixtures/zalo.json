@@ -1,0 +1,128 @@
+[
+  {
+    "ten": "zalo — hoi_gia",
+    "nhan_mong_doi": "hoi_gia",
+    "spam": false,
+    "payload": {
+      "app_id": "ZALO_APP_ID_GIA",
+      "user_id_by_app": "uba1",
+      "event_name": "user_send_text",
+      "timestamp": "1763452800000",
+      "sender": {
+        "id": "zuser1"
+      },
+      "recipient": {
+        "id": "OA_ID_GIA"
+      },
+      "message": {
+        "text": "Thiết kế bao bì hết bao nhiêu tiền ạ",
+        "msg_id": "zmsg_zal25"
+      }
+    }
+  },
+  {
+    "ten": "zalo — dat_lich_tu_van",
+    "nhan_mong_doi": "dat_lich_tu_van",
+    "spam": false,
+    "payload": {
+      "app_id": "ZALO_APP_ID_GIA",
+      "user_id_by_app": "uba2",
+      "event_name": "user_send_text",
+      "timestamp": "1763452800000",
+      "sender": {
+        "id": "zuser2"
+      },
+      "recipient": {
+        "id": "OA_ID_GIA"
+      },
+      "message": {
+        "text": "Mình cần tư vấn làm motion giới thiệu sản phẩm",
+        "msg_id": "zmsg_zal26"
+      }
+    }
+  },
+  {
+    "ten": "zalo — hoi_demo",
+    "nhan_mong_doi": "hoi_demo",
+    "spam": false,
+    "payload": {
+      "app_id": "ZALO_APP_ID_GIA",
+      "user_id_by_app": "uba3",
+      "event_name": "user_send_text",
+      "timestamp": "1763452800000",
+      "sender": {
+        "id": "zuser3"
+      },
+      "recipient": {
+        "id": "OA_ID_GIA"
+      },
+      "message": {
+        "text": "Xem thử mẫu motion logo được không?",
+        "msg_id": "zmsg_zal27"
+      }
+    }
+  },
+  {
+    "ten": "zalo — khieu_nai",
+    "nhan_mong_doi": "khieu_nai",
+    "spam": false,
+    "payload": {
+      "app_id": "ZALO_APP_ID_GIA",
+      "user_id_by_app": "uba4",
+      "event_name": "user_send_text",
+      "timestamp": "1763452800000",
+      "sender": {
+        "id": "zuser4"
+      },
+      "recipient": {
+        "id": "OA_ID_GIA"
+      },
+      "message": {
+        "text": "Chất lượng kém quá, đòi hoàn tiền",
+        "msg_id": "zmsg_zal28"
+      }
+    }
+  },
+  {
+    "ten": "zalo — khac",
+    "nhan_mong_doi": "khac",
+    "spam": false,
+    "payload": {
+      "app_id": "ZALO_APP_ID_GIA",
+      "user_id_by_app": "uba5",
+      "event_name": "user_send_text",
+      "timestamp": "1763452800000",
+      "sender": {
+        "id": "zuser5"
+      },
+      "recipient": {
+        "id": "OA_ID_GIA"
+      },
+      "message": {
+        "text": "Dream Labs có nhận làm app điện thoại không?",
+        "msg_id": "zmsg_zal29"
+      }
+    }
+  },
+  {
+    "ten": "zalo — spam",
+    "nhan_mong_doi": null,
+    "spam": true,
+    "payload": {
+      "app_id": "ZALO_APP_ID_GIA",
+      "user_id_by_app": "uba6",
+      "event_name": "user_send_text",
+      "timestamp": "1763452800000",
+      "sender": {
+        "id": "zuser6"
+      },
+      "recipient": {
+        "id": "OA_ID_GIA"
+      },
+      "message": {
+        "text": "Tăng follow giá rẻ, bán like uy tín t.me/abc",
+        "msg_id": "zmsg_zal30"
+      }
+    }
+  }
+]

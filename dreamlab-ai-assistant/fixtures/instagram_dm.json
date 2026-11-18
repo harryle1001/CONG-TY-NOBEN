@@ -1,0 +1,176 @@
+[
+  {
+    "ten": "instagram_dm — hoi_gia",
+    "nhan_mong_doi": "hoi_gia",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "messaging": [
+            {
+              "sender": {
+                "id": "igsid1"
+              },
+              "recipient": {
+                "id": "178400000000001"
+              },
+              "timestamp": 1763452800000,
+              "message": {
+                "mid": "m_ig_ins19",
+                "text": "Edit video tiktok bao nhieu 1 video vay shop"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_dm — dat_lich_tu_van",
+    "nhan_mong_doi": "dat_lich_tu_van",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "messaging": [
+            {
+              "sender": {
+                "id": "igsid2"
+              },
+              "recipient": {
+                "id": "178400000000001"
+              },
+              "timestamp": 1763452800000,
+              "message": {
+                "mid": "m_ig_ins20",
+                "text": "Muốn được tư vấn về chatbot cho shop"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_dm — hoi_demo",
+    "nhan_mong_doi": "hoi_demo",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "messaging": [
+            {
+              "sender": {
+                "id": "igsid3"
+              },
+              "recipient": {
+                "id": "178400000000001"
+              },
+              "timestamp": 1763452800000,
+              "message": {
+                "mid": "m_ig_ins21",
+                "text": "Có bản dùng thử trợ lý AI không shop?"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_dm — khieu_nai",
+    "nhan_mong_doi": "khieu_nai",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "messaging": [
+            {
+              "sender": {
+                "id": "igsid4"
+              },
+              "recipient": {
+                "id": "178400000000001"
+              },
+              "timestamp": 1763452800000,
+              "message": {
+                "mid": "m_ig_ins22",
+                "text": "Tôi muốn khiếu nại về dịch vụ"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_dm — khac",
+    "nhan_mong_doi": "khac",
+    "spam": false,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "messaging": [
+            {
+              "sender": {
+                "id": "igsid5"
+              },
+              "recipient": {
+                "id": "178400000000001"
+              },
+              "timestamp": 1763452800000,
+              "message": {
+                "mid": "m_ig_ins23",
+                "text": "Hay quá"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "instagram_dm — spam",
+    "nhan_mong_doi": null,
+    "spam": true,
+    "payload": {
+      "object": "instagram",
+      "entry": [
+        {
+          "id": "178400000000001",
+          "time": 1763452800,
+          "messaging": [
+            {
+              "sender": {
+                "id": "igsid6"
+              },
+              "recipient": {
+                "id": "178400000000001"
+              },
+              "timestamp": 1763452800000,
+              "message": {
+                "mid": "m_ig_ins24",
+                "text": "Kiếm tiền online 500k/ngày inbox mình để nhận ngay https://lua-dao.example/x"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

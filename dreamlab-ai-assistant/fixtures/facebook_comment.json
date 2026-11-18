@@ -1,0 +1,194 @@
+[
+  {
+    "ten": "facebook_comment — hoi_gia",
+    "nhan_mong_doi": "hoi_gia",
+    "spam": false,
+    "payload": {
+      "object": "page",
+      "entry": [
+        {
+          "id": "100000000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "feed",
+              "value": {
+                "from": {
+                  "id": "fbuser1",
+                  "name": "Khách FB 1"
+                },
+                "item": "comment",
+                "verb": "add",
+                "post_id": "100000000000001_9001",
+                "comment_id": "9001_fac1",
+                "parent_id": "100000000000001_9001",
+                "message": "Làm website bán hàng bên mình giá bao nhiêu vậy ạ?",
+                "created_time": 1763452800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "facebook_comment — dat_lich_tu_van",
+    "nhan_mong_doi": "dat_lich_tu_van",
+    "spam": false,
+    "payload": {
+      "object": "page",
+      "entry": [
+        {
+          "id": "100000000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "feed",
+              "value": {
+                "from": {
+                  "id": "fbuser2",
+                  "name": "Khách FB 2"
+                },
+                "item": "comment",
+                "verb": "add",
+                "post_id": "100000000000001_9001",
+                "comment_id": "9001_fac2",
+                "parent_id": "100000000000001_9001",
+                "message": "Mình muốn đặt lịch tư vấn tự động hóa cho công ty, chiều mai được không?",
+                "created_time": 1763452800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "facebook_comment — hoi_demo",
+    "nhan_mong_doi": "hoi_demo",
+    "spam": false,
+    "payload": {
+      "object": "page",
+      "entry": [
+        {
+          "id": "100000000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "feed",
+              "value": {
+                "from": {
+                  "id": "fbuser3",
+                  "name": "Khách FB 3"
+                },
+                "item": "comment",
+                "verb": "add",
+                "post_id": "100000000000001_9001",
+                "comment_id": "9001_fac3",
+                "parent_id": "100000000000001_9001",
+                "message": "Có demo chatbot nào cho xem thử không?",
+                "created_time": 1763452800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "facebook_comment — khieu_nai",
+    "nhan_mong_doi": "khieu_nai",
+    "spam": false,
+    "payload": {
+      "object": "page",
+      "entry": [
+        {
+          "id": "100000000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "feed",
+              "value": {
+                "from": {
+                  "id": "fbuser4",
+                  "name": "Khách FB 4"
+                },
+                "item": "comment",
+                "verb": "add",
+                "post_id": "100000000000001_9001",
+                "comment_id": "9001_fac4",
+                "parent_id": "100000000000001_9001",
+                "message": "Mình nhắn mấy hôm rồi không ai trả lời, thất vọng quá",
+                "created_time": 1763452800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "facebook_comment — khac",
+    "nhan_mong_doi": "khac",
+    "spam": false,
+    "payload": {
+      "object": "page",
+      "entry": [
+        {
+          "id": "100000000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "feed",
+              "value": {
+                "from": {
+                  "id": "fbuser5",
+                  "name": "Khách FB 5"
+                },
+                "item": "comment",
+                "verb": "add",
+                "post_id": "100000000000001_9001",
+                "comment_id": "9001_fac5",
+                "parent_id": "100000000000001_9001",
+                "message": "Studio mình ở quận mấy vậy?",
+                "created_time": 1763452800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "ten": "facebook_comment — spam",
+    "nhan_mong_doi": null,
+    "spam": true,
+    "payload": {
+      "object": "page",
+      "entry": [
+        {
+          "id": "100000000000001",
+          "time": 1763452800,
+          "changes": [
+            {
+              "field": "feed",
+              "value": {
+                "from": {
+                  "id": "fbuser6",
+                  "name": "Khách FB 6"
+                },
+                "item": "comment",
+                "verb": "add",
+                "post_id": "100000000000001_9001",
+                "comment_id": "9001_fac6",
+                "parent_id": "100000000000001_9001",
+                "message": "Kiếm tiền online 500k/ngày inbox mình để nhận ngay https://lua-dao.example/x",
+                "created_time": 1763452800
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+]

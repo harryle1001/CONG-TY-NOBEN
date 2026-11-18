@@ -1,0 +1,16 @@
+{
+  "name": "dreamlab-ai-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Trợ lý AI của Dream Labs: trả lời bình luận/tin nhắn Facebook, Instagram, Zalo OA; ghi khách tiềm năng; mặc định chế độ nháp.",
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "node src/server.js",
+    "chay-thu": "node scripts/chay-thu.js",
+    "test": "node --test \"test/*.test.js\""
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "1.4.0"
+  }
+}
