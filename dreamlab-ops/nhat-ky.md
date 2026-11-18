@@ -46,3 +46,5 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Chủ studio tự làm: Google Search Console, Google Business Profile, tài khoản Google Ads + Meta Ads, thanh toán; nối TikTok/Page Dream Labs/X (chưa xong).
 - Đã dùng 2/2 phiên mới hôm nay.
 - Mạng xã hội cập nhật: X @dreamlabsvn (2123013416453586944) kết nối, đăng được. Chủ studio quyết dùng TikTok KAKASHI (_000wEA6UHqpUV68h6jKDjjO2YGxcrDnyZvq) làm kênh Dream Labs, sẽ đổi tên. Facebook Page Dream Labs vẫn chưa vào (chỉ có Page Noben, không dùng).
+- Chủ studio DUYỆT 4 mục bộ nội dung 30 ngày (18/11): (1) bài 29 ưu đãi cuối năm giữ nguyên; (2) tư vấn 30 phút miễn phí: đúng; (3) nhạc nền chọn khi duyệt từng bài; (4) Zalo OA ưu tiên bài 2, 8, 13, 23, 26, 29, 30 nếu thiếu lượt. Đây là duyệt nội dung, KHÔNG phải duyệt đăng: mỗi bài vẫn cần duyệt riêng trước khi đăng.
+- Facebook: vidIQ vẫn chỉ nhận Page Noben; Page Dream Labs đăng tay qua Meta Business Suite nếu vẫn không vào.
