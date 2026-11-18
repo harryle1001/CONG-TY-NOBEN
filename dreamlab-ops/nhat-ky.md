@@ -15,7 +15,7 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 | Demo | 16 demo website/landing (Ombrève, Lavrène, Halvesse, Ysmarène, Orvanthe, Élorne, Vauquelle, Séraval, Vọng Giang, Đồi Lặng, Ondinea…) | |
 | Bản sao mã nguồn + BRIEF.md | repo này `dreamlab/` | nội bộ |
 | Lịch nội dung 30 ngày | repo này `dreamlab-social/` (từ 2026-11-20) | CHƯA có trên nhánh, phiên con đang làm |
-| Mạng xã hội (qua vidIQ) | TikTok "KAKASHI" và Instagram "har.ryy": kết nối, đăng được | Facebook Page, Zalo OA chưa kết nối qua công cụ |
+| Mạng xã hội (qua vidIQ, cập nhật 18/11 tối) | Instagram dreamlabs.vn: đăng được (đổi tên từ har.ryy). TikTok vẫn hiện "KAKASHI". Facebook chỉ có Page "THUỐC THỦY SẢN NOBEN" (KHÔNG dùng cho Dream Labs) | Chưa thấy Page Dream Labs, X. Threads, Zalo OA đăng tay (không có công cụ) |
 
 ## Phiên con đang có (Dream Labs)
 
