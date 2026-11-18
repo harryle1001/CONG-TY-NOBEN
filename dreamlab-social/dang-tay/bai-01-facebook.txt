@@ -1,0 +1,46 @@
+Chuẩn hóa doanh nghiệp: bắt đầu từ mảng nào trước?
+
+Đây là câu hỏi rất hay gặp ở doanh nghiệp nhỏ. Mọi thứ vẫn "chạy được", nhưng chạy nhờ trí nhớ của vài người. Một người nghỉ phép là đơn chậm, báo cáo trễ, tin nhắn khách không ai trả lời.
+
+Chuẩn hóa không bắt đầu bằng việc mua phần mềm. Nó bắt đầu bằng một tấm bản đồ: doanh nghiệp đang có những mảng nào, mảng nào đã ổn, mảng nào đang tốn sức nhất. Bài này hướng dẫn anh chị tự vẽ tấm bản đồ đó trong khoảng 30 phút, chỉ cần một bảng tính hoặc một tờ giấy A4.
+
+▸ 6 MẢNG CẦN NHÌN
+1. Bán hàng: từ lúc có khách mới đến lúc chốt đơn.
+2. Chăm sóc khách: trả lời tin nhắn, hỗ trợ sau bán, xử lý khiếu nại.
+3. Báo cáo: số liệu ngày, tuần, tháng; ai đọc và đọc để quyết định gì.
+4. Sổ sách: thu chi, hóa đơn, công nợ, đối chiếu cuối kỳ.
+5. Kế hoạch: mục tiêu tháng, quý; phân việc; theo dõi tiến độ.
+6. Nhận diện & website: logo, bao bì, website, trang mạng xã hội có thống nhất và còn đúng thông tin không.
+
+▸ 6 BƯỚC TỰ CHẤM ĐIỂM TRONG 30 PHÚT
+1. Vẽ bản đồ (5 phút). Kẻ một bảng 6 dòng ứng với 6 mảng. Mỗi dòng ghi ai đang phụ trách và đang làm bằng công cụ gì: sổ tay, bảng tính, nhóm chat nội bộ hay phần mềm.
+2. Chấm điểm 0–3 cho từng mảng (10 phút). 0 = chưa có gì. 1 = mỗi người làm theo thói quen riêng. 2 = có quy trình viết ra nhưng vẫn làm tay. 3 = có quy trình, có số đo, chạy đều kể cả khi người phụ trách vắng.
+3. Kiểm tra lại bằng 3 câu hỏi (5 phút). Với mỗi mảng hỏi: người khác làm thay được không? Có tài liệu viết ra không? Có con số theo dõi mỗi tuần không? Mỗi câu "không" thì hạ 1 điểm so với điểm anh chị vừa tự chấm.
+4. Ước giờ làm tay mỗi tuần (5 phút). Ghi việc lặp lại lớn nhất của từng mảng và số giờ nó chiếm. Công thức: phút mỗi ngày × số ngày làm ÷ 60. Ví dụ: trả lời tin nhắn hỏi giá 60 phút/ngày × 6 ngày ÷ 60 = 6 giờ/tuần.
+5. Chọn đúng 1 mảng ưu tiên (3 phút). Lấy mảng điểm thấp mà tốn nhiều giờ nhất. Chỉ một mảng cho 30 ngày tới, các mảng còn lại đưa vào danh sách chờ.
+6. Hẹn ngày chấm lại (2 phút). Đặt lịch sau 30 ngày, chấm lại bằng đúng bảng này. Điểm tăng là tiến thật, không tăng thì xem lại cách làm.
+
+▸ MẪU BẢNG CHÉP DÙNG NGAY
+Mảng | Người phụ trách | Đang làm bằng gì | Điểm 0–3 | Giờ làm tay/tuần | Ghi chú
+Bán hàng | ___ | ___ | ___ | ___ | ___
+Chăm sóc khách | ___ | ___ | ___ | ___ | ___
+Báo cáo | ___ | ___ | ___ | ___ | ___
+Sổ sách | ___ | ___ | ___ | ___ | ___
+Kế hoạch | ___ | ___ | ___ | ___ | ___
+Nhận diện & website | ___ | ___ | ___ | ___ | ___
+
+Dòng cuối ghi: Mảng ưu tiên: ___ · Người chịu trách nhiệm: ___ · Ngày chấm lại: ___
+
+▸ 3 LỖI HAY GẶP
+• Muốn chuẩn hóa cả 6 mảng cùng lúc. Sau một tháng, mảng nào cũng dở dang.
+• Chủ doanh nghiệp tự chấm theo cảm giác, không hỏi người trực tiếp làm việc đó hằng ngày.
+• Mua phần mềm trước khi biết quy trình đang chạy thế nào, rồi phần mềm thành thêm một nơi phải nhập liệu.
+
+▸ VÌ SAO ĐI THEO THỨ TỰ NÀY
+Khi đã có bản đồ, anh chị sẽ thấy rõ việc nào cần viết lại quy trình, việc nào giao cho máy làm được, và việc nào chỉ cần sửa giao diện như website hay bao bì. Các bài tiếp theo trong chuỗi "Chuẩn hóa doanh nghiệp" sẽ đi sâu từng mảng một, mỗi bài kèm mẫu chép dùng ngay.
+
+▸ VIDEO MỞ ĐẦU CHUỖI
+Video đi kèm lướt qua các mẫu concept do Dream Labs thiết kế, ứng với từng mảng trong bản đồ: demo AI mô phỏng cho bán hàng, chăm sóc khách và báo cáo (số liệu minh họa); website Ombrève; bao bì Khuê Lam xoay 360; phim motion Talvère; video Lam Kỳ. Các thương hiệu trong video là mẫu concept, không phải khách hàng.
+
+▸ NẾU MUỐN CÓ NGƯỜI CÙNG NHÌN
+Chấm xong mà vẫn phân vân nên bắt đầu từ mảng nào, anh chị gửi bảng điểm qua Zalo 0934 246 420. Dream Labs có buổi tư vấn 30 phút miễn phí để cùng anh chị chọn mảng đầu tiên, không bắt buộc dùng dịch vụ. Xem thêm tại dreamlabs.vn.
