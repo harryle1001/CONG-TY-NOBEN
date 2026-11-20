@@ -93,6 +93,11 @@ def fill_rows(tbl, start, data, proto_idx=None):
     while len(rows(tbl)) < need:
         rs = rows(tbl); rs[-1].addnext(copy.deepcopy(proto))
     rs = rows(tbl)
+    for i in range(1, len(data)):  # các hàng dữ liệu sau hàng đầu: cùng định dạng hàng mẫu
+        r = rs[start + i]
+        if r is not proto:
+            nr = copy.deepcopy(proto); r.addprevious(nr); tbl.remove(r)
+    rs = rows(tbl)
     for i, vals in enumerate(data):
         cs = cells(rs[start + i])
         for j, c in enumerate(cs):
@@ -241,7 +246,7 @@ def bieu_mau(src_dir):
                     ["", "", "Túi PE 500g", "Cao: 270mm ngang: 170mm", "20 cái", "Đ"], ["", "", "Túi 3kg (dùng túi 5kg)", "Cao: 390mm ngang: 310mm", "70 cái", "Đ"],
                     ["", "", "Chai BVT2 – 1 lít", "Cao: 238mm Đ/K: 86mm", "100 bộ", "Đ"], ["", "", "Chai TT-01 – 1 lít", "Cao: 227mm Đ/K: 98mm", "15 bộ", "Đ"],
                     ["", "", "Chai 250ml", "Cao: 150mm Đ/K: 60mm", "15 bộ", "Đ"], ["", "", "Túi 100g (lưu mẫu)", "Cao: 150mm ngang: 100mm", "3 cái", "Đ"],
-                    ["", "", "Chai 100ml (lưu mẫu)", "Cao: 110mm Đ/K: 45mm", "3 cái", "Đ"], ["", "", "Thùng chứa (carton)", "Dài 400mm rộng 300mm cao 260mm", "17 cái", "Đ"]]
+                    ["", "", "Chai 100ml (lưu mẫu)", "Cao: 110mm Đ/K: 45mm", "3 cái", "Đ"], ["", "", "Thùng chứa (carton)", "D400 × R300 × C260 mm", "17 cái", "Đ"]]
             for i, r in enumerate(data): r[0] = str(i + 1)
             fill_rows(tb[1], 1, data, proto_idx=2)
         if f.startswith("5."):  # nhập kho, xuất kho theo bảng kê HĐ tháng 10, lưu kho

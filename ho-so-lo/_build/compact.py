@@ -40,16 +40,19 @@ def compact_docx(path):
                 pPr = p.find(qn('w:pPr'))
                 if pPr is None: pPr = OxmlElement('w:pPr'); p.insert(0, pPr)
                 pPr.insert(0, OxmlElement('w:keepNext'))
-    # đoạn trống liên tiếp ở thân văn bản: giữ tối đa 2
-    run = 0
+    # đoạn trống liên tiếp: sau dòng "Người thực hiện/phụ trách…" giữ 2 (chỗ ký), chỗ khác giữ 1
+    run, limit = 0, 1
     for el in list(body):
         if el.tag == qn('w:p'):
             blank = not txt(el) and el.find('.//' + qn('w:drawing')) is None and el.find('.//' + qn('w:pict')) is None \
                     and el.find('.//' + qn('w:sectPr')) is None
             if blank and 'w:type="page"' not in el.xml:
                 run += 1
-                if run > 2: body.remove(el)
+                if run > limit: body.remove(el)
                 continue
+            limit = 2 if txt(el).lower().startswith(("người", "ký xác nhận", "bên nhận")) else 1
+        else:
+            limit = 1
         run = 0
     d.save(path)
 
