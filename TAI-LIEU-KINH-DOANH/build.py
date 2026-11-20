@@ -35,7 +35,7 @@ TIM_DATA = json.loads((TIM / 'nhan/san-pham.json').read_text())
 # ---------- khớp giá ----------
 ALIAS = {'PROTICBEST': ['PROBITICBEST'], 'MIRALN8': ['MRIRALN08'], 'BETA13': ['BETA1316GLUCAN'],
          'HEPATIC': ['HEPATICSHRIMP'], 'HUFA': ['HUFASHRIMP'], 'NBSORBITOLB12': ['NBSORBITOLB12SHRIMP'],
-         'G7': ['G7THAODUOC'], 'BENXID3000': ['BENXID3000']}
+         'G7': ['G7THAODUOC'], 'BENXID3000': ['BENXID3000'], 'BENBKC': ['BENBKC80']}
 UU_TIEN = ['A', 'T', 'B']   # Bảng giá Noben 2026 > Bảng giá tôm 02-03 > Báo giá (B)
 IDX = {}
 for b in GIA['bang']:
@@ -316,6 +316,14 @@ Giá in trong catalogue theo bảng giá hiệu lực từ {NGAY}. Liên hệ đ
 # =====================================================================
 # 3. CATALOGUE THỦY SẢN TÍM
 # =====================================================================
+def tim_pb(ten, hotline):
+    """Giá Tím = giá trong bảng giá Noben của sản phẩm cùng tên."""
+    _, sps = tim_gia(ten)
+    if not sps:
+        return f'<div class="ask"><span>Giá bán</span><b>Liên hệ báo giá · {e(hotline)}</b></div>'
+    li = ''.join(f'<li><span>{e(qc)} · {e(dt)}</span><b class="num">{money(v)}đ</b></li>' for sp in sps for qc, dt, v in sp['v'])
+    return f'<div class="pz"><span>Giá bán</span><ul>{li}</ul></div>'
+
 def build_tim():
     css = BASE_CSS + """
 :root{--desk:#ece8f3;--paper:#fdfcff;--ink:#160d2a;--muted:#635a78;--line:#e2dcec;--violet:#5b3aa6;--plum:#2a1650;--gold:#d9b977;--gold-d:#8a6a2e;--accent:#5b3aa6;
@@ -349,6 +357,10 @@ def build_tim():
 .meta dt{font-weight:600;color:var(--ink)}.meta dd{margin:0}
 .ask{margin-top:auto;display:flex;justify-content:space-between;align-items:center;gap:var(--s2);border-top:1px dashed var(--line);padding-top:var(--s2);font-size:13px}
 .ask b{color:var(--violet)}
+.pz{margin-top:auto;border-top:1px dashed var(--line);padding-top:var(--s2);font-size:13px}
+.pz>span{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-d);font-weight:600}
+.pz ul{list-style:none;margin:0;padding:0}.pz li{display:flex;justify-content:space-between;gap:var(--s2)}
+.pz li span{color:var(--muted)}.pz li b{color:var(--violet);white-space:nowrap}
 @media (max-width:640px){.cover{grid-template-columns:1fr}.cover h1{font-size:var(--t3)}.cover .l{padding:var(--s5) var(--s4)}}
 @media print{
  .cover{min-height:0}.cover .l{padding:22mm 16mm}
@@ -356,7 +368,7 @@ def build_tim():
  .grid{grid-template-columns:1fr;grid-template-rows:repeat(3,1fr);height:250mm;gap:4mm}
  .card{gap:5mm;padding-bottom:4mm;overflow:hidden}.card .ph{aspect-ratio:auto;height:100%}
  .card h3{font-size:20px}.card .sub{font-size:10px}.blk ul{font-size:8.8px;line-height:1.38}.blk b{font-size:7.5px}
- .meta,.ask{font-size:8.5px}.chips span{font-size:7.5px}
+ .meta,.ask,.pz{font-size:8.5px}.pz>span{font-size:7.5px}.chips span{font-size:7.5px}
  .cols{display:grid;grid-template-columns:61.8fr 38.2fr;gap:4mm}
 }
 .cols{display:grid;gap:var(--s2)}
@@ -379,7 +391,7 @@ def build_tim():
             cd = s.get('cong_dung', [])[:3]
             tp = [t for t in s.get('thanh_phan', [])][:4]
             hd = s.get('huong_dan', [])[:2]
-            rows.append(('Thủy Sản Tím', name, s['ten'], s.get('phu_de', ''), '; '.join(s.get('cong_dung', [])), s.get('ma_so', ''), s.get('tccs', ''), '', s.get('quy_cach', '')))
+            rows.append(('Thủy Sản Tím', name, s['ten'], s.get('phu_de', ''), '; '.join(s.get('cong_dung', [])), s.get('ma_so', ''), s.get('tccs', ''), tim_gia(s['ten'])[0] or '', (s.get('quy_cach', ''), tim_gia(s['ten'])[1])))
             cards.append(f"""<article class="card" style="--c:{e(s.get('mau','#5b3aa6'))}" data-k="{key(s['ten'], s.get('phu_de',''), ' '.join(s.get('cong_dung',[])), ' '.join(s.get('nhan_phu',[])))}">
 <div class="ph">{f'<img src="{img}" alt="{e(s["ten"])}" loading="lazy">' if img else ''}<i></i></div>
 <div class="tx"><h3>{e(s['ten'])}</h3><div class="sub">{e(s.get('phu_de',''))}</div>
@@ -387,7 +399,7 @@ def build_tim():
 <div class="cols"><div class="blk"><b>Công dụng</b><ul>{''.join(f'<li>{e(x)}</li>' for x in cd)}</ul></div>
 <div class="blk"><b>Thành phần</b><ul>{''.join(f'<li>{e(x)}</li>' for x in tp)}</ul></div></div>
 <dl class="meta">{f'<dt>Quy cách</dt><dd>{e(s["quy_cach"])}</dd>' if s.get('quy_cach') else ''}<dt>Mã số</dt><dd>{e(s.get('ma_so') or 'Đang cập nhật')}</dd><dt>TCCS</dt><dd>{e(s.get('tccs',''))}</dd></dl>
-<div class="ask"><span>Giá bán</span><b>Liên hệ báo giá · {e(pp['hotline'])}</b></div></div></article>""")
+{tim_pb(s['ten'], pp['hotline'])}</div></article>""")
         for i in range(0, len(cards), 3):
             head = f'<div class="sec-h"><h2>{e(name)}</h2><small>{len(items)} sản phẩm</small></div>'
             pages.append(f'<section class="page" data-sec>{head}<div class="grid">{"".join(cards[i:i+3])}</div>'
@@ -470,7 +482,9 @@ def build_excel(noben_rows, tim_rows):
                 gia = '; '.join(f"{qc} ({dt}): {money(v)}" for s in extra for qc, dt, v in s['v']) or 'Liên hệ báo giá'
                 ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, {'A': 'Noben 2026', 'T': 'Tôm 02-03', 'B': 'Báo giá (B)'}.get(bid, ''), gia])
             else:
-                ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, extra, 'Liên hệ báo giá'])
+                qcs, sps = extra
+                gia = '; '.join(f"{qc} ({dt}): {money(v)}" for sp in sps for qc, dt, v in sp['v']) or 'Liên hệ báo giá'
+                ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, qcs, gia])
             for col in range(1, len(cols) + 1):
                 ws.cell(i + 1, col).alignment = Alignment(vertical='top', wrap_text=True); ws.cell(i + 1, col).border = B
         widths(ws, [5, 14, 26, 24, 40, 70, 12, 16, 14, 46]); ws.freeze_panes = 'A2'; ws.auto_filter.ref = f'A1:{get_column_letter(len(cols))}{len(rows)+1}'
