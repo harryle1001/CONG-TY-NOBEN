@@ -8,6 +8,7 @@ from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 
 PHI = 1.61803
+MAU_GOC = os.environ.get("MAU_GOC") == "1"  # giữ giao diện mẫu tham khảo (bề rộng bảng gốc, tem 3 cột)
 REF, OUT = sys.argv[1], sys.argv[2]
 NGAY, NGAY_HSD, DDMMYY = "21/09/2026", "21/09/2028", "210926"
 
@@ -162,11 +163,11 @@ def lenh_sx():
                                (f'Quy cách đóng gói: {s["qc"]}', f'Số lượng: {s["sl"]}'),
                                (luu_cell, f'Số lượng: {s["luu"][1]}')], r):
             c = cells(tr); set_cell(c[0], a); set_cell(c[1], b)
-        full_width(t1, tw, [PHI, 1])
+        if not MAU_GOC: full_width(t1, tw, [PHI, 1])
         data = [[str(i + 1), n, h, q] for i, (n, h, q) in enumerate(s["nl"])]
         fill_rows(t2, 1, data, proto_idx=1)
         for tr in rows(t2)[1 + len(data):]: t2.remove(tr)
-        full_width(t2, tw, [1, PHI ** 3, PHI ** 2, PHI ** 2])
+        if not MAU_GOC: full_width(t2, tw, [1, PHI ** 3, PHI ** 2, PHI ** 2])
         for e in nb: sect.addprevious(e)
     d.save(os.path.join(OUT, "2-Lenh-san-xuat", f"LỆNH SẢN XUẤT {NGAY.replace('/', '.')}.docx"))
 
@@ -216,6 +217,51 @@ def dan_mau_luu():
         c.paragraphs[0].paragraph_format.space_before = Pt(6)
         c.paragraphs[-1].paragraph_format.space_after = Pt(6)
     full_width(t._tbl, text_width(d), [1, 1])
+    d.save(os.path.join(OUT, "4-Dan-mau-luu", f"DÁN MẪU LƯU {NGAY.replace('/', '.')}.docx"))
+
+def dan_mau_luu_goc():
+    """Tem như mẫu tham khảo: ô viền 64,6 × 34,8 mm, 3 tem/hàng, cách nhau 2,2 mm (dùng bảng, không khung nổi)."""
+    from docx.shared import Emu
+    d = docx.Document()
+    sec = d.sections[0]; sec.page_width, sec.page_height = Mm(210), Mm(297)
+    sec.left_margin = sec.right_margin = Mm(5.9); sec.top_margin = sec.bottom_margin = Mm(12)
+    st = d.styles["Normal"]; st.font.name = "Times New Roman"; st.font.size = Pt(12)
+    st.element.rPr.rFonts.set(qn('w:eastAsia'), "Times New Roman")
+    d.paragraphs[0]._p.getparent().remove(d.paragraphs[0]._p) if d.paragraphs else None
+    BOX, GAP, H = Mm(64.6), Mm(2.2), Mm(34.8)
+    nrow = (len(SP) + 2) // 3
+    t = d.add_table(rows=nrow * 2 - 1, cols=5)
+    tw = [BOX, GAP, BOX, GAP, BOX]
+    tbl = t._tbl; tblPr = tbl.tblPr
+    lay = OxmlElement('w:tblLayout'); lay.set(qn('w:type'), 'fixed'); tblPr.append(lay)
+    mar = OxmlElement('w:tblCellMar')
+    for side in ('left', 'right'):
+        e = OxmlElement(f'w:{side}'); e.set(qn('w:w'), '57'); e.set(qn('w:type'), 'dxa'); mar.append(e)
+    tblPr.append(mar)
+    for j, w in enumerate(tw):
+        for c in t.columns[j].cells: c.width = w
+    for g, w in zip(tbl.tblGrid.findall(qn('w:gridCol')), tw): g.set(qn('w:w'), str(int(w / 635)))
+    tW = tblPr.find(qn('w:tblW'))
+    if tW is not None: tW.set(qn('w:w'), str(int(sum(tw) / 635))); tW.set(qn('w:type'), 'dxa')
+    def vien(cell):
+        pr = cell._tc.get_or_add_tcPr(); b = OxmlElement('w:tcBorders')
+        for side in ('top', 'left', 'bottom', 'right'):
+            e = OxmlElement(f'w:{side}'); e.set(qn('w:val'), 'single'); e.set(qn('w:sz'), '6'); e.set(qn('w:color'), '000000'); b.append(e)
+        pr.append(b)
+    def cao(row, h):
+        trPr = row._tr.get_or_add_trPr(); e = OxmlElement('w:trHeight'); e.set(qn('w:val'), str(int(h / 635))); e.set(qn('w:hRule'), 'atLeast' if h > Mm(5) else 'exact'); trPr.append(e)
+    for ri, row in enumerate(t.rows): cao(row, H if ri % 2 == 0 else GAP)
+    for i, s in enumerate(SP):
+        c = t.cell((i // 3) * 2, (i % 3) * 2); vien(c)
+        lines = [(f'TÊN MẪU LƯU: {s["ten"]}', True, 10), (f'SỐ LÔ: {s["lo"]}', False, 11), (f'NSX: {NGAY}', False, 11),
+                 (f'HSD: {NGAY_HSD}', False, 11), (f'K.LƯỢNG MẪU LƯU: {s["kl_luu"]}', False, 11),
+                 ("Lưu ý: Lưu trên cùng chất liệu bao bì", False, 9)]
+        for j, (txt, b, sz) in enumerate(lines):
+            p = c.paragraphs[0] if j == 0 else c.add_paragraph()
+            pf = p.paragraph_format; pf.space_after = Pt(0); pf.space_before = Pt(0); pf.line_spacing = 1.0
+            if j == 0: p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            rr = p.add_run(txt); rr.bold = b; rr.font.size = Pt(sz)
+            if j == 5: rr.italic = True
     d.save(os.path.join(OUT, "4-Dan-mau-luu", f"DÁN MẪU LƯU {NGAY.replace('/', '.')}.docx"))
 
 # ---------- 4. 12 biểu mẫu ----------
@@ -295,6 +341,6 @@ def bieu_mau(src_dir):
 if __name__ == "__main__":
     for sub in ["2-Lenh-san-xuat", "3-Phieu-QD7", "4-Dan-mau-luu", "5-Bieu-mau-12-quy-dinh"]:
         os.makedirs(os.path.join(OUT, sub), exist_ok=True)
-    lenh_sx(); qd7(os.path.join(REF, "1. Phiếu QD7 - lưu mẫu 04.09.2026.xlsx")); dan_mau_luu()
+    lenh_sx(); qd7(os.path.join(REF, "1. Phiếu QD7 - lưu mẫu 04.09.2026.xlsx")); (dan_mau_luu_goc if MAU_GOC else dan_mau_luu)()
     bieu_mau(os.path.join(REF, "bieu-mau"))
     print("xong")
