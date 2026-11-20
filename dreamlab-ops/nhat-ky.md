@@ -63,3 +63,11 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Nháp chờ duyệt: bài 3 (SOP 1 trang) postId 0b1d656a-9fd0-4021-beec-fb08488283dc, IG 12:00 + X 12:30 ngày 20/11, clip quảng cáo 9:16 (kho/7-video-quang-cao). TikTok chờ chủ studio chọn quyền xem/bình luận/nhạc. IG dùng video thay carousel vì mạng chặn mcp.vidiq.com (tải ảnh).
 - Chờ chủ studio: duyệt bài 3; Page FB Dream Labs (vidIQ vẫn chỉ nhận Page Noben); Search Console/GA4/Ads; bật trợ lý AI theo README; cho phép mạng mcp.vidiq.com nếu muốn carousel.
 - Chủ studio duyệt "làm hết" (19/11): bài 3 đã HẸN GIỜ trên vidIQ: IG 20/11 12:00, X 12:30 (5 credit), TikTok 21:00 (công khai, cho bình luận, đồng ý nhạc). Mạng môi trường NOBEN đã thêm mcp.vidiq.com + dreamlabs.vn (chủ studio duyệt) → từ nay tải được carousel và tự kiểm tra web. Web live: 7 trang chính trả 200.
+
+## 2026-11-20 (sáng, 07:40 VN)
+- Hôm qua xong: phiên kiểm tra web (session_012QLWn87G9fWbexz44T7dEf) sửa bản đóng gói thiếu /en/, /ja/, track.js; còn chờ mã GA4/GTM. Phiên khác (không do điều phối giao) thêm ~32 bài blog hỏi-đáp, 15 demo concept mới (trang sức, xe sang, nước hoa), trang /thiet-ke-website/xe-sang/, nhạc nền video, hero mới.
+- Web live: 9 trang chính 200, sitemap 139 URL, không lộ φ/tỷ lệ vàng ở trang chủ, blog, xe-sang; không dấu xung đột.
+- Mạng xã hội: bài 3 hẹn hôm nay IG 12:00, X 12:30, TikTok 21:00. 0 bình luận ở IG bài thử + bài 1 (10 credit đọc).
+- Nháp chờ duyệt: bài 4 "Trang chủ 7 khối" postId f457e83a-bafa-4cfb-911c-8ff93c219043: IG carousel 11 ảnh 21/11 10:30; X 10:00 (5 credit); TikTok 19:30 chờ chọn quyền xem/bình luận/nhạc.
+- Giao việc: không giao phiên mới (web đang có nhiều phiên khác làm; tránh trùng, tiết kiệm hạn mức).
+- Chờ chủ studio: duyệt bài 4 + lựa chọn TikTok; mã Search Console/GA4/Ads; Page FB Dream Labs.
