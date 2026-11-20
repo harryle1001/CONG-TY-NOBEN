@@ -277,7 +277,7 @@ def bieu_mau(src_dir):
             extra = [("MIRAL N.8; PREMIX KHOÁNG NEW, SUPER CAL; EDTA 99; BZT; PRAWNZYME", "; ".join(s["ten"] for s in bot)),
                      ("AMINOVIT; CANCI MILK; F.X ORGANIC; F.X ENZYME; LIVER-MAX; NO TOXIN; BEN MKC 4000", "; ".join(s["ten"] for s in nuoc))]
         if f.startswith("12."):  # tiêu đề cột theo bản anh chủ đã sửa
-            extra = [("TRẠNG THÁI( RẮN/ ƯỚT)", "TRẠNG THÁI  (RẮN/ ƯỚT)"), ("Trạng thái( Rắn/lỏng)", "Trạng thái  (Rắn/lỏng)"),
+            extra = [("2. BIỂU MẪU THU GOM RÁC NGUY HẠI", "BIỂU MẪU THU GOM RÁC NGUY HẠI"), ("TRẠNG THÁI( RẮN/ ƯỚT)", "TRẠNG THÁI  (RẮN/ ƯỚT)"), ("Trạng thái( Rắn/lỏng)", "Trạng thái  (Rắn/lỏng)"),
                      ("Số lượng(kg)", "Số lượng (kg)")]
         replace_all(b, extra + DATE_PAIRS)
         if f.startswith("8."):  # giờ kết thúc theo hồ sơ lô: bột 9h50, nước 9h15
@@ -322,12 +322,14 @@ def bieu_mau(src_dir):
             fill_rows(tl, 1, data, proto_idx=2)
         if f.startswith("12."):  # rác nguy hại: giẻ lau chỉ khi SX > 100 SP; bao bì nhựa cứng 1 kg / 5 SP
             tong = sum(int(s["sl"].split()[0]) for s in SP)
-            kg = f'{len(SP) / 5:.1f}'.replace('.', ',') + " kg"
+            kg = "1 kg"  # bao bì cứng NL / bao bì đựng hóa chất: luôn 1 kg dù SX nhiều (anh chủ 20/11/2026)
             for tr in b.iter(qn('w:tr')):
                 cs = cells(tr); vals = [ptext(c).strip() for c in cs]
                 if any(v.startswith("Rác giẻ lau") for v in vals) and tong <= 100:
                     for c in cs: set_cell(c, "")
                 if any(v.startswith("Rác bao bì nhựa cứng") for v in vals):
+                    set_cell(cs[3], kg)
+                if any(v.startswith("Bao bì cứng NL") for v in vals):
                     set_cell(cs[3], kg)
         if f.startswith("10."):  # 21/09/2026 là thứ 2
             t = tb[1]

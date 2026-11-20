@@ -19,6 +19,7 @@ cp "$TMP"/4-*/*.docx "$O/DÁN MẪU LƯU 21.09.2026.docx"
 python3 -I "$B/compact.py" "$TMP"/5-*/*.docx >/dev/null
 BMD=(); for i in 2 3 4 5 6 7 8 9 10 11 12; do BMD+=("$TMP"/5-*/"$i."*.docx); done
 python3 -I "$B/gop_bieu_mau.py" "$O/BIỂU MẪU 12 QUY ĐỊNH 21.09.2026.docx" --ngat-trang "${BMD[@]}" >/dev/null
+python3 -I "$B/bm_moi_phieu.py" "$O/BIỂU MẪU 12 QUY ĐỊNH 21.09.2026.docx" >/dev/null
 cd "$O"; mkdir -p PDF
 for f in *.docx *.xls; do soffice --headless --convert-to pdf --outdir PDF "$f" >/dev/null 2>&1; done
 for f in PDF/*.pdf; do echo "$(pdfinfo "$f" | awk '/Pages/{print $2}') trang: $f"; done

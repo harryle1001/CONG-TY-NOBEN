@@ -22,7 +22,7 @@ Bản đầy đủ chạy trên máy (đồ thị kiến thức, công cụ, gi�
 - Nhãn = số đơn vị bán + số thùng (mẫu lưu không dán nhãn). Thùng: chai sành 1L 15/thùng, chai nhựa 1L 20/thùng, hũ 1kg và hũ 500g 24/thùng, gói 3kg 10/thùng.
 - Mã HQ, TCCS, MS lấy ở ho-so-lo/Danh-muc-104-san-pham-Noben.xlsx. Số lô SX = số cuối mã HQ + ddmmyy. Ô "Số đăng ký" trong hồ sơ lô chỉ ghi MSTN, không ghi Mã HQ, TCCS.
 - Kích thước bao bì lấy ở ho-so-lo/du-lieu/Kich-thuoc-bao-bi.xls và Kich-thuoc-bao-bi-bo-sung.csv (bao bì chưa có trong file thì hỏi lại, không tự điền).
-- Biểu mẫu rác nguy hại: ngày SX trên 100 sản phẩm mới có rác giẻ lau (0,2 kg), từ 100 trở xuống không có; rác bao bì nhựa cứng (rắn) = 1 kg cho mỗi 5 sản phẩm SX trong ngày.
+- Biểu mẫu rác nguy hại: ngày SX trên 100 sản phẩm mới có rác giẻ lau (0,2 kg), từ 100 trở xuống không có; rác bao bì nhựa cứng và "Bao bì cứng NL, bao bì đựng hóa chất thải" (rắn) luôn 1 kg, SX nhiều cũng chỉ 1 kg.
 - Bộ biểu mẫu 12 quy định (ho-so-lo/bieu-mau-12-quy-dinh/) ghép cùng hồ sơ lô thành 1 bộ theo ngày sản xuất.
-- Xuất mỗi lô 1 file Word nối liền, không ngắt trang, không dòng trống: hồ sơ lô → lệnh SX của lô → phiếu QD7 → tem mẫu lưu → biểu mẫu 2–12 (mẫu đã duyệt: ho-so-lo/HO-SO-21.09.2026/6-Moi-lo-1-file/; script ho-so-lo/_build/lam_bo_2109.sh).
+- Xuất bộ hồ sơ theo giao diện mẫu tham khảo, file rời: mỗi lô 1 file hồ sơ lô; 1 file phiếu QD7 (.xls); 1 file lệnh SX (mỗi lệnh 1 trang); 1 file dán mẫu lưu (tem 64,6 × 34,8 mm, 3 tem/hàng); 1 file biểu mẫu 12 quy định (biểu mẫu 2–12, mỗi phiếu sang trang mới và có khung logo + mã tài liệu, không có trang trắng). Mẫu đã duyệt: ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/; script ho-so-lo/_build/xuat_rieng_2109.sh.
 - Định dạng Word: bảng cùng bề rộng vùng chữ, cột chia theo φ, không bảng nổi, không khung chữ nổi; chỉ xuất Word khi được yêu cầu; làm 1 bản xem thử, được duyệt mới xuất hàng loạt.
