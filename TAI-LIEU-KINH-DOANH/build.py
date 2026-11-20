@@ -141,7 +141,7 @@ def build_bang_gia():
     css = BASE_CSS + """
 :root{--desk:#e9edf3;--paper:#ffffff;--ink:#0b1b33;--muted:#5b6a80;--line:#d6dde8;--navy:#0b2347;--gold:#ffc20e;--accent:#1b4db1;--band:#f3f6fb}
 .hd{display:grid;grid-template-columns:61.8fr 38.2fr;gap:var(--s4);align-items:end;border-bottom:3px solid var(--navy);padding-bottom:var(--s3);margin-bottom:var(--s3)}
-.hd img{height:52px;width:auto}
+.hd img{height:68px;width:auto}
 .co{font-size:13px;color:var(--muted);line-height:1.5}
 .co b{color:var(--ink)}
 .ttl{text-align:right}
@@ -165,10 +165,10 @@ td.s{color:var(--muted);width:2.5em}
 @media (max-width:640px){.hd{grid-template-columns:1fr}.ttl{text-align:left}}
 td.q{white-space:nowrap}
 @media print{@page{size:A4;margin:10mm 0 12mm}.page{height:auto;min-height:0;padding:0 11mm}table{font-size:9.5px;min-width:0}th{font-size:8px}tr.g td{font-size:8.5px}
- td{padding:3px 6px}td.n small{font-size:8px}.co{font-size:9px}.ttl p{font-size:9px}.hd img{height:40px}
+ td{padding:3px 6px}td.n small{font-size:8px}.co{font-size:9px}.ttl p{font-size:9px}.hd img{height:52px}
  tr{break-inside:avoid}.note{font-size:8.5px}}
 """
-    logo = svg64(NOBEN / 'public/images/brand/golden/noben-lockup.svg')
+    logo = svg64(NOBEN / 'brand/logo/noben-lockup-ngang-net.svg')
     pages = []
     for b in GIA['bang']:
         rows = []
@@ -313,8 +313,7 @@ ul.pr li b{color:var(--navy);white-space:nowrap}
 }
 """
     co = NOBEN_CO
-    logo = svg64(NOBEN / 'public/images/brand/golden/noben-lockup-dark.svg')
-    spiral = svg64(NOBEN / 'public/images/brand/golden/noben-construction.svg')
+    logo = svg64(NOBEN / 'brand/logo/noben-lockup-ngang-nen-toi-net.svg')
     ITEMS = catalogue_items()
     cats = [dict(c, count=sum(1 for it in ITEMS if it['cat'] == c['slug'])) for c in NOBEN_CAT]
     cover = f"""<section class="page cover"><div class="top">
