@@ -22,3 +22,8 @@ pdfunite "$H/HSO LÔ C MAX 25% 21.09.2026.pdf" "$H/HSO LÔ YUCCA 99 21.09.2026.p
   2-*/*.pdf qd7p1.pdf 4-*/*.pdf "${BM[@]}" "$O/BO-HO-SO-21.09.2026.pdf"
 pdfunite "$H/HSO LÔ C MAX 25% 21.09.2026.pdf" lsx1.pdf qd7p1.pdf 4-*/*.pdf "${BM[@]}" "$O/XEM-THU-1-BO-C-MAX-25.pdf"
 for f in "$O"/*.pdf; do echo "$(pdfinfo "$f" | awk '/Pages/{print $2}') trang: $(basename "$f")"; done
+# 1 file Word để sửa (bộ C MAX 25%)
+T="$TMP/mf"; mkdir -p "$T"
+python3 -I "$R/ho-so-lo/_build/mot_file.py" "$O"/3-*/*.xlsx "$T/qd7.docx" "$O"/2-*/*.docx "C MAX 25%" "$T/lsx.docx"
+python3 -I "$R/ho-so-lo/_build/gop_bieu_mau.py" "$O/HO-SO-C-MAX-25-21.09.2026-1-FILE.docx" --ngat-trang \
+  "$O/1-Ho-so-lo/HSO LÔ C MAX 25% 21.09.2026.docx" "$T/lsx.docx" "$T/qd7.docx" "$O"/4-*/*.docx "$O"/5-*/BIEU-MAU-2-12-GOP-21.09.2026.docx >/dev/null

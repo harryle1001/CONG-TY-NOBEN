@@ -18,14 +18,26 @@ def copy_rels(el, src_part, dst_part):
                 node.set(a, dst_part.relate_to(rel.target_ref, rel.reltype, is_external=True))
             elif rel.reltype.endswith('/image'):
                 import io
-                rid2, _ = dst_part.get_or_add_image(io.BytesIO(rel.target_part.blob)); node.set(a, rid2)
+                try:
+                    rid2, _ = dst_part.get_or_add_image(io.BytesIO(rel.target_part.blob))
+                except Exception:  # ảnh EMF/WMF: chép nguyên part với tên mới
+                    from docx.opc.part import Part
+                    tp = rel.target_part; ext = str(tp.partname).rsplit('.', 1)[-1]
+                    pn = dst_part.package.next_partname('/word/media/image%d.' + ext)
+                    rid2 = dst_part.relate_to(Part(pn, tp.content_type, tp.blob, dst_part.package), rel.reltype)
+                node.set(a, rid2)
             else:
                 node.set(a, dst_part.relate_to(rel.target_part, rel.reltype))
 
+NGAT = "--ngat-trang" in sys.argv  # mỗi file bắt đầu trang mới
 def blank_par():
-    p = OxmlElement('w:p'); return p
+    p = OxmlElement('w:p')
+    if NGAT:
+        r = OxmlElement('w:r'); br = OxmlElement('w:br'); br.set(qn('w:type'), 'page'); r.append(br); p.append(r)
+    return p
 
-out, files = sys.argv[1], sys.argv[2:]
+args = [a for a in sys.argv[1:] if a != "--ngat-trang"]
+out, files = args[0], args[1:]
 base = docx.Document(files[0])
 body = base.element.body
 sect = body.find(qn('w:sectPr'))
