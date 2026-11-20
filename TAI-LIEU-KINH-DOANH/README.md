@@ -7,6 +7,8 @@
 | `CATALOGUE-THUY-SAN-TIM-2026.pdf / .html` | 15 sản phẩm Tím; SP trùng tên lấy giá theo bảng giá Noben (7 SP), còn lại "Liên hệ báo giá". |
 | `DANH-MUC-SAN-PHAM-NOBEN-TIM-2026.xlsx` | Danh mục 2 thương hiệu dạng bảng. |
 
+**Giá sỉ:** = giá lẻ (giá trong bảng) − 30%, làm tròn 1.000đ; đổi % ở `CHIET_KHAU_SI` trong build.py.
+
 **Sửa giá:** sửa `data/bang-gia-noben-2026.json` rồi chạy `python3 build.py` (cần Node + Playwright để xuất PDF; `--no-pdf` để bỏ qua).
 
 - 11 SP trong bảng giá chưa có ảnh/dữ liệu web (BENMER, BENXID 300, NB-MIX 500 NEW, BLUE MAX, BZT – CẮT TẢO, PRAWZYME, NH3 – ROVAZYME, NB CLEAR FOR FISH, HEPALIV – FS, BIOBETS TÔM, TĂNG KIỀM): thẻ chỉ có chữ.

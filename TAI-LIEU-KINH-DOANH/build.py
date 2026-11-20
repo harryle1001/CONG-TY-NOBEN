@@ -21,6 +21,8 @@ NGAY = '01/05/2026'
 
 e = lambda s: html.escape(str(s or ''), quote=True)
 def money(v): return f"{v:,.0f}".replace(',', '.')
+CHIET_KHAU_SI = 0.30          # giá trong bảng = giá lẻ; giá sỉ = giá lẻ - 30%, làm tròn 1.000đ
+def si(v): return int(round(v * (1 - CHIET_KHAU_SI) / 1000.0)) * 1000
 def norm(s):
     s = unicodedata.normalize('NFD', s.upper()).replace('Đ', 'D')
     s = re.sub(r'[^A-Z0-9]', '', ''.join(c for c in s if unicodedata.category(c) != 'Mn'))
@@ -140,6 +142,7 @@ tr.g td{background:var(--band);font-weight:700;color:var(--navy);text-transform:
 tr.g td::before{content:'';display:inline-block;width:var(--s2);height:var(--s2);background:var(--gold);margin-right:var(--s2);border-radius:2px;vertical-align:0}
 td.n{font-weight:700;color:var(--navy);white-space:nowrap}
 td.n small{display:block;font-weight:500;color:var(--muted);font-size:12px}
+td.sv{color:var(--accent)}
 td.p{font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
 td.s{color:var(--muted);width:2.5em}
 .flag{color:#b4232c;font-weight:700}
@@ -155,7 +158,7 @@ td.q{white-space:nowrap}
     for b in GIA['bang']:
         rows = []
         for g in b['nhom']:
-            rows.append(f'<tr class="g" data-sec><td colspan="6">{e(g["ten"])}</td></tr>')
+            rows.append(f'<tr class="g" data-sec><td colspan="7">{e(g["ten"])}</td></tr>')
             for s in g['sp']:
                 n = len(s['v'])
                 k = key(s['ten'], s.get('phu', ''), s['cd'])
@@ -169,16 +172,16 @@ td.q{white-space:nowrap}
                     cells += f'<td class="q">{e(qc)}</td><td class="q">{e(dt)}</td>'
                     if first:
                         cells += f'<td rowspan="{n}">{e(s["cd"])}</td>'
-                    cells += f'<td class="p r">{money(gia)}</td>'
+                    cells += f'<td class="p r">{money(gia)}</td><td class="p r sv">{money(si(gia))}</td>'
                     rows.append(f'<tr data-k="{k}">{cells}</tr>')
         pages.append(f"""<section class="page" id="bang-{b['id'].lower()}">
 <header class="hd"><div><img src="{logo}" alt="Noben"><div class="co"><b>CÔNG TY TNHH NOBEN</b><br>
 228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP. Hồ Chí Minh<br>
 ĐT: 028 3796 6039 · Fax: 028 3796 6038 · Hotline: 0911 88 39 79<br>thuocthuysannoben@gmail.com · thuocthuysannoben.com</div></div>
 <div class="ttl"><h1>{e(b['ten'])}</h1><p>{e(b['hieu_luc'])}</p></div></header>
-<div class="tw"><table><thead><tr><th>STT</th><th>Tên sản phẩm</th><th>Quy cách</th><th>Đóng thùng</th><th>Công dụng</th><th class="r">Giá bán (đ)</th></tr></thead>
+<div class="tw"><table><thead><tr><th>STT</th><th>Tên sản phẩm</th><th>Quy cách</th><th>Đóng thùng</th><th>Công dụng</th><th class="r">Giá lẻ (đ)</th><th class="r">Giá sỉ (đ)</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>
-<p class="note">Đơn vị: đồng Việt Nam. Dấu <span class="flag">*</span>: số liệu cần đối chiếu lại bản gốc. Liên hệ để được tư vấn sử dụng và chính sách đại lý.</p>
+<p class="note">Đơn vị: đồng Việt Nam. Giá sỉ = giá lẻ trừ 30%, làm tròn đến 1.000đ. Dấu <span class="flag">*</span>: số liệu cần đối chiếu lại bản gốc. Liên hệ để được tư vấn sử dụng và chính sách đại lý.</p>
 </section>""")
     nav = ' · '.join(f'<a href="#bang-{b["id"].lower()}">{e(b["ten"].title())}</a>' for b in GIA['bang'])
     doc = f"""<title>Bảng giá Noben 2026</title>
@@ -271,8 +274,13 @@ ul.pr{list-style:none;margin:auto 0 0;padding:var(--s1) 0 0;border-top:1px dashe
 ul.pr li{display:flex;justify-content:space-between;gap:var(--s2)}
 ul.pr li span{color:var(--muted)}
 ul.pr li i{font-style:normal;color:var(--ink);font-weight:600}
-ul.pr.g li{display:grid;grid-template-columns:4.2em 1fr auto;gap:0 var(--s2);align-items:baseline}
+ul.pr.g{grid-column:1/-1;margin:0}
+.card{grid-template-rows:1fr auto}
+ul.pr.g li{display:grid;grid-template-columns:4.2em 1fr auto auto;gap:0 var(--s2);align-items:baseline}
 ul.pr.g li i{display:block}
+ul.pr.g li b{text-align:right;min-width:4.6em}
+ul.pr.g li b.sv{color:var(--accent)}
+ul.pr.g li.h b,ul.pr.g li.h span{font-size:.78em;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
 ul.pr li em{font-style:normal;font-size:.78em;font-weight:700;color:var(--gold-d);letter-spacing:.04em;white-space:nowrap;margin-right:.4em}
 ul.pr li span{flex:1}
 ul.pr li b{color:var(--navy);white-space:nowrap}
@@ -333,14 +341,14 @@ Giá in trong catalogue lấy đúng theo 3 bảng giá hiệu lực từ {NGAY}
             for sp in it['gia']:
                 lab = f'<i>{e(sp["phu"])}</i>' if sp.get('phu') else ''
                 for qc, dt, gia in sp['v']:
-                    li.append(f'<li><em>{BANG_TAG[sp["_b"]]}</em><span>{lab}{e(qc)} · {e(dt)}</span><b class="num">{money(gia)}đ</b></li>')
-            pb = f'<ul class="pr g">{"".join(li)}</ul>'
+                    li.append(f'<li><em>{BANG_TAG[sp["_b"]]}</em><span>{lab}{e(qc)} · {e(dt)}</span><b class="num">{money(gia)}</b><b class="num sv">{money(si(gia))}</b></li>')
+            pb = f'<ul class="pr g"><li class="h"><em></em><span>Quy cách</span><b>Lẻ (đ)</b><b>Sỉ (đ)</b></li>{"".join(li)}</ul>'
             rows.append(('Noben', c['name'], it['ten'], tag, '; '.join(uses), reg.get('code', ''), reg.get('tccs', ''), ', '.join(dict.fromkeys(BANG_TAG[sp['_b']] for sp in it['gia'])), it['gia']))
             regt = ' · '.join(x for x in [f"Mã số {reg['code']}" if reg.get('code') else '', f"TCCS {reg['tccs']}" if reg.get('tccs') else ''] if x)
             cards.append(f"""<article class="card{'' if img else ' noimg'}" data-k="{key(it['ten'], tag, ' '.join(uses), c['name'])}">
 {f'<div class="ph"><img src="{img}" alt="{e(it["ten"])}" loading="lazy"></div>' if img else ''}
 <div class="tx"><h3>{e(it['ten'])}</h3>{f'<div class="tag">{e(tag)}</div>' if tag else ''}
-<ul class="u">{''.join(f'<li>{e(u)}</li>' for u in uses)}</ul><div class="reg">{e(regt)}</div>{pb}</div></article>""")
+<ul class="u">{''.join(f'<li>{e(u)}</li>' for u in uses)}</ul><div class="reg">{e(regt)}</div></div>{pb}</article>""")
         for i in range(0, len(cards), per):
             chunk = cards[i:i + per]
             head = f'<div class="sec-h"><h2>{e(c["name"])}</h2><small>{c["count"]} sản phẩm</small></div>' if i == 0 else f'<div class="sec-h"><h2 style="font-size:var(--t1)">{e(c["name"])} (tiếp)</h2><small>{c["count"]} sản phẩm</small></div>'
@@ -363,8 +371,8 @@ def tim_pb(ten, hotline):
     _, sps = tim_gia(ten)
     if not sps:
         return f'<div class="ask"><span>Giá bán</span><b>Liên hệ báo giá · {e(hotline)}</b></div>'
-    li = ''.join(f'<li><span>{e(qc)} · {e(dt)}</span><b class="num">{money(v)}đ</b></li>' for sp in sps for qc, dt, v in sp['v'])
-    return f'<div class="pz"><span>Giá bán</span><ul>{li}</ul></div>'
+    li = ''.join(f'<li><span>{e(qc)} · {e(dt)}</span><b class="num">{money(v)}</b><b class="num sv">{money(si(v))}</b></li>' for sp in sps for qc, dt, v in sp['v'])
+    return f'<div class="pz"><ul><li class="h"><span>Giá bán</span><b>Lẻ (đ)</b><b>Sỉ (đ)</b></li>{li}</ul></div>'
 
 def build_tim():
     css = BASE_CSS + """
@@ -400,7 +408,7 @@ def build_tim():
 .ask b{color:var(--violet)}
 .pz{margin-top:auto;border-top:1px dashed var(--line);padding-top:var(--s2);font-size:13px}
 .pz>span{display:block;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-d);font-weight:600}
-.pz ul{list-style:none;margin:0;padding:0}.pz li{display:flex;justify-content:space-between;gap:var(--s2)}
+.pz ul{list-style:none;margin:0;padding:0}.pz li{display:grid;grid-template-columns:1fr auto auto;gap:0 var(--s3);align-items:baseline}.pz li b{text-align:right;min-width:4.6em}.pz li b.sv{color:var(--gold-d)}.pz li.h span,.pz li.h b{font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-d);font-weight:600}
 .pz li span{color:var(--muted)}.pz li b{color:var(--violet);white-space:nowrap}
 @media (max-width:640px){.cover{grid-template-columns:1fr}.cover h1{font-size:var(--t3)}.cover .l{padding:var(--s5) var(--s4)}}
 @media print{
@@ -474,17 +482,17 @@ def build_excel(noben_rows, tim_rows):
 
     wb = Workbook(); wb.remove(wb.active)
     flat = wb.create_sheet('Tong hop')
-    head(flat, 1, ['Bảng', 'Nhóm', 'STT', 'Tên sản phẩm', 'Ghi chú tên', 'Quy cách', 'Đóng thùng', 'Giá bán (đ)', 'Công dụng', 'Cần đối chiếu'])
+    head(flat, 1, ['Bảng', 'Nhóm', 'STT', 'Tên sản phẩm', 'Ghi chú tên', 'Quy cách', 'Đóng thùng', 'Giá lẻ (đ)', 'Giá sỉ -30% (đ)', 'Công dụng', 'Cần đối chiếu'])
     fr = 2
     for b in GIA['bang']:
         ws = wb.create_sheet({'A': 'Bang gia Noben 2026', 'T': 'Bang gia Tom 02-03', 'B': 'Bao gia Noben (B)'}[b['id']])
-        ws.merge_cells('A1:F1'); ws['A1'] = 'CÔNG TY TNHH NOBEN · ' + b['ten']; ws['A1'].font = Font(bold=True, size=16, color=navy)
-        ws.merge_cells('A2:F2'); ws['A2'] = b['hieu_luc']; ws['A2'].font = Font(italic=True, color='5B6A80')
-        ws.merge_cells('A3:F3'); ws['A3'] = '228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP.HCM · ĐT 028 3796 6039 · Hotline 0911 88 39 79'
-        head(ws, 5, ['STT', 'Tên sản phẩm', 'Quy cách', 'Đóng thùng', 'Công dụng', 'Giá bán (đ)'])
+        ws.merge_cells('A1:G1'); ws['A1'] = 'CÔNG TY TNHH NOBEN · ' + b['ten']; ws['A1'].font = Font(bold=True, size=16, color=navy)
+        ws.merge_cells('A2:G2'); ws['A2'] = b['hieu_luc']; ws['A2'].font = Font(italic=True, color='5B6A80')
+        ws.merge_cells('A3:G3'); ws['A3'] = '228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP.HCM · ĐT 028 3796 6039 · Hotline 0911 88 39 79'
+        head(ws, 5, ['STT', 'Tên sản phẩm', 'Quy cách', 'Đóng thùng', 'Công dụng', 'Giá lẻ (đ)', 'Giá sỉ -30% (đ)'])
         r = 6
         for g in b['nhom']:
-            ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=6)
+            ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=7)
             c = ws.cell(r, 1, g['ten'].upper()); c.font = Font(bold=True, color=navy); c.fill = PatternFill('solid', fgColor=band)
             r += 1
             for s in g['sp']:
@@ -496,19 +504,20 @@ def build_excel(noben_rows, tim_rows):
                         ws.cell(r, 5, s['cd'])
                     ws.cell(r, 3, qc); ws.cell(r, 4, dt)
                     p = ws.cell(r, 6, gia); p.number_format = '#,##0'; p.font = Font(bold=True)
-                    for col in range(1, 7):
+                    q = ws.cell(r, 7, f'=ROUND(F{r}*(1-{CHIET_KHAU_SI}),-3)'); q.number_format = '#,##0'; q.font = Font(bold=True, color='1B4DB1')
+                    for col in range(1, 8):
                         ws.cell(r, col).border = B; ws.cell(r, col).alignment = Alignment(vertical='top', wrap_text=True)
-                    flat.append([b['ten'], g['ten'], s['stt'], s['ten'], s.get('phu', ''), qc, dt, gia, s['cd'], 'Có' if s.get('kiem') else ''])
-                    flat.cell(fr, 8).number_format = '#,##0'; fr += 1
+                    flat.append([b['ten'], g['ten'], s['stt'], s['ten'], s.get('phu', ''), qc, dt, gia, f'=ROUND(H{fr}*(1-{CHIET_KHAU_SI}),-3)', s['cd'], 'Có' if s.get('kiem') else ''])
+                    flat.cell(fr, 8).number_format = '#,##0'; flat.cell(fr, 9).number_format = '#,##0'; fr += 1
                     r += 1
                 if r - start > 1:
                     for col in (1, 2, 5):
                         ws.merge_cells(start_row=start, start_column=col, end_row=r - 1, end_column=col)
-        ws.cell(r + 1, 1, 'Đơn vị: đồng. Dấu *: số liệu cần đối chiếu bản gốc.').font = Font(italic=True, color='5B6A80')
-        widths(ws, [6, 30, 14, 16, 62, 14]); ws.freeze_panes = 'A6'
+        ws.cell(r + 1, 1, 'Đơn vị: đồng. Giá sỉ = giá lẻ - 30% (sửa % ở công thức cột G). Dấu *: số liệu cần đối chiếu bản gốc.').font = Font(italic=True, color='5B6A80')
+        widths(ws, [6, 30, 14, 16, 62, 14, 15]); ws.freeze_panes = 'A6'
         ws.page_setup.orientation = 'portrait'; ws.page_setup.fitToWidth = 1; ws.page_setup.fitToHeight = 0
         ws.sheet_properties.pageSetUpPr.fitToPage = True; ws.print_title_rows = '5:5'
-    widths(flat, [28, 30, 6, 26, 18, 14, 16, 14, 70, 10]); flat.freeze_panes = 'A2'; flat.auto_filter.ref = f'A1:J{fr-1}'
+    widths(flat, [28, 30, 6, 26, 18, 14, 16, 14, 15, 70, 10]); flat.freeze_panes = 'A2'; flat.auto_filter.ref = f'A1:K{fr-1}'
     wb.move_sheet('Tong hop', offset=3)
     wb.save(OUT / 'BANG-GIA-NOBEN-2026.xlsx')
 
@@ -516,16 +525,16 @@ def build_excel(noben_rows, tim_rows):
     for title, rows, fill in (('Noben', noben_rows, navy), ('Thuy San Tim', tim_rows, '5B3AA6')):
         ws = wb.create_sheet(title)
         cols = ['STT', 'Thương hiệu', 'Nhóm', 'Tên sản phẩm', 'Mô tả ngắn', 'Công dụng', 'Mã số', 'TCCS']
-        cols += ['Bảng giá', 'Quy cách & giá (đ)'] if title == 'Noben' else ['Quy cách', 'Giá bán (đ)']
+        cols += ['Bảng giá', 'Quy cách & giá lẻ / sỉ (đ)'] if title == 'Noben' else ['Quy cách', 'Giá lẻ / sỉ (đ)']
         head(ws, 1, cols, fill)
         for i, row in enumerate(rows, 1):
             brand, nhom, ten, tag, cd, ma, tccs, bid, extra = row
             if title == 'Noben':
-                gia = '; '.join(f"[{BANG_TAG[s['_b']]}] {qc} ({dt}): {money(v)}" for s in extra for qc, dt, v in s['v'])
+                gia = '; '.join(f"[{BANG_TAG[s['_b']]}] {qc} ({dt}): {money(v)} / sỉ {money(si(v))}" for s in extra for qc, dt, v in s['v']).replace(': ', ': lẻ ')
                 ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, bid, gia])
             else:
                 qcs, sps = extra
-                gia = '; '.join(f"{qc} ({dt}): {money(v)}" for sp in sps for qc, dt, v in sp['v']) or 'Liên hệ báo giá'
+                gia = '; '.join(f"{qc} ({dt}): lẻ {money(v)} / sỉ {money(si(v))}" for sp in sps for qc, dt, v in sp['v']) or 'Liên hệ báo giá'
                 ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, qcs, gia])
             for col in range(1, len(cols) + 1):
                 ws.cell(i + 1, col).alignment = Alignment(vertical='top', wrap_text=True); ws.cell(i + 1, col).border = B
