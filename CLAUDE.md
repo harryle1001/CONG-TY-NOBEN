@@ -21,5 +21,6 @@ Bản đầy đủ chạy trên máy (đồ thị kiến thức, công cụ, gi�
 - Tổng thời gian 1 lô (cân → phối trộn → đóng gói cấp 1 → cấp 2, nối tiếp): nước ≤20 chai = 20p, ≤60 = 30p, ≤120 = 45p; bột ≤15 kg = 20p, ≤50 kg = 30p, ≤120 kg = 45p, ≤250 kg = 60p. Mốc chuẩn: BEN COPPER 20p, C MAX 25% 40p.
 - Nhãn = số đơn vị bán + số thùng (mẫu lưu không dán nhãn). Thùng: chai sành 1L 15/thùng, chai nhựa 1L 20/thùng, hũ 1kg và hũ 500g 24/thùng, gói 3kg 10/thùng.
 - Mã HQ, TCCS, MS lấy ở ho-so-lo/Danh-muc-104-san-pham-Noben.xlsx. Số lô SX = số cuối mã HQ + ddmmyy. Ô "Số đăng ký" trong hồ sơ lô chỉ ghi MSTN, không ghi Mã HQ, TCCS.
+- Kích thước bao bì lấy ở ho-so-lo/du-lieu/Kich-thuoc-bao-bi.xls (bao bì chưa có trong file thì hỏi lại, không tự điền).
 - Bộ biểu mẫu 12 quy định (ho-so-lo/bieu-mau-12-quy-dinh/) ghép cùng hồ sơ lô thành 1 bộ theo ngày sản xuất.
 - Định dạng Word: bảng cùng bề rộng vùng chữ, cột chia theo φ, không bảng nổi, không khung chữ nổi; chỉ xuất Word khi được yêu cầu; làm 1 bản xem thử, được duyệt mới xuất hàng loạt.

@@ -237,9 +237,9 @@ def bieu_mau(src_dir):
                     ["", "Dextrose monohydrate", "246,24 kg", "Đ"], ["", "Nước lọc (RO) vừa đủ", "119,05 lít", "Đ"]]
             fill_rows(tb[1], 1, data, proto_idx=2)
         if f.startswith("4."):  # phiếu xuất kho bao bì
-            data = [["", NGAY, "Hũ 1kg", "", "30 cái", "Đ"], ["", "", "Túi PE 1kg", "Cao: 300mm ngang: 210mm", "30 cái", "Đ"],
+            data = [["", NGAY, "Hũ 1kg (Lon H-AP)", "Cao: 145mm Đ/K: 115mm", "30 cái", "Đ"], ["", "", "Túi PE 1kg", "Cao: 300mm ngang: 210mm", "30 cái", "Đ"],
                     ["", "", "Túi PE 500g", "Cao: 270mm ngang: 170mm", "20 cái", "Đ"], ["", "", "Túi 3kg", "", "70 cái", "Đ"],
-                    ["", "", "Chai BVT2 – 1 lít", "Cao: 238mm Đ/K: 86mm", "100 bộ", "Đ"], ["", "", "Chai TT-01 – 1 lít", "", "15 bộ", "Đ"],
+                    ["", "", "Chai BVT2 – 1 lít", "Cao: 238mm Đ/K: 86mm", "100 bộ", "Đ"], ["", "", "Chai TT-01 – 1 lít", "Cao: 227mm Đ/K: 98mm", "15 bộ", "Đ"],
                     ["", "", "Chai 250ml", "", "15 bộ", "Đ"], ["", "", "Túi 100g (lưu mẫu)", "", "3 cái", "Đ"],
                     ["", "", "Chai 100ml (lưu mẫu)", "", "3 cái", "Đ"], ["", "", "Thùng chứa", "", "17 cái", "Đ"]]
             for i, r in enumerate(data): r[0] = str(i + 1)
