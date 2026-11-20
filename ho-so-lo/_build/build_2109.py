@@ -226,9 +226,9 @@ def bieu_mau(src_dir):
             extra = [("MIRAL N.8; PREMIX KHOÁNG NEW, SUPER CAL; EDTA 99; BZT; PRAWNZYME", "; ".join(s["ten"] for s in bot)),
                      ("AMINOVIT; CANCI MILK; F.X ORGANIC; F.X ENZYME; LIVER-MAX; NO TOXIN; BEN MKC 4000", "; ".join(s["ten"] for s in nuoc))]
         replace_all(b, extra + DATE_PAIRS)
-        if f.startswith("8."):  # giờ kết thúc theo hồ sơ lô: bột 9h40, nước 9h15
+        if f.startswith("8."):  # giờ kết thúc theo hồ sơ lô: bột 9h50, nước 9h15
             ps = [p for p in b.iter(qn('w:p')) if ptext(p).startswith("Giờ kết thúc sản xuất")]
-            set_par_text(ps[0], "Giờ kết thúc sản xuất: 9 giờ 40 phút")
+            set_par_text(ps[0], "Giờ kết thúc sản xuất: 9 giờ 50 phút")
             set_par_text(ps[1], "Giờ kết thúc sản xuất: 9 giờ 15 phút")
         if f.startswith("3."):  # phiếu xuất kho nguyên liệu
             data = [[NGAY, "DK Yucca Liquid", "33,3 kg", "Đ"], ["", "PVP Iodine", "1,8 kg", "Đ"],
