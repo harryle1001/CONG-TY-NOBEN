@@ -31,5 +31,6 @@ for sp in "C MAX 25%|HSO LÔ C MAX 25%" "YUCCA 99|HSO LÔ YUCCA 99" "BZT|HS BZT"
   python3 -I "$R/ho-so-lo/_build/gop_bieu_mau.py" "$O/6-Moi-lo-1-file/HO-SO-LO-$slug-21.09.2026.docx" --lien \
     "$O/1-Ho-so-lo/$hs 21.09.2026.docx" "$T/lsx.docx" "$T/qd7.docx" "$O"/4-*/*.docx "$O"/5-*/BIEU-MAU-2-12-GOP-21.09.2026.docx >/dev/null
 done
+python3 -I "$R/ho-so-lo/_build/theo_mau_duyet.py" "$O"/6-Moi-lo-1-file/*.docx >/dev/null
 cd "$O/6-Moi-lo-1-file" && for f in *.docx; do soffice --headless --convert-to pdf "$f" >/dev/null 2>&1; done
 for f in *.pdf; do echo "$(pdfinfo "$f" | awk '/Pages/{print $2}') trang: $f"; done
