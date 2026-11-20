@@ -71,3 +71,4 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Nháp chờ duyệt: bài 4 "Trang chủ 7 khối" postId f457e83a-bafa-4cfb-911c-8ff93c219043: IG carousel 11 ảnh 21/11 10:30; X 10:00 (5 credit); TikTok 19:30 chờ chọn quyền xem/bình luận/nhạc.
 - Giao việc: không giao phiên mới (web đang có nhiều phiên khác làm; tránh trùng, tiết kiệm hạn mức).
 - Chờ chủ studio: duyệt bài 4 + lựa chọn TikTok; mã Search Console/GA4/Ads; Page FB Dream Labs.
+- Chủ studio chốt mặc định TikTok cho MỌI bài: công khai, cho bình luận, đồng ý điều khoản nhạc (20/11). Bài 4 duyệt + "đăng luôn": postId f457e83a-bafa-4cfb-911c-8ff93c219043, IG carousel 11 ảnh + X 09:32 VN, TikTok ngay (X 5 credit).
