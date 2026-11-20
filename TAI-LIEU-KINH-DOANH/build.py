@@ -193,6 +193,29 @@ td.q{white-space:nowrap}
 # =====================================================================
 # 2. CATALOGUE NOBEN
 # =====================================================================
+BANG_TAG = {'A': 'BG 2026', 'T': 'BG Tôm', 'B': 'BG (B)'}
+MERGE = {'SUPERCUTALGA': 'SUPERCUTALGAE'}          # cùng sản phẩm, khác cách viết giữa các bảng
+CAT_OVERRIDE = {'TANGKIEM': 'khoang-chat', 'BLUEMAX': 'tri-benh', 'NBCLEARFORFISH': 'tri-benh'}
+
+def catalogue_items():
+    """Mỗi tên trong 3 bảng giá = 1 thẻ; ghép ảnh/công dụng/mã số từ dữ liệu web nếu trùng tên."""
+    web = {norm(p['name']): p for p in NOBEN_SP}
+    back = {pk: wk for wk, pks in ALIAS.items() for pk in pks}
+    items = {}
+    for b in GIA['bang']:
+        for g in b['nhom']:
+            gl = g['ten'].lower()
+            for sp in g['sp']:
+                k = MERGE.get(norm(sp['ten']), norm(sp['ten']))
+                k = k if k in web else back.get(k, k)
+                w = web.get(k)
+                if k not in items:
+                    cat = (w or {}).get('category') or CAT_OVERRIDE.get(k) or (
+                        'tri-benh' if 'thảo dược' in gl else 'thuc-an-bo-sung' if ('dinh dưỡng' in gl or 'mới' in gl) else 'sinh-hoc')
+                    items[k] = {'ten': w['name'] if w else sp['ten'], 'web': w, 'cd': sp['cd'], 'cat': cat, 'gia': []}
+                items[k]['gia'].append(dict(sp, _b=b['id']))
+    return list(items.values())
+
 def price_block(ten):
     bid, sps = tim_gia(ten)
     if not sps:
@@ -235,8 +258,9 @@ def build_noben():
 .sec-h small{color:var(--c);font-weight:700;letter-spacing:.12em;text-transform:uppercase;font-size:12px}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,440px),1fr));gap:var(--s3)}
 .card{display:grid;grid-template-columns:38.2fr 61.8fr;gap:var(--s3);padding:var(--s3);border:1px solid var(--line);border-radius:var(--s1);background:#fff;min-width:0}
-.card .ph{background:#eef2f7;border-radius:4px;display:grid;place-items:center;aspect-ratio:1/1.618;max-width:100%;overflow:hidden}
-.card .ph img{max-height:92%;max-width:92%;object-fit:contain}
+.card .ph{display:grid;place-items:center;aspect-ratio:1/1.618;max-width:100%;overflow:hidden}
+.card .ph img{max-height:100%;max-width:100%;object-fit:contain}
+.card.noimg{grid-template-columns:1fr}
 .card .tx{min-width:0;display:flex;flex-direction:column;gap:var(--s1)}
 .card h3{font-size:var(--t1);color:var(--navy);font-weight:700;line-height:1.25;letter-spacing:.01em}
 .card .tag{font-size:13px;color:var(--c);font-weight:600;line-height:1.4}
@@ -247,6 +271,10 @@ ul.pr{list-style:none;margin:auto 0 0;padding:var(--s1) 0 0;border-top:1px dashe
 ul.pr li{display:flex;justify-content:space-between;gap:var(--s2)}
 ul.pr li span{color:var(--muted)}
 ul.pr li i{font-style:normal;color:var(--ink);font-weight:600}
+ul.pr.g li{display:grid;grid-template-columns:4.2em 1fr auto;gap:0 var(--s2);align-items:baseline}
+ul.pr.g li i{display:block}
+ul.pr li em{font-style:normal;font-size:.78em;font-weight:700;color:var(--gold-d);letter-spacing:.04em;white-space:nowrap;margin-right:.4em}
+ul.pr li span{flex:1}
 ul.pr li b{color:var(--navy);white-space:nowrap}
 .pr.ask{margin-top:auto;font-size:13px;font-weight:600;color:var(--gold-d);border-top:1px dashed var(--line);padding-top:var(--s1)}
 @media (max-width:640px){.intro,.cover .bot{grid-template-columns:1fr}.cover h1{font-size:var(--t3)}.cover .top{padding:var(--s5) var(--s4)}}
@@ -264,11 +292,12 @@ ul.pr li b{color:var(--navy);white-space:nowrap}
     co = NOBEN_CO
     logo = svg64(NOBEN / 'public/images/brand/golden/noben-lockup-dark.svg')
     spiral = svg64(NOBEN / 'public/images/brand/golden/noben-construction.svg')
-    cats = [c for c in NOBEN_CAT]
+    ITEMS = catalogue_items()
+    cats = [dict(c, count=sum(1 for it in ITEMS if it['cat'] == c['slug'])) for c in NOBEN_CAT]
     cover = f"""<section class="page cover"><div class="top">
 <img class="logo" src="{logo}" alt="Noben">
 <div><h1>Catalogue<br>sản phẩm <em>2026</em></h1>
-<p class="sub">{len(NOBEN_SP)} sản phẩm thuốc thủy sản, chế phẩm sinh học, khoáng chất và thức ăn bổ sung cho tôm, cá. Sản xuất tại nhà máy Noben, Củ Chi, TP. Hồ Chí Minh.</p></div></div>
+<p class="sub">{len(ITEMS)} sản phẩm thuốc thủy sản, chế phẩm sinh học, khoáng chất và thức ăn bổ sung cho tôm, cá. Sản xuất tại nhà máy Noben, Củ Chi, TP. Hồ Chí Minh.</p></div></div>
 <div class="bot"><div><b>Công ty TNHH Noben</b><p>{e(co['address'])}</p></div>
 <div><p>Hotline <b class="num" style="font-size:var(--t1);display:inline">0911 88 39 79</b><br>thuocthuysannoben.com</p></div></div></section>"""
     toc = ''.join(f'<a href="#{c["slug"]}" style="--c:var(--c-{c["slug"]})"><b>{e(c["name"])}</b><span>{c["count"]} sản phẩm · {e(c["blurb"])}</span></a>' for c in cats)
@@ -277,27 +306,40 @@ ul.pr li b{color:var(--navy);white-space:nowrap}
 <h2>Đồng hành cùng người nuôi từ năm {e(co.get('founded_year','2002'))}</h2>
 {''.join(f'<p>{e(x)}</p>' for x in ov[:2])}<p><b>Sứ mệnh.</b> {e(co.get('mission',''))}</p></div>
 <div class="facts"><div class="fact"><b class="num">{e(co.get('founded_year','2002'))}</b><span>Năm thành lập</span></div>
-<div class="fact"><b class="num">{len(NOBEN_SP)}</b><span>Sản phẩm trong catalogue</span></div>
+<div class="fact"><b class="num">{len(ITEMS)}</b><span>Sản phẩm trong bảng giá 2026</span></div>
 <div class="fact"><b>ISO 9001:2015</b><span>Hệ thống quản lý chất lượng</span></div></div></div>
 <nav class="toc">{toc}</nav>
 <p class="contact"><b>Liên hệ:</b> {e(co['address'])} · ĐT {' · '.join(e(p) for p in co.get('phones', []))} · {e(co.get('email',''))}<br>
-Giá in trong catalogue theo bảng giá hiệu lực từ {NGAY}. Liên hệ để được tư vấn và chính sách đại lý.</p>
+Giá in trong catalogue lấy đúng theo 3 bảng giá hiệu lực từ {NGAY}: BG 2026 = Bảng giá Noben 2026, BG Tôm = Bảng giá tôm 02-03, BG (B) = Bảng báo giá Noben (B). Liên hệ để được tư vấn và chính sách đại lý.</p>
 <div class="pgfoot"><span>NOBEN · CATALOGUE 2026</span><span>2</span></div></section>"""
     pages, pg, rows = [], 3, []
     per = 6
     for c in cats:
-        items = [p for p in NOBEN_SP if p['category'] == c['slug']]
+        items = [it for it in ITEMS if it['cat'] == c['slug']]
         cards = []
-        for p in items:
-            img = img64(NOBEN / ('public' + p['images'][0]['src']), bg='#eef2f7') if p.get('images') else ''
-            uses = [re.sub(r'<[^>]+>', '', u) for u in (p.get('uses') or [])][:3]
+        for it in items:
+            p = it['web'] or {}
+            img = ''
+            if p:
+                slug = Path(p['images'][0]['src']).stem if p.get('images') else ''
+                cut = NOBEN / f'public/images/products-cutout/{slug}.webp'
+                img = img64(cut if cut.exists() else NOBEN / ('public' + p['images'][0]['src']), bg='#ffffff')
+            nl = sum(len(sp['v']) for sp in it['gia'])
+            uses = [re.sub(r'<[^>]+>', '', u) for u in (p.get('uses') or [])] or [it['cd']]
+            uses = uses[:max(1, 3 - max(0, nl - 2) // 2)]
+            tag = p.get('tagline') or ''
             reg = p.get('registration') or {}
-            pb, bid = price_block(p['name'])
-            rows.append(('Noben', c['name'], p['name'], p.get('tagline', ''), '; '.join(uses), reg.get('code', ''), reg.get('tccs', ''), bid or '', tim_gia(p['name'])[1]))
+            li = []
+            for sp in it['gia']:
+                lab = f'<i>{e(sp["phu"])}</i>' if sp.get('phu') else ''
+                for qc, dt, gia in sp['v']:
+                    li.append(f'<li><em>{BANG_TAG[sp["_b"]]}</em><span>{lab}{e(qc)} · {e(dt)}</span><b class="num">{money(gia)}đ</b></li>')
+            pb = f'<ul class="pr g">{"".join(li)}</ul>'
+            rows.append(('Noben', c['name'], it['ten'], tag, '; '.join(uses), reg.get('code', ''), reg.get('tccs', ''), ', '.join(dict.fromkeys(BANG_TAG[sp['_b']] for sp in it['gia'])), it['gia']))
             regt = ' · '.join(x for x in [f"Mã số {reg['code']}" if reg.get('code') else '', f"TCCS {reg['tccs']}" if reg.get('tccs') else ''] if x)
-            cards.append(f"""<article class="card" data-k="{key(p['name'], p.get('tagline',''), ' '.join(uses), c['name'])}">
-<div class="ph">{f'<img src="{img}" alt="{e(p["name"])}" loading="lazy">' if img else ''}</div>
-<div class="tx"><h3>{e(p['name'])}</h3><div class="tag">{e(p.get('tagline',''))}</div>
+            cards.append(f"""<article class="card{'' if img else ' noimg'}" data-k="{key(it['ten'], tag, ' '.join(uses), c['name'])}">
+{f'<div class="ph"><img src="{img}" alt="{e(it["ten"])}" loading="lazy"></div>' if img else ''}
+<div class="tx"><h3>{e(it['ten'])}</h3>{f'<div class="tag">{e(tag)}</div>' if tag else ''}
 <ul class="u">{''.join(f'<li>{e(u)}</li>' for u in uses)}</ul><div class="reg">{e(regt)}</div>{pb}</div></article>""")
         for i in range(0, len(cards), per):
             chunk = cards[i:i + per]
@@ -308,7 +350,7 @@ Giá in trong catalogue theo bảng giá hiệu lực từ {NGAY}. Liên hệ đ
     doc = f"""<title>Catalogue Noben 2026</title>
 <meta name="claude:viewport-fit-sides" content="cover">{FONTS}<style>{css}</style>
 {cover}{intro}
-<div class="tools"><input id="q" type="search" placeholder="Tìm trong {len(NOBEN_SP)} sản phẩm (vd: gan, khí độc, cứng vỏ)" aria-label="Tìm sản phẩm"><span id="qn"></span></div>
+<div class="tools"><input id="q" type="search" placeholder="Tìm trong {len(ITEMS)} sản phẩm (vd: gan, khí độc, cứng vỏ)" aria-label="Tìm sản phẩm"><span id="qn"></span></div>
 {''.join(pages)}{SEARCH_JS}"""
     (OUT / 'CATALOGUE-NOBEN-2026.html').write_text(doc)
     return OUT / 'CATALOGUE-NOBEN-2026.html', rows
@@ -343,9 +385,8 @@ def build_tim():
 .sec-h small{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--gold-d);font-weight:600}
 .grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,460px),1fr));gap:var(--s4)}
 .card{display:grid;grid-template-columns:38.2fr 61.8fr;gap:var(--s4);min-width:0;padding-bottom:var(--s4);border-bottom:1px solid var(--line)}
-.card .ph{background:radial-gradient(120% 90% at 50% 20%,#f3eefb,#e4dbf3);border-radius:var(--s1);display:grid;place-items:center;aspect-ratio:1/1.618;max-width:100%;overflow:hidden;position:relative}
-.card .ph img{max-width:90%;max-height:90%;object-fit:contain}
-.card .ph i{position:absolute;left:0;right:0;bottom:0;height:var(--s1);background:var(--c)}
+.card .ph{display:grid;place-items:center;aspect-ratio:1/1.618;max-width:100%;overflow:hidden}
+.card .ph img{max-width:100%;max-height:100%;object-fit:contain}
 .card .tx{min-width:0;display:flex;flex-direction:column;gap:var(--s2)}
 .card h3{font-family:var(--disp);font-size:var(--t2);font-weight:700;color:var(--plum);line-height:1.1}
 .card .sub{font-size:14px;color:var(--c);font-weight:600;line-height:1.4}
@@ -387,13 +428,14 @@ def build_tim():
         items = [s for s in sps if s['nhom'] == slug]
         cards = []
         for s in items:
-            img = img64(TIM / f"public/img/products/{s['slug']}.webp")
+            cut = ROOT / f"assets/tim-cutout/{s['slug']}.webp"
+            img = img64(cut if cut.exists() else TIM / f"public/img/products/{s['slug']}.webp", bg='#fdfcff')
             cd = s.get('cong_dung', [])[:3]
             tp = [t for t in s.get('thanh_phan', [])][:4]
             hd = s.get('huong_dan', [])[:2]
             rows.append(('Thủy Sản Tím', name, s['ten'], s.get('phu_de', ''), '; '.join(s.get('cong_dung', [])), s.get('ma_so', ''), s.get('tccs', ''), tim_gia(s['ten'])[0] or '', (s.get('quy_cach', ''), tim_gia(s['ten'])[1])))
             cards.append(f"""<article class="card" style="--c:{e(s.get('mau','#5b3aa6'))}" data-k="{key(s['ten'], s.get('phu_de',''), ' '.join(s.get('cong_dung',[])), ' '.join(s.get('nhan_phu',[])))}">
-<div class="ph">{f'<img src="{img}" alt="{e(s["ten"])}" loading="lazy">' if img else ''}<i></i></div>
+<div class="ph">{f'<img src="{img}" alt="{e(s["ten"])}" loading="lazy">' if img else ''}</div>
 <div class="tx"><h3>{e(s['ten'])}</h3><div class="sub">{e(s.get('phu_de',''))}</div>
 <div class="chips">{''.join(f'<span>{e(t)}</span>' for t in s.get('nhan_phu', []))}</div>
 <div class="cols"><div class="blk"><b>Công dụng</b><ul>{''.join(f'<li>{e(x)}</li>' for x in cd)}</ul></div>
@@ -479,8 +521,8 @@ def build_excel(noben_rows, tim_rows):
         for i, row in enumerate(rows, 1):
             brand, nhom, ten, tag, cd, ma, tccs, bid, extra = row
             if title == 'Noben':
-                gia = '; '.join(f"{qc} ({dt}): {money(v)}" for s in extra for qc, dt, v in s['v']) or 'Liên hệ báo giá'
-                ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, {'A': 'Noben 2026', 'T': 'Tôm 02-03', 'B': 'Báo giá (B)'}.get(bid, ''), gia])
+                gia = '; '.join(f"[{BANG_TAG[s['_b']]}] {qc} ({dt}): {money(v)}" for s in extra for qc, dt, v in s['v'])
+                ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, bid, gia])
             else:
                 qcs, sps = extra
                 gia = '; '.join(f"{qc} ({dt}): {money(v)}" for sp in sps for qc, dt, v in sp['v']) or 'Liên hệ báo giá'
@@ -503,6 +545,6 @@ if __name__ == '__main__':
     tm, trows = build_tim()
     build_excel(nrows, trows)
     hit = sum(1 for r in nrows if r[7])
-    print(f'Noben: {len(nrows)} SP, {hit} có giá; Tím: {len(trows)} SP')
+    print(f'Noben: {len(nrows)} SP (từ bảng giá); Tím: {len(trows)} SP')
     if '--no-pdf' not in sys.argv:
         to_pdf([bg, nb, tm])
