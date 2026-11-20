@@ -266,6 +266,15 @@ def bieu_mau(src_dir):
             data = [[nsx if i == 0 else "", f'{s["ten"]} – Lô {s["lo"]}', s["qc"], s["sl"], "Chờ xuất bán" if i == 0 else ""]
                     for i, s in enumerate(SP)]
             fill_rows(tl, 1, data, proto_idx=2)
+        if f.startswith("12."):  # rác nguy hại: giẻ lau chỉ khi SX > 100 SP; bao bì nhựa cứng 1 kg / 5 SP
+            tong = sum(int(s["sl"].split()[0]) for s in SP)
+            kg = f'{len(SP) / 5:.1f}'.replace('.', ',') + " kg"
+            for tr in b.iter(qn('w:tr')):
+                cs = cells(tr); vals = [ptext(c).strip() for c in cs]
+                if any(v.startswith("Rác giẻ lau") for v in vals) and tong <= 100:
+                    for c in cs: set_cell(c, "")
+                if any(v.startswith("Rác bao bì nhựa cứng") for v in vals):
+                    set_cell(cs[3], kg)
         if f.startswith("10."):  # 21/09/2026 là thứ 2
             t = tb[1]
             for tr in rows(t)[1:]:
