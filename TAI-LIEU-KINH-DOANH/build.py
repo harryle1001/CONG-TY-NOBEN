@@ -23,6 +23,16 @@ e = lambda s: html.escape(str(s or ''), quote=True)
 def money(v): return f"{v:,.0f}".replace(',', '.')
 CHIET_KHAU_SI = 0.30          # giá trong bảng = giá lẻ; giá sỉ = giá lẻ - 30%, làm tròn 1.000đ
 def si(v): return int(round(v * (1 - CHIET_KHAU_SI) / 1000.0)) * 1000
+def so_thung(dt):
+    """Số đơn vị trong 1 thùng/xô từ chữ 'Thùng 30 gói', '20 chai/thùng'…; None nếu không ghi (Bao 10kg, Xô 4kg)."""
+    m = re.search(r'(\d+)\s*(gói|chai|lon|can|hũ|hộp|xô)\b', dt, re.I)
+    return int(m.group(1)) if m else None
+def gia_thung(v, dt):
+    n = so_thung(dt)
+    return si(v) * n if n and n > 1 else None
+def thung_html(v, dt):
+    t = gia_thung(v, dt)
+    return f'<small class="th">Thùng {so_thung(dt)}: {money(t)}</small>' if t else ''
 def norm(s):
     s = unicodedata.normalize('NFD', s.upper()).replace('Đ', 'D')
     s = re.sub(r'[^A-Z0-9]', '', ''.join(c for c in s if unicodedata.category(c) != 'Mn'))
@@ -53,7 +63,7 @@ def tim_gia(ten):
                 return bid, IDX[(bid, k)]
     return None, []
 
-def img64(path, h=380, bg=None):
+def img64(path, h=1000, bg=None):
     """Ảnh thu nhỏ dạng data URI; bg='#rrggbb' -> JPEG nền đặc (PDF nhẹ hơn nhiều)."""
     from PIL import Image
     try:
@@ -64,9 +74,9 @@ def img64(path, h=380, bg=None):
     buf = io.BytesIO()
     if bg:
         flat = Image.new('RGB', im.size, bg); flat.paste(im, mask=im.split()[3])
-        flat.save(buf, 'JPEG', quality=80, optimize=True, progressive=True)
+        flat.save(buf, 'JPEG', quality=90, optimize=True, progressive=True)
         return 'data:image/jpeg;base64,' + base64.b64encode(buf.getvalue()).decode()
-    im.save(buf, 'WEBP', quality=74)
+    im.save(buf, 'WEBP', quality=90)
     return 'data:image/webp;base64,' + base64.b64encode(buf.getvalue()).decode()
 
 def svg64(path):
@@ -94,6 +104,10 @@ h1,h2,h3{text-wrap:balance;margin:0}
 .tools input:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .tools span{font-size:13px;color:var(--muted)}
 .pgfoot{display:none}
+small.th{display:block;font-size:.8em;font-weight:500;color:var(--muted);white-space:nowrap;letter-spacing:0;text-transform:none}
+.card .ph{min-height:0}
+.card .ph img{width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}
+@media print{.card .ph{position:relative;height:auto!important;align-self:stretch}.card .ph img{position:absolute;inset:0}}
 @media print{
  @page{size:A4;margin:0}
  body{background:#fff;padding:0;font-size:var(--t0)}
@@ -143,6 +157,7 @@ tr.g td::before{content:'';display:inline-block;width:var(--s2);height:var(--s2)
 td.n{font-weight:700;color:var(--navy);white-space:nowrap}
 td.n small{display:block;font-weight:500;color:var(--muted);font-size:12px}
 td.sv{color:var(--accent)}
+small.th{display:block;font-size:.8em;font-weight:500;color:var(--muted);white-space:nowrap}
 td.p{font-weight:700;white-space:nowrap;font-variant-numeric:tabular-nums}
 td.s{color:var(--muted);width:2.5em}
 .flag{color:#b4232c;font-weight:700}
@@ -172,7 +187,7 @@ td.q{white-space:nowrap}
                     cells += f'<td class="q">{e(qc)}</td><td class="q">{e(dt)}</td>'
                     if first:
                         cells += f'<td rowspan="{n}">{e(s["cd"])}</td>'
-                    cells += f'<td class="p r">{money(gia)}</td><td class="p r sv">{money(si(gia))}</td>'
+                    cells += f'<td class="p r">{money(gia)}</td><td class="p r sv">{money(si(gia))}{thung_html(gia, dt)}</td>'
                     rows.append(f'<tr data-k="{k}">{cells}</tr>')
         pages.append(f"""<section class="page" id="bang-{b['id'].lower()}">
 <header class="hd"><div><img src="{logo}" alt="Noben"><div class="co"><b>CÔNG TY TNHH NOBEN</b><br>
@@ -181,7 +196,7 @@ td.q{white-space:nowrap}
 <div class="ttl"><h1>{e(b['ten'])}</h1><p>{e(b['hieu_luc'])}</p></div></header>
 <div class="tw"><table><thead><tr><th>STT</th><th>Tên sản phẩm</th><th>Quy cách</th><th>Đóng thùng</th><th>Công dụng</th><th class="r">Giá lẻ (đ)</th><th class="r">Giá sỉ (đ)</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>
-<p class="note">Đơn vị: đồng Việt Nam. Giá sỉ = giá lẻ trừ 30%, làm tròn đến 1.000đ. Dấu <span class="flag">*</span>: số liệu cần đối chiếu lại bản gốc. Liên hệ để được tư vấn sử dụng và chính sách đại lý.</p>
+<p class="note">Đơn vị: đồng Việt Nam. Giá sỉ = giá lẻ trừ 30%, làm tròn đến 1.000đ. Dòng nhỏ dưới giá sỉ = giá nguyên thùng (giá sỉ × số đơn vị/thùng). Dấu <span class="flag">*</span>: số liệu cần đối chiếu lại bản gốc. Liên hệ để được tư vấn sử dụng và chính sách đại lý.</p>
 </section>""")
     nav = ' · '.join(f'<a href="#bang-{b["id"].lower()}">{e(b["ten"].title())}</a>' for b in GIA['bang'])
     doc = f"""<title>Bảng giá Noben 2026</title>
@@ -341,7 +356,7 @@ Giá in trong catalogue lấy đúng theo 3 bảng giá hiệu lực từ {NGAY}
             for sp in it['gia']:
                 lab = f'<i>{e(sp["phu"])}</i>' if sp.get('phu') else ''
                 for qc, dt, gia in sp['v']:
-                    li.append(f'<li><em>{BANG_TAG[sp["_b"]]}</em><span>{lab}{e(qc)} · {e(dt)}</span><b class="num">{money(gia)}</b><b class="num sv">{money(si(gia))}</b></li>')
+                    li.append(f'<li><em>{BANG_TAG[sp["_b"]]}</em><span>{lab}{e(qc)} · {e(dt)}</span><b class="num">{money(gia)}</b><b class="num sv">{money(si(gia))}{thung_html(gia, dt)}</b></li>')
             pb = f'<ul class="pr g"><li class="h"><em></em><span>Quy cách</span><b>Lẻ (đ)</b><b>Sỉ (đ)</b></li>{"".join(li)}</ul>'
             rows.append(('Noben', c['name'], it['ten'], tag, '; '.join(uses), reg.get('code', ''), reg.get('tccs', ''), ', '.join(dict.fromkeys(BANG_TAG[sp['_b']] for sp in it['gia'])), it['gia']))
             regt = ' · '.join(x for x in [f"Mã số {reg['code']}" if reg.get('code') else '', f"TCCS {reg['tccs']}" if reg.get('tccs') else ''] if x)
@@ -366,13 +381,30 @@ Giá in trong catalogue lấy đúng theo 3 bảng giá hiệu lực từ {NGAY}
 # =====================================================================
 # 3. CATALOGUE THỦY SẢN TÍM
 # =====================================================================
-def tim_pb(ten, hotline):
-    """Giá Tím = giá trong bảng giá Noben của sản phẩm cùng tên."""
+def tim_pb(ten, hotline, qc_tim=''):
+    """Giá Tím = giá trong bảng giá Noben của sản phẩm cùng tên; ưu tiên đúng quy cách của Tím (tìm cả 3 bảng)."""
     _, sps = tim_gia(ten)
+    q = norm(qc_tim.split(',')[0]) if qc_tim else ''
+    if q:
+        keys = [norm(ten)] + ALIAS.get(norm(ten), [])
+        hit = [dict(sp, v=[x for x in sp['v'] if norm(x[0]) == q]) for bid in UU_TIEN for k in keys for sp in IDX.get((bid, k), [])]
+        hit = [sp for sp in hit if sp['v']]
+        if hit: sps = hit[:1]
     if not sps:
         return f'<div class="ask"><span>Giá bán</span><b>Liên hệ báo giá · {e(hotline)}</b></div>'
-    li = ''.join(f'<li><span>{e(qc)} · {e(dt)}</span><b class="num">{money(v)}</b><b class="num sv">{money(si(v))}</b></li>' for sp in sps for qc, dt, v in sp['v'])
+    li = ''.join(f'<li><span>{e(qc)} · {e(dt)}</span><b class="num">{money(v)}</b><b class="num sv">{money(si(v))}{thung_html(v, dt)}</b></li>' for sp in sps for qc, dt, v in sp['v'])
     return f'<div class="pz"><ul><li class="h"><span>Giá bán</span><b>Lẻ (đ)</b><b>Sỉ (đ)</b></li>{li}</ul></div>'
+
+TIM_QC = {'ben-bkc': 'Chai 1 lít'}   # quy cách bổ sung cho SP Tím còn trống
+
+def TIM_SPS(s):
+    """Các dòng giá dùng cho SP Tím (giống tim_pb)."""
+    _, sps = tim_gia(s['ten'])
+    q = norm(s.get('quy_cach', '').split(',')[0])
+    keys = [norm(s['ten'])] + ALIAS.get(norm(s['ten']), [])
+    hit = [dict(sp, v=[x for x in sp['v'] if norm(x[0]) == q]) for bid in UU_TIEN for k in keys for sp in IDX.get((bid, k), [])] if q else []
+    hit = [sp for sp in hit if sp['v']]
+    return hit[:1] or sps
 
 def build_tim():
     css = BASE_CSS + """
@@ -436,12 +468,13 @@ def build_tim():
         items = [s for s in sps if s['nhom'] == slug]
         cards = []
         for s in items:
+            if not s.get('quy_cach') and s['slug'] in TIM_QC: s = dict(s, quy_cach=TIM_QC[s['slug']])
             cut = ROOT / f"assets/tim-cutout/{s['slug']}.webp"
             img = img64(cut if cut.exists() else TIM / f"public/img/products/{s['slug']}.webp", bg='#fdfcff')
             cd = s.get('cong_dung', [])[:3]
             tp = [t for t in s.get('thanh_phan', [])][:4]
             hd = s.get('huong_dan', [])[:2]
-            rows.append(('Thủy Sản Tím', name, s['ten'], s.get('phu_de', ''), '; '.join(s.get('cong_dung', [])), s.get('ma_so', ''), s.get('tccs', ''), tim_gia(s['ten'])[0] or '', (s.get('quy_cach', ''), tim_gia(s['ten'])[1])))
+            rows.append(('Thủy Sản Tím', name, s['ten'], s.get('phu_de', ''), '; '.join(s.get('cong_dung', [])), s.get('ma_so', ''), s.get('tccs', ''), tim_gia(s['ten'])[0] or '', (s.get('quy_cach', ''), TIM_SPS(s))))
             cards.append(f"""<article class="card" style="--c:{e(s.get('mau','#5b3aa6'))}" data-k="{key(s['ten'], s.get('phu_de',''), ' '.join(s.get('cong_dung',[])), ' '.join(s.get('nhan_phu',[])))}">
 <div class="ph">{f'<img src="{img}" alt="{e(s["ten"])}" loading="lazy">' if img else ''}</div>
 <div class="tx"><h3>{e(s['ten'])}</h3><div class="sub">{e(s.get('phu_de',''))}</div>
@@ -449,7 +482,7 @@ def build_tim():
 <div class="cols"><div class="blk"><b>Công dụng</b><ul>{''.join(f'<li>{e(x)}</li>' for x in cd)}</ul></div>
 <div class="blk"><b>Thành phần</b><ul>{''.join(f'<li>{e(x)}</li>' for x in tp)}</ul></div></div>
 <dl class="meta">{f'<dt>Quy cách</dt><dd>{e(s["quy_cach"])}</dd>' if s.get('quy_cach') else ''}<dt>Mã số</dt><dd>{e(s.get('ma_so') or 'Đang cập nhật')}</dd><dt>TCCS</dt><dd>{e(s.get('tccs',''))}</dd></dl>
-{tim_pb(s['ten'], pp['hotline'])}</div></article>""")
+{tim_pb(s['ten'], pp['hotline'], s.get('quy_cach', ''))}</div></article>""")
         for i in range(0, len(cards), 3):
             head = f'<div class="sec-h"><h2>{e(name)}</h2><small>{len(items)} sản phẩm</small></div>'
             pages.append(f'<section class="page" data-sec>{head}<div class="grid">{"".join(cards[i:i+3])}</div>'
@@ -486,13 +519,13 @@ def build_excel(noben_rows, tim_rows):
     fr = 2
     for b in GIA['bang']:
         ws = wb.create_sheet({'A': 'Bang gia Noben 2026', 'T': 'Bang gia Tom 02-03', 'B': 'Bao gia Noben (B)'}[b['id']])
-        ws.merge_cells('A1:G1'); ws['A1'] = 'CÔNG TY TNHH NOBEN · ' + b['ten']; ws['A1'].font = Font(bold=True, size=16, color=navy)
-        ws.merge_cells('A2:G2'); ws['A2'] = b['hieu_luc']; ws['A2'].font = Font(italic=True, color='5B6A80')
-        ws.merge_cells('A3:G3'); ws['A3'] = '228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP.HCM · ĐT 028 3796 6039 · Hotline 0911 88 39 79'
-        head(ws, 5, ['STT', 'Tên sản phẩm', 'Quy cách', 'Đóng thùng', 'Công dụng', 'Giá lẻ (đ)', 'Giá sỉ -30% (đ)'])
+        ws.merge_cells('A1:H1'); ws['A1'] = 'CÔNG TY TNHH NOBEN · ' + b['ten']; ws['A1'].font = Font(bold=True, size=16, color=navy)
+        ws.merge_cells('A2:H2'); ws['A2'] = b['hieu_luc']; ws['A2'].font = Font(italic=True, color='5B6A80')
+        ws.merge_cells('A3:H3'); ws['A3'] = '228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP.HCM · ĐT 028 3796 6039 · Hotline 0911 88 39 79'
+        head(ws, 5, ['STT', 'Tên sản phẩm', 'Quy cách', 'Đóng thùng', 'Công dụng', 'Giá lẻ (đ)', 'Giá sỉ -30% (đ)', 'Giá nguyên thùng (sỉ)'])
         r = 6
         for g in b['nhom']:
-            ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=7)
+            ws.merge_cells(start_row=r, start_column=1, end_row=r, end_column=8)
             c = ws.cell(r, 1, g['ten'].upper()); c.font = Font(bold=True, color=navy); c.fill = PatternFill('solid', fgColor=band)
             r += 1
             for s in g['sp']:
@@ -505,7 +538,9 @@ def build_excel(noben_rows, tim_rows):
                     ws.cell(r, 3, qc); ws.cell(r, 4, dt)
                     p = ws.cell(r, 6, gia); p.number_format = '#,##0'; p.font = Font(bold=True)
                     q = ws.cell(r, 7, f'=ROUND(F{r}*(1-{CHIET_KHAU_SI}),-3)'); q.number_format = '#,##0'; q.font = Font(bold=True, color='1B4DB1')
-                    for col in range(1, 8):
+                    if gia_thung(gia, dt):
+                        t = ws.cell(r, 8, f'=G{r}*{so_thung(dt)}'); t.number_format = '#,##0'
+                    for col in range(1, 9):
                         ws.cell(r, col).border = B; ws.cell(r, col).alignment = Alignment(vertical='top', wrap_text=True)
                     flat.append([b['ten'], g['ten'], s['stt'], s['ten'], s.get('phu', ''), qc, dt, gia, f'=ROUND(H{fr}*(1-{CHIET_KHAU_SI}),-3)', s['cd'], 'Có' if s.get('kiem') else ''])
                     flat.cell(fr, 8).number_format = '#,##0'; flat.cell(fr, 9).number_format = '#,##0'; fr += 1
@@ -514,7 +549,7 @@ def build_excel(noben_rows, tim_rows):
                     for col in (1, 2, 5):
                         ws.merge_cells(start_row=start, start_column=col, end_row=r - 1, end_column=col)
         ws.cell(r + 1, 1, 'Đơn vị: đồng. Giá sỉ = giá lẻ - 30% (sửa % ở công thức cột G). Dấu *: số liệu cần đối chiếu bản gốc.').font = Font(italic=True, color='5B6A80')
-        widths(ws, [6, 30, 14, 16, 62, 14, 15]); ws.freeze_panes = 'A6'
+        widths(ws, [6, 30, 14, 16, 62, 14, 15, 17]); ws.freeze_panes = 'A6'
         ws.page_setup.orientation = 'portrait'; ws.page_setup.fitToWidth = 1; ws.page_setup.fitToHeight = 0
         ws.sheet_properties.pageSetUpPr.fitToPage = True; ws.print_title_rows = '5:5'
     widths(flat, [28, 30, 6, 26, 18, 14, 16, 14, 15, 70, 10]); flat.freeze_panes = 'A2'; flat.auto_filter.ref = f'A1:K{fr-1}'
@@ -530,11 +565,11 @@ def build_excel(noben_rows, tim_rows):
         for i, row in enumerate(rows, 1):
             brand, nhom, ten, tag, cd, ma, tccs, bid, extra = row
             if title == 'Noben':
-                gia = '; '.join(f"[{BANG_TAG[s['_b']]}] {qc} ({dt}): {money(v)} / sỉ {money(si(v))}" for s in extra for qc, dt, v in s['v']).replace(': ', ': lẻ ')
+                gia = '; '.join(f"[{BANG_TAG[s['_b']]}] {qc} ({dt}): {money(v)} / sỉ {money(si(v))}" + (f" / thùng {money(gia_thung(v, dt))}" if gia_thung(v, dt) else '') for s in extra for qc, dt, v in s['v']).replace(': ', ': lẻ ')
                 ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, bid, gia])
             else:
                 qcs, sps = extra
-                gia = '; '.join(f"{qc} ({dt}): lẻ {money(v)} / sỉ {money(si(v))}" for sp in sps for qc, dt, v in sp['v']) or 'Liên hệ báo giá'
+                gia = '; '.join(f"{qc} ({dt}): lẻ {money(v)} / sỉ {money(si(v))}" + (f" / thùng {money(gia_thung(v, dt))}" if gia_thung(v, dt) else '') for sp in sps for qc, dt, v in sp['v']) or 'Liên hệ báo giá'
                 ws.append([i, brand, nhom, ten, tag, cd, ma, tccs, qcs, gia])
             for col in range(1, len(cols) + 1):
                 ws.cell(i + 1, col).alignment = Alignment(vertical='top', wrap_text=True); ws.cell(i + 1, col).border = B

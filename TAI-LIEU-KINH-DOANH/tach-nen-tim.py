@@ -8,5 +8,5 @@ s = new_session('isnet-general-use')
 for f in sorted(SRC.glob('*.webp')):
     im = remove(Image.open(f).convert('RGB'), session=s, post_process_mask=True)
     im = im.crop(im.getbbox())
-    im.thumbnail((760, 760)); im.save(OUT / f.name, 'WEBP', quality=86)
+    im.save(OUT / f.name, 'WEBP', quality=92, method=6)
     print(f.name, im.size)
