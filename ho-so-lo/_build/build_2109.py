@@ -14,27 +14,27 @@ NGAY, NGAY_HSD, DDMMYY = "21/09/2026", "21/09/2028", "210926"
 
 # Thứ tự theo giờ bắt đầu trong hồ sơ lô (2 đội chạy song song)
 SP = [
- dict(ten="C MAX 25%", hq="47", doi="bot", qc="HŨ 1KG", sl="30 HŨ", luu=("Gói lưu mẫu: túi 100g", "1"), kl_luu="100G",
+ dict(ten="C MAX 25%", hq="47", doi="bot", qc="HŨ 1KG", sl="30 Hũ", luu=("Gói lưu mẫu: túi 100g", "1"), kl_luu="100G",
       nl=[("ASCORBIC ACID (Vitamin C)", "0,94 kg", ""), ("Dextrose monohydrate", "29,16 kg", ""),
           ("Hũ 1kg", "", "30 cái"), ("Túi PE 1kg", "", "30 cái"), ("Túi lưu mẫu 100g", "", "1 cái"),
           ("Thùng chứa", "", "2 cái"), ("Nhãn C MAX 25% – 1 KG", "", "32 cái")]),
- dict(ten="YUCCA 99", hq="43", doi="nuoc", qc="CHAI 1 LÍT", sl="100 CHAI", luu=("Chai lưu mẫu: chai 100ml", "1"), kl_luu="100ML",
+ dict(ten="YUCCA 99", hq="43", doi="nuoc", qc="CHAI 1 LÍT", sl="100 Chai", luu=("Chai lưu mẫu: chai 100ml", "1"), kl_luu="100ML",
       nl=[("DK Yucca Liquid", "33,3 kg", ""), ("Nước lọc (RO) vừa đủ", "100,1 lít", ""),
           ("Chai BVT2 – 1 lít", "", "100 bộ"), ("Chai 100ml", "", "1 bộ"),
           ("Thùng chứa", "", "5 cái"), ("Nhãn YUCCA 99 – 1 LÍT", "", "105 cái")]),
- dict(ten="BZT", hq="38", doi="bot", qc="GÓI 500G", sl="20 GÓI", luu=("Gói lưu mẫu: túi 100g", "1"), kl_luu="100G",
+ dict(ten="BZT", hq="38", doi="bot", qc="GÓI 500G", sl="20 Gói", luu=("Gói lưu mẫu: túi 100g", "1"), kl_luu="100G",
       nl=[("BACILLUS SUBTILIS (OKT1816)", "1,02 kg", ""), ("Dextrose monohydrate", "9,08 kg", ""),
           ("Túi PE 500g", "", "20 cái"), ("Túi lưu mẫu 100g", "", "1 cái"),
           ("Thùng chứa", "", "1 cái"), ("Nhãn BZT – 500 G", "", "21 cái")]),
- dict(ten="IODINE 99", hq="09", doi="nuoc", qc="CHAI 1 LÍT", sl="15 CHAI", luu=("Chai lưu mẫu: chai 100ml", "1"), kl_luu="100ML",
+ dict(ten="IODINE 99", hq="09", doi="nuoc", qc="CHAI 1 LÍT", sl="15 Chai", luu=("Chai lưu mẫu: chai 100ml", "1"), kl_luu="100ML",
       nl=[("PVP Iodine", "1,8 kg", ""), ("Nước lọc (RO) vừa đủ", "15,1 lít", ""),
           ("Chai TT-01 – 1 lít", "", "15 bộ"), ("Chai 100ml", "", "1 bộ"),
           ("Thùng chứa", "", "1 cái"), ("Nhãn IODINE 99 – 1 LÍT", "", "16 cái")]),
- dict(ten="EDTA 99", hq="10", doi="bot", qc="GÓI 3KG", sl="70 GÓI", luu=("Gói lưu mẫu: túi 100g", "1"), kl_luu="100G",
+ dict(ten="EDTA 99", hq="10", doi="bot", qc="GÓI 3KG", sl="70 Gói", luu=("Gói lưu mẫu: túi 100g", "1"), kl_luu="100G",
       nl=[("EDTA 4Na", "2,1 kg", ""), ("Dextrose monohydrate", "208,0 kg", ""),
           ("Túi 3kg", "", "70 cái"), ("Túi lưu mẫu 100g", "", "1 cái"),
           ("Thùng chứa", "", "7 cái"), ("Nhãn EDTA 99 – 3 KG", "", "77 cái")]),
- dict(ten="BEN COPPER 500", hq="20", doi="nuoc", qc="CHAI 250ML", sl="15 CHAI", luu=("Chai lưu mẫu: chai 100ml", "1"), kl_luu="100ML",
+ dict(ten="BEN COPPER 500", hq="20", doi="nuoc", qc="CHAI 250ML", sl="15 Chai", luu=("Chai lưu mẫu: chai 100ml", "1"), kl_luu="100ML",
       nl=[("CuSO4.5H2O", "60,8 g", ""), ("Nước lọc (RO) vừa đủ", "3,85 lít", ""),
           ("Chai 250ml", "", "15 bộ"), ("Chai 100ml", "", "1 bộ"),
           ("Thùng chứa", "", "1 cái"), ("Nhãn BEN COPPER 500 – 250 ML", "", "16 cái")]),
@@ -43,11 +43,11 @@ for s in SP: s["lo"] = f'{s["hq"]}-{DDMMYY}'
 
 # Bảng kê chi tiết HĐ đã sử dụng 30/9–31/10/2026 (gộp theo ngày + khách)
 BANG_KE = [
- ("02/10/2026", "Công Ty TNHH Công Nghệ Nuôi 45", [("BEN COPPER 500", "15 CHAI")]),
- ("13/10/2026", "HỘ KINH DOANH ÔNG NGỌC LỘC", [("EDTA 99", "70 GÓI")]),
- ("23/10/2026", "Dương Thị Mỹ Hương", [("YUCCA 99", "40 CHAI"), ("C MAX 25%", "30 HŨ")]),
- ("28/10/2026", "HỘ KINH DOANH KHỞI ÂN", [("IODINE 99", "15 CHAI"), ("BZT", "20 GÓI"), ("YUCCA 99", "20 CHAI")]),
- ("29/10/2026", "ĐẶNG CƯƠNG TRỰC - CƠ SỞ: PHI GIAO", [("YUCCA 99", "20 CHAI")]),
+ ("02/10/2026", "Công Ty TNHH Công Nghệ Nuôi 45", [("BEN COPPER 500", "15 Chai")]),
+ ("13/10/2026", "HỘ KINH DOANH ÔNG NGỌC LỘC", [("EDTA 99", "70 Gói")]),
+ ("23/10/2026", "Dương Thị Mỹ Hương", [("YUCCA 99", "40 Chai"), ("C MAX 25%", "30 Hũ")]),
+ ("28/10/2026", "HỘ KINH DOANH KHỞI ÂN", [("IODINE 99", "15 Chai"), ("BZT", "20 Gói"), ("YUCCA 99", "20 Chai")]),
+ ("29/10/2026", "ĐẶNG CƯƠNG TRỰC - CƠ SỞ: PHI GIAO", [("YUCCA 99", "20 Chai")]),
 ]
 
 # ---------- tiện ích ----------
