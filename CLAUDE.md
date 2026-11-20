@@ -24,4 +24,5 @@ Bản đầy đủ chạy trên máy (đồ thị kiến thức, công cụ, gi�
 - Kích thước bao bì lấy ở ho-so-lo/du-lieu/Kich-thuoc-bao-bi.xls và Kich-thuoc-bao-bi-bo-sung.csv (bao bì chưa có trong file thì hỏi lại, không tự điền).
 - Biểu mẫu rác nguy hại: ngày SX trên 100 sản phẩm mới có rác giẻ lau (0,2 kg), từ 100 trở xuống không có; rác bao bì nhựa cứng (rắn) = 1 kg cho mỗi 5 sản phẩm SX trong ngày.
 - Bộ biểu mẫu 12 quy định (ho-so-lo/bieu-mau-12-quy-dinh/) ghép cùng hồ sơ lô thành 1 bộ theo ngày sản xuất.
+- Xuất mỗi lô 1 file Word nối liền, không ngắt trang, không dòng trống: hồ sơ lô → lệnh SX của lô → phiếu QD7 → tem mẫu lưu → biểu mẫu 2–12 (mẫu đã duyệt: ho-so-lo/HO-SO-21.09.2026/6-Moi-lo-1-file/; script ho-so-lo/_build/lam_bo_2109.sh).
 - Định dạng Word: bảng cùng bề rộng vùng chữ, cột chia theo φ, không bảng nổi, không khung chữ nổi; chỉ xuất Word khi được yêu cầu; làm 1 bản xem thử, được duyệt mới xuất hàng loạt.
