@@ -30,13 +30,14 @@ def copy_rels(el, src_part, dst_part):
                 node.set(a, dst_part.relate_to(rel.target_part, rel.reltype))
 
 NGAT = "--ngat-trang" in sys.argv  # mỗi file bắt đầu trang mới
+LIEN = "--lien" in sys.argv  # các file nối liền, không chèn đoạn trống
 def blank_par():
     p = OxmlElement('w:p')
     if NGAT:
         r = OxmlElement('w:r'); br = OxmlElement('w:br'); br.set(qn('w:type'), 'page'); r.append(br); p.append(r)
     return p
 
-args = [a for a in sys.argv[1:] if a != "--ngat-trang"]
+args = [a for a in sys.argv[1:] if not a.startswith("--")]
 out, files = args[0], args[1:]
 base = docx.Document(files[0])
 body = base.element.body
@@ -79,7 +80,24 @@ for k, f in enumerate(files):
         c = copy.deepcopy(e)
         for sp in c.iter(qn('w:sectPr')): sp.getparent().remove(sp)
         copy_rels(c, d.part, base.part); doi_style(c, pre); blocks.append(c)
-    if k: sect.addprevious(blank_par())
+    if k and not LIEN: sect.addprevious(blank_par())
     for c in blocks: sect.addprevious(c)
+if LIEN:
+    # khung tiêu đề đầu tiên nối liền bảng kế tiếp (bỏ đoạn trống ở giữa)
+    els = list(body)
+    t0 = next(i for i, e in enumerate(els) if e.tag == qn('w:tbl'))
+    j = t0 + 1
+    while j < len(els) and els[j].tag == qn('w:p') and not ''.join(t.text or '' for t in els[j].iter(qn('w:t'))).strip():
+        j += 1
+    if j < len(els) and els[j].tag == qn('w:tbl'):
+        for e in els[t0 + 1:j]: body.remove(e)
+# khung chữ: chỉ giữ 1 bản (bỏ bản dự phòng) để không hiện trùng chữ
+MC = '{http://schemas.openxmlformats.org/markup-compatibility/2006}'
+for ac in list(body.iter(MC + 'AlternateContent')):
+    ch = ac.find(MC + 'Choice')
+    if ch is not None:
+        par = ac.getparent(); i = list(par).index(ac)
+        for c in list(ch): par.insert(i, c); i += 1
+        par.remove(ac)
 base.save(out)
 print("gộp", len(files), "biểu mẫu ->", out)

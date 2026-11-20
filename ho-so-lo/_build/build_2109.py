@@ -230,6 +230,9 @@ def bieu_mau(src_dir):
         if f.startswith("8."):
             extra = [("MIRAL N.8; PREMIX KHOÁNG NEW, SUPER CAL; EDTA 99; BZT; PRAWNZYME", "; ".join(s["ten"] for s in bot)),
                      ("AMINOVIT; CANCI MILK; F.X ORGANIC; F.X ENZYME; LIVER-MAX; NO TOXIN; BEN MKC 4000", "; ".join(s["ten"] for s in nuoc))]
+        if f.startswith("12."):  # tiêu đề cột theo bản anh chủ đã sửa
+            extra = [("TRẠNG THÁI( RẮN/ ƯỚT)", "TRẠNG THÁI  (RẮN/ ƯỚT)"), ("Trạng thái( Rắn/lỏng)", "Trạng thái  (Rắn/lỏng)"),
+                     ("Số lượng(kg)", "Số lượng (kg)")]
         replace_all(b, extra + DATE_PAIRS)
         if f.startswith("8."):  # giờ kết thúc theo hồ sơ lô: bột 9h50, nước 9h15
             ps = [p for p in b.iter(qn('w:p')) if ptext(p).startswith("Giờ kết thúc sản xuất")]
