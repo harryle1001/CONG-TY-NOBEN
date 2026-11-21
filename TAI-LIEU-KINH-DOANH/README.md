@@ -3,7 +3,7 @@
 | File | Nội dung |
 |---|---|
 | `BANG-GIA-NOBEN-2026.pdf / .xlsx / .html` | 3 bảng giá Noben hiệu lực 01/05/2026: Bảng giá Noben 2026 (A), Bảng giá Tôm 02-03 (T), Báo giá Noben (B). Excel có thêm sheet "Tong hop" lọc được. |
-| `CATALOGUE-NOBEN-2026.pdf / .html` | 74 sản phẩm = mọi tên có trong 3 bảng giá; giá đúng từng bảng (nhãn BG 2026 / BG Tôm / BG (B)); ảnh tách nền từ thuysannoben/public/images/products-cutout. |
+| `CATALOGUE-NOBEN-2026.pdf / .html` | 58 sản phẩm = các tên trong 3 bảng giá, trừ sản phẩm đã ẩn trên web (chưa có TCCS, ngoài danh mục, kháng sinh/ký sinh trùng); giá đúng từng bảng (nhãn BG 2026 / BG Tôm / BG (B)); ảnh tách nền từ thuysannoben/public/images/products-cutout. |
 | `CATALOGUE-THUY-SAN-TIM-2026.pdf / .html` | 15 sản phẩm Tím; SP trùng tên lấy giá theo bảng giá Noben (7 SP), còn lại "Liên hệ báo giá". |
 | `DANH-MUC-SAN-PHAM-NOBEN-TIM-2026.xlsx` | Danh mục 2 thương hiệu dạng bảng. |
 

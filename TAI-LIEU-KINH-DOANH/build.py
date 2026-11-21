@@ -174,7 +174,7 @@ td.q{white-space:nowrap}
         pages.append(f"""<section class="page" id="bang-{b['id'].lower()}">
 <header class="hd"><div><img src="{logo}" alt="Noben"><div class="co"><b>CÔNG TY TNHH NOBEN</b><br>
 228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP. Hồ Chí Minh<br>
-ĐT: 028 3796 6039 · Fax: 028 3796 6038 · Hotline: 0911 88 39 79<br>thuocthuysannoben@gmail.com · thuocthuysannoben.com</div></div>
+ĐT: 028 3796 6039 · Fax: 028 3796 6038 · Hotline: 0934 246 420<br>thuocthuysannoben@gmail.com · thuocthuysannoben.com</div></div>
 <div class="ttl"><h1>{e(b['ten'])}</h1><p>{e(b['hieu_luc'])}</p></div></header>
 <div class="tw"><table><thead><tr><th>STT</th><th>Tên sản phẩm</th><th>Quy cách</th><th>Đóng thùng</th><th>Công dụng</th><th class="r">Giá bán (đ)</th></tr></thead>
 <tbody>{''.join(rows)}</tbody></table></div>
@@ -197,9 +197,14 @@ BANG_TAG = {'A': 'BG 2026', 'T': 'BG Tôm', 'B': 'BG (B)'}
 MERGE = {'SUPERCUTALGA': 'SUPERCUTALGAE'}          # cùng sản phẩm, khác cách viết giữa các bảng
 CAT_OVERRIDE = {'TANGKIEM': 'khoang-chat', 'BLUEMAX': 'tri-benh', 'NBCLEARFORFISH': 'tri-benh'}
 
+HIDDEN_KEYS = set()
+
 def catalogue_items():
     """Mỗi tên trong 3 bảng giá = 1 thẻ; ghép ảnh/công dụng/mã số từ dữ liệu web nếu trùng tên."""
+    # Sản phẩm ẩn trên web (chưa có hồ sơ TCCS, không có trong danh mục, kháng sinh/ký sinh trùng) không đưa vào catalogue
+    hidden = set(re.findall(r"'([a-z0-9-]+)'", (NOBEN / 'src/hidden.js').read_text()))
     web = {norm(p['name']): p for p in NOBEN_SP}
+    HIDDEN_KEYS.update(k for k, p in web.items() if p['slug'] in hidden)
     back = {pk: wk for wk, pks in ALIAS.items() for pk in pks}
     items = {}
     for b in GIA['bang']:
@@ -208,6 +213,8 @@ def catalogue_items():
             for sp in g['sp']:
                 k = MERGE.get(norm(sp['ten']), norm(sp['ten']))
                 k = k if k in web else back.get(k, k)
+                if k in HIDDEN_KEYS:
+                    continue
                 w = web.get(k)
                 if k not in items:
                     cat = (w or {}).get('category') or CAT_OVERRIDE.get(k) or (
@@ -299,7 +306,7 @@ ul.pr li b{color:var(--navy);white-space:nowrap}
 <div><h1>Catalogue<br>sản phẩm <em>2026</em></h1>
 <p class="sub">{len(ITEMS)} sản phẩm thuốc thủy sản, chế phẩm sinh học, khoáng chất và thức ăn bổ sung cho tôm, cá. Sản xuất tại nhà máy Noben, Củ Chi, TP. Hồ Chí Minh.</p></div></div>
 <div class="bot"><div><b>Công ty TNHH Noben</b><p>{e(co['address'])}</p></div>
-<div><p>Hotline <b class="num" style="font-size:var(--t1);display:inline">0911 88 39 79</b><br>thuocthuysannoben.com</p></div></div></section>"""
+<div><p>Hotline <b class="num" style="font-size:var(--t1);display:inline">0934 246 420</b><br>thuocthuysannoben.com</p></div></div></section>"""
     toc = ''.join(f'<a href="#{c["slug"]}" style="--c:var(--c-{c["slug"]})"><b>{e(c["name"])}</b><span>{c["count"]} sản phẩm · {e(c["blurb"])}</span></a>' for c in cats)
     ov = co.get('overview') or []
     intro = f"""<section class="page"><div class="intro"><div><small style="color:var(--gold-d);font-weight:700;letter-spacing:.12em;font-size:12px">VỀ NOBEN</small>
@@ -309,7 +316,7 @@ ul.pr li b{color:var(--navy);white-space:nowrap}
 <div class="fact"><b class="num">{len(ITEMS)}</b><span>Sản phẩm trong bảng giá 2026</span></div>
 <div class="fact"><b>ISO 9001:2015</b><span>Hệ thống quản lý chất lượng</span></div></div></div>
 <nav class="toc">{toc}</nav>
-<p class="contact"><b>Liên hệ:</b> {e(co['address'])} · ĐT {' · '.join(e(p) for p in co.get('phones', []))} · {e(co.get('email',''))}<br>
+<p class="contact"><b>Liên hệ:</b> {e(co['address'])} · Hotline {e(co.get('hotline', '0934 246 420'))} · {e(co.get('email',''))}<br>
 Giá in trong catalogue lấy đúng theo 3 bảng giá hiệu lực từ {NGAY}: BG 2026 = Bảng giá Noben 2026, BG Tôm = Bảng giá tôm 02-03, BG (B) = Bảng báo giá Noben (B). Liên hệ để được tư vấn và chính sách đại lý.</p>
 <div class="pgfoot"><span>NOBEN · CATALOGUE 2026</span><span>2</span></div></section>"""
     pages, pg, rows = [], 3, []
@@ -480,7 +487,7 @@ def build_excel(noben_rows, tim_rows):
         ws = wb.create_sheet({'A': 'Bang gia Noben 2026', 'T': 'Bang gia Tom 02-03', 'B': 'Bao gia Noben (B)'}[b['id']])
         ws.merge_cells('A1:F1'); ws['A1'] = 'CÔNG TY TNHH NOBEN · ' + b['ten']; ws['A1'].font = Font(bold=True, size=16, color=navy)
         ws.merge_cells('A2:F2'); ws['A2'] = b['hieu_luc']; ws['A2'].font = Font(italic=True, color='5B6A80')
-        ws.merge_cells('A3:F3'); ws['A3'] = '228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP.HCM · ĐT 028 3796 6039 · Hotline 0911 88 39 79'
+        ws.merge_cells('A3:F3'); ws['A3'] = '228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP.HCM · ĐT 028 3796 6039 · Hotline 0934 246 420'
         head(ws, 5, ['STT', 'Tên sản phẩm', 'Quy cách', 'Đóng thùng', 'Công dụng', 'Giá bán (đ)'])
         r = 6
         for g in b['nhom']:
