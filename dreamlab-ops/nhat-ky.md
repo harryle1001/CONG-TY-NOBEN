@@ -77,3 +77,11 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - IG: https://www.instagram.com/p/Df8lzvBFnL2/
 - X: https://x.com/i/status/2123605268881723473
 - TikTok: https://www.tiktok.com/@ka.ka.shiii/video/7710074816652430610
+
+## 2026-11-21 (sáng, 07:40 VN)
+- Hôm qua xong: bài 3 lên đủ (IG https://www.instagram.com/reel/Df82rhARQ60/ · X https://x.com/i/status/2123650065373823317 · TikTok https://www.tiktok.com/@ka.ka.shiii/video/7710253176158571796); bài 4 lên đủ. Phiên khác gắn GA4/Google Ads qua track.js (1b6b1e4), thêm demo trang sức/xe sang concept.
+- Web live: trang chủ, blog, /en/, /ja/, sitemap, robots 200; không tràn ngang 390/1440px; không lộ φ/tỷ lệ vàng; không dấu xung đột. Lỗi console duy nhất là tài nguyên Google bị mạng phiên chặn (không phải lỗi web).
+- Bình luận: IG bài 4 = 0, TikTok bài 4 = 0 (10 credit).
+- Nháp chờ duyệt: bài 5 "Bán hàng 5 giai đoạn" postId 618c0cc9-4c0c-4473-ab69-f5006d7c7317 (rev 9714883b-b6850896-f320d1d7), carousel 10 ảnh: IG 22/11 12:00, X 12:30 (4 ảnh, không link, 5 credit), TikTok 21:00 (ảnh trượt, công khai, cho bình luận, đồng ý nhạc). Lịch gốc 24/11, đề xuất đẩy lên 22/11.
+- Giao việc: không giao phiên mới (web đang có phiên khác làm; tiết kiệm hạn mức).
+- Chờ chủ studio: duyệt bài 5; kiểm tra TikTok bài 3–4 công khai; Search Console; Page FB Dream Labs (đăng tay); đổi tên TikTok/X.
