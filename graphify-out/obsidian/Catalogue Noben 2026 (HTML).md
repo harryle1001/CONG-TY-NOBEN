@@ -11,7 +11,7 @@ tags:
 # Catalogue Noben 2026 (HTML)
 
 ## Connections
-- [[Công ty TNHH Noben (Catalogue)]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Nhóm Chế phẩm sinh học & hóa chất]] - `references` [EXTRACTED]
 - [[Nhóm Hỗ trợ xử lý bệnh, gây màu nước & diệt ốc]] - `references` [EXTRACTED]
 - [[Nhóm Khoáng chất]] - `references` [EXTRACTED]

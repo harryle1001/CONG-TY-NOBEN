@@ -21,7 +21,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Product Labeling Documentation]]
+- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
 
 ## Top bridge nodes
 - [[NB-SORBITOL B12 (Liver Function Support & Detox)]] - degree 2, connects to 1 community

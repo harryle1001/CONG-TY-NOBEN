@@ -14,6 +14,6 @@ tags:
 - [[Bảng Báo Giá 2026 – Noben (B)]] - `references` [EXTRACTED]
 - [[Bảng Giá Noben 2026 (Bảng A)]] - `references` [EXTRACTED]
 - [[Bảng Giá Tôm (Bảng 02-03)]] - `references` [EXTRACTED]
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/Aquaculture_Product_Pricing

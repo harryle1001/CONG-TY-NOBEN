@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "File System Automation"
+community: "re"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/re
 ---
 
 # unicodedata
@@ -15,8 +15,8 @@ tags:
 - [[_slug()]] - `calls` [EXTRACTED]
 - [[key()]] - `calls` [EXTRACTED]
 - [[memory.py]] - `imports` [EXTRACTED]
-- [[norm()_1]] - `calls` [EXTRACTED]
 - [[norm()]] - `calls` [EXTRACTED]
+- [[norm()_2]] - `calls` [EXTRACTED]
 - [[vault.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/File_System_Automation
+#graphify/concept #graphify/EXTRACTED #community/re

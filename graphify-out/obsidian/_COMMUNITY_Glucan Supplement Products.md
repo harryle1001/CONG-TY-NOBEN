@@ -22,7 +22,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Product Labeling Documentation]]
+- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
 
 ## Top bridge nodes
 - [[Beta 1.3-1.6 Glucan  Ben Glucan Plus]] - degree 3, connects to 1 community

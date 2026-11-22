@@ -1,11 +1,11 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-001549_1.jpg"
 type: "image"
-community: "Product Labeling Documentation"
+community: "TOP-WEIGH (Protein & Mineral Growth Booster)"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/Product_Labeling_Documentation
+  - community/TOP-WEIGH_Protein__Mineral_Growth_Booster
 ---
 
 # Product Label Image for TOP-WEIGH
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[TOP-WEIGH (Protein & Mineral Growth Booster)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/Product_Labeling_Documentation
+#graphify/image #graphify/EXTRACTED #community/TOP-WEIGH_Protein__Mineral_Growth_Booster

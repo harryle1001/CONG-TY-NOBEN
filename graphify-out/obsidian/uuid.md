@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Voice Processing Module"
+community: "google_auth.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Voice_Processing_Module
+  - community/google_authpy
 ---
 
 # uuid
@@ -14,4 +14,4 @@ tags:
 - [[listen()]] - `calls` [EXTRACTED]
 - [[voice.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Voice_Processing_Module
+#graphify/concept #graphify/EXTRACTED #community/google_authpy

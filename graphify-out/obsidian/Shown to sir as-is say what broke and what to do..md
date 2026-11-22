@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/google_auth.py"
 type: "rationale"
-community: "Google OAuth Integration"
+community: "google_auth.py"
 location: "L31"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Google_OAuth_Integration
+  - community/google_authpy
 ---
 
 # Shown to sir as-is: say what broke and what to do.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[GoogleError]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Google_OAuth_Integration
+#graphify/rationale #graphify/EXTRACTED #community/google_authpy

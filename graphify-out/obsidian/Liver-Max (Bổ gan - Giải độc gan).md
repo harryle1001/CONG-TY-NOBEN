@@ -11,7 +11,7 @@ tags:
 # Liver-Max (Bổ gan - Giải độc gan)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm Liver-Max - Mẫu 1 (Mã tiếp nhận 01-001528)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm Liver-Max - Mẫu 2 (Mã tiếp nhận 01-001528)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm Liver-Max F.X Support Việt Nga (Mã tiếp nhận 01-001528)]] - `references` [EXTRACTED]

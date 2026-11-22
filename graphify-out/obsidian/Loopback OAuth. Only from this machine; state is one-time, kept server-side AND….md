@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/main.py"
 type: "rationale"
-community: "HTTP Request Handling"
+community: "google_auth.py"
 location: "L126"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/HTTP_Request_Handling
+  - community/google_authpy
 ---
 
 # Loopback OAuth. Only from this machine; state is one-time, kept server-side AND…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[dot-_google()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/HTTP_Request_Handling
+#graphify/rationale #graphify/EXTRACTED #community/google_authpy

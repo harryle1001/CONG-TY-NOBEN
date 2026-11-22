@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "File System Automation"
+community: "re"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/re
 ---
 
 # zipfile
@@ -14,4 +14,4 @@ tags:
 - [[agentdata.py]] - `imports` [EXTRACTED]
 - [[fixtpl.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/File_System_Automation
+#graphify/concept #graphify/EXTRACTED #community/re

@@ -1,16 +1,16 @@
 ---
 source_file: ""
 type: "code"
-community: "LLM Integration Layer"
+community: "google_auth.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/LLM_Integration_Layer
+  - community/google_authpy
 ---
 
 # Exception
 
 ## Connections
-- [[ModelError]] - `inherits` [EXTRACTED]
+- [[GoogleError]] - `inherits` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/LLM_Integration_Layer
+#graphify/code #graphify/EXTRACTED #community/google_authpy

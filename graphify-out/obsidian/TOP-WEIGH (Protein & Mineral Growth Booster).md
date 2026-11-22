@@ -1,17 +1,17 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-001549_1.jpg"
 type: "concept"
-community: "Product Labeling Documentation"
+community: "TOP-WEIGH (Protein & Mineral Growth Booster)"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Product_Labeling_Documentation
+  - community/TOP-WEIGH_Protein__Mineral_Growth_Booster
 ---
 
 # TOP-WEIGH (Protein & Mineral Growth Booster)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Product Label Image for TOP-WEIGH]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Product_Labeling_Documentation
+#graphify/concept #graphify/EXTRACTED #community/TOP-WEIGH_Protein__Mineral_Growth_Booster

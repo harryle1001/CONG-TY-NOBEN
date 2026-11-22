@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/tests/fake_google.py"
 type: "code"
-community: "Local Server Infrastructure"
+community: "google_auth.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Local_Server_Infrastructure
+  - community/google_authpy
 ---
 
 # fake_google.py
@@ -26,4 +26,4 @@ tags:
 - [[time]] - `imports` [EXTRACTED]
 - [[urllib_parse]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Local_Server_Infrastructure
+#graphify/code #graphify/EXTRACTED #community/google_authpy

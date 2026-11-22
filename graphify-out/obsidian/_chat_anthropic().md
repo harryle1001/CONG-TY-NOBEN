@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/llm.py"
 type: "code"
-community: "LLM Integration Layer"
+community: "google_auth.py"
 location: "L54"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/LLM_Integration_Layer
+  - community/google_authpy
 ---
 
 # _chat_anthropic()
@@ -16,4 +16,4 @@ tags:
 - [[json]] - `calls` [EXTRACTED]
 - [[llm.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/LLM_Integration_Layer
+#graphify/code #graphify/EXTRACTED #community/google_authpy

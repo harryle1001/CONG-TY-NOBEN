@@ -11,7 +11,7 @@ tags:
 # ProticBest (Probiotic Digestive Supplement for Aquatic Animals)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Product Label Image for ProticBest]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/ProticBest_Digestive_Supplement_Label

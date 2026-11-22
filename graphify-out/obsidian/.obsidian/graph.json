@@ -8,7 +8,7 @@
       }
     },
     {
-      "query": "tag:#community/File_System_Automation",
+      "query": "tag:#community/TAI-LIEU-KINH-DOANH/buildpy",
       "color": {
         "a": 1,
         "rgb": 15896107
@@ -85,7 +85,7 @@
       }
     },
     {
-      "query": "tag:#community/LLM_Integration_Layer",
+      "query": "tag:#community/google_authpy",
       "color": {
         "a": 1,
         "rgb": 14767961
@@ -99,7 +99,7 @@
       }
     },
     {
-      "query": "tag:#community/Google_OAuth_Integration",
+      "query": "tag:#community/SORBEST",
       "color": {
         "a": 1,
         "rgb": 5873999
@@ -134,7 +134,7 @@
       }
     },
     {
-      "query": "tag:#community/Product_Labeling_Documentation",
+      "query": "tag:#community/BZ_99_B\u1ed5_sung_l\u1ee3i_khu\u1ea9n",
       "color": {
         "a": 1,
         "rgb": 12234924
@@ -148,7 +148,7 @@
       }
     },
     {
-      "query": "tag:#community/Local_Server_Infrastructure",
+      "query": "tag:#community/tach-nen-timpy",
       "color": {
         "a": 1,
         "rgb": 15896107
@@ -169,14 +169,14 @@
       }
     },
     {
-      "query": "tag:#community/Email_Inbox_Management",
+      "query": "tag:#community/_gmail_body",
       "color": {
         "a": 1,
         "rgb": 5873999
       }
     },
     {
-      "query": "tag:#community/Calendar_Integration_Service",
+      "query": "tag:#community/google_source",
       "color": {
         "a": 1,
         "rgb": 15583560
@@ -197,14 +197,14 @@
       }
     },
     {
-      "query": "tag:#community/HTTP_Request_Handling",
+      "query": "tag:#community/re",
       "color": {
         "a": 1,
         "rgb": 10253663
       }
     },
     {
-      "query": "tag:#community/Voice_Processing_Module",
+      "query": "tag:#community/Hi-Weigh_B\u1ed5_sung_\u0111\u1ea1m_vitamin_kho\u00e1ng_ch\u1ea5t",
       "color": {
         "a": 1,
         "rgb": 12234924
@@ -232,7 +232,7 @@
       }
     },
     {
-      "query": "tag:#community/PDF_Processing_Utilities",
+      "query": "tag:#community/Aminovit_HUFA_K\u1ebft_d\u00ednh__T\u0103ng_tr\u1ecdng",
       "color": {
         "a": 1,
         "rgb": 7780274
@@ -2021,6 +2021,20 @@
       "color": {
         "a": 1,
         "rgb": 10253663
+      }
+    },
+    {
+      "query": "tag:#community/TOP-WEIGH_Protein__Mineral_Growth_Booster",
+      "color": {
+        "a": 1,
+        "rgb": 12234924
+      }
+    },
+    {
+      "query": "tag:#community/DAVI_CID_LIQUID_Organic_Acid_Gut__Disease_Support",
+      "color": {
+        "a": 1,
+        "rgb": 5142951
       }
     }
   ]

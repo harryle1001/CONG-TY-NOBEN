@@ -11,7 +11,7 @@ tags:
 # CALPHOTE (Shell Hardening & Mineral Supplement)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Product Label Image for CALPHOTE]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/CALPHOTE_Shell_Hardener_Label

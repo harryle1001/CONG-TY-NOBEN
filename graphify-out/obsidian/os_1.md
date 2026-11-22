@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "File System Automation"
+community: "Document Processing Utilities"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/Document_Processing_Utilities
 ---
 
 # os
@@ -23,4 +23,4 @@ tags:
 - [[sua_hsl_2109.py]] - `imports` [EXTRACTED]
 - [[voice.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/File_System_Automation
+#graphify/concept #graphify/EXTRACTED #community/Document_Processing_Utilities

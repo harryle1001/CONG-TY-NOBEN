@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/voice.py"
 type: "rationale"
-community: "Voice Processing Module"
+community: "google_auth.py"
 location: "L50"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Voice_Processing_Module
+  - community/google_authpy
 ---
 
 # Audio bytes -> transcript (Scribe, language auto-detected: Vietnamese or…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[listen()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Voice_Processing_Module
+#graphify/rationale #graphify/EXTRACTED #community/google_authpy

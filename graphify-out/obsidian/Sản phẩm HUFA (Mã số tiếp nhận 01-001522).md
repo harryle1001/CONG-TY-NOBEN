@@ -11,7 +11,7 @@ tags:
 # Sản phẩm HUFA (Mã số tiếp nhận 01-001522)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm HUFA (01-001522_1.jpg)]] - `references` [EXTRACTED]
 - [[Sản phẩm HUFA Tăng Trọng - Kết Dính (Mã số tiếp nhận 01-001522)]] - `semantically_similar_to` [INFERRED]
 

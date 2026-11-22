@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Calendar Integration Service"
+community: "Agent Tooling Framework"
 location: "L576"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Calendar_Integration_Service
+  - community/Agent_Tooling_Framework
 ---
 
 # get()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[calendar()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Calendar_Integration_Service
+#graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework

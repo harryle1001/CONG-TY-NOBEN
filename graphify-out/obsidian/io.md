@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "File System Automation"
+community: "TAI-LIEU-KINH-DOANH/build.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/TAI-LIEU-KINH-DOANH/buildpy
 ---
 
 # io
@@ -15,4 +15,4 @@ tags:
 - [[agentdata.py]] - `imports` [EXTRACTED]
 - [[img64()]] - `calls` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/File_System_Automation
+#graphify/concept #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy

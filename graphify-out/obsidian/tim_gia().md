@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "code"
-community: "File System Automation"
+community: "TAI-LIEU-KINH-DOANH/build.py"
 location: "L46"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/TAI-LIEU-KINH-DOANH/buildpy
 ---
 
 # tim_gia()
@@ -14,8 +14,8 @@ tags:
 ## Connections
 - [[TAI-LIEU-KINH-DOANHbuild.py]] - `contains` [EXTRACTED]
 - [[build_tim()]] - `calls` [EXTRACTED]
-- [[norm()]] - `calls` [EXTRACTED]
+- [[norm()_2]] - `calls` [EXTRACTED]
 - [[price_block()]] - `calls` [EXTRACTED]
 - [[tim_pb()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Calendar Integration Service"
+community: "Data Parsing Utilities"
 location: "L24"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Calendar_Integration_Service
+  - community/Data_Parsing_Utilities
 ---
 
 # mode()
@@ -16,4 +16,4 @@ tags:
 - [[agentdata.py]] - `contains` [EXTRACTED]
 - [[load_prompt()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Calendar_Integration_Service
+#graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities

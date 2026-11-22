@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.48
-members: 7
+cohesion: 0.39
+members: 8
 ---
 
 # API Request Handler
 
-**Cohesion:** 0.48 - moderately connected
-**Members:** 7 nodes
+**Cohesion:** 0.39 - loosely connected
+**Members:** 8 nodes
 
 ## Members
 - [[dot-_auth()]] - code - jarvis-pro/tests/fake_google.py
@@ -17,6 +17,7 @@ members: 7
 - [[dot-log_message()_1]] - code - jarvis-pro/tests/fake_google.py
 - [[BaseHTTPRequestHandler_1]] - code
 - [[H_1]] - code - jarvis-pro/tests/fake_google.py
+- [[events()]] - code - jarvis-pro/tests/fake_google.py
 
 ## Live Query (requires Dataview plugin)
 
@@ -26,8 +27,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Local Server Infrastructure]]
+- 2 edges to [[_COMMUNITY_google_auth.py]]
 
 ## Top bridge nodes
 - [[H_1]] - degree 7, connects to 1 community
-- [[dot-do_GET()_1]] - degree 4, connects to 1 community
+- [[events()]] - degree 2, connects to 1 community

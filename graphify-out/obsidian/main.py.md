@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/main.py"
 type: "code"
-community: "Local Server Infrastructure"
+community: "google_auth.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Local_Server_Infrastructure
+  - community/google_authpy
 ---
 
 # main.py
@@ -33,4 +33,4 @@ tags:
 - [[vault.py]] - `imports` [EXTRACTED]
 - [[voice.py]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Local_Server_Infrastructure
+#graphify/code #graphify/EXTRACTED #community/google_authpy

@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/tach-nen-tim.py"
 type: "code"
-community: "File System Automation"
+community: "tach-nen-tim.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/tach-nen-timpy
 ---
 
 # tach-nen-tim.py
@@ -17,4 +17,4 @@ tags:
 - [[pil]] - `imports_from` [EXTRACTED]
 - [[rembg]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/tach-nen-timpy

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Email Inbox Management"
+community: "_gmail_body"
 location: "L624"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Email_Inbox_Management
+  - community/_gmail_body
 ---
 
 # _b64text()
@@ -15,4 +15,4 @@ tags:
 - [[agentdata.py]] - `contains` [EXTRACTED]
 - [[walk()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Email_Inbox_Management
+#graphify/code #graphify/EXTRACTED #community/_gmail_body

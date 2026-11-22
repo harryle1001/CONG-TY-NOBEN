@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/llm.py"
 type: "rationale"
-community: "LLM Integration Layer"
+community: "google_auth.py"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/LLM_Integration_Layer
+  - community/google_authpy
 ---
 
 # Model access over raw HTTPS (stdlib only). Keys come from the environment /…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[llm.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/LLM_Integration_Layer
+#graphify/rationale #graphify/EXTRACTED #community/google_authpy

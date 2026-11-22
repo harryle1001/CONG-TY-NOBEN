@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/tests/fake_google.py"
 type: "code"
-community: "Local Server Infrastructure"
+community: "API Request Handler"
 location: "L41"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Local_Server_Infrastructure
+  - community/API_Request_Handler
 ---
 
 # events()
@@ -15,4 +15,4 @@ tags:
 - [[dot-do_GET()_1]] - `calls` [EXTRACTED]
 - [[fake_google.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Local_Server_Infrastructure
+#graphify/code #graphify/EXTRACTED #community/API_Request_Handler

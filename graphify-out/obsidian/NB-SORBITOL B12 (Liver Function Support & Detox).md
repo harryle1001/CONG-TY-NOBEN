@@ -11,7 +11,7 @@ tags:
 # NB-SORBITOL B12 (Liver Function Support & Detox)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Product Label Image for NB-SORBITOL B12]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/NB-SORBITOL_Liver_Support_Label

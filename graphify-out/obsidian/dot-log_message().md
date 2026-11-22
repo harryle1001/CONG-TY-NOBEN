@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/main.py"
 type: "code"
-community: "HTTP Request Handling"
+community: "google_auth.py"
 location: "L95"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/HTTP_Request_Handling
+  - community/google_authpy
 ---
 
 # .log_message()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[H]] - `method` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/HTTP_Request_Handling
+#graphify/code #graphify/EXTRACTED #community/google_authpy

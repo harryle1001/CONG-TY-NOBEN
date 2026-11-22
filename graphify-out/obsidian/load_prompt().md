@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/tools.py"
 type: "code"
-community: "Calendar Integration Service"
+community: "re"
 location: "L194"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Calendar_Integration_Service
+  - community/re
 ---
 
 # load_prompt()
@@ -18,4 +18,4 @@ tags:
 - [[today()]] - `calls` [EXTRACTED]
 - [[tools.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Calendar_Integration_Service
+#graphify/code #graphify/EXTRACTED #community/re

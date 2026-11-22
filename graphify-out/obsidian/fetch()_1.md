@@ -1,18 +1,19 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Calendar Integration Service"
-location: "L676"
+community: "Agent Tooling Framework"
+location: "L648"
 tags:
   - graphify/code
-  - graphify/EXTRACTED
-  - community/Calendar_Integration_Service
+  - graphify/INFERRED
+  - community/Agent_Tooling_Framework
 ---
 
 # fetch()
 
 ## Connections
-- [[_gcal()]] - `contains` [EXTRACTED]
-- [[today()]] - `calls` [EXTRACTED]
+- [[_gcal()]] - `indirect_call` [INFERRED]
+- [[_gmail_inbox()]] - `indirect_call` [INFERRED]
+- [[one()]] - `indirect_call` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/Calendar_Integration_Service
+#graphify/code #graphify/INFERRED #community/Agent_Tooling_Framework

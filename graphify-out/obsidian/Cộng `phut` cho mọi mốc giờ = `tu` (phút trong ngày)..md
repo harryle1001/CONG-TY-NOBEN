@@ -1,12 +1,12 @@
 ---
 source_file: "ho-so-lo/_build/sua_hsl_2109.py"
 type: "rationale"
-community: "File System Automation"
+community: "Document Processing Utilities"
 location: "L19"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/Document_Processing_Utilities
 ---
 
 # Cộng `phut` cho mọi mốc giờ >= `tu` (phút trong ngày).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[doi_gio()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/File_System_Automation
+#graphify/rationale #graphify/EXTRACTED #community/Document_Processing_Utilities

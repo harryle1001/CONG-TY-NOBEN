@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "PDF Processing Utilities"
+community: "Document Extraction Tools"
 location: "L494"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/PDF_Processing_Utilities
+  - community/Document_Extraction_Tools
 ---
 
 # _f()
@@ -15,4 +15,4 @@ tags:
 - [[_pdf_ops()]] - `calls` [EXTRACTED]
 - [[agentdata.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/PDF_Processing_Utilities
+#graphify/code #graphify/EXTRACTED #community/Document_Extraction_Tools

@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "code"
-community: "File System Automation"
+community: "TAI-LIEU-KINH-DOANH/build.py"
 location: "L468"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/TAI-LIEU-KINH-DOANH/buildpy
 ---
 
 # build_excel()
@@ -17,4 +17,4 @@ tags:
 - [[money()]] - `calls` [EXTRACTED]
 - [[widths()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy

@@ -1,13 +1,13 @@
 ---
 type: community
-cohesion: 0.09
-members: 35
+cohesion: 0.07
+members: 44
 ---
 
 # Document Extraction Tools
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 35 nodes
+**Cohesion:** 0.07 - loosely connected
+**Members:** 44 nodes
 
 ## Members
 - [[BIFF8 shared-string table, strings may span CONTINUE records.]] - rationale - jarvis-pro/agent/data.py
@@ -23,20 +23,29 @@ members: 35
 - [[_clean()]] - code - jarvis-pro/agent/data.py
 - [[_doc()]] - code - jarvis-pro/agent/data.py
 - [[_docx()]] - code - jarvis-pro/agent/data.py
+- [[_f()]] - code - jarvis-pro/agent/data.py
 - [[_local()]] - code - jarvis-pro/agent/data.py
 - [[_num()]] - code - jarvis-pro/agent/data.py
 - [[_ole_text()]] - code - jarvis-pro/agent/data.py
+- [[_pdf()]] - code - jarvis-pro/agent/data.py
+- [[_pdf_ops()]] - code - jarvis-pro/agent/data.py
 - [[_rk()]] - code - jarvis-pro/agent/data.py
 - [[_sst()]] - code - jarvis-pro/agent/data.py
+- [[_u16hex()]] - code - jarvis-pro/agent/data.py
 - [[_xls()]] - code - jarvis-pro/agent/data.py
 - [[_xlsx()]] - code - jarvis-pro/agent/data.py
 - [[agentdata.py]] - code - jarvis-pro/agent/data.py
+- [[body()]] - code - jarvis-pro/agent/data.py
 - [[chain()]] - code - jarvis-pro/agent/data.py
+- [[cmap()]] - code - jarvis-pro/agent/data.py
 - [[concurrent_futures]] - concept
+- [[dec()]] - code - jarvis-pro/agent/data.py
 - [[email]] - concept
 - [[email_utils]] - concept
 - [[extract()]] - code - jarvis-pro/agent/data.py
+- [[fonts_in()]] - code - jarvis-pro/agent/data.py
 - [[google_reset()]] - code - jarvis-pro/agent/data.py
+- [[inbox_dir()]] - code - jarvis-pro/agent/data.py
 - [[iter_documents()]] - code - jarvis-pro/agent/data.py
 - [[need()]] - code - jarvis-pro/agent/data.py
 - [[put()]] - code - jarvis-pro/agent/data.py
@@ -54,16 +63,18 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Email Inbox Management]]
-- 7 edges to [[_COMMUNITY_Calendar Integration Service]]
-- 7 edges to [[_COMMUNITY_File System Automation]]
-- 6 edges to [[_COMMUNITY_PDF Processing Utilities]]
+- 8 edges to [[_COMMUNITY_Agent Tooling Framework]]
+- 6 edges to [[_COMMUNITY_re]]
 - 4 edges to [[_COMMUNITY_Data Parsing Utilities]]
-- 3 edges to [[_COMMUNITY_Product Profile Generator]]
-- 2 edges to [[_COMMUNITY_Local Server Infrastructure]]
+- 4 edges to [[_COMMUNITY__gmail_body]]
+- 2 edges to [[_COMMUNITY_google_source]]
+- 2 edges to [[_COMMUNITY_Product Profile Generator]]
+- 2 edges to [[_COMMUNITY_google_auth.py]]
+- 2 edges to [[_COMMUNITY_TAI-LIEU-KINH-DOANHbuild.py]]
+- 1 edge to [[_COMMUNITY_Document Processing Utilities]]
 
 ## Top bridge nodes
-- [[agentdata.py]] - degree 55, connects to 7 communities
-- [[extract()]] - degree 8, connects to 2 communities
-- [[_clean()]] - degree 8, connects to 1 community
+- [[agentdata.py]] - degree 55, connects to 9 communities
+- [[extract()]] - degree 8, connects to 1 community
 - [[iter_documents()]] - degree 5, connects to 1 community
+- [[inbox_dir()]] - degree 2, connects to 1 community

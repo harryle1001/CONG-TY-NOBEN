@@ -1,21 +1,29 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/build.py"
+source_file: "jarvis-pro/agent/vault.py"
 type: "code"
-community: "File System Automation"
-location: "L24"
+community: "Data Parsing Utilities"
+location: "L30"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/Data_Parsing_Utilities
 ---
 
 # norm()
 
 ## Connections
-- [[TAI-LIEU-KINH-DOANHbuild.py]] - `contains` [EXTRACTED]
-- [[catalogue_items()]] - `calls` [EXTRACTED]
-- [[re]] - `calls` [EXTRACTED]
-- [[tim_gia()]] - `calls` [EXTRACTED]
+- [[dot-build()]] - `calls` [EXTRACTED]
+- [[dot-known()]] - `calls` [EXTRACTED]
+- [[dot-route()]] - `calls` [EXTRACTED]
+- [[dot-search()]] - `calls` [EXTRACTED]
+- [[dot-snippet()]] - `calls` [EXTRACTED]
+- [[dot-t_plan_day()]] - `calls` [EXTRACTED]
+- [[dot-t_read_inbox()]] - `calls` [EXTRACTED]
+- [[injected()]] - `calls` [EXTRACTED]
+- [[lowercase, no accents, đ - d 'Đại lý' - 'dai ly'.]] - `rationale_for` [EXTRACTED]
+- [[tools.py]] - `imports` [EXTRACTED]
+- [[type_of()]] - `calls` [EXTRACTED]
 - [[unicodedata]] - `calls` [EXTRACTED]
+- [[vault.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities

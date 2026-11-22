@@ -1,13 +1,13 @@
 ---
 type: community
 cohesion: 0.06
-members: 38
+members: 37
 ---
 
 # Aquaculture Product Pricing
 
 **Cohesion:** 0.06 - loosely connected
-**Members:** 38 nodes
+**Members:** 37 nodes
 
 ## Members
 - [[BENMER (Catalogue)]] - concept - TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html
@@ -19,7 +19,6 @@ members: 38
 - [[Bảng Giá Tôm (Bảng 02-03)]] - document - TAI-LIEU-KINH-DOANH/BANG-GIA-NOBEN-2026.html
 - [[Catalogue Noben 2026 (HTML)]] - document - TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html
 - [[Catalogue Thủy Sản Tím 2026 (HTML)]] - document - TAI-LIEU-KINH-DOANH/CATALOGUE-THUY-SAN-TIM-2026.html
-- [[Công ty TNHH Noben (Catalogue)]] - concept - TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html
 - [[Document Bảng Giá Noben 2026]] - document - TAI-LIEU-KINH-DOANH/BANG-GIA-NOBEN-2026.html
 - [[EDTA 99 (Catalogue)]] - concept - TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html
 - [[Hình ảnh bao bì ROVAZYME]] - image - TAI-LIEU-KINH-DOANH/assets/tim-cutout/rovazyme.webp
@@ -57,8 +56,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 2 edges to [[_COMMUNITY_Product Labeling Documentation]]
+- 2 edges to [[_COMMUNITY_Aquaculture Feed Additives]]
 
 ## Top bridge nodes
+- [[Catalogue Noben 2026 (HTML)]] - degree 6, connects to 1 community
 - [[Document Bảng Giá Noben 2026]] - degree 4, connects to 1 community
-- [[Công ty TNHH Noben (Catalogue)]] - degree 2, connects to 1 community

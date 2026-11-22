@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/google_auth.py"
 type: "code"
-community: "Google OAuth Integration"
+community: "google_auth.py"
 location: "L90"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Google_OAuth_Integration
+  - community/google_authpy
 ---
 
 # callback()
@@ -20,4 +20,4 @@ tags:
 - [[_token_request()]] - `calls` [EXTRACTED]
 - [[google_auth.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Google_OAuth_Integration
+#graphify/code #graphify/EXTRACTED #community/google_authpy

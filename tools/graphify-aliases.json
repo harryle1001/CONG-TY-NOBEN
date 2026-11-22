@@ -1,0 +1,10 @@
+{
+  "_ghi_chu": "Gộp các nút cùng một thực thể. Khóa = id nút giữ lại, label = tên chuẩn, gop = các id nút trùng sẽ nhập vào.",
+  "tccs_7_san_pham_moi_pdf_5_fx_glubenco_noben": {
+    "label": "Công ty TNHH No Ben (TS790020)",
+    "gop": [
+      "ho_so_san_pham_index_ts790020",
+      "tai_lieu_kinh_doanh_catalogue_noben_2026_noben_company"
+    ]
+  }
+}

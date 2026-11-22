@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/memory.py"
 type: "rationale"
-community: "File System Automation"
+community: "re"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/re
 ---
 
 # Writes to memory/ and nowhere else. One dated markdown file per fact.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[memory.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/File_System_Automation
+#graphify/rationale #graphify/EXTRACTED #community/re

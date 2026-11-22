@@ -1,12 +1,12 @@
 ---
 source_file: "HO-SO-LO-FX/_build/fixtpl.py"
 type: "code"
-community: "File System Automation"
+community: "re"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/re
 ---
 
 # fixtpl.py
@@ -16,4 +16,4 @@ tags:
 - [[sys]] - `imports` [EXTRACTED]
 - [[zipfile]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/re

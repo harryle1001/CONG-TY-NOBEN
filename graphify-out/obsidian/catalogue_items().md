@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "code"
-community: "File System Automation"
+community: "re"
 location: "L202"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/re
 ---
 
 # catalogue_items()
@@ -15,7 +15,7 @@ tags:
 - [[Mỗi tên trong 3 bảng giá = 1 thẻ; ghép ảnhcông dụngmã số từ dữ liệu web nếu…]] - `rationale_for` [EXTRACTED]
 - [[TAI-LIEU-KINH-DOANHbuild.py]] - `contains` [EXTRACTED]
 - [[build_noben()]] - `calls` [EXTRACTED]
-- [[norm()]] - `calls` [EXTRACTED]
+- [[norm()_2]] - `calls` [EXTRACTED]
 - [[re]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/re

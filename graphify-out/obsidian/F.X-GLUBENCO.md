@@ -11,7 +11,7 @@ tags:
 # F.X-GLUBENCO
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[QCVN 972025BNNMT]] - `references` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/FX-GLUBENCO_Compliance

@@ -26,7 +26,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Product Labeling Documentation]]
+- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
 
 ## Top bridge nodes
 - [[Lê Văn Khánh]] - degree 4, connects to 1 community

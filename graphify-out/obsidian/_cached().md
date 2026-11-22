@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Email Inbox Management"
+community: "Agent Tooling Framework"
 location: "L611"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Email_Inbox_Management
+  - community/Agent_Tooling_Framework
 ---
 
 # _cached()
@@ -16,4 +16,4 @@ tags:
 - [[_gmail_inbox()]] - `calls` [EXTRACTED]
 - [[agentdata.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Email_Inbox_Management
+#graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework

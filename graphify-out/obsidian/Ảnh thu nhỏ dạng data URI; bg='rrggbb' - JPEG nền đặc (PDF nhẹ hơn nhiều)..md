@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "rationale"
-community: "File System Automation"
+community: "TAI-LIEU-KINH-DOANH/build.py"
 location: "L55"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/TAI-LIEU-KINH-DOANH/buildpy
 ---
 
 # Ảnh thu nhỏ dạng data URI; bg='#rrggbb' -> JPEG nền đặc (PDF nhẹ hơn nhiều).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[img64()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/File_System_Automation
+#graphify/rationale #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy

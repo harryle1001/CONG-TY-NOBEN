@@ -18,7 +18,7 @@ tags:
 - [[_card()]] - `calls` [EXTRACTED]
 - [[calendar()]] - `calls` [EXTRACTED]
 - [[inbox()]] - `calls` [EXTRACTED]
-- [[norm()_1]] - `calls` [EXTRACTED]
+- [[norm()]] - `calls` [EXTRACTED]
 - [[today()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework

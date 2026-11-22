@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "File System Automation"
+community: "re"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/re
 ---
 
 # re
@@ -21,7 +21,7 @@ tags:
 - [[doi_gio()]] - `calls` [EXTRACTED]
 - [[fixtpl.py]] - `imports` [EXTRACTED]
 - [[memory.py]] - `imports` [EXTRACTED]
-- [[norm()]] - `calls` [EXTRACTED]
+- [[norm()_2]] - `calls` [EXTRACTED]
 - [[onlinebuild.py]] - `imports` [EXTRACTED]
 - [[sua_hsl_2109.py]] - `imports` [EXTRACTED]
 - [[title_from()]] - `calls` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[vault.py]] - `imports` [EXTRACTED]
 - [[viet_thuong.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/File_System_Automation
+#graphify/concept #graphify/EXTRACTED #community/re

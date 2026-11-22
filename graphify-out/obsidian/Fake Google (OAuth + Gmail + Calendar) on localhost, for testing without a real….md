@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/tests/fake_google.py"
 type: "rationale"
-community: "Local Server Infrastructure"
+community: "google_auth.py"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Local_Server_Infrastructure
+  - community/google_authpy
 ---
 
 # Fake Google (OAuth + Gmail + Calendar) on localhost, for testing without a real…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[fake_google.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Local_Server_Infrastructure
+#graphify/rationale #graphify/EXTRACTED #community/google_authpy

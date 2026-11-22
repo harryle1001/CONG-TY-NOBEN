@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "LLM Integration Layer"
+community: "google_auth.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/LLM_Integration_Layer
+  - community/google_authpy
 ---
 
 # urllib_error
@@ -15,4 +15,4 @@ tags:
 - [[llm.py]] - `imports` [EXTRACTED]
 - [[voice.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/LLM_Integration_Layer
+#graphify/concept #graphify/EXTRACTED #community/google_authpy

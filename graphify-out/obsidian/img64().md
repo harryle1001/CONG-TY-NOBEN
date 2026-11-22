@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "code"
-community: "File System Automation"
+community: "TAI-LIEU-KINH-DOANH/build.py"
 location: "L54"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/TAI-LIEU-KINH-DOANH/buildpy
 ---
 
 # img64()
@@ -19,4 +19,4 @@ tags:
 - [[io]] - `calls` [EXTRACTED]
 - [[Ảnh thu nhỏ dạng data URI; bg='rrggbb' - JPEG nền đặc (PDF nhẹ hơn nhiều).]] - `rationale_for` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy

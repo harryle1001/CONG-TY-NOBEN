@@ -11,6 +11,6 @@ tags:
 # NB-SORBITOL B12
 
 ## Connections
-- [[Công Ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 
 #graphify/document #graphify/EXTRACTED #community/Aquaculture_Feed_Additives

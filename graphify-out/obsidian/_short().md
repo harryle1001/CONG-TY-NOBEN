@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/tools.py"
 type: "code"
-community: "Product Profile Generator"
+community: "re"
 location: "L36"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Product_Profile_Generator
+  - community/re
 ---
 
 # _short()
@@ -17,4 +17,4 @@ tags:
 - [[re]] - `calls` [EXTRACTED]
 - [[tools.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Product_Profile_Generator
+#graphify/code #graphify/EXTRACTED #community/re

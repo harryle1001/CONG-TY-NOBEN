@@ -11,7 +11,7 @@ tags:
 # G7 (Bổ gan, giải độc gan)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm G7 (Mã tiếp nhận 01-001531)]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/G7_Liver_Supplement_Label

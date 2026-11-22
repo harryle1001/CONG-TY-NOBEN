@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/memory.py"
 type: "code"
-community: "File System Automation"
+community: "re"
 location: "L16"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/re
 ---
 
 # write()
@@ -17,4 +17,4 @@ tags:
 - [[memory.py]] - `contains` [EXTRACTED]
 - [[today()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/re

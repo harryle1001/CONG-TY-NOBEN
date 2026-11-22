@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/main.py"
 type: "code"
-community: "LLM Integration Layer"
+community: "google_auth.py"
 location: "L56"
 tags:
   - graphify/code
   - graphify/INFERRED
-  - community/LLM_Integration_Layer
+  - community/google_authpy
 ---
 
 # run_tool()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[ask()]] - `indirect_call` [INFERRED]
 
-#graphify/code #graphify/INFERRED #community/LLM_Integration_Layer
+#graphify/code #graphify/INFERRED #community/google_authpy

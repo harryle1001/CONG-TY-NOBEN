@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/tools.py"
 type: "code"
-community: "Product Profile Generator"
+community: "re"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Product_Profile_Generator
+  - community/re
 ---
 
 # tools.py
@@ -23,9 +23,9 @@ tags:
 - [[load_prompt()]] - `contains` [EXTRACTED]
 - [[main.py]] - `imports` [EXTRACTED]
 - [[memory.py]] - `imports` [EXTRACTED]
-- [[norm()_1]] - `imports` [EXTRACTED]
+- [[norm()]] - `imports` [EXTRACTED]
 - [[pathlib]] - `imports_from` [EXTRACTED]
 - [[re]] - `imports` [EXTRACTED]
 - [[vault.py]] - `imports_from` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Product_Profile_Generator
+#graphify/code #graphify/EXTRACTED #community/re

@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[dot-snippet()]] - `calls` [EXTRACTED]
 - [[Vault]] - `method` [EXTRACTED]
-- [[norm()_1]] - `calls` [EXTRACTED]
+- [[norm()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities

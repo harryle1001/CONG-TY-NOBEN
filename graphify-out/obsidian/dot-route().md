@@ -14,6 +14,6 @@ tags:
 ## Connections
 - [[Decide without a model. Returns (tool_nameNone, args, reply_if_conversation).]] - `rationale_for` [EXTRACTED]
 - [[Tools]] - `method` [EXTRACTED]
-- [[norm()_1]] - `calls` [EXTRACTED]
+- [[norm()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/google_auth.py"
 type: "rationale"
-community: "Google OAuth Integration"
+community: "google_auth.py"
 location: "L72"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Google_OAuth_Integration
+  - community/google_authpy
 ---
 
 # URL of Google's consent screen. PKCE (S256) + one-time state kept server-side.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[start()_1]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Google_OAuth_Integration
+#graphify/rationale #graphify/EXTRACTED #community/google_authpy

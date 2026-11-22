@@ -11,7 +11,7 @@ tags:
 # Amin Care (Siêu tăng trọng cho tôm)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm Amin Care (Mã tiếp nhận 01-001525)]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Amin_Care_Products

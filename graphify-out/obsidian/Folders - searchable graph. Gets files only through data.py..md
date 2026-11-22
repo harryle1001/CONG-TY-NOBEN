@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/vault.py"
 type: "rationale"
-community: "Data Parsing Utilities"
+community: "re"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Data_Parsing_Utilities
+  - community/re
 ---
 
 # Folders -> searchable graph. Gets files only through data.py.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[vault.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Data_Parsing_Utilities
+#graphify/rationale #graphify/EXTRACTED #community/re

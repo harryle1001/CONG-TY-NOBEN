@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Data Parsing Utilities"
+community: "re"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Data_Parsing_Utilities
+  - community/re
 ---
 
 # math
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[vault.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Data_Parsing_Utilities
+#graphify/concept #graphify/EXTRACTED #community/re

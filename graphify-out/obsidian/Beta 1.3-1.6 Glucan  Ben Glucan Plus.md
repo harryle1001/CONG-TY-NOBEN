@@ -11,7 +11,7 @@ tags:
 # Beta 1.3-1.6 Glucan / Ben Glucan Plus
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm Beta 1.3-1.6 Glucan - Mẫu 1 (Mã tiếp nhận 01-001530)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm Beta 1.3-1.6 Glucan Ben Glucan Plus (Mã tiếp nhận 01-001530)]] - `references` [EXTRACTED]
 

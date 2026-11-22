@@ -17,6 +17,6 @@ tags:
 - [[dot-t_read_inbox()]] - `calls` [EXTRACTED]
 - [[Node id of a file that mentions this sender (by name, address or domain), else…]] - `rationale_for` [EXTRACTED]
 - [[Tools]] - `method` [EXTRACTED]
-- [[norm()_1]] - `calls` [EXTRACTED]
+- [[norm()]] - `calls` [EXTRACTED]
 
 #graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework

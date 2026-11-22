@@ -12,6 +12,6 @@ tags:
 # lowercase, no accents, đ -> d: 'Đại lý' -> 'dai ly'.
 
 ## Connections
-- [[norm()_1]] - `rationale_for` [EXTRACTED]
+- [[norm()]] - `rationale_for` [EXTRACTED]
 
 #graphify/rationale #graphify/EXTRACTED #community/Data_Parsing_Utilities

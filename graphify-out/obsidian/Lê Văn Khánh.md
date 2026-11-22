@@ -11,7 +11,7 @@ tags:
 # Lê Văn Khánh
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[TCCS 102026NOBEN - F.X GARLIC]] - `references` [EXTRACTED]
 - [[TCCS 112026NOBEN - F.X GROW]] - `references` [EXTRACTED]
 - [[TCCS 122026NOBEN - F.X LIVER SUPPORT]] - `references` [EXTRACTED]

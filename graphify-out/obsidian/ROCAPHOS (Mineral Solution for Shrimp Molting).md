@@ -11,7 +11,7 @@ tags:
 # ROCAPHOS (Mineral Solution for Shrimp Molting)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Product Label Image for ROCAPHOS]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/ROCAPHOS_Mineral_Supplement_Label

@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "Voice Processing Module"
+community: "google_auth.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Voice_Processing_Module
+  - community/google_authpy
 ---
 
 # Exception
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[VoiceError]] - `inherits` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Voice_Processing_Module
+#graphify/code #graphify/EXTRACTED #community/google_authpy

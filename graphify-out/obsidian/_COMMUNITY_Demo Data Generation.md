@@ -29,7 +29,7 @@ SORT file.name ASC
 
 ## Connections to other communities
 - 1 edge to [[_COMMUNITY_Document Processing Utilities]]
-- 1 edge to [[_COMMUNITY_File System Automation]]
+- 1 edge to [[_COMMUNITY_re]]
 
 ## Top bridge nodes
 - [[generate_demo.py]] - degree 8, connects to 1 community

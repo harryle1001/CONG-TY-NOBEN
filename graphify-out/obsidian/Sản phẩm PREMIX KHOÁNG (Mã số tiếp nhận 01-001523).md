@@ -11,7 +11,7 @@ tags:
 # Sản phẩm PREMIX KHOÁNG (Mã số tiếp nhận 01-001523)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm PREMIX KHOÁNG (01-001523_1.jpg)]] - `references` [EXTRACTED]
 - [[Sản phẩm PREMIX KHOÁNG X4 (Mã số tiếp nhận 01-001523)]] - `semantically_similar_to` [INFERRED]
 

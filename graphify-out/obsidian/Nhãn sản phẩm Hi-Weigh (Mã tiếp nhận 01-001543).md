@@ -1,11 +1,11 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-001543_1.jpg"
 type: "image"
-community: "Product Labeling Documentation"
+community: "Hi-Weigh (Bổ sung đạm, vitamin, khoáng chất)"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/Product_Labeling_Documentation
+  - community/Hi-Weigh_Bổ_sung_đạm_vitamin_khoáng_chất
 ---
 
 # Nhãn sản phẩm Hi-Weigh (Mã tiếp nhận: 01-001543)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Hi-Weigh (Bổ sung đạm, vitamin, khoáng chất)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/Product_Labeling_Documentation
+#graphify/image #graphify/EXTRACTED #community/Hi-Weigh_Bổ_sung_đạm_vitamin_khoáng_chất

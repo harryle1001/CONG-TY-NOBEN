@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Calendar Integration Service"
+community: "google_source"
 location: "L597"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Calendar_Integration_Service
+  - community/google_source
 ---
 
 # google_source()
@@ -18,4 +18,4 @@ tags:
 - [[google_status()]] - `calls` [EXTRACTED]
 - [[inbox()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Calendar_Integration_Service
+#graphify/code #graphify/EXTRACTED #community/google_source

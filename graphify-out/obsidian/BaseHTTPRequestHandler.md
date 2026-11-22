@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "HTTP Request Handling"
+community: "google_auth.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/HTTP_Request_Handling
+  - community/google_authpy
 ---
 
 # BaseHTTPRequestHandler
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[H]] - `inherits` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/HTTP_Request_Handling
+#graphify/code #graphify/EXTRACTED #community/google_authpy

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/tools.py"
 type: "rationale"
-community: "Product Profile Generator"
+community: "re"
 location: "L37"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Product_Profile_Generator
+  - community/re
 ---
 
 # Spoken file name: drop the ' · folder' tag and anything after ':' so long…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[_short()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Product_Profile_Generator
+#graphify/rationale #graphify/EXTRACTED #community/re

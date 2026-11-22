@@ -11,7 +11,7 @@ tags:
 # NB-HELVIROL-B12 (Liver Detoxification & Regeneration)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Product Label Banner Image for NB-HELVIROL-B12 (2L Pack)]] - `references` [EXTRACTED]
 - [[Product Label Image for NB-HELVIROL-B12 (1L Pack)]] - `references` [EXTRACTED]
 

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/google_auth.py"
 type: "rationale"
-community: "Google OAuth Integration"
+community: "google_auth.py"
 location: "L91"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Google_OAuth_Integration
+  - community/google_authpy
 ---
 
 # Handle ?code&state (or ?error). Exchanges the code and stores the token. Raises…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[callback()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Google_OAuth_Integration
+#graphify/rationale #graphify/EXTRACTED #community/google_authpy

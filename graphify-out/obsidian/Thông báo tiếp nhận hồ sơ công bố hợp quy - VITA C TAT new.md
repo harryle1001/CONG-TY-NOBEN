@@ -1,16 +1,16 @@
 ---
 source_file: "THÔNG BÁO HỢP QUY/TB-269.jpg"
 type: "image"
-community: "Product Labeling Documentation"
+community: "Aquaculture Feed Additives"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/Product_Labeling_Documentation
+  - community/Aquaculture_Feed_Additives
 ---
 
 # Thông báo tiếp nhận hồ sơ công bố hợp quy - VITA C TAT new
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/Product_Labeling_Documentation
+#graphify/image #graphify/EXTRACTED #community/Aquaculture_Feed_Additives

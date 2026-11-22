@@ -1,12 +1,12 @@
 ---
 source_file: "ho-so-lo/_build/sua_hsl_2109.py"
 type: "code"
-community: "File System Automation"
+community: "Document Processing Utilities"
 location: "L18"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/Document_Processing_Utilities
 ---
 
 # doi_gio()
@@ -17,4 +17,4 @@ tags:
 - [[re]] - `calls` [EXTRACTED]
 - [[sua_hsl_2109.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/Document_Processing_Utilities

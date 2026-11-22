@@ -1,16 +1,16 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.pdf"
 type: "document"
-community: "Product Labeling Documentation"
+community: "Aquaculture Feed Additives"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Product_Labeling_Documentation
+  - community/Aquaculture_Feed_Additives
 ---
 
 # Catalogue Noben 2026 (PDF)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Product_Labeling_Documentation
+#graphify/document #graphify/EXTRACTED #community/Aquaculture_Feed_Additives

@@ -11,7 +11,7 @@ tags:
 # Aqua Biotic (Bổ sung lợi khuẩn)
 
 ## Connections
-- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 - [[Nhãn sản phẩm Aqua Biotic (Mã tiếp nhận 01-001540)]] - `references` [EXTRACTED]
 
 #graphify/concept #graphify/EXTRACTED #community/Aqua_Biotic_Probiotic_Label

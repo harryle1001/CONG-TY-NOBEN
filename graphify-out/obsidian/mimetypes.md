@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Local Server Infrastructure"
+community: "google_auth.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Local_Server_Infrastructure
+  - community/google_authpy
 ---
 
 # mimetypes
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[main.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Local_Server_Infrastructure
+#graphify/concept #graphify/EXTRACTED #community/google_authpy

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/vault.py"
 type: "code"
-community: "Email Inbox Management"
+community: "re"
 location: "L50"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Email_Inbox_Management
+  - community/re
 ---
 
 # title_from()
@@ -18,4 +18,4 @@ tags:
 - [[re]] - `calls` [EXTRACTED]
 - [[vault.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Email_Inbox_Management
+#graphify/code #graphify/EXTRACTED #community/re

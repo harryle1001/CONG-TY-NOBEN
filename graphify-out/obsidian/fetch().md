@@ -1,19 +1,18 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Email Inbox Management"
-location: "L648"
+community: "Agent Tooling Framework"
+location: "L676"
 tags:
   - graphify/code
-  - graphify/INFERRED
-  - community/Email_Inbox_Management
+  - graphify/EXTRACTED
+  - community/Agent_Tooling_Framework
 ---
 
 # fetch()
 
 ## Connections
-- [[_gcal()]] - `indirect_call` [INFERRED]
-- [[_gmail_inbox()]] - `indirect_call` [INFERRED]
-- [[one()]] - `indirect_call` [INFERRED]
+- [[_gcal()]] - `contains` [EXTRACTED]
+- [[today()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/INFERRED #community/Email_Inbox_Management
+#graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework

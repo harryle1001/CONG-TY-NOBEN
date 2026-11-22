@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/llm.py"
 type: "code"
-community: "LLM Integration Layer"
+community: "google_auth.py"
 location: "L24"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/LLM_Integration_Layer
+  - community/google_authpy
 ---
 
 # model_name()
@@ -17,4 +17,4 @@ tags:
 - [[llm.py]] - `contains` [EXTRACTED]
 - [[provider()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/LLM_Integration_Layer
+#graphify/code #graphify/EXTRACTED #community/google_authpy

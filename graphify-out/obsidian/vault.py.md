@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/vault.py"
 type: "code"
-community: "Data Parsing Utilities"
+community: "re"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Data_Parsing_Utilities
+  - community/re
 ---
 
 # vault.py
@@ -19,7 +19,7 @@ tags:
 - [[json]] - `imports` [EXTRACTED]
 - [[main.py]] - `imports` [EXTRACTED]
 - [[math]] - `imports` [EXTRACTED]
-- [[norm()_1]] - `contains` [EXTRACTED]
+- [[norm()]] - `contains` [EXTRACTED]
 - [[onlinebuild.py]] - `imports` [EXTRACTED]
 - [[pathlib]] - `imports_from` [EXTRACTED]
 - [[re]] - `imports` [EXTRACTED]
@@ -30,4 +30,4 @@ tags:
 - [[type_of()]] - `contains` [EXTRACTED]
 - [[unicodedata]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities
+#graphify/code #graphify/EXTRACTED #community/re

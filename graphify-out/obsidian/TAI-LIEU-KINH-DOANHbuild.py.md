@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "code"
-community: "File System Automation"
+community: "TAI-LIEU-KINH-DOANH/build.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/TAI-LIEU-KINH-DOANH/buildpy
 ---
 
 # TAI-LIEU-KINH-DOANH/build.py
@@ -25,7 +25,7 @@ tags:
 - [[json]] - `imports` [EXTRACTED]
 - [[key()]] - `contains` [EXTRACTED]
 - [[money()]] - `contains` [EXTRACTED]
-- [[norm()]] - `contains` [EXTRACTED]
+- [[norm()_2]] - `contains` [EXTRACTED]
 - [[os_1]] - `imports` [EXTRACTED]
 - [[pathlib]] - `imports_from` [EXTRACTED]
 - [[price_block()]] - `contains` [EXTRACTED]
@@ -37,4 +37,4 @@ tags:
 - [[to_pdf()]] - `contains` [EXTRACTED]
 - [[unicodedata]] - `imports` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/File_System_Automation
+#graphify/code #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy

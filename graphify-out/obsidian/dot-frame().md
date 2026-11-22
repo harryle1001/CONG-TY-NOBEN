@@ -14,7 +14,6 @@ tags:
 ## Connections
 - [[dot-constructor()]] - `calls` [EXTRACTED]
 - [[dot-draw()]] - `calls` [EXTRACTED]
-- [[dot-frame()]] - `calls` [EXTRACTED]
 - [[dot-tick()]] - `calls` [EXTRACTED]
 - [[dot-visible()]] - `calls` [EXTRACTED]
 - [[Graph]] - `method` [EXTRACTED]

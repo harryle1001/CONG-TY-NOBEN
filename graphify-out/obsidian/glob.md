@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "File System Automation"
+community: "Document Processing Utilities"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/File_System_Automation
+  - community/Document_Processing_Utilities
 ---
 
 # glob
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[sua_hsl_2109.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/File_System_Automation
+#graphify/concept #graphify/EXTRACTED #community/Document_Processing_Utilities

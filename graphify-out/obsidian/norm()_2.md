@@ -1,17 +1,21 @@
 ---
-source_file: "jarvis-pro/ui/app.js"
+source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "code"
-community: "Web Application Interface"
-location: "L5"
+community: "re"
+location: "L24"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_Application_Interface
+  - community/re
 ---
 
 # norm()
 
 ## Connections
-- [[app.js]] - `contains` [EXTRACTED]
+- [[TAI-LIEU-KINH-DOANHbuild.py]] - `contains` [EXTRACTED]
+- [[catalogue_items()]] - `calls` [EXTRACTED]
+- [[re]] - `calls` [EXTRACTED]
+- [[tim_gia()]] - `calls` [EXTRACTED]
+- [[unicodedata]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_Application_Interface
+#graphify/code #graphify/EXTRACTED #community/re

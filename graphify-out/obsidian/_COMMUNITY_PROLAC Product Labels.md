@@ -21,7 +21,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Product Labeling Documentation]]
+- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
 
 ## Top bridge nodes
 - [[Sản phẩm PROLAC (Mã số tiếp nhận 01-001524)]] - degree 2, connects to 1 community

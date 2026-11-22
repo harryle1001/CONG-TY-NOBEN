@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/voice.py"
 type: "rationale"
-community: "Voice Processing Module"
+community: "google_auth.py"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Voice_Processing_Module
+  - community/google_authpy
 ---
 
 # ElevenLabs speech in and out. The key lives here, on the server; the browser…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[voice.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Voice_Processing_Module
+#graphify/rationale #graphify/EXTRACTED #community/google_authpy

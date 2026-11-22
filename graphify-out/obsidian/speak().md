@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/voice.py"
 type: "code"
-community: "Voice Processing Module"
+community: "google_auth.py"
 location: "L39"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Voice_Processing_Module
+  - community/google_authpy
 ---
 
 # speak()
@@ -18,4 +18,4 @@ tags:
 - [[json]] - `calls` [EXTRACTED]
 - [[voice.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Voice_Processing_Module
+#graphify/code #graphify/EXTRACTED #community/google_authpy

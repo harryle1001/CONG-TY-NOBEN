@@ -1,16 +1,16 @@
 ---
 source_file: ""
 type: "code"
-community: "Google OAuth Integration"
+community: "google_auth.py"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Google_OAuth_Integration
+  - community/google_authpy
 ---
 
 # Exception
 
 ## Connections
-- [[GoogleError]] - `inherits` [EXTRACTED]
+- [[ModelError]] - `inherits` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Google_OAuth_Integration
+#graphify/code #graphify/EXTRACTED #community/google_authpy
