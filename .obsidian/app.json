@@ -1,0 +1,11 @@
+{
+  "userIgnoreFilters": [
+    "graphify-out/cache/",
+    "graphify-out/converted/",
+    "node_modules/",
+    ".claude/",
+    "tools/"
+  ],
+  "alwaysUpdateLinks": true,
+  "showUnsupportedFiles": false
+}

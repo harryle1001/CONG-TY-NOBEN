@@ -1,0 +1,8 @@
+{
+  "autoPullOnBoot": true,
+  "autoPullInterval": 10,
+  "autoSaveInterval": 10,
+  "pullBeforePush": true,
+  "commitMessage": "Obsidian: cập nhật ghi chú {{date}}",
+  "disablePush": false
+}
