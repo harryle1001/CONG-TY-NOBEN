@@ -1,0 +1,23 @@
+---
+source_file: "jarvis-pro/agent/data.py"
+type: "code"
+community: "PDF Processing Utilities"
+location: "L351"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/PDF_Processing_Utilities
+---
+
+# _pdf()
+
+## Connections
+- [[_clean()]] - `calls` [EXTRACTED]
+- [[_pdf_ops()]] - `calls` [EXTRACTED]
+- [[agentdata.py]] - `contains` [EXTRACTED]
+- [[body()]] - `contains` [EXTRACTED]
+- [[cmap()]] - `contains` [EXTRACTED]
+- [[extract()]] - `calls` [EXTRACTED]
+- [[fonts_in()]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/PDF_Processing_Utilities

@@ -1,0 +1,18 @@
+---
+source_file: "ho-so-san-pham/nhan/01-001522_1.jpg"
+type: "concept"
+community: "HUFA Supplement Products"
+tags:
+  - graphify/concept
+  - graphify/EXTRACTED
+  - community/HUFA_Supplement_Products
+---
+
+# Sản phẩm HUFA (Mã số tiếp nhận 01-001522)
+
+## Connections
+- [[CÔNG TY TNHH NO BEN]] - `references` [EXTRACTED]
+- [[Nhãn sản phẩm HUFA (01-001522_1.jpg)]] - `references` [EXTRACTED]
+- [[Sản phẩm HUFA Tăng Trọng - Kết Dính (Mã số tiếp nhận 01-001522)]] - `semantically_similar_to` [INFERRED]
+
+#graphify/concept #graphify/EXTRACTED #community/HUFA_Supplement_Products

@@ -1,0 +1,17 @@
+---
+source_file: "jarvis-pro/agent/data.py"
+type: "code"
+community: "Document Extraction Tools"
+location: "L620"
+tags:
+  - graphify/code
+  - graphify/EXTRACTED
+  - community/Document_Extraction_Tools
+---
+
+# google_reset()
+
+## Connections
+- [[agentdata.py]] - `contains` [EXTRACTED]
+
+#graphify/code #graphify/EXTRACTED #community/Document_Extraction_Tools

@@ -1,0 +1,18 @@
+---
+source_file: "graphify-out/converted/4-F.X PREMIX MILK_4a422751.md"
+type: "document"
+community: "F.X Premix Standards"
+location: "L12"
+tags:
+  - graphify/document
+  - graphify/EXTRACTED
+  - community/FX_Premix_Standards
+---
+
+# CÔNG BỐ TIÊU CHUẨN CƠ SỞ
+
+## Connections
+- [[4-F.X PREMIX MILK_4a422751]] - `contains` [EXTRACTED]
+- [[TIÊU CHUẨN CƠ SỞ_2]] - `contains` [EXTRACTED]
+
+#graphify/document #graphify/EXTRACTED #community/FX_Premix_Standards

@@ -1,0 +1,16 @@
+---
+source_file: "ho-so-san-pham/nhan/01-002228_1.jpg"
+type: "image"
+community: "Product Labeling Documentation"
+tags:
+  - graphify/image
+  - graphify/EXTRACTED
+  - community/Product_Labeling_Documentation
+---
+
+# Product Label Image for DAVI CID LIQUID
+
+## Connections
+- [[DAVI CID LIQUID (Organic Acid Gut & Disease Support)]] - `references` [EXTRACTED]
+
+#graphify/image #graphify/EXTRACTED #community/Product_Labeling_Documentation

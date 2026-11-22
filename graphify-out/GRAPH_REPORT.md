@@ -1,316 +1,619 @@
 # Graph Report - CONG-TY-NOBEN  (2026-11-22)
 
 ## Corpus Check
-- 212 files · ~474,583 words
-- Verdict: corpus is large enough that graph structure adds value.
-- Unclassified: 145 file(s) not represented in the graph (top: .doc 121, .eml 7, (none) 4)
-- WARNING: 145 of 607 files seen (24%) have no supported extractor and are missing from this graph entirely. It may look complete while representing only part of the codebase.
+- cluster-only mode — file stats not available
 
 ## Summary
-- 794 nodes · 1215 edges · 150 communities (37 shown, 113 thin omitted)
-- Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 11 edges (avg confidence: 0.86)
-- Token cost: 592,515 input · 17,423 output
+- 1198 nodes · 1525 edges · 289 communities (71 shown, 218 thin omitted)
+- Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 31 edges (avg confidence: 0.88)
+- Token cost: 11,455 input · 3,721 output
 
 ## Graph Freshness
-- Built from commit: `c05c9277`
+- Built from commit: `38808ee5`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
 ## Community Hubs (Navigation)
-- build_2109.py
-- agent/data.py
-- llm.py
-- google_auth.py
-- norm
-- TAI-LIEU-KINH-DOANH/build.py
-- Graph
-- e2e_google.js
-- Thức Ăn Bổ Sung
-- re
-- app.js
-- CÔNG TY TNHH NO BEN
-- NO TOXIN
-- Hỗ trợ xử lý bệnh, gây màu nước & diệt ốc
-- Hỗn hợp khoáng, vitamin, ...
-- Noben 2026 Price List
-- F.X 7-Product Batch Records PDF
-- PRAWNZYME
-- voice.js
-- Khoáng Chất
-- /jarvis Command
-- lam_bo_2109.sh
-- xuat_rieng_2109.sh
-- F.X GARLIC
-- CLEAR 12H
-- F.X LIVER SUPPORT
-- F.X-GLUBENCO
-- F.X GROW
-- F.X PREMIX MILK
-- F.X PURE
-- F.X YUCCA RUS
-- PRO ALGAE
-- RIMIX
-- F.X PURE
-- F.X YUCCA RUS
-- Thông báo tiếp nhận hồ sơ công bố hợp quy - ROVA OTIC
-- Thông báo tiếp nhận hồ sơ công bố hợp quy - YUCCA C
-- CANCI MILK
-- F.X ENZYME
-- F.X ORGANIC
-- MEGA CID NEW
-- Trại tôm Sao Biển.md
-- Iodine Shield.md
-- Đại lý Minh Phát.md
-- Zeo Bind.md
-- Studio Portfolio.md
-- main.py
-- Mưa lớn và pH.md
-- Đốm trắng.md
-- Thay vỏ chậm.md
-- Tảo tàn.md
-- J.A.R.V.I.S. — trợ lý giọng nói riêng
-- os
-- generate_demo.py
-- Đề xuất AI ngành thủy sản.md
-- H
-- Trại cá Tân Hưng.md
-- prompt.md
-- BANG-GIA-NOBEN-2026_a25bfd45.md
-- Danh-muc-104-san-pham-Noben_d87bebfe.md
-- Danh-muc-104-san-pham-Noben_f6bc0c79.md
-- 1. Phiếu QD7 - lưu mẫu 21.09.2026_1b4caa1e.md
-- CÔNG BỐ TIÊU CHUẨN CƠ SỞ
-- CÔNG BỐ TIÊU CHUẨN CƠ SỞ
-- CÔNG BỐ TIÊU CHUẨN CƠ SỞ
-- CÔNG BỐ TIÊU CHUẨN CƠ SỞ
-- CÔNG BỐ TIÊU CHUẨN CƠ SỞ
-- CÔNG BỐ TIÊU CHUẨN CƠ SỞ
-- DANH-MUC-SAN-PHAM-NOBEN-TIM-2026_3cdf6192.md
-- DANH MỤC CÔNG TY TNHH THỦY SẢN VIỆT_1cc05715.md
-- GỬI BAO GIA -XLMT_f9232ad8.md
-- Hồ sơ nhãn & thông tin sản phẩm Noben
-- Who sir is
-- say
-- 05.11 BÁO GIÁ_NOBEN_f255223d.md
-- 1-DM 116 SP HCHQ 2025 1_6f02c5af.md
-- DM 7 SP NOBEN - TCCS (da cap nhat so)_0d0fb34e.md
-- HO-SO-21.09.2026/README.md
-- Viec-can-lam.md
-- TAI-LIEU-KINH-DOANH/README.md
+- Document Processing Utilities
+- File System Automation
+- Aquaculture Health Products
+- Aquaculture Product Pricing
+- Document Extraction Tools
+- Educational Knowledge Base
+- Business Activity Logs
+- Production Quality Regulations
+- AI Strategy Documentation
+- Graph Visualization Logic
+- System Process Control
+- Data Parsing Utilities
+- LLM Integration Layer
+- Aquaculture Feed Additives
+- Google OAuth Integration
+- Daily Activity Notes
+- Web Application Interface
+- Client Order Management
+- Farm Management Notes
+- Product Labeling Documentation
+- Agent Tooling Framework
+- Local Server Infrastructure
+- AI Standardization Framework
+- Farm Incident Reports
+- Email Inbox Management
+- Calendar Integration Service
+- Jarvis Assistant Configuration
+- Product Profile Generator
+- HTTP Request Handling
+- Voice Processing Module
+- Demo Data Generation
+- Liver Support Products
+- EDTA Product Specifications
+- PDF Processing Utilities
+- API Request Handler
+- F.X Product Standards
+- Waste Treatment Products
+- Agent Persona Rules
+- Noben Price Lists
+- Mineral Premix Products
+- Vitamin C Products
+- Educational Curriculum Modules
+- BEN BKC Product Labels
+- Product Catalog Summary
+- Product Catalog Details
+- HUFA Supplement Products
+- Aqua C Supplements
+- Bio AQ Product Labels
+- AP 79 Product Labels
+- Liver Support ANTILIV
+- Probiotic AQUALACTO Q
+- CANCI MILK Products
+- F.X Enzyme Specifications
+- Oxygen Treatment Products
+- AQUA BAC Specifications
+- PRO ALGAE Treatment
+- PRAWNZYME Probiotic Product
+- MIX 79 Mineral Supplement
+- Premix 10.000 Supplement
+- SUPER CAL Supplement
+- MARIMIX Supplement
+- BENMER Product Concepts
+- NB-MIX 500 Products
+- Batch Record Guidelines
+- Amin Care Products
+- Sample Storage Records
+- F.X Garlic Standards
+- F.X Grow Standards
+- F.X Premix Standards
+- F.X Glubenco Standards
+- F.X Pure Standards
+- F.X Yucca Standards
+- Noben Product Index
+- Viet Nga Product List
+- Environmental Treatment Quotes
+- Iodine 99 Batch Records
+- Glucan Supplement Products
+- NB-HELVIROL Liver Support
+- HEPAPLUS Product Line
+- Toxic Algae Treatment
+- DOWN MAX Products
+- YUCCA C Products
+- Mineral Premix New
+- YUCCA VS ZEO Products
+- Product Profile Documentation
+- Agent Identity Profile
+- Voice Interface UI
+- System Setup Script
+- Jarvis Command Interface
+- Noben Price Quotations
+- HCHQ Product List
+- Noben TCCS Product List
+- Batch Processing Script
+- Export Processing Script
+- F.X Product Pairings
+- Production Batch Records
+- PROLAC Product Labels
+- AMIN CARE Labels
+- NB-MIX 5000 Minerals
+- G7 Liver Supplement Label
+- Aqua Biotic Probiotic Label
+- ProticBest Digestive Supplement Label
+- ROCAPHOS Mineral Supplement Label
+- CALPHOTE Shell Hardener Label
+- NB-SORBITOL Liver Support Label
+- BEN COM Protein Supplement Label
+- Prozym Product Label
+- US Lacto Product Label
+- NB BIOBEST Probiotic Label
+- NB C SORMIN Vitamin Label
+- BIO MOS Probiotic Label
+- HEPATIC Liver Detox Label
+- BIOTIC 99 Liquid Probiotic
+- PRO AQ Probiotic Label
+- CALCIPHO Product Label
+- BIOZYME Product Label
+- AQUALAC-FS Product Label
+- AQUALAC-FS Packaging Label
+- F.X ORGANIC Product Label
+- F.X ORGANIC Specifications
+- MEGA CID Product Label
+- SUPER CUT ALGA Label
+- SUPER BIOCA Product Label
+- NB-BIOPOND Product Label
+- BEN COPPER 500 Label
+- GRAND ZEOLITE Product Label
+- BACPOWER Product Label
+- YUCCA 99 Product Label
+- SUN BLUE Mineral Label
+- NB-ALGAE Probiotic Label
+- AMYLAC Probiotic Label
+- PREMIX 9999 Mineral Label
+- BIO EDTA Product Label
+- AQUA BZ Product Label
+- NB C SORMIN New Label
+- BEN BKC Product Label
+- TP66 Algae Treatment Label
+- System Configuration Profile
+- Task Management List
+- AMIN CARE Packaging
+- BEN BKC Packaging
+- BEN COPPER 500 Packaging
+- BIOTIC 99 Packaging
+- CLEAR 12H Packaging
+- HEPALIVER-FS Packaging
+- LIVER-MAX Packaging
+- MIX 79 Packaging
+- PREMIX ORA Packaging
+- SUPER CUT ALGA Packaging
+- SUPER YUCCA Packaging
+- US LACTO Packaging
+- VH-DIO 99 Packaging
+- VH-GLUBENCO PRO Packaging
+- F.X-GLUBENCO Compliance
+- Price and Standards Comparison
+- Golden Ratio Reference
+- F.X Liver Support Product
+- Sample Retention Records
+- Glubenco Product Data
+- Grow Product Data
+- Premix Milk Data
+- Pure Product Data
+- Yucca Rus Data
+- EDTA 99 Batch Records
+- Yucca 99 Batch Records
+- BZT Batch Records
+- Iodin 99 Batch Records
+- EDTA 99 Batch Records
+- Copper 500 Batch Records
+- C Max 25% Batch Records
+- Yucca 99 Batch Records
+- Sample Retention Logs
+- Premix 9999 Label Design
+- Ben IQ Label Design
+- De-Zoo Label Design
+- Clear 12H Label Design
+- Super Vidal Label Design
+- Rovabio AP Label Design
+- Rovazyme Label Design
+- Rovazyme Label Design
+- Rova Otic Label Design
+- Super Yucca Label Design
+- Super Yucca Label Design
+- Super Aqua 80 Label
+- Super Gold Label Design
+- Super Din 600 Label
+- No Toxin Label Design
+- Aqua Micro Label Design
+- Ben Xid 3000 Label
+- Ben Xid 3000 Label
+- Ben Xid 3000 Design
+- Ben MKC 4000 Design
+- Ben MKC 4000 Design
+- Ben Gold RV Design
+- Bio Book Label Design
+- Yucca Zeo Label Design
+- Yucca Zeo Label Design
+- Yucca Zeo Label Design
+- Aqua Tech Label Design
+- Aqua Tech Label Design
+- Aqua Squick Label Design
+- Aqua Squick Label Design
+- Bio Premix Label Design
+- Miral N.8 Label Design
+- Rimix Label Design
+- Rimix Label Design
+- Bio Max Label Design
+- Bio Calmax Label Design
+- Aqua Yucca Label Design
+- Aqua Yucca Label Design
+- Jarvis HUD Interface
+- Task Management List
+- F.X Pure Product Info
+- F.X Yucca Rus Info
+- Rova Otic Compliance
+- Yucca C Compliance
+- Canci Milk Product Info
+- F.X Enzyme Product Info
+- F.X Organic Product Info
+- Mega Cid New Info
 
 ## God Nodes (most connected - your core abstractions)
-1. `Thức Ăn Bổ Sung` - 22 edges
+1. `CÔNG TY TNHH NO BEN` - 30 edges
 2. `Graph` - 21 edges
-3. `norm()` - 13 edges
-4. `Tools` - 12 edges
-5. `J.A.R.V.I.S. — trợ lý giọng nói riêng` - 11 edges
-6. `_xls()` - 10 edges
-7. `inbox()` - 9 edges
-8. `calendar()` - 9 edges
-9. `H` - 9 edges
-10. `Vault` - 9 edges
+3. `Thức ăn bổ sung` - 21 edges
+4. `Công Ty TNHH No Ben (TS790020)` - 16 edges
+5. `Chế phẩm sinh học & Hóa chất` - 15 edges
+6. `norm()` - 13 edges
+7. `Nhóm Chế phẩm sinh học & hóa chất` - 13 edges
+8. `Tools` - 12 edges
+9. `EDTA 99 Batch Record Lot 10-210926` - 12 edges
+10. `J.A.R.V.I.S. — trợ lý giọng nói riêng` - 11 edges
 
 ## Surprising Connections (you probably didn't know these)
-- `Công ty Cổ phần Khoa học Sabio` --references--> `CÔNG TY TNHH NO BEN`  [INFERRED]
-  graphify-out/converted/05.11 BÁO GIÁ_NOBEN (sửa theo TCCS)_d7ed26c4.md → TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
-- `Thủy Sản Tím` --references--> `CÔNG TY TNHH NO BEN`  [EXTRACTED]
-  TAI-LIEU-KINH-DOANH/CATALOGUE-THUY-SAN-TIM-2026.html → TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
-- `Thông báo tiếp nhận hồ sơ công bố hợp quy - VITA C TAT new` --references--> `CÔNG TY TNHH NO BEN`  [EXTRACTED]
-  THÔNG BÁO HỢP QUY/TB-269.jpg → TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
-- `F.X 7-Product Batch Records PDF` --implements--> `Noben Batch Record Rules`  [INFERRED]
-  HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf → CLAUDE.md
-- `_save()` --indirect_call--> `f()`  [INFERRED]
-  jarvis-pro/agent/google_auth.py → ho-so-lo/_build/sua_hsl_2109.py
+- `Công ty TNHH Noben (Catalogue)` --semantically_similar_to--> `CÔNG TY TNHH NO BEN`  [INFERRED] [semantically similar]
+  TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html → TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
+- `G7 (Bổ gan, giải độc gan)` --references--> `CÔNG TY TNHH NO BEN`  [EXTRACTED]
+  ho-so-san-pham/nhan/01-001531_1.jpg → TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
+- `Aqua Biotic (Bổ sung lợi khuẩn)` --references--> `CÔNG TY TNHH NO BEN`  [EXTRACTED]
+  ho-so-san-pham/nhan/01-001540_1.jpg → TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
+- `ProticBest (Probiotic Digestive Supplement for Aquatic Animals)` --references--> `CÔNG TY TNHH NO BEN`  [EXTRACTED]
+  ho-so-san-pham/nhan/01-001545_1.jpg → TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
+- `ROCAPHOS (Mineral Solution for Shrimp Molting)` --references--> `CÔNG TY TNHH NO BEN`  [EXTRACTED]
+  ho-so-san-pham/nhan/01-001547_1.jpg → TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
 
 ## Import Cycles
 - None detected.
 
 ## Hyperedges (group relationships)
-- **Premix Product Series** — ho_so_san_pham_index_premix_10000, ho_so_san_pham_index_premix_9999, ho_so_san_pham_index_premix_khoang_new [EXTRACTED 0.90]
+- **No Ben Standard Product Line** — ho_so_san_pham_nhan_01_028281_1_calcipho, ho_so_san_pham_nhan_01_028282_2_hepaplus, ho_so_san_pham_nhan_01_028283_1_biozyme, ho_so_san_pham_nhan_01_028286_1_aqualac_fs [EXTRACTED 0.85]
+- **Viet Nga Distributed Product Series** — ho_so_san_pham_nhan_01_061772_1_canci_milk, ho_so_san_pham_nhan_01_061785_1_fx_organic [EXTRACTED 0.85]
+- **Bacillus Subtilis Based Aquaculture Probiotic Products** — ho_so_san_pham_nhan_01_002235_1_bio_aq_duc_viet, ho_so_san_pham_nhan_01_002235_2_bio_aq_noben, ho_so_san_pham_nhan_01_002236_1_us_lacto, ho_so_san_pham_nhan_01_002237_1_ap_79_noben, ho_so_san_pham_nhan_01_002237_2_ap_79_duc_viet [EXTRACTED 0.90]
+- **No Ben Mineral Products for Aquaculture** — ho_so_san_pham_nhan_02_001538_1_sun_blue, ho_so_san_pham_nhan_02_002245_1_mix_79, ho_so_san_pham_nhan_02_002248_1_premix_10000 [EXTRACTED 0.90]
+- **No Ben Probiotic and Water Treatment Products** — ho_so_san_pham_nhan_02_001539_1_prawnzyme, ho_so_san_pham_nhan_02_002246_1_nb_algae, ho_so_san_pham_nhan_02_002250_1_toxic_algae [EXTRACTED 0.90]
+- **Noben Aquaculture Technical & Product Ecosystem** — jarvis_pro_data_demo_noben_ky_thuat_khí_độc_nh3_khí_độc_nh3, jarvis_pro_data_demo_noben_ky_thuat_mưa_lớn_và_ph_mưa_lớn_và_ph, jarvis_pro_data_demo_noben_san_pham_algae_stop_algae_stop, jarvis_pro_data_demo_noben_san_pham_calci_milk_calci_milk, jarvis_pro_data_demo_noben_san_pham_zeo_bind_zeo_bind [EXTRACTED 0.90]
+- **Nhóm sản phẩm bồi bổ và giải độc gan** — ho_so_san_pham_nhan_01_002242_1_hepatic, ho_so_san_pham_nhan_01_002244_1_antiliv, ho_so_san_pham_nhan_01_002244_2_antiliv [EXTRACTED 0.90]
+- **Vitamin C Feed Additives for Aquaculture** — ho_so_san_pham_nhan_01_002231_1_aqua_c_30, ho_so_san_pham_nhan_01_002232_1_c_max_25 [EXTRACTED 0.90]
+- **EDTA 99 Product Label Variants (Registration 02-002251)** — ho_so_san_pham_nhan_02_002251_1_image, ho_so_san_pham_nhan_02_002251_2_image, ho_so_san_pham_nhan_02_002251_3_image, ho_so_san_pham_nhan_02_002251_4_image [EXTRACTED 0.95]
+- **Educational Game Levels Network** — jarvis_pro_data_demo_game_cảng_lịch_sử_level, jarvis_pro_data_demo_game_hang_động_vật_lý_level, jarvis_pro_data_demo_game_rừng_hình_học_level, jarvis_pro_data_demo_game_thành_phố_từ_vựng_level, jarvis_pro_data_demo_game_đảo_phân_số_level [EXTRACTED 0.95]
+- **MARIMIX Product Label Variants (Registration 02-002253)** — ho_so_san_pham_nhan_02_002253_1_image, ho_so_san_pham_nhan_02_002253_2_image [EXTRACTED 0.95]
+- **Nhóm sản phẩm vi sinh hỗ trợ tiêu hóa đường ruột** — ho_so_san_pham_nhan_01_002239_1_nb_biobest, ho_so_san_pham_nhan_01_002241_1_bio_mos, ho_so_san_pham_nhan_01_002256_1_aqualacto_q, ho_so_san_pham_nhan_01_023341_1_biotic_99, ho_so_san_pham_nhan_01_028280_1_pro_aq [EXTRACTED 0.95]
+- **SUPER CAL Product Label Variants (Registration 02-002252)** — ho_so_san_pham_nhan_02_002252_1_image, ho_so_san_pham_nhan_02_002252_2_image [EXTRACTED 0.95]
+- **Nhóm sản phẩm vi sinh chứa Bacillus Subtilis** — ho_so_san_pham_index_p_01_028280, ho_so_san_pham_index_p_01_001524, ho_so_san_pham_index_p_01_001545, ho_so_san_pham_index_p_01_002236 [EXTRACTED 1.00]
+- **BZT Product Packaging Variants** — ho_so_san_pham_nhan_02_001534_1_bzt, ho_so_san_pham_nhan_02_001534_2_bzt, ho_so_san_pham_nhan_02_001534_3_bzt [EXTRACTED 1.00]
+- **Các Nhóm Sản Phẩm Catalogue Noben 2026** — tai_lieu_kinh_doanh_catalogue_noben_2026_sec_sinh_hoc, tai_lieu_kinh_doanh_catalogue_noben_2026_sec_khoang_chat, tai_lieu_kinh_doanh_catalogue_noben_2026_sec_thuc_an_bo_sung, tai_lieu_kinh_doanh_catalogue_noben_2026_sec_tri_benh [EXTRACTED 1.00]
 - **Environmental Treatment Products** — tccs_7_san_pham_moi_pdf_5_fx_glubenco_fx_glubenco, tccs_7_san_pham_moi_pdf_6_fx_pure_fx_pure, tccs_7_san_pham_moi_pdf_7_fx_yucca_rus_fx_yucca_rus [EXTRACTED 1.00]
 - **Feed Supplement Products** — graphify_out_converted_1_fx_liver_support_2d81ac86_fx_liver_support, thong_bao_hop_quy_tb_hq_4904_mega_cid_new, thong_bao_hop_quy_tb_hq_4904_fx_organic, thong_bao_hop_quy_tb_hq_4904_canci_milk, thong_bao_hop_quy_tb_hq_4904_fx_enzyme [EXTRACTED 1.00]
 - **F.X Product Series** — ho_so_lo_fx_liver_support, ho_so_lo_fx_garlic, ho_so_lo_fx_grow, ho_so_lo_fx_yucca_rus, ho_so_lo_fx_pure, ho_so_lo_fx_premix_milk, ho_so_lo_fx_glubenco [EXTRACTED 1.00]
-- **Disease Treatment and Water Management Products** — tai_lieu_kinh_doanh_catalogue_noben_2026_blue_max, tai_lieu_kinh_doanh_catalogue_noben_2026_sorbest, tai_lieu_kinh_doanh_catalogue_noben_2026_g7, tai_lieu_kinh_doanh_catalogue_noben_2026_nb_clear_for_fish [EXTRACTED 1.00]
-- **Feed Supplement Products** — tai_lieu_kinh_doanh_catalogue_noben_2026_davi_cid_liquid, tai_lieu_kinh_doanh_catalogue_noben_2026_aqua_biotic, tai_lieu_kinh_doanh_catalogue_noben_2026_ben_com, tai_lieu_kinh_doanh_catalogue_noben_2026_nb_helvirol_b12, tai_lieu_kinh_doanh_catalogue_noben_2026_hepaliv_fs, tai_lieu_kinh_doanh_catalogue_noben_2026_biobets_tom, tai_lieu_kinh_doanh_catalogue_noben_2026_bio_aq, tai_lieu_kinh_doanh_catalogue_noben_2026_ap_79, tai_lieu_kinh_doanh_catalogue_noben_2026_hi_weigh, tai_lieu_kinh_doanh_catalogue_noben_2026_aqua_c30, tai_lieu_kinh_doanh_catalogue_noben_2026_cmax_25 [EXTRACTED 1.00]
-- **Golden Ratio Design System** — claude_phi, tai_lieu_kinh_doanh_bang_gia_noben_2026_html, claude_noben_batch_rules [INFERRED 0.85]
-- **Mineral and Shell Hardening Supplements** — tai_lieu_kinh_doanh_catalogue_noben_2026_nb_c_sormin, tai_lieu_kinh_doanh_catalogue_noben_2026_caphote, tai_lieu_kinh_doanh_catalogue_noben_2026_rocaphos [INFERRED 0.85]
-- **Probiotic and Digestive Support Group** — tai_lieu_kinh_doanh_catalogue_noben_2026_prozyme, tai_lieu_kinh_doanh_catalogue_noben_2026_bz_99, tai_lieu_kinh_doanh_catalogue_noben_2026_aqualacto_q, tai_lieu_kinh_doanh_catalogue_noben_2026_beta_1_3 [INFERRED 0.85]
-- **Liver Detox and Support Solutions** — tai_lieu_kinh_doanh_catalogue_noben_2026_hepaliver_fs, tai_lieu_kinh_doanh_catalogue_noben_2026_hepatic, tai_lieu_kinh_doanh_catalogue_noben_2026_liver_max [INFERRED 0.90]
+- **Nhóm sản phẩm khoáng bổ sung cho thủy sản** — ho_so_san_pham_index_p_01_001526, ho_so_san_pham_index_p_01_001523, ho_so_san_pham_index_p_01_063183, ho_so_san_pham_index_p_01_063184 [EXTRACTED 1.00]
+- **No Ben Aquaculture Product Line** — ho_so_san_pham_nhan_01_061785_2_fx_organic, ho_so_san_pham_nhan_01_061787_1_fx_enzyme, ho_so_san_pham_nhan_01_061789_1_mega_cid_new, ho_so_san_pham_nhan_02_000889_1_super_cut_alga, ho_so_san_pham_nhan_02_000890_1_oxy_99, ho_so_san_pham_nhan_02_000891_1_super_oxy_02, ho_so_san_pham_nhan_02_000893_1_super_bioca, ho_so_san_pham_nhan_02_000896_1_aqua_bac, ho_so_san_pham_nhan_02_000897_1_nb_biopond [EXTRACTED 1.00]
+- **Các sản phẩm thủy sản của Công ty TNHH No Ben** — product_amin_care, product_nb_mix_5000, product_liver_max, product_beta_glucan, product_g7, product_aqua_biotic, product_bz_99, product_hi_weigh, product_aminovit_hufa [EXTRACTED 1.00]
+- **No Ben Aquaculture Product Portfolio** — ho_so_san_pham_nhan_02_000897_2_nb_biopond, ho_so_san_pham_nhan_02_001532_1_ben_copper_500, ho_so_san_pham_nhan_02_001533_1_pro_algae, ho_so_san_pham_nhan_02_001534_1_bzt, ho_so_san_pham_nhan_02_001535_1_grand_zeolite, ho_so_san_pham_nhan_02_001536_1_bacpower, ho_so_san_pham_nhan_02_001537_1_yucca_99 [EXTRACTED 1.00]
+- **NO BEN Aquaculture Products Portfolio** — ho_so_san_pham_nhan_01_001545_1_proticbest, ho_so_san_pham_nhan_01_001547_1_rocaphos, ho_so_san_pham_nhan_01_001548_1_calphote, ho_so_san_pham_nhan_01_001549_1_top_weigh, ho_so_san_pham_nhan_01_001550_1_nb_helvirol_b12, ho_so_san_pham_nhan_01_002227_1_nb_sorbitol_b12, ho_so_san_pham_nhan_01_002228_1_davi_cid_liquid, ho_so_san_pham_nhan_01_002230_1_ben_com [EXTRACTED 1.00]
+- **Danh sách Bảng Giá Noben 2026** — tai_lieu_kinh_doanh_bang_gia_noben_2026_bang_a, tai_lieu_kinh_doanh_bang_gia_noben_2026_bang_t, tai_lieu_kinh_doanh_bang_gia_noben_2026_bang_b [EXTRACTED 1.00]
+- **Noben Production Run Lots on 21/09/2026** — ho_so_lo_edta_99_batch_record, ho_so_lo_iodine_99_batch_record, ho_so_lo_yucca_99_batch_record, ho-so-lo_bzt_batch_record, ho_so_lo_ben_copper_500_batch_record, ho_so_lo_c_max_25_batch_record [EXTRACTED 1.00]
+- **Noben Manufacturing SOP & Quality Regulations (HD 02 - HD 12)** — concept_hd_02_water_control, concept_hd_03_raw_materials_control, concept_hd_04_packaging_control, concept_hd_05_finished_goods_control, concept_hd_06_cross_contamination_control, concept_hd_08_production_process_control, concept_hd_09_measuring_equipment_control, concept_hd_10_pest_control, concept_hd_11_cleaning_sanitation, concept_hd_12_waste_management [EXTRACTED 1.00]
+- **PRO ALGAE Product Packaging Variants** — ho_so_san_pham_nhan_02_001533_1_pro_algae, ho_so_san_pham_nhan_02_001533_2_pro_algae [EXTRACTED 1.00]
+- **Nhóm sản phẩm bổ gan chứa Sorbitol** — ho_so_san_pham_index_p_01_001550, ho_so_san_pham_index_p_01_002227, ho_so_san_pham_index_p_01_001138, ho_so_san_pham_index_p_01_063186 [EXTRACTED 1.00]
+- **Nhóm Khoáng chất** — tai_lieu_kinh_doanh_catalogue_noben_2026_premix_khoang, tai_lieu_kinh_doanh_catalogue_noben_2026_miral_n8, tai_lieu_kinh_doanh_catalogue_noben_2026_down_max, tai_lieu_kinh_doanh_catalogue_noben_2026_vita_c_tat, tai_lieu_kinh_doanh_catalogue_noben_2026_tang_kiem [EXTRACTED 1.00]
+- **Nhóm Chế phẩm sinh học & Hóa chất** — tai_lieu_kinh_doanh_catalogue_noben_2026_rovabio_ap, tai_lieu_kinh_doanh_catalogue_noben_2026_bzt_cat_tao, tai_lieu_kinh_doanh_catalogue_noben_2026_prawzyme, tai_lieu_kinh_doanh_catalogue_noben_2026_aqua_bac, tai_lieu_kinh_doanh_catalogue_noben_2026_nh3_rovazyme, tai_lieu_kinh_doanh_catalogue_noben_2026_super_bioca, tai_lieu_kinh_doanh_catalogue_noben_2026_super_yucca, tai_lieu_kinh_doanh_catalogue_noben_2026_super_cut_algae, tai_lieu_kinh_doanh_catalogue_noben_2026_ben_copper_500, tai_lieu_kinh_doanh_catalogue_noben_2026_oxy_99, tai_lieu_kinh_doanh_catalogue_noben_2026_ben_iq, tai_lieu_kinh_doanh_catalogue_noben_2026_bacpower, tai_lieu_kinh_doanh_catalogue_noben_2026_aqua_bz, tai_lieu_kinh_doanh_catalogue_noben_2026_yucca_vs_zeo [EXTRACTED 1.00]
+- **Nhóm Thức ăn bổ sung** — tai_lieu_kinh_doanh_catalogue_noben_2026_prozyme, tai_lieu_kinh_doanh_catalogue_noben_2026_bz_99, tai_lieu_kinh_doanh_catalogue_noben_2026_nb_c_sormin, ho_so_san_pham_nhan_01_002233_1_hepaliver_fs, tai_lieu_kinh_doanh_catalogue_noben_2026_beta_1_3, tai_lieu_kinh_doanh_catalogue_noben_2026_caphote, tai_lieu_kinh_doanh_catalogue_noben_2026_rocaphos, tai_lieu_kinh_doanh_catalogue_noben_2026_aqualacto_q, tai_lieu_kinh_doanh_catalogue_noben_2026_aminovit, tai_lieu_kinh_doanh_catalogue_noben_2026_hepatic, tai_lieu_kinh_doanh_catalogue_noben_2026_hufa, tai_lieu_kinh_doanh_catalogue_noben_2026_liver_max, tai_lieu_kinh_doanh_catalogue_noben_2026_davi_cid_liquid, tai_lieu_kinh_doanh_catalogue_noben_2026_aqua_biotic, tai_lieu_kinh_doanh_catalogue_noben_2026_ben_com, tai_lieu_kinh_doanh_catalogue_noben_2026_nb_helvirol_b12, tai_lieu_kinh_doanh_catalogue_noben_2026_hepaliv_fs, tai_lieu_kinh_doanh_catalogue_noben_2026_biobets_tom, tai_lieu_kinh_doanh_catalogue_noben_2026_bio_aq, tai_lieu_kinh_doanh_catalogue_noben_2026_ap_79 [EXTRACTED 1.00]
+- **Nhóm sản phẩm mới đăng ký TCCS năm 2026** — tccs_7_san_pham_moi_pdf_1_f_x_liver_support_product, tccs_7_san_pham_moi_pdf_2_f_x_garlic_product, tccs_7_san_pham_moi_pdf_3_f_x_grow_product [EXTRACTED 1.00]
+- **Nhóm sản phẩm Xử lý môi trường Thủy Sản Tím 2026** — tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_clear_12h, tai_lieu_kinh_doanh_bang_gia_noben_2026_rovazyme, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_ben_bkc, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_vh_glubenco_pro, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_super_yucca, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_mix_79, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_ben_copper_500, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_super_cut_alga, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_vh_dio_99 [EXTRACTED 1.00]
+- **Nhóm sản phẩm Thức ăn bổ sung Thủy Sản Tím 2026** — tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_us_lacto, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_biotic_99, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_amin_care, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_hepaliver_fs, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_liver_max, tai_lieu_kinh_doanh_catalogue_thuy_san_tim_2026_premix_ora [EXTRACTED 1.00]
+- **Golden Ratio Design System** — claude_phi, claude_noben_batch_rules [INFERRED 0.85]
+- **Danh mục sản phẩm thủy sản Công ty TNHH NO BEN** — ho_so_san_pham_nhan_01_001522_1_hufa, ho_so_san_pham_nhan_01_001523_1_premix_khoang, ho_so_san_pham_nhan_01_001524_1_prolac, ho_so_san_pham_nhan_01_001525_1_amin_care [INFERRED 0.90]
+- **Mineral Supplement & Molting Support Line** — ho_so_san_pham_nhan_02_037649_1_down_max_new, ho_so_san_pham_nhan_02_037654_1_nb_mix_500_new, ho_so_san_pham_nhan_02_037655_1_premix_khoang_new [INFERRED 0.90]
+- **Vitamin C & Anti-Stress Product Line** — ho_so_san_pham_nhan_02_028279_1_kia_c_tat, ho_so_san_pham_nhan_02_037652_1_yucca_c, ho_so_san_pham_nhan_02_037653_1_nb_c_sormin_new, ho_so_san_pham_nhan_02_037656_1_vita_c_tat_new [INFERRED 0.90]
+- **Disinfectant & Water Sanitation Product Line** — ho_so_san_pham_nhan_02_037651_1_benmer, ho_so_san_pham_nhan_02_038019_1_bronopol_99, ho_so_san_pham_nhan_02_039607_1_ben_bkc [INFERRED 0.90]
 
-## Communities (150 total, 113 thin omitted)
+## Communities (289 total, 218 thin omitted)
 
-### Community 0 - "build_2109.py"
+### Community 0 - "Document Processing Utilities"
 Cohesion: 0.07
 Nodes (26): bieu_mau(), cells(), dan_mau_luu(), dan_mau_luu_goc(), fill_rows(), full_width(), lenh_sx(), ptext() (+18 more)
 
-### Community 1 - "agent/data.py"
-Cohesion: 0.06
-Nodes (28): _b64text(), _cached(), _cfb(), _clean(), _doc(), _docx(), extract(), _f() (+20 more)
-
-### Community 2 - "llm.py"
+### Community 1 - "File System Automation"
 Cohesion: 0.08
-Nodes (23): mode(), _anthropic(), chat(), _chat_anthropic(), _chat_gemini(), _dedupe(), _gemini(), model_name() (+15 more)
+Nodes (19): bo_ma(), doi_gio(), f(), ptext(), _slug(), write(), build_bang_gia(), build_excel() (+11 more)
 
-### Community 3 - "google_auth.py"
-Cohesion: 0.21
-Nodes (13): access_token(), callback(), _client(), configured(), _fail(), get_json(), GoogleError, _load() (+5 more)
+### Community 2 - "Aquaculture Health Products"
+Cohesion: 0.04
+Nodes (46): Hepaliver - FS, Product Label Image for Hepaliver - FS, F.X Garlic (Reset Gut Health), Product Label Image for Hepaliver-FS / F.X Garlic, AMINOVIT, AP 79, AQUA BAC, AQUA BIOTIC (+38 more)
 
-### Community 4 - "norm"
-Cohesion: 0.07
-Nodes (18): calendar(), calendar_file(), _gcal(), fetch(), google_source(), google_status(), html_links(), inbox() (+10 more)
+### Community 3 - "Aquaculture Product Pricing"
+Cohesion: 0.06
+Nodes (38): Hình ảnh bao bì ROVAZYME, Bảng Giá Noben 2026 (Bảng A), Bảng Báo Giá 2026 – Noben (B), Bảng Giá Tôm (Bảng 02-03), Sản phẩm BZT, Bảng Giá Noben 2026 (PDF), Sản phẩm EDTA 99, Document Bảng Giá Noben 2026 (+30 more)
 
-### Community 5 - "TAI-LIEU-KINH-DOANH/build.py"
-Cohesion: 0.21
-Nodes (11): build_bang_gia(), build_excel(), build_noben(), build_tim(), img64(), key(), money(), price_block() (+3 more)
+### Community 4 - "Document Extraction Tools"
+Cohesion: 0.09
+Nodes (14): _cfb(), _clean(), _doc(), _docx(), extract(), iter_documents(), _local(), _num() (+6 more)
 
-### Community 6 - "Graph"
+### Community 5 - "Educational Knowledge Base"
+Cohesion: 0.09
+Nodes (14): Cảng Lịch Sử, Hang Động Vật Lý, Rừng Hình Học, Thành Phố Từ Vựng, Đảo Phân Số, Ghi chú 2026-09-14, Ghi chú 2026-10-04, Ghi chú 2026-10-11 (+6 more)
+
+### Community 6 - "Business Activity Logs"
+Cohesion: 0.12
+Nodes (15): Ghi chú 2026-09-01, Ghi chú 2026-09-03, Ghi chú 2026-09-15, Ghi chú 2026-11-09, Trại tôm Sao Biển, Đơn hàng, Đơn hàng, Đại lý Bến Tre Xanh (+7 more)
+
+### Community 7 - "Production Quality Regulations"
+Cohesion: 0.09
+Nodes (27): HD 02 - Water Quality Control Regulation, HD 03 - Raw Material Control Regulation, HD 04 - Packaging Control Regulation, HD 05 - Finished Goods Control Regulation, HD 06 - Cross Contamination Control Regulation, HD 08 - Production Process Control Regulation, HD 09 - Measuring Equipment Control Regulation, HD 10 - Insect & Pest Control Regulation (+19 more)
+
+### Community 8 - "AI Strategy Documentation"
+Cohesion: 0.10
+Nodes (13): Checklist dữ liệu AI, Đề xuất AI ngành thủy sản, Ghi chú 2026-09-12, Ghi chú 2026-09-28, Ghi chú 2026-10-13, Ghi chú 2026-10-28, Ghi chú 2026-11-17, Ghi chú 2026-11-24 (+5 more)
+
+### Community 9 - "Graph Visualization Logic"
 Cohesion: 0.19
 Nodes (3): colorOf(), Graph, TYPE_COLORS
 
-### Community 7 - "e2e_google.js"
+### Community 10 - "System Process Control"
 Cohesion: 0.09
 Nodes (12): { chromium }, fs, os, path, procs, ROOT, sleep(), { spawn } (+4 more)
 
-### Community 8 - "Thức Ăn Bổ Sung"
-Cohesion: 0.09
-Nodes (23): AMINOVIT, AP 79, AQUA BIOTIC, AQUA C30%, AQUALACTO Q, BEN COM, BETA 1.3, BIO AQ (+15 more)
+### Community 11 - "Data Parsing Utilities"
+Cohesion: 0.13
+Nodes (6): html_links(), read_raw(), norm(), title_of(), type_of(), Vault
 
-### Community 9 - "re"
-Cohesion: 0.18
-Nodes (6): _slug(), write(), title_from(), title_of(), catalogue_items(), norm()
+### Community 12 - "LLM Integration Layer"
+Cohesion: 0.17
+Nodes (14): _anthropic(), chat(), _chat_anthropic(), _chat_gemini(), _dedupe(), _gemini(), model_name(), ModelError (+6 more)
 
-### Community 11 - "app.js"
+### Community 13 - "Aquaculture Feed Additives"
+Cohesion: 0.10
+Nodes (20): SORBEST, PREMIX KHOÁNG, PROLAC, NB-MIX 5000, PROTICBEST, ROCAPHOS, TOP-WEIGH, NB-HELVIROL-B12 (+12 more)
+
+### Community 14 - "Google OAuth Integration"
+Cohesion: 0.21
+Nodes (13): access_token(), callback(), _client(), configured(), _fail(), get_json(), GoogleError, _load() (+5 more)
+
+### Community 15 - "Daily Activity Notes"
+Cohesion: 0.12
+Nodes (10): Ghi chú 2026-09-11, Ghi chú 2026-09-23, Ghi chú 2026-10-11, Ghi chú 2026-10-26, Ghi chú 2026-11-08, Ghi chú 2026-11-21, Delta Yucca, Vita Shell (+2 more)
+
+### Community 16 - "Web Application Interface"
 Cohesion: 0.23
 Nodes (17): api(), ask(), boot(), chip(), esc(), EXAMPLES, fail(), inspect() (+9 more)
 
-### Community 12 - "CÔNG TY TNHH NO BEN"
-Cohesion: 0.25
-Nodes (8): Công ty Cổ phần Khoa học Sabio, Thủy Sản Tím, F.X-GLUBENCO, Lê Văn Khánh, CÔNG TY TNHH NO BEN, QCVN 97:2025/BNNMT, Thông báo tiếp nhận hồ sơ công bố hợp quy - VITA C TAT new, Sở Nông nghiệp và Môi trường TP.HCM
-
-### Community 13 - "NO TOXIN"
-Cohesion: 0.33
-Nodes (6): Công Ty TNHH No Ben, Hóa chất xử lý môi trường, NO TOXIN, OXY 99, TCCS 01:2016/NOBEN, TCCS 11:2020/NOBEN
-
-### Community 14 - "Hỗ trợ xử lý bệnh, gây màu nước & diệt ốc"
-Cohesion: 0.40
-Nodes (5): BLUE MAX, G7, Hỗ trợ xử lý bệnh, gây màu nước & diệt ốc, NB CLEAR FOR FISH, SORBEST
-
-### Community 15 - "Hỗn hợp khoáng, vitamin, ..."
-Cohesion: 0.50
-Nodes (4): Hỗn hợp khoáng, vitamin, ..., PREMIX 10.000, PREMIX 9999, PREMIX KHOÁNG NEW
-
-### Community 16 - "Noben 2026 Price List"
-Cohesion: 0.67
-Nodes (3): Price List vs TCCS Comparison, Golden Ratio φ (1.61803), Noben 2026 Price List
-
-### Community 17 - "F.X 7-Product Batch Records PDF"
-Cohesion: 0.67
-Nodes (3): Noben Batch Record Rules, F.X 7-Product Batch Records PDF, F.X Product Batch Record Instructions
-
-### Community 18 - "PRAWNZYME"
-Cohesion: 0.67
-Nodes (3): Chế phẩm sinh học, PRAWNZYME, TCCS 27:2020/NOBEN
-
-### Community 20 - "Khoáng Chất"
-Cohesion: 0.67
-Nodes (3): Khoáng Chất, TĂNG KIỀM, VITA C TẠT
-
-### Community 43 - "Trại tôm Sao Biển.md"
-Cohesion: 0.11
-Nodes (12): Cảng Lịch Sử, Hang Động Vật Lý, Rừng Hình Học, Ghi chú 2026-09-14, Ghi chú 2026-09-16, Ghi chú 2026-09-17, Ghi chú 2026-10-04, Ghi chú 2026-10-11 (+4 more)
-
-### Community 44 - "Iodine Shield.md"
+### Community 17 - "Client Order Management"
 Cohesion: 0.12
-Nodes (10): Checklist dữ liệu AI, Khung chuẩn hóa AI, Ghi chú 2026-09-12, Ghi chú 2026-10-06, Ghi chú 2026-10-28, Ghi chú 2026-11-24, Công ty Mekong Seed, Đơn hàng (+2 more)
+Nodes (11): Ghi chú 2026-09-01, Ghi chú 2026-10-08, Ghi chú 2026-11-17, Ghi chú 2026-11-21, Đơn hàng, Đại lý Cửu Long, Thay vỏ chậm, Gut Max (+3 more)
 
-### Community 45 - "Đại lý Minh Phát.md"
-Cohesion: 0.11
-Nodes (10): Thành Phố Từ Vựng, Đảo Phân Số, Ghi chú 2026-10-24, Ghi chú 2026-11-16, Ghi chú 2026-11-17, Ghi chú 2026-11-19, Ghi chú 2026-11-20, Ghi chú 2026-11-24 (+2 more)
-
-### Community 46 - "Zeo Bind.md"
-Cohesion: 0.13
-Nodes (10): Ghi chú 2026-09-01, Ghi chú 2026-10-08, Ghi chú 2026-10-24, Ghi chú 2026-11-17, Ghi chú 2026-11-25, Đơn hàng, Đại lý Cửu Long, Mineral Plus (+2 more)
-
-### Community 47 - "Studio Portfolio.md"
+### Community 18 - "Farm Management Notes"
 Cohesion: 0.14
-Nodes (8): Ghi chú 2026-09-11, Ghi chú 2026-09-23, Ghi chú 2026-10-11, Ghi chú 2026-11-08, Ghi chú 2026-11-21, Delta Yucca, Landing Nova Coffee, Studio Portfolio
+Nodes (10): Ghi chú 2026-10-13, Ghi chú 2026-10-24, Ghi chú 2026-11-19, Trại tôm Ba Lan, Đơn hàng, Đơn hàng, Đại lý Minh Phát, Tảo tàn (+2 more)
 
-### Community 49 - "Mưa lớn và pH.md"
-Cohesion: 0.19
-Nodes (8): Ghi chú 2026-09-15, Ghi chú 2026-11-09, Đơn hàng, Đại lý Bến Tre Xanh, Mưa lớn và pH, Phân trắng, Aqua Probio, Calci Milk
+### Community 19 - "Product Labeling Documentation"
+Cohesion: 0.12
+Nodes (16): Công ty Cổ phần Khoa học Sabio, Nhãn sản phẩm BZ 99 (Mã tiếp nhận: 01-001542), Nhãn sản phẩm Hi-Weigh (Mã tiếp nhận: 01-001543), Nhãn sản phẩm Aminovit HUFA (Mã tiếp nhận: 01-001544), Product Label Image for TOP-WEIGH, TOP-WEIGH (Protein & Mineral Growth Booster), DAVI CID LIQUID (Organic Acid Gut & Disease Support), Product Label Image for DAVI CID LIQUID (+8 more)
 
-### Community 50 - "Đốm trắng.md"
+### Community 20 - "Agent Tooling Framework"
+Cohesion: 0.23
+Nodes (3): _card(), injected(), Tools
+
+### Community 21 - "Local Server Infrastructure"
+Cohesion: 0.15
+Nodes (3): load_env(), b64(), events()
+
+### Community 22 - "AI Standardization Framework"
+Cohesion: 0.14
+Nodes (8): Gói AI cho SME, Khung chuẩn hóa AI, Ghi chú 2026-09-16, Ghi chú 2026-10-06, Ghi chú 2026-11-22, Ghi chú 2026-11-25, Trại cá Tân Hưng, Đơn hàng
+
+### Community 23 - "Farm Incident Reports"
+Cohesion: 0.14
+Nodes (8): Ghi chú 2026-09-17, Ghi chú 2026-09-27, Ghi chú 2026-11-02, Ghi chú 2026-11-24, HTX Rạch Gốc, Đơn hàng, Đốm trắng, Lumen Oxy
+
+### Community 24 - "Email Inbox Management"
+Cohesion: 0.15
+Nodes (11): _b64text(), _cached(), _gmail_body(), walk(), _gmail_inbox(), fetch(), one(), html_text() (+3 more)
+
+### Community 25 - "Calendar Integration Service"
 Cohesion: 0.16
-Nodes (7): Ghi chú 2026-09-03, Ghi chú 2026-10-26, Khí độc NH3, Đốm trắng, Algae Stop, Clear Tide, Vita Shell
+Nodes (9): calendar(), calendar_file(), _gcal(), fetch(), google_source(), google_status(), mode(), today() (+1 more)
 
-### Community 51 - "Thay vỏ chậm.md"
-Cohesion: 0.18
-Nodes (7): Ghi chú 2026-09-01, Ghi chú 2026-09-27, Ghi chú 2026-11-21, HTX Rạch Gốc, Đơn hàng, Thay vỏ chậm, Gut Max
-
-### Community 52 - "Tảo tàn.md"
-Cohesion: 0.18
-Nodes (7): Ghi chú 2026-10-13, Ghi chú 2026-11-24, Trại tôm Ba Lan, Đơn hàng, Tảo tàn, Liver Guard, Lumen Oxy
-
-### Community 53 - "J.A.R.V.I.S. — trợ lý giọng nói riêng"
+### Community 26 - "Jarvis Assistant Configuration"
 Cohesion: 0.17
-Nodes (11): Bản online trên claude.ai, Chi phí, Chạy trong 1 phút, Cách dùng, Công tắc demo: dùng dữ liệu thật, Cấu trúc, Hồ sơ và bộ nhớ, J.A.R.V.I.S. — trợ lý giọng nói riêng (+3 more)
+Nodes (12): Bản online trên claude.ai, Chi phí, Chạy trong 1 phút, Cách dùng, Công tắc demo: dùng dữ liệu thật, Cấu trúc, Jarvis Pro Readme, Hồ sơ và bộ nhớ (+4 more)
 
-### Community 54 - "os"
-Cohesion: 0.22
-Nodes (4): bo_ma(), doi_gio(), f(), ptext()
+### Community 29 - "Voice Processing Module"
+Cohesion: 0.33
+Nodes (5): available(), listen(), _req(), speak(), VoiceError
 
-### Community 55 - "generate_demo.py"
+### Community 30 - "Demo Data Generation"
 Cohesion: 0.42
 Nodes (4): fixtures(), links(), main(), w()
 
-### Community 56 - "Đề xuất AI ngành thủy sản.md"
+### Community 31 - "Liver Support Products"
 Cohesion: 0.25
-Nodes (4): Đề xuất AI ngành thủy sản, Ghi chú 2026-09-28, Ghi chú 2026-10-13, Ghi chú 2026-11-17
+Nodes (8): Công ty TNHH Công Nghệ Nuôi 45, Công ty Cổ phần Liên kết Công nghệ Việt Nga, Nhãn sản phẩm Liver-Max - Mẫu 1 (Mã tiếp nhận: 01-001528), Nhãn sản phẩm Liver-Max - Mẫu 2 (Mã tiếp nhận: 01-001528), Nhãn sản phẩm Liver-Max F.X Support Việt Nga (Mã tiếp nhận: 01-001528), FX GROW / AMINOVIT (Aquaculture Weight Gain & Vitamin Supplement), Product Label Image for FX GROW / AMINOVIT, Liver-Max (Bổ gan - Giải độc gan)
 
-### Community 58 - "Trại cá Tân Hưng.md"
+### Community 32 - "EDTA Product Specifications"
+Cohesion: 0.25
+Nodes (8): EDTA 99 Product Specifications (02-002251), Product Label Image - EDTA 99 (3kg), EDTA 99 Product Variant 3 Tac Dung (02-002251), Product Label Image - EDTA 99 (1kg/2kg/5kg), EDTA 99 Product Variant Sieu Lang (02-002251), Product Label Image - EDTA 99 (3kg/5kg), EDTA 99 Product Variant Details (02-002251), Product Label Image - EDTA 99 (Detailed Specifications)
+
+### Community 33 - "PDF Processing Utilities"
+Cohesion: 0.29
+Nodes (6): _f(), _pdf(), cmap(), _pdf_ops(), dec(), _u16hex()
+
+### Community 35 - "F.X Product Standards"
+Cohesion: 0.29
+Nodes (7): TCCS 12:2026/NOBEN - F.X LIVER SUPPORT, Sản phẩm F.X LIVER SUPPORT, TCCS 10:2026/NOBEN - F.X GARLIC, Sản phẩm F.X GARLIC, TCCS 11:2026/NOBEN - F.X GROW, Sản phẩm F.X GROW, Lê Văn Khánh
+
+### Community 36 - "Waste Treatment Products"
 Cohesion: 0.33
-Nodes (4): Gói AI cho SME, Ghi chú 2026-11-22, Trại cá Tân Hưng, Đơn hàng
+Nodes (6): BZT Waste Digester (Mã tiếp nhận: 02-001534), Product label image for BZT (Design 1), BZT Digester Waste Water 500g, Product label image for BZT (500g), BZT Vi Sinh Xử Lý Đáy 227g, Product label image for BZT (227g)
 
-### Community 59 - "prompt.md"
+### Community 37 - "Agent Persona Rules"
 Cohesion: 0.33
 Nodes (5): How you speak, Rules no phrasing overrides, What you remember (memory/, newest first), When to use tools, Who sir is (CLAUDE.md)
 
-### Community 60 - "BANG-GIA-NOBEN-2026_a25bfd45.md"
+### Community 38 - "Noben Price Lists"
 Cohesion: 0.40
 Nodes (4): Sheet: Bang gia Noben 2026, Sheet: Bang gia Tom 02-03, Sheet: Bao gia Noben (B), Sheet: Tong hop
 
-### Community 61 - "Danh-muc-104-san-pham-Noben_d87bebfe.md"
+### Community 39 - "Mineral Premix Products"
+Cohesion: 0.40
+Nodes (5): Nhãn sản phẩm PREMIX KHOÁNG (01-001523_1.jpg), Sản phẩm PREMIX KHOÁNG (Mã số tiếp nhận 01-001523), Công ty TNHH Quốc Tế Probiotic, Nhãn sản phẩm PREMIX KHOÁNG X4 (01-001523_2.jpg), Sản phẩm PREMIX KHOÁNG X4 (Mã số tiếp nhận 01-001523)
+
+### Community 40 - "Vitamin C Products"
+Cohesion: 0.40
+Nodes (5): Product label for KIA C TAT, KIA C TAT Product Concept, Product label 1 for VITA C TAT NEW, VITA C TAT NEW Product Concept, Product label 2 for VITA C TAT NEW
+
+### Community 41 - "Educational Curriculum Modules"
+Cohesion: 0.70
+Nodes (5): Cảng Lịch Sử (Lớp 7), Hang Động Vật Lý (Lớp 7), Rừng Hình Học (Lớp 9), Thành Phố Từ Vựng (Lớp 6), Đảo Phân Số (Lớp 4)
+
+### Community 42 - "BEN BKC Product Labels"
+Cohesion: 0.50
+Nodes (4): BEN BKC (TCCS 04:2016/NOBEN), BEN BKC Product Label (Biopro Green Biotech), BEN BKC Product Label (Probiotic Co., Ltd), BEN BKC Product Label (Duc Viet Biotech)
+
+### Community 43 - "Product Catalog Summary"
 Cohesion: 0.50
 Nodes (3): Sheet: Ghi chú, Sheet: Thức ăn bổ sung (40 SP), Sheet: Xử lý môi trường (63 SP)
 
-### Community 62 - "Danh-muc-104-san-pham-Noben_f6bc0c79.md"
+### Community 44 - "Product Catalog Details"
 Cohesion: 0.50
 Nodes (3): Sheet: Ghi chú, Sheet: Thức ăn bổ sung (40 SP), Sheet: Xử lý môi trường (63 SP)
+
+### Community 45 - "HUFA Supplement Products"
+Cohesion: 0.50
+Nodes (4): Sản phẩm HUFA (Mã số tiếp nhận 01-001522), Nhãn sản phẩm HUFA (01-001522_1.jpg), Sản phẩm HUFA Tăng Trọng - Kết Dính (Mã số tiếp nhận 01-001522), Nhãn sản phẩm HUFA Tăng Trọng - Kết Dính (01-001522_2.jpg)
+
+### Community 46 - "Aqua C Supplements"
+Cohesion: 0.50
+Nodes (4): Aqua C 30%, Product Label Image for Aqua C 30%, C Max 25%, Product Label Image for C Max 25%
+
+### Community 47 - "Bio AQ Product Labels"
+Cohesion: 0.50
+Nodes (4): Bio AQ (Duc Viet), Product Label Image for Bio AQ (Duc Viet Biotech Packaging), Bio AQ (Noben), Product Label Image for Bio AQ (Noben Packaging)
+
+### Community 48 - "AP 79 Product Labels"
+Cohesion: 0.50
+Nodes (4): AP 79 (Noben), Product Label Image for AP 79 (Noben Packaging), AP 79 (Duc Viet), Product Label Image for AP 79 (Duc Viet Packaging)
+
+### Community 49 - "Liver Support ANTILIV"
+Cohesion: 0.50
+Nodes (4): Sản phẩm bồi bổ gan ANTILIV (Mã tiếp nhận 01-002244), Nhãn sản phẩm ANTILIV mẫu 1, Thiết kế nhãn gói 500g ANTILIV (Mã tiếp nhận 01-002244), Nhãn bao bì ANTILIV mẫu 2 (154x350mm)
+
+### Community 50 - "Probiotic AQUALACTO Q"
+Cohesion: 0.50
+Nodes (4): Sản phẩm men vi sinh AQUALACTO Q (Mã tiếp nhận 01-002256), Nhãn sản phẩm AQUALACTO Q mẫu 1, Thiết kế nhãn gói 500g AQUALACTO Q (Mã tiếp nhận 01-002256), Nhãn sản phẩm AQUALACTO Q mẫu 2 (gói 500g song ngữ)
+
+### Community 51 - "CANCI MILK Products"
+Cohesion: 0.50
+Nodes (4): CANCI MILK Product, Product label for CANCI MILK (Viet Nga), Product label for CANCI MILK (1L), Product label for CANCI MILK (Viet Nga alternate)
+
+### Community 52 - "F.X Enzyme Specifications"
+Cohesion: 0.50
+Nodes (4): F.X ENZYME Product Specification, Label artwork for F.X ENZYME, F.X ENZYME Viet Nga Distributed Edition, Label photo for F.X ENZYME (Viet Nga Distributor)
+
+### Community 53 - "Oxygen Treatment Products"
+Cohesion: 0.50
+Nodes (4): Label artwork for OXY 99, OXY 99 Product Specification, Label artwork for SUPER OXY-02, SUPER OXY-02 Product Specification
+
+### Community 54 - "AQUA BAC Specifications"
+Cohesion: 0.50
+Nodes (4): AQUA BAC Product Specification, Label artwork for AQUA BAC, Packaging photo for NB-BIOPOND, NB-BIOPOND Product Specification
+
+### Community 55 - "PRO ALGAE Treatment"
+Cohesion: 0.50
+Nodes (4): Product label image for PRO ALGAE (Design 1), PRO ALGAE (Mã tiếp nhận: 02-001533), Product packaging image for PRO ALGAE (500g), PRO ALGAE Chuyên Gia Xử Lý Đáy Ao (500g)
+
+### Community 56 - "PRAWNZYME Probiotic Product"
+Cohesion: 0.50
+Nodes (4): Product Label Diagram - PRAWNZYME Front and Detail (02-001539), PRAWNZYME Probiotic Product, Product Label Diagram - PRAWNZYME Pouch Packaging (02-001539), PRAWNZYME Pouch Packaging Design
+
+### Community 57 - "MIX 79 Mineral Supplement"
+Cohesion: 0.50
+Nodes (4): Product Label Diagram - MIX 79 (02-002245), MIX 79 Mineral Supplement, Product Label Diagram - MIX 79 Bag Packaging (02-002245), MIX 79 Bag Packaging Design
+
+### Community 58 - "Premix 10.000 Supplement"
+Cohesion: 0.50
+Nodes (4): Product Label Diagram - Premix 10.000 (02-002248), Premix 10.000 Mineral Supplement, Product Label Diagram - PREMIX 10.000 Bag Packaging (02-002248), PREMIX 10.000 Bag Packaging Design
+
+### Community 59 - "SUPER CAL Supplement"
+Cohesion: 0.50
+Nodes (4): Product Label Image - SUPER CAL, SUPER CAL Product Specifications (02-002252), Product Label Image - SUPER CAL (Yucca-Khoang-C), SUPER CAL Yucca-Khoang-C Variant (02-002252)
+
+### Community 60 - "MARIMIX Supplement"
+Cohesion: 0.50
+Nodes (4): Product Label Image - MARIMIX, MARIMIX Product Specifications (02-002253), Product Label Image - MARIMIX (Sieu Tao M45), MARIMIX Sieu Tao M45 Variant (02-002253)
+
+### Community 61 - "BENMER Product Concepts"
+Cohesion: 0.50
+Nodes (4): BENMER Product Concept, Product label for BENMER, BRONOPOL 99 Product Concept, Product label for BRONOPOL 99
+
+### Community 62 - "NB-MIX 500 Products"
+Cohesion: 0.50
+Nodes (4): Product label 1 for NB-MIX 500 NEW, NB-MIX 500 NEW Product Concept, Product label 2 for NB-MIX 500 NEW, Product label 3 for NB-MIX 500 NEW
+
+### Community 63 - "Batch Record Guidelines"
+Cohesion: 0.67
+Nodes (3): Noben Batch Record Rules, F.X 7-Product Batch Records PDF, F.X Product Batch Record Instructions
+
+### Community 64 - "Amin Care Products"
+Cohesion: 0.67
+Nodes (3): Công ty TNHH LPI Việt Nam, Nhãn sản phẩm Amin Care (Mã tiếp nhận: 01-001525), Amin Care (Siêu tăng trọng cho tôm)
+
+### Community 75 - "Iodine 99 Batch Records"
+Cohesion: 0.67
+Nodes (3): HS LÔ IODIN 99 21.09.2026, IODINE 99 Label 1, IODINE 99 Label 2
+
+### Community 76 - "Glucan Supplement Products"
+Cohesion: 0.67
+Nodes (3): Nhãn sản phẩm Beta 1.3-1.6 Glucan - Mẫu 1 (Mã tiếp nhận: 01-001530), Nhãn sản phẩm Beta 1.3-1.6 Glucan Ben Glucan Plus (Mã tiếp nhận: 01-001530), Beta 1.3-1.6 Glucan / Ben Glucan Plus
+
+### Community 77 - "NB-HELVIROL Liver Support"
+Cohesion: 0.67
+Nodes (3): Product Label Image for NB-HELVIROL-B12 (1L Pack), NB-HELVIROL-B12 (Liver Detoxification & Regeneration), Product Label Banner Image for NB-HELVIROL-B12 (2L Pack)
+
+### Community 78 - "HEPAPLUS Product Line"
+Cohesion: 0.67
+Nodes (3): Product label for HEPA Plus, HEPAPLUS Product, Product label for HEPAPLUS (2L)
+
+### Community 79 - "Toxic Algae Treatment"
+Cohesion: 1.00
+Nodes (3): Product Label Diagram - TOXIC ALGAE (02-002250), TOXIC ALGAE Water Treatment, Toxic Algae Siêu Lắng Pouch Packaging
+
+### Community 80 - "DOWN MAX Products"
+Cohesion: 0.67
+Nodes (3): DOWN MAX NEW Product Concept, Product label 1 for DOWN MAX NEW, Product label 2 for DOWN MAX NEW
+
+### Community 81 - "YUCCA C Products"
+Cohesion: 0.67
+Nodes (3): Product label 1 for YUCCA C, YUCCA C Product Concept, Product label 2 for YUCCA C
+
+### Community 82 - "Mineral Premix New"
+Cohesion: 0.67
+Nodes (3): Product label 1 for PREMIX KHOÁNG NEW, PREMIX KHOÁNG NEW Product Concept, Product label 2 for PREMIX KHOÁNG NEW
+
+### Community 83 - "YUCCA VS ZEO Products"
+Cohesion: 0.67
+Nodes (3): Product label 1 for YUCCA VS ZEO NEW, YUCCA VS ZEO NEW Product Concept, Product label 2 for YUCCA VS ZEO NEW
 
 ## Ambiguous Edges - Review These
 - `F.X GARLIC` → `F.X LIVER SUPPORT`  [AMBIGUOUS]
   HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf · relation: semantically_similar_to
 
 ## Knowledge Gaps
-- **68 isolated node(s):** `Công ty Cổ phần Khoa học Sabio`, `Thủy Sản Tím`, `Lê Văn Khánh`, `Sở Nông nghiệp và Môi trường TP.HCM`, `QCVN 97:2025/BNNMT` (+63 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 411 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **113 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+- **357 isolated node(s):** `Nhãn sản phẩm G7 (Mã tiếp nhận: 01-001531)`, `Nhãn sản phẩm Aqua Biotic (Mã tiếp nhận: 01-001540)`, `Product Label Image for ProticBest`, `Product Label Image for ROCAPHOS`, `Product Label Image for CALPHOTE` (+352 more)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 690 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **218 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
-- **Why does `norm()` connect `norm` to `re`, `tools.py`?**
+- **Why does `CÔNG TY TNHH NO BEN` connect `Product Labeling Documentation` to `Aquaculture Product Pricing`, `F.X-GLUBENCO Compliance`, `Liver Support Products`, `F.X Product Standards`, `Mineral Premix Products`, `HUFA Supplement Products`, `Amin Care Products`, `Glucan Supplement Products`, `NB-HELVIROL Liver Support`, `PROLAC Product Labels`, `AMIN CARE Labels`, `NB-MIX 5000 Minerals`, `G7 Liver Supplement Label`, `Aqua Biotic Probiotic Label`, `ProticBest Digestive Supplement Label`, `ROCAPHOS Mineral Supplement Label`, `CALPHOTE Shell Hardener Label`, `NB-SORBITOL Liver Support Label`, `BEN COM Protein Supplement Label`?**
   _High betweenness centrality (0.007) - this node is a cross-community bridge._
-- **What connects `Công ty Cổ phần Khoa học Sabio`, `Thủy Sản Tím`, `Lê Văn Khánh` to the rest of the system?**
-  _68 weakly-connected nodes found - possible documentation gaps or missing edges._
-- **Should `build_2109.py` be split into smaller, more focused modules?**
+- **Are the 3 inferred relationships involving `CÔNG TY TNHH NO BEN` (e.g. with `Công ty Cổ phần Khoa học Sabio` and `Công ty TNHH Noben (Catalogue)`) actually correct?**
+  _`CÔNG TY TNHH NO BEN` has 3 INFERRED edges - model-reasoned connections that need verification._
+- **What connects `Nhãn sản phẩm G7 (Mã tiếp nhận: 01-001531)`, `Nhãn sản phẩm Aqua Biotic (Mã tiếp nhận: 01-001540)`, `Product Label Image for ProticBest` to the rest of the system?**
+  _357 weakly-connected nodes found - possible documentation gaps or missing edges._
+- **Should `Document Processing Utilities` be split into smaller, more focused modules?**
   _Cohesion score 0.07086197778952935 - nodes in this community are weakly interconnected._
-- **Why does `H` connect `llm.py` to `main.py`?**
+- **Why does `norm()` connect `Data Parsing Utilities` to `File System Automation`, `Product Profile Generator`, `Agent Tooling Framework`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **Should `agent/data.py` be split into smaller, more focused modules?**
-  _Cohesion score 0.0593990216631726 - nodes in this community are weakly interconnected._
-- **Why does `H` connect `H` to `main.py`?**
-  _High betweenness centrality (0.006) - this node is a cross-community bridge._
+- **Should `File System Automation` be split into smaller, more focused modules?**
+  _Cohesion score 0.08019323671497584 - nodes in this community are weakly interconnected._
 
 ### Low-confidence Hints
 _AMBIGUOUS edges — the extractor was unsure. Verify before acting on these._
