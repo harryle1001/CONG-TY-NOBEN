@@ -2,6 +2,20 @@
 <style>
 /*STYLES*/
 /* online additions */
+/* HUD mode: only the reactor in the middle. Sizes on the φ scale. */
+#hud { position: fixed; inset: 0; display: none; flex-direction: column; align-items: center; justify-content: center; gap: var(--s3);
+  padding: max(16px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(16px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px));
+  background: radial-gradient(circle at 50% 46%, rgba(111, 227, 255, .06), transparent 61.8%), var(--bg); }
+#hud-c { width: min(61.8vw, 61.8vh, 520px); height: min(61.8vw, 61.8vh, 520px); cursor: pointer; touch-action: manipulation; }
+#hud-state { font-size: var(--f1); letter-spacing: .62em; color: var(--accent); opacity: .8; padding-left: .62em; }
+#hud-line { min-height: 3.2em; max-width: min(42em, 100%); text-align: center; font-size: var(--f3); line-height: 1.618; color: var(--text); opacity: .86;
+  transition: opacity var(--t3) var(--ease); overflow: hidden; display: -webkit-box; -webkit-line-clamp: 3; -webkit-box-orient: vertical; }
+#hud-line.dim { color: var(--muted); font-size: var(--f2); letter-spacing: .06em; }
+#hud-toggle { position: fixed; top: calc(var(--s3) + env(safe-area-inset-top, 0px)); right: calc(var(--s3) + env(safe-area-inset-right, 0px)); z-index: 5;
+  width: 42px; height: 42px; border-radius: 50%; border: 1px solid var(--line); background: var(--surface); color: var(--muted); font-size: var(--f3); }
+#hud-toggle:hover { color: var(--accent); }
+body.hud #hud { display: flex; }
+body.hud #graph, body.hud .top, body.hud .panel, body.hud .ask, body.hud #caption { display: none !important; }
 body { background: var(--bg); color: var(--text); }
 .top { top: calc(var(--s3) + env(safe-area-inset-top, 0px)); left: calc(var(--s3) + env(safe-area-inset-left, 0px)); right: calc(var(--s3) + env(safe-area-inset-right, 0px)); }
 .ask { bottom: calc(var(--s4) + env(safe-area-inset-bottom, 0px)); }
@@ -21,6 +35,12 @@ button.badge { cursor: pointer; font: inherit; font-size: var(--f1); letter-spac
 </style>
 
 <canvas id="graph" aria-label="Đồ thị kiến thức Noben"></canvas>
+<div id="hud" aria-live="polite">
+  <canvas id="hud-c" aria-label="JARVIS: chạm để nói"></canvas>
+  <div id="hud-state">IDLE</div>
+  <div id="hud-line"></div>
+</div>
+<button id="hud-toggle" type="button" aria-label="Mở giao diện đầy đủ" title="Giao diện đầy đủ">≡</button>
 
 <header class="top">
   <div class="brand">J.A.R.V.I.S.</div>
@@ -103,6 +123,7 @@ function localSay(text) {
   return new Promise(res => {
     const u = new SpeechSynthesisUtterance(text);
     u.voice = ukVoice; u.lang = ukVoice.lang; u.rate = RATE; u.pitch = 0.92;
+    u.onboundary = () => bump(.55 + Math.random() * .45);
     u.onend = u.onerror = () => res();
     synth.speak(u);
   });
@@ -117,8 +138,79 @@ const history = [];            // [{role, content}]
 let memory = [];               // [{fact, at}]
 
 function fail(msg) { const e = $("#error"); e.textContent = msg; e.hidden = false; clearTimeout(fail.t); fail.t = setTimeout(() => e.hidden = true, 9000); }
-function setState(s) { $("#reactor").className = "reactor " + s; $("#state").textContent = s.toUpperCase(); }
-function caption(t, cls) { const c = $("#caption"); c.textContent = t; c.className = "caption " + (cls || ""); c.hidden = !t; }
+function setState(s) { $("#reactor").className = "reactor " + s; $("#state").textContent = s.toUpperCase(); HUD.state = s; $("#hud-state").textContent = s.toUpperCase(); }
+function caption(t, cls) { const c = $("#caption"); c.textContent = t; c.className = "caption " + (cls || ""); c.hidden = !t; hudLine(t, cls); }
+function hudLine(t, cls) { const l = $("#hud-line"); l.textContent = t || ""; l.className = cls === "dim" || cls === "partial" ? "dim" : ""; }
+
+// ---------- HUD reactor (canvas). HUD.level is the live "voice energy": 0..1 ----------
+const HUD = { state: "idle", level: 0, target: 0, t: 0 };
+const bump = (v = 0.7) => { HUD.target = Math.min(1, Math.max(HUD.target, v)); };
+(function hudLoop() {
+  const c = document.getElementById("hud-c"), g = c.getContext("2d"), PHI_ = 1.61803;
+  let last = performance.now();
+  // smooth value noise so the waveform moves like a voice, not like static
+  const n1 = (a, t) => Math.sin(a * 3 + t * 2.1) * .5 + Math.sin(a * 7 - t * 3.7) * .3 + Math.sin(a * 13 + t * 5.3) * .2;
+  function frame(now) {
+    const dt = Math.min(64, now - last); last = now; HUD.t += dt / 1000;
+    if (!document.body.classList.contains("hud")) return requestAnimationFrame(frame);
+    const st = HUD.state;
+    if (st === "speaking") HUD.target = Math.max(HUD.target, .32 + .18 * Math.abs(Math.sin(HUD.t * 9.1)) * Math.abs(Math.sin(HUD.t * 3.7)));
+    HUD.level += (HUD.target - HUD.level) * (HUD.target > HUD.level ? .35 : .08);
+    HUD.target *= Math.pow(.2, dt / 1000);
+    const dpr = Math.min(devicePixelRatio || 1, 2), w = c.clientWidth, h = c.clientHeight;
+    if (c.width !== w * dpr) { c.width = w * dpr; c.height = h * dpr; }
+    g.setTransform(dpr, 0, 0, dpr, 0, 0); g.clearRect(0, 0, w, h);
+    const cx = w / 2, cy = h / 2, R = Math.min(w, h) / 2 - 4, t = HUD.t, L = HUD.level;
+    const spin = st === "thinking" ? 2.618 : st === "listening" ? 1 : st === "speaking" ? 1.618 : .382;
+    const breathe = st === "idle" ? (Math.sin(t * 2 * Math.PI / 4.24) + 1) / 2 : 0;
+    const A = (a) => `rgba(111,227,255,${a})`;
+    g.lineCap = "round";
+    // 1. outer tick ring
+    g.save(); g.translate(cx, cy); g.rotate(t * .05 * spin);
+    for (let i = 0; i < 72; i++) {
+      const a = i / 72 * Math.PI * 2, long = i % 6 === 0;
+      g.strokeStyle = A(long ? .55 : .22); g.lineWidth = long ? 1.6 : 1;
+      g.beginPath(); g.moveTo(Math.cos(a) * R, Math.sin(a) * R); g.lineTo(Math.cos(a) * (R - (long ? 10 : 5)), Math.sin(a) * (R - (long ? 10 : 5))); g.stroke();
+    }
+    g.restore();
+    // 2. segmented arcs (φ proportions), counter-rotating
+    const r2 = R / PHI_ * 1.38;
+    g.save(); g.translate(cx, cy); g.rotate(-t * .35 * spin);
+    g.lineWidth = 3; g.strokeStyle = A(.75);
+    [[0, .618], [.9, 1.3], [1.7, 2.7], [3.1, 3.5], [3.9, 5.6]].forEach(([a, b]) => { g.beginPath(); g.arc(0, 0, r2, a, b); g.stroke(); });
+    g.restore();
+    // 3. dashed ring
+    g.save(); g.translate(cx, cy); g.rotate(t * .22 * spin);
+    g.setLineDash([2, 7]); g.lineWidth = 1.2; g.strokeStyle = A(.45);
+    g.beginPath(); g.arc(0, 0, r2 / PHI_ * 1.236, 0, Math.PI * 2); g.stroke(); g.restore();
+    // 4. thinking sweep
+    if (st === "thinking") {
+      g.save(); g.translate(cx, cy); g.rotate(t * 4.2);
+      const grd = g.createConicGradient ? g.createConicGradient(0, 0, 0) : null;
+      if (grd) { grd.addColorStop(0, A(0)); grd.addColorStop(.85, A(0)); grd.addColorStop(1, A(.35)); g.fillStyle = grd; g.beginPath(); g.arc(0, 0, r2 - 6, 0, Math.PI * 2); g.fill(); }
+      g.restore();
+    }
+    // 5. voice waveform ring: undulates with the voice energy
+    const r5 = R / (PHI_ * PHI_) * 1.25, amp = 2 + L * R * .2 + breathe * 2;
+    g.beginPath();
+    for (let i = 0; i <= 180; i++) {
+      const a = i / 180 * Math.PI * 2;
+      const rr = r5 + amp * n1(a, t * (st === "speaking" ? 2.4 : 1)) * (st === "idle" ? .35 : 1);
+      const x = cx + Math.cos(a) * rr, y = cy + Math.sin(a) * rr;
+      i ? g.lineTo(x, y) : g.moveTo(x, y);
+    }
+    g.closePath(); g.lineWidth = 1.6 + L * 1.6; g.strokeStyle = A(.55 + L * .45);
+    g.shadowColor = A(.9); g.shadowBlur = 8 + L * 22; g.stroke(); g.shadowBlur = 0;
+    // 6. core glow
+    const rc = r5 / PHI_ * (.86 + breathe * .1 + L * .4);
+    const core = g.createRadialGradient(cx, cy, 0, cx, cy, rc * 1.618);
+    core.addColorStop(0, st === "listening" ? "rgba(230,250,255,.95)" : A(.95));
+    core.addColorStop(.382, A(.55 + L * .3)); core.addColorStop(1, A(0));
+    g.fillStyle = core; g.beginPath(); g.arc(cx, cy, rc * 1.618, 0, Math.PI * 2); g.fill();
+    requestAnimationFrame(frame);
+  }
+  requestAnimationFrame(frame);
+})();
 
 // ---------- search over the embedded files (BM25 + title boost) ----------
 const STOP = new Set("va la cua cho co khong nao gi bao nhieu the nhu thi o tai voi cac nhung mot duoc trong ra vao den tu ve hay hoac neu khi de ma nay do day kia toi anh em ban sir the a an of to in for on and or is are what which how much does do please jarvis".split(" "));
@@ -383,6 +475,7 @@ function setModel() {
   b.title = sample ? "Claude in your claude.ai account" : "Claude not allowed or unavailable here: answers come from keyword search over your files";
 }
 function showReply(q, say, streaming) {
+  if (say != null) hudLine(say);
   const box = $("#reply"); box.hidden = false;
   const tag = sample ? "" : '<span class="tag">NO MODEL · keyword search</span>';
   box.innerHTML = `<button class="close" type="button" aria-label="Đóng">×</button><div class="q">${esc(q)}</div><div class="say">${say == null ? '<span class="dots">…</span>' : esc(say) + (streaming ? "" : " " + tag)}</div><div class="cards"></div>`;
@@ -551,10 +644,10 @@ async function boot() {
   const c = window.claude;
   if (!c || !c.use) return;
   c.use("sample").then(s => { sample = s; setModel(); });
-  c.use("tts").then(t => { tts = t; if (!t) $("#t-mute").hidden = true; else t.onState(({ state }) => { if (state === "speaking") setState("speaking"); }); });
+  c.use("tts").then(t => { tts = t; if (!t) $("#t-mute").hidden = true; else { t.onState(({ state }) => { if (state === "speaking") setState("speaking"); }); if (t.onPosition) t.onPosition(() => bump(.5 + Math.random() * .4)); } });
   c.use("dictation").then(d => {
     dict = d; if (!d) { $("#t-mic").title = "Nhận giọng nói cần Chrome/Edge hoặc app Claude desktop"; return; }
-    d.onPartial(({ text }) => { if (!heardOk()) return; partialText = text; caption((finalText + " " + text).trim(), "partial"); if (listening) endTurnSoon(); });
+    d.onPartial(({ text }) => { if (!heardOk()) return; bump(.6); partialText = text; caption((finalText + " " + text).trim(), "partial"); if (listening) endTurnSoon(); });
     d.onFinal(({ text }) => { if (!heardOk()) return; finalText = (finalText + " " + text).trim(); partialText = ""; caption(finalText); if (listening) endTurnSoon(); });
     d.onState(({ state, reason }) => {
       if (state !== "idle") return;
@@ -578,9 +671,19 @@ async function boot() {
 $("#ask-form").addEventListener("submit", e => { e.preventDefault(); const q = $("#ask").value.trim(); if (!q) return; $("#ask").value = ""; ask(q); });
 $("#t-mic").onclick = micClick;
 $("#t-hf").onclick = handsFreeClick;
+function setHud(on) { document.body.classList.toggle("hud", on); $("#hud-toggle").textContent = on ? "≡" : "◉"; try { localStorage.setItem("jarvis-hud", on ? "1" : "0"); } catch (e) {} if (!on) G && G.resize(); }
+$("#hud-toggle").onclick = () => setHud(!document.body.classList.contains("hud"));
+setHud((() => { try { return localStorage.getItem("jarvis-hud") !== "0"; } catch (e) { return true; } })());
+// Tap the reactor: interrupt if Jarvis is talking, otherwise start hands-free (or the mic if that is unavailable).
+$("#hud-c").onclick = () => {
+  if (speaking()) { shutUp(); return; }
+  if (!dict) { hudLine("Giọng nói cần Chrome/Edge. Bấm ≡ để gõ chữ.", "dim"); return; }
+  if (needTap && handsFree) { startDictation(); return; }
+  if (!handsFree) handsFreeClick();
+};
 // Tap anywhere (outside controls) to talk, or to interrupt Jarvis.
 document.addEventListener("pointerdown", e => {
-  if (e.target.closest("button, input, select, a, form, .panel, .reply")) return;
+  if (e.target.closest("button, input, select, a, form, .panel, .reply, #hud-c")) return;
   if (speaking()) { shutUp(); return; }
   if (needTap && dict && !busy) { e.preventDefault(); startDictation(); }
 }, true);
