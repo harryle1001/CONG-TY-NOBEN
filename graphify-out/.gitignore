@@ -1,3 +1,4 @@
 cache/
 converted/
 .graphify_*
+.rebuild.lock
