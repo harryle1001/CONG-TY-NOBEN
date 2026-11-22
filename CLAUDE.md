@@ -27,3 +27,6 @@ Bản đầy đủ chạy trên máy (đồ thị kiến thức, công cụ, gi�
 - Bộ biểu mẫu 12 quy định (ho-so-lo/bieu-mau-12-quy-dinh/) ghép cùng hồ sơ lô thành 1 bộ theo ngày sản xuất.
 - Xuất bộ hồ sơ theo giao diện mẫu tham khảo, file rời: mỗi lô 1 file hồ sơ lô; 1 file phiếu QD7 (.xls); 1 file lệnh SX (mỗi lệnh 1 trang); 1 file dán mẫu lưu (tem 64,6 × 34,8 mm, 3 tem/hàng); 1 file biểu mẫu 12 quy định (biểu mẫu 2–12, mỗi phiếu sang trang mới và có khung logo + mã tài liệu, không có trang trắng). Mẫu đã duyệt: ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/; script ho-so-lo/_build/xuat_rieng_2109.sh.
 - Định dạng Word: bảng cùng bề rộng vùng chữ, cột chia theo φ, không bảng nổi, không khung chữ nổi; chỉ xuất Word khi được yêu cầu; làm 1 bản xem thử, được duyệt mới xuất hàng loạt.
+
+# Lưu trữ
+Mọi tài liệu, file làm ra (báo giá, PDF, HTML…) đều lưu vào git và đẩy lên kho, không để ở thư mục tạm. Báo giá, tài liệu kinh doanh để trong TAI-LIEU-KINH-DOANH/.
