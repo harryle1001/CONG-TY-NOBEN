@@ -297,45 +297,46 @@
   },
   ".claude/settings.json": {
     "mtime": 1795335183.6465259,
-    "seen": 1795335268.750525,
+    "seen": 1795336392.740042,
     "ast_hash": "7a372034fb8dde5ec60472dcec229cf8",
-    "semantic_hash": ""
+    "semantic_hash": "7a372034fb8dde5ec60472dcec229cf8",
+    "ast_empty": true
   },
   "tools/graphify-setup.ps1": {
     "mtime": 1795335243.8305295,
-    "seen": 1795335268.7505941,
+    "seen": 1795336392.741249,
     "ast_hash": "67053ccbbec2c61b0391929f63ebd715",
-    "semantic_hash": ""
+    "semantic_hash": "67053ccbbec2c61b0391929f63ebd715"
   },
   "tools/graphify-setup.sh": {
     "mtime": 1795335201.8339689,
-    "seen": 1795335268.7505956,
+    "seen": 1795336392.7412682,
     "ast_hash": "8a1de14f214c66d0de3e34c301e13b6b",
-    "semantic_hash": ""
+    "semantic_hash": "8a1de14f214c66d0de3e34c301e13b6b"
   },
   "TAI-LIEU-KINH-DOANH/BANG-GIA-NOBEN-2026.html": {
     "mtime": 1795333714.5459008,
-    "seen": 1795335268.750603,
+    "seen": 1795336392.7412844,
     "ast_hash": "15d285e240b7f953a6cf906fdb49b667",
-    "semantic_hash": ""
+    "semantic_hash": "15d285e240b7f953a6cf906fdb49b667"
   },
   "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html": {
     "mtime": 1795333714.549901,
-    "seen": 1795335268.750604,
+    "seen": 1795336392.7413015,
     "ast_hash": "1b5e4edb5151fa0e1586332dbd641c2e",
-    "semantic_hash": ""
+    "semantic_hash": "1b5e4edb5151fa0e1586332dbd641c2e"
   },
   "TAI-LIEU-KINH-DOANH/CATALOGUE-THUY-SAN-TIM-2026.html": {
     "mtime": 1795333714.557901,
-    "seen": 1795335268.750605,
+    "seen": 1795336392.7413168,
     "ast_hash": "42e27f61cb969af8fc5d0901da0cda57",
-    "semantic_hash": ""
+    "semantic_hash": "42e27f61cb969af8fc5d0901da0cda57"
   },
   "TAI-LIEU-KINH-DOANH/README.md": {
     "mtime": 1795333714.5619009,
-    "seen": 1795335268.750606,
+    "seen": 1795336392.7413332,
     "ast_hash": "eab048370875a15daaf251b6213e0261",
-    "semantic_hash": ""
+    "semantic_hash": "eab048370875a15daaf251b6213e0261"
   },
   "graphify-out/converted/05.11 B\u00c1O GI\u00c1_NOBEN_f255223d.md": {
     "mtime": 1795333782.5680661,
@@ -849,87 +850,87 @@
   },
   "ho-so-san-pham/README.md": {
     "mtime": 1795055592.057014,
-    "seen": 1795335268.750731,
+    "seen": 1795336392.7413497,
     "ast_hash": "33939365a161ab2379bb560872f9e0f0",
-    "semantic_hash": ""
+    "semantic_hash": "33939365a161ab2379bb560872f9e0f0"
   },
   "ho-so-san-pham/index.html": {
     "mtime": 1795055592.0609813,
-    "seen": 1795335268.7507322,
+    "seen": 1795336392.7413645,
     "ast_hash": "7d87fc8127b788e537d2a365e14eba6d",
-    "semantic_hash": ""
+    "semantic_hash": "7d87fc8127b788e537d2a365e14eba6d"
   },
   "jarvis-pro/CLAUDE.md": {
     "mtime": 1795055592.1937094,
-    "seen": 1795335268.7507334,
+    "seen": 1795336392.7413805,
     "ast_hash": "ea259ad8a5596df5c9629c3ff959fd4e",
-    "semantic_hash": ""
+    "semantic_hash": "ea259ad8a5596df5c9629c3ff959fd4e"
   },
   "jarvis-pro/README.md": {
     "mtime": 1795055592.1937094,
-    "seen": 1795335268.7507343,
+    "seen": 1795336392.7413971,
     "ast_hash": "427c667ceaea27427e3c6a5b3a889f3b",
-    "semantic_hash": ""
+    "semantic_hash": "427c667ceaea27427e3c6a5b3a889f3b"
   },
   "jarvis-pro/agent/prompt.md": {
     "mtime": 1795055592.1939778,
-    "seen": 1795335268.750735,
+    "seen": 1795336392.741413,
     "ast_hash": "aee9adb609e483841637401d55e7fcbd",
-    "semantic_hash": ""
+    "semantic_hash": "aee9adb609e483841637401d55e7fcbd"
   },
   "jarvis-pro/data/demo/AI/Checklist d\u1eef li\u1ec7u AI.md": {
     "mtime": 1795055592.1943831,
-    "seen": 1795335268.7507367,
+    "seen": 1795336392.7414317,
     "ast_hash": "d6b4cf68dd251d576f73a7963041696f",
-    "semantic_hash": ""
+    "semantic_hash": "d6b4cf68dd251d576f73a7963041696f"
   },
   "jarvis-pro/data/demo/AI/G\u00f3i AI cho SME.md": {
     "mtime": 1795055592.194406,
-    "seen": 1795335268.7507377,
+    "seen": 1795336392.741461,
     "ast_hash": "f728dd1d5231f37cfda388e2f21cda5e",
-    "semantic_hash": ""
+    "semantic_hash": "f728dd1d5231f37cfda388e2f21cda5e"
   },
   "jarvis-pro/data/demo/AI/Khung chu\u1ea9n h\u00f3a AI.md": {
     "mtime": 1795055592.194406,
-    "seen": 1795335268.7507389,
+    "seen": 1795336392.7414868,
     "ast_hash": "a8cee64a8dc3b8f31413a18d83c207b4",
-    "semantic_hash": ""
+    "semantic_hash": "a8cee64a8dc3b8f31413a18d83c207b4"
   },
   "jarvis-pro/data/demo/AI/\u0110\u1ec1 xu\u1ea5t AI ng\u00e0nh th\u1ee7y s\u1ea3n.md": {
     "mtime": 1795055592.194406,
-    "seen": 1795335268.7507722,
+    "seen": 1795336392.7415106,
     "ast_hash": "2dbb964d1a5ae3a5249596bb1c32406b",
-    "semantic_hash": ""
+    "semantic_hash": "2dbb964d1a5ae3a5249596bb1c32406b"
   },
   "jarvis-pro/data/demo/Game/C\u1ea3ng L\u1ecbch S\u1eed.md": {
     "mtime": 1795055592.194406,
-    "seen": 1795335268.7507765,
+    "seen": 1795336392.7415338,
     "ast_hash": "e14602ebcd164c3101e41afcc0ee0867",
-    "semantic_hash": ""
+    "semantic_hash": "e14602ebcd164c3101e41afcc0ee0867"
   },
   "jarvis-pro/data/demo/Game/Hang \u0110\u1ed9ng V\u1eadt L\u00fd.md": {
     "mtime": 1795055592.1944435,
-    "seen": 1795335268.750779,
+    "seen": 1795336392.7415555,
     "ast_hash": "710c80ae2667e9f22bc3742f75f2a73a",
-    "semantic_hash": ""
+    "semantic_hash": "710c80ae2667e9f22bc3742f75f2a73a"
   },
   "jarvis-pro/data/demo/Game/R\u1eebng H\u00ecnh H\u1ecdc.md": {
     "mtime": 1795055592.1944435,
-    "seen": 1795335268.7507806,
+    "seen": 1795336392.7415767,
     "ast_hash": "134762b7c9d7c74fdaf498b38a78e194",
-    "semantic_hash": ""
+    "semantic_hash": "134762b7c9d7c74fdaf498b38a78e194"
   },
   "jarvis-pro/data/demo/Game/Th\u00e0nh Ph\u1ed1 T\u1eeb V\u1ef1ng.md": {
     "mtime": 1795055592.1944435,
-    "seen": 1795335268.7507823,
+    "seen": 1795336392.7415977,
     "ast_hash": "bc839a2dfc5192401c0d07f83d66507f",
-    "semantic_hash": ""
+    "semantic_hash": "bc839a2dfc5192401c0d07f83d66507f"
   },
   "jarvis-pro/data/demo/Game/\u0110\u1ea3o Ph\u00e2n S\u1ed1.md": {
     "mtime": 1795055592.1944435,
-    "seen": 1795335268.7507834,
+    "seen": 1795336392.7416189,
     "ast_hash": "a0c741d5cdd07c300a10f1866d9d9927",
-    "semantic_hash": ""
+    "semantic_hash": "a0c741d5cdd07c300a10f1866d9d9927"
   },
   "jarvis-pro/data/demo/Ghi-chu/2026-09-01-ghi-chu-04.md": {
     "mtime": 1795055592.1944435,
@@ -1173,189 +1174,189 @@
   },
   "jarvis-pro/data/demo/Noben/Khach-hang/C\u00f4ng ty Mekong Seed.md": {
     "mtime": 1795055592.1955857,
-    "seen": 1795335268.750828,
+    "seen": 1795336392.7416403,
     "ast_hash": "f71e68ec0d6c274470d40cc5fa627e2b",
-    "semantic_hash": ""
+    "semantic_hash": "f71e68ec0d6c274470d40cc5fa627e2b"
   },
   "jarvis-pro/data/demo/Noben/Khach-hang/HTX R\u1ea1ch G\u1ed1c.md": {
     "mtime": 1795055592.1956096,
-    "seen": 1795335268.7508292,
+    "seen": 1795336392.741687,
     "ast_hash": "1f0fc4653a6a28b310ae0cfc32c86dfb",
-    "semantic_hash": ""
+    "semantic_hash": "1f0fc4653a6a28b310ae0cfc32c86dfb"
   },
   "jarvis-pro/data/demo/Noben/Khach-hang/Tr\u1ea1i c\u00e1 T\u00e2n H\u01b0ng.md": {
     "mtime": 1795055592.1956096,
-    "seen": 1795335268.7508304,
+    "seen": 1795336392.7417176,
     "ast_hash": "8c04540f98919400f8a4bca22fd74714",
-    "semantic_hash": ""
+    "semantic_hash": "8c04540f98919400f8a4bca22fd74714"
   },
   "jarvis-pro/data/demo/Noben/Khach-hang/Tr\u1ea1i t\u00f4m Ba Lan.md": {
     "mtime": 1795055592.1956096,
-    "seen": 1795335268.7508316,
+    "seen": 1795336392.7417474,
     "ast_hash": "25e073b9f856b4f6a0ee4b9a757ea1a6",
-    "semantic_hash": ""
+    "semantic_hash": "25e073b9f856b4f6a0ee4b9a757ea1a6"
   },
   "jarvis-pro/data/demo/Noben/Khach-hang/Tr\u1ea1i t\u00f4m Sao Bi\u1ec3n.md": {
     "mtime": 1795055592.1956096,
-    "seen": 1795335268.7508328,
+    "seen": 1795336392.7417715,
     "ast_hash": "d197fed6af5df3b634acb9e3e5cc18fe",
-    "semantic_hash": ""
+    "semantic_hash": "d197fed6af5df3b634acb9e3e5cc18fe"
   },
   "jarvis-pro/data/demo/Noben/Khach-hang/\u0110\u1ea1i l\u00fd B\u1ebfn Tre Xanh.md": {
     "mtime": 1795055592.1956096,
-    "seen": 1795335268.7508342,
+    "seen": 1795336392.7418065,
     "ast_hash": "000249233906fedf4e4f0003154ac61e",
-    "semantic_hash": ""
+    "semantic_hash": "000249233906fedf4e4f0003154ac61e"
   },
   "jarvis-pro/data/demo/Noben/Khach-hang/\u0110\u1ea1i l\u00fd C\u1eedu Long.md": {
     "mtime": 1795055592.1956096,
-    "seen": 1795335268.7508352,
+    "seen": 1795336392.7418406,
     "ast_hash": "2b54510e212ed3ba7247d86c4b750d1e",
-    "semantic_hash": ""
+    "semantic_hash": "2b54510e212ed3ba7247d86c4b750d1e"
   },
   "jarvis-pro/data/demo/Noben/Khach-hang/\u0110\u1ea1i l\u00fd Minh Ph\u00e1t.md": {
     "mtime": 1795055592.1956096,
-    "seen": 1795335268.7508364,
+    "seen": 1795336392.7418716,
     "ast_hash": "43fccd5b26abfb7094ebb2ff0b3b12f1",
-    "semantic_hash": ""
+    "semantic_hash": "43fccd5b26abfb7094ebb2ff0b3b12f1"
   },
   "jarvis-pro/data/demo/Noben/Ky-thuat/Kh\u00ed \u0111\u1ed9c NH3.md": {
     "mtime": 1795055592.1956096,
-    "seen": 1795335268.7508378,
+    "seen": 1795336392.741902,
     "ast_hash": "67ed8492685872c0b5269aede075a988",
-    "semantic_hash": ""
+    "semantic_hash": "67ed8492685872c0b5269aede075a988"
   },
   "jarvis-pro/data/demo/Noben/Ky-thuat/M\u01b0a l\u1edbn v\u00e0 pH.md": {
     "mtime": 1795055592.1956842,
-    "seen": 1795335268.750839,
+    "seen": 1795336392.7419338,
     "ast_hash": "23d3e2388b935347d9a9d45850cc9e30",
-    "semantic_hash": ""
+    "semantic_hash": "23d3e2388b935347d9a9d45850cc9e30"
   },
   "jarvis-pro/data/demo/Noben/Ky-thuat/Ph\u00e2n tr\u1eafng.md": {
     "mtime": 1795055592.1956842,
-    "seen": 1795335268.75084,
+    "seen": 1795336392.7419662,
     "ast_hash": "1e1be9dc8fff7202dd5d468144c751e3",
-    "semantic_hash": ""
+    "semantic_hash": "1e1be9dc8fff7202dd5d468144c751e3"
   },
   "jarvis-pro/data/demo/Noben/Ky-thuat/Thay v\u1ecf ch\u1eadm.md": {
     "mtime": 1795055592.1956842,
-    "seen": 1795335268.7508414,
+    "seen": 1795336392.7419958,
     "ast_hash": "ab7336d20d36f72bb00666ae9e757f93",
-    "semantic_hash": ""
+    "semantic_hash": "ab7336d20d36f72bb00666ae9e757f93"
   },
   "jarvis-pro/data/demo/Noben/Ky-thuat/T\u1ea3o t\u00e0n.md": {
     "mtime": 1795055592.1956842,
-    "seen": 1795335268.7508423,
+    "seen": 1795336392.7420192,
     "ast_hash": "afa82c83b88c04f5c140fe7bdf7173dd",
-    "semantic_hash": ""
+    "semantic_hash": "afa82c83b88c04f5c140fe7bdf7173dd"
   },
   "jarvis-pro/data/demo/Noben/Ky-thuat/\u0110\u1ed1m tr\u1eafng.md": {
     "mtime": 1795055592.1956842,
-    "seen": 1795335268.7508438,
+    "seen": 1795336392.7420428,
     "ast_hash": "a779c8d152fb9735307adbe409994d5b",
-    "semantic_hash": ""
+    "semantic_hash": "a779c8d152fb9735307adbe409994d5b"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Algae Stop.md": {
     "mtime": 1795055592.1956842,
-    "seen": 1795335268.7508447,
+    "seen": 1795336392.7420647,
     "ast_hash": "3c6a46d777de3850952d5f257a83c84b",
-    "semantic_hash": ""
+    "semantic_hash": "3c6a46d777de3850952d5f257a83c84b"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Aqua Probio.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508457,
+    "seen": 1795336392.74209,
     "ast_hash": "35d2a0a8f1a580972857f2de3d6f29e4",
-    "semantic_hash": ""
+    "semantic_hash": "35d2a0a8f1a580972857f2de3d6f29e4"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Calci Milk.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508466,
+    "seen": 1795336392.7421114,
     "ast_hash": "496c35a782202cab501b18551cfcc34b",
-    "semantic_hash": ""
+    "semantic_hash": "496c35a782202cab501b18551cfcc34b"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Clear Tide.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508478,
+    "seen": 1795336392.7421331,
     "ast_hash": "91c9a0be71717436cba2cb18c9c4ef8e",
-    "semantic_hash": ""
+    "semantic_hash": "91c9a0be71717436cba2cb18c9c4ef8e"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Delta Yucca.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508488,
+    "seen": 1795336392.742154,
     "ast_hash": "f5a287ff550cef96962f0926f13abcb0",
-    "semantic_hash": ""
+    "semantic_hash": "f5a287ff550cef96962f0926f13abcb0"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Gut Max.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508497,
+    "seen": 1795336392.7421753,
     "ast_hash": "a520e150eb4db4cf01c52519d3bed448",
-    "semantic_hash": ""
+    "semantic_hash": "a520e150eb4db4cf01c52519d3bed448"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Iodine Shield.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.750851,
+    "seen": 1795336392.7421968,
     "ast_hash": "6f3b1b00292a6663977840439f9de004",
-    "semantic_hash": ""
+    "semantic_hash": "6f3b1b00292a6663977840439f9de004"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Liver Guard.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508519,
+    "seen": 1795336392.7422185,
     "ast_hash": "d6924420d06042432fb27a7c72076558",
-    "semantic_hash": ""
+    "semantic_hash": "d6924420d06042432fb27a7c72076558"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Lumen Oxy.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508528,
+    "seen": 1795336392.7422423,
     "ast_hash": "9b994d332de7830e6409b8e1677887fe",
-    "semantic_hash": ""
+    "semantic_hash": "9b994d332de7830e6409b8e1677887fe"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Mineral Plus.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508538,
+    "seen": 1795336392.7422643,
     "ast_hash": "3cb5b42e3f561c42005a1b3b330a8e43",
-    "semantic_hash": ""
+    "semantic_hash": "3cb5b42e3f561c42005a1b3b330a8e43"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Vita Shell.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.750855,
+    "seen": 1795336392.7422867,
     "ast_hash": "5e31e96343ea85771a7170cf3b01e48d",
-    "semantic_hash": ""
+    "semantic_hash": "5e31e96343ea85771a7170cf3b01e48d"
   },
   "jarvis-pro/data/demo/Noben/San-pham/Zeo Bind.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508557,
+    "seen": 1795336392.742308,
     "ast_hash": "f4144bbaa8ce652650f006dce1f0f4b9",
-    "semantic_hash": ""
+    "semantic_hash": "f4144bbaa8ce652650f006dce1f0f4b9"
   },
   "jarvis-pro/data/demo/Viec-can-lam.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508566,
+    "seen": 1795336392.742331,
     "ast_hash": "022fbb5add782019ed5fdcaf2978e4d5",
-    "semantic_hash": ""
+    "semantic_hash": "022fbb5add782019ed5fdcaf2978e4d5"
   },
   "jarvis-pro/data/demo/Web/Landing Nova Coffee.md": {
     "mtime": 1795055592.1957355,
-    "seen": 1795335268.7508574,
+    "seen": 1795336392.7423508,
     "ast_hash": "ed580932bccd35137fb1697b070d2a77",
-    "semantic_hash": ""
+    "semantic_hash": "ed580932bccd35137fb1697b070d2a77"
   },
   "jarvis-pro/data/demo/Web/Studio Portfolio.md": {
     "mtime": 1795055592.1958349,
-    "seen": 1795335268.7508585,
+    "seen": 1795336392.7423725,
     "ast_hash": "9fe12f428e3cefebe98a0da602cf81e4",
-    "semantic_hash": ""
+    "semantic_hash": "9fe12f428e3cefebe98a0da602cf81e4"
   },
   "jarvis-pro/data/demo/Web/Website H\u1ea3i \u0110\u0103ng Resort.md": {
     "mtime": 1795055592.1958349,
-    "seen": 1795335268.7508595,
+    "seen": 1795336392.7423933,
     "ast_hash": "f2ff4b50c6629465a2ff9aefdada9098",
-    "semantic_hash": ""
+    "semantic_hash": "f2ff4b50c6629465a2ff9aefdada9098"
   },
   "jarvis-pro/data/demo/Web/Website Lotus Spa.md": {
     "mtime": 1795055592.1958349,
-    "seen": 1795335268.7508605,
+    "seen": 1795336392.7424152,
     "ast_hash": "985f057b581927f3c7453eb5bf33b8a0",
-    "semantic_hash": ""
+    "semantic_hash": "985f057b581927f3c7453eb5bf33b8a0"
   },
   "jarvis-pro/online/template.html": {
     "mtime": 1795055592.196041,
@@ -1371,45 +1372,45 @@
   },
   "jarvis/index.html": {
     "mtime": 1795055592.1963477,
-    "seen": 1795335268.7508633,
+    "seen": 1795336392.7424357,
     "ast_hash": "27e3f938662e48d58af7e4fa9e4e4b14",
-    "semantic_hash": ""
+    "semantic_hash": "27e3f938662e48d58af7e4fa9e4e4b14"
   },
   "TAI-LIEU-KINH-DOANH/BANG-GIA-NOBEN-2026.pdf": {
     "mtime": 1795333714.5459008,
-    "seen": 1795335268.750868,
+    "seen": 1795336392.742452,
     "ast_hash": "3f41089f162496995da60e7c3f08c466",
-    "semantic_hash": ""
+    "semantic_hash": "3f41089f162496995da60e7c3f08c466"
   },
   "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.pdf": {
     "mtime": 1795333714.557901,
-    "seen": 1795335268.750869,
+    "seen": 1795336392.7424672,
     "ast_hash": "93265c357757e515c4b58e3012037019",
-    "semantic_hash": ""
+    "semantic_hash": "93265c357757e515c4b58e3012037019"
   },
   "TAI-LIEU-KINH-DOANH/CATALOGUE-THUY-SAN-TIM-2026.pdf": {
     "mtime": 1795333714.5619009,
-    "seen": 1795335268.7508698,
+    "seen": 1795336392.7424827,
     "ast_hash": "a603fbbc13f1b7fecd0bd7ed636d21fa",
-    "semantic_hash": ""
+    "semantic_hash": "a603fbbc13f1b7fecd0bd7ed636d21fa"
   },
   "TCCS-7-SAN-PHAM-MOI/PDF/1-F.X LIVER SUPPORT.pdf": {
     "mtime": 1795055592.0092828,
-    "seen": 1795335268.750871,
+    "seen": 1795336392.7424989,
     "ast_hash": "eaf6de0b7ae2e83fbffca837f957df68",
-    "semantic_hash": ""
+    "semantic_hash": "eaf6de0b7ae2e83fbffca837f957df68"
   },
   "TCCS-7-SAN-PHAM-MOI/PDF/2-F.X GARLIC.pdf": {
     "mtime": 1795055592.0110395,
-    "seen": 1795335268.7508721,
+    "seen": 1795336392.7425177,
     "ast_hash": "ba70e54768b2292c5418a294b5744524",
-    "semantic_hash": ""
+    "semantic_hash": "ba70e54768b2292c5418a294b5744524"
   },
   "TCCS-7-SAN-PHAM-MOI/PDF/3-F.X GROW.pdf": {
     "mtime": 1795055592.0110395,
-    "seen": 1795335268.7508729,
+    "seen": 1795336392.7425346,
     "ast_hash": "8f9159056551a305d846d7bee7083d33",
-    "semantic_hash": ""
+    "semantic_hash": "8f9159056551a305d846d7bee7083d33"
   },
   "TCCS-7-SAN-PHAM-MOI/PDF/4-F.X PREMIX MILK.pdf": {
     "mtime": 1795055592.0110395,
@@ -1437,21 +1438,21 @@
   },
   "ho-so-lo/HO-SO-21.09.2026/6-Moi-lo-1-file/HO-SO-LO-EDTA-99-21.09.2026.pdf": {
     "mtime": 1795333714.589901,
-    "seen": 1795335268.7508855,
+    "seen": 1795336392.742552,
     "ast_hash": "218458e657dfee7f30a22f9582afb4c9",
-    "semantic_hash": ""
+    "semantic_hash": "218458e657dfee7f30a22f9582afb4c9"
   },
   "ho-so-lo/HO-SO-21.09.2026/6-Moi-lo-1-file/HO-SO-LO-IODINE-99-21.09.2026.pdf": {
     "mtime": 1795333714.5979009,
-    "seen": 1795335268.7508864,
+    "seen": 1795336392.7425733,
     "ast_hash": "664646bcd941a451182b0cf9b864e9a2",
-    "semantic_hash": ""
+    "semantic_hash": "664646bcd941a451182b0cf9b864e9a2"
   },
   "ho-so-lo/HO-SO-21.09.2026/6-Moi-lo-1-file/HO-SO-LO-YUCCA-99-21.09.2026.pdf": {
     "mtime": 1795333714.5979009,
-    "seen": 1795335268.7508872,
+    "seen": 1795336392.742593,
     "ast_hash": "b8d2a4a2aa5c740247f1e45054c4152b",
-    "semantic_hash": ""
+    "semantic_hash": "b8d2a4a2aa5c740247f1e45054c4152b"
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-21.09.2026.pdf": {
     "mtime": 1795333714.609901,
@@ -1461,21 +1462,21 @@
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/1. Phi\u1ebfu QD7 - l\u01b0u m\u1eabu 21.09.2026.pdf": {
     "mtime": 1795333714.613901,
-    "seen": 1795335268.7508895,
+    "seen": 1795336392.7426114,
     "ast_hash": "50d8875a1fe416deb1a02fb489f89fba",
-    "semantic_hash": ""
+    "semantic_hash": "50d8875a1fe416deb1a02fb489f89fba"
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/2. L\u1ec6NH S\u1ea2N XU\u1ea4T 21.09.2026.pdf": {
     "mtime": 1795333714.613901,
-    "seen": 1795335268.7508907,
+    "seen": 1795336392.7426372,
     "ast_hash": "eb1700b313c44d5298ca630ca20840d0",
-    "semantic_hash": ""
+    "semantic_hash": "eb1700b313c44d5298ca630ca20840d0"
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/BI\u1ec2U M\u1eaaU 12 QUY \u0110\u1ecaNH 21.09.2026.pdf": {
     "mtime": 1795333714.6179008,
-    "seen": 1795335268.7508917,
+    "seen": 1795336392.7426877,
     "ast_hash": "ea800b4dbab6b2d8dd539a14df24209a",
-    "semantic_hash": ""
+    "semantic_hash": "ea800b4dbab6b2d8dd539a14df24209a"
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/D\u00c1N M\u1eaaU L\u01afU 21.09.2026.pdf": {
     "mtime": 1795333714.6179008,
@@ -1485,9 +1486,9 @@
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HS BZT 21.09.2026.pdf": {
     "mtime": 1795333714.6179008,
-    "seen": 1795335268.7508943,
+    "seen": 1795336392.742713,
     "ast_hash": "060ca775a6fcc47c85abb9f68d0bfe02",
-    "semantic_hash": ""
+    "semantic_hash": "060ca775a6fcc47c85abb9f68d0bfe02"
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HS L\u00d4 IODIN 99 21.09.2026.pdf": {
     "mtime": 1795333714.621901,
@@ -1503,15 +1504,15 @@
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HSO L\u00d4 BEN COPPER 500 21.09.2026.pdf": {
     "mtime": 1795333714.625901,
-    "seen": 1795335268.7508998,
+    "seen": 1795336392.7427745,
     "ast_hash": "c60a19d40745a515627360167a939cce",
-    "semantic_hash": ""
+    "semantic_hash": "c60a19d40745a515627360167a939cce"
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HSO L\u00d4 C MAX 25% 21.09.2026.pdf": {
     "mtime": 1795333714.625901,
-    "seen": 1795335268.750901,
+    "seen": 1795336392.7428102,
     "ast_hash": "3073e33986b454729cfe26a2ab58f750",
-    "semantic_hash": ""
+    "semantic_hash": "3073e33986b454729cfe26a2ab58f750"
   },
   "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HSO L\u00d4 YUCCA 99 21.09.2026.pdf": {
     "mtime": 1795333714.625901,
@@ -1599,93 +1600,93 @@
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/amin-care.webp": {
     "mtime": 1795333714.566005,
-    "seen": 1795335268.7509184,
+    "seen": 1795336392.7428336,
     "ast_hash": "6e0f7e5a53d731e180473ac87ce98afe",
-    "semantic_hash": ""
+    "semantic_hash": "6e0f7e5a53d731e180473ac87ce98afe"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/ben-bkc.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509193,
+    "seen": 1795336392.7428553,
     "ast_hash": "1e72a5bffa4cda88bc7ac810167eb6f9",
-    "semantic_hash": ""
+    "semantic_hash": "1e72a5bffa4cda88bc7ac810167eb6f9"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/ben-copper-500.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509205,
+    "seen": 1795336392.7428744,
     "ast_hash": "d41208085d3ac18da38b4716c901eb2e",
-    "semantic_hash": ""
+    "semantic_hash": "d41208085d3ac18da38b4716c901eb2e"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/biotic-99.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509212,
+    "seen": 1795336392.742893,
     "ast_hash": "60bd4927519f950eafc57eeff0688abf",
-    "semantic_hash": ""
+    "semantic_hash": "60bd4927519f950eafc57eeff0688abf"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/clear-12h.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509222,
+    "seen": 1795336392.7429118,
     "ast_hash": "5b689419ceed73640cf91f78cb697ca4",
-    "semantic_hash": ""
+    "semantic_hash": "5b689419ceed73640cf91f78cb697ca4"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/hepaliver-fs.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509232,
+    "seen": 1795336392.7429316,
     "ast_hash": "a76ffd04d6ee7b54d7d8517105f95a07",
-    "semantic_hash": ""
+    "semantic_hash": "a76ffd04d6ee7b54d7d8517105f95a07"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/liver-max.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.750924,
+    "seen": 1795336392.7429504,
     "ast_hash": "1a71eeeaa1d8ac84b796d35970eb9830",
-    "semantic_hash": ""
+    "semantic_hash": "1a71eeeaa1d8ac84b796d35970eb9830"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/mix-79.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.750925,
+    "seen": 1795336392.7429688,
     "ast_hash": "83dfe2bdad51c52a473c1ee6270757d3",
-    "semantic_hash": ""
+    "semantic_hash": "83dfe2bdad51c52a473c1ee6270757d3"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/premix-ora.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.750926,
+    "seen": 1795336392.7429867,
     "ast_hash": "920272e821a9bc224244fb1fdd36f825",
-    "semantic_hash": ""
+    "semantic_hash": "920272e821a9bc224244fb1fdd36f825"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/rovazyme.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509272,
+    "seen": 1795336392.7430043,
     "ast_hash": "ac6becbca20f5ab967b6d5f9be770dc2",
-    "semantic_hash": ""
+    "semantic_hash": "ac6becbca20f5ab967b6d5f9be770dc2"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/super-cut-alga.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509282,
+    "seen": 1795336392.7430232,
     "ast_hash": "83eb56861eae8a17c73cea7028301cd3",
-    "semantic_hash": ""
+    "semantic_hash": "83eb56861eae8a17c73cea7028301cd3"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/super-yucca.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509289,
+    "seen": 1795336392.7430415,
     "ast_hash": "66fa02ab5cc7229342e08f528d34f270",
-    "semantic_hash": ""
+    "semantic_hash": "66fa02ab5cc7229342e08f528d34f270"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/us-lacto.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509298,
+    "seen": 1795336392.7430599,
     "ast_hash": "2be3a67ab460dd5cca8def0945ad75e2",
-    "semantic_hash": ""
+    "semantic_hash": "2be3a67ab460dd5cca8def0945ad75e2"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/vh-dio-99.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509308,
+    "seen": 1795336392.7430785,
     "ast_hash": "66dfdcf18dc7b1162d584090045ee087",
-    "semantic_hash": ""
+    "semantic_hash": "66dfdcf18dc7b1162d584090045ee087"
   },
   "TAI-LIEU-KINH-DOANH/assets/tim-cutout/vh-glubenco-pro.webp": {
     "mtime": 1795333714.5660367,
-    "seen": 1795335268.7509317,
+    "seen": 1795336392.743096,
     "ast_hash": "fa5a33fc657ed4c9a92d198c47cb0f38",
-    "semantic_hash": ""
+    "semantic_hash": "fa5a33fc657ed4c9a92d198c47cb0f38"
   },
   "TH\u00d4NG B\u00c1O H\u1ee2P QUY/TB HQ -14093/TB HQ -14093.jpg": {
     "mtime": 1795055592.0177581,
@@ -1791,603 +1792,603 @@
   },
   "ho-so-san-pham/nhan/01-001138_1.jpg": {
     "mtime": 1795055592.0609813,
-    "seen": 1795335268.7509577,
+    "seen": 1795336392.7431133,
     "ast_hash": "4f5068bb4a3c5f58f3b9d4c097f6cb59",
-    "semantic_hash": ""
+    "semantic_hash": "4f5068bb4a3c5f58f3b9d4c097f6cb59"
   },
   "ho-so-san-pham/nhan/01-001138_2.jpg": {
     "mtime": 1795055592.063294,
-    "seen": 1795335268.7509592,
+    "seen": 1795336392.7431314,
     "ast_hash": "58d7eb9411394efbadde628a0c160186",
-    "semantic_hash": ""
+    "semantic_hash": "58d7eb9411394efbadde628a0c160186"
   },
   "ho-so-san-pham/nhan/01-001522_1.jpg": {
     "mtime": 1795055592.063294,
-    "seen": 1795335268.75096,
+    "seen": 1795336392.7431486,
     "ast_hash": "dd54f31f4926046cc48fb4250d24ad14",
-    "semantic_hash": ""
+    "semantic_hash": "dd54f31f4926046cc48fb4250d24ad14"
   },
   "ho-so-san-pham/nhan/01-001522_2.jpg": {
     "mtime": 1795055592.063294,
-    "seen": 1795335268.750961,
+    "seen": 1795336392.743166,
     "ast_hash": "8e5af7cf9dab05ca3742905c8b611e14",
-    "semantic_hash": ""
+    "semantic_hash": "8e5af7cf9dab05ca3742905c8b611e14"
   },
   "ho-so-san-pham/nhan/01-001523_1.jpg": {
     "mtime": 1795055592.063294,
-    "seen": 1795335268.7509623,
+    "seen": 1795336392.7431827,
     "ast_hash": "f9c69187659a10d511010e888b3df846",
-    "semantic_hash": ""
+    "semantic_hash": "f9c69187659a10d511010e888b3df846"
   },
   "ho-so-san-pham/nhan/01-001523_2.jpg": {
     "mtime": 1795055592.063294,
-    "seen": 1795335268.7509632,
+    "seen": 1795336392.7431984,
     "ast_hash": "71db41b81bcc497085fbb79ff87cedd2",
-    "semantic_hash": ""
+    "semantic_hash": "71db41b81bcc497085fbb79ff87cedd2"
   },
   "ho-so-san-pham/nhan/01-001524_1.jpg": {
     "mtime": 1795055592.063294,
-    "seen": 1795335268.7509642,
+    "seen": 1795336392.7432156,
     "ast_hash": "d82d2877cfe9141cba0874fd0b0d483e",
-    "semantic_hash": ""
+    "semantic_hash": "d82d2877cfe9141cba0874fd0b0d483e"
   },
   "ho-so-san-pham/nhan/01-001525_1.jpg": {
     "mtime": 1795055592.063294,
-    "seen": 1795335268.7509649,
+    "seen": 1795336392.7432356,
     "ast_hash": "3ce27b64a9a3ad8eb7dc1130d2abec8e",
-    "semantic_hash": ""
+    "semantic_hash": "3ce27b64a9a3ad8eb7dc1130d2abec8e"
   },
   "ho-so-san-pham/nhan/01-001525_2.jpg": {
     "mtime": 1795055592.063294,
-    "seen": 1795335268.750966,
+    "seen": 1795336392.7432592,
     "ast_hash": "988cfc8c0f2aa7ad109b2082d59162dc",
-    "semantic_hash": ""
+    "semantic_hash": "988cfc8c0f2aa7ad109b2082d59162dc"
   },
   "ho-so-san-pham/nhan/01-001526_1.jpg": {
     "mtime": 1795055592.0658138,
-    "seen": 1795335268.7509668,
+    "seen": 1795336392.7432814,
     "ast_hash": "be935b66213b6101e1793ab9054c56ec",
-    "semantic_hash": ""
+    "semantic_hash": "be935b66213b6101e1793ab9054c56ec"
   },
   "ho-so-san-pham/nhan/01-001528_1.jpg": {
     "mtime": 1795055592.0658138,
-    "seen": 1795335268.750968,
+    "seen": 1795336392.7433035,
     "ast_hash": "861f8df0bf144e93e2eb5ea369933399",
-    "semantic_hash": ""
+    "semantic_hash": "861f8df0bf144e93e2eb5ea369933399"
   },
   "ho-so-san-pham/nhan/01-001528_2.jpg": {
     "mtime": 1795055592.0658138,
-    "seen": 1795335268.7509692,
+    "seen": 1795336392.7433274,
     "ast_hash": "5bb6c8ca1643bd6b3511f5c776868be0",
-    "semantic_hash": ""
+    "semantic_hash": "5bb6c8ca1643bd6b3511f5c776868be0"
   },
   "ho-so-san-pham/nhan/01-001528_3.jpg": {
     "mtime": 1795055592.0658138,
-    "seen": 1795335268.75097,
+    "seen": 1795336392.7433453,
     "ast_hash": "a0905b5cd56158eb11b7918da672deb9",
-    "semantic_hash": ""
+    "semantic_hash": "a0905b5cd56158eb11b7918da672deb9"
   },
   "ho-so-san-pham/nhan/01-001530_1.jpg": {
     "mtime": 1795055592.0698137,
-    "seen": 1795335268.7509708,
+    "seen": 1795336392.7433615,
     "ast_hash": "4f9d1a722e5301ce20646cc2a3758099",
-    "semantic_hash": ""
+    "semantic_hash": "4f9d1a722e5301ce20646cc2a3758099"
   },
   "ho-so-san-pham/nhan/01-001530_2.jpg": {
     "mtime": 1795055592.0698137,
-    "seen": 1795335268.7509718,
+    "seen": 1795336392.743378,
     "ast_hash": "033029fe2c92a2f9c30bc92bb52d9bba",
-    "semantic_hash": ""
+    "semantic_hash": "033029fe2c92a2f9c30bc92bb52d9bba"
   },
   "ho-so-san-pham/nhan/01-001531_1.jpg": {
     "mtime": 1795055592.0698137,
-    "seen": 1795335268.750973,
+    "seen": 1795336392.7433934,
     "ast_hash": "f189709646bbe90cd064b17ddb3fba74",
-    "semantic_hash": ""
+    "semantic_hash": "f189709646bbe90cd064b17ddb3fba74"
   },
   "ho-so-san-pham/nhan/01-001540_1.jpg": {
     "mtime": 1795055592.0698137,
-    "seen": 1795335268.750974,
+    "seen": 1795336392.7434099,
     "ast_hash": "315def8c27de24347a0689403c98ccc6",
-    "semantic_hash": ""
+    "semantic_hash": "315def8c27de24347a0689403c98ccc6"
   },
   "ho-so-san-pham/nhan/01-001542_1.jpg": {
     "mtime": 1795055592.0738137,
-    "seen": 1795335268.750975,
+    "seen": 1795336392.7434258,
     "ast_hash": "0dcd92e24783871bcfda9c39e84f8f2d",
-    "semantic_hash": ""
+    "semantic_hash": "0dcd92e24783871bcfda9c39e84f8f2d"
   },
   "ho-so-san-pham/nhan/01-001543_1.jpg": {
     "mtime": 1795055592.0738137,
-    "seen": 1795335268.750976,
+    "seen": 1795336392.7434428,
     "ast_hash": "9e8b50e9c366e2daffcd99d2871e6b89",
-    "semantic_hash": ""
+    "semantic_hash": "9e8b50e9c366e2daffcd99d2871e6b89"
   },
   "ho-so-san-pham/nhan/01-001544_1.jpg": {
     "mtime": 1795055592.0738137,
-    "seen": 1795335268.750977,
+    "seen": 1795336392.7434597,
     "ast_hash": "5de867534c15f35e409be17180cf7dd3",
-    "semantic_hash": ""
+    "semantic_hash": "5de867534c15f35e409be17180cf7dd3"
   },
   "ho-so-san-pham/nhan/01-001544_2.jpg": {
     "mtime": 1795055592.0738137,
-    "seen": 1795335268.7509778,
+    "seen": 1795336392.743476,
     "ast_hash": "4504b3cac76ff0d8d633017218fb6a1f",
-    "semantic_hash": ""
+    "semantic_hash": "4504b3cac76ff0d8d633017218fb6a1f"
   },
   "ho-so-san-pham/nhan/01-001545_1.jpg": {
     "mtime": 1795055592.0738137,
-    "seen": 1795335268.7509809,
+    "seen": 1795336392.7434928,
     "ast_hash": "9ad532295bf381a8debdcf7bdf791327",
-    "semantic_hash": ""
+    "semantic_hash": "9ad532295bf381a8debdcf7bdf791327"
   },
   "ho-so-san-pham/nhan/01-001547_1.jpg": {
     "mtime": 1795055592.0778136,
-    "seen": 1795335268.7509823,
+    "seen": 1795336392.7435098,
     "ast_hash": "860443054fb2dc6f177a640f56009de4",
-    "semantic_hash": ""
+    "semantic_hash": "860443054fb2dc6f177a640f56009de4"
   },
   "ho-so-san-pham/nhan/01-001548_1.jpg": {
     "mtime": 1795055592.0778136,
-    "seen": 1795335268.7509835,
+    "seen": 1795336392.7435257,
     "ast_hash": "b87693fd9886c7fe1f55717d74299444",
-    "semantic_hash": ""
+    "semantic_hash": "b87693fd9886c7fe1f55717d74299444"
   },
   "ho-so-san-pham/nhan/01-001549_1.jpg": {
     "mtime": 1795055592.0778136,
-    "seen": 1795335268.7509844,
+    "seen": 1795336392.7435424,
     "ast_hash": "f0533fcd7addedb4ff966ac354de42f8",
-    "semantic_hash": ""
+    "semantic_hash": "f0533fcd7addedb4ff966ac354de42f8"
   },
   "ho-so-san-pham/nhan/01-001550_1.jpg": {
     "mtime": 1795055592.0778136,
-    "seen": 1795335268.7509854,
+    "seen": 1795336392.7435584,
     "ast_hash": "b0b4c4ecf50e9cb30552b01b4e2bedb9",
-    "semantic_hash": ""
+    "semantic_hash": "b0b4c4ecf50e9cb30552b01b4e2bedb9"
   },
   "ho-so-san-pham/nhan/01-001550_2.jpg": {
     "mtime": 1795055592.0778136,
-    "seen": 1795335268.7509866,
+    "seen": 1795336392.743575,
     "ast_hash": "7a5b5d27ff0c3a97f2fa1566e4f63f86",
-    "semantic_hash": ""
+    "semantic_hash": "7a5b5d27ff0c3a97f2fa1566e4f63f86"
   },
   "ho-so-san-pham/nhan/01-002227_1.jpg": {
     "mtime": 1795055592.0818136,
-    "seen": 1795335268.7509873,
+    "seen": 1795336392.7435918,
     "ast_hash": "c64119367dc16f036f13047181d48fea",
-    "semantic_hash": ""
+    "semantic_hash": "c64119367dc16f036f13047181d48fea"
   },
   "ho-so-san-pham/nhan/01-002228_1.jpg": {
     "mtime": 1795055592.0818136,
-    "seen": 1795335268.7509882,
+    "seen": 1795336392.7436078,
     "ast_hash": "3a7356c1eea16d9556e5904d8f776689",
-    "semantic_hash": ""
+    "semantic_hash": "3a7356c1eea16d9556e5904d8f776689"
   },
   "ho-so-san-pham/nhan/01-002230_1.jpg": {
     "mtime": 1795055592.0818136,
-    "seen": 1795335268.7509892,
+    "seen": 1795336392.7436237,
     "ast_hash": "6816718c439e1eeaee050c614654ea5a",
-    "semantic_hash": ""
+    "semantic_hash": "6816718c439e1eeaee050c614654ea5a"
   },
   "ho-so-san-pham/nhan/01-002231_1.jpg": {
     "mtime": 1795055592.0818136,
-    "seen": 1795335268.7509902,
+    "seen": 1795336392.7436404,
     "ast_hash": "76ce3278e5c41167e83100dc98b75359",
-    "semantic_hash": ""
+    "semantic_hash": "76ce3278e5c41167e83100dc98b75359"
   },
   "ho-so-san-pham/nhan/01-002232_1.jpg": {
     "mtime": 1795055592.0818136,
-    "seen": 1795335268.7509913,
+    "seen": 1795336392.743683,
     "ast_hash": "f66237d05267aee5e16b982630eb8630",
-    "semantic_hash": ""
+    "semantic_hash": "f66237d05267aee5e16b982630eb8630"
   },
   "ho-so-san-pham/nhan/01-002233_1.jpg": {
     "mtime": 1795055592.0858138,
-    "seen": 1795335268.750992,
+    "seen": 1795336392.7437043,
     "ast_hash": "0d7792649fb3a04d1d69eac7b7ab2240",
-    "semantic_hash": ""
+    "semantic_hash": "0d7792649fb3a04d1d69eac7b7ab2240"
   },
   "ho-so-san-pham/nhan/01-002233_2.jpg": {
     "mtime": 1795055592.0858138,
-    "seen": 1795335268.7509933,
+    "seen": 1795336392.7437215,
     "ast_hash": "9a83b20925adad1dda72378aefdac81b",
-    "semantic_hash": ""
+    "semantic_hash": "9a83b20925adad1dda72378aefdac81b"
   },
   "ho-so-san-pham/nhan/01-002234_1.jpg": {
     "mtime": 1795055592.0858138,
-    "seen": 1795335268.7509942,
+    "seen": 1795336392.743744,
     "ast_hash": "23b549b34d6cab3ea45f37037d042888",
-    "semantic_hash": ""
+    "semantic_hash": "23b549b34d6cab3ea45f37037d042888"
   },
   "ho-so-san-pham/nhan/01-002235_1.jpg": {
     "mtime": 1795055592.0858138,
-    "seen": 1795335268.7509952,
+    "seen": 1795336392.7437608,
     "ast_hash": "efbf9d5c09a57defc6a7ea99df6b5107",
-    "semantic_hash": ""
+    "semantic_hash": "efbf9d5c09a57defc6a7ea99df6b5107"
   },
   "ho-so-san-pham/nhan/01-002235_2.jpg": {
     "mtime": 1795055592.0858138,
-    "seen": 1795335268.750996,
+    "seen": 1795336392.7437775,
     "ast_hash": "a89f22036626cc600c47b764e38112e4",
-    "semantic_hash": ""
+    "semantic_hash": "a89f22036626cc600c47b764e38112e4"
   },
   "ho-so-san-pham/nhan/01-002236_1.jpg": {
     "mtime": 1795055592.0898137,
-    "seen": 1795335268.750997,
+    "seen": 1795336392.7437947,
     "ast_hash": "3bfe837fb2489969a3f2449cec372eec",
-    "semantic_hash": ""
+    "semantic_hash": "3bfe837fb2489969a3f2449cec372eec"
   },
   "ho-so-san-pham/nhan/01-002237_1.jpg": {
     "mtime": 1795055592.0898137,
-    "seen": 1795335268.750998,
+    "seen": 1795336392.7438107,
     "ast_hash": "83a52bf7b5b55e3cae347b884a0b7d02",
-    "semantic_hash": ""
+    "semantic_hash": "83a52bf7b5b55e3cae347b884a0b7d02"
   },
   "ho-so-san-pham/nhan/01-002237_2.jpg": {
     "mtime": 1795055592.0898137,
-    "seen": 1795335268.750999,
+    "seen": 1795336392.7438273,
     "ast_hash": "e9d9359128fa2e1b75d6dd98f7aca057",
-    "semantic_hash": ""
+    "semantic_hash": "e9d9359128fa2e1b75d6dd98f7aca057"
   },
   "ho-so-san-pham/nhan/01-002239_1.jpg": {
     "mtime": 1795055592.0898137,
-    "seen": 1795335268.7510002,
+    "seen": 1795336392.743844,
     "ast_hash": "717e0c3ddb58cedef238dabc1b48f0b5",
-    "semantic_hash": ""
+    "semantic_hash": "717e0c3ddb58cedef238dabc1b48f0b5"
   },
   "ho-so-san-pham/nhan/01-002240_1.jpg": {
     "mtime": 1795055592.0938137,
-    "seen": 1795335268.7510011,
+    "seen": 1795336392.7438614,
     "ast_hash": "f52e58f0234e6e229ad95448d85a4798",
-    "semantic_hash": ""
+    "semantic_hash": "f52e58f0234e6e229ad95448d85a4798"
   },
   "ho-so-san-pham/nhan/01-002241_1.jpg": {
     "mtime": 1795055592.0938137,
-    "seen": 1795335268.7510018,
+    "seen": 1795336392.743878,
     "ast_hash": "04bc38a0ff6c92cf076b80b5261e4e61",
-    "semantic_hash": ""
+    "semantic_hash": "04bc38a0ff6c92cf076b80b5261e4e61"
   },
   "ho-so-san-pham/nhan/01-002242_1.jpg": {
     "mtime": 1795055592.0938137,
-    "seen": 1795335268.7510028,
+    "seen": 1795336392.7438939,
     "ast_hash": "dcdc562a51f3628732914d8a2b1db99f",
-    "semantic_hash": ""
+    "semantic_hash": "dcdc562a51f3628732914d8a2b1db99f"
   },
   "ho-so-san-pham/nhan/01-002244_1.jpg": {
     "mtime": 1795055592.0938137,
-    "seen": 1795335268.7510073,
+    "seen": 1795336392.7439096,
     "ast_hash": "93a730a12db021343539ccb159ab2a19",
-    "semantic_hash": ""
+    "semantic_hash": "93a730a12db021343539ccb159ab2a19"
   },
   "ho-so-san-pham/nhan/01-002244_2.jpg": {
     "mtime": 1795055592.0978136,
-    "seen": 1795335268.7510083,
+    "seen": 1795336392.7439253,
     "ast_hash": "6499066809240c75cd2c2276b668012a",
-    "semantic_hash": ""
+    "semantic_hash": "6499066809240c75cd2c2276b668012a"
   },
   "ho-so-san-pham/nhan/01-002256_1.jpg": {
     "mtime": 1795055592.0978136,
-    "seen": 1795335268.7510092,
+    "seen": 1795336392.7439413,
     "ast_hash": "5ca6a2f42457789571158ed9190b304e",
-    "semantic_hash": ""
+    "semantic_hash": "5ca6a2f42457789571158ed9190b304e"
   },
   "ho-so-san-pham/nhan/01-002256_2.jpg": {
     "mtime": 1795055592.0978136,
-    "seen": 1795335268.75101,
+    "seen": 1795336392.7439575,
     "ast_hash": "a105457ebf282c9735b57de2d52e4b24",
-    "semantic_hash": ""
+    "semantic_hash": "a105457ebf282c9735b57de2d52e4b24"
   },
   "ho-so-san-pham/nhan/01-023341_1.jpg": {
     "mtime": 1795055592.0978136,
-    "seen": 1795335268.751011,
+    "seen": 1795336392.7439737,
     "ast_hash": "a469af4c4f984bd3795bd06ee5ef57c6",
-    "semantic_hash": ""
+    "semantic_hash": "a469af4c4f984bd3795bd06ee5ef57c6"
   },
   "ho-so-san-pham/nhan/01-028280_1.jpg": {
     "mtime": 1795055592.1018136,
-    "seen": 1795335268.751012,
+    "seen": 1795336392.7439902,
     "ast_hash": "129251d71ba79733efce38283a4d4c10",
-    "semantic_hash": ""
+    "semantic_hash": "129251d71ba79733efce38283a4d4c10"
   },
   "ho-so-san-pham/nhan/01-028281_1.jpg": {
     "mtime": 1795055592.1018136,
-    "seen": 1795335268.7510128,
+    "seen": 1795336392.7440073,
     "ast_hash": "3b4fa1694c809e60f6e531ba861dc233",
-    "semantic_hash": ""
+    "semantic_hash": "3b4fa1694c809e60f6e531ba861dc233"
   },
   "ho-so-san-pham/nhan/01-028282_1.jpg": {
     "mtime": 1795055592.1018136,
-    "seen": 1795335268.751014,
+    "seen": 1795336392.7440238,
     "ast_hash": "a934af752862dc353895e3d829a54665",
-    "semantic_hash": ""
+    "semantic_hash": "a934af752862dc353895e3d829a54665"
   },
   "ho-so-san-pham/nhan/01-028282_2.jpg": {
     "mtime": 1795055592.1018136,
-    "seen": 1795335268.7510147,
+    "seen": 1795336392.7440403,
     "ast_hash": "b230421a3a8887c24b407e9358485fe5",
-    "semantic_hash": ""
+    "semantic_hash": "b230421a3a8887c24b407e9358485fe5"
   },
   "ho-so-san-pham/nhan/01-028283_1.jpg": {
     "mtime": 1795055592.1018136,
-    "seen": 1795335268.751016,
+    "seen": 1795336392.7440565,
     "ast_hash": "e4a968ade5f6840af2af50b877411161",
-    "semantic_hash": ""
+    "semantic_hash": "e4a968ade5f6840af2af50b877411161"
   },
   "ho-so-san-pham/nhan/01-028286_1.jpg": {
     "mtime": 1795055592.1058137,
-    "seen": 1795335268.7510166,
+    "seen": 1795336392.744073,
     "ast_hash": "be688dbc69f00db0e87e7c9a2419fe55",
-    "semantic_hash": ""
+    "semantic_hash": "be688dbc69f00db0e87e7c9a2419fe55"
   },
   "ho-so-san-pham/nhan/01-028286_2.jpg": {
     "mtime": 1795055592.1058137,
-    "seen": 1795335268.7510178,
+    "seen": 1795336392.7440894,
     "ast_hash": "edc5eb2f3d419319dde0c82c1ff9ad4e",
-    "semantic_hash": ""
+    "semantic_hash": "edc5eb2f3d419319dde0c82c1ff9ad4e"
   },
   "ho-so-san-pham/nhan/01-061772_1.jpg": {
     "mtime": 1795055592.1058137,
-    "seen": 1795335268.7510188,
+    "seen": 1795336392.744105,
     "ast_hash": "b2fcb7d8893459e7c1a6708f35b34303",
-    "semantic_hash": ""
+    "semantic_hash": "b2fcb7d8893459e7c1a6708f35b34303"
   },
   "ho-so-san-pham/nhan/01-061772_2.jpg": {
     "mtime": 1795055592.1058137,
-    "seen": 1795335268.7510197,
+    "seen": 1795336392.7441223,
     "ast_hash": "bb309d93898aa42fbde8d95420197aa1",
-    "semantic_hash": ""
+    "semantic_hash": "bb309d93898aa42fbde8d95420197aa1"
   },
   "ho-so-san-pham/nhan/01-061772_3.jpg": {
     "mtime": 1795055592.1058137,
-    "seen": 1795335268.751021,
+    "seen": 1795336392.7441382,
     "ast_hash": "602fdf2980e6bf33cf829c784fb35f34",
-    "semantic_hash": ""
+    "semantic_hash": "602fdf2980e6bf33cf829c784fb35f34"
   },
   "ho-so-san-pham/nhan/01-061785_1.jpg": {
     "mtime": 1795055592.1058137,
-    "seen": 1795335268.7510216,
+    "seen": 1795336392.7441542,
     "ast_hash": "1bc5f4c7a541a8e22bb3f032a2affc74",
-    "semantic_hash": ""
+    "semantic_hash": "1bc5f4c7a541a8e22bb3f032a2affc74"
   },
   "ho-so-san-pham/nhan/01-061785_2.jpg": {
     "mtime": 1795055592.1098137,
-    "seen": 1795335268.7510226,
+    "seen": 1795336392.7441697,
     "ast_hash": "78d7e92d5c5f38c682a76a9f08b1543e",
-    "semantic_hash": ""
+    "semantic_hash": "78d7e92d5c5f38c682a76a9f08b1543e"
   },
   "ho-so-san-pham/nhan/01-061787_1.jpg": {
     "mtime": 1795055592.1098137,
-    "seen": 1795335268.7510235,
+    "seen": 1795336392.7441857,
     "ast_hash": "bd452b16f32573f69929eb30177cbc52",
-    "semantic_hash": ""
+    "semantic_hash": "bd452b16f32573f69929eb30177cbc52"
   },
   "ho-so-san-pham/nhan/01-061787_2.jpg": {
     "mtime": 1795055592.1098137,
-    "seen": 1795335268.7510247,
+    "seen": 1795336392.7442014,
     "ast_hash": "8937e2cd4ecd31b32c4b95b413070337",
-    "semantic_hash": ""
+    "semantic_hash": "8937e2cd4ecd31b32c4b95b413070337"
   },
   "ho-so-san-pham/nhan/01-061789_1.jpg": {
     "mtime": 1795055592.1098137,
-    "seen": 1795335268.7510257,
+    "seen": 1795336392.7442174,
     "ast_hash": "e3131c43983854deeff80ebfb800d723",
-    "semantic_hash": ""
+    "semantic_hash": "e3131c43983854deeff80ebfb800d723"
   },
   "ho-so-san-pham/nhan/02-000889_1.jpg": {
     "mtime": 1795055592.1098137,
-    "seen": 1795335268.7510264,
+    "seen": 1795336392.7442348,
     "ast_hash": "124e699105fb9170b3fda9606e5ed1cc",
-    "semantic_hash": ""
+    "semantic_hash": "124e699105fb9170b3fda9606e5ed1cc"
   },
   "ho-so-san-pham/nhan/02-000890_1.jpg": {
     "mtime": 1795055592.1138136,
-    "seen": 1795335268.7510273,
+    "seen": 1795336392.744252,
     "ast_hash": "4b9d78593285392a9731084b6120264a",
-    "semantic_hash": ""
+    "semantic_hash": "4b9d78593285392a9731084b6120264a"
   },
   "ho-so-san-pham/nhan/02-000891_1.jpg": {
     "mtime": 1795055592.1138136,
-    "seen": 1795335268.7510285,
+    "seen": 1795336392.7442675,
     "ast_hash": "ad4d36a43ff4a8e6b4267c2c8628a5dd",
-    "semantic_hash": ""
+    "semantic_hash": "ad4d36a43ff4a8e6b4267c2c8628a5dd"
   },
   "ho-so-san-pham/nhan/02-000893_1.jpg": {
     "mtime": 1795055592.1138136,
-    "seen": 1795335268.7510295,
+    "seen": 1795336392.7442834,
     "ast_hash": "998e845b23a5f41ad0f37af0c3515adc",
-    "semantic_hash": ""
+    "semantic_hash": "998e845b23a5f41ad0f37af0c3515adc"
   },
   "ho-so-san-pham/nhan/02-000896_1.jpg": {
     "mtime": 1795055592.1138136,
-    "seen": 1795335268.7510302,
+    "seen": 1795336392.7443,
     "ast_hash": "47751bb7acd91a4b7d73a0126c768d65",
-    "semantic_hash": ""
+    "semantic_hash": "47751bb7acd91a4b7d73a0126c768d65"
   },
   "ho-so-san-pham/nhan/02-000897_1.jpg": {
     "mtime": 1795055592.1138136,
-    "seen": 1795335268.751031,
+    "seen": 1795336392.7443154,
     "ast_hash": "4a260c7ce59b739fb1d7bad3d579b307",
-    "semantic_hash": ""
+    "semantic_hash": "4a260c7ce59b739fb1d7bad3d579b307"
   },
   "ho-so-san-pham/nhan/02-000897_2.jpg": {
     "mtime": 1795055592.1138136,
-    "seen": 1795335268.751032,
+    "seen": 1795336392.7443328,
     "ast_hash": "448d95ed50c7027c8c2978c093cdfa8e",
-    "semantic_hash": ""
+    "semantic_hash": "448d95ed50c7027c8c2978c093cdfa8e"
   },
   "ho-so-san-pham/nhan/02-001532_1.jpg": {
     "mtime": 1795055592.1178136,
-    "seen": 1795335268.751033,
+    "seen": 1795336392.7443497,
     "ast_hash": "a1510573e78478003520c5673ec889b6",
-    "semantic_hash": ""
+    "semantic_hash": "a1510573e78478003520c5673ec889b6"
   },
   "ho-so-san-pham/nhan/02-001533_1.jpg": {
     "mtime": 1795055592.1178136,
-    "seen": 1795335268.7510338,
+    "seen": 1795336392.7443647,
     "ast_hash": "526fc64aee9b0e31ab74d08168b78468",
-    "semantic_hash": ""
+    "semantic_hash": "526fc64aee9b0e31ab74d08168b78468"
   },
   "ho-so-san-pham/nhan/02-001533_2.jpg": {
     "mtime": 1795055592.1178136,
-    "seen": 1795335268.751035,
+    "seen": 1795336392.7443817,
     "ast_hash": "6994d3b1615cb293f984415d47c3dfea",
-    "semantic_hash": ""
+    "semantic_hash": "6994d3b1615cb293f984415d47c3dfea"
   },
   "ho-so-san-pham/nhan/02-001534_1.jpg": {
     "mtime": 1795055592.1178136,
-    "seen": 1795335268.751036,
+    "seen": 1795336392.744398,
     "ast_hash": "f666b050618fc6cbc623fb5b7ce403c0",
-    "semantic_hash": ""
+    "semantic_hash": "f666b050618fc6cbc623fb5b7ce403c0"
   },
   "ho-so-san-pham/nhan/02-001534_2.jpg": {
     "mtime": 1795055592.1178136,
-    "seen": 1795335268.751037,
+    "seen": 1795336392.7444146,
     "ast_hash": "0977ff4426a3ccb1bad83ee222e96065",
-    "semantic_hash": ""
+    "semantic_hash": "0977ff4426a3ccb1bad83ee222e96065"
   },
   "ho-so-san-pham/nhan/02-001534_3.jpg": {
     "mtime": 1795055592.1178136,
-    "seen": 1795335268.7510378,
+    "seen": 1795336392.7444305,
     "ast_hash": "d7c709b0c174610804a7ef25b8c5e12b",
-    "semantic_hash": ""
+    "semantic_hash": "d7c709b0c174610804a7ef25b8c5e12b"
   },
   "ho-so-san-pham/nhan/02-001535_1.jpg": {
     "mtime": 1795055592.1178136,
-    "seen": 1795335268.751039,
+    "seen": 1795336392.7444482,
     "ast_hash": "e44fba520aa07ab6b9ad96a4ce3c41d0",
-    "semantic_hash": ""
+    "semantic_hash": "e44fba520aa07ab6b9ad96a4ce3c41d0"
   },
   "ho-so-san-pham/nhan/02-001536_1.jpg": {
     "mtime": 1795055592.1178136,
-    "seen": 1795335268.75104,
+    "seen": 1795336392.7444646,
     "ast_hash": "01ed222ccba54a7f52b5e4a2810a0717",
-    "semantic_hash": ""
+    "semantic_hash": "01ed222ccba54a7f52b5e4a2810a0717"
   },
   "ho-so-san-pham/nhan/02-001537_1.jpg": {
     "mtime": 1795055592.1218138,
-    "seen": 1795335268.751041,
+    "seen": 1795336392.7444813,
     "ast_hash": "4519a4d5d863e9313e85bd0dc056be04",
-    "semantic_hash": ""
+    "semantic_hash": "4519a4d5d863e9313e85bd0dc056be04"
   },
   "ho-so-san-pham/nhan/02-001538_1.jpg": {
     "mtime": 1795055592.1218138,
-    "seen": 1795335268.7510433,
+    "seen": 1795336392.7444973,
     "ast_hash": "96adc28976c8ab79f2a3ea6942dec177",
-    "semantic_hash": ""
+    "semantic_hash": "96adc28976c8ab79f2a3ea6942dec177"
   },
   "ho-so-san-pham/nhan/02-001539_1.jpg": {
     "mtime": 1795055592.1218138,
-    "seen": 1795335268.7510445,
+    "seen": 1795336392.7445152,
     "ast_hash": "f36c96055c386da2fb6f128c4bbc3490",
-    "semantic_hash": ""
+    "semantic_hash": "f36c96055c386da2fb6f128c4bbc3490"
   },
   "ho-so-san-pham/nhan/02-001539_2.jpg": {
     "mtime": 1795055592.1218138,
-    "seen": 1795335268.7510457,
+    "seen": 1795336392.7445316,
     "ast_hash": "168510ac728bc86fe2b3dcbe7db8dd3d",
-    "semantic_hash": ""
+    "semantic_hash": "168510ac728bc86fe2b3dcbe7db8dd3d"
   },
   "ho-so-san-pham/nhan/02-002245_1.jpg": {
     "mtime": 1795055592.1218138,
-    "seen": 1795335268.7510467,
+    "seen": 1795336392.7445483,
     "ast_hash": "47b4202a5e0f70d8549572761cc0ef74",
-    "semantic_hash": ""
+    "semantic_hash": "47b4202a5e0f70d8549572761cc0ef74"
   },
   "ho-so-san-pham/nhan/02-002245_2.jpg": {
     "mtime": 1795055592.1218138,
-    "seen": 1795335268.7510476,
+    "seen": 1795336392.7445645,
     "ast_hash": "f4a5d6751899210c3cb5d60516517b5a",
-    "semantic_hash": ""
+    "semantic_hash": "f4a5d6751899210c3cb5d60516517b5a"
   },
   "ho-so-san-pham/nhan/02-002246_1.jpg": {
     "mtime": 1795055592.1258137,
-    "seen": 1795335268.7510488,
+    "seen": 1795336392.7445805,
     "ast_hash": "cadadd7e6a04345fb1efb0396b6703ed",
-    "semantic_hash": ""
+    "semantic_hash": "cadadd7e6a04345fb1efb0396b6703ed"
   },
   "ho-so-san-pham/nhan/02-002248_1.jpg": {
     "mtime": 1795055592.1258137,
-    "seen": 1795335268.7510498,
+    "seen": 1795336392.7445977,
     "ast_hash": "ab67bdcd6ef797ad7ed4ec48bd5a707c",
-    "semantic_hash": ""
+    "semantic_hash": "ab67bdcd6ef797ad7ed4ec48bd5a707c"
   },
   "ho-so-san-pham/nhan/02-002248_2.jpg": {
     "mtime": 1795055592.1258137,
-    "seen": 1795335268.7510507,
+    "seen": 1795336392.7446146,
     "ast_hash": "ba6a08873c1926eaba33d4545c2f24a1",
-    "semantic_hash": ""
+    "semantic_hash": "ba6a08873c1926eaba33d4545c2f24a1"
   },
   "ho-so-san-pham/nhan/02-002250_1.jpg": {
     "mtime": 1795055592.1258137,
-    "seen": 1795335268.7510517,
+    "seen": 1795336392.744631,
     "ast_hash": "0427e163e186106ca9197d4972309609",
-    "semantic_hash": ""
+    "semantic_hash": "0427e163e186106ca9197d4972309609"
   },
   "ho-so-san-pham/nhan/02-002250_2.jpg": {
     "mtime": 1795055592.1258137,
-    "seen": 1795335268.7510526,
+    "seen": 1795336392.7446475,
     "ast_hash": "75306c3a1d41e3c01454600dcf21d88f",
-    "semantic_hash": ""
+    "semantic_hash": "75306c3a1d41e3c01454600dcf21d88f"
   },
   "ho-so-san-pham/nhan/02-002251_1.jpg": {
     "mtime": 1795055592.1258137,
-    "seen": 1795335268.7510536,
+    "seen": 1795336392.7446845,
     "ast_hash": "d01fa0ba7c407b6e166c52c37f0e362e",
-    "semantic_hash": ""
+    "semantic_hash": "d01fa0ba7c407b6e166c52c37f0e362e"
   },
   "ho-so-san-pham/nhan/02-002251_2.jpg": {
     "mtime": 1795055592.1298137,
-    "seen": 1795335268.7510545,
+    "seen": 1795336392.744703,
     "ast_hash": "99348316d9473c1bf7e3885af371fd10",
-    "semantic_hash": ""
+    "semantic_hash": "99348316d9473c1bf7e3885af371fd10"
   },
   "ho-so-san-pham/nhan/02-002251_3.jpg": {
     "mtime": 1795055592.1298137,
-    "seen": 1795335268.7510557,
+    "seen": 1795336392.7447186,
     "ast_hash": "be0ecdee4765f46eaf67c5554d2c06e7",
-    "semantic_hash": ""
+    "semantic_hash": "be0ecdee4765f46eaf67c5554d2c06e7"
   },
   "ho-so-san-pham/nhan/02-002251_4.jpg": {
     "mtime": 1795055592.1298137,
-    "seen": 1795335268.7510564,
+    "seen": 1795336392.744741,
     "ast_hash": "6cc0c5756bc7faed70a5a74d663d6fa7",
-    "semantic_hash": ""
+    "semantic_hash": "6cc0c5756bc7faed70a5a74d663d6fa7"
   },
   "ho-so-san-pham/nhan/02-002252_1.jpg": {
     "mtime": 1795055592.1298137,
-    "seen": 1795335268.7510574,
+    "seen": 1795336392.7447574,
     "ast_hash": "feb34bff2c81309ce088bc5abb08c116",
-    "semantic_hash": ""
+    "semantic_hash": "feb34bff2c81309ce088bc5abb08c116"
   },
   "ho-so-san-pham/nhan/02-002252_2.jpg": {
     "mtime": 1795055592.1338136,
-    "seen": 1795335268.7510583,
+    "seen": 1795336392.7447736,
     "ast_hash": "381c6f08fd044faebbf066fda1bf4d0f",
-    "semantic_hash": ""
+    "semantic_hash": "381c6f08fd044faebbf066fda1bf4d0f"
   },
   "ho-so-san-pham/nhan/02-002253_1.jpg": {
     "mtime": 1795055592.1338136,
-    "seen": 1795335268.7510593,
+    "seen": 1795336392.7447898,
     "ast_hash": "3420e80b1b58516b05e6eee5f29bb410",
-    "semantic_hash": ""
+    "semantic_hash": "3420e80b1b58516b05e6eee5f29bb410"
   },
   "ho-so-san-pham/nhan/02-002253_2.jpg": {
     "mtime": 1795055592.1338136,
-    "seen": 1795335268.7510602,
+    "seen": 1795336392.744806,
     "ast_hash": "0175b582184b7b9e9c01de58152bc6f6",
-    "semantic_hash": ""
+    "semantic_hash": "0175b582184b7b9e9c01de58152bc6f6"
   },
   "ho-so-san-pham/nhan/02-002254_1.jpg": {
     "mtime": 1795055592.1338136,
-    "seen": 1795335268.7510612,
+    "seen": 1795336392.7448218,
     "ast_hash": "9378f7a12431583eb3f4acfb9b22f1ca",
-    "semantic_hash": ""
+    "semantic_hash": "9378f7a12431583eb3f4acfb9b22f1ca"
   },
   "ho-so-san-pham/nhan/02-002255_1.jpg": {
     "mtime": 1795055592.1378136,
-    "seen": 1795335268.7510622,
+    "seen": 1795336392.744838,
     "ast_hash": "4c7d8d0067292e18338010d1b47238f7",
-    "semantic_hash": ""
+    "semantic_hash": "4c7d8d0067292e18338010d1b47238f7"
   },
   "ho-so-san-pham/nhan/02-002255_2.jpg": {
     "mtime": 1795055592.1378136,
@@ -2631,146 +2632,146 @@
   },
   "ho-so-san-pham/nhan/02-028279_1.jpg": {
     "mtime": 1795055592.1658137,
-    "seen": 1795335268.7511024,
+    "seen": 1795336392.7448547,
     "ast_hash": "865e618dbc2ef72207bce22cbe79337a",
-    "semantic_hash": ""
+    "semantic_hash": "865e618dbc2ef72207bce22cbe79337a"
   },
   "ho-so-san-pham/nhan/02-028284_1.jpg": {
     "mtime": 1795055592.1658137,
-    "seen": 1795335268.7511034,
+    "seen": 1795336392.7448719,
     "ast_hash": "81592ae714cf416d5d3142b23339b71e",
-    "semantic_hash": ""
+    "semantic_hash": "81592ae714cf416d5d3142b23339b71e"
   },
   "ho-so-san-pham/nhan/02-028285_1.jpg": {
     "mtime": 1795055592.1658137,
-    "seen": 1795335268.7511046,
+    "seen": 1795336392.7448883,
     "ast_hash": "4c85753cdbfe790c2859a1d2d8054426",
-    "semantic_hash": ""
+    "semantic_hash": "4c85753cdbfe790c2859a1d2d8054426"
   },
   "ho-so-san-pham/nhan/02-037649_1.jpg": {
     "mtime": 1795055592.1698136,
-    "seen": 1795335268.7511055,
+    "seen": 1795336392.744905,
     "ast_hash": "53cfb2ca71c44efecb130e5ea1d49d73",
-    "semantic_hash": ""
+    "semantic_hash": "53cfb2ca71c44efecb130e5ea1d49d73"
   },
   "ho-so-san-pham/nhan/02-037649_2.jpg": {
     "mtime": 1795055592.1698136,
-    "seen": 1795335268.7511065,
+    "seen": 1795336392.744921,
     "ast_hash": "3b98b4e412078c7fe2d07188cd5ded7f",
-    "semantic_hash": ""
+    "semantic_hash": "3b98b4e412078c7fe2d07188cd5ded7f"
   },
   "ho-so-san-pham/nhan/02-037651_1.jpg": {
     "mtime": 1795055592.1698136,
-    "seen": 1795335268.7511077,
+    "seen": 1795336392.7449372,
     "ast_hash": "a87a9b7d4988a12030ef8e4f4b659fb2",
-    "semantic_hash": ""
+    "semantic_hash": "a87a9b7d4988a12030ef8e4f4b659fb2"
   },
   "ho-so-san-pham/nhan/02-037652_1.jpg": {
     "mtime": 1795055592.1738136,
-    "seen": 1795335268.7511084,
+    "seen": 1795336392.7449539,
     "ast_hash": "1a6e21c9f57468df8ace6340f2a7ecc6",
-    "semantic_hash": ""
+    "semantic_hash": "1a6e21c9f57468df8ace6340f2a7ecc6"
   },
   "ho-so-san-pham/nhan/02-037652_2.jpg": {
     "mtime": 1795055592.1738136,
-    "seen": 1795335268.7511094,
+    "seen": 1795336392.7449703,
     "ast_hash": "70edb958f6beed9e37e677aa14009f9c",
-    "semantic_hash": ""
+    "semantic_hash": "70edb958f6beed9e37e677aa14009f9c"
   },
   "ho-so-san-pham/nhan/02-037653_1.jpg": {
     "mtime": 1795055592.1738136,
-    "seen": 1795335268.7511103,
+    "seen": 1795336392.744986,
     "ast_hash": "8361dab87448fa8b110d554e4ecd6961",
-    "semantic_hash": ""
+    "semantic_hash": "8361dab87448fa8b110d554e4ecd6961"
   },
   "ho-so-san-pham/nhan/02-037654_1.jpg": {
     "mtime": 1795055592.1738136,
-    "seen": 1795335268.7511115,
+    "seen": 1795336392.7450027,
     "ast_hash": "6c4f891d3d22db3453f02d7eaf1a343f",
-    "semantic_hash": ""
+    "semantic_hash": "6c4f891d3d22db3453f02d7eaf1a343f"
   },
   "ho-so-san-pham/nhan/02-037654_2.jpg": {
     "mtime": 1795055592.1738136,
-    "seen": 1795335268.7511122,
+    "seen": 1795336392.7450187,
     "ast_hash": "61042c6b984bc1ff96bc1d48ea6af5b1",
-    "semantic_hash": ""
+    "semantic_hash": "61042c6b984bc1ff96bc1d48ea6af5b1"
   },
   "ho-so-san-pham/nhan/02-037654_3.jpg": {
     "mtime": 1795055592.1778138,
-    "seen": 1795335268.7511132,
+    "seen": 1795336392.7450342,
     "ast_hash": "e6da58eab1fde599038195b23cc5f0da",
-    "semantic_hash": ""
+    "semantic_hash": "e6da58eab1fde599038195b23cc5f0da"
   },
   "ho-so-san-pham/nhan/02-037655_1.jpg": {
     "mtime": 1795055592.1778138,
-    "seen": 1795335268.7511141,
+    "seen": 1795336392.7450504,
     "ast_hash": "780b567c4c82a39e2ec65f4029c7c9ee",
-    "semantic_hash": ""
+    "semantic_hash": "780b567c4c82a39e2ec65f4029c7c9ee"
   },
   "ho-so-san-pham/nhan/02-037655_2.jpg": {
     "mtime": 1795055592.1778138,
-    "seen": 1795335268.7511153,
+    "seen": 1795336392.7450664,
     "ast_hash": "ef158fcbe39730e9411f9b3f778e3cdf",
-    "semantic_hash": ""
+    "semantic_hash": "ef158fcbe39730e9411f9b3f778e3cdf"
   },
   "ho-so-san-pham/nhan/02-037656_1.jpg": {
     "mtime": 1795055592.1778138,
-    "seen": 1795335268.7511163,
+    "seen": 1795336392.7450826,
     "ast_hash": "3f94380325437565261a2e3ed2951101",
-    "semantic_hash": ""
+    "semantic_hash": "3f94380325437565261a2e3ed2951101"
   },
   "ho-so-san-pham/nhan/02-037656_2.jpg": {
     "mtime": 1795055592.1818137,
-    "seen": 1795335268.7511172,
+    "seen": 1795336392.7450995,
     "ast_hash": "4fc1ecea6889f9298bcba2197a22dc6b",
-    "semantic_hash": ""
+    "semantic_hash": "4fc1ecea6889f9298bcba2197a22dc6b"
   },
   "ho-so-san-pham/nhan/02-037663_1.jpg": {
     "mtime": 1795055592.1818137,
-    "seen": 1795335268.7511182,
+    "seen": 1795336392.7451162,
     "ast_hash": "2fd862740c6150a56f4c6b3790008f2f",
-    "semantic_hash": ""
+    "semantic_hash": "2fd862740c6150a56f4c6b3790008f2f"
   },
   "ho-so-san-pham/nhan/02-037663_2.jpg": {
     "mtime": 1795055592.1818137,
-    "seen": 1795335268.7511191,
+    "seen": 1795336392.7451327,
     "ast_hash": "fd650294e6ac98a395245d1dccc5d63a",
-    "semantic_hash": ""
+    "semantic_hash": "fd650294e6ac98a395245d1dccc5d63a"
   },
   "ho-so-san-pham/nhan/02-038019_1.jpg": {
     "mtime": 1795055592.1858137,
-    "seen": 1795335268.75112,
+    "seen": 1795336392.745149,
     "ast_hash": "1b43c76fc30601f7e24c85408c16882e",
-    "semantic_hash": ""
+    "semantic_hash": "1b43c76fc30601f7e24c85408c16882e"
   },
   "ho-so-san-pham/nhan/02-039607_1.jpg": {
     "mtime": 1795055592.1858137,
-    "seen": 1795335268.751121,
+    "seen": 1795336392.7451653,
     "ast_hash": "ca09d4b32cab64511d0d1f8e727b82dd",
-    "semantic_hash": ""
+    "semantic_hash": "ca09d4b32cab64511d0d1f8e727b82dd"
   },
   "ho-so-san-pham/nhan/02-039607_2.jpg": {
     "mtime": 1795055592.1858137,
-    "seen": 1795335268.7511222,
+    "seen": 1795336392.7451818,
     "ast_hash": "00ac13fa75c1e4c63fbd22fdea6b48dc",
-    "semantic_hash": ""
+    "semantic_hash": "00ac13fa75c1e4c63fbd22fdea6b48dc"
   },
   "ho-so-san-pham/nhan/02-039607_3.jpg": {
     "mtime": 1795055592.1858137,
-    "seen": 1795335268.751123,
+    "seen": 1795336392.7451982,
     "ast_hash": "f90c9fe41e61783aa63ee0784daa4527",
-    "semantic_hash": ""
+    "semantic_hash": "f90c9fe41e61783aa63ee0784daa4527"
   },
   "ho-so-san-pham/nhan/02-039607_4.jpg": {
     "mtime": 1795055592.1858137,
-    "seen": 1795335268.751124,
+    "seen": 1795336392.745215,
     "ast_hash": "bf657035af00b4f49d588df04bf7763b",
-    "semantic_hash": ""
+    "semantic_hash": "bf657035af00b4f49d588df04bf7763b"
   },
   "ho-so-san-pham/nhan/02-063617_1.jpg": {
     "mtime": 1795055592.1898136,
-    "seen": 1795335268.751125,
+    "seen": 1795336392.7452328,
     "ast_hash": "920793b47ae336a46edd0e467dbec416",
-    "semantic_hash": ""
+    "semantic_hash": "920793b47ae336a46edd0e467dbec416"
   }
 }
