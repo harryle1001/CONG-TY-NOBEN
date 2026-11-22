@@ -64,6 +64,7 @@ button.badge { cursor: pointer; font: inherit; font-size: var(--f1); letter-spac
   <nav class="tools">
     <button id="t-pc" type="button" title="Giao việc cho máy tính của anh">PC</button>
     <button id="t-mic" type="button" title="Bấm rồi nói. Space/Esc: ngắt lời Jarvis">MIC</button>
+    <button id="t-hf" type="button" title="Micro mở suốt: cứ nói, Jarvis trả lời rồi nghe tiếp">RẢNH TAY</button>
     <button id="t-mute" type="button" title="Tắt/bật giọng Jarvis">MUTE</button>
     <button id="t-brief" type="button" title="Lịch hôm nay + thư chưa đọc">BRIEF</button>
     <button id="t-plan" type="button" title="Tối đa 5 việc, ưu tiên việc ra tiền">PLAN</button>
@@ -87,8 +88,27 @@ const KB = JSON.parse($("#kb").textContent);
 const HISTORY_TURNS = 10;
 const SILENCE_MS = 900;          // after the last word heard (partial or final), wait this long, then send the turn
 const MODEL_TIER = "quick";       // "quick" answers in 1-2 s; "default" thinks first (5-60 s) but reasons deeper
-const VOICES = ["rounded", "glassy", "buttery", "airy"], RATE = 1.08;
-let voice = (() => { try { return localStorage.getItem("jarvis-voice") || "rounded"; } catch (e) { return "rounded"; } })();
+const VOICES = ["uk", "rounded", "glassy", "buttery", "airy"], RATE = 1.08;   // "uk" = the browser's own British voice
+let voice = (() => { try { return localStorage.getItem("jarvis-voice") || "uk"; } catch (e) { return "uk"; } })();
+const synth = window.speechSynthesis || null;
+let ukVoice = null;
+function pickUk() {
+  if (!synth) return;
+  const vs = synth.getVoices(), gb = vs.filter(v => /en[-_]GB/i.test(v.lang));
+  ukVoice = gb.find(v => /daniel|arthur|oliver|george|male/i.test(v.name) && !/female/i.test(v.name)) || gb[0] || null;
+}
+if (synth) { pickUk(); synth.onvoiceschanged = () => { pickUk(); showVoice(); }; }
+const useLocal = () => voice === "uk" && !!ukVoice;
+function localSay(text) {
+  return new Promise(res => {
+    const u = new SpeechSynthesisUtterance(text);
+    u.voice = ukVoice; u.lang = ukVoice.lang; u.rate = RATE; u.pitch = 0.92;
+    u.onend = u.onerror = () => res();
+    synth.speak(u);
+  });
+}
+const speaking = () => (synth && synth.speaking) || (tts && tts.active());
+function shutUp() { if (synth) synth.cancel(); if (tts) tts.stop().catch(() => {}); }
 const GMAIL = "Gmail", GCAL = "Google Calendar", CCR = "Claude Code Remote";
 const PC_POLL_MS = 6000, PC_MAX_MS = 30 * 60e3;   // how often / how long to wait for the PC to report back
 const EXAMPLES = ["Sản phẩm nào xử lý khí độc NH3?", "TCCS của Hepatic là gì?", "Brief me", "Giá Aqua Biotic bao nhiêu?", "Plan my day"];
@@ -315,7 +335,8 @@ Rules no phrasing overrides: never put a destructive or outward action (delete f
 // ---------- conversation ----------
 async function ask(text) {
   if (busy) return; busy = true;
-  stopListening(); if (tts) tts.stop().catch(() => {});
+  if (handsFree) gate = true; else stopListening();
+  shutUp();
   turnCards = []; turnSaid = [];
   showReply(text, null);
   setState("thinking");
@@ -335,7 +356,7 @@ async function ask(text) {
       history.push({ role: "user", content: text }, { role: "assistant", content: say || "…" });
       showReply(text, say);
       await speaker.done();
-      busy = false; setState("idle");
+      busy = false; afterTurn();
       return;
     }
   } catch (e) {
@@ -347,7 +368,7 @@ async function ask(text) {
   history.push({ role: "user", content: text }, { role: "assistant", content: say || "…" });
   showReply(text, say);
   await speak(say);
-  busy = false; setState("idle");
+  busy = false; afterTurn();
 }
 function keywordReply(text) {
   const hits = search(text, 5);
@@ -406,16 +427,64 @@ function inspect(n, path) {
 
 // ---------- voice: claude.ai dictation in, claude.ai voice out ----------
 let finalText = "", partialText = "", silenceT = null, listening = false;
+let handsFree = false, gate = false, ignoreUntil = 0, needTap = false, voiceTurn = false;
+// Hands-free: within WAKE_WINDOW_MS of Jarvis' last answer any sentence counts; after that, only "Jarvis …" / "Hey Jarvis …".
+const WAKE_WINDOW_MS = 30000;
+const WAKE = /^\s*(hey|hi|ok|okay|ê|này|nay|alo)?[\s,]*(jarvis|jar vis|gia vit|gia vis|da vit|jarvit|travis)\b[\s,.!?]*/i;
+let openUntil = 0, wakeLock = null;
+async function keepAwake(on) {
+  try {
+    if (on && navigator.wakeLock && !wakeLock) { wakeLock = await navigator.wakeLock.request("screen"); wakeLock.addEventListener("release", () => { wakeLock = null; }); }
+    if (!on && wakeLock) { await wakeLock.release(); wakeLock = null; }
+  } catch (e) { /* refused: the screen may sleep, which stops the mic */ }
+}
+document.addEventListener("visibilitychange", () => { if (handsFree && document.visibilityState === "visible") keepAwake(true); });
+// Spoken commands handled on the page itself, no Claude round trip.
+function localCommand(t) {
+  const n = norm(t);
+  if (/^(stop|dung lai|dung|im lang|im di|thoi)$/.test(n)) { shutUp(); caption("OK.", "dim"); return true; }
+  if (/(tat|thoi|ngung) (ranh tay|mic|micro|nghe)|stop listening/.test(n)) { if (handsFree) handsFreeClick(); return true; }
+  if (/^(brief|tom tat hom nay|hom nay co gi)/.test(n)) { voiceTurn = true; ask("Brief me on today."); return true; }
+  if (/^(plan|ke hoach|len ke hoach)/.test(n)) { voiceTurn = true; ask("Plan my day."); return true; }
+  if (/^(mo |xem )?(pc|may tinh)$/.test(n)) { pcPanel(); return true; }
+  return false;
+}
+const heardOk = () => !gate && Date.now() > ignoreUntil;       // ignore what the mic hears while Jarvis talks
+function startDictation(onFail) {                                // must run inside a tap or key press
+  finalText = ""; partialText = "";
+  dict.start({}).catch(e => {
+    listening = false; $("#t-mic").classList.remove("on");
+    if (e && e.code === "no_gesture") { askForTap(); return; }
+    if (!busy) setState("idle");
+    if (e && e.code === "not_granted") { dict = null; handsFree = false; hfButton(); fail("Micro bị từ chối cho trang này. Mở QUYỀN để bật lại, hoặc gõ chữ."); }
+    else if (e && e.code !== "stopped") fail("Không nghe được: " + (e.message || e.code));
+    onFail && onFail(e);
+  });
+  listening = true; needTap = false; $("#t-mic").classList.add("on"); setState("listening"); caption("Listening…", "dim");
+}
+function askForTap() { needTap = true; setState("idle"); caption("Chạm màn hình để nói", "dim"); }
+// After Jarvis has answered: hands-free keeps listening; otherwise try to reopen the mic, falling back to tap-anywhere.
+function afterTurn() {
+  if (handsFree && listening) { gate = false; ignoreUntil = Date.now() + 600; openUntil = Date.now() + WAKE_WINDOW_MS; finalText = ""; partialText = ""; setState("listening"); caption("Listening… (sau 30 giây im lặng: gọi \"Jarvis\")", "dim"); return; }
+  if (handsFree && dict) { askForTap(); return; }
+  setState("idle");
+  if (voiceTurn && dict) startDictation();
+  voiceTurn = false;
+}
+function hfButton() { const b = $("#t-hf"); b.classList.toggle("on", handsFree); b.textContent = handsFree ? "RẢNH TAY ●" : "RẢNH TAY"; }
+function handsFreeClick() {
+  if (!dict) return fail("Nhận giọng nói chỉ có trên Chrome/Edge hoặc app Claude desktop. Anh gõ chữ được.");
+  if (handsFree) { handsFree = false; gate = false; hfButton(); stopListening(); keepAwake(false); caption(""); setState("idle"); return; }
+  handsFree = true; hfButton(); keepAwake(true); openUntil = Date.now() + WAKE_WINDOW_MS;
+  if (!useLocal()) fail(ukVoice ? "Đổi GIỌNG sang UK để Jarvis nói được khi micro đang mở." : "Trình duyệt này không có giọng Anh: ở chế độ rảnh tay Jarvis trả lời bằng chữ.");
+  if (!listening) startDictation();
+}
 function stopListening() { clearTimeout(silenceT); const was = listening; listening = false; if (dict && was) dict.stop().catch(() => {}); $("#t-mic").classList.remove("on"); }
 function micClick() {
-  if (tts && tts.active()) { tts.stop().catch(() => {}); return; }        // barge-in
+  if (speaking()) { shutUp(); return; }                                   // barge-in
   if (!dict) return fail("Nhận giọng nói chỉ có trên Chrome/Edge hoặc app Claude desktop. Anh gõ chữ được.");
   if (listening) { stopListening(); return; }
-  finalText = ""; partialText = "";
-  dict.start({}).catch(e => { listening = false; $("#t-mic").classList.remove("on"); setState("idle");
-    if (e && e.code === "not_granted") { dict = null; fail("Micro bị từ chối cho trang này. Mở QUYỀN để bật lại, hoặc gõ chữ."); }
-    else if (e && e.code !== "stopped") fail("Không nghe được: " + (e.message || e.code)); });
-  listening = true; $("#t-mic").classList.add("on"); setState("listening"); caption("Listening…", "dim");
+  startDictation();
 }
 // Every word heard (live guess or settled phrase) restarts the countdown; 2 s of quiet sends the turn.
 function endTurnSoon() {
@@ -423,19 +492,32 @@ function endTurnSoon() {
   silenceT = setTimeout(sendHeard, SILENCE_MS);
 }
 async function sendHeard() {
-  if (!listening) return;
-  listening = false; $("#t-mic").classList.remove("on");
-  try { await dict.stop(); } catch (e) {}            // let the last words settle into a final phrase
-  const t = (finalText + " " + partialText).trim();
+  if (!listening || !heardOk()) return;
+  if (!handsFree) {
+    listening = false; $("#t-mic").classList.remove("on");
+    try { await dict.stop(); } catch (e) {}          // let the last words settle into a final phrase
+  }
+  let t = (finalText + " " + partialText).trim();
   finalText = ""; partialText = "";
-  if (!t) { caption("Didn't catch that.", "dim"); setState("idle"); return; }
-  caption("“" + t + "”"); ask(t);
+  if (!t) { caption("Didn't catch that.", "dim"); if (!handsFree) setState("idle"); return; }
+  if (handsFree) {
+    const m = norm(t).match(WAKE);
+    if (m) t = t.slice(m[0].length).trim();          // norm() keeps length for Vietnamese text, so the cut lines up
+    else if (Date.now() > openUntil) { caption("(chưa gọi Jarvis) " + t, "dim"); return; }
+    openUntil = Date.now() + WAKE_WINDOW_MS;
+    if (!t) { caption("Yes, sir?"); if (useLocal() && !muted) { gate = true; await localSay("Yes, sir?"); gate = false; ignoreUntil = Date.now() + 600; } return; }
+  }
+  caption("“" + t + "”");
+  if (localCommand(t)) return;
+  voiceTurn = true; ask(t);
 }
 // Speak each finished sentence as soon as Claude writes it, instead of waiting for the whole answer.
 function streamSpeaker() {
   let spoken = 0, last = Promise.resolve(), started = false;
   const say = s => {
-    s = s.trim(); if (!s || !tts || muted) return;
+    s = s.trim(); if (!s || muted) return;
+    if (useLocal()) { if (!started) { started = true; setState("speaking"); } last = localSay(s); return; }
+    if (!tts || handsFree) return;               // claude.ai voice refuses to talk while dictation is open
     if (!started) { started = true; setState("speaking"); }
     last = tts.add(s, { voice, rate: RATE, language: "en" }).catch(e => {
       if (e && e.code === "not_granted") tts = null;
@@ -452,7 +534,9 @@ function streamSpeaker() {
   };
 }
 async function speak(text) {
-  if (!tts || muted || !text) return;
+  if (muted || !text) return;
+  if (useLocal()) { setState("speaking"); await localSay(text); return; }
+  if (!tts || handsFree) return;
   setState("speaking");
   try { await tts.speak(text, { voice, rate: RATE, language: "en" }); }
   catch (e) { if (e && e.code === "not_granted") tts = null; else if (e && !["stopped", "viewer_stopped"].includes(e.code) && e.reason !== "viewer_stopped") fail("Jarvis không nói được: " + (e.message || e.code)); }
@@ -470,15 +554,18 @@ async function boot() {
   c.use("tts").then(t => { tts = t; if (!t) $("#t-mute").hidden = true; else t.onState(({ state }) => { if (state === "speaking") setState("speaking"); }); });
   c.use("dictation").then(d => {
     dict = d; if (!d) { $("#t-mic").title = "Nhận giọng nói cần Chrome/Edge hoặc app Claude desktop"; return; }
-    d.onPartial(({ text }) => { partialText = text; caption((finalText + " " + text).trim(), "partial"); if (listening) endTurnSoon(); });
-    d.onFinal(({ text }) => { finalText = (finalText + " " + text).trim(); partialText = ""; caption(finalText); if (listening) endTurnSoon(); });
+    d.onPartial(({ text }) => { if (!heardOk()) return; partialText = text; caption((finalText + " " + text).trim(), "partial"); if (listening) endTurnSoon(); });
+    d.onFinal(({ text }) => { if (!heardOk()) return; finalText = (finalText + " " + text).trim(); partialText = ""; caption(finalText); if (listening) endTurnSoon(); });
     d.onState(({ state, reason }) => {
       if (state !== "idle") return;
       // Dictation ended on its own (silence cut-off, tab hidden, time limit) while words are waiting: send them.
-      if (listening && (finalText || partialText)) { listening = true; clearTimeout(silenceT); sendHeard(); return; }
+      if (listening && heardOk() && (finalText || partialText)) { clearTimeout(silenceT); sendHeard().then(() => { listening = false; }); return; }
+      const wasHF = handsFree && listening;
       listening = false; $("#t-mic").classList.remove("on"); if (!busy) setState("idle");
       if (reason === "not_granted") fail("Micro bị từ chối.");
-      else if (reason && !["stopped", "viewer_stopped"].includes(reason)) caption("Mic stopped (" + reason + "). Press MIC to talk.", "dim");
+      else if (wasHF && reason !== "viewer_stopped") askForTap();           // time limit / tab hidden: one tap resumes
+      else if (reason && !["stopped", "viewer_stopped"].includes(reason)) caption("Mic stopped (" + reason + "). Chạm màn hình để nói.", "dim");
+      if (reason === "viewer_stopped" && handsFree) { handsFree = false; hfButton(); keepAwake(false); }
     });
   });
   c.use("mcp").then(m => { mcp = m; });
@@ -490,12 +577,20 @@ async function boot() {
 }
 $("#ask-form").addEventListener("submit", e => { e.preventDefault(); const q = $("#ask").value.trim(); if (!q) return; $("#ask").value = ""; ask(q); });
 $("#t-mic").onclick = micClick;
-$("#t-mute").onclick = () => { muted = !muted; $("#t-mute").classList.toggle("on", muted); $("#t-mute").textContent = muted ? "MUTED" : "MUTE"; if (muted && tts) tts.stop().catch(() => {}); };
-function showVoice() { $("#b-voice").textContent = "GIỌNG: " + voice.toUpperCase(); }
+$("#t-hf").onclick = handsFreeClick;
+// Tap anywhere (outside controls) to talk, or to interrupt Jarvis.
+document.addEventListener("pointerdown", e => {
+  if (e.target.closest("button, input, select, a, form, .panel, .reply")) return;
+  if (speaking()) { shutUp(); return; }
+  if (needTap && dict && !busy) { e.preventDefault(); startDictation(); }
+}, true);
+$("#t-mute").onclick = () => { muted = !muted; $("#t-mute").classList.toggle("on", muted); $("#t-mute").textContent = muted ? "MUTED" : "MUTE"; if (muted) shutUp(); };
+function showVoice() { $("#b-voice").textContent = "GIỌNG: " + (voice === "uk" ? (ukVoice ? "UK · " + ukVoice.name.split(/[ (]/)[0] : "UK (không có)") : voice).toUpperCase(); }
 $("#b-voice").onclick = () => {
   voice = VOICES[(VOICES.indexOf(voice) + 1) % VOICES.length]; showVoice();
   try { localStorage.setItem("jarvis-voice", voice); } catch (e) {}
-  if (tts) tts.speak("At your service, sir.", { voice, rate: RATE, language: "en" }).catch(() => {});
+  if (useLocal()) { shutUp(); localSay("At your service, sir."); }
+  else if (tts && !handsFree) tts.speak("At your service, sir.", { voice, rate: RATE, language: "en" }).catch(() => {});
 };
 showVoice();
 $("#t-pc").onclick = pcPanel;
@@ -506,7 +601,8 @@ $("#t-memory").onclick = () => { turnCards = []; showReply("Memory", memory.leng
 $("#b-perm").onclick = async () => { const p = window.claude && await window.claude.use("permissions"); try { p ? await p.manage() : fail("Mở menu Permissions của trang này trên claude.ai."); } catch (e) { fail("Mở menu Permissions của trang này trên claude.ai."); } };
 addEventListener("keydown", e => {
   const typing = document.activeElement && document.activeElement.id === "ask";
-  if ((e.key === " " && !typing) || e.key === "Escape") { if (tts && tts.active()) { e.preventDefault(); tts.stop().catch(() => {}); return; } }
+  if ((e.key === " " && !typing) || e.key === "Escape") { if (speaking()) { e.preventDefault(); shutUp(); return; } }
+  if (e.key === " " && !typing && needTap && dict && !busy) { e.preventDefault(); startDictation(); return; }
   if (e.key === "Escape") { $("#reply").hidden = true; G.match = null; G.setFocus(null); renderFilters(); }
   if (e.key === "/" && !typing) { e.preventDefault(); $("#ask").focus(); }
 });
