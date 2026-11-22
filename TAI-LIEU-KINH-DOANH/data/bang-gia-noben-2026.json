@@ -1,0 +1,140 @@
+{
+ "_ghi_chu": "Chép từ 7 ảnh bảng giá anh gửi 20/11/2026. Mỗi biến thể: [quy cách, đóng thùng, giá VNĐ]. 'kiem' = chỗ ảnh mờ/ô gộp, cần đối chiếu bản gốc.",
+ "bang": [
+  {"id": "A", "ten": "BẢNG GIÁ NOBEN 2026", "hieu_luc": "Áp dụng toàn quốc, có giá trị từ ngày 01/05/2026, thay thế các bảng giá trước đây",
+   "nhom": [
+    {"ten": "Nhóm chế phẩm sinh học", "sp": [
+     {"stt":1,"ten":"BZT","cd":"Men vi sinh USA, chuyên làm sạch nước, nhớt bạt, nhớt nước","v":[["Gói 227g","Thùng 30 gói",450000]]},
+     {"stt":2,"ten":"NB-BIOPOND","cd":"Men vi sinh chuyên dùng xử lý đáy ao, làm sạch đáy ao","v":[["Gói 454g","Thùng 20 gói",560000]]},
+     {"stt":3,"ten":"PRO ALGAE","cd":"Men vi sinh xử lý đáy đặc biệt, chuyên dùng xử lý đáy và khí độc đáy ao","v":[["Gói 227g","Xô 30 gói",350000]]},
+     {"stt":4,"ten":"AMYLAC","cd":"Men vi sinh chuyên dùng xử lý đáy ao, làm sạch đáy ao","v":[["Gói 227g","Xô 30 gói",300000]]},
+     {"stt":5,"ten":"PRAWNZYME","cd":"Vi sinh xử lý nước ao nuôi, làm sạch váng bọt, sạch nhớt nước, gia tăng oxy hòa tan","v":[["Gói 454g","Thùng 30 gói",370000]]},
+     {"stt":6,"ten":"BIO BOOK","phu":"Vi sinh cắt tảo","cd":"Vi sinh kết hợp enzyme cắt tảo xanh, tảo đỏ ao nuôi","v":[["Gói 277g","Xô 30 gói",400000]]},
+     {"stt":7,"ten":"PROZYME","cd":"Men vi sinh kết hợp enzyme, kích thích tiêu hóa, ngăn ngừa bệnh đường ruột cho tôm","v":[["Lon 500g","Thùng 24 lon",205000]]},
+     {"stt":8,"ten":"PROLAC","cd":"Men tiêu hóa cao cấp, hỗ trợ nong to đường ruột, ngăn ngừa phân trắng cho tôm","v":[["Gói 500g","Thùng 30 gói",280000]]},
+     {"stt":9,"ten":"BZ 99","cd":"Men tiêu hóa dạng dung dịch, kích thích tiêu hóa, nong to đường ruột, phòng ngừa phân trắng","v":[["Chai 500ml","Thùng 30 chai",235000]]},
+     {"stt":10,"ten":"ROVAZYME","cd":"Vi sinh xử lý khí độc ao nuôi, đặc trị khí NO2, NH3, H2S, giải độc nguồn nước","v":[["Gói 500g","Thùng 30 gói",360000]]},
+     {"stt":11,"ten":"PROBITIC BEST","phu":"E.M gốc","cd":"EM gốc và thứ cấp chuyên dùng xử lý đáy ao, phân hủy và giải độc các loại khí độc như NH3, NO2, H2S…","v":[["Can 5 lít","Thùng 4 can",910000]]},
+     {"stt":12,"ten":"YUCCA 99","cd":"Hấp thu khí độc, cấp cứu khi tôm nổi đầu","v":[["Chai 1 lít","Thùng 20 chai",450000]]}
+    ]},
+    {"ten": "Nhóm xử lý, diệt khuẩn", "sp": [
+     {"stt":13,"ten":"SUPER VIDAL","phu":"VIKON 99","cd":"Vikon 100%, diệt khuẩn, virus, nấm… gây bệnh cho tôm như: đen mang, phồng nắp mang, cụt râu, phân trắng, gan","v":[["Lon 1kg","Thùng 24 lon",650000]]},
+     {"stt":14,"ten":"IODINE 99","cd":"Diệt vi khuẩn, nấm, nguyên sinh động vật ao nuôi","v":[["Chai 1 lít","Thùng 15 chai",400000]]},
+     {"stt":15,"ten":"BENMER","cd":"Hoạt chất BRONOPOL đậm đặc diệt nấm, protozoa… gây hại cho tôm","v":[["Chai 1 lít","Thùng 20 chai",650000]]},
+     {"stt":16,"ten":"BENXID 300","cd":"Diệt ký sinh trùng gây bệnh teo gan, sưng gan, phân trắng, trống đường ruột. Phòng và trị đốm đen, hoại tử…","v":[["Chai 1 lít","Thùng 20 chai",400000]]},
+     {"stt":17,"ten":"BEN BKC 80","cd":"Sát trùng nguồn nước, ổn định mật độ tảo","v":[["Can 2 lít","Thùng 8 can",885000]]},
+     {"stt":21,"ten":"NB-MIX 500 NEW","cd":"Khoáng trị cong thân đục cơ, mềm vỏ, khó lột","v":[["Gói 5kg","Thùng 5 gói",400000],["Bao 10kg","Bao 10kg",680000]]},
+     {"stt":22,"ten":"PREMIX KHOÁNG NEW","cd":"Khoáng kích thích lột vỏ và cứng vỏ nhanh","v":[["Gói 5kg","Thùng 5 gói",320000],["Bao 10kg","Bao 10kg",580000]],"kiem":true},
+     {"stt":23,"ten":"MRIRAL N.08","cd":"Khoáng nâng kiềm – tăng độ mặn","v":[["Bao 10kg","Bao 10kg",430000]],"kiem":true},
+     {"stt":24,"ten":"DOWNMAX NEW","cd":"Hạ phèn, khử phèn nước, trị phèn dính chân dính mang tôm, cắt phèn nhanh","v":[["Gói 2kg","Thùng 15 gói",400000]]},
+     {"stt":25,"ten":"NB C SORMIN NEW","cd":"Chống sốc, giảm stress cho tôm, chống kéo đàn","v":[["Gói 2kg","Thùng 15 gói",400000]]},
+     {"stt":26,"ten":"NOTOXIN","cd":"Làm sạch nước, sạch váng bọt. Trị phát sáng do tảo độc gây ra","v":[["Can 5 lít","Thùng 4 can",400000]]},
+     {"stt":27,"ten":"BLUE MAX","cd":"Gây màu nước nhanh chóng cho những ao nuôi khó gây màu hoặc mất màu đột ngột. Rất quan trọng cho ao bạt","v":[["Gói 250g","Thùng 50 gói",380000]]},
+     {"stt":29,"ten":"EDTA 99","cd":"Hấp thụ độc tố, giải độc nước, giải độc kim loại, giải độc thuốc trừ sâu, hóa chất","v":[["Gói 3kg","Thùng 10 gói",295000]]},
+     {"stt":30,"ten":"DOWNMAX","phu":"Gây màu nâu","cd":"Gây màu nước nhanh chóng cho những ao nuôi khó gây màu hoặc mất màu đột ngột. 250g/3.000m³","v":[["Gói 250g","Thùng 50 gói",400000]]}
+    ]},
+    {"ten": "Nhóm thảo dược từ tự nhiên", "sp": [
+     {"stt":31,"ten":"SORBEST","phu":"Thảo dược","cd":"Thảo dược phòng và trị bệnh gan, chết tấp mé, chết sớm, chết rải rác","v":[["Gói 500g","Thùng 30 gói",500000]]},
+     {"stt":32,"ten":"ANTILIV","phu":"Gan tạt","cd":"Thảo dược tạt xuống ao phòng và trị bệnh gan, chết tấp mé…","v":[["Chai 1 lít","Thùng 20 chai",315000]]},
+     {"stt":33,"ten":"G7 – THẢO DƯỢC","cd":"Thảo dược dạng dung dịch phòng và trị bệnh gan cho tôm (trắng gan, đỏ gan, gan chuyển màu)","v":[["Chai 1 lít","Thùng 20 chai",520000]]},
+     {"stt":34,"ten":"HEPALIVER FS","cd":"Thảo dược xổ nội ngoại ký sinh trùng cho tôm, phòng ngừa bệnh hoại tử gan, phân trắng, trống đường ruột, tắc ruột","v":[["Chai 250ml","Thùng 20 chai",520000]]}
+    ]},
+    {"ten": "Nhóm dinh dưỡng hỗ trợ điều trị", "sp": [
+     {"stt":35,"ten":"BETA 1.3 – 1.6 GLUCAN","cd":"Tăng sức đề kháng, tăng khả năng phòng chống bệnh tật cho tôm, ngừa chết sớm","v":[["Gói 1kg","Thùng 20 gói",340000],["Lon 500g","Thùng 24 lon",185000]]},
+     {"stt":36,"ten":"CAPHOTE","cd":"Khoáng ăn cao cấp, kích thích lột vỏ, chắc thịt, nặng ký, màu sắc bóng đẹp tự nhiên","v":[["Chai 1 lít","Thùng 20 chai",340000]]},
+     {"stt":37,"ten":"TOPWEIGH","cd":"Vitamin tổng hợp, giúp tôm ăn nhiều, hấp thụ thức ăn nhanh, lớn nhanh, phòng ngừa bệnh","v":[["Gói 500g","Thùng 30 gói",290000]]},
+     {"stt":38,"ten":"ROCAPHOS","cd":"Khoáng tạt và cho ăn dạng dung dịch dễ hấp thụ, giúp tôm lột vỏ và cứng vỏ nhanh, chắc thịt, nặng ký","v":[["Can 5 lít","Thùng 4 can",650000]]}
+    ]}
+   ]},
+  {"id": "T", "ten": "BẢNG GIÁ TÔM (BẢNG 02-03)", "hieu_luc": "Có hiệu lực từ ngày 01/05/2026, thay thế các bảng giá khác trước đây",
+   "nhom": [
+    {"ten": "Nhóm chế phẩm sinh học", "sp": [
+     {"stt":1,"ten":"BZT","phu":"Xử lý đáy","cd":"Vi sinh xử lý đáy ao cực mạnh, giải quyết nhanh tình trạng ô nhiễm ở đáy ao","v":[["Gói 227g","Xô 24 gói",480000]]},
+     {"stt":2,"ten":"ROVABIO AP","phu":"Cắt tảo","cd":"Enzym đậm đặc thế hệ mới, cắt tảo đỏ, tảo xanh (lục) cực mạnh 200g/2.000m³","v":[["Gói 200g","Xô 24 gói",425000]]},
+     {"stt":3,"ten":"BZT – CẮT TẢO","cd":"Enzym đậm đặc thế hệ mới, cắt tảo đỏ, tảo xanh (lục) cực mạnh 200g/2.000m³","v":[["Gói 200g","Xô 24 gói",425000]]},
+     {"stt":4,"ten":"PRAWZYME","phu":"Cắt tảo","cd":"Enzym đậm đặc thế hệ mới, cắt tảo đỏ, tảo xanh (lục) cực mạnh 200g/2.000m³","v":[["Gói 200g","Xô 24 gói",425000]]},
+     {"stt":5,"ten":"AQUABAC","phu":"Waste Digester","cd":"Chuyên gia xử lý đáy ao, giải quyết nhanh tình trạng ô nhiễm đáy ao, soi tim đáy ao","v":[["Gói 227g","Thùng 20 gói",400000]]},
+     {"stt":6,"ten":"AQUABAC","phu":"Water Treatment","cd":"Vi sinh xử lý nước, làm sạch nước, gia tăng oxy hòa tan, quản lý tảo ao nuôi","v":[["Gói 454g","Thùng 15 gói",545000]]},
+     {"stt":7,"ten":"NH3 – ROVAZYME","cd":"Men vi sinh dòng Nitro: phân hủy và hấp thụ khí NH3, NO2, H2S, giảm tảo, làm trong nước","v":[["Gói 500g","Thùng 30 gói",385000]]},
+     {"stt":8,"ten":"SUPER BIOCA","cd":"Chuyên gia xử lý khí độc, cấp cứu nổi đầu do khí độc","v":[["Hộp 500ml","Thùng 30 hộp",380000]]},
+     {"stt":9,"ten":"SUPER YUCCA","cd":"Hấp thu khí độc, cấp cứu khi tôm nổi đầu, làm sạch nước, sạch đáy ao","v":[["Chai 1 lít","Thùng 20 chai",450000]]},
+     {"stt":10,"ten":"PRAWZYME","phu":"Xử lý đáy","cd":"Chuyên gia xử lý đáy ao, giải quyết nhanh tình trạng ô nhiễm đáy ao, soi tim đáy ao","v":[["Gói 227g","Xô 24 gói",385000]]},
+     {"stt":13,"ten":"AQUALACTO-Q","cd":"Men tiêu hóa cao cấp, nong to đường ruột, ngăn ngừa phân trắng hiệu quả","v":[["Hũ 454g","Thùng 15 hũ",325000]]},
+     {"stt":14,"ten":"BZ-99","cd":"Men tiêu hóa cao cấp dạng nước, ngăn ngừa bệnh gan, phân trắng","v":[["Chai 1 lít","Thùng 20 chai",315000]]}
+    ]},
+    {"ten": "Nhóm dinh dưỡng – khoáng chất – hỗ trợ trị bệnh", "sp": [
+     {"stt":16,"ten":"TOP WEIGH","cd":"Đạm + Acid amin + Vitamin + Khoáng chất: siêu tăng trọng, rút ngắn thời gian nuôi","v":[["Hũ 454g","Thùng 15 hũ",385000]]},
+     {"stt":17,"ten":"AMINOVIT","cd":"Đạm + Acid amin + Vitamin + Khoáng chất: siêu tăng trọng, chống còi, tỷ lệ đồng đều cao","v":[["Chai 1 lít","Thùng 20 chai",360000]]},
+     {"stt":18,"ten":"HEPATIC – Shrimp","cd":"Bổ gan, phòng chống teo gan, sưng gan, vàng gan","v":[["Chai 1 lít","Thùng 20 chai",360000]]},
+     {"stt":19,"ten":"HUFA – Shrimp","cd":"HUFA siêu tăng trọng, tăng sức đề kháng, phòng bệnh chết sớm","v":[["Chai 1 lít","Thùng 20 chai",550000]]},
+     {"stt":20,"ten":"AMINO VIT NEW","phu":"Nhập khẩu từ TBN","cd":"Hỗn dịch acid amin, vitamin và khoáng chất, đặc trị bệnh cong thân, mềm vỏ trên tôm thẻ","v":[["Chai 1 lít","Thùng 20 chai",850000]]},
+     {"stt":21,"ten":"ANTILIV","cd":"Thảo dược, vi sinh vật phòng ngừa đặc trị gan, phân trắng trên tôm","v":[["Chai 500ml","Thùng 30 chai",340000],["Chai 1 lít","Thùng 20 chai",580000]]},
+     {"stt":22,"ten":"PRAZI – S","cd":"Đặc trị ký sinh trùng gây bệnh gan, phân trắng, trống đường ruột trên tôm","v":[["Chai 250ml","Thùng 20 chai",520000]]},
+     {"stt":23,"ten":"NB CLEAR FOR FISH","cd":"Đặc trị ký sinh trùng gây bệnh gan, phân trắng, trống đường ruột","v":[["Lon 500g","Thùng 24 lon",750000]],"kiem":true},
+     {"stt":24,"ten":"LIVER MAX","cd":"Phòng teo gan, sưng gan, hoại tử gan, vàng gan","v":[["Chai 1 lít","Thùng 20 chai",340000]]},
+     {"stt":25,"ten":"DAVICID – liquid","cd":"Acid hữu cơ đậm đặc giúp phòng ngừa và kết hợp điều trị bệnh gan, phân trắng trên tôm","v":[["Chai 500ml","Thùng 30 chai",450000]]},
+     {"stt":26,"ten":"CAPHOTE","phu":"Thailand","cd":"Khoáng siêu cứng vỏ, cứng vỏ nhanh để thu hoạch, phòng chống đục cơ, co cơ","v":[["Chai 1 lít","Thùng 12 chai",500000]]},
+     {"stt":27,"ten":"ROCAPHOS (new)","phu":"NL Pháp","cd":"Bổ sung khoáng vi, đa lượng giúp tôm cứng vỏ nhanh, chắc thịt, nặng ký, phòng ngừa cong thân, đục cơ. Cho ăn hoặc tạt trực tiếp xuống ao","v":[["Chai 1 lít","Thùng 20 chai",300000],["Can 5 lít","Thùng 4 can",1035000]]},
+     {"stt":28,"ten":"DOWNMAX","phu":"Hạ phèn","cd":"Hạ phèn, đặc trị phèn dính chân, mang tôm. Khử kim loại nặng","v":[["Gói 500g","Thùng 30 gói",240000]]},
+     {"stt":29,"ten":"NB-MIX 5000","phu":"Khoáng nóng","cd":"Khoáng trị cong thân đục cơ, mềm vỏ, vỏ xanh da trời, mềm vỏ khó lột","v":[["Gói 5kg","Thùng 5 gói",440000]]}
+    ]},
+    {"ten": "Nhóm hóa chất xử lý môi trường", "sp": [
+     {"stt":30,"ten":"SUPER CUT ALGAE","cd":"Diệt ngay các loại tảo độc, tảo lam, tảo sợi: 100g/3.000m³ nước","v":[["Gói 200g","Thùng 50 gói",265000]]},
+     {"stt":31,"ten":"BEN COPPER 500","cd":"Diệt ngay các loại tảo độc, tảo lam, tảo sợi: 500ml/5.000m³ nước","v":[["Chai 500ml","Thùng 30 chai",550000]]},
+     {"stt":32,"ten":"IODINE 99","cd":"Diệt ngay các loại nấm, vi khuẩn gây bệnh: đen mang, vàng mang, cụt râu, hoại tử phụ bộ","v":[["Chai 1 lít","Thùng 15 chai",400000]]},
+     {"stt":33,"ten":"BEN XID 3000","cd":"Đặc trị phát sáng, đen mang, vàng mang, cụt râu, đóng rong nhớt, đóng khói đèn","v":[["Chai 1 lít","Thùng 20 chai",400000]]},
+     {"stt":34,"ten":"SUPER GOLD","cd":"Đặc trị phát sáng, đen mang, vàng mang, cụt râu, đóng rong nhớt, đóng khói đèn, hoại tử phụ bộ","v":[["Chai 500ml","Thùng 30 chai",400000]]},
+     {"stt":35,"ten":"SUPER VIDAL","cd":"Diệt sứa, trứng nước, tảo, chem chép, hai mảnh vỏ… 1kg/5.000m³","v":[["Gói 1kg","Thùng 20 gói",500000]],"kiem":true}
+    ]},
+    {"ten": "Nhóm mới – bổ sung hiệu quả cao cho tôm", "sp": [
+     {"stt":1,"ten":"SORBEST","cd":"Thảo dược phòng và trị bệnh gan, chết sớm, chết tấp mé, chết rải rác, bỏ ăn…","v":[["Gói 500g","Thùng 30 gói",500000]]},
+     {"stt":2,"ten":"BIOMOS","cd":"Thảo dược phòng và trị hiệu quả bệnh phân trắng sau 3 – 5 ngày","v":[["Gói 500g","Thùng 30 gói",500000]]},
+     {"stt":3,"ten":"AQUABIOTIC","cd":"Men tiêu hóa cao cấp, đậm đặc phòng và trị phân trắng cho tôm","v":[["Chai 1 lít","Thùng 20 chai",750000]]},
+     {"stt":4,"ten":"PRAWZYME","phu":"Vi sinh đáy và nước","cd":"Chuyên gia xử lý đáy và nước ao nuôi, giải quyết nhanh tình trạng ô nhiễm đáy ao, soi tim đáy ao","v":[["Gói 454g","Thùng 30 gói",430000]]},
+     {"stt":5,"ten":"NB-C SORMIN NEW","cd":"Chống sốc cho tôm, giảm căng thẳng, giảm stress, chống kéo đàn, lội mé","v":[["Gói 2kg","Thùng 10 gói",485000]]},
+     {"stt":6,"ten":"PROZYME","phu":"Men tiêu hóa","cd":"Men tiêu hóa kết hợp enzyme hỗ trợ tiêu hóa và phòng ngừa bệnh phân trắng, trống đường ruột","v":[["Lon 500g","Thùng 24 lon",250000]]}
+    ]}
+   ]},
+  {"id": "B", "ten": "BẢNG BÁO GIÁ 2026 – NOBEN (B)", "hieu_luc": "Có hiệu lực từ ngày 01/05/2026, áp dụng cho toàn quốc",
+   "nhom": [
+    {"ten": "Dinh dưỡng dạng dung dịch", "sp": [
+     {"stt":1,"ten":"AMINOVIT","phu":"Super Pro","cd":"Tăng trọng nhanh, vỏ tôm đẹp, chống bệnh tôm màu xanh, bao bọc thức ăn, tăng tỷ lệ sống","v":[["Chai 1kg","20 chai/thùng",220000],["Xô 2,5kg","6 xô/thùng",465000]]},
+     {"stt":2,"ten":"ROCAPHOS","cd":"Kích thích lột vỏ – vỏ bóng đẹp – cứng vỏ nhanh","v":[["Chai 1 lít","20 chai/thùng",210000]]},
+     {"stt":3,"ten":"BENCOM","cd":"Đạm dịch cá thủy phân: kích thích bắt mồi, tăng trưởng nhanh, rút ngắn thời gian nuôi. Bao bọc thức ăn","v":[["Chai 1 lít","20 chai/thùng",220000],["Xô 3kg","6 xô/thùng",540000]]},
+     {"stt":4,"ten":"NB-HELVIROL B12","cd":"Bổ gan, phòng bệnh teo gan, hoại tử gan… Kích thích tôm ăn nhiều, mau lớn","v":[["Chai 1 lít","20 chai/thùng",265000]]},
+     {"stt":5,"ten":"HEPALIV – FS","cd":"Bổ gan, phòng bệnh teo gan, hoại tử gan do vi khuẩn, virus gây ra","v":[["Chai 1 lít","20 chai/thùng",320000]]},
+     {"stt":6,"ten":"BIOBETS TÔM","cd":"Men tiêu hóa – ngừa bệnh phân trắng, lỏng ruột","v":[["Lon 1kg","15 lon/thùng",190000]]},
+     {"stt":7,"ten":"BIO AQ","cd":"Men tiêu hóa cao cấp, ngăn ngừa bệnh phân trắng, phân đứt khúc. Giảm tối đa hệ số FCR","v":[["Lon 500g","24 lon/thùng",220000]]},
+     {"stt":8,"ten":"NB-SORBITOL B12 SHRIMP","cd":"Lợi mật, bổ gan, mau lớn – phòng chống bệnh teo gan, hoại tử gan","v":[["Gói 1kg","20 gói/thùng",200000]]},
+     {"stt":9,"ten":"AP – 79","cd":"Men ngăn ngừa phân trắng, tăng trọng nhanh","v":[["Lon 500g","15 lon/thùng",295000]]},
+     {"stt":10,"ten":"HI – WEIGH","cd":"Tăng trọng nhanh, rút ngắn thời gian nuôi","v":[["Lon 500g","15 lon/thùng",320000]]},
+     {"stt":11,"ten":"AQUA C30%","cd":"Giảm stress, chống sốc, tăng đề kháng, giảm cong thân","v":[["Gói 1kg","20 gói/thùng",215000]]},
+     {"stt":12,"ten":"BETA 1.3-1.6 GLUCAN","cd":"Tăng hệ miễn dịch, phòng đốm trắng, đầu vàng","v":[["Gói 500g","30 gói/thùng",210000]]},
+     {"stt":13,"ten":"PREMIX KHOÁNG NEW","cd":"Bổ sung khoáng chất cần thiết cho quá trình tạo vỏ và giúp cứng vỏ nhanh. Giúp tôm chắc thịt, nặng ký, vỏ bóng đẹp","v":[["Gói 1kg","20 gói/thùng",46000],["Gói 3kg","10 gói/thùng",145000],["Xô 15kg","15 gói/xô",735000],["Gói 5kg","5 gói/thùng",220000],["Bao 10kg","Bao 10kg",335000]]},
+     {"stt":14,"ten":"NB-MIX 500 NEW","cd":"Bổ sung khoáng chất cần thiết cho quá trình tạo vỏ và giúp cứng vỏ nhanh. Giúp tôm chắc thịt, nặng ký, vỏ bóng đẹp","v":[["Gói 5kg","5 gói/thùng",245000],["Xô 15kg","15 gói/xô",765000],["Bao 10kg","Bao 10kg",385000]]},
+     {"stt":15,"ten":"C-MAX 25%","cd":"Vitamin C 25%, methionine… giảm sốc, giảm stress","v":[["Gói 1kg","20 gói/thùng",210000]]},
+     {"stt":16,"ten":"VITA C TẠT NEW","cd":"Vitamin C dùng để tạt chống sốc","v":[["Xô xá 5kg","Xô 5kg",265000]]}
+    ]},
+    {"ten": "Hóa chất xử lý môi trường", "sp": [
+     {"stt":17,"ten":"SUN BLUE","cd":"Tạo màu nước giả tảo nhanh chóng","v":[["Gói 250g","50 gói/thùng",310000]]},
+     {"stt":18,"ten":"SUPER VIDAL","cd":"Phòng và trị hiệu quả các bệnh: đen mang, vàng mang, cụt râu, mòn đuôi, hoại tử phụ bộ. Đặc biệt sát khuẩn tận đáy ao, hiệu quả cao","v":[["Lon 1kg","15 lon/thùng",265000]]},
+     {"stt":19,"ten":"SUPER CUT ALGA","cd":"Diệt tảo độc, tảo lam, tảo sợi…","v":[["Hũ 100g","48 hộp/thùng",135000]]},
+     {"stt":20,"ten":"OXY 99","phu":"Dạng viên","cd":"Cung cấp oxy tức thời cho tôm, cấp cứu nổi đầu","v":[["Xô xá 3kg","6 xô/thùng",275000],["Xô xá 4kg","Xô 4kg",365000],["Xô xá 5kg","Xô 5kg",455000]]},
+     {"stt":21,"ten":"OXY 99","phu":"Dạng hạt","cd":"Cung cấp oxy tức thời cho tôm, cấp cứu nổi đầu","v":[["Xô 3kg","6 xô/thùng",260000],["Xô 4kg","Xô 4kg",350000],["Xô 5kg","Xô 5kg",440000]]},
+     {"stt":22,"ten":"TĂNG KIỀM","cd":"Tăng kiềm nhanh chóng sau 1 – 2 giờ","v":[["Gói 3kg","10 gói/thùng",320000],["Gói 5kg","6 gói/thùng",450000]]},
+     {"stt":23,"ten":"BEN IQ","phu":"Iodine 90%","cd":"Diệt virus, khuẩn, nấm cực mạnh 1 lít/9.000m³ nước","v":[["Chai 1 lít","15 chai/thùng",395000]]},
+     {"stt":24,"ten":"SUPER GOLD (NEW)","cd":"Phòng và trị đen mang, vàng mang, đốm đen, hoại tử, KST trên tôm thẻ và tôm sú","v":[["Chai 500ml","20 chai/thùng",395000]]},
+     {"stt":25,"ten":"NOTOXIN","cd":"Khử kim loại nặng và độc tố do hóa chất gây ra…","v":[["Can 5 lít","4 can/thùng",230000],["Can 20 lít","Can 20 lít",720000]]},
+     {"stt":26,"ten":"BEN MKC 4000","cd":"Trị bệnh đóng khói đèn, đen mang, cụt râu, mòn đuôi, phát sáng, nhớt thân…","v":[["Can 2 lít","10 can/thùng",470000]]},
+     {"stt":27,"ten":"BEN BKC 80%","cd":"Diệt khuẩn, quản lý tảo","v":[["Chai 1 lít","20 chai/thùng",345000],["Can 2 lít","8 can/thùng",675000]]}
+    ]},
+    {"ten": "Chế phẩm sinh học xử lý môi trường", "sp": [
+     {"stt":28,"ten":"NB-BIOPOND","phu":"NL. U.S.A","cd":"Chuyên gia xử lý đáy ao, màu nước đẹp 227g/10.000m³","v":[["Gói 227g","20 gói/thùng",370000]]},
+     {"stt":29,"ten":"BAC POWER","phu":"NL. U.S.A","cd":"Tẩy sạch đáy, màu nước đẹp 227g/10.000m³","v":[["Gói 227g","30 gói/thùng",390000]]},
+     {"stt":30,"ten":"AQUABZ","phu":"Citybiozy","cd":"Men vi sinh tạo môi trường như hệ sinh thái, tạo thức ăn tự nhiên cho tôm","v":[["Xô 10kg","20 gói/thùng",1840000]]},
+     {"stt":31,"ten":"YUCCA VS ZEO NEW","cd":"Cấp cứu nổi đầu, làm sạch môi trường ao nuôi, hấp thụ nhanh khí độc","v":[["Xô 12kg","Xô 12kg",330000],["Xô 15kg","Xô 15kg",380000],["Bao 10kg","Bao 10kg",215000]]},
+     {"stt":32,"ten":"YUCCA VS ZEO NEW","phu":"Hạt","cd":"Cấp cứu nổi đầu, làm sạch môi trường ao nuôi, hấp thụ nhanh khí độc","v":[["Xô 15kg","Xô 15kg",400000],["Bao 10kg","Bao 10kg",245000]]}
+    ]}
+   ]}
+ ]
+}
