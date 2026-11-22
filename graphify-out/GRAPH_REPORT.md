@@ -1,15 +1,18 @@
 # Graph Report - CONG-TY-NOBEN  (2026-11-22)
 
 ## Corpus Check
-- cluster-only mode — file stats not available
+- 214 files · ~474,894 words
+- Verdict: corpus is large enough that graph structure adds value.
+- Unclassified: 145 file(s) not represented in the graph (top: .doc 121, .eml 7, (none) 4)
+- WARNING: 145 of 609 files seen (24%) have no supported extractor and are missing from this graph entirely. It may look complete while representing only part of the codebase.
 
 ## Summary
-- 1196 nodes · 1521 edges · 291 communities (67 shown, 224 thin omitted)
+- 1199 nodes · 1526 edges · 289 communities (67 shown, 222 thin omitted)
 - Extraction: 98% EXTRACTED · 2% INFERRED · 0% AMBIGUOUS · INFERRED: 30 edges (avg confidence: 0.88)
-- Token cost: 0 input · 0 output
+- Token cost: 2,248,943 input · 130,119 output
 
 ## Graph Freshness
-- Built from commit: `38808ee5`
+- Built from commit: `44147d98`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -25,7 +28,7 @@
 - AI Strategy Documentation
 - Graph Visualization Logic
 - System Process Control
-- Data Parsing Utilities
+- vault.py
 - google_auth.py
 - Aquaculture Feed Additives
 - SORBEST
@@ -34,15 +37,15 @@
 - Client Order Management
 - Farm Management Notes
 - BZ 99 (Bổ sung lợi khuẩn)
-- Agent Tooling Framework
+- llm.py
+- main.py
 - AI Standardization Framework
 - Farm Incident Reports
-- _gmail_body
-- google_source
+- voice.py
 - Jarvis Assistant Configuration
-- re
+- H
 - Hi-Weigh (Bổ sung đạm, vitamin, khoáng chất)
-- Demo Data Generation
+- pathlib
 - Liver Support Products
 - EDTA Product Specifications
 - Aminovit HUFA (Kết dính + Tăng trọng)
@@ -304,15 +307,15 @@
 - **Vitamin C & Anti-Stress Product Line** — ho_so_san_pham_nhan_02_028279_1_kia_c_tat, ho_so_san_pham_nhan_02_037652_1_yucca_c, ho_so_san_pham_nhan_02_037653_1_nb_c_sormin_new, ho_so_san_pham_nhan_02_037656_1_vita_c_tat_new [INFERRED 0.90]
 - **Disinfectant & Water Sanitation Product Line** — ho_so_san_pham_nhan_02_037651_1_benmer, ho_so_san_pham_nhan_02_038019_1_bronopol_99, ho_so_san_pham_nhan_02_039607_1_ben_bkc [INFERRED 0.90]
 
-## Communities (291 total, 224 thin omitted)
+## Communities (289 total, 222 thin omitted)
 
 ### Community 0 - "Document Processing Utilities"
 Cohesion: 0.06
-Nodes (30): bieu_mau(), cells(), dan_mau_luu(), dan_mau_luu_goc(), fill_rows(), full_width(), lenh_sx(), ptext() (+22 more)
+Nodes (28): bieu_mau(), cells(), dan_mau_luu(), dan_mau_luu_goc(), fill_rows(), full_width(), lenh_sx(), ptext() (+20 more)
 
 ### Community 1 - "TAI-LIEU-KINH-DOANH/build.py"
-Cohesion: 0.21
-Nodes (11): build_bang_gia(), build_excel(), build_noben(), build_tim(), img64(), key(), money(), price_block() (+3 more)
+Cohesion: 0.12
+Nodes (17): doi_gio(), f(), _slug(), write(), build_bang_gia(), build_excel(), build_noben(), build_tim() (+9 more)
 
 ### Community 2 - "Aquaculture Health Products"
 Cohesion: 0.04
@@ -323,8 +326,8 @@ Cohesion: 0.06
 Nodes (37): Hình ảnh bao bì ROVAZYME, Bảng Giá Noben 2026 (Bảng A), Bảng Báo Giá 2026 – Noben (B), Bảng Giá Tôm (Bảng 02-03), Sản phẩm BZT, Bảng Giá Noben 2026 (PDF), Sản phẩm EDTA 99, Document Bảng Giá Noben 2026 (+29 more)
 
 ### Community 4 - "Document Extraction Tools"
-Cohesion: 0.07
-Nodes (21): _cfb(), _clean(), _doc(), _docx(), extract(), _f(), inbox_dir(), iter_documents() (+13 more)
+Cohesion: 0.05
+Nodes (37): _b64text(), _cached(), calendar(), calendar_file(), _cfb(), _clean(), _doc(), _docx() (+29 more)
 
 ### Community 5 - "Educational Knowledge Base"
 Cohesion: 0.09
@@ -350,13 +353,13 @@ Nodes (3): colorOf(), Graph, TYPE_COLORS
 Cohesion: 0.09
 Nodes (12): { chromium }, fs, os, path, procs, ROOT, sleep(), { spawn } (+4 more)
 
-### Community 11 - "Data Parsing Utilities"
-Cohesion: 0.15
-Nodes (6): html_links(), mode(), read_raw(), norm(), type_of(), Vault
+### Community 11 - "vault.py"
+Cohesion: 0.07
+Nodes (12): html_links(), mode(), read_raw(), _card(), injected(), _short(), Tools, norm() (+4 more)
 
 ### Community 12 - "google_auth.py"
-Cohesion: 0.05
-Nodes (35): access_token(), callback(), _client(), configured(), _fail(), get_json(), GoogleError, _load() (+27 more)
+Cohesion: 0.21
+Nodes (13): access_token(), callback(), _client(), configured(), _fail(), get_json(), GoogleError, _load() (+5 more)
 
 ### Community 13 - "Aquaculture Feed Additives"
 Cohesion: 0.10
@@ -382,9 +385,9 @@ Nodes (11): Ghi chú 2026-09-01, Ghi chú 2026-10-08, Ghi chú 2026-11-17, Ghi c
 Cohesion: 0.14
 Nodes (10): Ghi chú 2026-10-13, Ghi chú 2026-10-24, Ghi chú 2026-11-19, Trại tôm Ba Lan, Đơn hàng, Đơn hàng, Đại lý Minh Phát, Tảo tàn (+2 more)
 
-### Community 20 - "Agent Tooling Framework"
-Cohesion: 0.13
-Nodes (13): _cached(), calendar(), calendar_file(), _gcal(), fetch(), _gmail_inbox(), fetch(), one() (+5 more)
+### Community 20 - "llm.py"
+Cohesion: 0.22
+Nodes (13): _anthropic(), chat(), _chat_anthropic(), _chat_gemini(), _dedupe(), _gemini(), model_name(), ModelError (+5 more)
 
 ### Community 22 - "AI Standardization Framework"
 Cohesion: 0.14
@@ -394,20 +397,20 @@ Nodes (8): Gói AI cho SME, Khung chuẩn hóa AI, Ghi chú 2026-09-16, Ghi chú
 Cohesion: 0.14
 Nodes (8): Ghi chú 2026-09-17, Ghi chú 2026-09-27, Ghi chú 2026-11-02, Ghi chú 2026-11-24, HTX Rạch Gốc, Đơn hàng, Đốm trắng, Lumen Oxy
 
-### Community 24 - "_gmail_body"
-Cohesion: 0.40
-Nodes (4): _b64text(), _gmail_body(), walk(), html_text()
+### Community 24 - "voice.py"
+Cohesion: 0.26
+Nodes (5): available(), listen(), _req(), speak(), VoiceError
 
 ### Community 26 - "Jarvis Assistant Configuration"
 Cohesion: 0.17
 Nodes (12): Bản online trên claude.ai, Chi phí, Chạy trong 1 phút, Cách dùng, Công tắc demo: dùng dữ liệu thật, Cấu trúc, Jarvis Pro Readme, Hồ sơ và bộ nhớ (+4 more)
 
-### Community 28 - "re"
-Cohesion: 0.12
-Nodes (9): all_facts(), _slug(), write(), load_prompt(), _short(), title_from(), title_of(), catalogue_items() (+1 more)
+### Community 28 - "H"
+Cohesion: 0.22
+Nodes (4): ask(), H, all_facts(), load_prompt()
 
-### Community 30 - "Demo Data Generation"
-Cohesion: 0.42
+### Community 30 - "pathlib"
+Cohesion: 0.11
 Nodes (4): fixtures(), links(), main(), w()
 
 ### Community 31 - "Liver Support Products"
@@ -580,24 +583,24 @@ Nodes (3): Product label 1 for YUCCA VS ZEO NEW, YUCCA VS ZEO NEW Product Concep
 
 ## Knowledge Gaps
 - **357 isolated node(s):** `Nhãn sản phẩm G7 (Mã tiếp nhận: 01-001531)`, `Nhãn sản phẩm Aqua Biotic (Mã tiếp nhận: 01-001540)`, `Product Label Image for ProticBest`, `Product Label Image for ROCAPHOS`, `Product Label Image for CALPHOTE` (+352 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 690 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
-- **224 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 692 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+- **222 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions
 _Questions this graph is uniquely positioned to answer:_
 
 - **Why does `Công ty TNHH No Ben (TS790020)` connect `Aquaculture Feed Additives` to `Aquaculture Product Pricing`, `SORBEST`, `BZ 99 (Bổ sung lợi khuẩn)`, `F.X-GLUBENCO Compliance`, `Hi-Weigh (Bổ sung đạm, vitamin, khoáng chất)`, `Liver Support Products`, `TOP-WEIGH (Protein & Mineral Growth Booster)`, `DAVI CID LIQUID (Organic Acid Gut & Disease Support)`, `Aminovit HUFA (Kết dính + Tăng trọng)`, `F.X Product Standards`, `Mineral Premix Products`, `HUFA Supplement Products`, `Amin Care Products`, `Glucan Supplement Products`, `NB-HELVIROL Liver Support`, `PROLAC Product Labels`, `AMIN CARE Labels`, `NB-MIX 5000 Minerals`, `G7 Liver Supplement Label`, `Aqua Biotic Probiotic Label`, `ProticBest Digestive Supplement Label`, `ROCAPHOS Mineral Supplement Label`, `CALPHOTE Shell Hardener Label`, `NB-SORBITOL Liver Support Label`, `BEN COM Protein Supplement Label`?**
-  _High betweenness centrality (0.010) - this node is a cross-community bridge._
+  _High betweenness centrality (0.012) - this node is a cross-community bridge._
 - **Are the 2 inferred relationships involving `Công ty TNHH No Ben (TS790020)` (e.g. with `Công ty Cổ phần Khoa học Sabio` and `Sở Nông nghiệp và Môi trường TP.HCM`) actually correct?**
   _`Công ty TNHH No Ben (TS790020)` has 2 INFERRED edges - model-reasoned connections that need verification._
 - **What connects `Nhãn sản phẩm G7 (Mã tiếp nhận: 01-001531)`, `Nhãn sản phẩm Aqua Biotic (Mã tiếp nhận: 01-001540)`, `Product Label Image for ProticBest` to the rest of the system?**
   _357 weakly-connected nodes found - possible documentation gaps or missing edges._
 - **Should `Document Processing Utilities` be split into smaller, more focused modules?**
-  _Cohesion score 0.06086956521739131 - nodes in this community are weakly interconnected._
-- **Why does `norm()` connect `Data Parsing Utilities` to `re`, `Agent Tooling Framework`?**
+  _Cohesion score 0.06265984654731457 - nodes in this community are weakly interconnected._
+- **Why does `H` connect `H` to `main.py`?**
   _High betweenness centrality (0.006) - this node is a cross-community bridge._
-- **Should `Aquaculture Health Products` be split into smaller, more focused modules?**
-  _Cohesion score 0.043478260869565216 - nodes in this community are weakly interconnected._
+- **Should `TAI-LIEU-KINH-DOANH/build.py` be split into smaller, more focused modules?**
+  _Cohesion score 0.11586452762923351 - nodes in this community are weakly interconnected._
 
 ### Low-confidence Hints
 _AMBIGUOUS edges — the extractor was unsure. Verify before acting on these._
