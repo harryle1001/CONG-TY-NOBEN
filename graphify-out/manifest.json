@@ -1,0 +1,214 @@
+{
+  "HO-SO-LO-FX/_build/build_hso.py": {
+    "mtime": 1795333714.537901,
+    "seen": 1795333892.158581,
+    "ast_hash": "a6bdc5955ec37b9dfcf1ab3322114969",
+    "semantic_hash": "a6bdc5955ec37b9dfcf1ab3322114969"
+  },
+  "HO-SO-LO-FX/_build/build_lsx.py": {
+    "mtime": 1795333714.5422552,
+    "seen": 1795333892.1586607,
+    "ast_hash": "5a737a5d0148ea6d9d75f10453b66df5",
+    "semantic_hash": "5a737a5d0148ea6d9d75f10453b66df5"
+  },
+  "HO-SO-LO-FX/_build/data.py": {
+    "mtime": 1795333714.5422552,
+    "seen": 1795333892.1586952,
+    "ast_hash": "66e95f0965e888abdfda134604c93b19",
+    "semantic_hash": "66e95f0965e888abdfda134604c93b19"
+  },
+  "HO-SO-LO-FX/_build/fixtpl.py": {
+    "mtime": 1795333714.5422552,
+    "seen": 1795333892.1587226,
+    "ast_hash": "263b97995f2aa8e98789b2da8de4d8e6",
+    "semantic_hash": "263b97995f2aa8e98789b2da8de4d8e6"
+  },
+  "TAI-LIEU-KINH-DOANH/build.py": {
+    "mtime": 1795333714.5660367,
+    "seen": 1795333892.1587918,
+    "ast_hash": "4aa1f9453389e51eb00647c409c58199",
+    "semantic_hash": "4aa1f9453389e51eb00647c409c58199"
+  },
+  "TAI-LIEU-KINH-DOANH/data/bang-gia-noben-2026.json": {
+    "mtime": 1795333714.5660367,
+    "seen": 1795333892.1588244,
+    "ast_hash": "34452820d30168a4a1f5a0825eb829bc",
+    "semantic_hash": "34452820d30168a4a1f5a0825eb829bc",
+    "ast_empty": true
+  },
+  "TAI-LIEU-KINH-DOANH/pdf.js": {
+    "mtime": 1795333714.5660367,
+    "seen": 1795333892.1588283,
+    "ast_hash": "2e4594fc1e83bc041ad38b18064dd716",
+    "semantic_hash": "2e4594fc1e83bc041ad38b18064dd716"
+  },
+  "TAI-LIEU-KINH-DOANH/tach-nen-tim.py": {
+    "mtime": 1795333714.5660367,
+    "seen": 1795333892.1588569,
+    "ast_hash": "891bb86ea1b6c6f16c5a182935966391",
+    "semantic_hash": "891bb86ea1b6c6f16c5a182935966391"
+  },
+  "ho-so-lo/_build/bm_moi_phieu.py": {
+    "mtime": 1795333714.6579192,
+    "seen": 1795333892.1588824,
+    "ast_hash": "ff4da8005c0114764fa26816d74e5d4d",
+    "semantic_hash": "ff4da8005c0114764fa26816d74e5d4d"
+  },
+  "ho-so-lo/_build/build_2109.py": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.1589117,
+    "ast_hash": "7ff35ec9c44ad5ab975521236a2f575c",
+    "semantic_hash": "7ff35ec9c44ad5ab975521236a2f575c"
+  },
+  "ho-so-lo/_build/compact.py": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.1589386,
+    "ast_hash": "62a31dd42b120bd816b350df6283a993",
+    "semantic_hash": "62a31dd42b120bd816b350df6283a993"
+  },
+  "ho-so-lo/_build/gop_bieu_mau.py": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.1589656,
+    "ast_hash": "6590a11b0263514a878103ecffe11e37",
+    "semantic_hash": "6590a11b0263514a878103ecffe11e37"
+  },
+  "ho-so-lo/_build/lam_bo_2109.sh": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.158992,
+    "ast_hash": "782410c21b5b574279aa42ef1ed3db5a",
+    "semantic_hash": "782410c21b5b574279aa42ef1ed3db5a"
+  },
+  "ho-so-lo/_build/mot_file.py": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.1590183,
+    "ast_hash": "68dbd4b8828f9dce4e681c227fc66357",
+    "semantic_hash": "68dbd4b8828f9dce4e681c227fc66357"
+  },
+  "ho-so-lo/_build/sua_hsl_2109.py": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.1590428,
+    "ast_hash": "7672c301ddb5412e145b05df1cb4bf53",
+    "semantic_hash": "7672c301ddb5412e145b05df1cb4bf53"
+  },
+  "ho-so-lo/_build/theo_mau_duyet.py": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.1590674,
+    "ast_hash": "cc50917a54d7dc94af0bf1d0e9f63305",
+    "semantic_hash": "cc50917a54d7dc94af0bf1d0e9f63305"
+  },
+  "ho-so-lo/_build/viet_thuong.py": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.1591017,
+    "ast_hash": "bc27c800a029334fddb996b40a421299",
+    "semantic_hash": "bc27c800a029334fddb996b40a421299"
+  },
+  "ho-so-lo/_build/xuat_rieng_2109.sh": {
+    "mtime": 1795333714.6594398,
+    "seen": 1795333892.1591265,
+    "ast_hash": "6081b465242b22aa7bc912a3896f8338",
+    "semantic_hash": "6081b465242b22aa7bc912a3896f8338"
+  },
+  "ho-so-san-pham/build.py": {
+    "mtime": 1795055592.0609813,
+    "seen": 1795333892.1591516,
+    "ast_hash": "d363e366af472601a7c4c5ef8a97ce6a",
+    "semantic_hash": "d363e366af472601a7c4c5ef8a97ce6a"
+  },
+  "ho-so-san-pham/data.json": {
+    "mtime": 1795055592.0609813,
+    "seen": 1795333892.159176,
+    "ast_hash": "ef5398fb7e0e7691c5a1913ade2f427b",
+    "semantic_hash": "ef5398fb7e0e7691c5a1913ade2f427b",
+    "ast_empty": true
+  },
+  "jarvis-pro/agent/data.py": {
+    "mtime": 1795055592.1937094,
+    "seen": 1795333892.1591787,
+    "ast_hash": "1e5a3d4a05f078c99c091f71e1748082",
+    "semantic_hash": "1e5a3d4a05f078c99c091f71e1748082"
+  },
+  "jarvis-pro/agent/google_auth.py": {
+    "mtime": 1795055592.1939778,
+    "seen": 1795333892.1592064,
+    "ast_hash": "c3b5f1043afa2cc88fc79ca843fa06eb",
+    "semantic_hash": "c3b5f1043afa2cc88fc79ca843fa06eb"
+  },
+  "jarvis-pro/agent/llm.py": {
+    "mtime": 1795055592.1939778,
+    "seen": 1795333892.1592333,
+    "ast_hash": "c3870cc2017c39d6a4567fbd1f62ce33",
+    "semantic_hash": "c3870cc2017c39d6a4567fbd1f62ce33"
+  },
+  "jarvis-pro/agent/main.py": {
+    "mtime": 1795055592.1939778,
+    "seen": 1795333892.1592598,
+    "ast_hash": "f05b66ba6464787357558126d9b96732",
+    "semantic_hash": "f05b66ba6464787357558126d9b96732"
+  },
+  "jarvis-pro/agent/memory.py": {
+    "mtime": 1795055592.1939778,
+    "seen": 1795333892.1592839,
+    "ast_hash": "80a0d42f1e18553448c95261f3e320ad",
+    "semantic_hash": "80a0d42f1e18553448c95261f3e320ad"
+  },
+  "jarvis-pro/agent/tools.py": {
+    "mtime": 1795055592.1939778,
+    "seen": 1795333892.1593082,
+    "ast_hash": "27aa11299292e003936cdaf83eb684f5",
+    "semantic_hash": "27aa11299292e003936cdaf83eb684f5"
+  },
+  "jarvis-pro/agent/vault.py": {
+    "mtime": 1795055592.1939778,
+    "seen": 1795333892.159336,
+    "ast_hash": "46eef4a681279893daf4071e1e2a78f7",
+    "semantic_hash": "46eef4a681279893daf4071e1e2a78f7"
+  },
+  "jarvis-pro/agent/voice.py": {
+    "mtime": 1795055592.1939778,
+    "seen": 1795333892.1593614,
+    "ast_hash": "9d5071d26ec653ed3f2459ca29b5128b",
+    "semantic_hash": "9d5071d26ec653ed3f2459ca29b5128b"
+  },
+  "jarvis-pro/data/generate_demo.py": {
+    "mtime": 1795055592.195928,
+    "seen": 1795333892.1593845,
+    "ast_hash": "7640ff5ec55cf7a42d8a1fb20b12f8a3",
+    "semantic_hash": "7640ff5ec55cf7a42d8a1fb20b12f8a3"
+  },
+  "jarvis-pro/online/build.py": {
+    "mtime": 1795055592.195928,
+    "seen": 1795333892.1594105,
+    "ast_hash": "2a2d76f0eed086ce6a973606017f0d97",
+    "semantic_hash": "2a2d76f0eed086ce6a973606017f0d97"
+  },
+  "jarvis-pro/tests/e2e_google.js": {
+    "mtime": 1795055592.196041,
+    "seen": 1795333892.1594377,
+    "ast_hash": "ccb922682160ccb8a06407ac3add02f2",
+    "semantic_hash": "ccb922682160ccb8a06407ac3add02f2"
+  },
+  "jarvis-pro/tests/fake_google.py": {
+    "mtime": 1795055592.1962147,
+    "seen": 1795333892.1594632,
+    "ast_hash": "a470720d240e6d56c74e83e1f4c4ae70",
+    "semantic_hash": "a470720d240e6d56c74e83e1f4c4ae70"
+  },
+  "jarvis-pro/ui/app.js": {
+    "mtime": 1795055592.1962147,
+    "seen": 1795333892.159488,
+    "ast_hash": "d90edd50c9636244492cb27fd8e76993",
+    "semantic_hash": "d90edd50c9636244492cb27fd8e76993"
+  },
+  "jarvis-pro/ui/graph.js": {
+    "mtime": 1795055592.1963477,
+    "seen": 1795333892.159514,
+    "ast_hash": "9ded8a3c11ddbe3293448d74a3742085",
+    "semantic_hash": "9ded8a3c11ddbe3293448d74a3742085"
+  },
+  "jarvis-pro/ui/voice.js": {
+    "mtime": 1795055592.1963477,
+    "seen": 1795333892.159539,
+    "ast_hash": "f1c04ec6e3ce486889546d77976fe49e",
+    "semantic_hash": "f1c04ec6e3ce486889546d77976fe49e"
+  }
+}
