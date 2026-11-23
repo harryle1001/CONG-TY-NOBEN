@@ -303,10 +303,10 @@
     "ast_empty": true
   },
   "tools/graphify-setup.ps1": {
-    "mtime": 1795335243.8305295,
-    "seen": 1795336392.741249,
-    "ast_hash": "67053ccbbec2c61b0391929f63ebd715",
-    "semantic_hash": "67053ccbbec2c61b0391929f63ebd715"
+    "mtime": 1795337517.6066647,
+    "seen": 1795428079.280551,
+    "ast_hash": "56979ea0e445c20c8cd00c51f8b6fb30",
+    "semantic_hash": "56979ea0e445c20c8cd00c51f8b6fb30"
   },
   "tools/graphify-setup.sh": {
     "mtime": 1795335201.8339689,
@@ -1528,39 +1528,39 @@
   },
   "ho-so-lo/H\u1ed3 S\u01a1 L\u00f4 21.09.2026/PDF/HS BZT 21.09.2026.pdf": {
     "mtime": 1795333714.6457138,
-    "seen": 1795335268.750904,
+    "seen": 1795428079.2806034,
     "ast_hash": "5b7f5c78cf32519f3380d923d0fe2695",
-    "semantic_hash": ""
+    "semantic_hash": "5b7f5c78cf32519f3380d923d0fe2695"
   },
   "ho-so-lo/H\u1ed3 S\u01a1 L\u00f4 21.09.2026/PDF/HS L\u00d4 IODIN 99 21.09.2026.pdf": {
     "mtime": 1795333714.648153,
-    "seen": 1795335268.7509053,
+    "seen": 1795428079.280636,
     "ast_hash": "23af19e0ef846eb3e219096c5ea7cb80",
-    "semantic_hash": ""
+    "semantic_hash": "23af19e0ef846eb3e219096c5ea7cb80"
   },
   "ho-so-lo/H\u1ed3 S\u01a1 L\u00f4 21.09.2026/PDF/HSO EDTA 99 21.09.2026.pdf": {
     "mtime": 1795333714.649901,
-    "seen": 1795335268.7509067,
+    "seen": 1795428201.0482614,
     "ast_hash": "c170e06349a064a25805dd6ca8c9a5b3",
-    "semantic_hash": ""
+    "semantic_hash": "c170e06349a064a25805dd6ca8c9a5b3"
   },
   "ho-so-lo/H\u1ed3 S\u01a1 L\u00f4 21.09.2026/PDF/HSO L\u00d4 BEN COPPER 500 21.09.2026.pdf": {
     "mtime": 1795333714.649901,
-    "seen": 1795335268.750908,
+    "seen": 1795428079.2806613,
     "ast_hash": "8cd67a439f37b4fc42493912e1889277",
-    "semantic_hash": ""
+    "semantic_hash": "8cd67a439f37b4fc42493912e1889277"
   },
   "ho-so-lo/H\u1ed3 S\u01a1 L\u00f4 21.09.2026/PDF/HSO L\u00d4 C MAX 25% 21.09.2026.pdf": {
     "mtime": 1795333714.649901,
-    "seen": 1795335268.7509093,
+    "seen": 1795428079.280686,
     "ast_hash": "28ce12f46cefe31b285f18daba89f801",
-    "semantic_hash": ""
+    "semantic_hash": "28ce12f46cefe31b285f18daba89f801"
   },
   "ho-so-lo/H\u1ed3 S\u01a1 L\u00f4 21.09.2026/PDF/HSO L\u00d4 YUCCA 99 21.09.2026.pdf": {
     "mtime": 1795333714.6539009,
-    "seen": 1795335268.7509108,
+    "seen": 1795428201.048264,
     "ast_hash": "9f5d8da4f054f402d99824de586887f0",
-    "semantic_hash": ""
+    "semantic_hash": "9f5d8da4f054f402d99824de586887f0"
   },
   "ho-so-lo/pdf/HS BZT 21.09.2026.pdf": {
     "mtime": 1795333714.663107,
@@ -2776,14 +2776,15 @@
   },
   "tools/graphify-aliases.json": {
     "mtime": 1795337065.5266378,
-    "seen": 1795337100.2757978,
+    "seen": 1795428079.2805257,
     "ast_hash": "e15e9a0e3a1cf9241e14deb1e1430bba",
-    "semantic_hash": ""
+    "semantic_hash": "e15e9a0e3a1cf9241e14deb1e1430bba",
+    "ast_empty": true
   },
   "tools/graphify-merge.py": {
     "mtime": 1795337072.710638,
-    "seen": 1795337100.2758002,
+    "seen": 1795428079.2805302,
     "ast_hash": "926f969caffdb23078cb0c3d8a36fa0f",
-    "semantic_hash": ""
+    "semantic_hash": "926f969caffdb23078cb0c3d8a36fa0f"
   }
 }
