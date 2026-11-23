@@ -93,3 +93,11 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Bài 5 (postId 618c0cc9-4c0c-4473-ab69-f5006d7c7317) vẫn chờ duyệt; giờ dự kiến 22/11 IG 12:00, X 12:30, TikTok 21:00. Không soạn thêm bài 6 khi bài 5 chưa duyệt.
 - Giao việc: không giao phiên mới.
 - Chờ chủ studio: duyệt bài 5 (kèm quyết định bỏ X hay nạp credit); kiểm tra TikTok bài 3–4 công khai; Search Console; Page FB Dream Labs.
+
+## 2026-11-23 (sáng, 07:40 VN)
+- Hôm qua (phiên khác, web main): +10 bài blog về website; Motion Graphic còn 2 gói (Cơ bản 2tr/video, Chuyên nghiệp 5tr/3 video), bỏ gói Cao cấp; gói Cao cấp 18 vòng sửa cho Landing/Edit Video/Thiết kế SP; sửa khoảng trống mục Mẫu & giá trên điện thoại.
+- LƯU Ý: bài 26 (lịch đăng) dùng Cơ bản/Chuyên nghiệp/Cao cấp cho mọi dịch vụ, nay Motion trên web không còn Cao cấp → cần chủ studio chốt trước khi đăng bài 26.
+- Web live: trang chủ, blog, /en/, /ja/, sitemap 200; không tràn ngang 390/1440px; không lộ φ; không dấu xung đột.
+- vidIQ: 3 credit (add-on), credit gói làm mới 05/12. Không đọc bình luận được; X cần 5 credit.
+- Bài 5 chưa duyệt, đã dời giờ dự kiến sang 23/11: IG 12:00, X 12:30, TikTok 21:00 (rev 30a86536-77164d11-faddd87e). Chưa hẹn giờ.
+- Giao việc: không. Chờ chủ studio: duyệt bài 5 (bỏ X hoặc nạp credit); chốt gói Motion cho bài 26; TikTok bài 3–4 công khai; Search Console; Page FB.
