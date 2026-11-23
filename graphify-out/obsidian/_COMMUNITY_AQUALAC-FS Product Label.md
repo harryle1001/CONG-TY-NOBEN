@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[AQUALAC-FS Product]] - concept - ho-so-san-pham/nhan/01-028286_1.jpg
-- [[Product label for AQUALAC-FS]] - image - ho-so-san-pham/nhan/01-028286_1.jpg
+- [[F.X 7-Product Batch Records PDF]] - document - HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf
+- [[F.X Product Batch Record Instructions]] - document - HO-SO-LO-FX/README.md
 
 ## Live Query (requires Dataview plugin)
 

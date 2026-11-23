@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-020757_1.jpg"
 type: "image"
-community: "Rovabio AP Label Design"
+community: "Chế phẩm sinh học & Hóa chất"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Rovabio_AP_Label_Design
+  - graphify/INFERRED
+  - community/Chế_phẩm_sinh_học__Hóa_chất
 ---
 
 # ROVABIO AP Label
 
-#graphify/image #graphify/EXTRACTED #community/Rovabio_AP_Label_Design
+## Connections
+- [[ROVABIO AP (MS 02-020757)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/Chế_phẩm_sinh_học__Hóa_chất

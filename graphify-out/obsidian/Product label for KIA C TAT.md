@@ -1,11 +1,11 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-028279_1.jpg"
 type: "image"
-community: "Vitamin C Products"
+community: "CANCI MILK Products"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/Vitamin_C_Products
+  - community/CANCI_MILK_Products
 ---
 
 # Product label for KIA C TAT
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[KIA C TAT Product Concept]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/Vitamin_C_Products
+#graphify/image #graphify/EXTRACTED #community/CANCI_MILK_Products

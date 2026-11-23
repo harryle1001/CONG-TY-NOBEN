@@ -1,12 +1,12 @@
 ---
 source_file: "HO-SO-LO-FX/_build/data.py"
 type: "code"
-community: "Data Build Specification"
+community: "CALCIPHO Product Label"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Data_Build_Specification
+  - community/CALCIPHO_Product_Label
 ---
 
 # _build/data.py
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[spec()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Data_Build_Specification
+#graphify/code #graphify/EXTRACTED #community/CALCIPHO_Product_Label

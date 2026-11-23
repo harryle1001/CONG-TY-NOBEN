@@ -1,19 +1,20 @@
 ---
 type: community
-cohesion: 0.50
-members: 4
+cohesion: 0.40
+members: 5
 ---
 
 # Liver Support ANTILIV
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 0.40 - moderately connected
+**Members:** 5 nodes
 
 ## Members
-- [[Nhãn bao bì ANTILIV mẫu 2 (154x350mm)]] - image - ho-so-san-pham/nhan/01-002244_2.jpg
-- [[Nhãn sản phẩm ANTILIV mẫu 1]] - image - ho-so-san-pham/nhan/01-002244_1.jpg
-- [[Sản phẩm bồi bổ gan ANTILIV (Mã tiếp nhận 01-002244)]] - concept - ho-so-san-pham/nhan/01-002244_1.jpg
-- [[Thiết kế nhãn gói 500g ANTILIV (Mã tiếp nhận 01-002244)]] - concept - ho-so-san-pham/nhan/01-002244_2.jpg
+- [[BANG-GIA-NOBEN-2026_a25bfd45]] - document - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
+- [[Sheet Bang gia Noben 2026]] - document - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
+- [[Sheet Bang gia Tom 02-03]] - document - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
+- [[Sheet Bao gia Noben (B)]] - document - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
+- [[Sheet Tong hop]] - document - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

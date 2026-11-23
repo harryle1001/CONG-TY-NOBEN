@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-014384_1.jpg"
 type: "image"
-community: "De-Zoo Label Design"
+community: "DE-ZOO Label"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/De-Zoo_Label_Design
+  - graphify/INFERRED
+  - community/DE-ZOO_Label
 ---
 
 # DE-ZOO Label
 
-#graphify/image #graphify/EXTRACTED #community/De-Zoo_Label_Design
+## Connections
+- [[DE-ZOO (MS 02-014384)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/DE-ZOO_Label

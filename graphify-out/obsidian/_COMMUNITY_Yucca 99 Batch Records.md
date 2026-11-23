@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HSO LÔ YUCCA 99 21.09.2026]] - document - ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HSO LÔ YUCCA 99 21.09.2026.pdf
+- [[Biểu Mẫu Kiểm Soát Và Xuất Kho Bao Bì (04092026)]] - document - graphify-out/converted/4. BIỂU MẪU bao bì_204862bd.md
 
 ## Live Query (requires Dataview plugin)
 

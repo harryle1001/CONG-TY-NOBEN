@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[BIỂU MẪU 12 QUY ĐỊNH 21.09.2026_c47caa83]] - document - graphify-out/converted/BIỂU MẪU 12 QUY ĐỊNH 21.09.2026_c47caa83.md
+- [[Quy tắc Tỷ lệ vàng φ = 1.61803]] - concept - CLAUDE.md
 
 ## Live Query (requires Dataview plugin)
 

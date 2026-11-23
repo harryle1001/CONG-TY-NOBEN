@@ -1,16 +1,17 @@
 ---
 type: community
 cohesion: 1.00
-members: 1
+members: 2
 ---
 
 # Water Quality Forms
 
 **Cohesion:** 1.00 - tightly connected
-**Members:** 1 nodes
+**Members:** 2 nodes
 
 ## Members
-- [[2. BIỂU MẪU chất lượng nước_bebef152]] - document - graphify-out/converted/2. BIỂU MẪU chất lượng nước_bebef152.md
+- [[Viec-can-lam]] - document - jarvis-pro/data/demo/Viec-can-lam.md
+- [[Việc cần làm]] - document - jarvis-pro/data/demo/Viec-can-lam.md
 
 ## Live Query (requires Dataview plugin)
 

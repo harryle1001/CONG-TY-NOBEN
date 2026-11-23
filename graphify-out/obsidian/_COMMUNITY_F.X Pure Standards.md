@@ -1,18 +1,20 @@
 ---
 type: community
-cohesion: 0.67
-members: 3
+cohesion: 0.70
+members: 5
 ---
 
 # F.X Pure Standards
 
-**Cohesion:** 0.67 - moderately connected
-**Members:** 3 nodes
+**Cohesion:** 0.70 - tightly connected
+**Members:** 5 nodes
 
 ## Members
-- [[6-F.X PURE_b673ec92]] - document - graphify-out/converted/6-F.X PURE_b673ec92.md
-- [[CÔNG BỐ TIÊU CHUẨN CƠ SỞ_4]] - document - graphify-out/converted/6-F.X PURE_b673ec92.md
-- [[TIÊU CHUẨN CƠ SỞ_4]] - document - graphify-out/converted/6-F.X PURE_b673ec92.md
+- [[Product Label Image - SUPER CAL]] - image - ho-so-san-pham/nhan/02-002252_1.jpg
+- [[Product Label Image - SUPER CAL (Yucca-Khoang-C)]] - image - ho-so-san-pham/nhan/02-002252_2.jpg
+- [[SUPER CAL (MS 02-002252)]] - concept - ho-so-san-pham/data.json
+- [[SUPER CAL Product Specifications (02-002252)]] - concept - ho-so-san-pham/nhan/02-002252_1.jpg
+- [[SUPER CAL Yucca-Khoang-C Variant (02-002252)]] - concept - ho-so-san-pham/nhan/02-002252_2.jpg
 
 ## Live Query (requires Dataview plugin)
 

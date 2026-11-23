@@ -1,18 +1,18 @@
 ---
 type: community
-cohesion: 1.00
+cohesion: 0.67
 members: 3
 ---
 
 # System Setup Script
 
-**Cohesion:** 1.00 - tightly connected
+**Cohesion:** 0.67 - moderately connected
 **Members:** 3 nodes
 
 ## Members
-- [[graphify-setup.sh]] - code - tools/graphify-setup.sh
-- [[graphify-setup.sh script]] - code - tools/graphify-setup.sh
-- [[say()]] - code - tools/graphify-setup.sh
+- [[HEPAPLUS (MS 01-028282)]] - concept - ho-so-san-pham/data.json
+- [[Product label for HEPA Plus]] - image - ho-so-san-pham/nhan/01-028282_1.jpg
+- [[Product label for HEPAPLUS (2L)]] - image - ho-so-san-pham/nhan/01-028282_2.jpg
 
 ## Live Query (requires Dataview plugin)
 

@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HSO-LO-F.X-GARLIC_c6dcc351]] - document - graphify-out/converted/HSO-LO-F.X-GARLIC_c6dcc351.md
+- [[VS-Batday]] - code - graphify-out/converted/DANH MỤC CÔNG TY TNHH THỦY SẢN VIỆT_1cc05715.md
 
 ## Live Query (requires Dataview plugin)
 

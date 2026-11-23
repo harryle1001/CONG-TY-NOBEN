@@ -1,18 +1,21 @@
 ---
 type: community
-cohesion: 0.67
-members: 3
+cohesion: 0.53
+members: 6
 ---
 
 # Batch Record Guidelines
 
-**Cohesion:** 0.67 - moderately connected
-**Members:** 3 nodes
+**Cohesion:** 0.53 - moderately connected
+**Members:** 6 nodes
 
 ## Members
-- [[F.X 7-Product Batch Records PDF]] - document - HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf
-- [[F.X Product Batch Record Instructions]] - document - HO-SO-LO-FX/README.md
-- [[Noben Batch Record Rules]] - concept - CLAUDE.md
+- [[F.X ENZYME]] - code - THÔNG BÁO HỢP QUY/TB HQ-4904.pdf
+- [[F.X ENZYME (MS 01-061787)]] - concept - ho-so-san-pham/data.json
+- [[F.X ENZYME Product Specification]] - concept - ho-so-san-pham/nhan/01-061787_1.jpg
+- [[F.X ENZYME Viet Nga Distributed Edition]] - concept - ho-so-san-pham/nhan/01-061787_2.jpg
+- [[Label artwork for F.X ENZYME]] - image - ho-so-san-pham/nhan/01-061787_1.jpg
+- [[Label photo for F.X ENZYME (Viet Nga Distributor)]] - image - ho-so-san-pham/nhan/01-061787_2.jpg
 
 ## Live Query (requires Dataview plugin)
 

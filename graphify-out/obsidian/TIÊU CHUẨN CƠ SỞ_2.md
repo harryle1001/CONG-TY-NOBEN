@@ -1,12 +1,12 @@
 ---
-source_file: "graphify-out/converted/4-F.X PREMIX MILK_4a422751.md"
+source_file: "graphify-out/converted/3-F.X GROW_9521dddb.md"
 type: "document"
-community: "F.X Premix Standards"
+community: "Aquaculture Health Products"
 location: "L130"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/FX_Premix_Standards
+  - community/Aquaculture_Health_Products
 ---
 
 # TIÊU CHUẨN CƠ SỞ
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[CÔNG BỐ TIÊU CHUẨN CƠ SỞ_2]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/FX_Premix_Standards
+#graphify/document #graphify/EXTRACTED #community/Aquaculture_Health_Products

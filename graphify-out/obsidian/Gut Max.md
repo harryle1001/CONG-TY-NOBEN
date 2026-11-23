@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/San-pham/Gut Max.md"
 type: "document"
-community: "Client Order Management"
+community: "BZ 99 (Bổ sung lợi khuẩn)"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Client_Order_Management
+  - community/BZ_99_Bổ_sung_lợi_khuẩn
 ---
 
 # Gut Max.md
@@ -23,4 +23,4 @@ tags:
 - [[Tảo tàn]] - `references` [EXTRACTED]
 - [[Đốm trắng]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Client_Order_Management
+#graphify/document #graphify/EXTRACTED #community/BZ_99_Bổ_sung_lợi_khuẩn

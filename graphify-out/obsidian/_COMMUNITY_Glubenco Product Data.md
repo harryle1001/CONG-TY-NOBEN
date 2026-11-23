@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[F.X-GLUBENCO_1]] - code - HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf
+- [[F.X LIVER SUPPORT_2]] - code - graphify-out/converted/1-F.X LIVER SUPPORT_2d81ac86.md
 
 ## Live Query (requires Dataview plugin)
 

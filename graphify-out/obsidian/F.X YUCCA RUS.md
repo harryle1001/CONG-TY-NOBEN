@@ -1,13 +1,16 @@
 ---
-source_file: "HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf"
-type: "code"
-community: "Yucca Rus Data"
+source_file: "graphify-out/converted/7-F.X YUCCA RUS_fffb541f.md"
+type: "concept"
+community: "Aquaculture Health Products"
 tags:
-  - graphify/code
+  - graphify/concept
   - graphify/EXTRACTED
-  - community/Yucca_Rus_Data
+  - community/Aquaculture_Health_Products
 ---
 
 # F.X YUCCA RUS
 
-#graphify/code #graphify/EXTRACTED #community/Yucca_Rus_Data
+## Connections
+- [[TCCS 132026NOBEN - F.X YUCCA RUS]] - `references` [EXTRACTED]
+
+#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products

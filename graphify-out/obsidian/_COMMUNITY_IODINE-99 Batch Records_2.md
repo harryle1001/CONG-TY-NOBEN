@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HS LÔ IODIN 99 21.09.2026_222a1c07]] - document - graphify-out/converted/HS LÔ IODIN 99 21.09.2026_222a1c07.md
+- [[V 3+1]] - code - graphify-out/converted/DANH MỤC CÔNG TY TNHH THỦY SẢN VIỆT_1cc05715.md
 
 ## Live Query (requires Dataview plugin)
 

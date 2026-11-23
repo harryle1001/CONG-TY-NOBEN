@@ -1,11 +1,11 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/README.md"
 type: "code"
-community: "Aquaculture Product Pricing"
+community: "Nhóm Chế phẩm sinh học & hóa chất"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Aquaculture_Product_Pricing
+  - community/Nhóm_Chế_phẩm_sinh_học__hóa_chất
 ---
 
 # Python Build Script (build.py)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[README Kinh Doanh 2026]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Aquaculture_Product_Pricing
+#graphify/code #graphify/EXTRACTED #community/Nhóm_Chế_phẩm_sinh_học__hóa_chất

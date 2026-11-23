@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[BEN COM (Fish Protein & Amino Acid Supplement)]] - concept - ho-so-san-pham/nhan/01-002230_1.jpg
-- [[Product Label Image for BEN COM]] - image - ho-so-san-pham/nhan/01-002230_1.jpg
+- [[HD 12 - Quy định kiểm soát vệ sinh rác thải]] - concept - graphify-out/converted/HO-SO-LO-IODINE-99-21.09.2026_ff7d7fd4.md
+- [[Huỳnh Thị Mai Trúc (Quản lý vệ sinh & rác thải)]] - concept - graphify-out/converted/HO-SO-LO-IODINE-99-21.09.2026_ff7d7fd4.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -19,9 +19,3 @@ members: 2
 TABLE source_file, type FROM #community/BEN_COM_Protein_Supplement_Label
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[BEN COM (Fish Protein & Amino Acid Supplement)]] - degree 2, connects to 1 community

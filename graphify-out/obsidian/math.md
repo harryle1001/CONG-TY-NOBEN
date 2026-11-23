@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "re"
+community: "main.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/re
+  - community/mainpy
 ---
 
 # math
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[vault.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/re
+#graphify/concept #graphify/EXTRACTED #community/mainpy

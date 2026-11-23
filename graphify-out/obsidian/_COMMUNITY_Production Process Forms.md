@@ -1,16 +1,17 @@
 ---
 type: community
 cohesion: 1.00
-members: 1
+members: 2
 ---
 
 # Production Process Forms
 
 **Cohesion:** 1.00 - tightly connected
-**Members:** 1 nodes
+**Members:** 2 nodes
 
 ## Members
-- [[8. BIỂU MẪU QTSX_025ade5d]] - document - graphify-out/converted/8. BIỂU MẪU QTSX_025ade5d.md
+- [[Hình ảnh bao bì VH-DIO 99]] - image - TAI-LIEU-KINH-DOANH/assets/tim-cutout/vh-dio-99.webp
+- [[Sản phẩm VH-DIO 99]] - concept - TAI-LIEU-KINH-DOANH/CATALOGUE-THUY-SAN-TIM-2026.html
 
 ## Live Query (requires Dataview plugin)
 

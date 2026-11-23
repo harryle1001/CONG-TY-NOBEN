@@ -1,11 +1,11 @@
 ---
 source_file: "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/2. LỆNH SẢN XUẤT 21.09.2026.pdf"
 type: "document"
-community: "Production Quality Regulations"
+community: "AI Strategy Documentation"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Production_Quality_Regulations
+  - community/AI_Strategy_Documentation
 ---
 
 # Production Orders 21.09.2026
@@ -18,4 +18,4 @@ tags:
 - [[IODINE 99 Batch Record Lot 09-210926]] - `references` [EXTRACTED]
 - [[YUCCA 99 Batch Record Lot 43-210926]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Production_Quality_Regulations
+#graphify/document #graphify/EXTRACTED #community/AI_Strategy_Documentation

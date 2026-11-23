@@ -1,11 +1,11 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-THUY-SAN-TIM-2026.pdf"
 type: "document"
-community: "Aquaculture Feed Additives"
+community: "Công ty TNHH No Ben (TS790020)"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Aquaculture_Feed_Additives
+  - community/Công_ty_TNHH_No_Ben_TS790020
 ---
 
 # Catalogue Thủy Sản Tím 2026 (PDF)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Aquaculture_Feed_Additives
+#graphify/document #graphify/EXTRACTED #community/Công_ty_TNHH_No_Ben_TS790020

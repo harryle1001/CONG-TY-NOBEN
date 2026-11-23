@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-028281_1.jpg"
 type: "image"
-community: "CALCIPHO Product Label"
+community: "Product label for CALCIPHO"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/CALCIPHO_Product_Label
+  - community/Product_label_for_CALCIPHO
 ---
 
 # Product label for CALCIPHO
 
 ## Connections
-- [[CALCIPHO Product]] - `references` [EXTRACTED]
+- [[CALCIPHO (MS 01-028281)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/CALCIPHO_Product_Label
+#graphify/image #graphify/EXTRACTED #community/Product_label_for_CALCIPHO

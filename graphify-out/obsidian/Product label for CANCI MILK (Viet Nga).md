@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-061772_1.jpg"
 type: "image"
-community: "CANCI MILK Products"
+community: "NB-MIX 500 Products"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/CANCI_MILK_Products
+  - community/NB-MIX_500_Products
 ---
 
 # Product label for CANCI MILK (Viet Nga)
 
 ## Connections
-- [[CANCI MILK Product]] - `references` [EXTRACTED]
+- [[CANCI MILK (MS 01-061772)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/CANCI_MILK_Products
+#graphify/image #graphify/EXTRACTED #community/NB-MIX_500_Products

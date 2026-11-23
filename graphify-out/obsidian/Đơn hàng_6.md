@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/Khach-hang/Đại lý Bến Tre Xanh.md"
 type: "document"
-community: "Business Activity Logs"
+community: "Production Quality Regulations"
 location: "L3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Business_Activity_Logs
+  - community/Production_Quality_Regulations
 ---
 
 # Đơn hàng
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Đại lý Bến Tre Xanh_1]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Business_Activity_Logs
+#graphify/document #graphify/EXTRACTED #community/Production_Quality_Regulations

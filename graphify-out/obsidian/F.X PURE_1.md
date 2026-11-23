@@ -1,13 +1,13 @@
 ---
-source_file: "TCCS-7-SAN-PHAM-MOI/PDF/6-F.X PURE.pdf"
+source_file: "HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf"
 type: "code"
-community: "F.X Pure Product Info"
+community: "F.X PURE"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/FX_Pure_Product_Info
+  - community/FX_PURE
 ---
 
 # F.X PURE
 
-#graphify/code #graphify/EXTRACTED #community/FX_Pure_Product_Info
+#graphify/code #graphify/EXTRACTED #community/FX_PURE

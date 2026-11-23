@@ -1,27 +1,30 @@
 ---
 type: community
-cohesion: 0.17
-members: 12
+cohesion: 0.14
+members: 15
 ---
 
 # Jarvis Assistant Configuration
 
-**Cohesion:** 0.17 - loosely connected
-**Members:** 12 nodes
+**Cohesion:** 0.14 - loosely connected
+**Members:** 15 nodes
 
 ## Members
-- [[Bản online trên claude.ai]] - document - jarvis-pro/README.md
-- [[Chi phí]] - document - jarvis-pro/README.md
-- [[Chạy trong 1 phút]] - document - jarvis-pro/README.md
-- [[Cách dùng]] - document - jarvis-pro/README.md
-- [[Công tắc demo dùng dữ liệu thật]] - document - jarvis-pro/README.md
-- [[Cấu trúc]] - document - jarvis-pro/README.md
-- [[Hồ sơ và bộ nhớ]] - document - jarvis-pro/README.md
-- [[J.A.R.V.I.S. — trợ lý giọng nói riêng]] - document - jarvis-pro/README.md
-- [[Jarvis Pro Readme]] - document - jarvis-pro/README.md
-- [[Kết nối Gmail và Google Calendar (chỉ đọc)]] - document - jarvis-pro/README.md
-- [[Quy tắc cứng]] - document - jarvis-pro/README.md
-- [[Thêm khóa AI và giọng nói]] - document - jarvis-pro/README.md
+- [[2026-09-16-ghi-chu-30]] - document - jarvis-pro/data/demo/Ghi-chu/2026-09-16-ghi-chu-30.md
+- [[2026-10-06-ghi-chu-38]] - document - jarvis-pro/data/demo/Ghi-chu/2026-10-06-ghi-chu-38.md
+- [[2026-11-22-ghi-chu-22]] - document - jarvis-pro/data/demo/Ghi-chu/2026-11-22-ghi-chu-22.md
+- [[2026-11-25-ghi-chu-15]] - document - jarvis-pro/data/demo/Ghi-chu/2026-11-25-ghi-chu-15.md
+- [[Ghi chú 2026-09-16]] - document - jarvis-pro/data/demo/Ghi-chu/2026-09-16-ghi-chu-30.md
+- [[Ghi chú 2026-10-06]] - document - jarvis-pro/data/demo/Ghi-chu/2026-10-06-ghi-chu-38.md
+- [[Ghi chú 2026-11-22]] - document - jarvis-pro/data/demo/Ghi-chu/2026-11-22-ghi-chu-22.md
+- [[Ghi chú 2026-11-25]] - document - jarvis-pro/data/demo/Ghi-chu/2026-11-25-ghi-chu-15.md
+- [[Gói AI cho SME_1]] - document - jarvis-pro/data/demo/AI/Gói AI cho SME.md
+- [[Gói AI cho SME]] - document - jarvis-pro/data/demo/AI/Gói AI cho SME.md
+- [[Khung chuẩn hóa AI_1]] - document - jarvis-pro/data/demo/AI/Khung chuẩn hóa AI.md
+- [[Khung chuẩn hóa AI]] - document - jarvis-pro/data/demo/AI/Khung chuẩn hóa AI.md
+- [[Trại cá Tân Hưng_1]] - document - jarvis-pro/data/demo/Noben/Khach-hang/Trại cá Tân Hưng.md
+- [[Trại cá Tân Hưng]] - document - jarvis-pro/data/demo/Noben/Khach-hang/Trại cá Tân Hưng.md
+- [[Đơn hàng_3]] - document - jarvis-pro/data/demo/Noben/Khach-hang/Trại cá Tân Hưng.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -29,3 +32,18 @@ members: 12
 TABLE source_file, type FROM #community/Jarvis_Assistant_Configuration
 SORT file.name ASC
 ```
+
+## Connections to other communities
+- 4 edges to [[_COMMUNITY_BZ 99 (Bổ sung lợi khuẩn)]]
+- 4 edges to [[_COMMUNITY_Production Quality Regulations]]
+- 3 edges to [[_COMMUNITY_Graph Visualization Logic]]
+- 2 edges to [[_COMMUNITY_Client Order Management]]
+- 2 edges to [[_COMMUNITY_Đại lý Minh Phát]]
+- 2 edges to [[_COMMUNITY_Business Activity Logs]]
+
+## Top bridge nodes
+- [[Trại cá Tân Hưng]] - degree 8, connects to 4 communities
+- [[2026-11-25-ghi-chu-15]] - degree 5, connects to 3 communities
+- [[Gói AI cho SME]] - degree 6, connects to 2 communities
+- [[Khung chuẩn hóa AI]] - degree 5, connects to 2 communities
+- [[2026-09-16-ghi-chu-30]] - degree 5, connects to 2 communities

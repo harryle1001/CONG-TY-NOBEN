@@ -1,16 +1,17 @@
 ---
-source_file: "HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf"
-type: "code"
-community: "F.X Product Pairings"
+source_file: "graphify-out/converted/2-F.X GARLIC_3177b419.md"
+type: "concept"
+community: "Aquaculture Health Products"
 tags:
-  - graphify/code
-  - graphify/AMBIGUOUS
-  - community/FX_Product_Pairings
+  - graphify/concept
+  - graphify/EXTRACTED
+  - community/Aquaculture_Health_Products
 ---
 
 # F.X GARLIC
 
 ## Connections
-- [[F.X LIVER SUPPORT_1]] - `semantically_similar_to` [AMBIGUOUS]
+- [[Công ty TNHH No Ben]] - `references` [EXTRACTED]
+- [[Tiêu chuẩn cơ sở TCCS 102026NOBEN]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/AMBIGUOUS #community/FX_Product_Pairings
+#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products

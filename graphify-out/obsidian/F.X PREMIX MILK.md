@@ -1,13 +1,16 @@
 ---
-source_file: "HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf"
-type: "code"
-community: "Premix Milk Data"
+source_file: "graphify-out/converted/4-F.X PREMIX MILK_4a422751.md"
+type: "concept"
+community: "Aquaculture Health Products"
 tags:
-  - graphify/code
+  - graphify/concept
   - graphify/EXTRACTED
-  - community/Premix_Milk_Data
+  - community/Aquaculture_Health_Products
 ---
 
 # F.X PREMIX MILK
 
-#graphify/code #graphify/EXTRACTED #community/Premix_Milk_Data
+## Connections
+- [[Công Bố Tiêu Chuẩn Cơ Sở F.X PREMIX MILK]] - `references` [EXTRACTED]
+
+#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/Khach-hang/Trại tôm Sao Biển.md"
 type: "document"
-community: "Educational Knowledge Base"
+community: "Business Activity Logs"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Educational_Knowledge_Base
+  - community/Business_Activity_Logs
 ---
 
 # Trại tôm Sao Biển.md
@@ -27,4 +27,4 @@ tags:
 - [[Mineral Plus]] - `references` [EXTRACTED]
 - [[Trại tôm Sao Biển_1]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Educational_Knowledge_Base
+#graphify/document #graphify/EXTRACTED #community/Business_Activity_Logs

@@ -1,16 +1,16 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
-type: "concept"
-community: "Aquaculture Health Products"
+source_file: "graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md"
+type: "code"
+community: "Thức ăn bổ sung"
 tags:
-  - graphify/concept
-  - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - graphify/code
+  - graphify/INFERRED
+  - community/Thức_ăn_bổ_sung
 ---
 
 # CAPHOTE
 
 ## Connections
-- [[Thức ăn bổ sung]] - `conceptually_related_to` [EXTRACTED]
+- [[CAPHOTE (MS 01-001548)]] - `references` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/code #graphify/INFERRED #community/Thức_ăn_bổ_sung

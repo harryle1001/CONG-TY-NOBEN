@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/San-pham/Vita Shell.md"
 type: "document"
-community: "Daily Activity Notes"
+community: "Client Order Management"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Daily_Activity_Notes
+  - community/Client_Order_Management
 ---
 
 # Vita Shell.md
@@ -23,4 +23,4 @@ tags:
 - [[Đại lý Minh Phát]] - `references` [EXTRACTED]
 - [[Đốm trắng]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Daily_Activity_Notes
+#graphify/document #graphify/EXTRACTED #community/Client_Order_Management

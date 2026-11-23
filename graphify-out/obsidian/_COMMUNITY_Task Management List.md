@@ -1,17 +1,16 @@
 ---
 type: community
 cohesion: 1.00
-members: 2
+members: 1
 ---
 
 # Task Management List
 
 **Cohesion:** 1.00 - tightly connected
-**Members:** 2 nodes
+**Members:** 1 nodes
 
 ## Members
-- [[Viec-can-lam]] - document - jarvis-pro/data/demo/Viec-can-lam.md
-- [[Việc cần làm]] - document - jarvis-pro/data/demo/Viec-can-lam.md
+- [[DAVICID – liquid]] - code - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

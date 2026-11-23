@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HSO LÔ BEN COPPER 500 21.09.2026]] - document - ho-so-lo/pdf/HSO LÔ BEN COPPER 500 21.09.2026.pdf
+- [[5. BIỂU MẪU Thành phẩm_266693a6]] - document - graphify-out/converted/5. BIỂU MẪU Thành phẩm_266693a6.md
 
 ## Live Query (requires Dataview plugin)
 

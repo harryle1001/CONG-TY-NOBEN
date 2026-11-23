@@ -1,19 +1,20 @@
 ---
 type: community
-cohesion: 0.50
-members: 4
+cohesion: 0.40
+members: 5
 ---
 
 # NB-MIX 500 Products
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 0.40 - moderately connected
+**Members:** 5 nodes
 
 ## Members
-- [[NB-MIX 500 NEW Product Concept]] - concept - ho-so-san-pham/nhan/02-037654_1.jpg
-- [[Product label 1 for NB-MIX 500 NEW]] - image - ho-so-san-pham/nhan/02-037654_1.jpg
-- [[Product label 2 for NB-MIX 500 NEW]] - image - ho-so-san-pham/nhan/02-037654_2.jpg
-- [[Product label 3 for NB-MIX 500 NEW]] - image - ho-so-san-pham/nhan/02-037654_3.jpg
+- [[CANCI MILK]] - code - THÔNG BÁO HỢP QUY/TB HQ-4904.pdf
+- [[CANCI MILK (MS 01-061772)]] - concept - ho-so-san-pham/data.json
+- [[Product label for CANCI MILK (1L)]] - image - ho-so-san-pham/nhan/01-061772_2.jpg
+- [[Product label for CANCI MILK (Viet Nga alternate)]] - image - ho-so-san-pham/nhan/01-061772_3.jpg
+- [[Product label for CANCI MILK (Viet Nga)]] - image - ho-so-san-pham/nhan/01-061772_1.jpg
 
 ## Live Query (requires Dataview plugin)
 

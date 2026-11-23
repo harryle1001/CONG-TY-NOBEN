@@ -1,16 +1,16 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/assets/tim-cutout/ben-bkc.webp"
 type: "image"
-community: "BEN BKC Packaging"
+community: "BEN BKC (MS 02-039607)"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/BEN_BKC_Packaging
+  - community/BEN_BKC_MS_02-039607
 ---
 
 # Hình ảnh bao bì BEN BKC
 
 ## Connections
-- [[Sản phẩm BEN BKC]] - `references` [EXTRACTED]
+- [[BEN BKC (MS 02-039607)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/BEN_BKC_Packaging
+#graphify/image #graphify/EXTRACTED #community/BEN_BKC_MS_02-039607

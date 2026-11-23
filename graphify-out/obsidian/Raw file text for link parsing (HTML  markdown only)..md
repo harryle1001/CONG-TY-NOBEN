@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "rationale"
-community: "Data Parsing Utilities"
+community: "SORBEST"
 location: "L500"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Data_Parsing_Utilities
+  - community/SORBEST
 ---
 
 # Raw file text for link parsing (HTML / markdown only).
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[read_raw()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Data_Parsing_Utilities
+#graphify/rationale #graphify/EXTRACTED #community/SORBEST

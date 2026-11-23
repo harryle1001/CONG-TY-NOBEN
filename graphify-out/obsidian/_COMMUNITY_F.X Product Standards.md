@@ -1,22 +1,23 @@
 ---
 type: community
-cohesion: 0.29
-members: 7
+cohesion: 0.25
+members: 8
 ---
 
 # F.X Product Standards
 
-**Cohesion:** 0.29 - loosely connected
-**Members:** 7 nodes
+**Cohesion:** 0.25 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Lê Văn Khánh]] - concept - TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf
-- [[Sản phẩm F.X GARLIC]] - concept - TCCS-7-SAN-PHAM-MOI/PDF/2-F.X GARLIC.pdf
-- [[Sản phẩm F.X GROW]] - concept - TCCS-7-SAN-PHAM-MOI/PDF/3-F.X GROW.pdf
-- [[Sản phẩm F.X LIVER SUPPORT]] - concept - TCCS-7-SAN-PHAM-MOI/PDF/1-F.X LIVER SUPPORT.pdf
-- [[TCCS 102026NOBEN - F.X GARLIC]] - document - TCCS-7-SAN-PHAM-MOI/PDF/2-F.X GARLIC.pdf
-- [[TCCS 112026NOBEN - F.X GROW]] - document - TCCS-7-SAN-PHAM-MOI/PDF/3-F.X GROW.pdf
-- [[TCCS 122026NOBEN - F.X LIVER SUPPORT]] - document - TCCS-7-SAN-PHAM-MOI/PDF/1-F.X LIVER SUPPORT.pdf
+- [[Danh-muc-104-san-pham-Noben_d87bebfe]] - document - graphify-out/converted/Danh-muc-104-san-pham-Noben_d87bebfe.md
+- [[Danh-muc-104-san-pham-Noben_f6bc0c79]] - document - graphify-out/converted/Danh-muc-104-san-pham-Noben_f6bc0c79.md
+- [[Sheet Ghi chú]] - document - graphify-out/converted/Danh-muc-104-san-pham-Noben_d87bebfe.md
+- [[Sheet Ghi chú_1]] - document - graphify-out/converted/Danh-muc-104-san-pham-Noben_f6bc0c79.md
+- [[Sheet Thức ăn bổ sung (40 SP)]] - document - graphify-out/converted/Danh-muc-104-san-pham-Noben_d87bebfe.md
+- [[Sheet Thức ăn bổ sung (40 SP)_1]] - document - graphify-out/converted/Danh-muc-104-san-pham-Noben_f6bc0c79.md
+- [[Sheet Xử lý môi trường (63 SP)]] - document - graphify-out/converted/Danh-muc-104-san-pham-Noben_d87bebfe.md
+- [[Sheet Xử lý môi trường (63 SP)_1]] - document - graphify-out/converted/Danh-muc-104-san-pham-Noben_f6bc0c79.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,9 +25,3 @@ members: 7
 TABLE source_file, type FROM #community/FX_Product_Standards
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[Lê Văn Khánh]] - degree 4, connects to 1 community

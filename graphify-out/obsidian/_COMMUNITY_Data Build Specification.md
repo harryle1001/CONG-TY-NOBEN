@@ -1,17 +1,18 @@
 ---
 type: community
-cohesion: 1.00
-members: 2
+cohesion: 0.67
+members: 3
 ---
 
 # Data Build Specification
 
-**Cohesion:** 1.00 - tightly connected
-**Members:** 2 nodes
+**Cohesion:** 0.67 - moderately connected
+**Members:** 3 nodes
 
 ## Members
-- [[_builddata.py]] - code - HO-SO-LO-FX/_build/data.py
-- [[spec()]] - code - HO-SO-LO-FX/_build/data.py
+- [[CLAUDE]] - document - jarvis-pro/CLAUDE.md
+- [[What matters most]] - document - jarvis-pro/CLAUDE.md
+- [[Who sir is]] - document - jarvis-pro/CLAUDE.md
 
 ## Live Query (requires Dataview plugin)
 

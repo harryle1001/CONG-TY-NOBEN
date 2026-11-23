@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[NB-SORBITOL B12 (Liver Function Support & Detox)]] - concept - ho-so-san-pham/nhan/01-002227_1.jpg
-- [[Product Label Image for NB-SORBITOL B12]] - image - ho-so-san-pham/nhan/01-002227_1.jpg
+- [[HD 02 - Quy định kiểm soát chất lượng nước]] - concept - graphify-out/converted/HO-SO-LO-IODINE-99-21.09.2026_ff7d7fd4.md
+- [[Phan Văn Teo (Bảo trì  Giám sát thiết bị)]] - concept - graphify-out/converted/HO-SO-LO-IODINE-99-21.09.2026_ff7d7fd4.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -19,9 +19,3 @@ members: 2
 TABLE source_file, type FROM #community/NB-SORBITOL_Liver_Support_Label
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[NB-SORBITOL B12 (Liver Function Support & Detox)]] - degree 2, connects to 1 community

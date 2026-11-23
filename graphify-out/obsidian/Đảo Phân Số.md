@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Game/Đảo Phân Số.md"
 type: "document"
-community: "Educational Knowledge Base"
+community: "Business Activity Logs"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Educational_Knowledge_Base
+  - community/Business_Activity_Logs
 ---
 
 # Đảo Phân Số.md
@@ -19,4 +19,4 @@ tags:
 - [[Thành Phố Từ Vựng]] - `references` [EXTRACTED]
 - [[Đảo Phân Số_1]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Educational_Knowledge_Base
+#graphify/document #graphify/EXTRACTED #community/Business_Activity_Logs

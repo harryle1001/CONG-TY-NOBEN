@@ -1,13 +1,16 @@
 ---
-source_file: "ho-so-lo/pdf/HSO LÔ C MAX 25% 21.09.2026.pdf"
+source_file: "graphify-out/converted/HSO LÔ C MAX 25% 21.09.2026_8ed012d0.md"
 type: "document"
-community: "C Max 25% Batch Records"
+community: "C MAX 25% (MS 01-002232)"
 tags:
   - graphify/document
-  - graphify/EXTRACTED
-  - community/C_Max_25_Batch_Records
+  - graphify/INFERRED
+  - community/C_MAX_25_MS_01-002232
 ---
 
 # HSO LÔ C MAX 25% 21.09.2026
 
-#graphify/document #graphify/EXTRACTED #community/C_Max_25_Batch_Records
+## Connections
+- [[C MAX 25% (MS 01-002232)]] - `references` [INFERRED]
+
+#graphify/document #graphify/INFERRED #community/C_MAX_25_MS_01-002232

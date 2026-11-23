@@ -1,16 +1,16 @@
 ---
-source_file: "ho-so-san-pham/index.html"
-type: "document"
-community: "Aquaculture Feed Additives"
+source_file: "graphify-out/converted/DANH-MUC-SAN-PHAM-NOBEN-TIM-2026_3cdf6192.md"
+type: "code"
+community: "PREMIX KHOÁNG (MS 01-001523)"
 tags:
-  - graphify/document
-  - graphify/EXTRACTED
-  - community/Aquaculture_Feed_Additives
+  - graphify/code
+  - graphify/INFERRED
+  - community/PREMIX_KHOÁNG_MS_01-001523
 ---
 
 # PREMIX KHOÁNG
 
 ## Connections
-- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
+- [[PREMIX KHOÁNG (MS 01-001523)]] - `references` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Aquaculture_Feed_Additives
+#graphify/code #graphify/INFERRED #community/PREMIX_KHOÁNG_MS_01-001523

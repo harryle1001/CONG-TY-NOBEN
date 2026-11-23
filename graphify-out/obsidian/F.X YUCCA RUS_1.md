@@ -1,13 +1,13 @@
 ---
-source_file: "TCCS-7-SAN-PHAM-MOI/PDF/7-F.X YUCCA RUS.pdf"
+source_file: "HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf"
 type: "code"
-community: "F.X Yucca Rus Info"
+community: "F.X YUCCA RUS"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/FX_Yucca_Rus_Info
+  - community/FX_YUCCA_RUS
 ---
 
 # F.X YUCCA RUS
 
-#graphify/code #graphify/EXTRACTED #community/FX_Yucca_Rus_Info
+#graphify/code #graphify/EXTRACTED #community/FX_YUCCA_RUS

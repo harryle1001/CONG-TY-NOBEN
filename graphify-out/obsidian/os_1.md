@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Document Processing Utilities"
+community: "main.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Document_Processing_Utilities
+  - community/mainpy
 ---
 
 # os
@@ -23,4 +23,4 @@ tags:
 - [[sua_hsl_2109.py]] - `imports` [EXTRACTED]
 - [[voice.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Document_Processing_Utilities
+#graphify/concept #graphify/EXTRACTED #community/mainpy

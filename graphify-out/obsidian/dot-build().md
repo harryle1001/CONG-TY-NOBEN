@@ -1,18 +1,18 @@
 ---
 source_file: "jarvis-pro/agent/vault.py"
 type: "code"
-community: "Data Parsing Utilities"
+community: "SORBEST"
 location: "L95"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Data_Parsing_Utilities
+  - community/SORBEST
 ---
 
 # .build()
 
 ## Connections
-- [[dot-__init__()]] - `calls` [EXTRACTED]
+- [[dot-__init__()_1]] - `calls` [EXTRACTED]
 - [[dot-_edge()]] - `calls` [EXTRACTED]
 - [[Vault]] - `method` [EXTRACTED]
 - [[html_links()]] - `calls` [EXTRACTED]
@@ -23,4 +23,4 @@ tags:
 - [[title_of()]] - `calls` [EXTRACTED]
 - [[type_of()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities
+#graphify/code #graphify/EXTRACTED #community/SORBEST

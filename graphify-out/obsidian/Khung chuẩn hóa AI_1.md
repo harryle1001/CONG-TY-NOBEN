@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/AI/Khung chuẩn hóa AI.md"
 type: "document"
-community: "AI Standardization Framework"
+community: "Jarvis Assistant Configuration"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/AI_Standardization_Framework
+  - community/Jarvis_Assistant_Configuration
 ---
 
 # Khung chuẩn hóa AI
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Khung chuẩn hóa AI]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/AI_Standardization_Framework
+#graphify/document #graphify/EXTRACTED #community/Jarvis_Assistant_Configuration

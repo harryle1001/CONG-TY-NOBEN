@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/tools.py"
 type: "code"
-community: "Agent Tooling Framework"
+community: "norm"
 location: "L151"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Agent_Tooling_Framework
+  - community/norm
 ---
 
 # .tasks()
@@ -16,4 +16,4 @@ tags:
 - [[dot-t_plan_day()]] - `calls` [EXTRACTED]
 - [[Tools]] - `method` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework
+#graphify/code #graphify/EXTRACTED #community/norm

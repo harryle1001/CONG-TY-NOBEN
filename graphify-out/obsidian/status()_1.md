@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/ui/app.js"
 type: "code"
-community: "Web Application Interface"
+community: "Farm Management Notes"
 location: "L35"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_Application_Interface
+  - community/Farm_Management_Notes
 ---
 
 # status()
@@ -18,4 +18,4 @@ tags:
 - [[setGoogle()]] - `calls` [EXTRACTED]
 - [[setModel()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_Application_Interface
+#graphify/code #graphify/EXTRACTED #community/Farm_Management_Notes

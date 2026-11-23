@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[SUPER VIDAL Label]] - image - ho-so-san-pham/nhan/02-020756_1.jpg
+- [[9. BIỂU MẪU đo lường_78be108a]] - document - graphify-out/converted/9. BIỂU MẪU đo lường_78be108a.md
 
 ## Live Query (requires Dataview plugin)
 

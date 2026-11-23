@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Game/Cảng Lịch Sử.md"
 type: "document"
-community: "Educational Knowledge Base"
+community: "Business Activity Logs"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Educational_Knowledge_Base
+  - community/Business_Activity_Logs
 ---
 
 # Cảng Lịch Sử.md
@@ -24,4 +24,4 @@ tags:
 - [[Thành Phố Từ Vựng]] - `references` [EXTRACTED]
 - [[Đảo Phân Số]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Educational_Knowledge_Base
+#graphify/document #graphify/EXTRACTED #community/Business_Activity_Logs

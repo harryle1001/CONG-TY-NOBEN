@@ -1,12 +1,12 @@
 ---
 source_file: "tools/graphify-setup.sh"
 type: "code"
-community: "System Setup Script"
+community: "Production Batch Records"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/System_Setup_Script
+  - community/Production_Batch_Records
 ---
 
 # graphify-setup.sh
@@ -15,4 +15,4 @@ tags:
 - [[graphify-setup.sh script]] - `contains` [EXTRACTED]
 - [[say()]] - `defines` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/System_Setup_Script
+#graphify/code #graphify/EXTRACTED #community/Production_Batch_Records

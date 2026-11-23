@@ -1,11 +1,11 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/assets/tim-cutout/vh-dio-99.webp"
 type: "image"
-community: "VH-DIO 99 Packaging"
+community: "Production Process Forms"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/VH-DIO_99_Packaging
+  - community/Production_Process_Forms
 ---
 
 # Hình ảnh bao bì VH-DIO 99
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Sản phẩm VH-DIO 99]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/VH-DIO_99_Packaging
+#graphify/image #graphify/EXTRACTED #community/Production_Process_Forms

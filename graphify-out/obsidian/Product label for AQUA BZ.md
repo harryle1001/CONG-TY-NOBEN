@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-028285_1.jpg"
 type: "image"
-community: "AQUA BZ Product Label"
+community: "Chế phẩm sinh học & Hóa chất"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/AQUA_BZ_Product_Label
+  - community/Chế_phẩm_sinh_học__Hóa_chất
 ---
 
 # Product label for AQUA BZ
 
 ## Connections
-- [[AQUA BZ Product Concept]] - `references` [EXTRACTED]
+- [[AQUA BZ (MS 02-028285)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/AQUA_BZ_Product_Label
+#graphify/image #graphify/EXTRACTED #community/Chế_phẩm_sinh_học__Hóa_chất

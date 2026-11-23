@@ -1,17 +1,18 @@
 ---
 type: community
-cohesion: 1.00
-members: 2
+cohesion: 0.67
+members: 3
 ---
 
 # Noben Price Quotations
 
-**Cohesion:** 1.00 - tightly connected
-**Members:** 2 nodes
+**Cohesion:** 0.67 - moderately connected
+**Members:** 3 nodes
 
 ## Members
-- [[05.11 BÁO GIÁ_NOBEN_f255223d]] - document - graphify-out/converted/05.11 BÁO GIÁ_NOBEN_f255223d.md
-- [[Sheet Báo giá]] - document - graphify-out/converted/05.11 BÁO GIÁ_NOBEN_f255223d.md
+- [[DOWN MAX NEW (MS 02-037649)]] - concept - ho-so-san-pham/data.json
+- [[Product label 1 for DOWN MAX NEW]] - image - ho-so-san-pham/nhan/02-037649_1.jpg
+- [[Product label 2 for DOWN MAX NEW]] - image - ho-so-san-pham/nhan/02-037649_2.jpg
 
 ## Live Query (requires Dataview plugin)
 

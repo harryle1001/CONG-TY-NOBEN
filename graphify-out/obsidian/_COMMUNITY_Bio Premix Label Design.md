@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[Label design for BIO PREMIX]] - image - ho-so-san-pham/nhan/02-026749_1.jpg
+- [[BIOBETS TÔM_1]] - code - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

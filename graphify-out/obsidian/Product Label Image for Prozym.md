@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-002234_1.jpg"
 type: "image"
-community: "Prozym Product Label"
+community: "PROZYM"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/Prozym_Product_Label
+  - community/PROZYM
 ---
 
 # Product Label Image for Prozym
 
 ## Connections
-- [[Prozym]] - `references` [EXTRACTED]
+- [[PROZYM (MS 01-002234)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/Prozym_Product_Label
+#graphify/image #graphify/EXTRACTED #community/PROZYM

@@ -63,18 +63,15 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 8 edges to [[_COMMUNITY_Agent Tooling Framework]]
-- 6 edges to [[_COMMUNITY_re]]
-- 4 edges to [[_COMMUNITY_Data Parsing Utilities]]
-- 4 edges to [[_COMMUNITY__gmail_body]]
-- 2 edges to [[_COMMUNITY_google_source]]
-- 2 edges to [[_COMMUNITY_Product Profile Generator]]
-- 2 edges to [[_COMMUNITY_google_auth.py]]
-- 2 edges to [[_COMMUNITY_TAI-LIEU-KINH-DOANHbuild.py]]
-- 1 edge to [[_COMMUNITY_Document Processing Utilities]]
+- 8 edges to [[_COMMUNITY_norm]]
+- 8 edges to [[_COMMUNITY_main.py]]
+- 6 edges to [[_COMMUNITY_EDTA Product Specifications]]
+- 4 edges to [[_COMMUNITY_SORBEST]]
+- 3 edges to [[_COMMUNITY_re]]
+- 2 edges to [[_COMMUNITY_Educational Knowledge Base]]
 
 ## Top bridge nodes
-- [[agentdata.py]] - degree 55, connects to 9 communities
+- [[agentdata.py]] - degree 55, connects to 6 communities
 - [[extract()]] - degree 8, connects to 1 community
 - [[iter_documents()]] - degree 5, connects to 1 community
 - [[inbox_dir()]] - degree 2, connects to 1 community

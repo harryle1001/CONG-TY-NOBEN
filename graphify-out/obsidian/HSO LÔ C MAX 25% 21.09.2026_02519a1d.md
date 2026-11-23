@@ -1,14 +1,17 @@
 ---
 source_file: "graphify-out/converted/HSO LÔ C MAX 25% 21.09.2026_02519a1d.md"
 type: "document"
-community: "C Max 25% Production"
+community: "C MAX 25% (MS 01-002232)"
 location: "L1"
 tags:
   - graphify/document
-  - graphify/EXTRACTED
-  - community/C_Max_25_Production
+  - graphify/INFERRED
+  - community/C_MAX_25_MS_01-002232
 ---
 
 # HSO LÔ C MAX 25% 21.09.2026_02519a1d.md
 
-#graphify/document #graphify/EXTRACTED #community/C_Max_25_Production
+## Connections
+- [[C MAX 25% (MS 01-002232)]] - `references` [INFERRED]
+
+#graphify/document #graphify/INFERRED #community/C_MAX_25_MS_01-002232

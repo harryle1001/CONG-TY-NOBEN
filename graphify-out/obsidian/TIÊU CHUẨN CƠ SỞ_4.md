@@ -1,12 +1,12 @@
 ---
 source_file: "graphify-out/converted/6-F.X PURE_b673ec92.md"
 type: "document"
-community: "F.X Pure Standards"
+community: "NB-HELVIROL Liver Support"
 location: "L133"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/FX_Pure_Standards
+  - community/NB-HELVIROL_Liver_Support
 ---
 
 # TIÊU CHUẨN CƠ SỞ
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[CÔNG BỐ TIÊU CHUẨN CƠ SỞ_4]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/FX_Pure_Standards
+#graphify/document #graphify/EXTRACTED #community/NB-HELVIROL_Liver_Support

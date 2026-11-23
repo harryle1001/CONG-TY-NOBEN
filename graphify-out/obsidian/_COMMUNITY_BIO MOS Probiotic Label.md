@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[Nhãn sản phẩm BIO MOS]] - image - ho-so-san-pham/nhan/01-002241_1.jpg
-- [[Sản phẩm men vi sinh BIO MOS (Mã tiếp nhận 01-002241)]] - concept - ho-so-san-pham/nhan/01-002241_1.jpg
+- [[Công đoạn Pha chế  Phối trộn]] - concept - graphify-out/converted/HSO-LO-F.X-GLUBENCO_5c3cee60.md
+- [[Máy khuấy chiết rót (M1)]] - concept - graphify-out/converted/HSO-LO-F.X-GLUBENCO_5c3cee60.md
 
 ## Live Query (requires Dataview plugin)
 

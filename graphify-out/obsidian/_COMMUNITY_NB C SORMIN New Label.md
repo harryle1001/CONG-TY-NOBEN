@@ -1,17 +1,18 @@
 ---
 type: community
 cohesion: 1.00
-members: 2
+members: 3
 ---
 
 # NB C SORMIN New Label
 
 **Cohesion:** 1.00 - tightly connected
-**Members:** 2 nodes
+**Members:** 3 nodes
 
 ## Members
-- [[NB C SORMIN NEW Product Concept]] - concept - ho-so-san-pham/nhan/02-037653_1.jpg
-- [[Product label for NB C SORMIN NEW]] - image - ho-so-san-pham/nhan/02-037653_1.jpg
+- [[NB BIOBEST (MS 01-002239)]] - concept - ho-so-san-pham/data.json
+- [[Nhãn sản phẩm NB BIOBEST]] - image - ho-so-san-pham/nhan/01-002239_1.jpg
+- [[Sản phẩm bổ sung lợi khuẩn NB BIOBEST (Mã tiếp nhận 01-002239)]] - concept - ho-so-san-pham/nhan/01-002239_1.jpg
 
 ## Live Query (requires Dataview plugin)
 

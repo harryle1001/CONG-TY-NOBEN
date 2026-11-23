@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/San-pham/Zeo Bind.md"
 type: "document"
-community: "Business Activity Logs"
+community: "Production Quality Regulations"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Business_Activity_Logs
+  - community/Production_Quality_Regulations
 ---
 
 # Zeo Bind.md
@@ -24,4 +24,4 @@ tags:
 - [[Zeo Bind_1]] - `contains` [EXTRACTED]
 - [[Đại lý Cửu Long]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Business_Activity_Logs
+#graphify/document #graphify/EXTRACTED #community/Production_Quality_Regulations

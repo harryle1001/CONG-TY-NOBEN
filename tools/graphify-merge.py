@@ -28,8 +28,16 @@ for keep, spec in aliases.items():
         del nodes[d]
         merged += 1
 
+sys.path.insert(0, str(ROOT / "tools"))
+products = __import__("graphify-products")
+g["nodes"] = list(nodes.values())
+nodes, premap, plinks, pm, pl = products.apply(g)
+remap = {k: premap.get(v, v) for k, v in remap.items()} | premap
+merged += pm
+print(f"Sản phẩm: nhập {pm} nút trùng tên, nối {pl} tài liệu/ảnh/hồ sơ vào nút sản phẩm chuẩn.")
+
 seen, links = set(), []
-for e in g["links"]:
+for e in g["links"] + plinks:
     e["source"] = remap.get(e["source"], e["source"])
     e["target"] = remap.get(e["target"], e["target"])
     if e["source"] == e["target"]:

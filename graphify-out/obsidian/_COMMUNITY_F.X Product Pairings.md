@@ -1,17 +1,18 @@
 ---
 type: community
-cohesion: 1.00
-members: 2
+cohesion: 0.67
+members: 3
 ---
 
 # F.X Product Pairings
 
-**Cohesion:** 1.00 - tightly connected
-**Members:** 2 nodes
+**Cohesion:** 0.67 - moderately connected
+**Members:** 3 nodes
 
 ## Members
-- [[F.X GARLIC]] - code - HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf
-- [[F.X LIVER SUPPORT_1]] - code - HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf
+- [[Voice]] - code - jarvis-pro/ui/voice.js
+- [[caption()]] - code - jarvis-pro/ui/voice.js
+- [[voice.js]] - code - jarvis-pro/ui/voice.js
 
 ## Live Query (requires Dataview plugin)
 

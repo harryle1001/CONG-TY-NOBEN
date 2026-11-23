@@ -1,11 +1,11 @@
 ---
 source_file: "jarvis-pro/data/demo/Game/Đảo Phân Số.md"
 type: "concept"
-community: "Educational Curriculum Modules"
+community: "F.X Enzyme Specifications"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Educational_Curriculum_Modules
+  - community/FX_Enzyme_Specifications
 ---
 
 # Đảo Phân Số (Lớp 4)
@@ -14,4 +14,4 @@ tags:
 - [[Cảng Lịch Sử (Lớp 7)]] - `references` [EXTRACTED]
 - [[Thành Phố Từ Vựng (Lớp 6)]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Educational_Curriculum_Modules
+#graphify/concept #graphify/EXTRACTED #community/FX_Enzyme_Specifications

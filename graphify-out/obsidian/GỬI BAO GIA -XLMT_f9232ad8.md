@@ -1,12 +1,12 @@
 ---
 source_file: "graphify-out/converted/GỬI BAO GIA -XLMT_f9232ad8.md"
 type: "document"
-community: "Environmental Treatment Quotes"
+community: "YUCCA C Products"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Environmental_Treatment_Quotes
+  - community/YUCCA_C_Products
 ---
 
 # GỬI BAO GIA -XLMT_f9232ad8.md
@@ -15,4 +15,4 @@ tags:
 - [[Sheet THÀNH PHẦN -62 SP]] - `contains` [EXTRACTED]
 - [[Sheet XLMT-62 SP]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Environmental_Treatment_Quotes
+#graphify/document #graphify/EXTRACTED #community/YUCCA_C_Products

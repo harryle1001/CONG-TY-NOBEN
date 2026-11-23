@@ -1,19 +1,20 @@
 ---
 type: community
-cohesion: 0.50
-members: 4
+cohesion: 0.40
+members: 5
 ---
 
 # AP 79 Product Labels
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 0.40 - moderately connected
+**Members:** 5 nodes
 
 ## Members
-- [[AP 79 (Duc Viet)]] - concept - ho-so-san-pham/nhan/01-002237_2.jpg
-- [[AP 79 (Noben)]] - concept - ho-so-san-pham/nhan/01-002237_1.jpg
-- [[Product Label Image for AP 79 (Duc Viet Packaging)]] - image - ho-so-san-pham/nhan/01-002237_2.jpg
-- [[Product Label Image for AP 79 (Noben Packaging)]] - image - ho-so-san-pham/nhan/01-002237_1.jpg
+- [[Biên Bản Hiệu Chuẩn Nội Bộ (04092026)]] - document - graphify-out/converted/9. BIỂU MẪU đo lường_e649d715.md
+- [[Biên Bản Hiệu Chuẩn Nội Bộ (21092026)]] - document - graphify-out/converted/9. BIỂU MẪU đo lường_78be108a.md
+- [[Biểu mẫu giám sát đường ống & Biên bản khắc phục sự cố cấp nước 04092026]] - document - graphify-out/converted/2. BIỂU MẪU chất lượng nước_baa8e1cd.md
+- [[Biểu mẫu giám sát đường ống & Biên bản khắc phục sự cố cấp nước 21092026]] - document - graphify-out/converted/2. BIỂU MẪU chất lượng nước_bebef152.md
+- [[Phan Văn Teo_1]] - concept - graphify-out/converted/9. BIỂU MẪU đo lường_78be108a.md
 
 ## Live Query (requires Dataview plugin)
 

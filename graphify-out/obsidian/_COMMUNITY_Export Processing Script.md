@@ -1,17 +1,18 @@
 ---
 type: community
-cohesion: 1.00
-members: 2
+cohesion: 0.67
+members: 3
 ---
 
 # Export Processing Script
 
-**Cohesion:** 1.00 - tightly connected
-**Members:** 2 nodes
+**Cohesion:** 0.67 - moderately connected
+**Members:** 3 nodes
 
 ## Members
-- [[xuat_rieng_2109.sh]] - code - ho-so-lo/_build/xuat_rieng_2109.sh
-- [[xuat_rieng_2109.sh script]] - code - ho-so-lo/_build/xuat_rieng_2109.sh
+- [[Chỉnh sửa online]] - document - ho-so-san-pham/README.md
+- [[Hồ sơ nhãn & thông tin sản phẩm Noben]] - document - ho-so-san-pham/README.md
+- [[ho-so-san-phamREADME]] - document - ho-so-san-pham/README.md
 
 ## Live Query (requires Dataview plugin)
 

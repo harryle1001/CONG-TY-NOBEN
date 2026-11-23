@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/Khach-hang/HTX Rạch Gốc.md"
 type: "document"
-community: "Farm Incident Reports"
+community: "Đốm trắng.md"
 location: "L3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Farm_Incident_Reports
+  - community/Đốm_trắngmd
 ---
 
 # Đơn hàng
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[HTX Rạch Gốc_1]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Farm_Incident_Reports
+#graphify/document #graphify/EXTRACTED #community/Đốm_trắngmd

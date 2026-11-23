@@ -1,18 +1,18 @@
 ---
-source_file: "graphify-out/converted/2-F.X GARLIC_3177b419.md"
+source_file: "graphify-out/converted/5-F.X-GLUBENCO_fb021ceb.md"
 type: "document"
-community: "F.X Garlic Standards"
-location: "L12"
+community: "Lê Thị Lan Anh"
+location: "L11"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/FX_Garlic_Standards
+  - community/Lê_Thị_Lan_Anh
 ---
 
 # CÔNG BỐ TIÊU CHUẨN CƠ SỞ
 
 ## Connections
-- [[2-F.X GARLIC_3177b419]] - `contains` [EXTRACTED]
+- [[Công Bố Tiêu Chuẩn Cơ Sở F.X-GLUBENCO]] - `contains` [EXTRACTED]
 - [[TIÊU CHUẨN CƠ SỞ]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/FX_Garlic_Standards
+#graphify/document #graphify/EXTRACTED #community/Lê_Thị_Lan_Anh

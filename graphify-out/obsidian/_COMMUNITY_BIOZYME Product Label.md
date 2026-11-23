@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[BIOZYME Product]] - concept - ho-so-san-pham/nhan/01-028283_1.jpg
-- [[Product label for BIOZYME]] - image - ho-so-san-pham/nhan/01-028283_1.jpg
+- [[F.X GARLIC_1]] - code - HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf
+- [[F.X LIVER SUPPORT_1]] - code - HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf
 
 ## Live Query (requires Dataview plugin)
 

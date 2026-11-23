@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Product Profile Generator"
+community: "main.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Product_Profile_Generator
+  - community/mainpy
 ---
 
 # html
@@ -15,4 +15,4 @@ tags:
 - [[agentdata.py]] - `imports` [EXTRACTED]
 - [[ho-so-san-phambuild.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Product_Profile_Generator
+#graphify/concept #graphify/EXTRACTED #community/mainpy

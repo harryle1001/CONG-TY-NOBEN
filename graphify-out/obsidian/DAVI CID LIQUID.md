@@ -1,16 +1,16 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
-type: "concept"
-community: "Aquaculture Health Products"
+source_file: "graphify-out/converted/DANH-MUC-SAN-PHAM-NOBEN-TIM-2026_3cdf6192.md"
+type: "code"
+community: "DAVI CID liquid (MS 01-002228)"
 tags:
-  - graphify/concept
-  - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - graphify/code
+  - graphify/INFERRED
+  - community/DAVI_CID_liquid_MS_01-002228
 ---
 
 # DAVI CID LIQUID
 
 ## Connections
-- [[Thức ăn bổ sung]] - `conceptually_related_to` [EXTRACTED]
+- [[DAVI CID liquid (MS 01-002228)]] - `references` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/code #graphify/INFERRED #community/DAVI_CID_liquid_MS_01-002228

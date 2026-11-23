@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "code"
-community: "TAI-LIEU-KINH-DOANH/build.py"
+community: "Educational Knowledge Base"
 location: "L545"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/TAI-LIEU-KINH-DOANH/buildpy
+  - community/Educational_Knowledge_Base
 ---
 
 # to_pdf()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[TAI-LIEU-KINH-DOANHbuild.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy
+#graphify/code #graphify/EXTRACTED #community/Educational_Knowledge_Base

@@ -10,10 +10,10 @@ members: 4
 **Members:** 4 nodes
 
 ## Members
-- [[PRO ALGAE (Mã tiếp nhận 02-001533)]] - concept - ho-so-san-pham/nhan/02-001533_1.jpg
-- [[PRO ALGAE Chuyên Gia Xử Lý Đáy Ao (500g)]] - concept - ho-so-san-pham/nhan/02-001533_2.jpg
-- [[Product label image for PRO ALGAE (Design 1)]] - image - ho-so-san-pham/nhan/02-001533_1.jpg
-- [[Product packaging image for PRO ALGAE (500g)]] - image - ho-so-san-pham/nhan/02-001533_2.jpg
+- [[Công đoạn 1 Cân nguyên liệu]] - concept - graphify-out/converted/HSO-LO-F.X-GARLIC_c6dcc351.md
+- [[Công đoạn 2 Pha chế  Phối trộn]] - concept - graphify-out/converted/HSO-LO-F.X-GARLIC_c6dcc351.md
+- [[Công đoạn 3 Đóng gói cấp 1]] - concept - graphify-out/converted/HSO-LO-F.X-GARLIC_c6dcc351.md
+- [[Công đoạn 4 Đóng gói cấp 2]] - concept - graphify-out/converted/HSO-LO-F.X-GARLIC_c6dcc351.md
 
 ## Live Query (requires Dataview plugin)
 

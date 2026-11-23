@@ -1,16 +1,16 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/assets/tim-cutout/mix-79.webp"
 type: "image"
-community: "MIX 79 Packaging"
+community: "F.X Premix Standards"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/MIX_79_Packaging
+  - community/FX_Premix_Standards
 ---
 
 # Hình ảnh bao bì MIX 79
 
 ## Connections
-- [[Sản phẩm MIX 79]] - `references` [EXTRACTED]
+- [[MIX 79 (MS 02-002245)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/MIX_79_Packaging
+#graphify/image #graphify/EXTRACTED #community/FX_Premix_Standards

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/Ky-thuat/Khí độc NH3.md"
 type: "document"
-community: "Business Activity Logs"
+community: "Production Quality Regulations"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Business_Activity_Logs
+  - community/Production_Quality_Regulations
 ---
 
 # Khí độc NH3
@@ -19,4 +19,4 @@ tags:
 - [[Zeo Bind_1]] - `references` [EXTRACTED]
 - [[Đại lý Bến Tre Xanh_1]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Business_Activity_Logs
+#graphify/document #graphify/EXTRACTED #community/Production_Quality_Regulations

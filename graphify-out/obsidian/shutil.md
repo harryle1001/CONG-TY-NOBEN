@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Demo Data Generation"
+community: "generate_demo.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Demo_Data_Generation
+  - community/generate_demopy
 ---
 
 # shutil
@@ -16,4 +16,4 @@ tags:
 - [[generate_demo.py]] - `imports` [EXTRACTED]
 - [[main()]] - `calls` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Demo_Data_Generation
+#graphify/concept #graphify/EXTRACTED #community/generate_demopy

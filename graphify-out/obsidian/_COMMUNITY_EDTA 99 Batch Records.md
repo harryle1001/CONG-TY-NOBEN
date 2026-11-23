@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HSO EDTA 99 21.09.2026]] - document - ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HSO EDTA 99 21.09.2026.pdf
+- [[2. LỆNH SẢN XUẤT 21.09.2026_49dc7323]] - document - graphify-out/converted/2. LỆNH SẢN XUẤT 21.09.2026_49dc7323.md
 
 ## Live Query (requires Dataview plugin)
 

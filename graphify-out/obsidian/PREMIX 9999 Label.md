@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-002255_2.jpg"
 type: "image"
-community: "Premix 9999 Label Design"
+community: "PREMIX 9999 (MS 02-002255)"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Premix_9999_Label_Design
+  - graphify/INFERRED
+  - community/PREMIX_9999_MS_02-002255
 ---
 
 # PREMIX 9999 Label
 
-#graphify/image #graphify/EXTRACTED #community/Premix_9999_Label_Design
+## Connections
+- [[PREMIX 9999 (MS 02-002255)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/PREMIX_9999_MS_02-002255

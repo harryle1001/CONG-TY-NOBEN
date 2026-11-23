@@ -1,17 +1,18 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-001522_2.jpg"
 type: "concept"
-community: "HUFA Supplement Products"
+community: "HUFA (MS 01-001522)"
 tags:
   - graphify/concept
-  - graphify/EXTRACTED
-  - community/HUFA_Supplement_Products
+  - graphify/INFERRED
+  - community/HUFA_MS_01-001522
 ---
 
 # Sản phẩm HUFA Tăng Trọng - Kết Dính (Mã số tiếp nhận 01-001522)
 
 ## Connections
+- [[HUFA (MS 01-001522)]] - `references` [INFERRED]
+- [[HUFA (MS 01-001522)]] - `semantically_similar_to` [INFERRED]
 - [[Nhãn sản phẩm HUFA Tăng Trọng - Kết Dính (01-001522_2.jpg)]] - `references` [EXTRACTED]
-- [[Sản phẩm HUFA (Mã số tiếp nhận 01-001522)]] - `semantically_similar_to` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/HUFA_Supplement_Products
+#graphify/concept #graphify/INFERRED #community/HUFA_MS_01-001522

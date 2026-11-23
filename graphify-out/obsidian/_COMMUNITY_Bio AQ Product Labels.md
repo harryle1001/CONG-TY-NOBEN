@@ -1,19 +1,20 @@
 ---
 type: community
-cohesion: 0.50
-members: 4
+cohesion: 0.40
+members: 5
 ---
 
 # Bio AQ Product Labels
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 0.40 - moderately connected
+**Members:** 5 nodes
 
 ## Members
-- [[Bio AQ (Duc Viet)]] - concept - ho-so-san-pham/nhan/01-002235_1.jpg
-- [[Bio AQ (Noben)]] - concept - ho-so-san-pham/nhan/01-002235_2.jpg
-- [[Product Label Image for Bio AQ (Duc Viet Biotech Packaging)]] - image - ho-so-san-pham/nhan/01-002235_1.jpg
-- [[Product Label Image for Bio AQ (Noben Packaging)]] - image - ho-so-san-pham/nhan/01-002235_2.jpg
+- [[Biểu mẫu Thu gom & Giao nhận Rác thải nguy hại]] - concept - graphify-out/converted/12. BIỂU MẪU rác thải_a7a8bf49.md
+- [[Biểu mẫu Thu gom & Giao nhận Rác thải thông thường]] - concept - graphify-out/converted/12. BIỂU MẪU rác thải_a7a8bf49.md
+- [[Biểu mẫu quản lý rác thải 04092026 và 13062026]] - document - graphify-out/converted/12. BIỂU MẪU rác thải_a7a8bf49.md
+- [[Biểu mẫu quản lý rác thải 21092026]] - document - graphify-out/converted/12. BIỂU MẪU rác thải_f59403c7.md
+- [[Huỳnh Thị Mai Trúc_1]] - concept - graphify-out/converted/12. BIỂU MẪU rác thải_a7a8bf49.md
 
 ## Live Query (requires Dataview plugin)
 

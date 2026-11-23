@@ -1,16 +1,16 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/assets/tim-cutout/amin-care.webp"
 type: "image"
-community: "AMIN CARE Packaging"
+community: "AMIN CARE (MS 01-001525)"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/AMIN_CARE_Packaging
+  - community/AMIN_CARE_MS_01-001525
 ---
 
 # Hình ảnh bao bì AMIN CARE
 
 ## Connections
-- [[Sản phẩm AMIN CARE]] - `references` [EXTRACTED]
+- [[AMIN CARE (MS 01-001525)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/AMIN_CARE_Packaging
+#graphify/image #graphify/EXTRACTED #community/AMIN_CARE_MS_01-001525

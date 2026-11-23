@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HSO LÔ YUCCA 99 21.09.2026_1]] - document - ho-so-lo/pdf/HSO LÔ YUCCA 99 21.09.2026.pdf
+- [[6. BIỂU MẪUnhiễm chéo_4266181d]] - document - graphify-out/converted/6. BIỂU MẪUnhiễm chéo_4266181d.md
 
 ## Live Query (requires Dataview plugin)
 

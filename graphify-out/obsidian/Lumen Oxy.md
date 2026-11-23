@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/San-pham/Lumen Oxy.md"
 type: "document"
-community: "Farm Incident Reports"
+community: "Đốm trắng.md"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Farm_Incident_Reports
+  - community/Đốm_trắngmd
 ---
 
 # Lumen Oxy.md
@@ -20,4 +20,4 @@ tags:
 - [[Tảo tàn]] - `references` [EXTRACTED]
 - [[Đốm trắng]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Farm_Incident_Reports
+#graphify/document #graphify/EXTRACTED #community/Đốm_trắngmd

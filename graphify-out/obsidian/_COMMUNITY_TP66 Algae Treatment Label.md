@@ -1,17 +1,18 @@
 ---
 type: community
 cohesion: 1.00
-members: 2
+members: 3
 ---
 
 # TP66 Algae Treatment Label
 
 **Cohesion:** 1.00 - tightly connected
-**Members:** 2 nodes
+**Members:** 3 nodes
 
 ## Members
-- [[TP66 (TCCS 082026NOBEN)]] - concept - ho-so-san-pham/nhan/02-063617_1.jpg
-- [[TP66 Algae Treatment Product Label]] - image - ho-so-san-pham/nhan/02-063617_1.jpg
+- [[BIO MOS (MS 01-002241)]] - concept - ho-so-san-pham/data.json
+- [[Nhãn sản phẩm BIO MOS]] - image - ho-so-san-pham/nhan/01-002241_1.jpg
+- [[Sản phẩm men vi sinh BIO MOS (Mã tiếp nhận 01-002241)]] - concept - ho-so-san-pham/nhan/01-002241_1.jpg
 
 ## Live Query (requires Dataview plugin)
 

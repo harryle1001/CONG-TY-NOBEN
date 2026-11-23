@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-020767_1.jpg"
 type: "image"
-community: "Ben Xid 3000 Label"
+community: "BEN XID 3000 (MS 02-020767)"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Ben_Xid_3000_Label
+  - graphify/INFERRED
+  - community/BEN_XID_3000_MS_02-020767
 ---
 
 # BEN XID 3000 Label 1
 
-#graphify/image #graphify/EXTRACTED #community/Ben_Xid_3000_Label
+## Connections
+- [[BEN XID 3000 (MS 02-020767)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/BEN_XID_3000_MS_02-020767

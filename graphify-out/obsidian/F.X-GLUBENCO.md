@@ -1,17 +1,16 @@
 ---
-source_file: "TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf"
-type: "code"
-community: "F.X-GLUBENCO Compliance"
+source_file: "graphify-out/converted/5-F.X-GLUBENCO_fb021ceb.md"
+type: "concept"
+community: "Lê Thị Lan Anh"
 tags:
-  - graphify/code
+  - graphify/concept
   - graphify/EXTRACTED
-  - community/FX-GLUBENCO_Compliance
+  - community/Lê_Thị_Lan_Anh
 ---
 
 # F.X-GLUBENCO
 
 ## Connections
-- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
-- [[QCVN 972025BNNMT]] - `references` [EXTRACTED]
+- [[Công Bố Tiêu Chuẩn Cơ Sở F.X-GLUBENCO]] - `references` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/FX-GLUBENCO_Compliance
+#graphify/concept #graphify/EXTRACTED #community/Lê_Thị_Lan_Anh

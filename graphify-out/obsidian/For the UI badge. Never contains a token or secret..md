@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "rationale"
-community: "google_source"
+community: "norm"
 location: "L603"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/google_source
+  - community/norm
 ---
 
 # For the UI badge. Never contains a token or secret.
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[google_status()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/google_source
+#graphify/rationale #graphify/EXTRACTED #community/norm

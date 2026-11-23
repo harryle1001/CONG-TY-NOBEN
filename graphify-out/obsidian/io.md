@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "TAI-LIEU-KINH-DOANH/build.py"
+community: "Educational Knowledge Base"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/TAI-LIEU-KINH-DOANH/buildpy
+  - community/Educational_Knowledge_Base
 ---
 
 # io
@@ -15,4 +15,4 @@ tags:
 - [[agentdata.py]] - `imports` [EXTRACTED]
 - [[img64()]] - `calls` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy
+#graphify/concept #graphify/EXTRACTED #community/Educational_Knowledge_Base

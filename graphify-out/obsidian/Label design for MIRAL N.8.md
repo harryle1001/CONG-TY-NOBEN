@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-026750_1.jpg"
 type: "image"
-community: "Miral N.8 Label Design"
+community: "Label design for MIRAL N.8"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Miral_N8_Label_Design
+  - graphify/INFERRED
+  - community/Label_design_for_MIRAL_N8
 ---
 
 # Label design for MIRAL N.8
 
-#graphify/image #graphify/EXTRACTED #community/Miral_N8_Label_Design
+## Connections
+- [[MIRAL N.8 (MS 02-026750)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/Label_design_for_MIRAL_N8

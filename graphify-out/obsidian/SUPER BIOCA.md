@@ -1,16 +1,16 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
-type: "concept"
-community: "Aquaculture Health Products"
+source_file: "graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md"
+type: "code"
+community: "Chế phẩm sinh học & Hóa chất"
 tags:
-  - graphify/concept
-  - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - graphify/code
+  - graphify/INFERRED
+  - community/Chế_phẩm_sinh_học__Hóa_chất
 ---
 
 # SUPER BIOCA
 
 ## Connections
-- [[Chế phẩm sinh học & Hóa chất]] - `conceptually_related_to` [EXTRACTED]
+- [[SUPER BIOCA (MS 02-000893)]] - `references` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/code #graphify/INFERRED #community/Chế_phẩm_sinh_học__Hóa_chất

@@ -1,19 +1,21 @@
 ---
 type: community
-cohesion: 0.50
-members: 4
+cohesion: 0.33
+members: 6
 ---
 
 # Aqua C Supplements
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 0.33 - loosely connected
+**Members:** 6 nodes
 
 ## Members
-- [[Aqua C 30%]] - concept - ho-so-san-pham/nhan/01-002231_1.jpg
-- [[C Max 25%]] - concept - ho-so-san-pham/nhan/01-002232_1.jpg
-- [[Product Label Image for Aqua C 30%]] - image - ho-so-san-pham/nhan/01-002231_1.jpg
-- [[Product Label Image for C Max 25%]] - image - ho-so-san-pham/nhan/01-002232_1.jpg
+- [[How you speak]] - document - jarvis-pro/agent/prompt.md
+- [[Rules no phrasing overrides]] - document - jarvis-pro/agent/prompt.md
+- [[What you remember (memory, newest first)]] - document - jarvis-pro/agent/prompt.md
+- [[When to use tools]] - document - jarvis-pro/agent/prompt.md
+- [[Who sir is (CLAUDE.md)]] - document - jarvis-pro/agent/prompt.md
+- [[prompt]] - document - jarvis-pro/agent/prompt.md
 
 ## Live Query (requires Dataview plugin)
 

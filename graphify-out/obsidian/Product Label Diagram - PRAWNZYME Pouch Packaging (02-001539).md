@@ -1,16 +1,17 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-001539_2.jpg"
 type: "image"
-community: "PRAWNZYME Probiotic Product"
+community: "Nhóm Chế phẩm sinh học & hóa chất"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/PRAWNZYME_Probiotic_Product
+  - graphify/INFERRED
+  - community/Nhóm_Chế_phẩm_sinh_học__hóa_chất
 ---
 
 # Product Label Diagram - PRAWNZYME Pouch Packaging (02-001539)
 
 ## Connections
+- [[PRAWNZYME (MS 02-001539)]] - `references` [INFERRED]
 - [[PRAWNZYME Pouch Packaging Design]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/PRAWNZYME_Probiotic_Product
+#graphify/image #graphify/INFERRED #community/Nhóm_Chế_phẩm_sinh_học__hóa_chất

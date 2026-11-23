@@ -1,13 +1,16 @@
 ---
 source_file: "THÔNG BÁO HỢP QUY/TB HQ-4904.pdf"
 type: "code"
-community: "Mega Cid New Info"
+community: "MEGA CID NEW (MS 01-061789)"
 tags:
   - graphify/code
-  - graphify/EXTRACTED
-  - community/Mega_Cid_New_Info
+  - graphify/INFERRED
+  - community/MEGA_CID_NEW_MS_01-061789
 ---
 
 # MEGA CID NEW
 
-#graphify/code #graphify/EXTRACTED #community/Mega_Cid_New_Info
+## Connections
+- [[MEGA CID NEW (MS 01-061789)]] - `references` [INFERRED]
+
+#graphify/code #graphify/INFERRED #community/MEGA_CID_NEW_MS_01-061789

@@ -1,23 +1,26 @@
 ---
 type: community
-cohesion: 0.25
-members: 8
+cohesion: 0.18
+members: 11
 ---
 
 # EDTA Product Specifications
 
-**Cohesion:** 0.25 - loosely connected
-**Members:** 8 nodes
+**Cohesion:** 0.18 - loosely connected
+**Members:** 11 nodes
 
 ## Members
-- [[EDTA 99 Product Specifications (02-002251)]] - concept - ho-so-san-pham/nhan/02-002251_1.jpg
-- [[EDTA 99 Product Variant 3 Tac Dung (02-002251)]] - concept - ho-so-san-pham/nhan/02-002251_2.jpg
-- [[EDTA 99 Product Variant Details (02-002251)]] - concept - ho-so-san-pham/nhan/02-002251_4.jpg
-- [[EDTA 99 Product Variant Sieu Lang (02-002251)]] - concept - ho-so-san-pham/nhan/02-002251_3.jpg
-- [[Product Label Image - EDTA 99 (1kg2kg5kg)]] - image - ho-so-san-pham/nhan/02-002251_2.jpg
-- [[Product Label Image - EDTA 99 (3kg)]] - image - ho-so-san-pham/nhan/02-002251_1.jpg
-- [[Product Label Image - EDTA 99 (3kg5kg)]] - image - ho-so-san-pham/nhan/02-002251_3.jpg
-- [[Product Label Image - EDTA 99 (Detailed Specifications)]] - image - ho-so-san-pham/nhan/02-002251_4.jpg
+- [[Prefer textplain; fall back to texthtml stripped to text.]] - rationale - jarvis-pro/agent/data.py
+- [[Title written inside the file markdown front-matter  first H1, HTML title …]] - rationale - jarvis-pro/agent/vault.py
+- [[_b64text()]] - code - jarvis-pro/agent/data.py
+- [[_cached()]] - code - jarvis-pro/agent/data.py
+- [[_gmail_body()]] - code - jarvis-pro/agent/data.py
+- [[_gmail_inbox()]] - code - jarvis-pro/agent/data.py
+- [[fetch()_1]] - code - jarvis-pro/agent/data.py
+- [[html_text()]] - code - jarvis-pro/agent/data.py
+- [[one()]] - code - jarvis-pro/agent/data.py
+- [[title_from()]] - code - jarvis-pro/agent/vault.py
+- [[walk()]] - code - jarvis-pro/agent/data.py
 
 ## Live Query (requires Dataview plugin)
 
@@ -25,3 +28,17 @@ members: 8
 TABLE source_file, type FROM #community/EDTA_Product_Specifications
 SORT file.name ASC
 ```
+
+## Connections to other communities
+- 6 edges to [[_COMMUNITY_Document Extraction Tools]]
+- 4 edges to [[_COMMUNITY_norm]]
+- 1 edge to [[_COMMUNITY_SORBEST]]
+- 1 edge to [[_COMMUNITY_re]]
+- 1 edge to [[_COMMUNITY_main.py]]
+
+## Top bridge nodes
+- [[title_from()]] - degree 5, connects to 3 communities
+- [[html_text()]] - degree 5, connects to 2 communities
+- [[_gmail_inbox()]] - degree 4, connects to 2 communities
+- [[_cached()]] - degree 3, connects to 2 communities
+- [[_gmail_body()]] - degree 5, connects to 1 community

@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[CLEAR 12H Label]] - image - ho-so-san-pham/nhan/02-014385_1.jpg
+- [[8. BIỂU MẪU QTSX_0799f2b7]] - document - graphify-out/converted/8. BIỂU MẪU QTSX_0799f2b7.md
 
 ## Live Query (requires Dataview plugin)
 

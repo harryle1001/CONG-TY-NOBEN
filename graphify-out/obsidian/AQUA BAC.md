@@ -1,16 +1,16 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
-type: "concept"
-community: "Aquaculture Health Products"
+source_file: "graphify-out/converted/DANH-MUC-SAN-PHAM-NOBEN-TIM-2026_3cdf6192.md"
+type: "code"
+community: "Chế phẩm sinh học & Hóa chất"
 tags:
-  - graphify/concept
-  - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - graphify/code
+  - graphify/INFERRED
+  - community/Chế_phẩm_sinh_học__Hóa_chất
 ---
 
 # AQUA BAC
 
 ## Connections
-- [[Chế phẩm sinh học & Hóa chất]] - `conceptually_related_to` [EXTRACTED]
+- [[AQUA BAC (MS 02-000896)]] - `references` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/code #graphify/INFERRED #community/Chế_phẩm_sinh_học__Hóa_chất

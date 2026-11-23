@@ -1,14 +1,18 @@
 ---
 source_file: "graphify-out/converted/HO-SO-LO-BZT-21.09.2026_408afa05.md"
 type: "document"
-community: "BZT Batch Records"
+community: "BEN COPPER 500 (MS 02-001532)"
 location: "L1"
 tags:
   - graphify/document
-  - graphify/EXTRACTED
-  - community/BZT_Batch_Records
+  - graphify/INFERRED
+  - community/BEN_COPPER_500_MS_02-001532
 ---
 
 # HO-SO-LO-BZT-21.09.2026_408afa05.md
 
-#graphify/document #graphify/EXTRACTED #community/BZT_Batch_Records
+## Connections
+- [[BZT (MS 02-001534)]] - `references` [INFERRED]
+- [[HO-SO-LO-BEN-COPPER-500-21.09.2026_1adb3b30]] - `conceptually_related_to` [INFERRED]
+
+#graphify/document #graphify/INFERRED #community/BEN_COPPER_500_MS_02-001532

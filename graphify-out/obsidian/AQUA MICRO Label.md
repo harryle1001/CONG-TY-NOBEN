@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-020766_1.jpg"
 type: "image"
-community: "Aqua Micro Label Design"
+community: "AQUA MICRO Label"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Aqua_Micro_Label_Design
+  - graphify/INFERRED
+  - community/AQUA_MICRO_Label
 ---
 
 # AQUA MICRO Label
 
-#graphify/image #graphify/EXTRACTED #community/Aqua_Micro_Label_Design
+## Connections
+- [[AQUA MICRO (MS 02-020766)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/AQUA_MICRO_Label

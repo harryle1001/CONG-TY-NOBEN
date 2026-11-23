@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/San-pham/Delta Yucca.md"
 type: "document"
-community: "Daily Activity Notes"
+community: "Client Order Management"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Daily_Activity_Notes
+  - community/Client_Order_Management
 ---
 
 # Delta Yucca
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Delta Yucca]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Daily_Activity_Notes
+#graphify/document #graphify/EXTRACTED #community/Client_Order_Management

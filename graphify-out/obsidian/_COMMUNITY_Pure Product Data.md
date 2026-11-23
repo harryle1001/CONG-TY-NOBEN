@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[F.X PURE]] - code - HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf
+- [[2. BIỂU MẪU chất lượng nước_baa8e1cd]] - document - graphify-out/converted/2. BIỂU MẪU chất lượng nước_baa8e1cd.md
 
 ## Live Query (requires Dataview plugin)
 

@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[Product Label Image for ProticBest]] - image - ho-so-san-pham/nhan/01-001545_1.jpg
-- [[ProticBest (Probiotic Digestive Supplement for Aquatic Animals)]] - concept - ho-so-san-pham/nhan/01-001545_1.jpg
+- [[DM 7 SP NOBEN - TCCS (da cap nhat so)_0d0fb34e]] - document - graphify-out/converted/DM 7 SP NOBEN - TCCS (da cap nhat so)_0d0fb34e.md
+- [[Sheet DM 7 SP]] - document - graphify-out/converted/DM 7 SP NOBEN - TCCS (da cap nhat so)_0d0fb34e.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -19,9 +19,3 @@ members: 2
 TABLE source_file, type FROM #community/ProticBest_Digestive_Supplement_Label
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[ProticBest (Probiotic Digestive Supplement for Aquatic Animals)]] - degree 2, connects to 1 community

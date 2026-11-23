@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "Product Profile Generator"
+community: "main.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Product_Profile_Generator
+  - community/mainpy
 ---
 
 # datetime
@@ -18,4 +18,4 @@ tags:
 - [[mot_file.py]] - `imports` [EXTRACTED]
 - [[tools.py]] - `imports` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Product_Profile_Generator
+#graphify/concept #graphify/EXTRACTED #community/mainpy

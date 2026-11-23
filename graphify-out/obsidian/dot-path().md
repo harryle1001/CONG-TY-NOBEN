@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/vault.py"
 type: "code"
-community: "Data Parsing Utilities"
+community: "SORBEST"
 location: "L247"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Data_Parsing_Utilities
+  - community/SORBEST
 ---
 
 # .path()
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Vault]] - `method` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities
+#graphify/code #graphify/EXTRACTED #community/SORBEST

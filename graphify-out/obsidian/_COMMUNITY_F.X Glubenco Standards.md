@@ -1,18 +1,20 @@
 ---
 type: community
-cohesion: 0.67
-members: 3
+cohesion: 0.70
+members: 5
 ---
 
 # F.X Glubenco Standards
 
-**Cohesion:** 0.67 - moderately connected
-**Members:** 3 nodes
+**Cohesion:** 0.70 - tightly connected
+**Members:** 5 nodes
 
 ## Members
-- [[5-F.X-GLUBENCO_fb021ceb]] - document - graphify-out/converted/5-F.X-GLUBENCO_fb021ceb.md
-- [[CÔNG BỐ TIÊU CHUẨN CƠ SỞ_3]] - document - graphify-out/converted/5-F.X-GLUBENCO_fb021ceb.md
-- [[TIÊU CHUẨN CƠ SỞ_3]] - document - graphify-out/converted/5-F.X-GLUBENCO_fb021ceb.md
+- [[PREMIX 10.000 (MS 02-002248)]] - concept - ho-so-san-pham/data.json
+- [[PREMIX 10.000 Bag Packaging Design]] - concept - ho-so-san-pham/nhan/02-002248_2.jpg
+- [[Premix 10.000 Mineral Supplement]] - concept - ho-so-san-pham/nhan/02-002248_1.jpg
+- [[Product Label Diagram - PREMIX 10.000 Bag Packaging (02-002248)]] - image - ho-so-san-pham/nhan/02-002248_2.jpg
+- [[Product Label Diagram - Premix 10.000 (02-002248)]] - image - ho-so-san-pham/nhan/02-002248_1.jpg
 
 ## Live Query (requires Dataview plugin)
 

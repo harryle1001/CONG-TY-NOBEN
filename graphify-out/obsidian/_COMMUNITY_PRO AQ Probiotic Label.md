@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[Nhãn sản phẩm PRO AQ]] - image - ho-so-san-pham/nhan/01-028280_1.jpg
-- [[Sản phẩm vi sinh PRO AQ (Mã tiếp nhận 01-028280)]] - concept - ho-so-san-pham/nhan/01-028280_1.jpg
+- [[xuat_rieng_2109.sh]] - code - ho-so-lo/_build/xuat_rieng_2109.sh
+- [[xuat_rieng_2109.sh script]] - code - ho-so-lo/_build/xuat_rieng_2109.sh
 
 ## Live Query (requires Dataview plugin)
 

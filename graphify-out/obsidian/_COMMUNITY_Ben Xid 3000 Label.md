@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[BEN XID 3000 Label 1]] - image - ho-so-san-pham/nhan/02-020767_1.jpg
+- [[AQUABZ]] - code - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

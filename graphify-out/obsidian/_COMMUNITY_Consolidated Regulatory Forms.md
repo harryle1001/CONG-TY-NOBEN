@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[BIEU-MAU-2-12-GOP-21.09.2026_49e60307]] - document - graphify-out/converted/BIEU-MAU-2-12-GOP-21.09.2026_49e60307.md
+- [[Price List vs TCCS Comparison]] - document - 38 TCCS-TA tccs/Doi chieu bao gia - TCCS.html
 
 ## Live Query (requires Dataview plugin)
 

@@ -10,9 +10,9 @@ members: 3
 **Members:** 3 nodes
 
 ## Members
-- [[Beta 1.3-1.6 Glucan  Ben Glucan Plus]] - concept - ho-so-san-pham/nhan/01-001530_1.jpg
-- [[Nhãn sản phẩm Beta 1.3-1.6 Glucan - Mẫu 1 (Mã tiếp nhận 01-001530)]] - image - ho-so-san-pham/nhan/01-001530_1.jpg
-- [[Nhãn sản phẩm Beta 1.3-1.6 Glucan Ben Glucan Plus (Mã tiếp nhận 01-001530)]] - image - ho-so-san-pham/nhan/01-001530_2.jpg
+- [[Lê Thị Uyên Sa_1]] - concept - graphify-out/converted/5. BIỂU MẪU Thành phẩm_266693a6.md
+- [[Phiếu Xuất Kho Thành Phẩm (Tháng 092026)]] - document - graphify-out/converted/5. BIỂU MẪU Thành phẩm_266693a6.md
+- [[Phiếu Xuất Kho Thành Phẩm (Tháng 102026)]] - document - graphify-out/converted/5. BIỂU MẪU Thành phẩm_30f844f6.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -20,9 +20,3 @@ members: 3
 TABLE source_file, type FROM #community/Glucan_Supplement_Products
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[Beta 1.3-1.6 Glucan  Ben Glucan Plus]] - degree 3, connects to 1 community

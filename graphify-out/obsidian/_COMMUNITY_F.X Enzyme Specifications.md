@@ -1,19 +1,20 @@
 ---
 type: community
-cohesion: 0.50
-members: 4
+cohesion: 0.70
+members: 5
 ---
 
 # F.X Enzyme Specifications
 
-**Cohesion:** 0.50 - moderately connected
-**Members:** 4 nodes
+**Cohesion:** 0.70 - tightly connected
+**Members:** 5 nodes
 
 ## Members
-- [[F.X ENZYME Product Specification]] - concept - ho-so-san-pham/nhan/01-061787_1.jpg
-- [[F.X ENZYME Viet Nga Distributed Edition]] - concept - ho-so-san-pham/nhan/01-061787_2.jpg
-- [[Label artwork for F.X ENZYME]] - image - ho-so-san-pham/nhan/01-061787_1.jpg
-- [[Label photo for F.X ENZYME (Viet Nga Distributor)]] - image - ho-so-san-pham/nhan/01-061787_2.jpg
+- [[Cảng Lịch Sử (Lớp 7)]] - concept - jarvis-pro/data/demo/Game/Cảng Lịch Sử.md
+- [[Hang Động Vật Lý (Lớp 7)]] - concept - jarvis-pro/data/demo/Game/Hang Động Vật Lý.md
+- [[Rừng Hình Học (Lớp 9)]] - concept - jarvis-pro/data/demo/Game/Rừng Hình Học.md
+- [[Thành Phố Từ Vựng (Lớp 6)]] - concept - jarvis-pro/data/demo/Game/Thành Phố Từ Vựng.md
+- [[Đảo Phân Số (Lớp 4)]] - concept - jarvis-pro/data/demo/Game/Đảo Phân Số.md
 
 ## Live Query (requires Dataview plugin)
 

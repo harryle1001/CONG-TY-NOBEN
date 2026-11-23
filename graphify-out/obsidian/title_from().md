@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/vault.py"
 type: "code"
-community: "re"
+community: "EDTA Product Specifications"
 location: "L50"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/re
+  - community/EDTA_Product_Specifications
 ---
 
 # title_from()
@@ -18,4 +18,4 @@ tags:
 - [[re]] - `calls` [EXTRACTED]
 - [[vault.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/re
+#graphify/code #graphify/EXTRACTED #community/EDTA_Product_Specifications

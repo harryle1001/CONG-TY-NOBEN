@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[ROVABIO AP Label]] - image - ho-so-san-pham/nhan/02-020757_1.jpg
+- [[9. BIỂU MẪU đo lường_e649d715]] - document - graphify-out/converted/9. BIỂU MẪU đo lường_e649d715.md
 
 ## Live Query (requires Dataview plugin)
 

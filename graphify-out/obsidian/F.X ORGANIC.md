@@ -1,13 +1,16 @@
 ---
 source_file: "THÔNG BÁO HỢP QUY/TB HQ-4904.pdf"
 type: "code"
-community: "F.X Organic Product Info"
+community: "F.X ORGANIC (MS 01-061785)"
 tags:
   - graphify/code
-  - graphify/EXTRACTED
-  - community/FX_Organic_Product_Info
+  - graphify/INFERRED
+  - community/FX_ORGANIC_MS_01-061785
 ---
 
 # F.X ORGANIC
 
-#graphify/code #graphify/EXTRACTED #community/FX_Organic_Product_Info
+## Connections
+- [[F.X ORGANIC (MS 01-061785)]] - `references` [INFERRED]
+
+#graphify/code #graphify/INFERRED #community/FX_ORGANIC_MS_01-061785

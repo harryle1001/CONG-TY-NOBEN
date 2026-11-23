@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "concept"
-community: "google_auth.py"
+community: "main.py"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/google_authpy
+  - community/mainpy
 ---
 
 # collections
@@ -14,4 +14,4 @@ tags:
 - [[main.py]] - `imports_from` [EXTRACTED]
 - [[vault.py]] - `imports_from` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/google_authpy
+#graphify/concept #graphify/EXTRACTED #community/mainpy

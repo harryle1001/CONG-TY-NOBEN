@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HO-SO-LO-C-MAX-25-21.09.2026_00a438f2]] - document - graphify-out/converted/HO-SO-LO-C-MAX-25-21.09.2026_00a438f2.md
+- [[CANXI-MILK]] - code - graphify-out/converted/DANH MỤC CÔNG TY TNHH THỦY SẢN VIỆT_1cc05715.md
 
 ## Live Query (requires Dataview plugin)
 

@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-001543_1.jpg"
 type: "image"
-community: "Hi-Weigh (Bổ sung đạm, vitamin, khoáng chất)"
+community: "Công ty TNHH No Ben (TS790020)"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/Hi-Weigh_Bổ_sung_đạm_vitamin_khoáng_chất
+  - community/Công_ty_TNHH_No_Ben_TS790020
 ---
 
 # Nhãn sản phẩm Hi-Weigh (Mã tiếp nhận: 01-001543)
 
 ## Connections
-- [[Hi-Weigh (Bổ sung đạm, vitamin, khoáng chất)]] - `references` [EXTRACTED]
+- [[HI-WEIGH (MS 01-001543)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/Hi-Weigh_Bổ_sung_đạm_vitamin_khoáng_chất
+#graphify/image #graphify/EXTRACTED #community/Công_ty_TNHH_No_Ben_TS790020

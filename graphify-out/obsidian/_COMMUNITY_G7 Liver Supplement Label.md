@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[G7 (Bổ gan, giải độc gan)]] - concept - ho-so-san-pham/nhan/01-001531_1.jpg
-- [[Nhãn sản phẩm G7 (Mã tiếp nhận 01-001531)]] - image - ho-so-san-pham/nhan/01-001531_1.jpg
+- [[1-DM 116 SP HCHQ 2025 1_6f02c5af]] - document - graphify-out/converted/1-DM 116 SP HCHQ 2025 1_6f02c5af.md
+- [[Sheet 116-SP -HCHQ  2025]] - document - graphify-out/converted/1-DM 116 SP HCHQ 2025 1_6f02c5af.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -19,9 +19,3 @@ members: 2
 TABLE source_file, type FROM #community/G7_Liver_Supplement_Label
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[G7 (Bổ gan, giải độc gan)]] - degree 2, connects to 1 community

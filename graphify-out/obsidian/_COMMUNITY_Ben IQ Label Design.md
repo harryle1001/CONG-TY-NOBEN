@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[BEN IQ Label]] - image - ho-so-san-pham/nhan/02-008940_1.jpg
+- [[7. BIỂU MẪU spkph_c06fb129]] - document - graphify-out/converted/7. BIỂU MẪU spkph_c06fb129.md
 
 ## Live Query (requires Dataview plugin)
 

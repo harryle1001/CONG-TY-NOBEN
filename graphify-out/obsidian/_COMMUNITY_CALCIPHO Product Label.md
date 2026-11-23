@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[CALCIPHO Product]] - concept - ho-so-san-pham/nhan/01-028281_1.jpg
-- [[Product label for CALCIPHO]] - image - ho-so-san-pham/nhan/01-028281_1.jpg
+- [[_builddata.py]] - code - HO-SO-LO-FX/_build/data.py
+- [[spec()]] - code - HO-SO-LO-FX/_build/data.py
 
 ## Live Query (requires Dataview plugin)
 

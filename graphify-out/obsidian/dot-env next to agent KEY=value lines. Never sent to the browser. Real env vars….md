@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/main.py"
 type: "rationale"
-community: "google_auth.py"
+community: "main.py"
 location: "L15"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/google_authpy
+  - community/mainpy
 ---
 
 # .env next to agent/: KEY=value lines. Never sent to the browser. Real env vars…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[load_env()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/google_authpy
+#graphify/rationale #graphify/EXTRACTED #community/mainpy

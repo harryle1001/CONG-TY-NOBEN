@@ -1,11 +1,11 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
 type: "concept"
-community: "Aquaculture Product Pricing"
+community: "Nhóm Chế phẩm sinh học & hóa chất"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Aquaculture_Product_Pricing
+  - community/Nhóm_Chế_phẩm_sinh_học__hóa_chất
 ---
 
 # BENXID 300 (Catalogue)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Nhóm Chế phẩm sinh học & hóa chất]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Product_Pricing
+#graphify/concept #graphify/EXTRACTED #community/Nhóm_Chế_phẩm_sinh_học__hóa_chất

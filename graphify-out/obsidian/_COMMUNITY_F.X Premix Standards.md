@@ -1,18 +1,21 @@
 ---
 type: community
-cohesion: 0.67
-members: 3
+cohesion: 0.53
+members: 6
 ---
 
 # F.X Premix Standards
 
-**Cohesion:** 0.67 - moderately connected
-**Members:** 3 nodes
+**Cohesion:** 0.53 - moderately connected
+**Members:** 6 nodes
 
 ## Members
-- [[4-F.X PREMIX MILK_4a422751]] - document - graphify-out/converted/4-F.X PREMIX MILK_4a422751.md
-- [[CÔNG BỐ TIÊU CHUẨN CƠ SỞ_2]] - document - graphify-out/converted/4-F.X PREMIX MILK_4a422751.md
-- [[TIÊU CHUẨN CƠ SỞ_2]] - document - graphify-out/converted/4-F.X PREMIX MILK_4a422751.md
+- [[Hình ảnh bao bì MIX 79]] - image - TAI-LIEU-KINH-DOANH/assets/tim-cutout/mix-79.webp
+- [[MIX 79 (MS 02-002245)]] - concept - ho-so-san-pham/data.json
+- [[MIX 79 Bag Packaging Design]] - concept - ho-so-san-pham/nhan/02-002245_2.jpg
+- [[MIX 79 Mineral Supplement]] - concept - ho-so-san-pham/nhan/02-002245_1.jpg
+- [[Product Label Diagram - MIX 79 (02-002245)]] - image - ho-so-san-pham/nhan/02-002245_1.jpg
+- [[Product Label Diagram - MIX 79 Bag Packaging (02-002245)]] - image - ho-so-san-pham/nhan/02-002245_2.jpg
 
 ## Live Query (requires Dataview plugin)
 

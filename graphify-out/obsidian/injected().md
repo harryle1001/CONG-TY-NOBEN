@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/tools.py"
 type: "code"
-community: "Agent Tooling Framework"
+community: "norm"
 location: "L16"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Agent_Tooling_Framework
+  - community/norm
 ---
 
 # injected()
@@ -19,4 +19,4 @@ tags:
 - [[norm()]] - `calls` [EXTRACTED]
 - [[tools.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework
+#graphify/code #graphify/EXTRACTED #community/norm

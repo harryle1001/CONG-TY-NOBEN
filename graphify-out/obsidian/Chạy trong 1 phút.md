@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/README.md"
 type: "document"
-community: "Jarvis Assistant Configuration"
+community: "Liver Support Products"
 location: "L8"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Jarvis_Assistant_Configuration
+  - community/Liver_Support_Products
 ---
 
 # Chạy trong 1 phút
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[J.A.R.V.I.S. — trợ lý giọng nói riêng]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Jarvis_Assistant_Configuration
+#graphify/document #graphify/EXTRACTED #community/Liver_Support_Products

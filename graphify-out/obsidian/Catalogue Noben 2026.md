@@ -1,11 +1,11 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
 type: "document"
-community: "Aquaculture Health Products"
+community: "PREMIX KHOÁNG (MS 01-001523)"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - community/PREMIX_KHOÁNG_MS_01-001523
 ---
 
 # Catalogue Noben 2026
@@ -15,4 +15,4 @@ tags:
 - [[Khoáng chất]] - `references` [EXTRACTED]
 - [[Thức ăn bổ sung]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/document #graphify/EXTRACTED #community/PREMIX_KHOÁNG_MS_01-001523

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/AI/Gói AI cho SME.md"
 type: "document"
-community: "AI Standardization Framework"
+community: "Jarvis Assistant Configuration"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/AI_Standardization_Framework
+  - community/Jarvis_Assistant_Configuration
 ---
 
 # Gói AI cho SME.md
@@ -19,4 +19,4 @@ tags:
 - [[Trại cá Tân Hưng]] - `references` [EXTRACTED]
 - [[Đại lý Bến Tre Xanh]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/AI_Standardization_Framework
+#graphify/document #graphify/EXTRACTED #community/Jarvis_Assistant_Configuration

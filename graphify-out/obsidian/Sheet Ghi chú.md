@@ -1,12 +1,12 @@
 ---
 source_file: "graphify-out/converted/Danh-muc-104-san-pham-Noben_d87bebfe.md"
 type: "document"
-community: "Product Catalog Summary"
+community: "F.X Product Standards"
 location: "L112"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Product_Catalog_Summary
+  - community/FX_Product_Standards
 ---
 
 # Sheet: Ghi chú
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Danh-muc-104-san-pham-Noben_d87bebfe]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Product_Catalog_Summary
+#graphify/document #graphify/EXTRACTED #community/FX_Product_Standards

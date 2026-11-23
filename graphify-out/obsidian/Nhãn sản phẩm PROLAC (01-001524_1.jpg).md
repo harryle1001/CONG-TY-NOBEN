@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-001524_1.jpg"
 type: "image"
-community: "PROLAC Product Labels"
+community: "PROLAC (MS 01-001524)"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/PROLAC_Product_Labels
+  - community/PROLAC_MS_01-001524
 ---
 
 # Nhãn sản phẩm PROLAC (01-001524_1.jpg)
 
 ## Connections
-- [[Sản phẩm PROLAC (Mã số tiếp nhận 01-001524)]] - `references` [EXTRACTED]
+- [[PROLAC (MS 01-001524)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/PROLAC_Product_Labels
+#graphify/image #graphify/EXTRACTED #community/PROLAC_MS_01-001524

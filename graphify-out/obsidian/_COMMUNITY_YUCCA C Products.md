@@ -10,9 +10,9 @@ members: 3
 **Members:** 3 nodes
 
 ## Members
-- [[Product label 1 for YUCCA C]] - image - ho-so-san-pham/nhan/02-037652_1.jpg
-- [[Product label 2 for YUCCA C]] - image - ho-so-san-pham/nhan/02-037652_2.jpg
-- [[YUCCA C Product Concept]] - concept - ho-so-san-pham/nhan/02-037652_1.jpg
+- [[GỬI BAO GIA -XLMT_f9232ad8]] - document - graphify-out/converted/GỬI BAO GIA -XLMT_f9232ad8.md
+- [[Sheet THÀNH PHẦN -62 SP]] - document - graphify-out/converted/GỬI BAO GIA -XLMT_f9232ad8.md
+- [[Sheet XLMT-62 SP]] - document - graphify-out/converted/GỬI BAO GIA -XLMT_f9232ad8.md
 
 ## Live Query (requires Dataview plugin)
 

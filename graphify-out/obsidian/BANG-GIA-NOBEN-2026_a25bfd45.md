@@ -1,12 +1,12 @@
 ---
 source_file: "graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md"
 type: "document"
-community: "Noben Price Lists"
+community: "Liver Support ANTILIV"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Noben_Price_Lists
+  - community/Liver_Support_ANTILIV
 ---
 
 # BANG-GIA-NOBEN-2026_a25bfd45.md
@@ -17,4 +17,4 @@ tags:
 - [[Sheet Bao gia Noben (B)]] - `contains` [EXTRACTED]
 - [[Sheet Tong hop]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Noben_Price_Lists
+#graphify/document #graphify/EXTRACTED #community/Liver_Support_ANTILIV

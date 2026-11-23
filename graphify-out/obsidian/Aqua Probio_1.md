@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/San-pham/Aqua Probio.md"
 type: "document"
-community: "Business Activity Logs"
+community: "Production Quality Regulations"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Business_Activity_Logs
+  - community/Production_Quality_Regulations
 ---
 
 # Aqua Probio
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Aqua Probio]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Business_Activity_Logs
+#graphify/document #graphify/EXTRACTED #community/Production_Quality_Regulations

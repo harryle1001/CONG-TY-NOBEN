@@ -1,16 +1,16 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/assets/tim-cutout/liver-max.webp"
 type: "image"
-community: "LIVER-MAX Packaging"
+community: "API Request Handler"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/LIVER-MAX_Packaging
+  - community/API_Request_Handler
 ---
 
 # Hình ảnh bao bì LIVER - MAX
 
 ## Connections
-- [[Sản phẩm LIVER - MAX]] - `references` [EXTRACTED]
+- [[LIVER - MAX (MS 01-001528)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/LIVER-MAX_Packaging
+#graphify/image #graphify/EXTRACTED #community/API_Request_Handler

@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[DE-ZOO Label]] - image - ho-so-san-pham/nhan/02-014384_1.jpg
+- [[8. BIỂU MẪU QTSX_025ade5d]] - document - graphify-out/converted/8. BIỂU MẪU QTSX_025ade5d.md
 
 ## Live Query (requires Dataview plugin)
 

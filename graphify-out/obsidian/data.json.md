@@ -1,11 +1,11 @@
 ---
 source_file: "ho-so-san-pham/README.md"
 type: "document"
-community: "Production Quality Regulations"
+community: "IODINE 99 (MS 02-020763)"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Production_Quality_Regulations
+  - community/IODINE_99_MS_02-020763
 ---
 
 # data.json
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Noben Product Catalog Documentation]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Production_Quality_Regulations
+#graphify/document #graphify/EXTRACTED #community/IODINE_99_MS_02-020763

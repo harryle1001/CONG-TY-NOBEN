@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "_gmail_body"
+community: "EDTA Product Specifications"
 location: "L632"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/_gmail_body
+  - community/EDTA_Product_Specifications
 ---
 
 # walk()
@@ -15,4 +15,4 @@ tags:
 - [[_b64text()]] - `calls` [EXTRACTED]
 - [[_gmail_body()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/_gmail_body
+#graphify/code #graphify/EXTRACTED #community/EDTA_Product_Specifications

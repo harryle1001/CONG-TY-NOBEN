@@ -1,16 +1,16 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/assets/tim-cutout/super-yucca.webp"
 type: "image"
-community: "SUPER YUCCA Packaging"
+community: "Chế phẩm sinh học & Hóa chất"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/SUPER_YUCCA_Packaging
+  - community/Chế_phẩm_sinh_học__Hóa_chất
 ---
 
 # Hình ảnh bao bì SUPER YUCCA
 
 ## Connections
-- [[Sản phẩm SUPER YUCCA]] - `references` [EXTRACTED]
+- [[SUPER YUCCA (MS 02-020760)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/SUPER_YUCCA_Packaging
+#graphify/image #graphify/EXTRACTED #community/Chế_phẩm_sinh_học__Hóa_chất

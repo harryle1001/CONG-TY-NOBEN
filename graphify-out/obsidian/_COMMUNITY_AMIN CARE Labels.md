@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[Nhãn sản phẩm AMIN CARE (01-001525_1.jpg)]] - image - ho-so-san-pham/nhan/01-001525_1.jpg
-- [[Sản phẩm AMIN CARE (Mã số tiếp nhận 01-001525)]] - concept - ho-so-san-pham/nhan/01-001525_1.jpg
+- [[Quy tắc hồ sơ lô Noben]] - concept - CLAUDE.md
+- [[ho-so-loDanh-muc-104-san-pham-Noben.xlsx]] - document - CLAUDE.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -19,9 +19,3 @@ members: 2
 TABLE source_file, type FROM #community/AMIN_CARE_Labels
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[Sản phẩm AMIN CARE (Mã số tiếp nhận 01-001525)]] - degree 2, connects to 1 community

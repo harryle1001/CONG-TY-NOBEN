@@ -1,17 +1,18 @@
 ---
-source_file: "jarvis-pro/agent/tools.py"
+source_file: "jarvis-pro/agent/vault.py"
 type: "code"
-community: "Agent Tooling Framework"
-location: "L43"
+community: "SORBEST"
+location: "L91"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Agent_Tooling_Framework
+  - community/SORBEST
 ---
 
 # .__init__()
 
 ## Connections
-- [[Tools]] - `method` [EXTRACTED]
+- [[dot-build()]] - `calls` [EXTRACTED]
+- [[Vault]] - `method` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework
+#graphify/code #graphify/EXTRACTED #community/SORBEST

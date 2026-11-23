@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-014385_1.jpg"
 type: "image"
-community: "Clear 12H Label Design"
+community: "CLEAR 12H (MS 02-014385)"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Clear_12H_Label_Design
+  - graphify/INFERRED
+  - community/CLEAR_12H_MS_02-014385
 ---
 
 # CLEAR 12H Label
 
-#graphify/image #graphify/EXTRACTED #community/Clear_12H_Label_Design
+## Connections
+- [[CLEAR 12H (MS 02-014385)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/CLEAR_12H_MS_02-014385

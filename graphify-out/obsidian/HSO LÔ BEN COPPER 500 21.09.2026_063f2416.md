@@ -1,14 +1,17 @@
 ---
 source_file: "graphify-out/converted/HSO LÔ BEN COPPER 500 21.09.2026_063f2416.md"
 type: "document"
-community: "Copper 500 Production"
+community: "BEN COPPER 500 (MS 02-001532)"
 location: "L1"
 tags:
   - graphify/document
-  - graphify/EXTRACTED
-  - community/Copper_500_Production
+  - graphify/INFERRED
+  - community/BEN_COPPER_500_MS_02-001532
 ---
 
 # HSO LÔ BEN COPPER 500 21.09.2026_063f2416.md
 
-#graphify/document #graphify/EXTRACTED #community/Copper_500_Production
+## Connections
+- [[BEN COPPER 500 (MS 02-001532)]] - `references` [INFERRED]
+
+#graphify/document #graphify/INFERRED #community/BEN_COPPER_500_MS_02-001532

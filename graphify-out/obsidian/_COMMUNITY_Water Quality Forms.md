@@ -1,16 +1,17 @@
 ---
 type: community
 cohesion: 1.00
-members: 1
+members: 2
 ---
 
 # Water Quality Forms
 
 **Cohesion:** 1.00 - tightly connected
-**Members:** 1 nodes
+**Members:** 2 nodes
 
 ## Members
-- [[2. BIỂU MẪU chất lượng nước_baa8e1cd]] - document - graphify-out/converted/2. BIỂU MẪU chất lượng nước_baa8e1cd.md
+- [[Jarvis Agent System Prompt]] - document - jarvis-pro/agent/prompt.md
+- [[Jarvis User Profile (CLAUDE.md)]] - document - jarvis-pro/CLAUDE.md
 
 ## Live Query (requires Dataview plugin)
 

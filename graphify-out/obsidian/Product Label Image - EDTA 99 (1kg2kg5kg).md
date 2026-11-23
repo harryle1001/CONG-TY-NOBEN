@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-002251_2.jpg"
 type: "image"
-community: "EDTA Product Specifications"
+community: "EDTA 99 (MS 02-002251)"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/EDTA_Product_Specifications
+  - community/EDTA_99_MS_02-002251
 ---
 
 # Product Label Image - EDTA 99 (1kg/2kg/5kg)
 
 ## Connections
-- [[EDTA 99 Product Variant 3 Tac Dung (02-002251)]] - `references` [EXTRACTED]
+- [[EDTA 99 (MS 02-002251)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/EDTA_Product_Specifications
+#graphify/image #graphify/EXTRACTED #community/EDTA_99_MS_02-002251

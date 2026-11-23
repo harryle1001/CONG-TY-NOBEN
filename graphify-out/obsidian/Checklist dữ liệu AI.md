@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/AI/Checklist dữ liệu AI.md"
 type: "document"
-community: "AI Strategy Documentation"
+community: "Graph Visualization Logic"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/AI_Strategy_Documentation
+  - community/Graph_Visualization_Logic
 ---
 
 # Checklist dữ liệu AI.md
@@ -17,4 +17,4 @@ tags:
 - [[Landing Nova Coffee]] - `references` [EXTRACTED]
 - [[Website Lotus Spa]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/AI_Strategy_Documentation
+#graphify/document #graphify/EXTRACTED #community/Graph_Visualization_Logic

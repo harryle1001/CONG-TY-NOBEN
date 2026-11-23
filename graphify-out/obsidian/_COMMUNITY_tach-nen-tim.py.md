@@ -23,7 +23,7 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_re]]
+- 1 edge to [[_COMMUNITY_main.py]]
 
 ## Top bridge nodes
 - [[tach-nen-tim.py]] - degree 4, connects to 1 community

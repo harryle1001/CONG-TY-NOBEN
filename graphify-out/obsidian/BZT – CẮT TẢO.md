@@ -1,16 +1,16 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
-type: "concept"
-community: "Aquaculture Health Products"
+source_file: "graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md"
+type: "code"
+community: "BZT (MS 02-001534)"
 tags:
-  - graphify/concept
-  - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - graphify/code
+  - graphify/INFERRED
+  - community/BZT_MS_02-001534
 ---
 
 # BZT – CẮT TẢO
 
 ## Connections
-- [[Chế phẩm sinh học & Hóa chất]] - `conceptually_related_to` [EXTRACTED]
+- [[BZT (MS 02-001534)]] - `references` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/code #graphify/INFERRED #community/BZT_MS_02-001534

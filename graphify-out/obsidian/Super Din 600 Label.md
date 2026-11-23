@@ -4,10 +4,13 @@ type: "image"
 community: "Super Din 600 Label"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
+  - graphify/INFERRED
   - community/Super_Din_600_Label
 ---
 
 # Super Din 600 Label
 
-#graphify/image #graphify/EXTRACTED #community/Super_Din_600_Label
+## Connections
+- [[SUPER DIN 600 (MS 02-020764)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/Super_Din_600_Label

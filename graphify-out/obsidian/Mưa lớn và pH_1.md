@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/Ky-thuat/Mưa lớn và pH.md"
 type: "document"
-community: "Business Activity Logs"
+community: "Production Quality Regulations"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Business_Activity_Logs
+  - community/Production_Quality_Regulations
 ---
 
 # Mưa lớn và pH
@@ -19,4 +19,4 @@ tags:
 - [[Trại cá Tân Hưng_1]] - `references` [EXTRACTED]
 - [[Đại lý Bến Tre Xanh_1]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Business_Activity_Logs
+#graphify/document #graphify/EXTRACTED #community/Production_Quality_Regulations

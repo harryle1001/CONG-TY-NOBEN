@@ -1,16 +1,13 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
-type: "concept"
-community: "Aquaculture Health Products"
+source_file: "graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md"
+type: "code"
+community: "SUPER CUT ALGAE"
 tags:
-  - graphify/concept
+  - graphify/code
   - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - community/SUPER_CUT_ALGAE
 ---
 
 # SUPER CUT ALGAE
 
-## Connections
-- [[Chế phẩm sinh học & Hóa chất]] - `conceptually_related_to` [EXTRACTED]
-
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/code #graphify/EXTRACTED #community/SUPER_CUT_ALGAE

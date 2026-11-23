@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/tools.py"
 type: "code"
-community: "Data Parsing Utilities"
+community: "norm"
 location: "L160"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Data_Parsing_Utilities
+  - community/norm
 ---
 
 # .route()
@@ -16,4 +16,4 @@ tags:
 - [[Tools]] - `method` [EXTRACTED]
 - [[norm()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities
+#graphify/code #graphify/EXTRACTED #community/norm

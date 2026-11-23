@@ -1,18 +1,18 @@
 ---
-source_file: "graphify-out/converted/5-F.X-GLUBENCO_fb021ceb.md"
+source_file: "graphify-out/converted/4-F.X PREMIX MILK_4a422751.md"
 type: "document"
-community: "F.X Glubenco Standards"
-location: "L11"
+community: "Aquaculture Health Products"
+location: "L12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/FX_Glubenco_Standards
+  - community/Aquaculture_Health_Products
 ---
 
 # CÔNG BỐ TIÊU CHUẨN CƠ SỞ
 
 ## Connections
-- [[5-F.X-GLUBENCO_fb021ceb]] - `contains` [EXTRACTED]
+- [[Công Bố Tiêu Chuẩn Cơ Sở F.X PREMIX MILK]] - `contains` [EXTRACTED]
 - [[TIÊU CHUẨN CƠ SỞ_3]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/FX_Glubenco_Standards
+#graphify/document #graphify/EXTRACTED #community/Aquaculture_Health_Products

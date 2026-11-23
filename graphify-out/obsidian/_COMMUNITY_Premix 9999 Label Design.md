@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[PREMIX 9999 Label]] - image - ho-so-san-pham/nhan/02-002255_2.jpg
+- [[7. BIỂU MẪU spkph_5504c6b3]] - document - graphify-out/converted/7. BIỂU MẪU spkph_5504c6b3.md
 
 ## Live Query (requires Dataview plugin)
 

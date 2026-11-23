@@ -1,18 +1,18 @@
 ---
-source_file: "graphify-out/converted/3-F.X GROW_9521dddb.md"
+source_file: "graphify-out/converted/2-F.X GARLIC_3177b419.md"
 type: "document"
-community: "F.X Grow Standards"
+community: "Aquaculture Health Products"
 location: "L12"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/FX_Grow_Standards
+  - community/Aquaculture_Health_Products
 ---
 
 # CÔNG BỐ TIÊU CHUẨN CƠ SỞ
 
 ## Connections
-- [[3-F.X GROW_9521dddb]] - `contains` [EXTRACTED]
 - [[TIÊU CHUẨN CƠ SỞ_1]] - `contains` [EXTRACTED]
+- [[Tiêu chuẩn cơ sở TCCS 102026NOBEN]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/FX_Grow_Standards
+#graphify/document #graphify/EXTRACTED #community/Aquaculture_Health_Products

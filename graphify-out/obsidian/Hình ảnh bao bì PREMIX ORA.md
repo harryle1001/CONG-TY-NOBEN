@@ -1,16 +1,16 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/assets/tim-cutout/premix-ora.webp"
 type: "image"
-community: "PREMIX ORA Packaging"
+community: "PREMIX ORA"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/PREMIX_ORA_Packaging
+  - community/PREMIX_ORA
 ---
 
 # Hình ảnh bao bì PREMIX ORA
 
 ## Connections
-- [[Sản phẩm PREMIX ORA]] - `references` [EXTRACTED]
+- [[PREMIX ORA (MS 01-063183)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/PREMIX_ORA_Packaging
+#graphify/image #graphify/EXTRACTED #community/PREMIX_ORA

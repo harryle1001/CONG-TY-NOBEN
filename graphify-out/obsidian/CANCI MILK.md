@@ -1,13 +1,16 @@
 ---
 source_file: "THÔNG BÁO HỢP QUY/TB HQ-4904.pdf"
 type: "code"
-community: "Canci Milk Product Info"
+community: "NB-MIX 500 Products"
 tags:
   - graphify/code
-  - graphify/EXTRACTED
-  - community/Canci_Milk_Product_Info
+  - graphify/INFERRED
+  - community/NB-MIX_500_Products
 ---
 
 # CANCI MILK
 
-#graphify/code #graphify/EXTRACTED #community/Canci_Milk_Product_Info
+## Connections
+- [[CANCI MILK (MS 01-061772)]] - `references` [INFERRED]
+
+#graphify/code #graphify/INFERRED #community/NB-MIX_500_Products

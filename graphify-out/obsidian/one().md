@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Agent Tooling Framework"
+community: "EDTA Product Specifications"
 location: "L651"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Agent_Tooling_Framework
+  - community/EDTA_Product_Specifications
 ---
 
 # one()
@@ -15,4 +15,4 @@ tags:
 - [[_gmail_body()]] - `calls` [EXTRACTED]
 - [[fetch()_1]] - `indirect_call` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework
+#graphify/code #graphify/EXTRACTED #community/EDTA_Product_Specifications

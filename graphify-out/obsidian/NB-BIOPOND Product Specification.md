@@ -1,17 +1,18 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-000897_1.jpg"
 type: "concept"
-community: "AQUA BAC Specifications"
+community: "Chế phẩm sinh học & Hóa chất"
 tags:
   - graphify/concept
-  - graphify/EXTRACTED
-  - community/AQUA_BAC_Specifications
+  - graphify/INFERRED
+  - community/Chế_phẩm_sinh_học__Hóa_chất
 ---
 
 # NB-BIOPOND Product Specification
 
 ## Connections
 - [[AQUA BAC Product Specification]] - `conceptually_related_to` [INFERRED]
+- [[NB-BIOPOND (MS 02-000897)]] - `references` [INFERRED]
 - [[Packaging photo for NB-BIOPOND]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/AQUA_BAC_Specifications
+#graphify/concept #graphify/INFERRED #community/Chế_phẩm_sinh_học__Hóa_chất

@@ -1,12 +1,12 @@
 ---
 source_file: "ho-so-san-pham/build.py"
 type: "code"
-community: "Product Profile Generator"
+community: "main.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Product_Profile_Generator
+  - community/mainpy
 ---
 
 # ho-so-san-pham/build.py
@@ -21,4 +21,4 @@ tags:
 - [[table()]] - `contains` [EXTRACTED]
 - [[tbl()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Product_Profile_Generator
+#graphify/code #graphify/EXTRACTED #community/mainpy

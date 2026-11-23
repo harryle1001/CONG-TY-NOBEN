@@ -1,11 +1,11 @@
 ---
 source_file: "jarvis-pro/CLAUDE.md"
 type: "document"
-community: "System Configuration Profile"
+community: "Water Quality Forms"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/System_Configuration_Profile
+  - community/Water_Quality_Forms
 ---
 
 # Jarvis User Profile (CLAUDE.md)
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Jarvis Agent System Prompt]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/System_Configuration_Profile
+#graphify/document #graphify/EXTRACTED #community/Water_Quality_Forms

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/Ky-thuat/Tảo tàn.md"
 type: "document"
-community: "Farm Management Notes"
+community: "Đại lý Minh Phát.md"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Farm_Management_Notes
+  - community/Đại_lý_Minh_Phátmd
 ---
 
 # Tảo tàn.md
@@ -24,4 +24,4 @@ tags:
 - [[Tảo tàn_1]] - `contains` [EXTRACTED]
 - [[Vita Shell]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Farm_Management_Notes
+#graphify/document #graphify/EXTRACTED #community/Đại_lý_Minh_Phátmd

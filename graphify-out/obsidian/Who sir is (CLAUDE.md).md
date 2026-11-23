@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/prompt.md"
 type: "document"
-community: "Agent Persona Rules"
+community: "Aqua C Supplements"
 location: "L3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Agent_Persona_Rules
+  - community/Aqua_C_Supplements
 ---
 
 # Who sir is (CLAUDE.md)
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[prompt]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Agent_Persona_Rules
+#graphify/document #graphify/EXTRACTED #community/Aqua_C_Supplements

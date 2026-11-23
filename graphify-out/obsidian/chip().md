@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/ui/app.js"
 type: "code"
-community: "Web Application Interface"
+community: "Farm Management Notes"
 location: "L104"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Web_Application_Interface
+  - community/Farm_Management_Notes
 ---
 
 # chip()
@@ -16,4 +16,4 @@ tags:
 - [[esc()]] - `calls` [EXTRACTED]
 - [[inspect()]] - `indirect_call` [INFERRED]
 
-#graphify/code #graphify/EXTRACTED #community/Web_Application_Interface
+#graphify/code #graphify/EXTRACTED #community/Farm_Management_Notes

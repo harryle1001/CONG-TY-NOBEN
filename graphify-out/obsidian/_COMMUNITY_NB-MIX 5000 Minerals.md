@@ -10,8 +10,8 @@ members: 2
 **Members:** 2 nodes
 
 ## Members
-- [[NB - Mix 5000 (Bổ sung khoáng chất)]] - concept - ho-so-san-pham/nhan/01-001526_1.jpg
-- [[Nhãn sản phẩm NB - Mix 5000 (Mã tiếp nhận 01-001526)]] - image - ho-so-san-pham/nhan/01-001526_1.jpg
+- [[05.11 BÁO GIÁ_NOBEN_f255223d]] - document - graphify-out/converted/05.11 BÁO GIÁ_NOBEN_f255223d.md
+- [[Sheet Báo giá]] - document - graphify-out/converted/05.11 BÁO GIÁ_NOBEN_f255223d.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -19,9 +19,3 @@ members: 2
 TABLE source_file, type FROM #community/NB-MIX_5000_Minerals
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[NB - Mix 5000 (Bổ sung khoáng chất)]] - degree 2, connects to 1 community

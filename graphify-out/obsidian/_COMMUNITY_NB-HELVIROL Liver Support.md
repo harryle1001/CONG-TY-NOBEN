@@ -10,9 +10,9 @@ members: 3
 **Members:** 3 nodes
 
 ## Members
-- [[NB-HELVIROL-B12 (Liver Detoxification & Regeneration)]] - concept - ho-so-san-pham/nhan/01-001550_1.jpg
-- [[Product Label Banner Image for NB-HELVIROL-B12 (2L Pack)]] - image - ho-so-san-pham/nhan/01-001550_2.jpg
-- [[Product Label Image for NB-HELVIROL-B12 (1L Pack)]] - image - ho-so-san-pham/nhan/01-001550_1.jpg
+- [[6-F.X PURE_b673ec92]] - document - graphify-out/converted/6-F.X PURE_b673ec92.md
+- [[CÔNG BỐ TIÊU CHUẨN CƠ SỞ_4]] - document - graphify-out/converted/6-F.X PURE_b673ec92.md
+- [[TIÊU CHUẨN CƠ SỞ_4]] - document - graphify-out/converted/6-F.X PURE_b673ec92.md
 
 ## Live Query (requires Dataview plugin)
 
@@ -20,9 +20,3 @@ members: 3
 TABLE source_file, type FROM #community/NB-HELVIROL_Liver_Support
 SORT file.name ASC
 ```
-
-## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
-
-## Top bridge nodes
-- [[NB-HELVIROL-B12 (Liver Detoxification & Regeneration)]] - degree 3, connects to 1 community

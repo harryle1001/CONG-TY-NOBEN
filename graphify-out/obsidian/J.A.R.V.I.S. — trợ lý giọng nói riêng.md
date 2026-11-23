@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/README.md"
 type: "document"
-community: "Jarvis Assistant Configuration"
+community: "Liver Support Products"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Jarvis_Assistant_Configuration
+  - community/Liver_Support_Products
 ---
 
 # J.A.R.V.I.S. — trợ lý giọng nói riêng
@@ -24,4 +24,4 @@ tags:
 - [[Quy tắc cứng]] - `contains` [EXTRACTED]
 - [[Thêm khóa AI và giọng nói]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Jarvis_Assistant_Configuration
+#graphify/document #graphify/EXTRACTED #community/Liver_Support_Products

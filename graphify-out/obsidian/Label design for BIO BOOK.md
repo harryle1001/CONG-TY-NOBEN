@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-020770_1.jpg"
 type: "image"
-community: "Bio Book Label Design"
+community: "BIO BOOK (MS 02-020770)"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Bio_Book_Label_Design
+  - graphify/INFERRED
+  - community/BIO_BOOK_MS_02-020770
 ---
 
 # Label design for BIO BOOK
 
-#graphify/image #graphify/EXTRACTED #community/Bio_Book_Label_Design
+## Connections
+- [[BIO BOOK (MS 02-020770)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/BIO_BOOK_MS_02-020770

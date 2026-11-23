@@ -1,11 +1,11 @@
 ---
 source_file: ""
 type: "code"
-community: "API Request Handler"
+community: "Mineral Premix Products"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/API_Request_Handler
+  - community/Mineral_Premix_Products
 ---
 
 # BaseHTTPRequestHandler
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[H_1]] - `inherits` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/API_Request_Handler
+#graphify/code #graphify/EXTRACTED #community/Mineral_Premix_Products

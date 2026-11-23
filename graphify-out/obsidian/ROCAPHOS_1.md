@@ -1,16 +1,17 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
-type: "concept"
-community: "Aquaculture Health Products"
+source_file: "ho-so-san-pham/index.html"
+type: "document"
+community: "ROCAPHOS (MS 01-001547)"
 tags:
-  - graphify/concept
-  - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - graphify/document
+  - graphify/INFERRED
+  - community/ROCAPHOS_MS_01-001547
 ---
 
 # ROCAPHOS
 
 ## Connections
-- [[Thức ăn bổ sung]] - `conceptually_related_to` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
+- [[ROCAPHOS (MS 01-001547)]] - `references` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/document #graphify/INFERRED #community/ROCAPHOS_MS_01-001547

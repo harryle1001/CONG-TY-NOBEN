@@ -1,16 +1,17 @@
 ---
-source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
-type: "concept"
-community: "Aquaculture Health Products"
+source_file: "ho-so-san-pham/index.html"
+type: "document"
+community: "PREMIX KHOÁNG (MS 01-001523)"
 tags:
-  - graphify/concept
-  - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - graphify/document
+  - graphify/INFERRED
+  - community/PREMIX_KHOÁNG_MS_01-001523
 ---
 
 # PREMIX KHOÁNG
 
 ## Connections
-- [[Khoáng chất]] - `conceptually_related_to` [EXTRACTED]
+- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
+- [[PREMIX KHOÁNG (MS 01-001523)]] - `references` [INFERRED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/document #graphify/INFERRED #community/PREMIX_KHOÁNG_MS_01-001523

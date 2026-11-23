@@ -1,16 +1,17 @@
 ---
 type: community
 cohesion: 1.00
-members: 1
+members: 2
 ---
 
 # Measurement Control Forms
 
 **Cohesion:** 1.00 - tightly connected
-**Members:** 1 nodes
+**Members:** 2 nodes
 
 ## Members
-- [[9. BIỂU MẪU đo lường_78be108a]] - document - graphify-out/converted/9. BIỂU MẪU đo lường_78be108a.md
+- [[Hình ảnh bao bì VH-GLUBENCO PRO]] - image - TAI-LIEU-KINH-DOANH/assets/tim-cutout/vh-glubenco-pro.webp
+- [[Sản phẩm VH-GLUBENCO PRO]] - concept - TAI-LIEU-KINH-DOANH/CATALOGUE-THUY-SAN-TIM-2026.html
 
 ## Live Query (requires Dataview plugin)
 

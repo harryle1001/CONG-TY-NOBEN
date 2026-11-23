@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/generate_demo.py"
 type: "code"
-community: "Demo Data Generation"
+community: "generate_demo.py"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Demo_Data_Generation
+  - community/generate_demopy
 ---
 
 # generate_demo.py
@@ -21,4 +21,4 @@ tags:
 - [[shutil]] - `imports` [EXTRACTED]
 - [[w()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Demo_Data_Generation
+#graphify/code #graphify/EXTRACTED #community/generate_demopy

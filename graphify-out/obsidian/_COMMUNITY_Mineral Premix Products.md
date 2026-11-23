@@ -1,20 +1,23 @@
 ---
 type: community
-cohesion: 0.40
-members: 5
+cohesion: 0.39
+members: 8
 ---
 
 # Mineral Premix Products
 
-**Cohesion:** 0.40 - moderately connected
-**Members:** 5 nodes
+**Cohesion:** 0.39 - loosely connected
+**Members:** 8 nodes
 
 ## Members
-- [[Công ty TNHH Quốc Tế Probiotic]] - concept - ho-so-san-pham/nhan/01-001523_2.jpg
-- [[Nhãn sản phẩm PREMIX KHOÁNG (01-001523_1.jpg)]] - image - ho-so-san-pham/nhan/01-001523_1.jpg
-- [[Nhãn sản phẩm PREMIX KHOÁNG X4 (01-001523_2.jpg)]] - image - ho-so-san-pham/nhan/01-001523_2.jpg
-- [[Sản phẩm PREMIX KHOÁNG (Mã số tiếp nhận 01-001523)]] - concept - ho-so-san-pham/nhan/01-001523_1.jpg
-- [[Sản phẩm PREMIX KHOÁNG X4 (Mã số tiếp nhận 01-001523)]] - concept - ho-so-san-pham/nhan/01-001523_2.jpg
+- [[dot-_auth()]] - code - jarvis-pro/tests/fake_google.py
+- [[dot-_json()]] - code - jarvis-pro/tests/fake_google.py
+- [[dot-do_GET()_1]] - code - jarvis-pro/tests/fake_google.py
+- [[dot-do_POST()_1]] - code - jarvis-pro/tests/fake_google.py
+- [[dot-log_message()_1]] - code - jarvis-pro/tests/fake_google.py
+- [[BaseHTTPRequestHandler_1]] - code
+- [[H_1]] - code - jarvis-pro/tests/fake_google.py
+- [[events()]] - code - jarvis-pro/tests/fake_google.py
 
 ## Live Query (requires Dataview plugin)
 
@@ -24,7 +27,8 @@ SORT file.name ASC
 ```
 
 ## Connections to other communities
-- 1 edge to [[_COMMUNITY_Aquaculture Feed Additives]]
+- 2 edges to [[_COMMUNITY_main.py]]
 
 ## Top bridge nodes
-- [[Sản phẩm PREMIX KHOÁNG (Mã số tiếp nhận 01-001523)]] - degree 3, connects to 1 community
+- [[H_1]] - degree 7, connects to 1 community
+- [[events()]] - degree 2, connects to 1 community

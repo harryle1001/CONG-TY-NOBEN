@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[AQUA MICRO Label]] - image - ho-so-san-pham/nhan/02-020766_1.jpg
+- [[AQUABIOTIC]] - code - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

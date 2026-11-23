@@ -1,12 +1,12 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/build.py"
 type: "code"
-community: "TAI-LIEU-KINH-DOANH/build.py"
+community: "Educational Knowledge Base"
 location: "L376"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/TAI-LIEU-KINH-DOANH/buildpy
+  - community/Educational_Knowledge_Base
 ---
 
 # build_tim()
@@ -19,4 +19,4 @@ tags:
 - [[tim_gia()]] - `calls` [EXTRACTED]
 - [[tim_pb()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/TAI-LIEU-KINH-DOANH/buildpy
+#graphify/code #graphify/EXTRACTED #community/Educational_Knowledge_Base

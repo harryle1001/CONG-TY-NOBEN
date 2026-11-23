@@ -1,13 +1,16 @@
 ---
-source_file: "HO-SO-LO-FX/HO-SO-LO-7SP-FX.pdf"
-type: "code"
-community: "Pure Product Data"
+source_file: "graphify-out/converted/6-F.X PURE_b673ec92.md"
+type: "concept"
+community: "Aquaculture Health Products"
 tags:
-  - graphify/code
+  - graphify/concept
   - graphify/EXTRACTED
-  - community/Pure_Product_Data
+  - community/Aquaculture_Health_Products
 ---
 
 # F.X PURE
 
-#graphify/code #graphify/EXTRACTED #community/Pure_Product_Data
+## Connections
+- [[TCCS 142026NOBEN - F.X PURE]] - `references` [EXTRACTED]
+
+#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products

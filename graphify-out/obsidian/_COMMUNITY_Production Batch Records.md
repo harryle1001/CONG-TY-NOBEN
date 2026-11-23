@@ -1,17 +1,18 @@
 ---
 type: community
 cohesion: 1.00
-members: 2
+members: 3
 ---
 
 # Production Batch Records
 
 **Cohesion:** 1.00 - tightly connected
-**Members:** 2 nodes
+**Members:** 3 nodes
 
 ## Members
-- [[Bộ hồ sơ ngày sản xuất 21.09.2026 (6 lô)]] - document - ho-so-lo/HO-SO-21.09.2026/README.md
-- [[HO-SO-21.09.2026README]] - document - ho-so-lo/HO-SO-21.09.2026/README.md
+- [[graphify-setup.sh]] - code - tools/graphify-setup.sh
+- [[graphify-setup.sh script]] - code - tools/graphify-setup.sh
+- [[say()]] - code - tools/graphify-setup.sh
 
 ## Live Query (requires Dataview plugin)
 

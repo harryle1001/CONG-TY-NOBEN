@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/Ky-thuat/Đốm trắng.md"
 type: "document"
-community: "Farm Incident Reports"
+community: "Đốm trắng.md"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Farm_Incident_Reports
+  - community/Đốm_trắngmd
 ---
 
 # Đốm trắng
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Đốm trắng]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Farm_Incident_Reports
+#graphify/document #graphify/EXTRACTED #community/Đốm_trắngmd

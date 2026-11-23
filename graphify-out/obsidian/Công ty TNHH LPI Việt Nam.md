@@ -1,11 +1,11 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-001525_2.jpg"
 type: "concept"
-community: "Amin Care Products"
+community: "AMIN CARE (MS 01-001525)"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Amin_Care_Products
+  - community/AMIN_CARE_MS_01-001525
 ---
 
 # Công ty TNHH LPI Việt Nam
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Nhãn sản phẩm Amin Care (Mã tiếp nhận 01-001525)]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Amin_Care_Products
+#graphify/concept #graphify/EXTRACTED #community/AMIN_CARE_MS_01-001525

@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-020762_1.jpg"
 type: "image"
-community: "Super Gold Label Design"
+community: "SUPER GOLD (MS 02-020762)"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Super_Gold_Label_Design
+  - graphify/INFERRED
+  - community/SUPER_GOLD_MS_02-020762
 ---
 
 # SUPER GOLD Label
 
-#graphify/image #graphify/EXTRACTED #community/Super_Gold_Label_Design
+## Connections
+- [[SUPER GOLD (MS 02-020762)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/SUPER_GOLD_MS_02-020762

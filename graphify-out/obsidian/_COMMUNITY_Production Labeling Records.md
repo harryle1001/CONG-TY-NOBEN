@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[Lenh-SX-va-tem-mau-luu-7SP-FX_1bfb0b9b]] - document - graphify-out/converted/Lenh-SX-va-tem-mau-luu-7SP-FX_1bfb0b9b.md
+- [[11. BIỂU MẪU VSNXuong_ceea9ccb]] - document - graphify-out/converted/11. BIỂU MẪU VSNXuong_ceea9ccb.md
 
 ## Live Query (requires Dataview plugin)
 

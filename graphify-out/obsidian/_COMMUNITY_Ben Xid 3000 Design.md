@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[Label design for BEN XID 3000]] - image - ho-so-san-pham/nhan/02-020767_3.jpg
+- [[BAC POWER]] - code - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

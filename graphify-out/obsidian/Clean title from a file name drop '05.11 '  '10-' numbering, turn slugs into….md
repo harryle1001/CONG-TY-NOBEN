@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/vault.py"
 type: "rationale"
-community: "re"
+community: "SORBEST"
 location: "L39"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/re
+  - community/SORBEST
 ---
 
 # Clean title from a file name: drop '05.11 ' / '10-' numbering, turn slugs into…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[title_of()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/re
+#graphify/rationale #graphify/EXTRACTED #community/SORBEST

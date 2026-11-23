@@ -1,12 +1,12 @@
 ---
 source_file: "graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md"
 type: "document"
-community: "Noben Price Lists"
+community: "Liver Support ANTILIV"
 location: "L162"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Noben_Price_Lists
+  - community/Liver_Support_ANTILIV
 ---
 
 # Sheet: Tong hop
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[BANG-GIA-NOBEN-2026_a25bfd45]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Noben_Price_Lists
+#graphify/document #graphify/EXTRACTED #community/Liver_Support_ANTILIV

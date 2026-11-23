@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "Data Parsing Utilities"
+community: "SORBEST"
 location: "L24"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Data_Parsing_Utilities
+  - community/SORBEST
 ---
 
 # mode()
@@ -16,4 +16,4 @@ tags:
 - [[agentdata.py]] - `contains` [EXTRACTED]
 - [[load_prompt()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Data_Parsing_Utilities
+#graphify/code #graphify/EXTRACTED #community/SORBEST

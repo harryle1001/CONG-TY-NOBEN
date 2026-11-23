@@ -1,16 +1,16 @@
 ---
-source_file: "TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf"
-type: "document"
-community: "F.X-GLUBENCO Compliance"
+source_file: "graphify-out/converted/5-F.X-GLUBENCO_fb021ceb.md"
+type: "concept"
+community: "Lê Thị Lan Anh"
 tags:
-  - graphify/document
+  - graphify/concept
   - graphify/EXTRACTED
-  - community/FX-GLUBENCO_Compliance
+  - community/Lê_Thị_Lan_Anh
 ---
 
 # QCVN 97:2025/BNNMT
 
 ## Connections
-- [[F.X-GLUBENCO]] - `references` [EXTRACTED]
+- [[TCCS 162026NOBEN]] - `cites` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/FX-GLUBENCO_Compliance
+#graphify/concept #graphify/EXTRACTED #community/Lê_Thị_Lan_Anh

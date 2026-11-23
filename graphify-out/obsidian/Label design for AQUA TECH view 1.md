@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-024686_1.jpg"
 type: "image"
-community: "Aqua Tech Label Design"
+community: "AQUA TECH (MS 02-024686)"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Aqua_Tech_Label_Design
+  - graphify/INFERRED
+  - community/AQUA_TECH_MS_02-024686
 ---
 
 # Label design for AQUA TECH view 1
 
-#graphify/image #graphify/EXTRACTED #community/Aqua_Tech_Label_Design
+## Connections
+- [[AQUA TECH (MS 02-024686)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/AQUA_TECH_MS_02-024686

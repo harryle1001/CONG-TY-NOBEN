@@ -1,28 +1,28 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
 type: "concept"
-community: "Aquaculture Product Pricing"
+community: "Nhóm Chế phẩm sinh học & hóa chất"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Aquaculture_Product_Pricing
+  - community/Nhóm_Chế_phẩm_sinh_học__hóa_chất
 ---
 
 # Nhóm Chế phẩm sinh học & hóa chất
 
 ## Connections
-- [[BENMER (Catalogue)]] - `references` [EXTRACTED]
+- [[BENMER (MS 02-037651)]] - `references` [EXTRACTED]
 - [[BENXID 300 (Catalogue)]] - `references` [EXTRACTED]
-- [[BZT (Catalogue)]] - `references` [EXTRACTED]
+- [[BZT (MS 02-001534)]] - `references` [EXTRACTED]
 - [[Catalogue Noben 2026 (HTML)]] - `references` [EXTRACTED]
-- [[EDTA 99 (Catalogue)]] - `references` [EXTRACTED]
-- [[IODINE 99 (Catalogue)]] - `references` [EXTRACTED]
-- [[NB-MIX 500 NEW (Catalogue)]] - `references` [EXTRACTED]
-- [[NO TOXIN (Catalogue)]] - `references` [EXTRACTED]
-- [[PRAWNZYME (Catalogue)]] - `references` [EXTRACTED]
-- [[PRO ALGAE (Catalogue)]] - `references` [EXTRACTED]
-- [[ROVAZYME (Catalogue)]] - `references` [EXTRACTED]
-- [[SUPER VIDAL (Catalogue)]] - `references` [EXTRACTED]
-- [[YUCCA 99 (Catalogue)]] - `references` [EXTRACTED]
+- [[EDTA 99 (MS 02-002251)]] - `references` [EXTRACTED]
+- [[IODINE 99 (MS 02-020763)]] - `references` [EXTRACTED]
+- [[NB-MIX 500 NEW (MS 02-037654)]] - `references` [EXTRACTED]
+- [[NO TOXIN (MS 02-020765)]] - `references` [EXTRACTED]
+- [[PRAWNZYME (MS 02-001539)]] - `references` [EXTRACTED]
+- [[PRO ALGAE (MS 02-001533)]] - `references` [EXTRACTED]
+- [[ROVAZYME (MS 02-020758)]] - `references` [EXTRACTED]
+- [[SUPER VIDAL (MS 02-020756)]] - `references` [EXTRACTED]
+- [[YUCCA 99 (MS 02-001537)]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Product_Pricing
+#graphify/concept #graphify/EXTRACTED #community/Nhóm_Chế_phẩm_sinh_học__hóa_chất

@@ -1,13 +1,19 @@
 ---
-source_file: "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HSO LÔ YUCCA 99 21.09.2026.pdf"
+source_file: "graphify-out/converted/HSO LÔ YUCCA 99 21.09.2026_5db005b2.md"
 type: "document"
-community: "Yucca 99 Batch Records"
+community: "YUCCA 99 (MS 02-001537)"
 tags:
   - graphify/document
-  - graphify/EXTRACTED
-  - community/Yucca_99_Batch_Records
+  - graphify/INFERRED
+  - community/YUCCA_99_MS_02-001537
 ---
 
 # HSO LÔ YUCCA 99 21.09.2026
 
-#graphify/document #graphify/EXTRACTED #community/Yucca_99_Batch_Records
+## Connections
+- [[HSO LÔ YUCCA 99 21.09.2026_1]] - `semantically_similar_to` [INFERRED]
+- [[HSO LÔ YUCCA 99 21.09.2026_2]] - `semantically_similar_to` [INFERRED]
+- [[HSO LÔ YUCCA 99 21.09.2026_3]] - `semantically_similar_to` [INFERRED]
+- [[YUCCA 99 (MS 02-001537)]] - `references` [INFERRED]
+
+#graphify/document #graphify/INFERRED #community/YUCCA_99_MS_02-001537

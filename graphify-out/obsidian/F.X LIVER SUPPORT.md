@@ -1,13 +1,16 @@
 ---
-source_file: "graphify-out/converted/1-F.X LIVER SUPPORT_2d81ac86.md"
-type: "code"
-community: "F.X Liver Support Product"
+source_file: "graphify-out/converted/HSO-LO-F.X-GARLIC_c6dcc351.md"
+type: "concept"
+community: "Lê Thị Lan Anh"
 tags:
-  - graphify/code
+  - graphify/concept
   - graphify/EXTRACTED
-  - community/FX_Liver_Support_Product
+  - community/Lê_Thị_Lan_Anh
 ---
 
 # F.X LIVER SUPPORT
 
-#graphify/code #graphify/EXTRACTED #community/FX_Liver_Support_Product
+## Connections
+- [[Sản phẩm F.X GARLIC (Lô 100 Lít)]] - `references` [EXTRACTED]
+
+#graphify/concept #graphify/EXTRACTED #community/Lê_Thị_Lan_Anh

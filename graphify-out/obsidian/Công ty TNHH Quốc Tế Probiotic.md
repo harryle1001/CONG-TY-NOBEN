@@ -1,11 +1,11 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-001523_2.jpg"
 type: "concept"
-community: "Mineral Premix Products"
+community: "PREMIX KHOÁNG (MS 01-001523)"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Mineral_Premix_Products
+  - community/PREMIX_KHOÁNG_MS_01-001523
 ---
 
 # Công ty TNHH Quốc Tế Probiotic
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Sản phẩm PREMIX KHOÁNG X4 (Mã số tiếp nhận 01-001523)]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Mineral_Premix_Products
+#graphify/concept #graphify/EXTRACTED #community/PREMIX_KHOÁNG_MS_01-001523

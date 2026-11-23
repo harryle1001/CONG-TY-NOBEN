@@ -10,9 +10,9 @@ members: 3
 **Members:** 3 nodes
 
 ## Members
-- [[HS LÔ IODIN 99 21.09.2026_1]] - document - ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HS LÔ IODIN 99 21.09.2026.pdf
-- [[IODINE 99 Label 1]] - image - ho-so-san-pham/nhan/02-020763_1.jpg
-- [[IODINE 99 Label 2]] - image - ho-so-san-pham/nhan/02-020763_2.jpg
+- [[1. Phiếu QD7 - lưu mẫu 21.09.2026_1b4caa1e]] - document - graphify-out/converted/1. Phiếu QD7 - lưu mẫu 21.09.2026_1b4caa1e.md
+- [[Sheet BB Tiêu hủy]] - document - graphify-out/converted/1. Phiếu QD7 - lưu mẫu 21.09.2026_1b4caa1e.md
+- [[Sheet P.Theo dõi mẫu lưu]] - document - graphify-out/converted/1. Phiếu QD7 - lưu mẫu 21.09.2026_1b4caa1e.md
 
 ## Live Query (requires Dataview plugin)
 

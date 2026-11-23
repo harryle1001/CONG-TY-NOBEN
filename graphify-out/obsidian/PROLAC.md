@@ -1,16 +1,16 @@
 ---
-source_file: "ho-so-san-pham/index.html"
-type: "document"
-community: "Aquaculture Feed Additives"
+source_file: "graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md"
+type: "code"
+community: "PROLAC (MS 01-001524)"
 tags:
-  - graphify/document
-  - graphify/EXTRACTED
-  - community/Aquaculture_Feed_Additives
+  - graphify/code
+  - graphify/INFERRED
+  - community/PROLAC_MS_01-001524
 ---
 
 # PROLAC
 
 ## Connections
-- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
+- [[PROLAC (MS 01-001524)]] - `references` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Aquaculture_Feed_Additives
+#graphify/code #graphify/INFERRED #community/PROLAC_MS_01-001524

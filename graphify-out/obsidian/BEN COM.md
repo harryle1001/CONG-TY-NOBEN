@@ -1,11 +1,11 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
 type: "concept"
-community: "Aquaculture Health Products"
+community: "Thức ăn bổ sung"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - community/Thức_ăn_bổ_sung
 ---
 
 # BEN COM
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Thức ăn bổ sung]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/concept #graphify/EXTRACTED #community/Thức_ăn_bổ_sung

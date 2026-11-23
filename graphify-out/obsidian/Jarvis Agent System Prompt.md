@@ -1,11 +1,11 @@
 ---
 source_file: "jarvis-pro/agent/prompt.md"
 type: "document"
-community: "System Configuration Profile"
+community: "Water Quality Forms"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/System_Configuration_Profile
+  - community/Water_Quality_Forms
 ---
 
 # Jarvis Agent System Prompt
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Jarvis User Profile (CLAUDE.md)]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/System_Configuration_Profile
+#graphify/document #graphify/EXTRACTED #community/Water_Quality_Forms

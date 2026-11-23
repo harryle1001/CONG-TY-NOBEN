@@ -1,12 +1,12 @@
 ---
 source_file: "ho-so-lo/_build/sua_hsl_2109.py"
 type: "code"
-community: "Document Processing Utilities"
+community: "google_auth.py"
 location: "L18"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Document_Processing_Utilities
+  - community/google_authpy
 ---
 
 # doi_gio()
@@ -17,4 +17,4 @@ tags:
 - [[re]] - `calls` [EXTRACTED]
 - [[sua_hsl_2109.py]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Document_Processing_Utilities
+#graphify/code #graphify/EXTRACTED #community/google_authpy

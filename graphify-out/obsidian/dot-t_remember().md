@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/tools.py"
 type: "code"
-community: "Agent Tooling Framework"
+community: "norm"
 location: "L116"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Agent_Tooling_Framework
+  - community/norm
 ---
 
 # .t_remember()
@@ -16,4 +16,4 @@ tags:
 - [[_card()]] - `calls` [EXTRACTED]
 - [[write()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Agent_Tooling_Framework
+#graphify/code #graphify/EXTRACTED #community/norm

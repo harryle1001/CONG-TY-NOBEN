@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/Khach-hang/Trại tôm Ba Lan.md"
 type: "document"
-community: "Farm Management Notes"
+community: "Đại lý Minh Phát.md"
 location: "L3"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Farm_Management_Notes
+  - community/Đại_lý_Minh_Phátmd
 ---
 
 # Đơn hàng
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[Trại tôm Ba Lan_1]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Farm_Management_Notes
+#graphify/document #graphify/EXTRACTED #community/Đại_lý_Minh_Phátmd

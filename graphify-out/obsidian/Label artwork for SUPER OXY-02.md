@@ -1,11 +1,11 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-000891_1.jpg"
 type: "image"
-community: "Oxygen Treatment Products"
+community: "Chế phẩm sinh học & Hóa chất"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/Oxygen_Treatment_Products
+  - community/Chế_phẩm_sinh_học__Hóa_chất
 ---
 
 # Label artwork for SUPER OXY-02
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[SUPER OXY-02 Product Specification]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/Oxygen_Treatment_Products
+#graphify/image #graphify/EXTRACTED #community/Chế_phẩm_sinh_học__Hóa_chất

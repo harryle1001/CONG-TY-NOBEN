@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[Label design for AQUA TECH view 2]] - image - ho-so-san-pham/nhan/02-024686_2.jpg
+- [[BETA 1.3 – 1.6 GLUCAN]] - code - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

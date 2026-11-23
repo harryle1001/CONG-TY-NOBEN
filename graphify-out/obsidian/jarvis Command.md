@@ -1,16 +1,16 @@
 ---
 source_file: ".claude/commands/jarvis.md"
 type: "code"
-community: "Jarvis Command Interface"
+community: "PROLAC Product Labels"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Jarvis_Command_Interface
+  - community/PROLAC_Product_Labels
 ---
 
 # /jarvis Command
 
 ## Connections
-- [[JARVIS Persona]] - `implements` [EXTRACTED]
+- [[Trợ lý Jarvis]] - `implements` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Jarvis_Command_Interface
+#graphify/code #graphify/EXTRACTED #community/PROLAC_Product_Labels

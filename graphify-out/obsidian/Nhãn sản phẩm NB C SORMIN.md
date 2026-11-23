@@ -1,16 +1,17 @@
 ---
 source_file: "ho-so-san-pham/nhan/01-002240_1.jpg"
 type: "image"
-community: "NB C SORMIN Vitamin Label"
+community: "NB C SORMIN (MS 01-002240)"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/NB_C_SORMIN_Vitamin_Label
+  - graphify/INFERRED
+  - community/NB_C_SORMIN_MS_01-002240
 ---
 
 # Nhãn sản phẩm NB C SORMIN
 
 ## Connections
+- [[NB C SORMIN (MS 01-002240)]] - `references` [INFERRED]
 - [[Sản phẩm bổ sung Vitamin C và acid amin NB C SORMIN (Mã tiếp nhận 01-002240)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/NB_C_SORMIN_Vitamin_Label
+#graphify/image #graphify/INFERRED #community/NB_C_SORMIN_MS_01-002240

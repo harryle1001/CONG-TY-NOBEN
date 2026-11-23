@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[F.X PURE_1]] - code - TCCS-7-SAN-PHAM-MOI/PDF/6-F.X PURE.pdf
+- [[DOWNMAX (Gây màu nâu)]] - code - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

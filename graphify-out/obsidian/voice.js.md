@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/ui/voice.js"
 type: "code"
-community: "Voice Interface UI"
+community: "F.X Product Pairings"
 location: "L1"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/Voice_Interface_UI
+  - community/FX_Product_Pairings
 ---
 
 # voice.js
@@ -15,4 +15,4 @@ tags:
 - [[Voice]] - `contains` [EXTRACTED]
 - [[caption()]] - `contains` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/Voice_Interface_UI
+#graphify/code #graphify/EXTRACTED #community/FX_Product_Pairings

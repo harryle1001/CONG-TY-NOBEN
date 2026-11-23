@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/main.py"
 type: "rationale"
-community: "google_auth.py"
+community: "main.py"
 location: "L1"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/google_authpy
+  - community/mainpy
 ---
 
 # JARVIS HTTP server. Stdlib only. Step 4: graph UI + tools + conversation +…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[main.py]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/google_authpy
+#graphify/rationale #graphify/EXTRACTED #community/mainpy

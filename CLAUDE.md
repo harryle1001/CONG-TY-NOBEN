@@ -39,3 +39,4 @@ Rules:
 - After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
 - A committed graphify-out/graph.json is rewritten whole on every build, so a large diff to it in a pull request is expected. Do not flag it as churn or suggest skipping the graph rebuild or its hooks.
 - Sau mỗi lần dựng lại đồ thị (extract/update/cluster-only), chạy `python3 tools/graphify-merge.py` để gộp nút trùng khai báo trong `tools/graphify-aliases.json` (vd. các tên Công ty TNHH No Ben).
+- `tools/graphify-merge.py` cũng tự gom mỗi sản phẩm (theo ho-so-san-pham/data.json) thành 1 nút chuẩn "TÊN (MS mã)" kèm TCCS, nối nhãn, hồ sơ lô, lệnh SX, bao bì vào nút đó (tools/graphify-products.py).

@@ -1,13 +1,17 @@
 ---
-source_file: "ho-so-lo/pdf/HS LÔ IODIN 99 21.09.2026.pdf"
+source_file: "ho-so-lo/HO-SO-21.09.2026/BO-HO-SO-LO-21.09.2026/PDF/HS LÔ IODIN 99 21.09.2026.pdf"
 type: "document"
-community: "Iodin 99 Batch Records"
+community: "IODINE 99 (MS 02-020763)"
 tags:
   - graphify/document
-  - graphify/EXTRACTED
-  - community/Iodin_99_Batch_Records
+  - graphify/INFERRED
+  - community/IODINE_99_MS_02-020763
 ---
 
 # HS LÔ IODIN 99 21.09.2026
 
-#graphify/document #graphify/EXTRACTED #community/Iodin_99_Batch_Records
+## Connections
+- [[IODINE 99 Label 1]] - `references` [INFERRED]
+- [[IODINE 99 Label 2]] - `references` [INFERRED]
+
+#graphify/document #graphify/INFERRED #community/IODINE_99_MS_02-020763

@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "rationale"
-community: "Agent Tooling Framework"
+community: "norm"
 location: "L530"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Agent_Tooling_Framework
+  - community/norm
 ---
 
 # Maildir-style folder (new/ = unread, cur/ = read), a flat folder of .eml, or…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[inbox()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Agent_Tooling_Framework
+#graphify/rationale #graphify/EXTRACTED #community/norm

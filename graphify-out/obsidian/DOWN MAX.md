@@ -1,11 +1,11 @@
 ---
 source_file: "TAI-LIEU-KINH-DOANH/CATALOGUE-NOBEN-2026.html"
 type: "concept"
-community: "Aquaculture Health Products"
+community: "PREMIX KHOÁNG (MS 01-001523)"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/Aquaculture_Health_Products
+  - community/PREMIX_KHOÁNG_MS_01-001523
 ---
 
 # DOWN MAX
@@ -13,4 +13,4 @@ tags:
 ## Connections
 - [[Khoáng chất]] - `conceptually_related_to` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products
+#graphify/concept #graphify/EXTRACTED #community/PREMIX_KHOÁNG_MS_01-001523

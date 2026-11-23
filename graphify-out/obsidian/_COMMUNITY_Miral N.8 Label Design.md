@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[Label design for MIRAL N.8]] - image - ho-so-san-pham/nhan/02-026750_1.jpg
+- [[BIOMOS]] - code - graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md
 
 ## Live Query (requires Dataview plugin)
 

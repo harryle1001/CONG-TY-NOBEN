@@ -1,18 +1,20 @@
 ---
 type: community
-cohesion: 0.67
-members: 3
+cohesion: 0.70
+members: 5
 ---
 
 # F.X Yucca Standards
 
-**Cohesion:** 0.67 - moderately connected
-**Members:** 3 nodes
+**Cohesion:** 0.70 - tightly connected
+**Members:** 5 nodes
 
 ## Members
-- [[7-F.X YUCCA RUS_fffb541f]] - document - graphify-out/converted/7-F.X YUCCA RUS_fffb541f.md
-- [[CÔNG BỐ TIÊU CHUẨN CƠ SỞ_5]] - document - graphify-out/converted/7-F.X YUCCA RUS_fffb541f.md
-- [[TIÊU CHUẨN CƠ SỞ_5]] - document - graphify-out/converted/7-F.X YUCCA RUS_fffb541f.md
+- [[MARIMIX (MS 02-002253)]] - concept - ho-so-san-pham/data.json
+- [[MARIMIX Product Specifications (02-002253)]] - concept - ho-so-san-pham/nhan/02-002253_1.jpg
+- [[MARIMIX Sieu Tao M45 Variant (02-002253)]] - concept - ho-so-san-pham/nhan/02-002253_2.jpg
+- [[Product Label Image - MARIMIX]] - image - ho-so-san-pham/nhan/02-002253_1.jpg
+- [[Product Label Image - MARIMIX (Sieu Tao M45)]] - image - ho-so-san-pham/nhan/02-002253_2.jpg
 
 ## Live Query (requires Dataview plugin)
 

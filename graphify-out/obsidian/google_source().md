@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "code"
-community: "google_source"
+community: "norm"
 location: "L597"
 tags:
   - graphify/code
   - graphify/EXTRACTED
-  - community/google_source
+  - community/norm
 ---
 
 # google_source()
@@ -18,4 +18,4 @@ tags:
 - [[google_status()]] - `calls` [EXTRACTED]
 - [[inbox()]] - `calls` [EXTRACTED]
 
-#graphify/code #graphify/EXTRACTED #community/google_source
+#graphify/code #graphify/EXTRACTED #community/norm

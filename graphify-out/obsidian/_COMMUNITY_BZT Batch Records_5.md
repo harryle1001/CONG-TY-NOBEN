@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HS BZT 21.09.2026]] - document - ho-so-lo/pdf/HS BZT 21.09.2026.pdf
+- [[Biểu Mẫu Kiểm Soát Và Xuất Kho Bao Bì (21092026)]] - document - graphify-out/converted/4. BIỂU MẪU bao bì_bf99bf64.md
 
 ## Live Query (requires Dataview plugin)
 

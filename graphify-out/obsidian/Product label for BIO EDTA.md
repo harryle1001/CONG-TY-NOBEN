@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-028284_1.jpg"
 type: "image"
-community: "BIO EDTA Product Label"
+community: "Product label for BIO EDTA"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/BIO_EDTA_Product_Label
+  - community/Product_label_for_BIO_EDTA
 ---
 
 # Product label for BIO EDTA
 
 ## Connections
-- [[BIO EDTA Product Concept]] - `references` [EXTRACTED]
+- [[BIO EDTA (MS 02-028284)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/BIO_EDTA_Product_Label
+#graphify/image #graphify/EXTRACTED #community/Product_label_for_BIO_EDTA

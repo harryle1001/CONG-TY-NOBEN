@@ -1,13 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-026751_2.jpg"
 type: "image"
-community: "Rimix Label Design"
+community: "RIMIX (MS 02-026751)"
 tags:
   - graphify/image
-  - graphify/EXTRACTED
-  - community/Rimix_Label_Design
+  - graphify/INFERRED
+  - community/RIMIX_MS_02-026751
 ---
 
 # Label design for RIMIX view 2
 
-#graphify/image #graphify/EXTRACTED #community/Rimix_Label_Design
+## Connections
+- [[RIMIX (MS 02-026751)]] - `references` [INFERRED]
+
+#graphify/image #graphify/INFERRED #community/RIMIX_MS_02-026751

@@ -1,16 +1,16 @@
 ---
-source_file: "ho-so-san-pham/index.html"
-type: "document"
-community: "Aquaculture Feed Additives"
+source_file: "graphify-out/converted/BANG-GIA-NOBEN-2026_a25bfd45.md"
+type: "code"
+community: "NB-MIX 5000 (MS 01-001526)"
 tags:
-  - graphify/document
-  - graphify/EXTRACTED
-  - community/Aquaculture_Feed_Additives
+  - graphify/code
+  - graphify/INFERRED
+  - community/NB-MIX_5000_MS_01-001526
 ---
 
 # NB-MIX 5000
 
 ## Connections
-- [[Công ty TNHH No Ben (TS790020)]] - `references` [EXTRACTED]
+- [[NB-MIX 5000 (MS 01-001526)]] - `references` [INFERRED]
 
-#graphify/document #graphify/EXTRACTED #community/Aquaculture_Feed_Additives
+#graphify/code #graphify/INFERRED #community/NB-MIX_5000_MS_01-001526

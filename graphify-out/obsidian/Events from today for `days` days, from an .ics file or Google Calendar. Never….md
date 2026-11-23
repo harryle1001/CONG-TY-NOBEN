@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/agent/data.py"
 type: "rationale"
-community: "Agent Tooling Framework"
+community: "norm"
 location: "L567"
 tags:
   - graphify/rationale
   - graphify/EXTRACTED
-  - community/Agent_Tooling_Framework
+  - community/norm
 ---
 
 # Events from today for `days` days, from an .ics file or Google Calendar. Never…
@@ -14,4 +14,4 @@ tags:
 ## Connections
 - [[calendar()]] - `rationale_for` [EXTRACTED]
 
-#graphify/rationale #graphify/EXTRACTED #community/Agent_Tooling_Framework
+#graphify/rationale #graphify/EXTRACTED #community/norm

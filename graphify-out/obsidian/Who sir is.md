@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/CLAUDE.md"
 type: "document"
-community: "Agent Identity Profile"
+community: "Data Build Specification"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Agent_Identity_Profile
+  - community/Data_Build_Specification
 ---
 
 # Who sir is
@@ -15,4 +15,4 @@ tags:
 - [[CLAUDE]] - `contains` [EXTRACTED]
 - [[What matters most]] - `contains` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Agent_Identity_Profile
+#graphify/document #graphify/EXTRACTED #community/Data_Build_Specification

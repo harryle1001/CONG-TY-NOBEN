@@ -1,11 +1,11 @@
 ---
 source_file: "TCCS-7-SAN-PHAM-MOI/PDF/5-F.X-GLUBENCO.pdf"
 type: "concept"
-community: "F.X Product Standards"
+community: "Aquaculture Health Products"
 tags:
   - graphify/concept
   - graphify/EXTRACTED
-  - community/FX_Product_Standards
+  - community/Aquaculture_Health_Products
 ---
 
 # Lê Văn Khánh
@@ -15,5 +15,8 @@ tags:
 - [[TCCS 102026NOBEN - F.X GARLIC]] - `references` [EXTRACTED]
 - [[TCCS 112026NOBEN - F.X GROW]] - `references` [EXTRACTED]
 - [[TCCS 122026NOBEN - F.X LIVER SUPPORT]] - `references` [EXTRACTED]
+- [[TCCS 132026NOBEN - F.X YUCCA RUS]] - `references` [EXTRACTED]
+- [[TCCS 142026NOBEN - F.X PURE]] - `references` [EXTRACTED]
+- [[Tiêu chuẩn cơ sở TCCS 102026NOBEN]] - `references` [EXTRACTED]
 
-#graphify/concept #graphify/EXTRACTED #community/FX_Product_Standards
+#graphify/concept #graphify/EXTRACTED #community/Aquaculture_Health_Products

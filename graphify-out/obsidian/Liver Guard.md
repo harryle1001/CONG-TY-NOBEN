@@ -1,12 +1,12 @@
 ---
 source_file: "jarvis-pro/data/demo/Noben/San-pham/Liver Guard.md"
 type: "document"
-community: "Farm Management Notes"
+community: "Đại lý Minh Phát.md"
 location: "L1"
 tags:
   - graphify/document
   - graphify/EXTRACTED
-  - community/Farm_Management_Notes
+  - community/Đại_lý_Minh_Phátmd
 ---
 
 # Liver Guard.md
@@ -23,4 +23,4 @@ tags:
 - [[Đại lý Cửu Long]] - `references` [EXTRACTED]
 - [[Đại lý Minh Phát]] - `references` [EXTRACTED]
 
-#graphify/document #graphify/EXTRACTED #community/Farm_Management_Notes
+#graphify/document #graphify/EXTRACTED #community/Đại_lý_Minh_Phátmd

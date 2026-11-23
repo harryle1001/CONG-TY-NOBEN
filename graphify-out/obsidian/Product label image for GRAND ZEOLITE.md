@@ -1,16 +1,16 @@
 ---
 source_file: "ho-so-san-pham/nhan/02-001535_1.jpg"
 type: "image"
-community: "GRAND ZEOLITE Product Label"
+community: "Product label image for GRAND ZEOLITE"
 tags:
   - graphify/image
   - graphify/EXTRACTED
-  - community/GRAND_ZEOLITE_Product_Label
+  - community/Product_label_image_for_GRAND_ZEOLITE
 ---
 
 # Product label image for GRAND ZEOLITE
 
 ## Connections
-- [[GRAND ZEOLITE (Mã tiếp nhận 02-001535)]] - `references` [EXTRACTED]
+- [[GRAND ZEOLITE (MS 02-001535)]] - `references` [EXTRACTED]
 
-#graphify/image #graphify/EXTRACTED #community/GRAND_ZEOLITE_Product_Label
+#graphify/image #graphify/EXTRACTED #community/Product_label_image_for_GRAND_ZEOLITE

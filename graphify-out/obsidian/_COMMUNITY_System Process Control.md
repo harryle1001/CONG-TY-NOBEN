@@ -1,38 +1,39 @@
 ---
 type: community
-cohesion: 0.09
-members: 23
+cohesion: 0.19
+members: 24
 ---
 
 # System Process Control
 
-**Cohesion:** 0.09 - loosely connected
-**Members:** 23 nodes
+**Cohesion:** 0.19 - loosely connected
+**Members:** 24 nodes
 
 ## Members
-- [[ROOT]] - code - jarvis-pro/tests/e2e_google.js
-- [[TMP]] - code - jarvis-pro/tests/e2e_google.js
-- [[TOKEN]] - code - jarvis-pro/tests/e2e_google.js
-- [[control()]] - code - jarvis-pro/tests/e2e_google.js
-- [[e2e_google.js]] - code - jarvis-pro/tests/e2e_google.js
-- [[fs]] - code - jarvis-pro/tests/e2e_google.js
-- [[lastReply()]] - code - jarvis-pro/tests/e2e_google.js
-- [[ok()]] - code - jarvis-pro/tests/e2e_google.js
-- [[os]] - code - jarvis-pro/tests/e2e_google.js
-- [[path]] - code - jarvis-pro/tests/e2e_google.js
-- [[pdf.js]] - code - TAI-LIEU-KINH-DOANH/pdf.js
-- [[procs]] - code - jarvis-pro/tests/e2e_google.js
-- [[ref_child_process]] - concept
-- [[ref_fs]] - concept
-- [[ref_os]] - concept
-- [[ref_path]] - concept
-- [[ref_playwright]] - concept
-- [[sleep()]] - code - jarvis-pro/tests/e2e_google.js
-- [[start()]] - code - jarvis-pro/tests/e2e_google.js
-- [[up()]] - code - jarvis-pro/tests/e2e_google.js
-- [[{ chromium }]] - code - jarvis-pro/tests/e2e_google.js
-- [[{ chromium }_1]] - code - TAI-LIEU-KINH-DOANH/pdf.js
-- [[{ spawn }]] - code - jarvis-pro/tests/e2e_google.js
+- [[dot-bind()]] - code - jarvis-pro/ui/graph.js
+- [[dot-centerOn()]] - code - jarvis-pro/ui/graph.js
+- [[dot-constructor()]] - code - jarvis-pro/ui/graph.js
+- [[dot-draw()]] - code - jarvis-pro/ui/graph.js
+- [[dot-drawEdgeLayer()]] - code - jarvis-pro/ui/graph.js
+- [[dot-drawLabels()]] - code - jarvis-pro/ui/graph.js
+- [[dot-edgeKey()]] - code - jarvis-pro/ui/graph.js
+- [[dot-fit()]] - code - jarvis-pro/ui/graph.js
+- [[dot-frame()]] - code - jarvis-pro/ui/graph.js
+- [[dot-heat()]] - code - jarvis-pro/ui/graph.js
+- [[dot-hit()]] - code - jarvis-pro/ui/graph.js
+- [[dot-lit()]] - code - jarvis-pro/ui/graph.js
+- [[dot-load()]] - code - jarvis-pro/ui/graph.js
+- [[dot-resize()]] - code - jarvis-pro/ui/graph.js
+- [[dot-setFocus()]] - code - jarvis-pro/ui/graph.js
+- [[dot-tick()]] - code - jarvis-pro/ui/graph.js
+- [[dot-toWorld()]] - code - jarvis-pro/ui/graph.js
+- [[dot-tracePath()]] - code - jarvis-pro/ui/graph.js
+- [[dot-visible()]] - code - jarvis-pro/ui/graph.js
+- [[dot-zoomAt()]] - code - jarvis-pro/ui/graph.js
+- [[Graph]] - code - jarvis-pro/ui/graph.js
+- [[TYPE_COLORS]] - code - jarvis-pro/ui/graph.js
+- [[colorOf()]] - code - jarvis-pro/ui/graph.js
+- [[graph.js]] - code - jarvis-pro/ui/graph.js
 
 ## Live Query (requires Dataview plugin)
 

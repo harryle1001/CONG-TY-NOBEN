@@ -10,7 +10,7 @@ members: 1
 **Members:** 1 nodes
 
 ## Members
-- [[HSO LÔ C MAX 25% 21.09.2026]] - document - ho-so-lo/pdf/HSO LÔ C MAX 25% 21.09.2026.pdf
+- [[5. BIỂU MẪU Thành phẩm_30f844f6]] - document - graphify-out/converted/5. BIỂU MẪU Thành phẩm_30f844f6.md
 
 ## Live Query (requires Dataview plugin)
 
