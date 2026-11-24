@@ -101,3 +101,10 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - vidIQ: 3 credit (add-on), credit gói làm mới 05/12. Không đọc bình luận được; X cần 5 credit.
 - Bài 5 chưa duyệt, đã dời giờ dự kiến sang 23/11: IG 12:00, X 12:30, TikTok 21:00 (rev 30a86536-77164d11-faddd87e). Chưa hẹn giờ.
 - Giao việc: không. Chờ chủ studio: duyệt bài 5 (bỏ X hoặc nạp credit); chốt gói Motion cho bài 26; TikTok bài 3–4 công khai; Search Console; Page FB.
+
+## 2026-11-24 (sáng, 07:40 VN)
+- Hôm qua: không commit mới ở cả 2 repo.
+- Web live: trang chủ, blog, /en/, /ja/, sitemap 200 (trang chủ lần đầu lỗi mạng, thử lại 3 lần 200 ~0,13–0,21s; lần thứ 2 liên tiếp, theo dõi); không tràn ngang 390/1440px; không lộ φ; không dấu xung đột.
+- Bài 5 vẫn chờ duyệt, dời giờ dự kiến sang 24/11: IG 12:00, X 12:30, TikTok 21:00 (rev 6f7af94b-8bcd0848-ccee262b). vidIQ 3 credit → X không đăng được.
+- 23/11 chủ studio hỏi công cụ đăng miễn phí: đề xuất vidIQ (IG+TikTok, miễn phí) + Buffer Free/Meta Business Suite cho X và Page FB (đăng tay theo bản soạn sẵn). HubSpot không có quyền social; Picsart chưa nối tài khoản. Chờ chủ studio chọn.
+- Giao việc: không. Chờ chủ studio: duyệt bài 5; chọn cách đăng X/FB; chốt gói Motion cho bài 26.
