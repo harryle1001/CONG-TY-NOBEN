@@ -116,3 +116,10 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Web live: trang chủ 200 (lần đầu ~0,95s, không còn lỗi kết nối), blog, /en/, /ja/, sitemap 200; không tràn ngang; trang chủ không lộ φ.
 - Bài 5 vẫn chờ duyệt (giờ dự kiến 24/11 đã qua; sẽ đặt giờ mới khi chủ studio duyệt). vidIQ 3 credit.
 - Chờ chủ studio: duyệt bài 5 + cách đăng X/FB; chốt gói Motion (bài 26); có xử lý lịch sử git công khai không.
+
+### 25/11 – Quy tắc đăng mới của chủ studio
+- Không dùng công cụ tốn phí để đăng (bỏ X qua vidIQ, thôi đọc bình luận qua vidIQ). vidIQ chỉ để đăng IG + TikTok (0 credit).
+- Chỉ dùng ảnh/video CÓ SẴN trên dreamlabs.vn, không vẽ/dựng thêm; chỉ viết caption + hashtag chuẩn SEO.
+- 2 bài/ngày vào giờ rảnh: 12:00 và 20:30 (giờ VN). Ưu tiên video và ảnh thật sản phẩm (motion, edit video, web/landing mockup).
+- Bài 5 (ảnh AI demo CRM/báo giá/báo cáo) DUYỆT, đã hẹn IG + TikTok 25/11 12:00 (postId 618c0cc9…; X không đăng).
+- Bài 6 nháp: video motion Calvente 9:16 (media/sm-motion-calvente.mp4), postId 27a0b553-eebb-49f9-8002-0f169f124e94, IG + TikTok 25/11 20:30, chờ duyệt.
