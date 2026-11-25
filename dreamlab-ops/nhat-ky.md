@@ -108,3 +108,11 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Bài 5 vẫn chờ duyệt, dời giờ dự kiến sang 24/11: IG 12:00, X 12:30, TikTok 21:00 (rev 6f7af94b-8bcd0848-ccee262b). vidIQ 3 credit → X không đăng được.
 - 23/11 chủ studio hỏi công cụ đăng miễn phí: đề xuất vidIQ (IG+TikTok, miễn phí) + Buffer Free/Meta Business Suite cho X và Page FB (đăng tay theo bản soạn sẵn). HubSpot không có quyền social; Picsart chưa nối tài khoản. Chờ chủ studio chọn.
 - Giao việc: không. Chờ chủ studio: duyệt bài 5; chọn cách đăng X/FB; chốt gói Motion cho bài 26.
+
+## 2026-11-25 (sáng, 07:40 VN)
+- Hôm qua (phiên khác, web main): thêm tools/blender/ (kịch bản Blender dựng video logo + hai ngôi sao va chạm, preview, render 4K).
+- PHÁT HIỆN: tools/blender/*.py có biến PHI và chú thích "xoắn ốc vàng"/φ, thư mục đang phục vụ công khai (dreamlabs.vn/tools/blender/README.md trả 200) → lộ bí mật thiết kế.
+- Giao: session_012QLWn77cSpWfF9T96g1vcm đổi tên/xóa chú thích, rà toàn repo, loại tools/ khỏi bản xuất bản web, kiểm tra 390/1440px, không force push. Hạn mức 25/11: 1/2. Dấu vết trong lịch sử git vẫn còn (chờ chủ studio quyết).
+- Web live: trang chủ 200 (lần đầu ~0,95s, không còn lỗi kết nối), blog, /en/, /ja/, sitemap 200; không tràn ngang; trang chủ không lộ φ.
+- Bài 5 vẫn chờ duyệt (giờ dự kiến 24/11 đã qua; sẽ đặt giờ mới khi chủ studio duyệt). vidIQ 3 credit.
+- Chờ chủ studio: duyệt bài 5 + cách đăng X/FB; chốt gói Motion (bài 26); có xử lý lịch sử git công khai không.
