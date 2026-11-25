@@ -3,9 +3,9 @@
 
 # QUY CHẾ TRẢ LƯƠNG, THƯỞNG, PHỤ CẤP
 
-Mã tài liệu: QC-NS-01 · Hiệu lực từ: …/…/2026 · Lần ban hành: 01
+Mã tài liệu: QC-NS-01 · Hiệu lực từ: 01/12/2026 · Lần ban hành: 01
 
-> Các ô **[ … ]** là số liệu công ty tự điền. Soạn trên nền file *QUY CHẾ TRẢ LƯƠNG THƯỞNG 2026* của công ty. Quy chế dựa trên Bộ luật Lao động 2019 và các nghị định hướng dẫn; mức lương tối thiểu vùng áp dụng theo quy định hiện hành tại nơi đặt trụ sở.
+> Soạn trên nền file *QUY CHẾ TRẢ LƯƠNG THƯỞNG 2026* của công ty, căn cứ Bộ luật Lao động 2019 và các nghị định hướng dẫn. Lương bậc 1 mọi nhóm cao hơn mức lương tối thiểu vùng I (5.310.000 đồng/tháng, tăng 7% đối với lao động đã qua học nghề = 5.681.700 đồng).
 
 ---
 
@@ -44,7 +44,7 @@ Mã tài liệu: QC-NS-01 · Hiệu lực từ: …/…/2026 · Lần ban hành:
 | 4 | 2,058 | φ^1,5 | Tổ trưởng / chuyên viên chính |
 | 5 | 2,618 | φ² | Trưởng bộ phận / quản lý |
 
-Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** × hệ số bậc. Lương bậc 1 từng nhóm: Sản xuất **[ … ]**, Kho **[ … ]**, Hành chính – kế toán **[ … ]**, Kinh doanh – kỹ thuật **[ … ]**.
+Lương cơ bản = Lương bậc 1 của nhóm vị trí **(đồng)** × hệ số bậc. Lương bậc 1 từng nhóm: Sản xuất **6.000.000**, Kho **6.000.000**, Hành chính – kế toán **7.000.000**, Kinh doanh – kỹ thuật **7.000.000**.
 
 **Điều 6. Lương thử việc** = 85% lương bậc tương ứng, tối đa 60 ngày (cấp quản lý ≥ ĐH) hoặc 30 ngày (trung cấp, cao đẳng), 6 ngày (công việc khác).
 
@@ -65,7 +65,7 @@ Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** ×
 
 **Điều 7. Ngày công và giờ làm.**
 - Giờ làm chuẩn 8 giờ/ngày, nghỉ trưa 11:30 – 13:00; ngày công chuẩn tháng = **26 ngày** (trừ Chủ nhật) hoặc theo lịch công ty công bố.
-- Chấm công bằng **[ máy vân tay / bảng chấm công ]**; tổ trưởng xác nhận, kế toán đối chiếu.
+- Chấm công bằng **máy chấm công vân tay** (khu vực sản xuất bổ sung bảng chấm công do tổ trưởng ký); tổ trưởng xác nhận, kế toán đối chiếu.
 
 **Điều 8. Công thức.**
 - Lương ngày = Lương cơ bản ÷ 26.
@@ -82,17 +82,17 @@ Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** ×
 | Làm đêm (22h – 6h) | + ≥ 30% lương giờ, làm thêm đêm cộng thêm 20% |
 
 **Điều 10. Lương hiệu quả theo bộ phận.**
-1. **Sản xuất:** theo số lô đạt, đúng thời gian chuẩn (nước ≤ 20 chai = 20 phút, bột ≤ 15 kg = 20 phút… theo hồ sơ lô), không sai sót nhãn/số lô. Hiệu quả tháng = 38,2% lương cơ bản × hệ số đạt (0 – 1,0). Lô lỗi do chủ quan: trừ theo Điều 14.
-2. **Kinh doanh – kỹ thuật thủy sản:** hoa hồng **[ … % ]** doanh thu thực thu; thu tiền đủ mới tính; công nợ quá **[ 60 ]** ngày thì tạm giữ hoa hồng phần đó. Đạt từ 100% chỉ tiêu: hưởng toàn bộ; mỗi bậc vượt tăng theo φ (vượt 61,8% → ×1,0; vượt 100% → ×1,18; vượt 161,8% → ×1,382).
+1. **Sản xuất:** theo số lô đạt, đúng thời gian chuẩn (nước ≤ 20 chai = 20 phút, bột ≤ 15 kg = 20 phút, theo quy tắc hồ sơ lô), không sai sót nhãn/số lô. Hiệu quả tháng = 38,2% lương cơ bản × hệ số đạt (0 – 1,0). Lô lỗi do chủ quan: trừ theo Điều 14.
+2. **Kinh doanh – kỹ thuật thủy sản:** hoa hồng **3%** doanh thu thực thu; thu tiền đủ mới tính; công nợ quá **60** ngày thì tạm giữ hoa hồng phần đó. Đạt từ 100% chỉ tiêu: hưởng toàn bộ; mỗi bậc vượt tăng theo φ (vượt 61,8% → ×1,0; vượt 100% → ×1,18; vượt 161,8% → ×1,382).
 3. **Hành chính – kế toán – kho:** theo bảng điểm KPI hàng tháng (đúng hạn, độ chính xác, tuân thủ quy trình).
 
 **Điều 11. Thưởng.**
-- Thưởng Tết dương lịch / Tết Nguyên đán: tối thiểu **[ … ]**, theo kết quả kinh doanh và thâm niên.
+- Thưởng Tết dương lịch / Tết Nguyên đán: tối thiểu **38,2%** (Tết Dương lịch) và **61,8%** (Tết Nguyên đán) lương cơ bản tháng, nhân hệ số thâm niên (dưới 12 tháng tính theo số tháng làm việc ÷ 12) và theo kết quả kinh doanh.
 - Tháng 13: điều kiện **làm đủ 12 tháng, mỗi tháng nghỉ không quá 10 ngày**; = lương cơ bản bình quân × số tháng đủ điều kiện ÷ 12, trả trước Tết.
-- Thưởng hiệu quả công việc: căn cứ KPI/đánh giá, mức **[ … ]**.
+- Thưởng hiệu quả công việc: căn cứ KPI/đánh giá, mức **từ 0 đến 38,2%** lương cơ bản theo hệ số đạt (Điều 10).
 - Mọi khoản thưởng phải có **quyết định chi thưởng** bằng văn bản của Giám đốc.
-- Thưởng sáng kiến, tiết kiệm chi phí, phát hiện sai sót: **[ … ]** theo quyết định Giám đốc.
-- Thưởng chuyên cần: **[ … ]**/tháng nếu nghỉ không phép = 0 và đi trễ ≤ 2 lần.
+- Thưởng sáng kiến, tiết kiệm chi phí, phát hiện sai sót: **từ 500.000 đến 2.000.000 đồng/lần** theo quyết định Giám đốc.
+- Thưởng chuyên cần: **300.000 đồng**/tháng nếu nghỉ không phép = 0 và đi trễ ≤ 2 lần.
 
 **Điều 12. Các khoản nghỉ hưởng lương.** Nghỉ phép năm 12 ngày (tăng theo thâm niên, 5 năm thêm 1 ngày); lễ, Tết theo luật; việc riêng có lương (kết hôn 3 ngày, con kết hôn 1 ngày, tang cha mẹ/vợ/chồng/con 3 ngày). Nghỉ ốm, thai sản hưởng BHXH.
 
@@ -153,7 +153,7 @@ Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** ×
 
 ## Chương VII. Hiệu lực
 
-**Điều 22.** Áp dụng từ ngày **… / … / 2026**, ban hành kèm quyết định số **… /QĐ-NOBEN**. Quy chế được niêm yết công khai; nội dung nào trái luật thì áp dụng luật. Sửa đổi, bổ sung do Giám đốc quyết định bằng văn bản.
+**Điều 22.** Áp dụng từ ngày **01/12/2026**, ban hành kèm quyết định số **01/2026/QĐ-NOBEN**. Quy chế được niêm yết công khai; nội dung nào trái luật thì áp dụng luật. Sửa đổi, bổ sung do Giám đốc quyết định bằng văn bản.
 
 Quy chế đã được tham khảo ý kiến tổ chức đại diện NLĐ (nếu có).
 
