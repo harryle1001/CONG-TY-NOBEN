@@ -1,17 +1,19 @@
-# CÔNG TY NOBEN
-# QUY CHẾ TRẢ LƯƠNG
+# CÔNG TY TNHH NOBEN
+228/9 Nguyễn Thị Lắng, Ấp Phú Lợi A, Xã Củ Chi, TP. Hồ Chí Minh
+
+# QUY CHẾ TRẢ LƯƠNG, THƯỞNG, PHỤ CẤP
 
 Mã tài liệu: QC-NS-01 · Hiệu lực từ: …/…/2026 · Lần ban hành: 01
 
-> Các ô **[ … ]** là số liệu công ty tự điền. Quy chế dựa trên Bộ luật Lao động 2019 và các nghị định hướng dẫn; mức lương tối thiểu vùng áp dụng theo quy định hiện hành tại nơi đặt trụ sở.
+> Các ô **[ … ]** là số liệu công ty tự điền. Soạn trên nền file *QUY CHẾ TRẢ LƯƠNG THƯỞNG 2026* của công ty. Quy chế dựa trên Bộ luật Lao động 2019 và các nghị định hướng dẫn; mức lương tối thiểu vùng áp dụng theo quy định hiện hành tại nơi đặt trụ sở.
 
 ---
 
 ## Chương I. Quy định chung
 
-**Điều 1. Mục đích.** Trả lương công bằng, minh bạch, gắn với vị trí, năng lực và kết quả công việc; làm căn cứ để người lao động (NLĐ) và công ty cùng thực hiện.
+**Điều 1. Mục đích.** Trả lương công bằng, minh bạch, gắn với vị trí, năng lực và kết quả công việc; làm căn cứ tính chi phí hợp lý khi xác định thuế; tuân thủ pháp luật hiện hành.
 
-**Điều 2. Phạm vi.** Áp dụng cho mọi NLĐ ký hợp đồng lao động tại Noben: khối quản lý – hành chính – kế toán, khối kinh doanh – kỹ thuật thủy sản, khối sản xuất (đội thuốc nước, đội thuốc bột), kho – vận chuyển.
+**Điều 2. Phạm vi.** Áp dụng cho toàn bộ người lao động (NLĐ) ký hợp đồng lao động (HĐLĐ) tại Noben: khối quản lý – hành chính – kế toán, khối kinh doanh – kỹ thuật thủy sản, khối sản xuất (đội thuốc nước, đội thuốc bột), kho – vận chuyển.
 
 **Điều 3. Nguyên tắc.**
 1. Trả đúng người, đúng kỳ, đủ số tiền, bằng tiền đồng Việt Nam.
@@ -28,7 +30,7 @@ Mã tài liệu: QC-NS-01 · Hiệu lực từ: …/…/2026 · Lần ban hành:
 | Thành phần | Nội dung | Tỷ trọng gợi ý |
 |---|---|---|
 | Lương cơ bản | Theo bậc, ghi trong hợp đồng; đóng BHXH | 61,8% |
-| Phụ cấp | Chức vụ, trách nhiệm, độc hại (khối sản xuất), xăng xe – điện thoại, ăn trưa, chuyên cần | cộng thêm |
+| Phụ cấp | Theo Điều 5A, ghi rõ đối tượng – mức – điều kiện | cộng thêm |
 | Lương hiệu quả / hoa hồng | Theo KPI, doanh số, sản lượng, chất lượng | 38,2% |
 | Thưởng | Lễ, Tết, tháng 13, thưởng đột xuất | theo Điều 11 |
 
@@ -45,6 +47,17 @@ Mã tài liệu: QC-NS-01 · Hiệu lực từ: …/…/2026 · Lần ban hành:
 Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** × hệ số bậc. Lương bậc 1 từng nhóm: Sản xuất **[ … ]**, Kho **[ … ]**, Hành chính – kế toán **[ … ]**, Kinh doanh – kỹ thuật **[ … ]**.
 
 **Điều 6. Lương thử việc** = 85% lương bậc tương ứng, tối đa 60 ngày (cấp quản lý ≥ ĐH) hoặc 30 ngày (trung cấp, cao đẳng), 6 ngày (công việc khác).
+
+**Điều 5A. Phụ cấp** (mỗi khoản ghi rõ điều kiện trong HĐLĐ hoặc phụ lục HĐLĐ).
+
+| Phụ cấp | Đối tượng | Mức (đồng/tháng) | Ghi chú |
+|---|---|---|---|
+| Chức vụ – trách nhiệm | Người phụ trách bộ phận | 300.000 – 500.000 | |
+| Trách nhiệm kinh doanh | NLĐ bộ phận kinh doanh | 1.000.000 – 1.200.000 | |
+| Ăn trưa | NLĐ có đi làm | 750.000 – 950.000 | Chuyển khoản cùng lương; phần vượt mức miễn thuế tính vào thu nhập chịu thuế |
+| Điện thoại | Vị trí làm việc tại phòng kinh doanh | 370.000 – 1.000.000 (khoán) | Phục vụ công việc kinh doanh |
+| Xăng xe, đi lại | Toàn bộ cán bộ, công nhân viên | 700.000 – 1.000.000 | |
+| Công tác phí | Người đi công tác | Theo thực tế | Theo quy chế công tác; có chứng từ hợp lệ |
 
 ---
 
@@ -75,7 +88,9 @@ Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** ×
 
 **Điều 11. Thưởng.**
 - Thưởng Tết dương lịch / Tết Nguyên đán: tối thiểu **[ … ]**, theo kết quả kinh doanh và thâm niên.
-- Tháng 13 (nếu có): = lương cơ bản bình quân × số tháng làm việc ÷ 12, trả trước Tết.
+- Tháng 13: điều kiện **làm đủ 12 tháng, mỗi tháng nghỉ không quá 10 ngày**; = lương cơ bản bình quân × số tháng đủ điều kiện ÷ 12, trả trước Tết.
+- Thưởng hiệu quả công việc: căn cứ KPI/đánh giá, mức **[ … ]**.
+- Mọi khoản thưởng phải có **quyết định chi thưởng** bằng văn bản của Giám đốc.
 - Thưởng sáng kiến, tiết kiệm chi phí, phát hiện sai sót: **[ … ]** theo quyết định Giám đốc.
 - Thưởng chuyên cần: **[ … ]**/tháng nếu nghỉ không phép = 0 và đi trễ ≤ 2 lần.
 
@@ -86,8 +101,11 @@ Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** ×
 ## Chương IV. Kỳ trả lương – hình thức – chứng từ
 
 **Điều 13. Kỳ trả.**
-1. Trả lương **1 lần/tháng**, vào ngày **05 – 10** tháng sau (nếu rơi ngày nghỉ thì trả ngày làm việc trước đó).
-2. Tạm ứng giữa kỳ: NLĐ có nhu cầu được ứng tối đa **38,2%** lương cơ bản, đăng ký trước ngày 20; trừ vào kỳ lương.
+1. Lương trả **2 kỳ/tháng**, chuyển khoản ngân hàng:
+   - **Kỳ 1: từ ngày 15 – 20** hằng tháng (tạm ứng, tối đa **38,2%** lương cơ bản).
+   - **Kỳ 2: từ ngày 01 – 05** tháng sau (quyết toán phần còn lại).
+   - Rơi ngày nghỉ thì trả ngày làm việc trước đó.
+2. Kỳ 1 trừ vào kỳ 2; không ứng thêm ngoài kỳ nếu không có thỏa thuận bằng văn bản.
 3. Trả chậm do khó khăn bất khả kháng tối đa 15 ngày, phải thông báo trước; chậm từ 15 ngày trở lên, công ty trả thêm tiền lãi theo mức lãi suất tiền gửi không kỳ hạn bình quân của các ngân hàng thương mại do Ngân hàng Nhà nước công bố.
 4. Chấm dứt hợp đồng: thanh toán đủ lương và quyền lợi trong **14 ngày** làm việc (tối đa 30 ngày với trường hợp đặc biệt theo luật).
 
@@ -97,7 +115,7 @@ Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** ×
 3. Tạm ứng, nợ công ty: theo thỏa thuận bằng văn bản.
 
 **Điều 15. Hình thức & chứng từ.**
-- Chuyển khoản vào tài khoản ngân hàng NLĐ đăng ký; trường hợp tiền mặt phải ký nhận.
+- Thanh toán **bằng chuyển khoản** vào tài khoản ngân hàng NLĐ đăng ký (không trả tiền mặt).
 - Mỗi kỳ gửi **phiếu lương** (bảng chi tiết các khoản cộng – trừ) cho từng NLĐ.
 - Bảng lương lưu tối thiểu **10 năm**; giữ bảo mật, chỉ kế toán, giám đốc, người được ủy quyền xem.
 
@@ -110,10 +128,10 @@ Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** ×
 | Ngày | Việc | Phụ trách |
 |---|---|---|
 | 26 – 28 | Chốt công, sản lượng, doanh số | Tổ trưởng / Trưởng bộ phận |
-| 30 – 02 | Lập bảng lương, đối chiếu | Kế toán |
-| 03 | Duyệt bảng lương | Giám đốc |
-| 04 | Gửi phiếu lương, NLĐ xác nhận / phản hồi | Kế toán – NLĐ |
-| 05 – 10 | Chuyển khoản lương | Kế toán |
+| 29 – 30 | Lập bảng lương, đối chiếu | Kế toán |
+| 01 | Duyệt bảng lương | Giám đốc |
+| 02 | Gửi phiếu lương, NLĐ xác nhận / phản hồi | Kế toán – NLĐ |
+| 03 – 05 | Chuyển khoản kỳ 2 | Kế toán |
 
 **Điều 17. Điều chỉnh lương.**
 - Xét nâng bậc **1 lần/năm** (tháng 01) hoặc khi vượt điều kiện Điều 5; xét đột xuất khi có thành tích xuất sắc.
@@ -125,9 +143,19 @@ Lương cơ bản = Lương bậc 1 của nhóm vị trí **[ … đồng ]** ×
 
 ---
 
-## Chương VI. Điều khoản thi hành
+## Chương VI. Chứng từ, thuế, bảo hiểm
 
-**Điều 20.** Quy chế được tham khảo ý kiến tổ chức đại diện NLĐ (nếu có), niêm yết công khai và có hiệu lực từ ngày ký. Nội dung nào trái luật thì áp dụng luật. Sửa đổi, bổ sung do Giám đốc quyết định bằng văn bản.
+**Điều 20. Chứng từ để chi phí hợp lệ.** Hợp đồng lao động; quy chế này; bảng lương; chứng từ chuyển khoản (ưu tiên); chứng từ phụ cấp, công tác phí (nếu có); quyết định chi thưởng.
+
+**Điều 21. Thuế & bảo hiểm.** Thuế TNCN tính trên tổng thu nhập chịu thuế theo quy định; BHXH đóng theo mức lương đóng bảo hiểm ghi trong HĐLĐ (lương cơ bản).
+
+---
+
+## Chương VII. Hiệu lực
+
+**Điều 22.** Áp dụng từ ngày **… / … / 2026**, ban hành kèm quyết định số **… /QĐ-NOBEN**. Quy chế được niêm yết công khai; nội dung nào trái luật thì áp dụng luật. Sửa đổi, bổ sung do Giám đốc quyết định bằng văn bản.
+
+Quy chế đã được tham khảo ý kiến tổ chức đại diện NLĐ (nếu có).
 
 &nbsp;
 
