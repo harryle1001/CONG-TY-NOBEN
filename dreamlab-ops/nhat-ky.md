@@ -134,3 +134,4 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Web live: trang chủ, blog (1 lần lỗi mạng, thử lại 3 lần 200), /en/, /ja/, sitemap, 4 trang ngành mới 200; tools/ 404; không tràn ngang 390/1440px; không lộ φ.
 - MXH: TẠM DỪNG theo yêu cầu chủ studio (26/11) — không soạn nháp, không lên lịch, không đăng.
 - Giao việc: không.
+- 27/11 chủ studio chốt: KHÔNG xóa lịch sử git công khai. Gói Motion theo web: Cơ bản 2tr/video, Chuyên nghiệp 5tr/3 video (dự án dài/3D báo giá riêng); website Cao cấp "liên hệ". Đã sửa bài 26 trong lich-dang.json cho khớp web (MXH vẫn tạm dừng).
