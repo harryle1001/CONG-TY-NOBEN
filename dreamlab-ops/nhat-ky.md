@@ -128,3 +128,9 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - Web: 5 trang chính 200; không tràn ngang 390/1440px; tools/ đã 404 (phiên session_012QLWn77cSpWfF9T96g1vcm xong, commit 55cdf566 đổi tên biến trung tính + loại tools/ khỏi bản xuất bản). Phiên khác thêm 10 bài blog (0a66e341).
 - Bài 5: IG https://www.instagram.com/p/DgJurf0lgua/ (25/11). TikTok 25/11 bị từ chối (cỡ ảnh) → đăng lại bản ảnh 1080px: https://www.tiktok.com/@ka.ka.shiii/photo/7712340521045331221 (26/11 12:00).
 - 12:28 VN: nhận tin từ phiên session_012QLWnBQ7zJGRqRrtRW75Lc: chủ studio yêu cầu NGỪNG toàn bộ đăng bài MXH tự động (mọi thương hiệu, mọi công cụ) cho tới khi tự bật lại. Từ nay điều phối sáng: không soạn nháp, không lên lịch, không publish. Không còn bài nào đang hẹn giờ. Nháp bài 6 (postId 27a0b553…) giữ nguyên, KHÔNG đăng.
+
+## 2026-11-27 (sáng, 07:40 VN)
+- Hôm qua (phiên khác, web main): demo concept mới đồng hồ, spa/mỹ phẩm, resort/khách sạn, BĐS hạng sang (ảnh Pexels, logo làm mờ) + trang ngành + 5 bài blog; dựng lại lưới mẫu và sitemap.
+- Web live: trang chủ, blog (1 lần lỗi mạng, thử lại 3 lần 200), /en/, /ja/, sitemap, 4 trang ngành mới 200; tools/ 404; không tràn ngang 390/1440px; không lộ φ.
+- MXH: TẠM DỪNG theo yêu cầu chủ studio (26/11) — không soạn nháp, không lên lịch, không đăng.
+- Giao việc: không.
