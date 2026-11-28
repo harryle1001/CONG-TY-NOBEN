@@ -135,3 +135,9 @@ Phiên điều phối: Giám đốc kinh doanh Dream Labs (session_012QLWn8J7kt2
 - MXH: TẠM DỪNG theo yêu cầu chủ studio (26/11) — không soạn nháp, không lên lịch, không đăng.
 - Giao việc: không.
 - 27/11 chủ studio chốt: KHÔNG xóa lịch sử git công khai. Gói Motion theo web: Cơ bản 2tr/video, Chuyên nghiệp 5tr/3 video (dự án dài/3D báo giá riêng); website Cao cấp "liên hệ". Đã sửa bài 26 trong lich-dang.json cho khớp web (MXH vẫn tạm dừng).
+
+## 2026-11-28 (sáng, 07:40 VN) – SỰ CỐ
+- dreamlabs.vn KHÔNG truy cập được: DNS trả NXDOMAIN ngay từ máy chủ .vn (VNNIC) → tên miền không còn trong vùng .vn (khả năng: hết hạn, bị tạm ngừng do chưa khai báo/xác thực hồ sơ, hoặc nhà đăng ký gỡ). harryle1001.github.io/DreamLabs-Studio/ chuyển hướng về dreamlabs.vn nên cũng chết → toàn bộ web đang sập với khách.
+- Code web bình thường; commit mới nhất b08eaa95 (gỡ email chủ studio khỏi menu/chân trang, phiên khác).
+- Cần chủ studio: đăng nhập nhà đăng ký tên miền kiểm tra trạng thái/hạn/hồ sơ. Tạm thời có thể gỡ CNAME để web chạy ở địa chỉ github.io (chờ duyệt, chưa làm).
+- MXH vẫn tạm dừng. Không giao phiên mới.
